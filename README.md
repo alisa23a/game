@@ -1,4 +1,3 @@
 # game
  
-#some text
-#some more text
+Это заметка, которая будет изменена

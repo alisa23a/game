@@ -1,0 +1,531 @@
+#####################################
+## В этом файле находятся все переменные игры
+
+#####################
+## Переменные определяющие видимость локаций карты лагеря
+
+define cm1 = True
+define cm2 = True
+define cm3 = True
+define cm4 = True
+define cm5 = True
+define cm6 = True
+define cm7 = True
+define cm8 = True
+define cm9 = True
+define cm10 = True
+define cm11 = True
+define cm12 = True
+define cm13 = True
+define cm14 = True
+define cm15 = True
+define cm16 = True
+define cm17 = True
+define cm18 = True
+define cm19 = True
+define cm20 = True
+define cm21 = True
+define cm22 = True
+define cm23 = True
+define cm24 = True
+define cm25 = True
+define cm26 = True
+define cm27 = True
+define cm28 = True
+define cm29 = True
+define cm30 = True
+define cm31 = True
+define cm32 = True
+define cm33 = True
+define cm34 = True
+define cm35 = True
+define cm36 = True
+define cm37 = True
+define cm38 = True
+define cm39 = True
+define cm40 = True
+define cm41 = True
+define cm42 = True
+define cm43 = True
+define cm44 = True
+
+#####################
+## Переменные определяющие видимость локаций карты окрестностей
+
+define gm1 = True
+define gm2 = True
+define gm3 = True
+define gm4 = True
+define gm5 = True
+define gm6 = True
+define gm7 = True
+define gm8 = True
+define gm9 = True
+define gm10 = True
+define gm11 = True
+define gm12 = True
+define gm13 = True
+define gm14 = True
+define gm15 = True
+define gm16 = True
+define gm17 = True
+define gm18 = True
+define gm19 = True
+define gm20 = True
+define gm21 = True
+define gm22 = True
+define gm23 = True
+define gm24 = True
+define gm25 = True
+define gm26 = True
+define gm27 = True
+define gm28 = True
+define gm29 = True
+define gm30 = True
+define gm31 = True
+define gm32 = True
+define gm33 = True
+define gm34 = True
+define gm35 = True
+define gm36 = True
+define gm37 = True
+define gm38 = True
+define gm39 = True
+define gm40 = True
+define gm41 = True
+define gm42 = True
+define gm43 = True
+define gm44 = True
+define gm45 = True
+define gm46 = True
+define gm47 = True
+define gm48 = True
+define gm49 = True
+define gm50 = True
+define gm51 = True
+define gm52 = True
+define gm53 = True
+define gm54 = True
+define gm55 = True
+define gm56 = True
+define gm57 = True
+define gm58 = True
+define gm59 = True
+define gm60 = True
+define gm61 = True
+define gm62 = True
+define gm63 = True
+define gm64 = True
+define gm65 = True
+
+#####################
+## Переменные определяющие видимость предметов в инвентаре
+
+define inv_item_01 = True # 1 Жемчужина
+define inv_item_02 = True # 2 Записная книжка
+define inv_item_03 = True # 3 Карта и компас
+define inv_item_04 = True # 4 Связка ключей
+define inv_item_05 = True # 5 Конфетки
+define inv_item_06 = True # 6 Котлетки
+define inv_item_07 = True # 7 Сахарные грибы
+define inv_item_08 = True # 8 Кокарда горного инженера
+define inv_item_09 = True # 9 Моток верёвки
+define inv_item_10 = True # 10 Кристалл
+define inv_item_11 = True # 11 Перочинный ножик
+define inv_item_12 = True # 12 Фотоаппарат
+define inv_item_13 = True # 13 Фонарик
+define inv_item_14 = True # 14 Ягоды забвения
+define inv_item_15 = True # 15 Древние бусики
+define inv_item_16 = True # 16 Слиток золота
+define inv_item_17 = True # 17 Баночка для шуршавчиков
+define inv_item_18 = True # 18 Бинокль
+define inv_item_19 = True # 19 Бинтик
+define inv_item_20 = True # 20 Йод
+define inv_item_21 = True # 21 Первая записка
+define inv_item_22 = True # 22 Вторая записка
+define inv_item_23 = True # 23 Третья записка
+
+################################################
+## Перенесено из scrypt.rpy Алексея
+
+init:
+    image bg ch1_1 = "images/ch1_1/bg ch1_1.jpg"
+    image bg ch1_2 = "images/ch1_2/bg ch1_2.jpg"
+    image uldiary = "images/uldiary/uldiary.png"
+    image uldiary2 = "images/uldiary/uldiary2.png"
+    image uldiary3 = "images/uldiary/uldiary3.png"
+    image uldiary4 = "images/uldiary/uldiary4.png"
+    image uldiary5 = "images/uldiary/uldiary5.png"
+    image uldiary6 = "images/uldiary/uldiary6.png"
+    image uldiary7 = "images/uldiary/uldiary7.png"
+    image uldiary8 = "images/uldiary/uldiary8.png"
+    image uldiary9 = "images/uldiary/uldiary9.png"
+    image uldiary10 = "images/uldiary/uldiary10.png"
+    image uldiary11 = "images/uldiary/uldiary11.png"
+    image uldiary12 = "images/uldiary/uldiary12.png"
+    image uldiary13 = "images/uldiary/uldiary13.png"
+    image uldiary15 = "images/uldiary/uldiary15.png"
+    image uldiary16 = "images/uldiary/uldiary16.png"
+    image uldiary17 = "images/uldiary/uldiary17.png"
+    image uldiary18 = "images/uldiary/uldiary18.png"
+    
+define diarycount = 0
+define musicstop = False
+
+
+#Вся музыка
+define audio.track1 = "audio/music/track1.mp3"
+define audio.track2 = "audio/music/track2.mp3"
+define audio.track3 = "audio/music/track3.mp3"
+define audio.track4 = "audio/music/track4.mp3"
+define audio.track5 = "audio/music/track5.mp3"
+define audio.track6 = "audio/music/track6.mp3"
+define audio.track7 = "audio/music/track7.mp3"
+define audio.track8 = "audio/music/track8.mp3"
+define audio.prologs = "audio/music/prolog.mp3"
+define audio.dreams = "audio/music/dream.mp3"
+
+#заставки дней
+image day1pic = "images/daypic/day1pic.jpg"
+image day2pic = "images/daypic/day2pic.jpg"
+image day3pic = "images/daypic/day3pic.jpg"
+image day4pic = "images/daypic/day4pic.jpg"
+image day5pic = "images/daypic/day5pic.jpg"
+image day6pic = "images/daypic/day6pic.jpg"
+
+#страницы дневника из пролога
+image diary1 = "images/diary/diary1.jpg"
+image diary2 = "images/diary/diary2.jpg"
+image diary3 = "images/diary/diary3.jpg"
+image diary4 = "images/diary/diary4.jpg"
+image diary5 = "images/diary/diary5.jpg"
+image diary6 = "images/diary/diary6.jpg"
+image diary7 = "images/diary/diary7.jpg"
+image diary8 = "images/diary/diary8.jpg"
+image diary9 = "images/diary/diary9.jpg"
+image diary10 = "images/diary/diary10.jpg"
+image p_boat = "images/prolog/boat.jpg"
+
+#страницы день 2
+image diary11 = "images/diary/diary11.jpg"
+image diary12 = "images/diary/diary12.jpg"
+image diary13 = "images/diary/diary13.jpg"
+image diary13choice = "images/diary/diary13choice.jpg"
+image diary14 = "images/diary/diary14.jpg"
+
+#страницы день 3
+image diary15 = "images/diary/diary15.jpg"
+image diary16 = "images/diary/diary16.jpg"
+image diary17 = "images/diary/diary17.jpg"
+image diary18 = "images/diary/diary18.jpg"
+
+
+define dv = Character('Алиса', color="#fa9a14")
+define us = Character('Ульяна', color="#fa3314")
+define pi = Character('Пионер', color="#0c9932")
+
+# Анимации пролог
+image p_diary:
+    "images/prolog/diary/0.jpg"
+    pause 0.4
+    "images/prolog/diary/1.jpg"
+    pause 0.4
+    "images/prolog/diary/2.jpg"
+    pause 0.4
+    "images/prolog/diary/3.jpg"
+    pause 0.4
+    "images/prolog/diary/4.jpg"
+    pause 0.4
+    "images/prolog/diary/5.jpg"
+    pause 0.4
+    "images/prolog/diary/6.jpg"
+    pause 0.4
+    "images/prolog/diary/7.jpg"
+    pause 0.4
+    "images/prolog/diary/8.jpg"
+    pause 0.4
+    "images/prolog/diary/9.jpg"
+    pause 0.4
+    "images/prolog/diary/10.jpg"
+    pause 0.4
+    "images/prolog/diary/11.jpg"
+    pause 0.4
+    "images/prolog/diary/12.jpg"
+    pause 0.4
+    "images/prolog/diary/13.jpg"
+    pause 0.4
+    "images/prolog/diary/14.jpg"
+    pause 0.4
+    "images/prolog/diary/15.jpg"
+    pause 0.4
+    "images/prolog/diary/16.jpg"
+    pause 0.4
+    "images/prolog/diary/17.jpg"
+    pause 0.4
+    "images/prolog/diary/18.jpg"
+    pause 0.4
+    "images/prolog/diary/19.jpg"
+    pause 0.4
+    "images/prolog/diary/20.jpg"
+    pause 0.4
+    "images/prolog/diary/21.jpg"
+    pause 0.4
+    "images/prolog/diary/22.jpg"
+    pause 0.4
+    "images/prolog/diary/23.jpg"
+    pause 0.4
+    "images/prolog/diary/24.jpg"
+    pause 0.4
+    repeat
+
+image p_dream:
+    "images/prolog/dream/1.jpg"
+    pause 0.3
+    "images/prolog/dream/2.jpg"
+    pause 0.3
+    "images/prolog/dream/3.jpg"
+    pause 0.3
+    "images/prolog/dream/4.jpg"
+    pause 0.3
+    "images/prolog/dream/5.jpg"
+    pause 0.3
+    "images/prolog/dream/6.jpg"
+    pause 0.3
+    "images/prolog/dream/7.jpg"
+    pause 0.3
+    "images/prolog/dream/8.jpg"
+    pause 0.3
+    "images/prolog/dream/9.jpg"
+    pause 0.3
+    "images/prolog/dream/10.jpg"
+    pause 0.3
+    "images/prolog/dream/11.jpg"
+    pause 0.3
+    "images/prolog/dream/12.jpg"
+    pause 0.3
+    "images/prolog/dream/13.jpg"
+    pause 0.3
+    "images/prolog/dream/14.jpg"
+    pause 0.3
+    "images/prolog/dream/15.jpg"
+    pause 0.3
+    "images/prolog/dream/16.jpg"
+    pause 0.3
+    "images/prolog/dream/17.jpg"
+    pause 0.3
+    "images/prolog/dream/18.jpg"
+    pause 0.3
+    "images/prolog/dream/19.jpg"
+    pause 0.3
+    "images/prolog/dream/20.jpg"
+    pause 0.3
+    "images/prolog/dream/21.jpg"
+    pause 0.3
+    "images/prolog/dream/22.jpg"
+    pause 0.3
+    "images/prolog/dream/23.jpg"
+    pause 0.3
+    "images/prolog/dream/24.jpg"
+    pause 0.3
+    repeat
+
+image p_house:
+    "images/prolog/house/1.jpg"
+    pause 0.5
+    "images/prolog/house/2.jpg"
+    pause 0.5
+    "images/prolog/house/3.jpg"
+    pause 0.5
+    "images/prolog/house/4.jpg"
+    pause 0.5
+    "images/prolog/house/5.jpg"
+    pause 0.5
+    "images/prolog/house/6.jpg"
+    pause 0.5
+    "images/prolog/house/7.jpg"
+    pause 0.5
+    "images/prolog/house/8.jpg"
+    pause 0.5
+    "images/prolog/house/9.jpg"
+    pause 0.5
+    "images/prolog/house/10.jpg"
+    pause 0.5
+    "images/prolog/house/11.jpg"
+    pause 0.5
+    "images/prolog/house/12.jpg"
+    pause 0.5
+    "images/prolog/house/13.jpg"
+    pause 0.5
+    "images/prolog/house/14.jpg"
+    pause 0.5
+    "images/prolog/house/15.jpg"
+    pause 0.5
+    "images/prolog/house/16.jpg"
+    pause 0.5
+    "images/prolog/house/17.jpg"
+    pause 0.5
+    "images/prolog/house/18.jpg"
+    pause 0.5
+    "images/prolog/house/19.jpg"
+    pause 0.5
+    "images/prolog/house/20.jpg"
+    pause 0.5
+    "images/prolog/house/21.jpg"
+    pause 0.5
+    "images/prolog/house/22.jpg"
+    pause 0.5
+    "images/prolog/house/23.jpg"
+    pause 0.5
+    "images/prolog/house/24.jpg"
+    pause 0.5
+    repeat
+
+# Анимации день 2
+
+image day2kost:
+    "images/day2/1/1.jpg"
+    pause 1
+    "images/day2/1/2.jpg"
+    pause 1
+    repeat
+
+# Анимация совы
+
+image sova_anim:
+    "images/sova/sova1.jpg"
+    pause 0.2
+    "images/sova/sova2.jpg"
+    pause 0.2
+    "images/sova/sova3.jpg"
+    pause 0.2
+    "images/sova/sova4.jpg"
+    pause 0.2
+    "images/sova/sova5.jpg"
+    pause 0.2
+    "images/sova/sova6.jpg"
+    pause 0.2
+    "images/sova/sova7.jpg"
+    pause 0.2
+    "images/sova/sova8.jpg"
+    repeat
+
+
+    
+# Сцена 1_1    
+image alch1_1:
+    "images/ch1_1/ach1_1.jpg"
+    choice:
+        pause 4.0
+    choice:
+        pause 6.0
+    choice:
+        pause 8.0
+    "images/ch1_1/a2ch1_1.jpg"
+    pause 0.25
+    repeat
+    
+image ulch1_1:
+    "images/ch1_1/uch1_1.jpg"
+    choice:
+        pause 4.0
+    choice:
+        pause 6.0
+    choice:
+        pause 8.0
+    "images/ch1_1/u2ch1_1.jpg"
+    pause 0.25
+    repeat
+    
+image ulch1_2:
+    "images/ch1_1/ulch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul2ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul3ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul4ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul5ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul6ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul7ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul8ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul9ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul10ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul11ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/ul12ch1_2.jpg"
+    pause 0.6
+    repeat
+    
+image toch1_2:
+    "images/ch1_1/toch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to2ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to3ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to4ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to5ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to6ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to7ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to8ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to9ch1_2.jpg"
+    pause 0.6
+    "images/ch1_1/to10ch1_2.jpg"
+    pause 0.6
+    repeat
+
+# Сцена 1_2
+image pi1_2:
+    "images/ch1_2/pi.jpg"
+    choice:
+        pause 4.0
+    choice:
+        pause 6.0
+    choice:
+        pause 8.0
+    "images/ch1_2/pi2.jpg"
+    pause 0.25
+    repeat
+    
+image ul1_2:
+    "images/ch1_2/ul.jpg"
+    choice:
+        pause 4.0
+    choice:
+        pause 6.0
+    choice:
+        pause 8.0
+    "images/ch1_2/ul2.jpg"
+    pause 0.25
+    repeat
+
+
+## Конец Перенесено из scrypt.rpy Алексея
+##########################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

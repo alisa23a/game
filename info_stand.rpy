@@ -1,0 +1,899 @@
+#####################################################################
+##Экраны информационного стенда
+
+screen stand_camp_rules():
+
+    ## Экран с правилами лагеря, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_camp_rules_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_camp_rules"), Show("info_stand")
+
+screen stand_honor_board():
+
+    ## Экран с доской почёта, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_honor_board_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_honor_board"), Show("info_stand")
+
+screen stand_advertisements():
+
+    ## Экран с объявлениями, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_advertisments_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action  Hide("stand_advertisements"), Show("info_stand")
+
+screen stand_mailbox():
+
+    ## Экран с почтовым ящиком, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_mailbox_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_mailbox"), Show("info_stand")
+
+screen stand_hikes():
+
+    ## Экран с походами, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_hikes_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_hikes"), Show("info_stand")
+
+screen stand_history():
+
+    ## Экран с историей, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_history_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_history"), Show("info_stand")
+
+screen stand_main_map():
+
+    ## Экран с главной картой, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_main_map_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_main_map"), Show("info_stand")
+
+screen stand_wall_newspaper():
+
+    ## Экран со стенгазетой, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_wall_newspaper_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_wall_newspaper"), Show("info_stand")
+
+screen stand_camp_map():
+
+    ## Экран с картой лагеря, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_camp_map_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_camp_map"), Show("info_stand")
+
+screen stand_gallery():
+
+    ## Экран с галереей, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_gallery_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_gallery"), Show("info_stand")
+
+
+###################################
+## Сова, дающая подсказки
+
+image tips_owl_blink_anim:
+
+    ##Анимация моргания совы
+
+    pos (1462, 375)
+
+    "images/tips_owl/tips_owl_blink_01.png"
+    choice:
+        pause 1.0
+    choice:
+        pause 2.0
+    choice:
+        pause 3.0
+    "images/tips_owl/tips_owl_blink_02.png"
+    pause 0.2
+
+    repeat
+
+screen stand_tips_list():
+
+    ## Экран со списком вопросов сове, открывается при клике на "Выбери вопрос" на экране stand_tips_owl
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips_list_gr.png"
+        idle "images/tips_owl/tips_list_idle.png" 
+        hover "images/tips_owl/tips_list_hover.png" 
+
+        hotspot(1845, 0, 75, 77) action Show("info_stand")
+        hotspot(134, 80, 437, 32) action Show("tips_owl_tip_01")
+        hotspot(134, 112, 561, 32) action Show("tips_owl_tip_02")
+        hotspot(134, 144, 550, 32) action Show("tips_owl_tip_03")
+        hotspot(134, 176, 670, 32) action Show("tips_owl_tip_04")
+        hotspot(134, 208, 674, 32) action Show("tips_owl_tip_05")
+        hotspot(134, 240, 335, 32) action Show("tips_owl_tip_06")
+        hotspot(134, 272, 236, 32) action Show("tips_owl_tip_07")
+        hotspot(134, 304, 342, 32) action Show("tips_owl_tip_08")
+        hotspot(134, 336, 310, 32) action Show("tips_owl_tip_09")
+        hotspot(134, 368, 442, 32) action Show("tips_owl_tip_10")
+        hotspot(134, 400, 377, 32) action Show("tips_owl_tip_11")
+        hotspot(134, 432, 447, 32) action Show("tips_owl_tip_12")
+        hotspot(134, 464, 395, 32) action Show("tips_owl_tip_13")
+        hotspot(134, 496, 291, 32) action Show("tips_owl_tip_14")
+        hotspot(134, 528, 753, 32) action Show("tips_owl_tip_15")
+        hotspot(134, 560, 362, 32) action Show("tips_owl_tip_16")
+        hotspot(134, 592, 275, 32) action Show("tips_owl_tip_17")
+        hotspot(134, 624, 275, 32) action Show("tips_owl_tip_18")
+        hotspot(134, 656, 299, 32) action Show("tips_owl_tip_19")
+        hotspot(134, 688, 524, 32) action Show("tips_owl_tip_20")
+        hotspot(134, 720, 462, 32) action Show("tips_owl_tip_21")
+        hotspot(134, 752, 500, 32) action Show("tips_owl_tip_22")
+        hotspot(134, 784, 250, 32) action Show("tips_owl_tip_23")
+        hotspot(134, 816, 329, 32) action Show("tips_owl_tip_24")
+        hotspot(134, 848, 244, 32) action Show("tips_owl_tip_25")
+        hotspot(134, 880, 581, 32) action Show("tips_owl_tip_26")
+        hotspot(134, 912, 475, 32) action Show("tips_owl_tip_27")
+        hotspot(134, 944, 524, 32) action Show("tips_owl_tip_28")
+        hotspot(134, 976, 510, 32) action Show("tips_owl_tip_29")
+
+    add "tips_owl_blink_anim"
+
+
+image tips_owl_anim:
+
+    #Анимация совы
+
+    pos (726, 93)
+
+    "images/tips_owl/tips_owl_01.png"
+    pause 0.2
+    "images/tips_owl/tips_owl_02.png"
+    pause 0.2
+    "images/tips_owl/tips_owl_03.png"
+    pause 0.2
+    "images/tips_owl/tips_owl_04.png"
+    pause 0.2
+    "images/tips_owl/tips_owl_05.png"
+    pause 0.2
+    repeat
+
+screen stand_tips_owl():
+
+    ## Экран с совой, дающей подсказки, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips_owl_gr.png"
+        idle "images/tips_owl/tips_owl_idle.png"
+        hover "images/tips_owl/tips_owl_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_tips_owl"), Show("info_stand")
+        hotspot(1083, 167, 217, 238) action Show("stand_tips_list")
+
+    add "tips_owl_anim"
+
+################################
+##Экраны ответов, даваемых совой
+
+screen tips_owl_tip_01():
+
+    ## Экран с подсказкой 01
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_01.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_01"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_02():
+
+    ## Экран с подсказкой 02
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_02.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_02"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_03():
+
+    ## Экран с подсказкой 03
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_03.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_03"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_04():
+
+    ## Экран с подсказкой 04
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_04.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_04"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_05():
+
+    ## Экран с подсказкой 05
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_05.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_05"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_06():
+
+    ## Экран с подсказкой 06
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_06.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_06"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_07():
+
+    ## Экран с подсказкой 07
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_07.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_07"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_08():
+
+    ## Экран с подсказкой 08
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_08.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_08"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_09():
+
+    ## Экран с подсказкой 09
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_09.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_09"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_10():
+
+    ## Экран с подсказкой 10
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_10.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_10"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_11():
+
+    ## Экран с подсказкой 11
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_11.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_11"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_12():
+
+    ## Экран с подсказкой 12
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_12.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_12"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_13():
+
+    ## Экран с подсказкой 13
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_13.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_13"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_14():
+
+    ## Экран с подсказкой 14
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_14.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_14"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_15():
+
+    ## Экран с подсказкой 15
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_15.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_15"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_16():
+
+    ## Экран с подсказкой 16
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_16.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_16"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_17():
+
+    ## Экран с подсказкой 17
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_17.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_17"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_18():
+
+    ## Экран с подсказкой 18
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_18.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_18"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_19():
+
+    ## Экран с подсказкой 19
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_19.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_19"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_20():
+
+    ## Экран с подсказкой 20
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_20.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_20"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_21():
+
+    ## Экран с подсказкой 21
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_21.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_21"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_22():
+
+    ## Экран с подсказкой 22
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_22.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_22"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_23():
+
+    ## Экран с подсказкой 23
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_23.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_23"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_24():
+
+    ## Экран с подсказкой 24
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_24.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_24"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_25():
+
+    ## Экран с подсказкой 25
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_25.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_25"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_26():
+
+    ## Экран с подсказкой 26
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_26.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_26"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_27():
+
+    ## Экран с подсказкой 27
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_27.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_27"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_28():
+
+    ## Экран с подсказкой 28
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_28.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_28"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+screen tips_owl_tip_29():
+
+    ## Экран с подсказкой 29
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/tips_owl/tips/tip_29.webp"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png"
+
+        #hotspot(1845,0,75,77) action Return()
+        hotspot(1845,0,75,77) action Hide("tips_owl_tip_29"), Show("stand_tips_list")
+
+
+    add "tips_owl_anim"
+
+
+##Конец экранов ответов, даваемых совой
+################################
+
+## Конец совы, дающей подсказки
+################################
+
+
+screen stand_diary():
+
+    ## Экран с дневником, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_diary_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_diary"), Show("info_stand")
+
+screen stand_inventory():
+
+    ## Экран с инвентарём, открывается при клике в главном меню соответствующей таблички на стенде
+    tag menu
+    zorder 100
+    modal True
+
+    imagemap:
+        ground "images/info_stand/stand_inventory_gr.png"
+        idle "gui/info_stand_nav_idle.png"
+        hover "gui/info_stand_nav_hover.png" 
+
+        hotspot(1845,0,75,77) action Hide("stand_inventory"), Show("info_stand")
+
+
+image stand_campfire_anim:
+
+    ##Анимация костра на стенде
+
+    pos (627,555)
+
+    "images/info_stand/stand_campfire/cf01.png"
+    pause 0.2
+    "images/info_stand/stand_campfire/cf02.png"
+    pause 0.2
+    "images/info_stand/stand_campfire/cf03.png"
+    pause 0.2
+    "images/info_stand/stand_campfire/cf01.png"
+    pause 0.2
+    "images/info_stand/stand_campfire/cf04.png"
+    pause 0.2
+    "images/info_stand/stand_campfire/cf05.png"
+    pause 0.2
+    repeat
+
+
+screen stand_campfire():
+
+    ## Экран с костром
+    add "stand_campfire_anim"
+
+
+
+screen info_stand():
+
+    ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
+    ## заменять этот.
+    tag menu
+
+    imagemap:
+
+        ground "images/info_stand/info_stand_gr.png"
+        idle "images/info_stand/info_stand_normal.png"
+        hover "images/info_stand/info_stand_hover.png"
+
+        #hotspot(90,178,357,81) action Start()
+        #hotspot(90,277,506,81) action ShowMenu("load")
+        #hotspot(90,378,539,81) action ShowMenu("preferences")
+        #hotspot(90,478,333,81) action ShowMenu("about")
+        #hotspot(90,580,371,81) action ShowMenu("help")
+        #hotspot(90,674,286,86) action Quit(confirm=True)
+
+        hotspot(589,285,373,42) action Show ("stand_camp_rules")
+        hotspot(537,182,458,64) action Show ("stand_honor_board")
+        hotspot(604,330,118,108) action Show ("stand_advertisements")
+        hotspot(847,340,102,106) action Show ("stand_mailbox")
+        hotspot(564,486,344,66) action Show ("stand_hikes")
+        hotspot(569,747,327,40) action Show ("stand_history")
+        hotspot(1017,181,415,182) action Show ("map")
+        hotspot(1018,364,419,123) action Show ("stand_wall_newspaper")
+        hotspot(983,512,255,261) action Show ("campmap")
+        hotspot(1243,501,182,136) action Show ("stand_gallery")
+        hotspot(1252,684,175,101) action Show ("stand_tips_owl")
+        hotspot(434,869,282,187) action Show ("prolog_diary")
+        #hotspot(1258,851,226,212) action Show ("stand_inventory")
+        hotspot(1258,851,226,212) action Show ("inventory_slots")
+
+    add "stand_campfire_anim"
+
+style main_menu_frame is empty
+style main_menu_vbox is vbox
+style main_menu_text is gui_text
+style main_menu_title is main_menu_text
+style main_menu_version is main_menu_text
+
+style main_menu_frame:
+    xsize 420
+    yfill True
+
+    background "gui/overlay/main_menu.png"
+
+style main_menu_vbox:
+    xalign 1.0
+    xoffset -30
+    xmaximum 1200
+    yalign 1.0
+    yoffset -30
+
+style main_menu_text:
+    properties gui.text_properties("main_menu", accent=True)
+
+style main_menu_title:
+    properties gui.text_properties("title")
+
+style main_menu_version:
+    properties gui.text_properties("version")

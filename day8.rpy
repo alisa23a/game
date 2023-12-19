@@ -358,55 +358,74 @@ label start:
 
     hide sp_sem_001
 
-    show sp_ul_012:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 0.4
+    # show sp_ul_036:
+        # yalign -0.1 subpixel True
+        # xalign .0 subpixel True
+        # zoom 0.4
 
-    ul "Слушай, может искупаемся? Рыбу половить мы ещё успеем."
+    # ul "(быстро раздеваясь до купальника) \nСлушай, может искупаемся? Рыбу половить мы ещё успеем."
 
-    hide sp_ul_012
+    # hide sp_ul_012
+
+    image ul_pi_island_01 = Movie(play="video/video8day/ul_pi_island_01.webm", size=(1920, 1080))
+
+    scene ul_pi_island_01 with fade
  
-    show sp_sem_001:
-        yalign -0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 0.8
+    # show sp_sem_001:
+        # yalign -0.1 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 0.8
+
+    ul "(быстро раздеваясь до купальника) \nСлушай, может искупаемся? Рыбу половить мы ещё успеем."
 
     pi "Нет. Что-то сегодня вода холодная и вообще..."
 
-    hide sp_sem_001
+    # hide sp_sem_001
 
-    show sp_ul_012:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 0.4
+    # show sp_ul_012:
+        # yalign -0.1 subpixel True
+        # xalign .0 subpixel True
+        # zoom 0.4
 
-    ul "Ну, как хочешь. Тогда помечтаем. Ты говоришь, здесь есть старый дырявый баркас? А что, если его восстановить, подлатать борт, парус поставить? Вот, я даже чертежик набросала... Правда, классно смотрится?"
+    image ul_pi_island_02 = Movie(play="video/video8day/ul_pi_island_01.webm", size=(1920, 1080))
 
-    hide sp_ul_012
+    scene ul_pi_island_02 with fade
+
+    ul "Ну, как хочешь. Тогда помечтаем. А что, если этот баркас восстановить, подлатать борт, парус поставить?(чертит на песке) Вот, я даже чертежик набросала... Правда, классно смотрится?"
+
+    image ul_pi_island_02 = Movie(play="video/video8day/ul_pi_island_02.webm", size=(1920, 1080))
+
+    scene ul_pi_island_02
+
+    pause (10000000000)
+    # hide sp_ul_012
  
-    show sp_sem_001:
-        yalign -0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 0.8
+    # show sp_sem_001:
+        # yalign -0.1 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 0.8
 
     pi "Да, это моя мечта. Если повезет, то можно добраться до моря."
 
-    hide sp_sem_001
+    # hide sp_sem_001
 
-    show sp_ul_036:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 0.4
+    # show sp_ul_036:
+        # yalign -0.1 subpixel True
+        # xalign .0 subpixel True
+        # zoom 0.4
+
+    image ul_pi_island_03 = Movie(play="video/video8day/ul_pi_island_03.webm", size=(1920, 1080))
+
+    scene ul_pi_island_03 with fade
 
     ul "А может, все таки искупаемся? Вот, я и купальник прихватила."
 
-    hide sp_ul_036
+    # hide sp_ul_036
  
-    show sp_sem_001:
-        yalign -0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 0.8
+    # show sp_sem_001:
+        # yalign -0.1 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 0.8
 
     pi "Ладно. Только недолго, хорошо?"
 

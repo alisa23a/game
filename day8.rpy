@@ -3,7 +3,7 @@ style skytext_text:
         ypos 300
 
 
-label start:
+label day8:
     stop music 
     scene black
     with Pause(1)
@@ -364,7 +364,7 @@ label start:
 
     ul "– Тогда... можешь поцеловать, только в щеку."
     
-    scene cg ul_pi_cheek with fade
+    scene cg ul_pi_cheek_closed_eyes with fade
 
     "И закрыла глаза. А про себя подумала: \n«Жаль, что не отношения, как у взрослых.»"
 

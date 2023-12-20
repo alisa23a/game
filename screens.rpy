@@ -308,6 +308,8 @@ screen navigation():
         textbutton _("Загрузить") action ShowMenu("load")
 
         textbutton _("Настройки") action ShowMenu("preferences")
+        
+        textbutton _("Инфостенд") action Show ("info_stand")
 
         if _in_replay:
 
@@ -696,6 +698,12 @@ screen file_slots(title):
                             style "slot_name_text"
 
                         key "save_delete" action FileDelete(slot)
+                        
+                        imagebutton:
+                            auto "/gui/delete_%s.png"
+                            action FileDelete(slot)
+                            xpos 354
+                            ypos -265
 
             ## Кнопки для доступа к другим страницам.
             vbox:

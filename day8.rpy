@@ -8,11 +8,6 @@ label day8:
     stop music 
     scene black
     with Pause(1)
-
-    #play movie "video/video8day/tent.webm" loop
-    #show movie with dissolve
-    
-    #show ul at center with dissolve
     
     image tent = Movie(play="video/video8day/tent_out.webm", size=(1920, 1080))
     
@@ -393,32 +388,12 @@ label day8:
 
     hide sp_sem_001
 
-    # show sp_ul_036:
-        # yalign -0.1 subpixel True
-        # xalign .0 subpixel True
-        # zoom 0.4
-
-    # ul "(быстро раздеваясь до купальника) \nСлушай, может искупаемся? Рыбу половить мы ещё успеем."
-
-    # hide sp_ul_012
 
     image ul_pi_island_01 = Movie(play="video/video8day/ul_pi_island_01.webm", size=(1920, 1080))
 
     scene ul_pi_island_01 with fade
- 
-    # show sp_sem_001:
-        # yalign -0.1 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 0.8
 
     ul "(быстро раздеваясь до купальника) \nСлушай, может искупаемся? Рыбу половить мы ещё успеем."
-
-    # hide sp_sem_001
-
-    # show sp_ul_012:
-        # yalign -0.1 subpixel True
-        # xalign .0 subpixel True
-        # zoom 0.4
 
     image ul_pi_island_02 = Movie(play="video/video8day/ul_pi_island_01.webm", size=(1920, 1080))
 
@@ -433,34 +408,14 @@ label day8:
     scene ul_pi_island_02
 
     pause (10000000000)
-    # hide sp_ul_012
- 
-    # show sp_sem_001:
-        # yalign -0.1 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 0.8
 
     pi "Да, это моя мечта. Если повезет, то можно добраться до моря."
-
-    # hide sp_sem_001
-
-    # show sp_ul_036:
-        # yalign -0.1 subpixel True
-        # xalign .0 subpixel True
-        # zoom 0.4
 
     image ul_pi_island_03 = Movie(play="video/video8day/ul_pi_island_03.webm", size=(1920, 1080))
 
     scene ul_pi_island_03 with fade
 
     ul "А может, все таки искупаемся? Вот, я и купальник прихватила."
-
-    # hide sp_ul_036
- 
-    # show sp_sem_001:
-        # yalign -0.1 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 0.8
 
     pi "Ладно. Только недолго, хорошо?"
 

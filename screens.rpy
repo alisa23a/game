@@ -241,7 +241,7 @@ screen quick_menu():
     ## Гарантирует, что оно появляется поверх других экранов.
     zorder 100
 
-    if quick_menu:
+    if show_quick_menu:
 
         hbox:
             style_prefix "quick"
@@ -257,6 +257,7 @@ screen quick_menu():
             textbutton _("Б.Сохр") action QuickSave()
             textbutton _("Б.Загр") action QuickLoad()
             textbutton _("Опции") action ShowMenu('preferences')
+            textbutton _("Инфостенд") action Show('info_stand')
 
 
 ## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
@@ -309,7 +310,7 @@ screen navigation():
 
         textbutton _("Настройки") action ShowMenu("preferences")
         
-        textbutton _("Инфостенд") action Show ("info_stand")
+        #textbutton _("Инфостенд") action Show ("info_stand")
 
         if _in_replay:
 

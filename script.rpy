@@ -72,4 +72,12 @@ label splashscreen:
     # #return
 
 
+label info_stand:
 
+    stop music
+
+    show screen info_stand
+    
+    pause (1000000000000)
+    
+    return

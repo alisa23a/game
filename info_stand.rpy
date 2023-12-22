@@ -839,6 +839,8 @@ screen info_stand():
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
     tag menu
+    zorder 100
+    modal True
 
     imagemap:
 
@@ -870,30 +872,9 @@ screen info_stand():
 
     add "stand_campfire_anim"
 
-style main_menu_frame is empty
-style main_menu_vbox is vbox
-style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
-
-style main_menu_frame:
-    xsize 420
-    yfill True
-
-    background "gui/overlay/main_menu.png"
-
-style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
-
-style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
-
-style main_menu_title:
-    properties gui.text_properties("title")
-
-style main_menu_version:
-    properties gui.text_properties("version")
+    imagebutton:
+        xpos 1856 ypos 11
+        idle "gui/closebut_idle.png"
+        hover "gui/closebut_hover.png"
+        action Hide ("info_stand"), Return()
+        

@@ -8,7 +8,7 @@
         idle "gui/dnav1idle.png"
         hover "gui/dnav1hover.png"
         
-        hotspot(1784,464,112,152) action Hide ("prolog_diary"), Jump ("prolog_diary2")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary"), Show ("prolog_diary2")
         hotspot(1787,37,85,84) action Hide ("prolog_diary"), Show ("info_stand")
 
 screen prolog_diary2:
@@ -21,8 +21,8 @@ screen prolog_diary2:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("prolog_diary2"), Jump ("prolog_diary")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary2"), Jump ("prolog_diary3")
+        hotspot(24,464,112,152) action Hide ("prolog_diary2"), Show ("prolog_diary")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary2"), Show ("prolog_diary3")
         hotspot(1787,37,85,84) action Hide ("prolog_diary2"), Show ("info_stand")
 
 screen prolog_diary3:
@@ -35,8 +35,8 @@ screen prolog_diary3:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("prolog_diary3"), Jump ("prolog_diary2")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary3"), Jump ("prolog_diary4")
+        hotspot(24,464,112,152) action Hide ("prolog_diary3"), Show ("prolog_diary2")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary3"), Show ("prolog_diary4")
         hotspot(1787,37,85,84) action Hide ("prolog_diary3"), Show ("info_stand")
 
 screen prolog_diary4:
@@ -49,10 +49,28 @@ screen prolog_diary4:
         idle "gui/diary4i.png"
         hover "gui/diary4h.png"
         
-        hotspot(1040,277,685,384) action Hide ("prolog_diary4"), Jump ("prolog_diary4pic")
-        hotspot(24,464,112,152) action Hide ("prolog_diary4"), Jump ("prolog_diary3")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary4"), Jump ("prolog_diary5")
+        hotspot(1040,277,685,384) action Hide ("prolog_diary4"), Show ("prolog_d4pic")
+        hotspot(24,464,112,152) action Hide ("prolog_diary4"), Show ("prolog_diary3")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary4"), Show ("prolog_diary5")
         hotspot(1787,37,85,84) action Hide ("prolog_diary4"), Show ("info_stand")
+
+
+screen prolog_d4pic:
+    tag menu
+    zorder 100
+    modal True
+
+    on "show" action PauseAudio("music", value=True), Play("dreamMusicChannel", "audio/music/dream.mp3")
+    on "hide" action Stop("dreamMusicChannel"), PauseAudio("music", value=False)
+
+    add "p_dream"
+ 
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("prolog_d4pic"), Show("prolog_diary4")
 
 screen prolog_diary5:
     tag menu
@@ -64,10 +82,24 @@ screen prolog_diary5:
         idle "gui/diary5i.png"
         hover "gui/diary5h.png"
         
-        hotspot(176,149,682,685) action Hide ("prolog_diary5"), Jump ("prolog_diary5pic")
-        hotspot(24,464,112,152) action Hide ("prolog_diary5"), Jump ("prolog_diary4")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary5"), Jump ("prolog_diary6")
+        hotspot(176,149,682,685) action Hide ("prolog_diary5"), Show ("prolog_d5pic")
+        hotspot(24,464,112,152) action Hide ("prolog_diary5"), Show ("prolog_diary4")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary5"), Show ("prolog_diary6")
         hotspot(1787,37,85,84) action Hide ("prolog_diary5"), Show ("info_stand")    
+
+screen prolog_d5pic:
+    tag menu
+    zorder 100
+    modal True
+
+    #$ renpy.music.stop()
+    add "p_house"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("prolog_diary5pic"), Show("prolog_diary5")
 
 screen prolog_diary6:
     tag menu
@@ -79,8 +111,8 @@ screen prolog_diary6:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("prolog_diary6"), Jump ("prolog_diary5")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary6"), Jump ("prolog_diary7")
+        hotspot(24,464,112,152) action Hide ("prolog_diary6"), Show ("prolog_diary5")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary6"), Show ("prolog_diary7")
         hotspot(1787,37,85,84) action Hide ("prolog_diary6"), Show ("info_stand")
 
 screen prolog_diary7:
@@ -93,8 +125,8 @@ screen prolog_diary7:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("prolog_diary7"), Jump ("prolog_diary6")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary7"), Jump ("prolog_diary8")
+        hotspot(24,464,112,152) action Hide ("prolog_diary7"), Show ("prolog_diary6")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary7"), Show ("prolog_diary8")
         hotspot(1787,37,85,84) action Hide ("prolog_diary7"), Show ("info_stand")
 
 screen prolog_diary8:
@@ -107,22 +139,23 @@ screen prolog_diary8:
         idle "gui/diary8i.png"
         hover "gui/diary8h.png"
         
-        hotspot(1061,465,612,332) action Hide ("prolog_diary8"), Jump ("prolog_diary8pic")
-        hotspot(24,464,112,152) action Hide ("prolog_diary8"), Jump ("prolog_diary7")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary8"), Jump ("prolog_diary9")
+        hotspot(1061,465,612,332) action Hide ("prolog_diary8"), Show ("prolog_d8pic")
+        hotspot(24,464,112,152) action Hide ("prolog_diary8"), Show ("prolog_diary7")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary8"), Show ("prolog_diary9")
         hotspot(1787,37,85,84) action Hide ("prolog_diary8"), Show ("info_stand")
 
-screen prolog_diary8picsc:
+screen prolog_d8pic:
     tag menu
     zorder 110
     modal True
-    
-    imagemap:
-        ground "images/prolog/boat.jpg"
-        idle "gui/dnav0idle.png"
-        hover "gui/dnav0hover.png"
-        
-        hotspot(1787,37,85,84) action Hide ("prolog_diary8picsc"), Jump ("prolog_diary8")
+
+    add "images/prolog/boat.jpg"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("prolog_d8pic"), Show("prolog_diary8")
 
 screen prolog_diary9:
     tag menu
@@ -134,8 +167,8 @@ screen prolog_diary9:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("prolog_diary9"), Jump ("prolog_diary8")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary9"), Jump ("prolog_diary10")
+        hotspot(24,464,112,152) action Hide ("prolog_diary9"), Show ("prolog_diary8")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary9"), Show ("prolog_diary10")
         hotspot(1787,37,85,84) action Hide ("prolog_diary9"), Show ("info_stand")
 
 screen prolog_diary10:
@@ -148,8 +181,8 @@ screen prolog_diary10:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("prolog_diary10"), Jump ("prolog_diary9")
-        hotspot(1784,464,112,152) action Hide ("prolog_diary10"), Jump ("day2_diary11")
+        hotspot(24,464,112,152) action Hide ("prolog_diary10"), Show ("prolog_diary9")
+        hotspot(1784,464,112,152) action Hide ("prolog_diary10"), Show ("day2_diary11")
         hotspot(1787,37,85,84) action Hide ("prolog_diary10"), Show ("info_stand")
 
 label prolog:
@@ -171,12 +204,12 @@ return
 
 label prolog_diary:
     show screen prolog_diary
-    jump start
-    return
+    #jump start
+    #return
 
 label prolog_diary2:
     show screen prolog_diary2
-    jump start
+    #jump start
     return
 
 label prolog_diary3:
@@ -199,7 +232,8 @@ label prolog_diary4pic:
     hide p_dream
     stop music
     $ musicstop = True
-    jump prolog_diary4
+    #jump prolog_diary4
+    show screen prolog_diary4
     return
 
 label prolog_diary5:

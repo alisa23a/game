@@ -8,8 +8,8 @@ screen day2_diary11:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
  
-        hotspot(24,464,112,152) action Hide ("day2_diary11"), Jump ("prolog_diary10") 
-        hotspot(1784,464,112,152) action Hide ("day2_diary11"), Jump ("day2_diary12")
+        hotspot(24,464,112,152) action Hide ("day2_diary11"), Show ("prolog_diary10") 
+        hotspot(1784,464,112,152) action Hide ("day2_diary11"), Show ("day2_diary12")
         hotspot(1787,37,85,84) action Hide ("day2_diary11"), Show ("info_stand")
 
 screen day2_diary12:
@@ -22,8 +22,8 @@ screen day2_diary12:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("day2_diary12"), Jump ("day2_diary11")
-        hotspot(1784,464,112,152) action Hide ("day2_diary12"), Jump ("day2_diary13")
+        hotspot(24,464,112,152) action Hide ("day2_diary12"), Show ("day2_diary11")
+        hotspot(1784,464,112,152) action Hide ("day2_diary12"), Show ("day2_diary13")
         hotspot(1787,37,85,84) action Hide ("day2_diary12"), Show ("info_stand")
 
 screen day2_diary13:
@@ -36,8 +36,8 @@ screen day2_diary13:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("day2_diary13"), Jump ("day2_diary12")
-        hotspot(1784,464,112,152) action Hide ("day2_diary13"), Jump ("day2_diary13choice")
+        hotspot(24,464,112,152) action Hide ("day2_diary13"), Show ("day2_diary12")
+        hotspot(1784,464,112,152) action Hide ("day2_diary13"), Show ("day2_diary13choice")
         hotspot(1787,37,85,84) action Hide ("day2_diary13"), Show ("info_stand")
 
 screen day2_diary13choice:
@@ -50,8 +50,8 @@ screen day2_diary13choice:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("day2_diary13choice"), Jump ("day2_diary13")
-        hotspot(1784,464,112,152) action Hide ("day2_diary13choice"), Jump ("day2_diary14")
+        hotspot(24,464,112,152) action Hide ("day2_diary13choice"), Show ("day2_diary13")
+        hotspot(1784,464,112,152) action Hide ("day2_diary13choice"), Show ("day2_diary14")
         hotspot(1787,37,85,84) action Hide ("day2_diary13choice"), Show ("info_stand")
 
 screen day2_diary14:
@@ -64,8 +64,8 @@ screen day2_diary14:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("day2_diary14"), Jump ("day2_diary13choice")
-        hotspot(1784,464,112,152) action Hide ("day2_diary14"), Jump ("day3_diary15")
+        hotspot(24,464,112,152) action Hide ("day2_diary14"), Show ("day2_diary13choice")
+        hotspot(1784,464,112,152) action Hide ("day2_diary14"), Show ("day3_diary15")
         hotspot(1787,37,85,84) action Hide ("day2_diary14"), Show ("info_stand")
 
 label day2:

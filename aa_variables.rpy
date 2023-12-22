@@ -48,6 +48,7 @@ define cm41 = True
 define cm42 = True
 define cm43 = True
 define cm44 = True
+define cm45 = True
 
 #####################
 ## Переменные определяющие видимость локаций карты окрестностей
@@ -516,11 +517,13 @@ image ul1_2:
 ##########################################
 
 
+#define buss_dream_theme = "audio/music/dream.mp3" 
 
+# label to_main_menu:
 
+    # return
 
-
-
+default show_quick_menu = True
 
 
 

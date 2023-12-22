@@ -1,0 +1,319 @@
+
+# screen diary_page_01():
+    # tag menu
+    # zorder 100
+    # modal True
+    
+screen diary_page_04:
+    tag menu
+    zorder 100
+    modal True
+
+    add "diary4"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("diary_page_04"), Jump ("diary_page_05")
+ 
+    imagebutton:
+        xpos 1038 ypos 277
+        xsize 691 ysize 385
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("diary_page_04"), Show ("diary_page_04_pic")
+   
+    # imagemap:
+        # ground "images/diary/diary4.jpg"
+        # idle "gui/dp04i.png"
+        # hover "gui/dp04h.png"
+        
+        # hotspot(1040,277,685,384) action Hide ("diary_page_04"), Jump ("diary_page_04_pic")  
+
+screen diary_page_04_pic:
+    tag menu
+    zorder 100
+    modal True
+
+    add "p_dream"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("diary_page_04_pic"), Show ("diary_page_04")
+
+screen diary_page_05:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary5.jpg"
+        idle "gui/dp05i.png"
+        hover "gui/dp05h.png"
+        
+        hotspot(176,149,682,685) action Hide ("diary_page_05"), Jump ("diary_page_05_pic")
+
+
+screen diary_page_08:
+    tag menu
+    zorder 100
+    modal True
+ 
+    add "diary8"
+ 
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("diary_page_08"), Jump ("diary_page_09")
+ 
+    imagebutton:
+        xpos 1061 ypos 465
+        xsize 612 ysize 332
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("diary_page_08"), Show ("diary_page_08_pic")
+ 
+    # imagemap:
+        # ground "images/diary/diary8.jpg"
+        # idle "gui/dp08i.png"
+        # hover "gui/dp08h.png"
+        
+        # hotspot(1061,465,612,332) action Hide ("diary_page_08"), Show ("diary_page_08_pic")
+
+
+screen diary_page_08_pic:
+    tag menu
+    zorder 110
+    modal True
+    
+    add "images/prolog/boat.jpg"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("diary_page_08_pic"), Show ("diary_page_08")
+
+
+
+image prologue = Movie(play="video/prologue.webm", size=(1920, 1080))
+
+image first_morning = Movie(play="video/first_morning.webm", size=(1920, 1080))
+
+    # scene ul_pi_island_02
+
+    # pause (10000000000)
+
+label start:
+
+    stop music
+
+    #$ _skipping = False
+
+    #show prologue
+
+    #$ renpy.pause(299.5, hard=True)
+
+    #pause (299.5)
+    
+    #hide prologue
+
+    #$ _skipping = True
+
+    jump first_m
+
+
+label first_m:
+
+    show first_morning
+
+    pause (406.0)
+
+    hide first_morning
+
+    jump diary_page_01
+
+label diary_page_01:
+
+    show diary1
+
+    pause (100000000000000.0)
+    
+    jump diary_page_02
+
+label diary_page_02:
+
+    show diary2
+
+    pause (100000000000000.0)
+    
+    jump diary_page_03
+
+label diary_page_03:
+
+    show diary3
+
+    pause (100000000000000.0)
+    
+    jump diary_page_04
+
+label diary_page_04:
+
+    #show diary4
+
+    show screen diary_page_04
+
+    pause (100000000000000.0)
+    
+    jump diary_page_05
+
+label diary_page_04_pic:
+    show p_dream
+    play music dreams
+    ""
+    hide p_dream
+    stop music
+    $ musicstop = True
+    jump diary_page_04
+    return
+
+label diary_page_05:
+
+    show diary5
+
+    pause (100000000000000.0)
+    
+    jump diary_page_06
+
+label diary_page_05_pic:
+
+    show p_house
+    ""
+    hide p_house
+    jump prolog_diary5
+    return
+
+label diary_page_06:
+
+    show diary6
+
+    pause (100000000000000.0)
+    
+    jump diary_page_07
+
+label diary_page_07:
+
+    show diary7
+
+    pause (100000000000000.0)
+    
+    jump diary_page_08
+
+label diary_page_08:
+
+    show screen diary_page_08
+
+    pause (100000000000000.0)
+    
+    jump diary_page_09
+
+label diary_page_08_pic:
+    call screen diary_page_08_pic_sc
+    jump diary_page_08
+    return
+
+label diary_page_09:
+
+    show diary9
+
+    pause (100000000000000.0)
+    
+    jump diary_page_10
+
+label diary_page_10:
+
+    show diary10
+
+    pause (100000000000000.0)
+    
+    jump diary_page_11
+
+label diary_page_11:
+
+    show diary11
+
+    pause (100000000000000.0)
+    
+    jump diary_page_12
+
+
+label diary_page_12:
+
+    show diary12
+
+    pause (100000000000000.0)
+    
+    jump diary_page_13
+
+
+label diary_page_13:
+
+    show diary13
+
+    pause (100000000000000.0)
+    
+    jump diary_page_14
+
+
+label diary_page_14:
+
+    show diary14
+
+    pause (100000000000000.0)
+    
+    jump diary_page_15
+
+
+label diary_page_15:
+
+    show diary15
+
+    pause (100000000000000.0)
+    
+    jump diary_page_16
+
+
+label diary_page_16:
+
+    show diary16
+
+    pause (100000000000000.0)
+    
+    jump diary_page_17
+
+
+label diary_page_17:
+
+    show diary17
+
+    pause (100000000000000.0)
+    
+    jump diary_page_18
+
+
+label diary_page_18:
+
+    show diary18
+
+    pause (100000000000000.0)
+    
+
+
+jump day8

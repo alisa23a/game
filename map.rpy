@@ -4,7 +4,7 @@ screen map:
     #modal True запрещает взаимодействие с другими объектами под этим экраном
     modal True
     #порядок отображения экрана(слой)
-    zorder 100
+    zorder 300
 
 
     fixed:
@@ -18,7 +18,7 @@ screen map:
             xpos 1856 ypos 11
             idle "gui/closebut_idle.png"
             hover "gui/closebut_hover.png"
-            action Hide ("map"), Show("info_stand")
+            action Hide ("map"), Show ("info_stand")
 
         if gm1:
             button:
@@ -27,7 +27,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("nbeach")
+                action Hide ("map"), Show ("nbeach")
 
         if gm2:
             button:
@@ -36,7 +36,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("gog")
+                action Hide ("map"), Show ("gog")
         
         if gm3:
             button:
@@ -45,7 +45,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("smg")
+                action Hide ("map"), Show ("smg")
         
         if gm4:
             button:    
@@ -54,7 +54,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("disland")
+                action Hide ("map"), Show ("disland")
         
         if gm5:
             button:    
@@ -63,7 +63,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("lakedeep")
+                action Hide ("map"), Show ("lakedeep")
         
         if gm6:
             button:    
@@ -72,7 +72,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("uhouse")
+                action Hide ("map"), Show ("uhouse")
         
         if gm7:
             button:    
@@ -81,7 +81,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("newtcreek")
+                action Hide ("map"), Show ("newtcreek")
         
         if gm8:
             button:
@@ -90,7 +90,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("thiefpath")
+                action Hide ("map"), Show ("thiefpath")
         
         if gm9:
             button:
@@ -99,7 +99,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("swamp")
+                action Hide ("map"), Show ("swamp")
         
         if gm10:
             button:
@@ -108,7 +108,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("boat_station")
+                action Hide ("map"), Show ("boat_station")
         
         if gm11:
             button:
@@ -117,7 +117,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("fbeach")
+                action Hide ("map"), Show ("fbeach")
         
         if gm12:
             button:
@@ -126,7 +126,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("mcity")
+                action Hide ("map"), Show ("mcity")
         
         if gm13:
             button:
@@ -135,7 +135,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("dpeak")
+                action Hide ("map"), Show ("dpeak")
         
         if gm14:
             button:    
@@ -144,7 +144,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("ushallow")
+                action Hide ("map"), Show ("ushallow")
         
         if gm15:
             button:    
@@ -153,7 +153,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("shpi")
+                action Hide ("map"), Show ("shpi")
         
         if gm16:
             button:
@@ -162,7 +162,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("cave")
+                action Hide ("map"), Show ("cave")
         
         if gm17:
             button:
@@ -172,7 +172,7 @@ screen map:
                 hover_foreground "images/fireh.png"
                 #focus_mask кнопка нажимается только по видимым пикселям
                 focus_mask True
-                action Hide ("map"), Jump ("moсr")
+                action Hide ("map"), Show ("moсr")
         
         if gm18:
             button:
@@ -182,7 +182,7 @@ screen map:
                 hover_foreground "images/fireh.png"
                 #focus_mask кнопка нажимается только по видимым пикселям
                 focus_mask True
-                action Hide ("map"), Jump ("opine")
+                action Hide ("map"), Show ("opine")
         
         if gm19:
             button:    
@@ -191,7 +191,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("laboratory")
+                action Hide ("map"), Show ("laboratory")
         
         if gm20:
             button:
@@ -200,7 +200,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("oldroad")
+                action Hide ("map"), Show ("oldroad")
         
         if gm21:
             button:
@@ -209,7 +209,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("tcc")
+                action Hide ("map"), Show ("tcc")
         
         if gm22:
             button:    
@@ -218,7 +218,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("goldd")
+                action Hide ("map"), Show ("goldd")
         
         if gm23:
             button:    
@@ -227,7 +227,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("busstop")
+                action Hide ("map"), Show ("busstop")
         
         if gm24:
             button:
@@ -236,7 +236,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("oldcamp")
+                action Hide ("map"), Show ("oldcamp")
         
         if gm25:
             button:
@@ -245,7 +245,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("bravepath")
+                action Hide ("map"), Show ("bravepath")
         
         if gm26:
             button:    
@@ -254,7 +254,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("wilderness")
+                action Hide ("map"), Show ("wilderness")
         
         if gm27:
             button:    
@@ -263,7 +263,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("roadtn")
+                action Hide ("map"), Show ("roadtn")
         
         if gm28:
             button:    
@@ -272,7 +272,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("pibuh")
+                action Hide ("map"), Show ("pibuh")
         
         if gm29:
             button:
@@ -281,7 +281,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("oldmine")
+                action Hide ("map"), Show ("oldmine")
         
         if gm30:
             button:    
@@ -290,7 +290,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("tuni")
+                action Hide ("map"), Show ("tuni")
         
         if gm31:
             button:    
@@ -299,7 +299,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("tuno")
+                action Hide ("map"), Show ("tuno")
         
         if gm32:
             button:    
@@ -308,7 +308,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("reeds")
+                action Hide ("map"), Show ("reeds")
         
         if gm33:
             button:    
@@ -317,7 +317,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("iford")
+                action Hide ("map"), Show ("iford")
         
         if gm34:
             button:    
@@ -326,7 +326,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("caroad")
+                action Hide ("map"), Show ("caroad")
         
         if gm35:
             button:    
@@ -335,7 +335,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("carier")
+                action Hide ("map"), Show ("carier")
         
         if gm36:
             button:    
@@ -344,7 +344,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("zdm")
+                action Hide ("map"), Show ("zdm")
         
         if gm37:
             button:    
@@ -353,7 +353,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("ford")
+                action Hide ("map"), Show ("ford")
         
         if gm38:
             button:    
@@ -362,7 +362,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("ford2")
+                action Hide ("map"), Show ("ford2")
         
         if gm39:
             button:    
@@ -371,7 +371,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("ford3")
+                action Hide ("map"), Show ("ford3")
         
         if gm40:
             button:    
@@ -380,7 +380,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("pointers")
+                action Hide ("map"), Show ("pointers")
         
         if gm41:
             button:    
@@ -389,7 +389,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("plane")
+                action Hide ("map"), Show ("plane")
         
         if gm42:
             button:    
@@ -398,7 +398,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("crsh")
+                action Hide ("map"), Show ("crsh")
         
         if gm43:
             button:    
@@ -407,7 +407,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("rapids")
+                action Hide ("map"), Show ("rapids")
         
         if gm44:
             button:    
@@ -416,7 +416,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("hetu")
+                action Hide ("map"), Show ("hetu")
         
         if gm45:
             button:    
@@ -425,7 +425,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("jusu")
+                action Hide ("map"), Show ("jusu")
         
         if gm46:
             button:    
@@ -434,7 +434,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("pbc")
+                action Hide ("map"), Show ("pbc")
         
         if gm47:
             button:    
@@ -443,7 +443,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("dnest")
+                action Hide ("map"), Show ("dnest")
         
         if gm48:
             button:    
@@ -452,7 +452,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("shouse")
+                action Hide ("map"), Show ("shouse")
         
         if gm49:
             button:
@@ -461,7 +461,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("crystalspring")
+                action Hide ("map"), Show ("crystalspring")
         
         if gm50:
             button:
@@ -470,7 +470,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("mine")
+                action Hide ("map"), Show ("mine")
         
         if gm51:
             button:
@@ -479,7 +479,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("oldclock")
+                action Hide ("map"), Show ("oldclock")
         
         if gm52:
             button:
@@ -488,7 +488,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("oldcem")
+                action Hide ("map"), Show ("oldcem")
         
         if gm53:
             button:
@@ -497,7 +497,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("shallow")
+                action Hide ("map"), Show ("shallow")
 
         if gm54:
             button:
@@ -506,7 +506,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("camp")
+                action Hide ("map"), Show ("campmap")
         
         if gm55:
             button:
@@ -515,7 +515,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("lyhouse")
+                action Hide ("map"), Show ("lyhouse")
         
         if gm56:
             button:
@@ -524,7 +524,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("deroad")
+                action Hide ("map"), Show ("deroad")
         
         if gm57:
             button:
@@ -533,7 +533,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("wdgorge")
+                action Hide ("map"), Show ("wdgorge")
                 
         if gm58:
             button:
@@ -542,7 +542,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("dwhir")
+                action Hide ("map"), Show ("dwhir")
                 
         if gm59:
             button:
@@ -551,7 +551,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("pot")
+                action Hide ("map"), Show ("pot")
 
         if gm60:
             button:
@@ -560,7 +560,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("pfis")
+                action Hide ("map"), Show ("pfis")
         
         if gm61:
             button:
@@ -569,7 +569,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("ogm")
+                action Hide ("map"), Show ("ogm")
         
         if gm62:
             button:
@@ -578,7 +578,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("tbo")
+                action Hide ("map"), Show ("tbo")
         
         if gm63:
             button:
@@ -587,7 +587,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("pdl")
+                action Hide ("map"), Show ("pdl")
                 
         if gm64:
             button:
@@ -596,7 +596,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("spa")
+                action Hide ("map"), Show ("spa")
                 
         if gm65:
             button:
@@ -605,5 +605,5 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Jump ("rail")
+                action Hide ("map"), Show ("rail")
         

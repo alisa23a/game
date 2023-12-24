@@ -351,32 +351,82 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+# screen main_menu():
+
+    # ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
+    # ## заменять этот.
+    # tag menu
+
+    # add gui.main_menu_background
+
+    # ## Эта пустая рамка затеняет главное меню.
+    # frame:
+        # style "main_menu_frame"
+
+    # ## Оператор use включает отображение другого экрана в данном. Актуальное
+    # ## содержание главного меню находится на экране навигации.
+    # use navigation
+
+    # if gui.show_name:
+
+        # vbox:
+            # style "main_menu_vbox"
+
+            # text "[config.name!t]":
+                # style "main_menu_title"
+
+            # text "[config.version]":
+                # style "main_menu_version"
+
+
+image mmground:
+
+    "images/an/main_menu_animation/main_menu_custom_bg_01-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_02-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_03-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_02-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_03-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_02-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_04-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_05-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+    "images/an/main_menu_animation/main_menu_custom_bg_04-min.webp" with Dissolve(0.5, alpha=True)
+    pause 1.0
+
+    repeat
+
 screen main_menu():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
     tag menu
 
-    add gui.main_menu_background
+    imagemap:
+        ground "mmground"
+        idle "images/an/main_menu_animation/main_menu_custom_idle.png"
+        hover "images/an/main_menu_animation/main_menu_custom_hover.png"
 
-    ## Эта пустая рамка затеняет главное меню.
-    frame:
-        style "main_menu_frame"
+        hotspot (59, 370, 213, 59) action Start()  
+        hotspot (44, 429, 315, 59) action ShowMenu("load")
+        hotspot (44, 488,  315, 59) action ShowMenu("preferences")
+        hotspot (52, 547, 239,59) action ShowMenu("about")
+        hotspot (59, 606, 200, 59) action Quit(confirm=True)
 
-    ## Оператор use включает отображение другого экрана в данном. Актуальное
-    ## содержание главного меню находится на экране навигации.
-    use navigation
 
-    if gui.show_name:
 
-        vbox:
-            style "main_menu_vbox"
 
-            text "[config.name!t]":
-                style "main_menu_title"
 
-            text "[config.version]":
-                style "main_menu_version"
+
+
+
+
 
 
 style main_menu_frame is empty

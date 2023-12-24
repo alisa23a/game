@@ -45,7 +45,68 @@ label day8:
 
     "Я с удивлением рассматривала ветки над головой,  пытаясь вспомнить события минувшего дня."
 
-    image hut = Movie(play="video/video8day/hut.webm", size=(1920, 1080))
+    #image hut = Movie(play="video/video8day/hut.webm", size=(1920, 1080))
+
+    image hut:
+    
+    #Анимация лицо Ульяны, вход в шалаш, сонная
+
+        "images/an/an8day/an003/an_003_001-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_002-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_003-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_004-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_005-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_006-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_007-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_008-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_009-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_010-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_011-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_012-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_013-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_014-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_013-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_012-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_011-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_015-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_016-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_017-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_018-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_019-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_020-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an003/an_003_021-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+
+
+
+
+
+        repeat
+
+
 
     scene hut with fade
     
@@ -57,7 +118,36 @@ label day8:
 
     stop music
 
-    image pi_ul_boat = Movie(play="video/video8day/pi_ul_boat.webm", size=(1920, 1080))
+    #image pi_ul_boat = Movie(play="video/video8day/pi_ul_boat.webm", size=(1920, 1080))
+
+    image pi_ul_boat:
+    
+    #Анимация Ульяна, Семён в лодке
+
+        "images/an/an8day/an001/an_001_001-min.webp" with Dissolve(0.5, alpha=True)
+        pause 2.0
+        "images/an/an8day/an001/an_001_002-min.webp" with Dissolve(0.5, alpha=True)
+        pause 2.0
+        "images/an/an8day/an001/an_001_003-min.webp" with Dissolve(0.5, alpha=True)
+        pause 2.0
+        "images/an/an8day/an001/an_001_004-min.webp" with Dissolve(0.5, alpha=True)
+        pause 2.0
+        "images/an/an8day/an001/an_001_005-min.webp" with Dissolve(0.5, alpha=True)
+        pause 2.0
+        "images/an/an8day/an001/an_001_006-min.webp" with Dissolve(0.5, alpha=True)
+        pause 2.0
+        "images/an/an8day/an001/an_001_007-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an001/an_001_008-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an001/an_001_009-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an001/an_001_010-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an001/an_001_011-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        
+        repeat
 
     scene pi_ul_boat with fade
     
@@ -496,15 +586,93 @@ label day8:
 
     hide sp_sem_001
 
-    image ul_pi_beach_01 = Movie(play="video/video8day/ul_pi_beach_01.webm", size=(1920, 1080))
+    #image ul_pi_beach_01 = Movie(play="video/video8day/ul_pi_beach_01.webm", size=(1920, 1080))
 
-    scene ul_pi_beach_01 with fade
+    image ul_pi_beach_bg1 = "images/an/an8day/an006/an_006_000-min.webp"
+
+    image ul_pi_beach_01:
+ 
+    #Анимация Ульяна и Пионер на пляже 1 (здесь одна Ульяна)
+
+        "images/an/an8day/an006/an_006_001-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_002-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_003-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_004-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_005-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_006-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_007-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_008-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_009-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_010-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_011-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_012-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_013-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        
+        repeat
+
+
+    image ul_pi_beach_02:
+ 
+    #Анимация Ульяна и Пионер на пляже 2
+
+        "images/an/an8day/an006/an_006_014-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_015-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_016-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_017-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_018-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_019-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_020-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_021-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_022-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_023-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_024-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_025-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an8day/an006/an_006_026-min.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        
+        repeat
+
+
+
+
+
+
+    scene ul_pi_beach_bg1 with fade
+    
+    show ul_pi_beach_01
     
     "Мы искупались и лежали на песке я мечтала, смотрела на небо, пролетающих над головой птиц и облака."
  
-    image ul_pi_beach_02 = Movie(play="video/video8day/ul_pi_beach_02.webm", size=(1920, 1080))
+    #image ul_pi_beach_02 = Movie(play="video/video8day/ul_pi_beach_02.webm", size=(1920, 1080))
  
-    scene ul_pi_beach_02 with fade
+    scene ul_pi_beach_bg1
+    
+    show ul_pi_beach_02
  
     pause (10000000000)
     
@@ -711,7 +879,7 @@ label day8:
 
 # А капли так усыпляющее стучали по крыше... И кажется, я уснула у него на плече. Странно, но откуда же появилось одеяло? Вот почему мне не было холодно. Пионер, не желая меня будить, просто накрыл меня им, как одеялом... Это надо же, так крепко спать! Ничего не помню. Но где же он сам? Я тихонько выглянула  наружу. Костер уже весело потрескивал и пахло чем-то съестным. 
 
-    return
+    jump day9
 
 
 

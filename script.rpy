@@ -9,21 +9,21 @@ define al = Character('Алиса', color="#ff6600")
 
 define pi = Character('Пионер', color="#66ff99")
 
-define pe = Character('Петрович', color="#33ff66")
+define pe = Character('Петрович', color="#996666")
 
-define smu = Character('Смутьянов', color="#ff0000")
+define smu = Character('Смутьянов', color="#ff3300")
 
 define allchar = Character('Все', color="#ffffff")
 
-define sl = Character('Славя', color="#ffffff")
+define sl = Character('Славя', color="#ffff66")
 
-define shu = Character('Шурик', color="#ffffff")
+define shu = Character('Шурик', color="#6699ff")
 
-define el = Character('Электроник', color="#ffffff")
+define el = Character('Электроник', color="#ff9999")
 
-define le = Character('Лена', color="#ffffff")
+define le = Character('Лена', color="#660099")
 
-define mi = Character('Мику', color="#ffffff")
+define mi = Character('Мику', color="#00ff99")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

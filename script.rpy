@@ -11,6 +11,20 @@ define pi = Character('Пионер', color="#66ff99")
 
 define pe = Character('Петрович', color="#33ff66")
 
+define smu = Character('Смутьянов', color="#ff0000")
+
+define allchar = Character('Все', color="#ffffff")
+
+define sl = Character('Славя', color="#ffffff")
+
+define shu = Character('Шурик', color="#ffffff")
+
+define el = Character('Электроник', color="#ffffff")
+
+define le = Character('Лена', color="#ffffff")
+
+define mi = Character('Мику', color="#ffffff")
+
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",

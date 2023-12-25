@@ -882,21 +882,7 @@ label day9:
 
     hide sp_ul_013
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    pause (10000000000000000.0)
+    jump day10
 
 
 

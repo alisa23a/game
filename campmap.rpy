@@ -5,9 +5,9 @@ screen campmap:
     modal True
     
     imagemap:
-        ground "images/bg/campidle.png"
-        idle "images/bg/campidle.png"
-        hover "images/bg/camphover.png"
+        ground "images/bg/campidle.webp"
+        idle "images/bg/campidle.webp"
+        hover "images/bg/camphover.webp"
         
         if cm1:
             hotspot(147,251,149,66) action Hide ("campmap"), Show ("mus")

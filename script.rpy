@@ -9,6 +9,8 @@ define al = Character('Алиса', color="#ff6600")
 
 define pi = Character('Пионер', color="#66ff99")
 
+define pe = Character('Петрович', color="#33ff66")
+
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",

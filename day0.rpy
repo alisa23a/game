@@ -347,10 +347,9 @@ label start:
     hide prologue
 
     jump first_m
-
-label first_m:
     
 
+label first_m:  
 
     show first_morning
     
@@ -365,7 +364,7 @@ label first_m:
 
 label diary_pages_all:
 
-    show screen prolog_diary_page
+    show screen prolog_diary_page with fade
     
     pause (10000000000)
 

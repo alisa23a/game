@@ -834,6 +834,10 @@ screen stand_campfire():
 
 
 
+image progressbar = Transform(DynamicImage('images/info_stand/progressbar/[days].png'), xpos = 446, ypos = 34, xsize=1027, ysize=68) ## Динамически меняющаяся картинка с прогрессбаром.
+
+
+
 screen info_stand():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
@@ -871,6 +875,9 @@ screen info_stand():
         hotspot(1258,851,226,212) action Show ("inventory_slots")
 
     add "stand_campfire_anim"
+
+    add "progressbar"
+    
 
     imagebutton:
         xpos 1856 ypos 11

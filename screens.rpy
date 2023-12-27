@@ -625,54 +625,7 @@ style about_text is gui_text
 style about_label_text:
     size gui.label_text_size
 
-##
 
-screen infostand():
-
-    tag menu
-
-    vbox:
-
-        imagemap:
-
-            ground "gui/main_menu.png"
-            idle "gui/nav_normal.png"
-            hover "gui/nav_hover.png"
-
-            hotspot(90,178,539,81) action ShowMenu('save')
-            hotspot(90,277,506,81) action ShowMenu("load")
-            hotspot(90,378,539,81) action ShowMenu("preferences")
-            hotspot(90,478,333,81) action ShowMenu("about")
-            hotspot(90,580,371,81) action ShowMenu("help")
-            hotspot(90,674,286,86) action Quit(confirm=True)
-            hotspot(879,285,373,42) action Show ("stand_camp_rules")
-            hotspot(827,182,458,64) action Show ("stand_honor_board")
-            hotspot(894,330,118,108) action Show ("stand_advertisements")
-            hotspot(1137,340,102,106) action Show ("stand_mailbox")
-            hotspot(854,486,344,66) action Show ("stand_hikes")
-            hotspot(859,747,327,40) action Show ("stand_history")
-            hotspot(1307,181,415,182) action Show ("map")
-            hotspot(1308,364,419,123) action Show ("stand_wall_newspaper")
-            hotspot(1273,512,255,261) action Show ("stand_camp_map")
-            hotspot(1533,501,182,136) action Show ("stand_gallery")
-            hotspot(1542,684,175,101) action Show ("stand_tips_owl")
-            hotspot(724,869,282,187) action Show ("stand_diary")
-            hotspot(1548,851,226,212) action Show ("stand_inventory")
-
-    add "stand_campfire_anim"
-
-    textbutton _("Вернуться"):
-        style "return_button"
-
-        action Return()
-
-
-style infostand_label is gui_label
-style infostand_label_text is gui_label_text
-style infostand_text is gui_text
-
-style infostand_label_text:
-    size gui.label_text_size
 
 
 ## Экраны загрузки и сохранения ################################################
@@ -1715,3 +1668,46 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+
+
+##########################################
+## Экран, появляющийся в начале каждого дня, показывающий, какой по счёту игровой день наступил
+
+
+style currentDayStyle_text:
+    color "#fff"
+    font "fonts/mateur-webfont.ttf"
+    size 90
+
+screen current_day:
+
+    #tag menu
+    zorder 100
+    #modal True
+
+    add "images/day.webp"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (1366, 47)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "currentDayStyle"
+                text "День [days]"
+
+
+
+
+
+
+
+
+
+
+
+

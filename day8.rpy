@@ -4,10 +4,20 @@ style skytext_text:
 
 
 label day8:
+
+    default days = 8
+
+    stop music
+
+    show screen current_day with fade
+
+    $ show_quick_menu = False
+
+    pause (1000000000000000000.0)
+
+    hide screen current_day
+
     $ show_quick_menu = True
-    stop music 
-    scene black
-    with Pause(1)
     
     #image tent = Movie(play="video/video8day/tent_out.webm", size=(1920, 1080))
     
@@ -37,7 +47,7 @@ label day8:
         repeat
 
 
-    scene tent with fade
+    scene tent with dissolve
 
     play music "audio/audio8day/z_005.mp3"
 
@@ -155,9 +165,9 @@ label day8:
     
     "Как всегда, его глаз не было видно из-под свисающей челки и я не могла понять, в каком он настроении. Потом мы разожгли костер на острове."
 
-    "Потом сидели, пытаясь увидеть звезды в нахмуренном небе."
+    "Мы сидели у костра, пытаясь увидеть звезды в нахмуренном небе."
 
-    "Потом пошел дождь. Мы спрятались в шалаш."
+    "А потом пошел дождь. Мы спрятались в шалаш."
 
 
     

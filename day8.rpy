@@ -49,7 +49,7 @@ label day8:
 
     scene tent with dissolve
 
-    play music "audio/audio8day/z_005.mp3"
+    play music "audio/music/z_005.mp3"
 
     "Я проснулась от звонкого чириканья птиц. Утро было прохладным и вылезать из спальника не хотелось."
 
@@ -120,7 +120,7 @@ label day8:
 
     scene hut with fade
     
-    play music "audio/audio8day/z_007.mp3"
+    play music "audio/music/z_007.mp3"
     
     "Да, конечно! Я же сейчас с Пионером на острове! Мы уехали на лодке,  когда Пионер забрал меня с того пляжа, где мы последний раз расстались после того памятного события, когда я потерялась."
 
@@ -161,7 +161,7 @@ label day8:
 
     scene pi_ul_boat with fade
     
-    play music "audio/audio8day/z_004.mp3"
+    play music "audio/music/z_004.mp3"
     
     "Как всегда, его глаз не было видно из-под свисающей челки и я не могла понять, в каком он настроении. Потом мы разожгли костер на острове."
 
@@ -175,7 +175,7 @@ label day8:
 
     scene bg hut2 with fade
 
-    play music "audio/audio8day/z_003.mp3"
+    play music "audio/music/z_003.mp3"
 
     "А капли так усыпляющее стучали по крыше..."
 
@@ -208,7 +208,7 @@ label day8:
 
     scene an_005_001 with fade
 
-    play music "audio/audio8day/z_006.mp3"
+    play music "audio/music/z_006.mp3"
 
     "От дождя не осталось и следа. Только камни и листочки на деревьях блестели в лучах восходящего солнца."
 
@@ -226,7 +226,7 @@ label day8:
 
     scene cg ul_pi_fishing with fade
 
-    play music "audio/audio8day/z_002.mp3"
+    play music "audio/music/z_002.mp3"
 
     #pi "Тсс, тихо... Не вспугни. Они всё слышат и видят."
 
@@ -287,7 +287,7 @@ label day8:
 
     scene bg pdl with fade
 
-    play music "audio/audio8day/z_002.mp3"
+    play music "audio/music/z_002.mp3"
 
     "Позавтракав картошкой и рыбкой, вкусно запеченной Пионером над углями, мы отправились на лодке на остров На этом острове никто из нашего отряда ещё ни разу не был. Экскурсия отряда туда ожидалась со дня на день."
 
@@ -309,7 +309,7 @@ label day8:
 
     scene bg abandbeach with fade
 
-    play music "audio/audio8day/z_006.mp3"
+    play music "audio/music/z_006.mp3"
 
     "На его берегу рос высокий хвойный лес. Похоже, остров не был намыт песком, а всегда был частью суши."
 
@@ -357,7 +357,7 @@ label day8:
 
     scene bg pfis with fade
 
-    play music "audio/audio8day/z_001.mp3"
+    play music "audio/music/z_001.mp3"
     
     "Это было захватывающее зрелище. В голове сразу пролетели все картины из книжек про пиратов, которые я прочитала когда-то."
 
@@ -405,7 +405,7 @@ label day8:
 
     stop music
 
-    play music "audio/audio8day/z_009.mp3"
+    play music "audio/music/z_009.mp3"
 
     scene cg ul_pi_cheek with fade
 
@@ -466,7 +466,7 @@ label day8:
 
     stop music
 
-    play music "audio/audio8day/z_010.mp3"
+    play music "audio/music/z_010.mp3"
 
     scene bg reverside_2
 
@@ -753,7 +753,7 @@ label day8:
 
     scene bg dunes with dissolve
     
-    play music "audio/audio8day/z_002.mp3"
+    play music "audio/music/z_002.mp3"
 
     "Когда мы вернулись на отмель, было уже совсем жарко. Солнце стояло высоко и тень от шалаша почти исчезла. У меня в голове крутились мысли и я никак не могла собрать их вместе."
 
@@ -782,7 +782,7 @@ label day8:
 
     scene ul_pi_campfire with dissolve
     
-    play music "audio/audio8day/z_009.mp3"
+    play music "audio/music/z_009.mp3"
 
     "Мы развели костер и  поставили  воду на чай."
 
@@ -835,59 +835,9 @@ label day8:
     pi "Да, мяту."
 
 
+    scene black with fade
 
-
-
-
-
-    # screen skytext_1():
- 
-        # style_prefix "skytext"
-       
-        # text "Мы искупались и лежали на песке я мечтала, смотрела на небо, пролетающих над головой птиц и облака."
-        
-    # screen skytext_2():
- 
-        # style_prefix "skytext"
-        
-        # text "Some text 2"
-
-    # screen skytext_3(): 
-
-        # style_prefix "skytext"
-        
-        # text "Some text 3"
-
-        
-    # show screen skytext_1 with dissolve
-    
-    # pause (10000000000)
-    
-    # hide screen skytext_1
-    
-    # show screen skytext_2 with dissolve
-    
-    # pause (10000000000)
-
-    # hide screen skytext_2
-
-    # show screen skytext_3 with dissolve
-    
-    # pause (10000000000)
-
-
-
-
-
-
-    #scene ul_pi_beach with fade
-
-    #
-
-
-
-
-# А капли так усыпляющее стучали по крыше... И кажется, я уснула у него на плече. Странно, но откуда же появилось одеяло? Вот почему мне не было холодно. Пионер, не желая меня будить, просто накрыл меня им, как одеялом... Это надо же, так крепко спать! Ничего не помню. Но где же он сам? Я тихонько выглянула  наружу. Костер уже весело потрескивал и пахло чем-то съестным. 
+    stop music
 
     jump day9
 

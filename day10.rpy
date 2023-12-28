@@ -2,8 +2,6 @@ label day10:
 
     $ days = 10
 
-    stop music
-
     show screen current_day with fade
 
     $ show_quick_menu = False
@@ -14,7 +12,7 @@ label day10:
 
     $ show_quick_menu = True
 
-    play music "audio/audio10day/z_102.mp3"
+    play music "audio/music/z_102.mp3"
 
     image an_10_01: # Анимация с Ульяной, лежащей в комнате и пишущей дневник
         
@@ -101,7 +99,7 @@ label day10:
 
     # stop music
 
-    # play music "audio/audio10day/z_102.mp3"
+    # play music "audio/music/z_102.mp3"
 
     "Есть расписание занятий кружков и каждый записался в те кружки, которые ему нравятся."
 
@@ -140,7 +138,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_102.mp3"
+    play music "audio/music/z_102.mp3"
 
     "Сперва начинаем растягиваться. Это очень поможет нам в жизни, так сказала Алиса. На растяжку уходит почти всё занятие."
 
@@ -169,7 +167,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_127.mp3"
+    play music "audio/music/z_127.mp3"
 
     "А, чуть не забыла! У Мику в помещении музкружка живет кот Мармелад."
 
@@ -245,7 +243,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_078.mp3"
+    play music "audio/music/z_078.mp3"
 
     "Марик, тоже любит крутиться возле Алисы, когда она показывает нам растяжку."
 
@@ -266,7 +264,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_124.mp3"   
+    play music "audio/music/z_124.mp3"   
 
     scene an_d10_3_bg with dissolve
 
@@ -329,7 +327,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_125.mp3"
+    play music "audio/music/z_125.mp3"
 
     scene an_d10_3_bg with dissolve
 
@@ -343,7 +341,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_124.mp3"
+    play music "audio/music/z_124.mp3"
 
     scene an_d10_3_bg with dissolve
 
@@ -382,7 +380,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_125.mp3"
+    play music "audio/music/z_125.mp3"
 
     show sp_pe_006:
         yalign 0.0 subpixel True
@@ -393,7 +391,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_121.mp3"
+    play music "audio/music/z_121.mp3"
 
     scene bg stage3 with dissolve
 
@@ -421,7 +419,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_128.mp3"
+    play music "audio/music/z_128.mp3"
 
     show cg leaflet:
         yalign 0.2 subpixel True
@@ -433,7 +431,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_126.mp3"
+    play music "audio/music/z_126.mp3"
 
     scene bg stage3 with dissolve
 
@@ -441,7 +439,7 @@ label day10:
     
     stop music
 
-    play music "audio/audio10day/z_123.mp3"
+    play music "audio/music/z_123.mp3"
 
     scene cg tales_of_petrovich with dissolve
 
@@ -473,7 +471,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_123.mp3"
+    play music "audio/music/z_123.mp3"
 
     scene cg bathyscaphe
     
@@ -519,7 +517,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_130.mp3" 
+    play music "audio/music/z_130.mp3" 
 
 
     scene bg shouse
@@ -540,13 +538,13 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_123.mp3"
+    play music "audio/music/z_123.mp3"
 
     sl "(Пытаясь снять напряжение) \nА что большевики?"
 
     # stop music
 
-    # play music "audio/audio10day/z_131.mp3"
+    # play music "audio/music/z_131.mp3"
 
     scene an_d10_3_bg with dissolve
 
@@ -572,7 +570,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_132.mp3"
+    play music "audio/music/z_132.mp3"
     
     ul "Я готова!"
 
@@ -583,7 +581,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_123.mp3"
+    play music "audio/music/z_123.mp3"
 
 
     el "Так деда, там же в лебедке электричества нету. И наверное, обмотка давно тю-тю..."
@@ -599,7 +597,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_140.mp3"
+    play music "audio/music/z_140.mp3"
 
     scene bg winch
 
@@ -655,7 +653,7 @@ label day10:
 
     stop music
 
-    play music "audio/audio10day/z_102.mp3"
+    play music "audio/music/z_102.mp3"
 
 
     scene an_d10_01_bg with dissolve
@@ -670,6 +668,11 @@ label day10:
 
 
     pause (10000000000000000000000.0)
+
+
+    scene black with fade
+
+    stop music
 
     jump day11
 

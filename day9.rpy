@@ -2,7 +2,7 @@ label day9:
     
     $ days = 9
     
-    stop music
+
 
     show screen current_day with fade
 
@@ -14,7 +14,7 @@ label day9:
 
     $ show_quick_menu = True
 
-    play music "audio/audio9day/z_026.mp3" noloop
+    play music "audio/music/z_026.mp3" noloop
 
     scene cg alise_guitar with dissolve:
         # Start at full image
@@ -29,7 +29,7 @@ label day9:
 
     stop music
 
-    play music "audio/audio9day/z_023.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene bg auhouse_crop2
     
@@ -213,7 +213,7 @@ label day9:
 
     stop music
     
-    play music "audio/audio9day/z_018.mp3"
+    play music "audio/music/z_018.mp3"
 
     show injection
  
@@ -223,7 +223,7 @@ label day9:
 
     stop music
 
-    play music "audio/audio9day/z_020.mp3"
+    play music "audio/music/z_020.mp3"
 
     scene cg alise_guitar with dissolve:
         # Start at full image
@@ -238,7 +238,7 @@ label day9:
 
     stop music
 
-    play music "audio/audio9day/z_023.mp3" 
+    play music "audio/music/z_023.mp3" 
  
     show sp_ul_012:
         yalign 0.05 subpixel True
@@ -317,7 +317,7 @@ label day9:
 
     # stop music
 
-    # play music "audio/audio9day/z_019.mp3"
+    # play music "audio/music/z_019.mp3"
 
     scene bg auhouse_crop1
 
@@ -342,7 +342,7 @@ label day9:
 
     stop music
 
-    play music "audio/audio9day/z_012.mp3"
+    play music "audio/music/z_012.mp3"
 
     "Через пол часа мы уже бодро шагали по старой дороге, которой решено было дать название - ДОРОГА В НИКУДА."
 
@@ -490,7 +490,7 @@ label day9:
 
     stop music
     
-    play music "audio/audio9day/z_023.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene bg lyhouse
 
@@ -556,7 +556,7 @@ label day9:
 
     stop music
     
-    play music "audio/audio9day/z_025.mp3"
+    play music "audio/music/z_025.mp3"
 
     pause (10000000000000000.0)
 
@@ -667,7 +667,7 @@ label day9:
     
     stop music
     
-    play music "audio/audio9day/z_015.mp3"
+    play music "audio/music/z_015.mp3"
 
     pause (10000000000000000.0)
 
@@ -727,7 +727,7 @@ label day9:
 
     # stop music
     
-    # play music "audio/audio9day/z_014.mp3"
+    # play music "audio/music/z_014.mp3"
 
 
     scene cg mica
@@ -747,7 +747,7 @@ label day9:
 
     stop music fadeout 1.0
 
-    play music "audio/audio9day/z_014.mp3"
+    play music "audio/music/z_014.mp3"
 
     scene bg in_cave
 
@@ -802,7 +802,7 @@ label day9:
 
     # stop music fadeout 1.0
 
-    # play music "audio/audio9day/z_013.mp3"
+    # play music "audio/music/z_013.mp3"
 
     show sp_al_005:
         yalign 0.1 subpixel True
@@ -817,7 +817,7 @@ label day9:
 
     stop music fadeout 1.0
 
-    play music "audio/audio9day/z_016.mp3"
+    play music "audio/music/z_016.mp3"
 
     show sp_ul_016:
         yalign 0.05 subpixel True
@@ -892,10 +892,12 @@ label day9:
 
     ul "(Вздохнув) \nДоговорились."
 
-    hide sp_ul_013
+
+    scene black with fade
+
+    stop music
 
     jump day10
-
 
 
 return

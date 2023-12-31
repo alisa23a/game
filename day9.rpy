@@ -1,8 +1,8 @@
 label day9:
     
     $ days = 9
-    
 
+    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
@@ -13,6 +13,8 @@ label day9:
     hide screen current_day
 
     $ show_quick_menu = True
+
+    stop music
 
     play music "audio/music/z_026.mp3" noloop
 
@@ -36,7 +38,7 @@ label day9:
     show sp_al_045:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну слава богу! \n(обнимает)"
     
@@ -45,7 +47,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "Никто меня не хватился?"
 
@@ -54,7 +56,7 @@ label day9:
     show sp_al_045:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Нет. Ты надежно прикрыта легендой о твоей простуде. Кстати, надо нагнать температуру и отправить тебя к Виоле. Я уже приготовила кусочек сахара с каплей йода. Это сработает. Съешь."
 
@@ -63,7 +65,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "Ладно. А есть другой способ?"
 
@@ -72,7 +74,7 @@ label day9:
     show sp_al_044:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Есть, но он тебе не понравится."
 
@@ -81,7 +83,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "Интересно, интересно…"
 
@@ -90,7 +92,7 @@ label day9:
     show sp_al_053:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Понимаешь, (краснеет), нужно очистить луковицу, слегка надрезать ее, чтобы сок выделялся и поместить... Ну в общем... Поместить ее в «одно место», И через полчаса... "
 
@@ -99,7 +101,7 @@ label day9:
     show sp_ul_024:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "Ужас какой!"
     
@@ -108,7 +110,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "Нет. Это точно, мне не подходит. Лучше сахар. Сахар, это нормально. А есть чем померить температуру?"
 
@@ -117,7 +119,7 @@ label day9:
     show sp_al_052:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Вынимает градусник) \nА это что? Выпросила у медички."
 
@@ -126,7 +128,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "(Кидает сахар с йодом в рот и ставит себе градусник) \nЯ знаю, по лицу вижу, что ты хочешь спросить про Пионера, но молчишь из деликатности. Ну спроси."
 
@@ -135,7 +137,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Да хочу. Тебе там понравилось? Расскажешь? Какой он вообще? Он был, надеюсь, джентльменом?"
 
@@ -144,7 +146,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "Да.. Он хороший. Ничего такого не позволял себе. Если ты об этом. Ловили рыбу. Я поймала несколько. Сама! Представляешь! Но главное, он много рассказал об истории лагеря. Про всякие странные вещи.. "
 
@@ -153,7 +155,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Какие?"
 
@@ -162,7 +164,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     ul "На всю ночь рассказов. В общем, меня распирает от желания поделиться. Но вечером. Сначала нужно сделать алиби. Посмотри, есть температура?"
 
@@ -171,7 +173,7 @@ label day9:
     show sp_al_052:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Забирая градусник) \nОго, аж тридцать восемь и два. Быстро йод сработал. Беги в медпункт. Выпроси еще один день. Думаю, мы сможем метнуться и посмотреть окрестности."
 
@@ -243,7 +245,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
    
     "Дорога, ведущая от лагеря куда-то в лес, постоянно меня манила. И я завела с Алисой разговор."
 
@@ -254,7 +256,7 @@ label day9:
     show sp_al_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "А зачем нам в лес?"
  
@@ -263,7 +265,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Ну, помнишь ту дорогу? Как думаешь, куда она ведет? Ни разу Ольга Дмитриевна не ответила мне на этот вопрос. Может, там ТАЙНА?"
 
@@ -272,7 +274,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Везде тебе тайны мерещатся, Ленина. Ну дорога и дорога. Старая. Видно, что по ней сто лет никто не ездил. В ту сторону нам запрещено ходить, слышала же? Она аж за поселок Горняков идет. Там глухомань. Заблудимся, что потом?"
 
@@ -281,7 +283,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Ну хотя бы одним глазком глянуть и сразу обратно! Я же вижу, ты тоже хочешь посмотреть. Тетя Люба говорила, что как-то раз там рысь видели. Ну, на дороге. Она зимой приходила."
 
@@ -290,7 +292,7 @@ label day9:
     show sp_al_045:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Откуда тетя Люба знает-то?"
 
@@ -299,7 +301,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Ну, она же поселковая. Живет рядом, а на лето устраивается кашеварить в лагерь. Петрович про нее рассказывал. А рысь, она пришла в лагерь, может от голода? Что-то стащила на кухне и ушла по этой дороге."
 
@@ -310,7 +312,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Подумав) \nХорошо. Давай так, сбегаем по быстрому. Если дорога совсем плохая будет, мы вернемся. Ладно? Сейчас я фонарики и рюкзак возьму."
 
@@ -324,7 +326,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "И надо забежать в столовку, взять сухарей, я знаю, где тетя Люба их сушит. И воды."
 
@@ -333,7 +335,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Вода там есть, наверно. С горы много ручьев стекает. Флягу возьмем и если что, наберем. Вон, жара какая. Тащить лишнее? Нет уж, увольте! Чеши за сухарями, а я рюкзак соберу."
 
@@ -355,7 +357,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Пойдем налегке."
 
@@ -364,7 +366,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А когда я съем припасы, они что, улетучатся?"
 
@@ -373,7 +375,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Нет."
 
@@ -382,7 +384,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Но тогда получается, мы все равно несем их, только внутри? Не получается НАЛЕГКЕ."
 
@@ -391,7 +393,7 @@ label day9:
     show sp_al_006:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну ты вредина! Какая разница? Ну они тогда правильно распределятся по организму."
 
@@ -400,7 +402,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А разве в моем рюкзаке они распределены неправильно? Я положила как ты учила – все тяжелое вниз, а легкое наверх. Вот когда я несу рюкзак, то моя котлетка находится в нем, а рюкзак ниже уровня пояса, так?"
 
@@ -409,7 +411,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну, так."
 
@@ -418,7 +420,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Вот. Теперь я съедаю котлетку и она попадает в желудок. Так?"
 
@@ -427,7 +429,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну... так."
 
@@ -436,7 +438,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А желудок находиться выше уровня пояса! Значит центр тяжести нарушается. И получается не налегке, а НАТЯЖЕЛЕ! Нет, так не пойдет. Пусть уж лучше мои котлетки будут в рюкзаке, пока мы идем."
 
@@ -445,7 +447,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А сейчас пока съедим твои. Правильно я придумала?"
 
@@ -454,7 +456,7 @@ label day9:
     show sp_al_006:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Удивлённо) \nВот хитрюга! Ладно, давай сначала мои."
 
@@ -463,7 +465,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Смотри, что это там среди веток?"
 
@@ -472,7 +474,7 @@ label day9:
     show sp_al_010:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Где? Я не вижу. Ты покажи рукой."
 
@@ -499,7 +501,7 @@ label day9:
     show sp_al_054:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ой. Это же... Это же ОНА, Рысь! Бежим! Да не к дереву, глупая! Куда?! Назад! Прячься!"
 
@@ -508,7 +510,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А чего бояться? Ну кошечка. Ну немного больше, чем Тузик. Она точно не злая. Вспугнешь её своими воплями. \nКыс-кыс-кыс."
 
@@ -517,7 +519,7 @@ label day9:
     show sp_al_054:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Куда ты?! Она не даст себя погладить! Это же дикая зверюга."
 
@@ -526,7 +528,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А я ей котлетку! Ну-ка, дай мне мой рюкзак."
 
@@ -535,7 +537,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну ты отчаянная... Ладно, держи котлету. Просто кинь её возле дерева. Она сама возьмет, если захочет. Только не подходи к ней! Я слышала, они на жертву прыгают сверху. Так охотятся. Бац, на холку и кранты!"
 
@@ -544,7 +546,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "(Бросая котлету) \nКыс-кыс-кыс... Давай, кушай, маленькая. Смотри, обнюхивает. Нет, не взяла. Убегает! Это ты виновата. Зверюга, зверюга! Она, может, обиделась."
 
@@ -563,7 +565,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ничего она не обиделась, просто она ест сырое мясо, а не как мы, котлеты. Ладно, она уже не вернется. Красивая. Ты видела? Грациозно так спрыгнула с дерева. Рассказать кому, ведь не поверят. Эх, фотоаппарат бы!"
 
@@ -572,7 +574,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Да, фотик бы не помешал. Надо будет одолжить в нашей фотостудии. Обидно. Уже столько всякого интересного случилось, а мы не фотографировали. Что останется в памяти, когда мы будем старенькими? Что покажем внукам?"
 
@@ -581,7 +583,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Скажут, врёшь ты все, бабушка Алиса! \n(Передразнивает Алису)"
 
@@ -590,7 +592,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну, до этого еще далеко. Ещё нафотаем всяко-разно. Я лично, бабушкой не буду."
 
@@ -599,7 +601,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Я тоже до старости доживать не буду. Скучно это. Идешь такая карга, с клюкой, а все тебе место уступают на лавочке. «Садитесь, бабуля!» Фу, кошмар! Лучше умереть молодой, со знаменем в руках, за рабочее дело. Как дедушка Ленин."
 
@@ -608,7 +610,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Так вот, он как раз умер не со знаменем, а в кресле. Больной и малость не в себе. И к тому же, он уже стареньким был."
 
@@ -617,7 +619,7 @@ label day9:
     show sp_ul_016:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Не верю! Его Каплан убила! Я читала! Нет, Ленин всегда молодой! Так в песне поется!"
 
@@ -626,7 +628,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Собирая рюкзаки) \nЛадно, уговорила. Умрем молодыми. Пошли уже! Нам еще идти вон до той горы, а вернуться нужно до вечерней проверки."
 
@@ -637,7 +639,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Дорога же есть. И фонарики мы взяли. Нет, не заблудимся. А вот тропка идет от дуба. Давай одним глазком глянем? Там точно ТАЙНА. Я же чую. Я всегда такое чую."
 
@@ -646,7 +648,7 @@ label day9:
     show sp_al_044:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Слегка поколебавшись) \nНу ладно. Только одним глазком! Чуйка у неё, понимаешь! А вот я чую, опоздаем мы на вечернюю проверку. И влетит нам, мама не горюй!"
 
@@ -655,7 +657,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Не влетит. Пошли! Пошли! \n(Тянет Алису за руку)"
 
@@ -674,7 +676,7 @@ label day9:
     show sp_al_003:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну вот и вся твоя тайна. \n(насмешливо). \nИ что твоя чуйка? Где тайна?"
 
@@ -683,7 +685,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Погоди, смотри. \n(раздвигает руками кусты) \nВидишь, нора?"
 
@@ -692,7 +694,7 @@ label day9:
     show sp_al_010:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Фу ты. Вот это да! В такую нору медведь пролезет. Не, я туда не пойду. А вдруг там и впрямь медведь или рысь? Не думаю, что им понравится, что мы вломились к ним в дом."
 
@@ -701,7 +703,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Нет, это не нора. Смотри-ка, колея какая-то. Да, вот, точно, остатки какой-то тележки. Наверное, тут что-то возили из этой пещеры."
 
@@ -710,7 +712,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Да, пожалуй. Вот и остатки груза в тележке. Это знаешь что?"
 
@@ -719,7 +721,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Что? Камешки какие-то и блестят очень. Прямо как стеклышки! Красиво, радуга."
 
@@ -741,7 +743,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Только судя по тележке, очень давно. Видишь, от колеса только ободок остался. И тот проржавел давно. И скобы какие-то."
 
@@ -756,7 +758,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "А зачем слюда?"
 
@@ -766,7 +768,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Ну, раньше её вместо стекол использовали в окнах. Конечно тускло. Но свет все-таки хоть какой-то. Крыши крыли вместо черепицы как в поселке Горняков. И ещё в приборах вроде, как изолятор. Это надо у кибернетиков спросить."
 
@@ -775,7 +777,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Можно я кусочек слюды возьму?"
 
@@ -785,7 +787,7 @@ label day9:
     show sp_al_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Нет, ты так быстро захламишь наш маленький домик. Да и не нужен он тебе. Еще булыжники мы с собой не таскали."
 
@@ -794,7 +796,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "(Тут же забыв о слюде) \nА давай пойдем туда? Мне страсть как хочется в пещеру! Я в пещерах никогда не была."
 
@@ -807,7 +809,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Мы на пещеру не рассчитывали. Заблудимся. У нас даже веревки нет. Если там ходы запутанные, то как выберемся без веревки? И потом, батареек хватит максимум на час. Нет. Если идти, то надо хорошо подготовиться."
 
@@ -822,7 +824,7 @@ label day9:
     show sp_ul_016:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "(С сожалением) \nВот жалость-то какая."
 
@@ -831,7 +833,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Да, ты права. Это я немного увлеклась. Ты мудрая. Что-то мне в голову сразу про веревку и батарейки не пришло."
 
@@ -841,7 +843,7 @@ label day9:
     show sp_al_006:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "Зато мы можем съесть наши котлеты прямо в пещере. Пещерный ужин, представляешь? Это же романтично. Я вот в пещере никогда не ужинала еще."
 
@@ -850,7 +852,7 @@ label day9:
     show sp_ul_014:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "(Насмешливо) \nАга, и не завтракала и не обедала и не полдничала и не..."
 
@@ -860,7 +862,7 @@ label day9:
     show sp_al_003:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al "(Толкает ее) \nДа ладно тебе! \n(Обе смеются)"
 
@@ -869,7 +871,7 @@ label day9:
     show sp_ul_012:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "Хорошо, доставай."
 
@@ -879,7 +881,7 @@ label day9:
     show sp_al_005:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
     
     al " Только чур, как съедим бутерброды, сразу назад в лагерь. Договорились?"
 
@@ -888,7 +890,7 @@ label day9:
     show sp_ul_013:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.2
 
     ul "(Вздохнув) \nДоговорились."
 

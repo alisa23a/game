@@ -9,6 +9,8 @@ label day8:
 
     stop music
 
+    play music "audio/music/z_300.mp3"
+
     show screen current_day with fade
 
     $ show_quick_menu = False
@@ -48,6 +50,8 @@ label day8:
 
 
     scene tent with dissolve
+
+    stop music
 
     play music "audio/music/z_005.mp3"
 
@@ -318,7 +322,7 @@ label day8:
     show sp_sem_001:
         yalign -0.1 subpixel True
         xalign .5 subpixel True
-        zoom 0.8
+        zoom 1.0
 
 
     pi "Да, настоящая пиратская гавань."
@@ -329,8 +333,8 @@ label day8:
 
     show sp_ul_014:
         yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 0.4
+        xalign 0.0 subpixel True
+        zoom 1.0
     
     ul "Тогда я буду первая!"
  
@@ -345,7 +349,7 @@ label day8:
     show sp_sem_001:
         yalign -0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.8
+        zoom 1.0
     
     pi "Вот то о чем я говорил!"
 
@@ -364,7 +368,7 @@ label day8:
     show sp_sem_001:
         yalign -0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.8
+        zoom 1.0
     
     pi "Тут после войны была рыбацкая артель. Они выловили почти всю рыбу в реке. Потом артель закрылась, но остался баркас. Его хотели увезти, но не смогли. Проломили ему борт, чтобы никому не достался и уехали." 
     
@@ -375,7 +379,7 @@ label day8:
     show sp_ul_013:
         yalign -0.1 subpixel True
         xalign .0 subpixel True
-        zoom 0.4
+        zoom 1.0
     
     ul "А что с рыбой?"
 
@@ -386,7 +390,7 @@ label day8:
     show sp_sem_001:
         yalign -0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.8
+        zoom 1.0
 
     pi "А что с ней будет? Расплодилась снова. Ты же её ела сегодня."
 
@@ -395,7 +399,7 @@ label day8:
     show sp_ul_014:
         yalign -0.1 subpixel True
         xalign .0 subpixel True
-        zoom 0.4
+        zoom 1.0
 
     ul "И правда."
 
@@ -416,7 +420,7 @@ label day8:
     show sp_ul_013:
         yalign -0.1 subpixel True
         xalign .0 subpixel True
-        zoom 0.4
+        zoom 1.0
 
     "Я посмотрела на него очень сурово и спросила:"
 
@@ -427,7 +431,7 @@ label day8:
     show sp_sem_009:
         yalign -0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.8
+        zoom 1.0
 
     pi "Ты не подумай ничего, я по дружески…"
 
@@ -438,7 +442,7 @@ label day8:
     show sp_ul_013:
         yalign -0.1 subpixel True
         xalign .0 subpixel True
-        zoom 0.4
+        zoom 1.0
 
     ul "Больше не делай так без разрешения."
 
@@ -447,7 +451,7 @@ label day8:
     show sp_sem_004:
         yalign -0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.8
+        zoom 1.0
 
     "Он закивал. \nИ я сказала, сделав серьезное лицо (очень серьезное):"
 
@@ -456,7 +460,7 @@ label day8:
     show sp_ul_013:
         yalign -0.1 subpixel True
         xalign .0 subpixel True
-        zoom 0.4
+        zoom 1.0
 
     ul "– Тогда... можешь поцеловать, только в щеку."
     
@@ -473,7 +477,7 @@ label day8:
     show sp_ul_012:
         yalign -0.1 subpixel True
         xalign .0 subpixel True
-        zoom 0.4
+        zoom 1.0
 
     ul "А ты давно живешь на этом острове?"
 
@@ -482,7 +486,7 @@ label day8:
     show sp_sem_001:
         yalign -0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.8
+        zoom 1.0
 
     pi "Давно… Очень давно."
 

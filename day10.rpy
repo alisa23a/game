@@ -2,6 +2,8 @@ label day10:
 
     $ days = 10
 
+    play music "audio/music/z_300.mp3"
+
     show screen current_day with fade
 
     $ show_quick_menu = False
@@ -11,6 +13,8 @@ label day10:
     hide screen current_day
 
     $ show_quick_menu = True
+
+    stop music
 
     play music "audio/music/z_102.mp3"
 
@@ -58,36 +62,84 @@ label day10:
     "Как-то я забыла написать про наши кружки. Ну, то есть я написала, что они есть, но они настолько интересные, что нужно написать отдельно."
 
     scene bg mus with dissolve
+    
+    show sp_mi_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
 
     "У нас есть: Музыкальный кружок «Меломан», который ведет Мику. "
 
     scene bg balet_room_empty with dissolve
 
+    show sp_al_037 at flip:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     "Хореографический кружок «Прима», который ведет Алиса"
 
     scene bg library with dissolve
+
+    show sp_je_001:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
 
     "Ещё есть библиотечный кружок «Юный полиглот», который ведет Женя."
 
     scene bg dining with dissolve
 
+    show sp_le_001 at flip:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     "И кружок «Вышивальщица», который ведет Лена в помещении столовой. Там есть такая перегородочка, они берут столы и стулья в зале."
 
     scene bg fotoc with dissolve
+
+    show sp_sl_001:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
 
     "А также кружок-фотостудия «Совенок», который ведет Славя."
 
     scene bg handmade with dissolve
 
+    show sp_el_001:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    show sp_shu_001:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     "Ну и куда без кружка «Умелые руки» с Шуриком и Электроником во главе."
 
     scene bg stadium with dissolve
+
+    show sp_fi_001:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     "Также, на нашем стадионе, Тарас Юрьевич ведет секцию «Юный Спортсмен»."
 
     scene bg fine_arts with dissolve
 
     "И наконец, тоже мой любимый кружок, кружок ИЗО. Изобразительного искусства."
+
+    #scene bg fine_arts with dissolve
+
+    show sp_sem_013:
+        yalign 1.0 subpixel True
+        xalign 0.5 subpixel True
+        zoom 0.8
+    with Dissolve(0.3)
 
     "Правда я не рисовала еще, а только позировала Семену (об этом отдельно напишу). Но я наверстаю."
 
@@ -136,9 +188,9 @@ label day10:
 
     scene cg balet_room_training with dissolve
 
-    stop music
+    # stop music
 
-    play music "audio/music/z_102.mp3"
+    # play music "audio/music/z_102.mp3"
 
     "Сперва начинаем растягиваться. Это очень поможет нам в жизни, так сказала Алиса. На растяжку уходит почти всё занятие."
 
@@ -355,9 +407,9 @@ label day10:
     scene bg stage3
 
     show sp_smu_001:
-        yalign 0.25 subpixel True
-        xalign 0.5 subpixel True
-        #zoom 0.8
+        yalign -0.0 subpixel True
+        xalign 0.4 subpixel True
+        zoom 1.2
 
     smu "Враки всё это! Буржуазные сплетни! Про прииск вы нам сто раз рассказывали. Не было тут никакого прииска. И золота отродясь не было! Если бы было, бы мы бы его тут находили, под ногами бы валялось."
 
@@ -370,9 +422,9 @@ label day10:
     scene bg stage3
 
     show sp_smu_001:
-        yalign 0.25 subpixel True
-        xalign 0.5 subpixel True
-        #zoom 0.8
+        yalign -0.0 subpixel True
+        xalign 0.4 subpixel True
+        zoom 1.2
 
     smu "Ну бочка такая, с иллюминатором и ржавым люком, которая на Рачьей отмели. От неё еще цепь в омут тянется. Неужели не видели? \n(покосился опасливо на палку Петровича)"
 
@@ -396,18 +448,18 @@ label day10:
     scene bg stage3 with dissolve
 
     show sp_smu_012:
-        yalign 0.25 subpixel True
-        xalign 0.5 subpixel True
-        #zoom 0.8
+        yalign 0.0 subpixel True
+        xalign 0.4 subpixel True
+        zoom 1.2
 
     smu "Это противозаконно! Рукоприкладство! Это произвол администрации!"
 
     scene bg stage4 with dissolve
 
     show sp_smu_010:
-        yalign -0.25 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.5 subpixel True
-        zoom 0.35
+        zoom 0.5
 
     "Смутьянов вскакивает на сцену эстрады как на трибуну и вытаскивает пачку листовок, написанных от руки."
     
@@ -469,9 +521,9 @@ label day10:
 
     pe "А вот эта история как раз про прииск. Я хотел рассказать. Да тут этот смутьян... \n(прокашлялся)"
 
-    stop music
+    # stop music
 
-    play music "audio/music/z_123.mp3"
+    # play music "audio/music/z_123.mp3"
 
     scene cg bathyscaphe
     
@@ -607,9 +659,9 @@ label day10:
 
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign -0.2 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.0
 
 
     ul "А как же лебедка с пристани батискаф (ну, то есть колокол), поднимала? Ведь омут там, а она здесь."
@@ -617,9 +669,9 @@ label day10:
     hide sp_ul_012
 
     show sp_pe_001:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
 
 
     pe "Хех! А ты наблюдательная и смышленая. Вот бы мне внучку такую! "
@@ -627,27 +679,27 @@ label day10:
     hide sp_pe_001
 
     show sp_pe_005:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
 
     pe "Колокол вместе с понтоном буксировали к омуту течением. Ну, сначала привязывали его и помаленьку травили канат. Его течение аккурат в центр омута приносило. Там якорь бросали, ну и вперед."
 
     hide sp_pe_005
 
     show sp_ul_014:
-        yalign 0.05 subpixel True
+        yalign -0.2 subpixel True
         xalign 0.0 subpixel True
-        zoom 0.45
+        zoom 1.0
 
     ul "А назад как?"
 
     hide sp_ul_014
 
     show sp_pe_005:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 1.0 subpixel True
-        zoom 0.5
+        zoom 1.2
 
     pe "Потом назад таким же способом. Лебедку крутили, канат наматывался и против течения понтон шел назад, к пристани."
 

@@ -4,7 +4,7 @@ screen prolog_diary_page:
     modal True
     
     imagemap:
-        ground "images/diary/diary1.jpg"
+        ground "images/diary/diary1.webp"
         idle "gui/dnav1idle.png"
         hover "gui/dnav1hover.png"
         
@@ -17,7 +17,7 @@ screen prolog_diary_page2:
     modal True
     
     imagemap:
-        ground "images/diary/diary2.jpg"
+        ground "images/diary/diary2.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -31,7 +31,7 @@ screen prolog_diary_page3:
     modal True
     
     imagemap:
-        ground "images/diary/diary3.jpg"
+        ground "images/diary/diary3.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -47,7 +47,7 @@ screen prolog_diary_page4:
     #$ renpy.music.set_pause(False, channel="music")
 
     imagemap:
-        ground "images/diary/diary4.jpg"
+        ground "images/diary/diary4.webp"
         idle "gui/diary4i.png"
         hover "gui/diary4h.png"
         
@@ -82,7 +82,7 @@ screen prolog_diary_page5:
     modal True
     
     imagemap:
-        ground "images/diary/diary5.jpg"
+        ground "images/diary/diary5.webp"
         idle "gui/diary5i.png"
         hover "gui/diary5h.png"
         
@@ -111,7 +111,7 @@ screen prolog_diary_page6:
     modal True
     
     imagemap:
-        ground "images/diary/diary6.jpg"
+        ground "images/diary/diary6.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -125,7 +125,7 @@ screen prolog_diary_page7:
     modal True
     
     imagemap:
-        ground "images/diary/diary7.jpg"
+        ground "images/diary/diary7.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -139,7 +139,7 @@ screen prolog_diary_page8:
     modal True
     
     imagemap:
-        ground "images/diary/diary8.jpg"
+        ground "images/diary/diary8.webp"
         idle "gui/diary8i.png"
         hover "gui/diary8h.png"
         
@@ -153,7 +153,7 @@ screen prolog_d8pic_page:
     zorder 110
     modal True
 
-    add "images/prolog/boat.jpg"
+    add "images/prolog/boat.webp"
     imagebutton:
         xpos 0 ypos 0
         xsize 1920 ysize 1080
@@ -167,7 +167,7 @@ screen prolog_diary_page9:
     modal True
     
     imagemap:
-        ground "images/diary/diary9.jpg"
+        ground "images/diary/diary9.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -181,7 +181,7 @@ screen prolog_diary_page10:
     modal True
     
     imagemap:
-        ground "images/diary/diary10.jpg"
+        ground "images/diary/diary10.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -196,7 +196,7 @@ screen day2_diary_page11:
     modal True
     
     imagemap:
-        ground "images/diary/diary11.jpg"
+        ground "images/diary/diary11.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
  
@@ -210,7 +210,7 @@ screen day2_diary_page12:
     modal True
     
     imagemap:
-        ground "images/diary/diary12.jpg"
+        ground "images/diary/diary12.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -224,7 +224,7 @@ screen day2_diary_page13:
     modal True
     
     imagemap:
-        ground "images/diary/diary13.jpg"
+        ground "images/diary/diary13.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -238,7 +238,7 @@ screen day2_diary_page13choice:
     modal True
     
     imagemap:
-        ground "images/diary/diary13choice.jpg"
+        ground "images/diary/diary13choice.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -252,7 +252,7 @@ screen day2_diary_page14:
     modal True
     
     imagemap:
-        ground "images/diary/diary14.jpg"
+        ground "images/diary/diary14.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -267,7 +267,7 @@ screen day3_diary_page15:
     modal True
     
     imagemap:
-        ground "images/diary/diary15.jpg"
+        ground "images/diary/diary15.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -281,7 +281,7 @@ screen day3_diary_page16:
     modal True
     
     imagemap:
-        ground "images/diary/diary16.jpg"
+        ground "images/diary/diary16.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -295,7 +295,7 @@ screen day3_diary_page17:
     modal True
     
     imagemap:
-        ground "images/diary/diary17.jpg"
+        ground "images/diary/diary17.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
@@ -309,19 +309,307 @@ screen day3_diary_page18:
     modal True
     
     imagemap:
-        ground "images/diary/diary18.jpg"
+        ground "images/diary/diary18.webp"
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
         hotspot(24,464,112,152) action Hide ("day3_diary_page18"), Show ("day3_diary_page17")
-        hotspot(1784,464,112,152) action Hide ("day3_diary_page18"), Jump ("day8")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page18"), Show ("day3_diary_page19")
         #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+screen day3_diary_page19:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary19.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page19"), Show ("day3_diary_page18")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page19"), Show ("day3_diary_page20")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+screen day3_diary_page20:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary20.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page20"), Show ("day3_diary_page19")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page20"), Show ("day3_diary_page21")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+screen day3_diary_page21:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary21.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page21"), Show ("day3_diary_page20")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page21"), Show ("day3_diary_page22")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+screen day3_diary_page22:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary22.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page22"), Show ("day3_diary_page21")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page22"), Show ("day3_diary_page23")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+screen day3_diary_page23:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary23.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page23"), Show ("day3_diary_page22")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page23"), Show ("day3_diary_page24")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+screen day3_diary_page24:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary24.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page24"), Show ("day3_diary_page23")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page24"), Show ("day3_diary_page25")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page25:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary25.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page25"), Show ("day3_diary_page24")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page25"), Show ("day3_diary_page26")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page26:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary26.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page26"), Show ("day3_diary_page25")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page26"), Show ("day3_diary_page27")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page27:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary27.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page27"), Show ("day3_diary_page26")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page27"), Show ("day3_diary_page28")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page28:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary28.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page28"), Show ("day3_diary_page27")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page28"), Show ("day3_diary_page29")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page29:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary29.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page29"), Show ("day3_diary_page28")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page29"), Show ("day3_diary_page30")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page30:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary30.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page30"), Show ("day3_diary_page29")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page30"), Show ("day3_diary_page31")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page31:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary31.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page31"), Show ("day3_diary_page30")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page31"), Show ("day3_diary_page32")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page32:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary32.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page32"), Show ("day3_diary_page31")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page32"), Show ("day3_diary_page33")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page33:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary33.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page33"), Show ("day3_diary_page32")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page33"), Show ("day3_diary_page34")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page34:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary34.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page34"), Show ("day3_diary_page33")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page34"), Show ("day3_diary_page35")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page35:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary35.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page35"), Show ("day3_diary_page34")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page35"), Show ("day3_diary_page36")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page36:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary36.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page36"), Show ("day3_diary_page35")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page36"), Show ("day3_diary_page37")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page37:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary37.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page37"), Show ("day3_diary_page36")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page37"), Show ("day3_diary_page38")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page38:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary38.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page38"), Show ("day3_diary_page37")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page38"), Show ("day3_diary_page39")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen day3_diary_page39:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/diary39.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("day3_diary_page39"), Show ("day3_diary_page38")
+        hotspot(1784,464,112,152) action Hide ("day3_diary_page39"), Jump ("day8")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
 
 

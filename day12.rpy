@@ -248,9 +248,9 @@ label day12:
 
     play music "audio/music/z_076.mp3"
 
-    scene an_d11_01_bg with dissolve
+    scene cg fishing_civil with dissolve
 
-    show an_11_01
+    #show an_11_01
 
     "Пошла рыбалка. Алисе везло. Она то и дело выдергивала из воды блестящие в лунном свете, бьющиеся тела."
  

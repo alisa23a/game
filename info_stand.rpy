@@ -870,7 +870,7 @@ screen info_stand():
         hotspot(983,512,255,261) action Show ("campmap")
         hotspot(1243,501,182,136) action Show ("stand_gallery")
         hotspot(1252,684,175,101) action Show ("stand_tips_owl")
-        hotspot(434,869,282,187) action Show ("prolog_diary")
+        hotspot(434,869,282,187) action Show ("sc_d_prologue")
         #hotspot(1258,851,226,212) action Show ("stand_inventory")
         hotspot(1258,851,226,212) action Show ("inventory_slots")
 

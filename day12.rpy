@@ -385,7 +385,7 @@ label day12:
 
     play music "audio/music/z_195.mp3"
 
-    scene bg stadium with dissolve
+    scene bg square_day with dissolve
 
     show sp_fi_003:
         yalign 0.05 subpixel True

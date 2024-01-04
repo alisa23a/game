@@ -132,29 +132,41 @@ define gm65 = True
 #####################
 ## Переменные определяющие видимость предметов в инвентаре
 
-define inv_item_01 = True # 1 Жемчужина
+define inv_item_01 = False # 1 Жемчужина
 define inv_item_02 = True # 2 Записная книжка
-define inv_item_03 = True # 3 Карта и компас
+define inv_item_03 = False # 3 Карта и компас
 define inv_item_04 = True # 4 Связка ключей
 define inv_item_05 = True # 5 Конфетки
 define inv_item_06 = True # 6 Котлетки
-define inv_item_07 = True # 7 Сахарные грибы
-define inv_item_08 = True # 8 Кокарда горного инженера
+define inv_item_07 = False # 7 Сахарные грибы
+define inv_item_08 = False # 8 Кокарда горного инженера
 define inv_item_09 = True # 9 Моток верёвки
-define inv_item_10 = True # 10 Кристалл
+define inv_item_10 = False # 10 Кристалл
 define inv_item_11 = True # 11 Перочинный ножик
-define inv_item_12 = True # 12 Фотоаппарат
+define inv_item_12 = False # 12 Фотоаппарат
 define inv_item_13 = True # 13 Фонарик
-define inv_item_14 = True # 14 Ягоды забвения
-define inv_item_15 = True # 15 Древние бусики
-define inv_item_16 = True # 16 Слиток золота
+define inv_item_14 = False # 14 Ягоды забвения
+define inv_item_15 = False # 15 Древние бусики
+define inv_item_16 = False # 16 Слиток золота
 define inv_item_17 = True # 17 Баночка для шуршавчиков
 define inv_item_18 = True # 18 Бинокль
 define inv_item_19 = True # 19 Бинтик
 define inv_item_20 = True # 20 Йод
-define inv_item_21 = True # 21 Первая записка
-define inv_item_22 = True # 22 Вторая записка
-define inv_item_23 = True # 23 Третья записка
+define inv_item_21 = False # 21 Записки
+define inv_item_22 = False # 22 Первая записка
+define inv_item_23 = False # 23 Вторая записка
+define inv_item_24 = False # 24 Третья записка
+define inv_item_25 = False # 25 Ключ от Коптёрки физрука
+define inv_item_26 = False # 26 Ключ от Лодочной станции
+define inv_item_27 = False # 27 Ключ от Продуктового склада
+define inv_item_28 = False # 28 Ключ от Чердака Алисы и Ульяны
+define inv_item_29 = False # 29 Ключ от Супернычки (чердак домика ОД)
+define inv_item_30 = False # 30 Ключ от Бомбоубежища
+define inv_item_31 = False # 31 Ключ от Спецхрана библиотеки
+define inv_item_32 = False # 32 Ключ от Лаборатории
+define inv_item_33 = True # 33 Неизвестный ключ 1
+define inv_item_34 = True # 34 Неизвестный ключ 2
+define inv_item_35 = True # 35 Неизвестный ключ 3
 
 ################################################
 ## Перенесено из scrypt.rpy Алексея

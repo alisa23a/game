@@ -21,6 +21,12 @@ style InvItemPrevCaption_text:
 style InvItemPrevCaption_vbox:
     xalign (0.5) yalign (0.07)
 
+style keysStyle_text:
+    color "#fff"
+    font "fonts/mateur-webfont.ttf"
+    size 30
+
+
 screen inventory_slots():
 
     ##Экран инвентаря со слотами. Для каждого предмета инвентаря зарезервирован собственный слот. При открытии этот экран проверяет значение булевой переменной для предмета, и если значение true, отображает предмет, иначе отображает пустой слот.
@@ -29,7 +35,7 @@ screen inventory_slots():
     zorder 100
     modal True
     
-    add "images/inventory/inv_slots.png"
+    add "images/inventory/inv_slots.webp"
     
     style_prefix "InvItemPrevCaption"
     
@@ -52,7 +58,7 @@ screen inventory_slots():
 
     ## Превьюшка Записная книжка
 
-    if inv_item_01:
+    if inv_item_02:
         button:
             xpos 342 ypos 52
             xsize 234 ysize 288
@@ -65,7 +71,7 @@ screen inventory_slots():
 
     ## Превьюшка Карта и компас
 
-    if inv_item_01:
+    if inv_item_03:
         button:
             xpos 592 ypos 52
             xsize 234 ysize 288
@@ -78,7 +84,7 @@ screen inventory_slots():
 
     ## Превьюшка Связка ключей
 
-    if inv_item_01:
+    if inv_item_04:
         button:
             xpos 842 ypos 52
             xsize 234 ysize 288
@@ -87,11 +93,11 @@ screen inventory_slots():
             style_prefix "InvItemPrevCaption"
             text "Связка ключей" xalign (0.5) yalign (0.07)
             #focus_mask True
-            action Hide ("inventory_slots"), Show("inv_item_keys")
+            action Hide ("inventory_slots"), Show("keys_slots")
 
     ## Превьюшка Конфетки
 
-    if inv_item_01:
+    if inv_item_05:
         button:
             xpos 1092 ypos 52
             xsize 234 ysize 288
@@ -104,7 +110,7 @@ screen inventory_slots():
 
     ## Превьюшка Котлетки
 
-    if inv_item_01:
+    if inv_item_06:
         button:
             xpos 1342 ypos 52
             xsize 234 ysize 288
@@ -117,7 +123,7 @@ screen inventory_slots():
 
     ## Превьюшка Сахарные грибы
 
-    if inv_item_01:
+    if inv_item_07:
         button:
             xpos 1592 ypos 52
             xsize 234 ysize 288
@@ -146,7 +152,7 @@ screen inventory_slots():
 
     ## Превьюшка Моток веревки
 
-    if inv_item_01:
+    if inv_item_09:
         button:
             xpos 342  ypos 365
             xsize 234 ysize 288
@@ -159,7 +165,7 @@ screen inventory_slots():
 
     ## Превьюшка Кристалл
 
-    if inv_item_01:
+    if inv_item_10:
         button:
             xpos 592  ypos 365
             xsize 234 ysize 288
@@ -172,7 +178,7 @@ screen inventory_slots():
 
     ## Превьюшка Перочинный ножик
 
-    if inv_item_01:
+    if inv_item_11:
         button:
             xpos 842  ypos 365
             xsize 234 ysize 288
@@ -185,7 +191,7 @@ screen inventory_slots():
 
     ## Превьюшка Фотоаппарат
 
-    if inv_item_01:
+    if inv_item_12:
         button:
             xpos 1092  ypos 365
             xsize 234 ysize 288
@@ -198,7 +204,7 @@ screen inventory_slots():
 
     ## Превьюшка Фонарик
 
-    if inv_item_01:
+    if inv_item_13:
         button:
             xpos 1342  ypos 365
             xsize 234 ysize 288
@@ -211,7 +217,7 @@ screen inventory_slots():
 
     ## Превьюшка Ягоды забвения
 
-    if inv_item_01:
+    if inv_item_14:
         button:
             xpos 1592  ypos 365
             xsize 234 ysize 288
@@ -237,7 +243,7 @@ screen inventory_slots():
 
     ## Превьюшка Слиток золота
 
-    if inv_item_15:
+    if inv_item_16:
         button:
             xpos 342 ypos 679
             xsize 234 ysize 288
@@ -250,7 +256,7 @@ screen inventory_slots():
 
     ## Превьюшка Баночка для шуршавчиков
     
-    if inv_item_08:
+    if inv_item_17:
         button:
             xpos 592 ypos 679
             xsize 234 ysize 288
@@ -266,7 +272,7 @@ screen inventory_slots():
 
     ## Превьюшка Бинокль
 
-    if inv_item_15:
+    if inv_item_18:
         button:
             xpos 842 ypos 679
             xsize 234 ysize 288
@@ -279,7 +285,7 @@ screen inventory_slots():
 
     ## Превьюшка Бинтик
 
-    if inv_item_15:
+    if inv_item_19:
         button:
             xpos 1092 ypos 679
             xsize 234 ysize 288
@@ -292,7 +298,7 @@ screen inventory_slots():
 
     ## Превьюшка Йод
 
-    if inv_item_15:
+    if inv_item_20:
         button:
             xpos 1342 ypos 679
             xsize 234 ysize 288
@@ -305,7 +311,7 @@ screen inventory_slots():
 
     ## Превьюшка Записки
 
-    if inv_item_15:
+    if inv_item_21:
         button:
             xpos 1592 ypos 679
             xsize 234 ysize 288
@@ -333,6 +339,8 @@ screen inv_item_pearl():
 
     ## Жемчужина
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -367,6 +375,8 @@ screen inv_item_notebook():
 
     ## Записная книжка
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -401,6 +411,8 @@ screen inv_item_mapcompass():
 
     ## Карта и компас
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -435,6 +447,8 @@ screen inv_item_keys():
 
     ## Связка ключей
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -469,6 +483,8 @@ screen inv_item_sweets():
 
     ## Конфетки
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -503,6 +519,8 @@ screen inv_item_cutlets():
 
     ## Котлетки
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -537,6 +555,8 @@ screen inv_item_shugar_mushrooms():
 
     ## Сахарные грибы
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -571,6 +591,8 @@ screen inv_item_badge():
 
     ## Кокарда горного инженера
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -606,6 +628,8 @@ screen inv_item_rope():
 
     ## Моток веревки
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -640,6 +664,8 @@ screen inv_item_crystal():
 
     ## Кристалл
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -674,6 +700,8 @@ screen inv_item_knife():
 
     ## Перочинный ножик
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -708,6 +736,8 @@ screen inv_item_camera():
 
     ## Фотоаппарат
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -742,6 +772,8 @@ screen inv_item_flashlight():
 
     ## Фонарик
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -776,6 +808,8 @@ screen inv_item_berries():
 
     ## Ягоды забвения
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -810,6 +844,8 @@ screen inv_item_beads():
 
     ## Древние бусики
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -844,6 +880,8 @@ screen inv_item_gold():
 
     ## Слиток золота
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -878,6 +916,8 @@ screen inv_item_jar():
 
     ## Баночка для шуршавчиков
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -912,6 +952,8 @@ screen inv_item_binoculars():
 
     ## Бинокль
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -946,6 +988,8 @@ screen inv_item_bandage():
 
     ## Бинтик
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -980,6 +1024,8 @@ screen inv_item_iodine():
 
     ## Йод
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -1015,9 +1061,11 @@ screen notes_slots():
 
     ##Экран зписок со слотами. При клике на превьюшку записки открывается экран с полноразмерной картинкой записки и описанием.
 
+    tag menu
+    zorder 100
     modal True
     
-    add "images/inventory/notes_slots.png"
+    add "images/inventory/notes_slots.webp"
     
     style_prefix "InvItemPrevCaption"
     
@@ -1030,7 +1078,7 @@ screen notes_slots():
     
     ## Превьюшка Первая записка
 
-    if inv_item_21:
+    if inv_item_22:
         button:
             xpos 353 ypos 271
             xsize 387 ysize 476
@@ -1043,7 +1091,7 @@ screen notes_slots():
 
     ## Превьюшка Вторая записка
 
-    if inv_item_22:
+    if inv_item_23:
         button:
             xpos 766 ypos 271
             xsize 387 ysize 476
@@ -1056,7 +1104,7 @@ screen notes_slots():
 
     ## Превьюшка Третья записка
 
-    if inv_item_23:
+    if inv_item_24:
         button:
             xpos 1179 ypos 271
             xsize 387 ysize 476
@@ -1071,6 +1119,8 @@ screen inv_item_note_one():
 
     ## Первая записка
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -1105,6 +1155,8 @@ screen inv_item_note_two():
 
     ## Вторая записка
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -1139,6 +1191,8 @@ screen inv_item_note_three():
 
     ## Третья записка
 
+    tag menu
+    zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
@@ -1171,6 +1225,186 @@ screen inv_item_note_three():
 
 
 
+screen keys_slots():
+
+    ##Экран ключей со слотами. При клике на превьюшку ключа открывается экран с полноразмерной картинкой ключа и описанием.
+
+    tag menu
+    zorder 100
+    modal True
+    
+    add "images/inventory/keys_slots.webp"
+    
+    style_prefix "InvItemPrevCaption"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (350, 60)
+        background None
 
 
+        vbox:
+            vbox:
+                style_prefix "keysStyle"
+                text "Я нашла эту связку ключей в лагере. На ней было три ключа. \nЯ буду цеплять сюда все ключи, которые найду."
 
+    
+    
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("keys_slots"), Show("inventory_slots")
+    
+    ## Превьюшка Ключ от Коптёрки физрука
+
+    if inv_item_25:
+        button:
+            xpos 356 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Коптёрка физрука" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+    ## Превьюшка Ключ от Лодочной станции
+
+    if inv_item_26:
+        button:
+            xpos 662 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Лодочная станция" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+    ## Превьюшка Ключ от Продуктового склада
+
+    if inv_item_27:
+        button:
+            xpos 968 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Продуктовый склад" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Чердака Алисы и Ульяны
+
+    if inv_item_28:
+        button:
+            xpos 1274 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Наш чердак" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Супернычки (чердак домика ОД)
+
+    if inv_item_29:
+        button:
+            xpos 356 ypos 613
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Супернычка" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Бомбоубежища
+
+    if inv_item_30:
+        button:
+            xpos 662 ypos 613
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Бомбоубежище" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Спецхрана библиотеки
+
+    if inv_item_31:
+        button:
+            xpos 968 ypos 613
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Спецхран библиотеки" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Лаборатории
+
+    if inv_item_32:
+        button:
+            xpos 1274 ypos 613
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Лаборатория" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Неизвестный ключ 1
+
+    if inv_item_33:
+        button:
+            xpos 356 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Неизвестный ключ 2
+
+    if inv_item_34:
+        button:
+            xpos 662 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Неизвестный ключ 3
+
+    if inv_item_35:
+        button:
+            xpos 968 ypos 230
+            xsize 287 ysize 353
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")

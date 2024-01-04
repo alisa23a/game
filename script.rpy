@@ -27,7 +27,19 @@ define el = Character('Электроник', color="#ff9999")
 
 define le = Character('Лена', color="#660099")
 
+define je = Character('Женя', color="#CC9900")
+
 define mi = Character('Мику', color="#00ff99")
+
+define ats = Character('Атсуи', color="#336600")
+
+define sam = Character('Саманта', color="#0066CC")
+
+define sem = Character('Семён', color="#999999")
+
+define tol = Character('Толик', color="#996600")
+
+define guys = Character('Мальчики', color="#99CCFF")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

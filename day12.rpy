@@ -729,7 +729,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_090.mp3"
+    play music "audio/music/z_202.mp3"
 
     scene cg catfish2 with dissolve
 

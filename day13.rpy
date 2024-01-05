@@ -958,17 +958,19 @@ label day13_2:
     transform loop_cards:
         xpos -13440
         linear 1.0 xpos -11520
-        linear 0.5 xpos -11520  
+        linear 1.0 xpos -11520  
         linear 2.0 xpos -7680
-        linear 0.5 xpos -7680
+        linear 1.0 xpos -7680
         linear 2.0 xpos -3840
-        linear 0.5 xpos -3840
+        linear 1.0 xpos -3840
         linear 2.0 xpos 0
-        linear 0.5 xpos 0
+        linear 1.0 xpos 0
         linear 1.0 xpos 1920
 
 
         repeat
+
+    pause (0.5)
 
     show card_play composite at loop_cards
 

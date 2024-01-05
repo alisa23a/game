@@ -9,7 +9,7 @@ screen map:
 
     fixed:
         xsize 1920 ysize 1080
-        add "images/bg/wmap.jpg" align (.5,.5)
+        add "images/bg/wmap.webp" align (.5,.5)
 
     fixed:
         xsize 1920 ysize 1080

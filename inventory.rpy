@@ -933,7 +933,7 @@ screen inv_item_jar():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Баночка для \nшурчавчиков"
+                text "Баночка для \nшуршавчиков"
 
             style_prefix "InvItemStyleText"   
             vbox:

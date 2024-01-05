@@ -558,17 +558,14 @@ label day8:
 
 
 
-
-
-    #image ul_pi_island_01 = Movie(play="video/video8day/ul_pi_island_01.webm", size=(1920, 1080))
-
     scene ul_pi_islang_bg1 with fade
     
     show ul_pi_island_01
 
     ul "(быстро раздеваясь до купальника) \nСлушай, может искупаемся? Рыбу половить мы ещё успеем."
 
-    #image ul_pi_island_02 = Movie(play="video/video8day/ul_pi_island_01.webm", size=(1920, 1080))
+
+    hide ul_pi_island_01
 
     scene ul_pi_islang_bg2 with fade
     
@@ -578,7 +575,8 @@ label day8:
 
     ul "Ну, как хочешь. Тогда помечтаем. А что, если этот баркас восстановить, подлатать борт, парус поставить?(чертит на песке) Вот, я даже чертежик набросала... Правда, классно смотрится?"
 
-    #image ul_pi_island_02 = Movie(play="video/video8day/ul_pi_island_02.webm", size=(1920, 1080))
+
+    hide ul_pi_island_02
 
     scene ul_pi_islang_bg2
     
@@ -588,7 +586,8 @@ label day8:
 
     pi "Да, это моя мечта. Если повезет, то можно добраться до моря."
 
-    #image ul_pi_island_03 = Movie(play="video/video8day/ul_pi_island_03.webm", size=(1920, 1080))
+
+    hide ul_pi_island_02
 
     scene ul_pi_islang_bg1 with fade
     
@@ -598,9 +597,9 @@ label day8:
 
     pi "Ладно. Только недолго, хорошо?"
 
-    hide sp_sem_001
+    hide ul_pi_island_01
 
-    #image ul_pi_beach_01 = Movie(play="video/video8day/ul_pi_beach_01.webm", size=(1920, 1080))
+
 
     image ul_pi_beach_bg1 = "images/an/an8day/an006/an_006_000-min.webp"
 

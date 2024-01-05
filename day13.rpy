@@ -907,30 +907,44 @@ label day13_2:
     "Жаль, пока туда не пускают. Физрук не смог открыть ржавый замок. Но мы с Алисой уже выпросили у Петровича ножовку по металлу. И ночью... Ну вы поняли. Хе-хе."
 
 
+    # stop music
+
+    # play music "audio/music/z_102.mp3"   
+
+    scene an_d10_01_bg with dissolve
+
+    show an_10_01
+
+    "После нашей удачной операции по подъему Батискафа, мы снова пошли на Чердак . Туда же перетащили диван физрука. После отбоя, собрался почти весь отряд. Все хотели поиграть в карты, «на интерес»."
+
+    "Не было только Саманты и Мэгги. Им не сказали, по понятным причинам."
+
+    "Игры в карты были запрещены в лагере. Саманта была слишком прямолинейной и честной и могла проговориться. Она еще не разобралась, что можно, а что нельзя говорить в лагере. Мегги, была вообще, темной лошадкой."
+
+    "К тому же она была слишком взрослой для нас. А одну, без охраны, Саманту бы не пустили."
+
+
+    # stop music
+
+    # play music "audio/music/z_124.mp3"
+
+    stop music
+
+    play music "audio/music/z_305.mp3"
+
     scene bg attic_inside
 
 
-    # image je_el_sam composite = Composite(
-        # (1920, 1080),
-        # (1150, 0), "images/sp/el/sp_el_001.png",
-        # (0, 0), "images/sp/sam/sp_sam_001.png",
-        # (360, -120), "images/sp/cards/sp_cards_je_01.png")
-
-
-    image je_el_sam composite = Composite(
+    image card_play composite = Composite(
         (13440, 1080),
         (1150, 0), "images/sp/el/sp_el_001.png",
-        (0, 0), "images/sp/sam/sp_sam_001.png",
+        #(0, 0), "images/sp/sam/sp_sam_001.png",
+        (0, 0), "images/sp/le/sp_le_001.png",
         (360, -120), "images/sp/cards/sp_cards_je_01.png",
-
-        # (3070, 0), "images/sp/tol/sp_tol_001.png",
-        # (1920, 0), "images/sp/at/sp_at_001.png",
-        # (2280, -120), "images/sp/cards/sp_cards_al_01.png")
 
         (4990, 0), "images/sp/tol/sp_tol_001.png",
         (3840, 0), "images/sp/at/sp_at_001.png",
         (4200, -120), "images/sp/cards/sp_cards_al_01.png",
-
 
         (7580, 0), "images/sp/sl/sp_sl_001.png",
         (8780, 50), "images/sp/smu/sp_smu_001.png",
@@ -941,8 +955,7 @@ label day13_2:
         (11880, -120), "images/sp/cards/sp_cards_ul_02.png")
 
 
-
-    transform loop_cars:
+    transform loop_cards:
         xpos -13440
         linear 1.0 xpos -11520
         linear 0.5 xpos -11520  
@@ -953,119 +966,31 @@ label day13_2:
         linear 2.0 xpos 0
         linear 0.5 xpos 0
         linear 1.0 xpos 1920
-        #linear 1.0 xpos 3840
-
-
-        
-        # linear 1.0 xpos -5760
-        # linear 1.0 xpos -5760
-        # linear 1.0 xpos 0
-        # linear 1.0 xpos 0
-        # linear 1.0 xpos 5760
-        # linear 1.0 xpos 5760
-        # linear 1.0 xpos 9600
-        #linear 1.0 xpos 1920
-        #linear 1.0 xpos 3840
 
 
         repeat
 
-    show je_el_sam composite at loop_cars
+    show card_play composite at loop_cards
 
-    # show je_el_sam composite with moveinleft
-    # pause (1.0)
-    # hide je_el_sam composite with moveoutright
+    pause (10000000000000000000000000000.0)
 
-
-    # image al_tol_at composite = Composite(
-        # (1920, 1080),
-        # (1150, 0), "images/sp/tol/sp_tol_001.png",
-        # (0, 0), "images/sp/at/sp_at_001.png",
-        # (360, -120), "images/sp/cards/sp_cards_al_01.png")
-
-    # show al_tol_at composite with moveinleft
-    # pause (1.0)
-    # hide al_tol_at composite with moveoutright
+    scene bg attic_inside
+    hide card_play composite
 
 
-    # image sem_sl_smu composite = Composite(
-        # (1920, 1080),
-        # (-100, 0), "images/sp/sl/sp_sl_001.png",
-        # (1100, 50), "images/sp/smu/sp_smu_001.png",
-        # (360, -120), "images/sp/cards/sp_cards_sem_01.png")
+    # stop music
 
-    # show sem_sl_smu composite with moveinleft
-    # pause (1.0)
-    # hide sem_sl_smu composite with moveoutright
+    # play music "audio/music/z_305.mp3"
 
+    "Сдавал Семен. Как-то все сразу согласились, что он будет сдающим. Он умел делать карточные фокусы и к тому же знал много игр."
 
-    # image ul_shu_mi composite = Composite(
-        # (1920, 1080),
-        # (1200, 0), "images/sp/shu/sp_shu_001.png",
-        # (-50, 0), "images/sp/mi/sp_mi_012.png",
-        # (360, -120), "images/sp/cards/sp_cards_ul_02.png")
+    "Все в основном знали три игры. Это были «Дурак», «Подкидной Дурак» и так называемое в народе «Очко» или «Двадцать одно». Покер и преферанс, знали только Женя и Семен."
 
-    # show ul_shu_mi composite with moveinleft
-    # pause (1.0)
-    # hide ul_shu_mi composite with moveoutright
+    "Играли на разное. На щелчок картами по носу и ушам проигравшему, на кукареканье под столом, на конфеты, печенье, лишнюю котлету."
 
+    "На поцелуйчики, читку стихов, песню и катание верхом на проигравшем если проигрывали мальчики."
 
-
-
-
-
-
-
-
-
-
-
-
-    # show sp_el_001 with moveinleft:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.2
-
-    # show sp_sam_004 with moveinleft:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.2
-
-    
-    # show sp_cards_je_01 with moveinleft:
-        # yalign 0.98 subpixel True
-        # xalign 0.5 subpixel True
-        # zoom 1.0
-
-    # #pause (0.5)
-    # pause (10000000000000000000000000.0)
-
-    # hide sp_el_001 with moveoutright
-    # hide sp_sam_004 with moveoutright
-    # hide sp_cards_je_01 with moveoutright
-
-
-
-
-
-
-
-
-
-    # show sp_al_037 with moveinleft:
-        # yalign 0.1 subpixel True
-        # xalign 0.47 subpixel True
-        # zoom 1.3
-
-    # pause (0.5)
-
-    # hide sp_al_037 with moveoutright
-
-
-
-
-
-
+    "Когда стали играть командами, то сыграли на дежурство по кухне и лагерю."
 
 
 

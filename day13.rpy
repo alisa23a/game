@@ -995,12 +995,12 @@ label day13_2:
     "Когда стали играть командами, то сыграли на дежурство по кухне и лагерю."
 
 
-    scene cg jenya_chocolate
+    scene cg jenya_chocolate with dissolve
 
     "С поцелуйчиками вышла заминка. Проигравшая Женя ни в какую не хотела целовать Толика и откупилась шоколадкой."
 
 
-    scene bg attic_inside
+    scene bg attic_inside with dissolve
 
     show sp_sem_001:
         yalign 0.0 subpixel True
@@ -1022,7 +1022,7 @@ label day13_2:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
-
+    with dissolve
 
     "Потом играли на спор, между Алисой и Семеном, кто поцелует Мэгги (в случае с Семеном) и физрука (в случае с Алисой) при всем отряде."
 
@@ -1033,12 +1033,14 @@ label day13_2:
     hide sp_sem_001
 
     show sp_cards_al_01
+    with dissolve
 
-    "Сделать это надо было прилюдно, а «честь мундира пострадавшей стороны» обязывала отреагировать на это в рамках приличий. Договорились, что поцелуй будет «не в губы» но, затяжной."
+    "Сделать это надо было прилюдно, а «честь мундира пострадавшей стороны» обязывала отреагировать на это в рамках приличий. Договорились, что поцелуй будет «не в губы» но затяжной."
 
     hide sp_cards_al_01
 
     show sp_cards_sem_01
+    with dissolve
 
     "Семен проиграл. Потом сделали переигровку на «отыграться» и он выиграл. Всех распирало от предвкушения. Но зная характер Алисы, никто не сомневался, что она это сделает. Нужно было только дождаться удобного случая."
 
@@ -1048,8 +1050,18 @@ label day13_2:
         yalign 0.0 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2 
+    with dissolve
 
     "Женя, внимательно следившая за игрой, обвинила Семена в жульничестве."
+
+    hide sp_je_001
+
+    scene bg attic_inside with dissolve 
+
+    show sp_je_001:
+        yalign 0.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2 
 
     show sp_tol_001:
         yalign 0.0 subpixel True
@@ -1070,6 +1082,8 @@ label day13_2:
     hide sp_sl_001
 
     show sp_cards_sem_01
+    with dissolve
+
 
     "Так что от поцелуя Мегги Семен не отвертелся. Компромиссное решение вызвало всеобщий восторг. В место одного шоу публика получила два."
 
@@ -1079,6 +1093,7 @@ label day13_2:
         yalign 0.0 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
+    with dissolve
 
     "Но вдруг Семен объявил, что готов поменяться местами с физруком, но с условием «в губы». «И ты мне ничего не должна»."
 
@@ -1092,6 +1107,8 @@ label day13_2:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
+    with dissolve
+
 
     "Это было заманчивое предложение. Но сначала Алиса уперлась. Однако целовать при всех физрука было много рискованнее. И она согласилась, сказав, «когда я буду готова»."
 
@@ -1101,7 +1118,7 @@ label day13_2:
 
     play music "audio/music/z_055.mp3"
 
-    scene cg sem_al_kiss
+    scene cg sem_al_kiss with dissolve
 
     "Все стали считать..."
 
@@ -1109,7 +1126,7 @@ label day13_2:
 
     "Но спорщики как будто забыли о времени и все с недоумением и восторгом продолжали считать дальше. На счете сорок пять Алиса оттолкнула от себя Семена, вытерла рукой рот и сказала: «Это было не так уж плохо»."
 
-    scene bg attic_inside
+    scene bg attic_inside with dissolve
 
     show sp_le_014:
         yalign 0.0 subpixel True
@@ -1126,6 +1143,8 @@ label day13_2:
     hide sp_le_014
 
     hide sp_sl_018
+
+    scene bg attic_inside with dissolve
 
     show sp_sem_001:
         yalign 0.0 subpixel True

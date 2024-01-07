@@ -1171,13 +1171,13 @@ label day13_2:
 
 
 
-    pause (10000000000000000000000.0)
+    #pause (10000000000000000000000.0)
 
 
     scene black with fade
 
     stop music
 
-    #jump day14
+    jump day14
 
 return

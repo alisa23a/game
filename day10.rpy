@@ -16,7 +16,7 @@ label day10:
 
     stop music
 
-    play music "audio/music/z_102.mp3"
+    play music "audio/music/z_055.mp3"
 
     image an_10_01: # Анимация с Ульяной, лежащей в комнате и пишущей дневник
         

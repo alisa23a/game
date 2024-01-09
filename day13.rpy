@@ -597,7 +597,7 @@ label day13_2:
 
     stop music
 
-    play music "audio/music/z_102.mp3"   
+    play music "audio/music/z_055.mp3"   
 
     scene an_d10_01_bg with dissolve
 

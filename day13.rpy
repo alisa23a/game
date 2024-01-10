@@ -689,18 +689,18 @@ label day13_2:
  
     hide sp_al_005
 
-    show sp_tol_001:
+    show sp_tol_004:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2
 
     tol "Как бы чего не вышло..."
 
-    hide sp_tol_001
+    hide sp_tol_004
 
     show sp_sl_001:
         yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
 
     sl "Если нужна наша помощь, то мы, девочки нашего первого, краснознаменного, отряда... \n(она запнулась, подыскивая пафосное слово)"
@@ -718,7 +718,7 @@ label day13_2:
 
     show sp_pe_005:
         yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
 
     pe "Вот, сынки, становитесь так, чтобы у всех руки на рычаге были. Я как дам команду, вы начинайте. По часовой крутите. По часовой. Девчата пусть пока отдохнут. Мужское это дело."

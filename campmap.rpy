@@ -928,7 +928,7 @@ screen busstop_cm:
     modal True
     zorder 300
 
-    add "busstop"
+    add "bg busstop"
 
     frame:
         xpadding 30
@@ -958,7 +958,7 @@ screen busstop_cm2:
     modal True
     zorder 300
 
-    add "busstop2"
+    add "bg busstop2"
 
     frame:
         xpadding 30
@@ -988,7 +988,7 @@ screen busstop_cm3:
     modal True
     zorder 300
 
-    add "busstop3"
+    add "bg busstop3"
 
     frame:
         xpadding 30
@@ -1018,7 +1018,7 @@ screen busstop_cm4:
     modal True
     zorder 300
 
-    add "busstop4"
+    add "bg busstop4"
 
     frame:
         xpadding 30

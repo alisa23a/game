@@ -9,7 +9,7 @@ screen stand_camp_rules():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_camp_rules_gr.png"
+        ground "images/info_stand/stand_camp_rules_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -23,7 +23,7 @@ screen stand_honor_board():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_honor_board_gr.png"
+        ground "images/info_stand/stand_honor_board_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -37,7 +37,7 @@ screen stand_advertisements():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_advertisments_gr.png"
+        ground "images/info_stand/stand_advertisments_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -51,7 +51,7 @@ screen stand_mailbox():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_mailbox_gr.png"
+        ground "images/info_stand/stand_mailbox_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -65,7 +65,7 @@ screen stand_hikes():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_hikes_gr.png"
+        ground "images/info_stand/stand_hikes_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -79,7 +79,7 @@ screen stand_history():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_history_gr.png"
+        ground "images/info_stand/stand_history_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -93,7 +93,7 @@ screen stand_main_map():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_main_map_gr.png"
+        ground "images/info_stand/stand_main_map_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -107,7 +107,7 @@ screen stand_wall_newspaper():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_wall_newspaper_gr.png"
+        ground "images/info_stand/stand_wall_newspaper_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -121,7 +121,7 @@ screen stand_camp_map():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_camp_map_gr.png"
+        ground "images/info_stand/stand_camp_map_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -135,7 +135,7 @@ screen stand_gallery():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_gallery_gr.png"
+        ground "images/info_stand/stand_gallery_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -171,7 +171,7 @@ screen stand_tips_list():
     modal True
 
     imagemap:
-        ground "images/tips_owl/tips_list_gr.png"
+        ground "images/tips_owl/tips_list_gr.webp"
         idle "images/tips_owl/tips_list_idle.png" 
         hover "images/tips_owl/tips_list_hover.png" 
 
@@ -235,7 +235,7 @@ screen stand_tips_owl():
     modal True
 
     imagemap:
-        ground "images/tips_owl/tips_owl_gr.png"
+        ground "images/tips_owl/tips_owl_gr.webp"
         idle "images/tips_owl/tips_owl_idle.png"
         hover "images/tips_owl/tips_owl_hover.png" 
 
@@ -785,7 +785,7 @@ screen stand_diary():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_diary_gr.png"
+        ground "images/info_stand/stand_diary_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -799,7 +799,7 @@ screen stand_inventory():
     modal True
 
     imagemap:
-        ground "images/info_stand/stand_inventory_gr.png"
+        ground "images/info_stand/stand_inventory_gr.webp"
         idle "gui/info_stand_nav_idle.png"
         hover "gui/info_stand_nav_hover.png" 
 
@@ -848,7 +848,7 @@ screen info_stand():
 
     imagemap:
 
-        ground "images/info_stand/info_stand_gr.png"
+        ground "images/info_stand/info_stand_gr.webp"
         idle "images/info_stand/info_stand_normal.png"
         hover "images/info_stand/info_stand_hover.png"
 

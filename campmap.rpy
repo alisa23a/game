@@ -928,7 +928,7 @@ screen busstop_cm:
     modal True
     zorder 300
 
-    add "bg busstop"
+    add "bg busstop5"
 
     frame:
         xpadding 30
@@ -958,7 +958,7 @@ screen busstop_cm2:
     modal True
     zorder 300
 
-    add "bg busstop2"
+    add "bg busstop4"
 
     frame:
         xpadding 30
@@ -988,7 +988,7 @@ screen busstop_cm3:
     modal True
     zorder 300
 
-    add "bg busstop3"
+    add "bg busstop"
 
     frame:
         xpadding 30
@@ -1018,7 +1018,7 @@ screen busstop_cm4:
     modal True
     zorder 300
 
-    add "bg busstop4"
+    add "bg busstop3"
 
     frame:
         xpadding 30
@@ -2155,13 +2155,13 @@ label stock:
     return
     
 label busstop:
-    scene bg busstop with dissolve
+    scene bg busstop5 with dissolve
     "Центральный вход. Автобус 410"
-    scene bg busstop2 with dissolve
-    "Центральный вход. Автобус 410 2"
-    scene bg busstop3 with dissolve
-    "Центральный вход. Автобус 410 3"
     scene bg busstop4 with dissolve
+    "Центральный вход. Автобус 410 2"
+    scene bg busstop with dissolve
+    "Центральный вход. Автобус 410 3"
+    scene bg busstop3 with dissolve
     "Центральный вход. Автобус 410 4"
     call screen campmap
     return

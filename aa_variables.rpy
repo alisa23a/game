@@ -59,6 +59,11 @@ define cm42 = True
 define cm43 = True
 define cm44 = True
 define cm45 = True
+define cm46 = True
+define cm47 = True
+define cm48 = True
+define cm49 = True
+define cm50 = True
 
 #####################
 ## Переменные определяющие видимость локаций карты окрестностей

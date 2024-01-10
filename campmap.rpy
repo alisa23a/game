@@ -99,6 +99,16 @@ screen campmap:
             hotspot(421,336,193,34) action Hide ("campmap"), Show ("sroom")
         if cm45:
             hotspot(543,469,87,38) action Hide ("campmap"), Show ("dresser")
+        if cm46:
+            hotspot(914,125,115,51) action Hide ("campmap"), Show ("basketball")
+        if cm47:
+            hotspot(340,511,95,53) action Hide ("campmap"), Show ("caretakers_room")
+        if cm48:
+            hotspot(460,523,150,42) action Hide ("campmap"), Show ("fine_arts")
+        if cm49:
+            hotspot(1049,316,82,68) action Hide ("campmap"), Show ("dining_menu")
+        if cm50:
+            hotspot(1183,424,171,72) action Hide ("campmap"), Show ("sewing")
             
 
     imagebutton:
@@ -2031,6 +2041,186 @@ screen dresser2:
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
         action Hide ("dresser2"), Show("campmap")
+
+
+screen basketball:
+
+    # Баскетбольная площадка
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg basketball"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Баскетбольная площадка"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("basketball"), Show("campmap")
+
+
+screen caretakers_room:
+
+    # Комната завхоза
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg caretakers_room"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Комната завхоза"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("caretakers_room"), Show("caretakers_room2")
+
+
+screen caretakers_room2:
+
+    # Комната завхоза 2
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg caretakers_room2"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Комната завхоза"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("caretakers_room2"), Show("campmap")
+
+
+screen fine_arts:
+
+    # Кружок ИЗО
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg fine_arts"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Кружок ИЗО"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("fine_arts"), Show("campmap")
+
+
+screen dining_menu:
+
+    # Меню столовой
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg dining_menu"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Меню столовой"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("dining_menu"), Show("campmap")
+
+
+screen sewing:
+
+    # Кружок кройки и шитья
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg sewing"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Кружок кройки и шитья"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sewing"), Show("campmap")
 
 
 

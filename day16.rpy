@@ -212,7 +212,7 @@ label day16:
         xalign 0.0 subpixel True
         zoom 1.2
    
-    ul "Помнишь, как Славя нас зазывала в свой фотокружок? Ей натурщики нужны. А мы ещё когда ходили искать рысь, то пожалели что у нас фотоаппарата не было? "
+    ul "Помнишь, как Славя нас зазывала в свой фотокружок? Ей натурщики нужны."
 
     scene bg auhouse_crop2
     
@@ -231,7 +231,7 @@ label day16:
         xalign 0.0 subpixel True
         zoom 1.2
 
-    ul "Так вот. Мы скажем, что будем позировать, пусть она делает свои фотоэтюды. Но взамен попросим её дать нам ненадолго фотоаппарат. Сделать несколько фото для родителей."
+    ul "Так вот. Мы скажем, что будем позировать, пусть она делает свои фотоэтюды. Но взамен попросим её дать нам возможность отпечатать свои фотографии в ее фотолаборатории."
 
 
     scene bg auhouse_crop2
@@ -302,7 +302,7 @@ label day16:
     "Возможно, память стала подводить старика и он не закрыл ящик, хотя ключ от ящика торчал прямо в замочке. Наверное, вечером Петрович изучал карту. А утром спешил на рыбалку и забыл запереть."
 
 
-    scene black with dissolve #Нужна картинка с кратой
+    scene cg petrovichs_map with dissolve 
 
     "Карта была довольно большой и подробной. Мы разложили ее на столе и открыли окно, чтобы в каморке стало светлее. Потом поставили треногу. Как сказала Алиса, снимали по науке."
 
@@ -328,7 +328,7 @@ label day16:
 
     play music "audio/music/z_043.mp3"
 
-    scene bg showers2 with dissolve # Нужна картинка Алиса Ульяна в душе
+    scene cg al_ul_shower with dissolve 
 
     "Потом, немного постояли в воде, чтобы выйти с мокрыми волосами."
 
@@ -377,7 +377,7 @@ label day16:
 
     play music "audio/music/z_421.mp3"
 
-    scene black with dissolve # Нужна картинка с картой
+    scene cg petrovichs_map with dissolve 
 
     "И вот карта… Тут я ее не буду прикладывать, подробную, потому что нельзя. Это секретная карта. Вдруг кто ни будь украдет мой дневник."
 
@@ -554,7 +554,7 @@ label day16:
 
 
 #ВЫБОР
-#НЕ ХОДИТЬ С СЕМЕНОМ
+#НЕ ХОДИТЬ С СЕМЁНОМ
 
     "Но я не пошла. Потому что меня ждала Алиса."
 
@@ -562,10 +562,79 @@ label day16:
 
     "«Если наметила одно дело, никогда не отвлекайся. Делай сначала его, потом остальные. Иначе ничего из тебя в жизни не выйдет. Будешь как мама, с ученой степенью в библиотеке работать простым библиотекарем»."
 
-    "Но я не планировала быть библиотекарем, поэтому сказала Семену, что через два дня я готова ему помочь, но сегодня не смогу. Он очень расстроился."
+    "Но я не планировала быть библиотекарем, поэтому сказала Сёмену, что через два дня я готова ему помочь, но сегодня не смогу. Он очень расстроился."
 
 
-    scene cg ul_va with dissolve
+    image an_16_01: # Анимация Ульяна Вано столовая
+        
+
+        "images/an/an16day/an_d16_00.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an16day/an_d16_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+  
+        repeat
+
+
+    scene an_16_01 with dissolve
 
     "А я побежала на склад. В общем, паек я получила, даже два. А когда уходила, Вано  Артабекович сказал: «Приходи, сладкая, когда хочешь. Дядя Вано всегда тебе рад»."
 

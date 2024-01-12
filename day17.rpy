@@ -228,6 +228,169 @@ label day17:
 
 
 
+
+
+
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_213.mp3" # Дождь, Гром
+
+
+    image an_17_01: # Анимация Алиса Ульяна блиндаж
+        
+
+        "images/an/an17day/an_d17_00.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_00.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_00.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+       
+  
+        repeat
+
+
+    scene an_17_01
+
+    pause (10000000000000000000000.0)
+
+
+
+
+
+
+    image an_17_02: # Анимация блиндаж снаружи
+        
+
+        "images/an/an17day/an_d17_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+        repeat
+
+
+    scene an_17_02
+
+    pause (10000000000000000000000.0)
+
+
+
+    image an_17_03: # Анимация Танцы под дождём
+        
+
+        "images/an/an17day/an_d17_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an17day/an_d17_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+       
+  
+        repeat
+
+
+    scene an_17_03
+
+
+
+
+
+
+
+
+
+
+
+
     pause (10000000000000000000000.0)
 
 

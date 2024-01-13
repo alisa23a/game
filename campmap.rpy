@@ -2208,7 +2208,7 @@ screen dinning_menu_sovyonok:
     modal True
     zorder 300
 
-    add "bg dinning_menu_sovyonok"
+    add "bg dinning_menu_sovyonok" 
 
     frame:
         xpadding 30

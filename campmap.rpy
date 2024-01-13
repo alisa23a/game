@@ -2192,6 +2192,44 @@ screen dining_menu:
         hover "gui/bg_1x1_transparent.png"
         action Hide ("dining_menu"), Show("campmap")
 
+    imagebutton:
+        xpos 1020 ypos 242
+        xsize 312 ysize 434
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("dining_menu"), Show("dinning_menu_sovyonok")
+
+
+screen dinning_menu_sovyonok:
+
+    # Меню вблизи
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg dinning_menu_sovyonok"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Меню столовой"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("dinning_menu_sovyonok"), Show("campmap")
+
+
 
 screen sewing:
 

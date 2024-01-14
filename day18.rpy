@@ -42,7 +42,7 @@ label day18:
     "Мох под ногами, предательски пружинил. Это было все еще болото, но уже мелкое и местами поросшее островками леса. Через полчаса мы вышли на едва заметную тропу."
 
 
-    scene bg swamp5 with dissolve
+    scene bg swamp6 with dissolve:
 
     "Пройдя по ней еще какое-то время, мы заметили большую просеку,  переходящую в ровную поляну. Лес вокруг стал гуще. На краю поляны мы остановились."
 
@@ -136,9 +136,11 @@ label day18:
 
     play music "audio/music/z_131.mp3"
 
-    scene bg plane with dissolve
+    scene bg swamp5 with dissolve
 
     "Мы подошли к торчащему из земли фюзеляжу самолета."
+
+    scene bg plane with dissolve
 
     ul "Какой огромный!"
 
@@ -322,7 +324,7 @@ label day18:
     hide sp_al_056
 
 
-    show sp_ul_019:
+    show sp_ul_040:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -332,7 +334,7 @@ label day18:
 
     ul "Смотри, я правильно надела?"
 
-    hide sp_ul_019
+    hide sp_ul_040
 
     "Между тем, ветер еще сильнее засвистел в обшивке. Самолет задрожал и покачнулся. Вскоре свист перешел в завывание. Фюзеляж раскачивался так, что стало трудно устоять на ногах."
 
@@ -356,7 +358,7 @@ label day18:
     hide sp_al_056
 
 
-    show sp_ul_019:
+    show sp_ul_040:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -364,7 +366,7 @@ label day18:
 
     ul "Алиса, не могу освободиться! Тут много железочек... Вот какая-то. Сейчас, потяну и отстегну!"
 
-    hide sp_ul_019
+    hide sp_ul_040
 
     show sp_al_056:
         yalign 0.1 subpixel True

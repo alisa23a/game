@@ -43,6 +43,8 @@ define guys = Character('Мальчики', color="#99CCFF")
 
 define od = Character('Ольга Дмитриевна', color="#ffffff")
 
+define ln = Character('Любовь Никаноровна', color="#ffff99")
+
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",

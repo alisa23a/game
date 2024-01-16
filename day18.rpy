@@ -972,21 +972,16 @@ label day18:
 
 
 
- 
- 
 
 
 
-
-
-
-    pause (10000000000000000000000.0)
+    #pause (10000000000000000000000.0)
 
 
     scene black with fade
 
     stop music
 
-    #jump day18
+    jump day19
 
 return 

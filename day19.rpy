@@ -55,9 +55,9 @@ label day19:
     scene bg auhouse_crop1
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2  
+        zoom 1.1  
 
     ul "Я предлагаю обследовать памятник."
 
@@ -75,9 +75,9 @@ label day19:
     scene bg auhouse_crop1
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2  
+        zoom 1.1  
 
     ul "Зачем ты тогда разглядываешь его?"
 
@@ -99,9 +99,9 @@ label day19:
     scene bg auhouse_crop1
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2   
+        zoom 1.1  
 
     ul "Монолит, говоришь? Но мы стоим со стороны лица памятника, а по бокам постриженные кусты. И еще, сзади памятника тоже кусты. Их-то ты не обследовала?"
 
@@ -119,18 +119,18 @@ label day19:
     scene bg auhouse_crop1
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2  
+        zoom 1.1  
 
     ul "А я бы слазила."
 
     hide sp_ul_012
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2 
+        zoom 1.1
     with dissolve
 
     ul "Вот, снова трясет."
@@ -176,9 +176,9 @@ label day19:
     "Памятник стоял в конце площади и мы отошли далеко от лавочки Петровича."
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2  
+        zoom 1.1  
 
     ul "Всё, можно не бояться, дед не заметит. Спокойно пошарим за памятником."
 
@@ -200,9 +200,9 @@ label day19:
 
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2 
+        zoom 1.1 
     with dissolve
 
     ul "Ага, вижу. Метлу лопату и ведро."
@@ -222,9 +222,9 @@ label day19:
 
 
     show sp_ul_016:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2 
+        zoom 1.1 
     with dissolve
 
     ul "(Обижено) \nЧего ты смеешься?"
@@ -233,9 +233,9 @@ label day19:
 
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2 
+        zoom 1.1
     with dissolve
 
     ul "Тихо, а то Петровича приманишь! Он любит со своей колотушкой прохаживаться. Сейчас припрется."
@@ -574,17 +574,17 @@ label day19:
     hide sp_ul_013
 
 
-    show sp_al_005:
+    show sp_al_004:
         yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 
     al "Теперь знаем. Надо же... Наши пташки спелись на почве искусства. Не спят ночами. Беседуют о высоком. Всяких рыжих в тусовку не берут. Ну да ладно. Не больно-то надо. У нас своя «свадьба»."
 
-    hide sp_al_005
+    hide sp_al_004
 
 
-    show sp_ul_013:
+    show sp_ul_014:
         yalign 0.0 subpixel True
         xalign 0.45 subpixel True
         zoom 1.1
@@ -685,9 +685,9 @@ label day19:
 
 
     show sp_ul_013:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Зачем ты про Семена, она же передаст Ленке. Он правда один на один тебе предлагал на чердаке «тусить»? Ленка же с ума сойдет."
@@ -707,9 +707,9 @@ label day19:
 
 
     show sp_ul_014:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Ну ты и продуманная."
@@ -729,9 +729,9 @@ label day19:
 
 
     show sp_ul_013:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Как ты думаешь, зачем Лене магия и всякие травы? Она же для себя просила, это же ясно."
@@ -751,9 +751,9 @@ label day19:
 
 
     show sp_ul_013:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Остались Мику и Атсуи. К Саманте он подкатывать боится. Там Мегги. Она его в бараний рог согнет. Видела, какие у неё мышцы? А пресс?"
@@ -775,9 +775,9 @@ label day19:
 
 
     show sp_ul_014:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Да, круто. Еще круче то, что теперь у нас есть зацепка. Если шифр в этой книге подойдет у тому, что в дневнике у Семена, мы узнаем все его тайны."
@@ -792,6 +792,242 @@ label day19:
 
     pause (10000000000000000000000.0) # Не убирать паузу
 
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_023.mp3"
+
+    scene bg auhouse2 with dissolve
+
+    "Не успели мы вернуться из библиотеки, как к нам постучалась Женя.  Я испугалась. Неужели Женя заметила пропажу документов, что мы стащили в прошлый раз?  Вид у неё был расстроенный."
+
+
+    show sp_je_001:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+    
+    je "Слушайте, девочки, вы самые активные. Ульяна, вроде пишет даже что-то. Ну, я имею в виду, историю лагеря. Тут такое дело. В нашей библиотеке нет журнала для детей."
+
+
+    scene cg murzilka with dissolve
+
+    je "Я просила Ольгу Дмитриевну как-то доставить в лагерь номера журнала «Мурзилка», но ей всё некогда."
+
+
+    scene bg auhouse2 with dissolve
+
+    show sp_je_001:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    
+    je "Маме  говорила, так она только отмахнулась. А у нас проблема. «Пионерскую правду» младшие отряды не читают, им скучно. А вот картинки разглядывать всякие, стихи, сказки, это то, что надо."
+
+    "Сказок, кстати, тоже в библиотеке кот наплакал.  И ещё переводилки нужны и раскраски.  Может быть,  Ульяна станет выпускать лагерный вариант журнала «Мурзилка»?"
+
+    "И рассказывать там о лагерных новостях, тех, что интересны именно детям? Семен не оказывается иллюстрировать. Ну, что скажете?"
+
+
+    scene bg auhouse_crop1 with dissolve
+   
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А что... Я хоть и занята, но если Алиса с Семеном помогут... И ты, то мы справимся."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Ммм, ну не знаю. Когда писать-рисовать-то это всё? По ночам разве. У нас и так день не резиновый.  Улька, тебе решать. Но учти, дети не поймут, если ты вдруг пропустишь выпуск журнала из-за своих дел."
+
+    al "А Семена я не особо хочу видеть."
+
+
+    scene bg auhouse2 with dissolve
+
+    show sp_je_001:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    
+    je "Может, Лена поможет? Она, вроде, тоже рисует."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Да, вот, точно! С Ленкой будет интереснее. Она же никакой нагрузки не несет, кроме своего кружка и кройки и шитья. И тот, два раза в неделю. Пусть помогает."
+
+
+    scene bg auhouse2 with dissolve
+
+    show sp_je_001:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    
+    je "Часть статей могут писать наши. Вот, скажем, Мику и Атсуи. Пусть пишут о том, что им ближе."
+
+    je "Смотрите, сектор водный — Атсуи, сектор про лес и всякую природу — Ульяна, сектор спорта — Алиса, сектор  техники — кибернетики. Вот целая редколлегия по секторам!"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Технические моменты дети не поймут. Но если в популярной форме... Скажем, как сделать  телефон из спичечных коробков и нитки. Мы в такое в детстве играли."
+
+
+
+    scene bg auhouse_crop1 with dissolve
+   
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Точно! Мы тоже! А еще делали из мыла, спичек, резинки и катушки от ниток трактор и он бегал!"
+
+
+    scene cg murzilka2 with dissolve
+
+    je "Не поверите, но тут сохранился даже один из первых номеров Мурзилки. 1924 года!"
+
+
+    scene cg murzilka3 with dissolve
+
+    je " И один номер 1942 года. Видно, его выпускали даже во время войны."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_170.mp3"
+
+    scene bg library3 with dissolve
+
+    "В тот же день мы собрались в библиотеке на первую редколлегию «Мурзилки». ОД одобрила. Конечно, это нагрузка. Но я же будущий репортер и журналист. А тут такой случай!"
+
+    "Теперь у меня две нагрузки: «Пионерская правда» и «Мурзилка». Прямо голова кругом. Пойду полежу, подумаю. Пусть всё, как говорит Петрович, «устаканится» в голове."
+
+    "Заодно напишу статью про День памяти. Скоро его отмечать. Надо готовиться."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Когда мы вернулись к себе,  Алиса почему-то все время смотрела на меня ЗНАЧИТЕЛЬНО и качала головой."
+
+
+    scene bg auhouse_crop1 with dissolve
+   
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Что ты так смотришь?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Ничего... Зашьемся мы с этим журналом, чует мое сердце. Взвалили на себя. Все ты..."
+
+
+    scene bg auhouse_crop1 with dissolve
+   
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Но ты же меня поддержала!"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Да. Но потом здраво рассудила и поняла, что мы не справимся."
+
+
+    scene bg auhouse_crop1 with dissolve
+   
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Слушай, кажется, я вспомнила, что Толик рассказывал, что ушел со второго курса педучилища, где учился по специальности литература и русский язык! Вот кто нам поможет!"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Точно! Это выход. Будет писать статейки, пока мы будем в отлучке! Давай, сгоняй к нему, он живет в бытовке физрука."
+
+
+    scene bg auhouse_crop1 with dissolve
+   
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Я там никогда не была. Тарас Юрьевич никого туда не пускает."
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "У тебя теперь есть повод.  Все, беги!"
+
+ 
+
+
+
+
+
+
+
+
+    pause (10000000000000000000000.0)
 
     scene black with fade
 

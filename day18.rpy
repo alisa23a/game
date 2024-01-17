@@ -63,9 +63,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "(Достает бинокль) \nДа... Похоже, что это не поляна вовсе, а старый аэродром в лесу. Только очень заросший. Вижу."
@@ -87,9 +87,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Пойдем назад, узнаем. Но Петрович говорил, что тропу сожрало болото. Значит, мы правильно сделали, что пошли по узкоколейке."
@@ -111,9 +111,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Пойдем уже, а то ветер усиливается. Тут он особенно лютый, место-то пустое. Не нравится мне этот ветер. Какой-то он искусственный."
@@ -150,9 +150,9 @@ label day18:
     scene bg plane2 with dissolve
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Я не вижу никакой лестницы, и тут нет двери. Как же мы попадем внутрь?"
 
@@ -171,9 +171,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Хорошая идея."
 
@@ -202,9 +202,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Но тут два парашюта, а где третий пилот? Смотри, всегда показывают в фильмах, командир, штурман, и стрелок-радист. Правильно же?"
@@ -250,9 +250,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Я не знаю. Прямо конец света..."
@@ -304,9 +304,9 @@ label day18:
     scene cg dead_pilot with dissolve
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Смотри, парашют! Он лежал вот в этой нише. Тоже забрызганный. Но целый. Ой, наверное летчик был почти моего роста."
 
@@ -324,17 +324,17 @@ label day18:
     hide sp_al_056
 
 
-    show sp_ul_040:
-        yalign 0.05 subpixel True
+    show sp_ul_041:
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Ну, тащить его в лагерь. Для нашего Музея Славы. Это артефакт времен войны. Хорошо сниму, но хотя бы сфотографироваться с ним можно? Ты же взяла фотокамеру, доставай."
 
     ul "Смотри, я правильно надела?"
 
-    hide sp_ul_040
+    hide sp_ul_041
 
     "Между тем, ветер еще сильнее засвистел в обшивке. Самолет задрожал и покачнулся. Вскоре свист перешел в завывание. Фюзеляж раскачивался так, что стало трудно устоять на ногах."
 
@@ -359,9 +359,9 @@ label day18:
 
 
     show sp_ul_040:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Алиса, не могу освободиться! Тут много железочек... Вот какая-то. Сейчас, потяну и отстегну!"
@@ -584,9 +584,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Как так? Мы еще не выбрались?"
@@ -607,9 +607,9 @@ label day18:
 
 
     show sp_ul_021:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "А ведь нам повезло два раза."
@@ -628,9 +628,9 @@ label day18:
 
 
     show sp_ul_021:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Первый раз нам повезло в том, что мы не пошли через топь обратно. Нас как Элли и Тотошку из «Волшебника Изумрудного Города» в летающем домике перенесло по воздуху."
@@ -649,9 +649,9 @@ label day18:
 
 
     show sp_ul_021:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "А второй раз, это когда получилось еще одно ПРИКЛЮЧЕНИЕ. И я думаю, мы нанесем на карту наши эти приключения. Вот, например, эту иву. И назовем её «Ива Спасения»."
@@ -670,9 +670,9 @@ label day18:
 
 
     show sp_ul_021:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Это как посмотреть. По мне, так это очень даже не злоключения. Скорее, прекрасные приключения. По счету оно будет двенадцатое. Ну, не считая ещё находок. Про них я пишу отдельно."
@@ -694,9 +694,9 @@ label day18:
 
 
     show sp_ul_020:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Какой стакан? Как это? Обидеть хочешь?"
@@ -720,9 +720,9 @@ label day18:
 
 
     show sp_ul_023:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "А-а-а, ну да. Тогда я точно оптимист."
@@ -742,9 +742,9 @@ label day18:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Не удивлюсь, если в этом странном месте в разных частях ЗОНЫ своя погода. Например, в лагере сейчас все могут запросто загорать на пляже."
@@ -766,9 +766,9 @@ label day18:
 
 
     show sp_ul_021:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Так близко? Ура!"
@@ -848,7 +848,7 @@ label day18:
     scene bg dinning_exterior
 
     show sp_ln_001:
-        yalign 0.1 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 
@@ -862,9 +862,9 @@ label day18:
 
 
     show sp_ul_023:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     show sp_al_037:
         yalign 0.1 subpixel True
@@ -879,7 +879,7 @@ label day18:
     scene bg dinning_exterior
 
     show sp_ln_001:
-        yalign 0.1 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 
@@ -890,9 +890,9 @@ label day18:
 
 
     show sp_ul_023:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
 
     show sp_al_037:
@@ -911,17 +911,17 @@ label day18:
     scene bg genda with dissolve
 
     show sp_mi_012:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     show sp_od_014:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.47 subpixel True
         zoom 1.2
 
     show sp_sl_019:
-        yalign 0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -940,7 +940,7 @@ label day18:
     scene bg genda with dissolve
 
     show sp_sem_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 
@@ -953,7 +953,7 @@ label day18:
     "Потом, нас потащили в медпункт."
 
     show sp_vio_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 

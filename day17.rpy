@@ -205,9 +205,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "С виду болото и болото. Я бы не додумалась, что там есть проход."
@@ -229,9 +229,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Точно. Идем вдоль линии камышей. А я сначала думала, мы пойдем по кочками. Как в фильме «А зори здесь тихие»."
@@ -251,9 +251,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Ой, извини. Да, страшный момент..."
@@ -367,9 +367,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "У меня тоже. Но зато мы выбрались."
@@ -389,9 +389,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Вон, стоит посреди болота, я так и не смогла его вытащить."
@@ -415,9 +415,9 @@ label day17:
     "Мы выбрались на опушку леса и пошли вдоль деревьев, когда начался ливень."
 
     show sp_ul_021:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Ну вот тебе и источник. С меня грязища течет прям."
@@ -440,9 +440,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "В такой глуши, в болоте? Странно. Хотя... Если удастся спрятаться от дождя, будет отлично."
@@ -462,9 +462,9 @@ label day17:
 
  
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "А вдруг там чудище?"
@@ -485,9 +485,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Не трогай ничего, вдруг тут какая-нибудь мина или что ни будь еще."
@@ -509,9 +509,9 @@ label day17:
  
  
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Нет, не думаю. Петрович все время был у нас на глазах."
@@ -533,9 +533,9 @@ label day17:
     scene bg dugout_interior with dissolve
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Настоящий потоп. Главное, чтобы не залило блиндаж. Хотя, если учесть, что за столько лет тут было много таких дождей, а он выстоял, то можно не беспокоиться."
@@ -606,9 +606,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "И продуманный. А спички-то утопли в рюкзаке и все размокли."
@@ -628,9 +628,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Давай. Мне кажется, спички должны быть где-то под потолком, там самое сухое место. Я обследую вон ту щель, а ты посмотри на полочке, над дверью."
@@ -652,9 +652,9 @@ label day17:
     pause (10000000000000000000.0)
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "(Смотрит книгу) \nЭто не книга, это какой-то гроссбух. По всему, бухгалтерский документ."
 
@@ -675,9 +675,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Это журнал учета с прииска! Наверное, его вел тот инженер. А что такое РХ?"
@@ -697,9 +697,9 @@ label day17:
 
 
     show sp_ul_019:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     ul "Два пуда золота за сентябрь? С ума сойти. Теперь помножим на время, которое работал прииск до 1917 года. Это же будет... \n(шевелит губами)"

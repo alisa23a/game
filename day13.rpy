@@ -315,7 +315,7 @@ label day13_2:
     scene bg attic_inside with dissolve
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -324,7 +324,7 @@ label day13_2:
     hide sp_sl_001
 
     show sp_le_006:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -333,7 +333,7 @@ label day13_2:
     hide sp_le_006
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -342,7 +342,7 @@ label day13_2:
     hide sp_al_005
 
     show sp_je_013:
-        yalign 0.0 subpixel True
+        yalign 0.03 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -351,7 +351,7 @@ label day13_2:
     hide sp_je_013
 
     show sp_mi_012:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -360,7 +360,7 @@ label day13_2:
     hide sp_mi_012
 
     show sp_at_004:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -369,7 +369,7 @@ label day13_2:
     hide sp_at_004
 
     show sp_sam_010:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -378,7 +378,7 @@ label day13_2:
     hide sp_sam_010
 
     show sp_sem_001:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -387,7 +387,7 @@ label day13_2:
     hide sp_sem_001
 
     show sp_sam_004:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -396,7 +396,7 @@ label day13_2:
     hide sp_sam_004
 
     show sp_at_004:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -407,7 +407,7 @@ label day13_2:
     show sp_ul_014:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Фигня вопрос! Сейчас физрук в карантине, у Петровича есть дубликат ключей от бытовки и раздевалки."
 
@@ -416,7 +416,7 @@ label day13_2:
     hide sp_ul_014
 
     show sp_le_006:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -425,7 +425,7 @@ label day13_2:
     hide sp_le_006
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -434,7 +434,7 @@ label day13_2:
     hide sp_al_005
 
     show sp_al_003:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -443,7 +443,7 @@ label day13_2:
     hide sp_al_003
 
     show sp_sem_001:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -452,7 +452,7 @@ label day13_2:
     hide sp_sem_001
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -463,7 +463,7 @@ label day13_2:
     show sp_ul_012:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "И чтобы на вечеринках было вкусненькое! Заготовку вкусняшек, думаю, надо поручить Саманте. Ей никогда не откажут."
 
@@ -472,7 +472,7 @@ label day13_2:
     hide sp_ul_012
 
     show sp_sam_004:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -481,7 +481,7 @@ label day13_2:
     hide sp_sam_004
 
     show sp_je_001:
-        yalign 0.0 subpixel True
+        yalign 0.03 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -492,10 +492,10 @@ label day13_2:
     show sp_ul_012:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -506,7 +506,7 @@ label day13_2:
     hide sp_al_005
 
     show sp_tol_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -515,7 +515,7 @@ label day13_2:
     hide sp_tol_001
 
     show sp_shu_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -524,7 +524,7 @@ label day13_2:
     hide sp_shu_001
 
     show sp_el_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -533,7 +533,7 @@ label day13_2:
     hide sp_el_001
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -544,7 +544,7 @@ label day13_2:
     hide sp_sl_001
  
     show sp_el_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -553,7 +553,7 @@ label day13_2:
     hide sp_el_001
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -562,7 +562,7 @@ label day13_2:
     hide sp_sl_001
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -571,28 +571,26 @@ label day13_2:
     hide sp_al_005
 
     show sp_shu_001:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
+        yalign 0.05 subpixel True
+        xalign -0.2 subpixel True
         zoom 1.2
 
     show sp_tol_001:
-        yalign 0.0 subpixel True
-        xalign 0.5 subpixel True
+        yalign 0.05 subpixel True
+        xalign 0.25 subpixel True
+        zoom 1.2
+
+    show sp_sem_001:
+        yalign 0.08 subpixel True
+        xalign 0.75 subpixel True
         zoom 1.2
 
     show sp_el_001:
-        yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        yalign 0.05 subpixel True
+        xalign 1.2 subpixel True
         zoom 1.2
 
     guys "(Хором) \nВсегда готовы!"
-
-    hide sp_el_001
-
-    hide sp_shu_001
-
-    hide sp_tol_001
-
 
 
     stop music
@@ -654,14 +652,14 @@ label day13_2:
 
 
     show sp_shu_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
 
 
     show sp_el_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -674,14 +672,14 @@ label day13_2:
     show sp_ul_012:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Еще как, крутанем!"
 
     hide sp_ul_012
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -690,7 +688,7 @@ label day13_2:
     hide sp_al_005
 
     show sp_tol_004:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -699,7 +697,7 @@ label day13_2:
     hide sp_tol_004
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -708,7 +706,7 @@ label day13_2:
     hide sp_sl_001
 
     show sp_le_004:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -754,7 +752,7 @@ label day13_2:
     show sp_ul_037:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "А-а-а! Я высоты боюсь!"
 
@@ -829,7 +827,7 @@ label day13_2:
     show sp_ul_036:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Живая, не волнуйтесь!"  
 
@@ -846,7 +844,7 @@ label day13_2:
     show sp_ul_036:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Тут есть лестница. Я щас."  
 
@@ -1003,12 +1001,12 @@ label day13_2:
     scene bg attic_inside with dissolve
 
     show sp_sem_001:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     show sp_shu_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -1019,7 +1017,7 @@ label day13_2:
     "После чего, выбившийся из сил Шурик на полчаса выбыл из игры."
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
@@ -1047,31 +1045,33 @@ label day13_2:
     hide sp_cards_sem_01
 
     show sp_je_001:
-        yalign 0.0 subpixel True
+        yalign 0.03 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2 
     with dissolve
 
     "Женя, внимательно следившая за игрой, обвинила Семёна в жульничестве."
 
-    hide sp_je_001
+#    hide sp_je_001
 
-    scene bg attic_inside with dissolve 
+    scene bg attic_inside #with dissolve 
 
     show sp_je_001:
-        yalign 0.0 subpixel True
+        yalign 0.03 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2 
-
-    show sp_tol_001:
-        yalign 0.0 subpixel True
-        xalign 0.9 subpixel True
-        zoom 1.2  
 
     show sp_sl_001:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
+    with dissolve
+
+    show sp_tol_001:
+        yalign 0.0 subpixel True
+        xalign 0.9 subpixel True
+        zoom 1.2  
+    with dissolve
 
     "Ее поддержали Славя и Толик. После долгих препирательств (стороны разделились), решено было сделать ничью."
 
@@ -1090,7 +1090,7 @@ label day13_2:
     hide sp_cards_sem_01
 
     show sp_sem_001:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
     with dissolve
@@ -1104,8 +1104,8 @@ label day13_2:
     hide sp_sem_001
 
     show sp_al_012:
-        yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
         zoom 1.2
     with dissolve
 
@@ -1129,12 +1129,12 @@ label day13_2:
     scene bg attic_inside with dissolve
 
     show sp_le_014:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     show sp_sl_018:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -1147,20 +1147,20 @@ label day13_2:
     scene bg attic_inside with dissolve
 
     show sp_sem_001:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     "Затем сыграли в подкидного. Все постепенно выбыли и снова остались Алиса и Семён. И у каждого были свои болельщики. Проигравший должен был пойти ночью на Кладбище Горняков и остаться там до утра. Алиса проиграла."
 
-    hide sp_sem_001
+    hide sp_sem_001  with dissolve
 
-    hide sp_al_005
+    hide sp_al_005  with dissolve
 
     "К 12 часам ночи, народ тихо разошелся по домикам."
 

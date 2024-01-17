@@ -320,9 +320,9 @@ label day8:
     "Наша с Пионером лодка вошла в красивую бухточку окаймленную камышами. Она была просторной и наверное тут мог бы поместится целый лодочный флот. Этими мыслями я поделилась с Пионером и он одобрительно закивал, сказав:"
 
     show sp_sem_001:
-        yalign -0.1 subpixel True
-        xalign .5 subpixel True
-        zoom 1.0
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
 
     pi "Да, настоящая пиратская гавань."
@@ -332,9 +332,9 @@ label day8:
     "Я спросила, давал ли кто-нибудь названия этим местам и с радостью узнала, что нет."
 
     show sp_ul_014:
-        yalign -0.1 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.0
+        zoom 1.1
     
     ul "Тогда я буду первая!"
  
@@ -347,9 +347,9 @@ label day8:
     "Обломки старых лодок, кусочки сетей, старый бакен, наполовину занесенный песком."
 
     show sp_sem_001:
-        yalign -0.1 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.0
+        zoom 1.2
     
     pi "Вот то о чем я говорил!"
 
@@ -366,9 +366,9 @@ label day8:
     "Это было захватывающее зрелище. В голове сразу пролетели все картины из книжек про пиратов, которые я прочитала когда-то."
 
     show sp_sem_001:
-        yalign -0.1 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.0
+        zoom 1.2
     
     pi "Тут после войны была рыбацкая артель. Они выловили почти всю рыбу в реке. Потом артель закрылась, но остался баркас. Его хотели увезти, но не смогли. Проломили ему борт, чтобы никому не достался и уехали." 
     
@@ -377,9 +377,9 @@ label day8:
     hide sp_sem_001
 
     show sp_ul_013:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 1.0
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
     
     ul "А что с рыбой?"
 
@@ -388,18 +388,18 @@ label day8:
     "Я погладила борт баркаса и представила, как мы всем отрядом плывем к морю…"
 
     show sp_sem_001:
-        yalign -0.1 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.0
+        zoom 1.2
 
     pi "А что с ней будет? Расплодилась снова. Ты же её ела сегодня."
 
     hide sp_sem_001
 
     show sp_ul_014:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 1.0
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
 
     ul "И правда."
 
@@ -418,9 +418,9 @@ label day8:
     scene bg pfis with fade
 
     show sp_ul_013:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 1.0
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
 
     "Я посмотрела на него очень сурово и спросила:"
 
@@ -429,9 +429,9 @@ label day8:
     hide sp_ul_013
  
     show sp_sem_009:
-        yalign -0.1 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.0
+        zoom 1.2
 
     pi "Ты не подумай ничего, я по дружески…"
 
@@ -440,27 +440,27 @@ label day8:
     hide sp_sem_009
 
     show sp_ul_013:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 1.0
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
 
     ul "Больше не делай так без разрешения."
 
     hide sp_ul_013
  
     show sp_sem_004:
-        yalign -0.1 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.0
+        zoom 1.2
 
     "Он закивал. \nИ я сказала, сделав серьезное лицо (очень серьезное):"
 
     hide sp_sem_004
 
     show sp_ul_013:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 1.0
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
 
     ul "– Тогда... можешь поцеловать, только в щеку."
     
@@ -475,18 +475,18 @@ label day8:
     scene bg reverside_2
 
     show sp_ul_012:
-        yalign -0.1 subpixel True
-        xalign .0 subpixel True
-        zoom 1.0
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
 
     ul "А ты давно живешь на этом острове?"
 
     hide sp_ul_012
  
     show sp_sem_001:
-        yalign -0.1 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.0
+        zoom 1.2
 
     pi "Давно… Очень давно."
 

@@ -33,9 +33,9 @@ label day12:
     "После завтрака я заскочила в мастерскую, где кибернетики в сотый раз переделывали свою куклу и поманила Электроника пальцем."
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Слушай.. Пойдем я тебе что-то покажу."
 
@@ -51,9 +51,9 @@ label day12:
     hide sp_el_001
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Да нет же! Это другое. Это касается Жени."
 
@@ -87,9 +87,9 @@ label day12:
     scene bg fbeach
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Видишь лодку? Мог бы ты ее починить?"
 
@@ -111,9 +111,9 @@ label day12:
     scene bg fbeach
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Вот, мы подошли к главному. Только это большой секрет. Обещай, что никому ничего не скажешь, особенно своему другу Шурику. Он любит сболтнуть лишнего."
 
@@ -131,18 +131,18 @@ label day12:
     scene bg fbeach
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Так вот. Как-то мы гуляли тут, я, Женя и Алиса. Ну ты знаешь, Женю вытащить на пляж купаться и кататься на лодке, невозможно. Она стесняется."
 
     hide sp_ul_012
     
     show sp_ul_014:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Но увидев лодку, она сказала, что покаталась бы подальше от лагеря с нами, если бы конечно эта лодка была на ходу."
     
@@ -159,9 +159,9 @@ label day12:
     scene bg fbeach
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Все лодки на станции контролирует завхоз и Славя тоже вечно присматривает и докладывает ОД кто куда катается. А тут есть возможность сгонять на остров и никто ни о чем не догадается. Эта лодка не стоит на учете."
 
@@ -190,9 +190,9 @@ label day12:
     scene bg fbeach
 
     show sp_ul_014:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Это я беру на себя."
 
@@ -400,6 +400,9 @@ label day12:
 
     "А потом, все отряды построили и торжественно отвели на поляну слетов. Там разожгли пионерский костер и сожгли всю «нечисть» (ну, то есть наши эмблемы, повязки, шифры и знамя зомбаков)."
 
+    scene cg large_campfire
+
+    pause (100000000000000000.0)
 
     stop music
 

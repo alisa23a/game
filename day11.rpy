@@ -326,9 +326,9 @@ label day11:
     scene bg watchmans_cabin with dissolve
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Мы с Пионером аж шесть рыб поймали в прошлый раз. Так что я опытная. А ты?"
 
@@ -353,9 +353,9 @@ label day11:
     hide sp_al_005
 
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Если честно, то у меня тоже только вторая рыбалка. Да и то,  первую рыбу мне помог поймать Пионер. Я больше для форсу сказала. Не хотела казаться совсем неумехой."
 
@@ -384,9 +384,9 @@ label day11:
     "И мы пошли на рачью отмель. Потому что идти к омуту было страшно.  Может, сом приплывет к нам. Он же на раков тоже, небось, охотится. А там их тьма-тьмущая."
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Алис, а сомы на раков охотятся? "
 
@@ -404,9 +404,9 @@ label day11:
     hide sp_al_005
 
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Да... Ладно, закину я подальше. Тут у берега мелко, а он любит, наверное, глубину."
 
@@ -422,9 +422,9 @@ label day11:
     hide sp_al_004
 
     show sp_ul_014:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Глупости. Он же когда плывет, волну большую поднимает, как буксир. Я смотрела как плывут буксиры. Так что я его за километр увижу."
 

@@ -190,9 +190,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
    
     ul "Я знаю, как нам карту добыть."
 
@@ -208,9 +208,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
    
     ul "Помнишь, как Славя нас зазывала в свой фотокружок? Ей натурщики нужны."
 
@@ -226,17 +226,17 @@ label day16:
 
     scene bg auhouse_crop1
     
-    show sp_ul_012:
-        yalign 0.05 subpixel True
+    show sp_ul_014:
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Так вот. Мы скажем, что будем позировать, пусть она делает свои фотоэтюды. Но взамен попросим её дать нам возможность отпечатать свои фотографии в ее фотолаборатории."
 
 
     scene bg auhouse_crop2
     
-    show sp_al_044:
+    show sp_al_006:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -247,9 +247,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "А то! Но только надо, чтобы был свет хороший. Я видела, как папа делает фото с документов. Он говорил, чтобы свет падал чуть сбоку, а аппарат был хорошо закреплен неподвижно."
 
@@ -258,11 +258,11 @@ label day16:
     ul "Но, может быть, у Слави есть такая тренога? Это все-таки лучше, чем снимать руками. Папа говорил, что только кажется, будто руки неподвижны. Они все равно двигаются. И будет не так четко."
 
 
-    scene bg fotoc with dissolve
+    # scene bg fotoc with dissolve
 
-    "И мы побежали в фотокружок, он как раз открылся после обеда."
+    # "И мы побежали в фотокружок, он как раз открылся после обеда."
 
-    "Так мы снова получили фотоаппарат."
+    # "Так мы снова получили фотоаппарат."
 
     stop music fadeout 1.0
 
@@ -343,7 +343,7 @@ label day16:
     "Вечером, мы проявили пленку и отпечатали фото в Славиной лаборатории."
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
     with Dissolve(0.3)
@@ -353,7 +353,7 @@ label day16:
     hide sp_sl_001
 
     show sp_sl_003:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
     with Dissolve(0.3)
@@ -365,7 +365,7 @@ label day16:
     "Мы, конечно, пообещали. И она отстала. Надеюсь, мы ей не подкинули случайно глупую идею."
 
     show sp_al_004:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
     with Dissolve(0.3)
@@ -401,9 +401,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_025:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Ой, что-то мне страшно... Загибнем мы в тех болотах. Говорил же Петрович, что без него туда не пройти."
 
@@ -421,9 +421,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Но ее еще до войны строили, а может при царе-батюшке. Она, поди, сгнила вся или в болото ушла."
 
@@ -441,9 +441,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Думаешь, по насыпи дойти? Тут, правда, недалеко получается от дороги до самолета, если конечно Петрович правильно все нарисовал."
 
@@ -461,9 +461,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Да, а что. Неплохая идея. Спрятать в болотах аэродром. И немцы ни в жизнь бы не догадались. Наверное, он был резервный."
 
@@ -491,9 +491,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_013:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Пока не доберемся, не узнаем. Но нас интересует не это. Нас интересует самолет. Хотя... Тоже интересно."
 
@@ -511,9 +511,9 @@ label day16:
     scene bg auhouse_crop1
     
     show sp_ul_012:
-        yalign 0.05 subpixel True
+        yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     ul "Он будет проситься с нами."
 
@@ -542,7 +542,7 @@ label day16:
     "Он всегда мне все разрешал, если попрошу. Но я всего один раз просила. Это когда мы с Алисой вечером сильно хотели есть после купания в реке."
 
     show sp_sem_015:
-        yalign 0.1 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 

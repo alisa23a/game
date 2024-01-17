@@ -36,7 +36,7 @@ label day14:
     "А у нас ничего приготовлено не было. Если малыши седьмого и восьмого отрядов хотя бы выучили стишки, то у нас, как сказал бы мой папа, «И бык не валялся»."
 
     show sp_mi_012:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
     with dissolve 
@@ -54,22 +54,22 @@ label day14:
     scene bg stage4 with dissolve
 
     show sp_tol_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     show sp_at_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.65 subpixel True
         zoom 1.2
 
     show sp_je_001:
-        yalign 0.0 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.35 subpixel True
         zoom 1.2
 
     show sp_sem_001:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -80,12 +80,12 @@ label day14:
     scene bg stage4 with dissolve
 
     show sp_od_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     show sp_sl_003:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -95,7 +95,7 @@ label day14:
     scene bg stage4 with dissolve
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 
@@ -169,8 +169,8 @@ label day14:
     scene bg stage2 with dissolve
 
     show sp_fi_006:
-        yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        yalign 0.1 subpixel True
+        xalign 0.8 subpixel True
         zoom 1.2
     with dissolve
 
@@ -191,7 +191,7 @@ label day14:
     show sp_ul_014:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     "Вот там где соло, это я пою. Тоненьким таким голосом."
@@ -443,7 +443,7 @@ label day14:
     "Ну и если повезет, то стибрить (слямзить, умыкнуть) ключ от подвала библиотеки. Не на совсем, а на время. И мы в перерыве между репетициями, во время обеда, пошли к Жене."
 
     show sp_je_001:
-        yalign 0.0 subpixel True
+        yalign 0.03 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -452,7 +452,7 @@ label day14:
     scene bg lib_spec_stor with dissolve
 
     show sp_je_001:
-        yalign 0.0 subpixel True
+        yalign 0.03 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -753,12 +753,12 @@ label day14:
     scene bg fotoc with dissolve
 
     show sp_sem_004:
-        yalign 0.0 subpixel True
+        yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
 
     show sp_al_003:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2   
 
@@ -769,7 +769,7 @@ label day14:
     hide sp_al_003
 
     show sp_sl_018:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2  
 
@@ -780,10 +780,10 @@ label day14:
     show sp_ul_012:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2 
+        zoom 1.1 
 
     show sp_al_005:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2  
 
@@ -796,7 +796,7 @@ label day14:
     hide sp_al_005
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2  
 
@@ -805,7 +805,7 @@ label day14:
     hide sp_sl_001
 
     show sp_al_003:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2  
 
@@ -816,7 +816,7 @@ label day14:
     "Тут я оглянулась, а Семёна, как ветром сдуло. Сбежал."
 
     show sp_sl_019:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2  
 

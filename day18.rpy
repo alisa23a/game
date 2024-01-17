@@ -412,7 +412,7 @@ label day18:
     $ renpy.pause(3.5, hard=True)
 
 
-    hide sp_al_ul_par
+    scene bg par_flight2
 
     show sp_al_ul_par:
 
@@ -432,7 +432,7 @@ label day18:
     "Я успела заметить, что на ней был рюкзак, в который мы засунули найденный планшет. Это было важно. Чем бы не кончилась история, но мы все-таки ходили не зря. Я кинула взгляд на оставленный нами самолет."
 
 
-    scene bg par_flight
+    scene bg par_flight2
 
     "Он стремительно удалялся и скоро скрылся из виду."
 
@@ -463,7 +463,7 @@ label day18:
     "Было непонятно и от этого, очень страшно. Может быть, это у меня от волнения темнеет в глазах?  Говорят, такое бывает."
 
 
-    scene bg par_flight with dissolve
+    scene bg par_flight2 with dissolve
 
     "Вскоре, мелькание исчезло.. Я облегченно вздохнула. Нет, со мной все в порядке."
 
@@ -492,7 +492,7 @@ label day18:
 
     play music "audio/music/z_736.mp3"
 
-    scene bg par_flight with dissolve
+    scene bg par_flight2 with dissolve
 
     "Он нёс нас на болота! В ту самую просеку. Хорошо, что парашют не давал нам упасть. Вокруг, сколько видел глаз, раскинулась бескрайняя топь. Возможно, ветер когда-нибудь стихнет."
 
@@ -517,9 +517,9 @@ label day18:
     hide sp_al_ul_par
 
 
-    scene bg par_flight with dissolve
+    scene bg par_flight2 with dissolve
 
-    show sp_al_ul_par
+    #show sp_al_ul_par
     # show sp_al_ul_par:
 
 

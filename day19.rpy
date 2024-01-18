@@ -594,7 +594,7 @@ label day19:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_147.mp3"
+    play music "audio/music/z_081.mp3"
 
     scene bg attic_inside with dissolve
 
@@ -1296,7 +1296,7 @@ label day19:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_127.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene an_d10_01_bg with dissolve
 
@@ -1439,7 +1439,7 @@ label day19:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_127.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene bg oldclock with dissolve
 

@@ -16,7 +16,7 @@ label day11:
 
     stop music
 
-    play music "audio/music/z_147.mp3"
+    play music "audio/music/z_081.mp3"
 
     scene an_d10_01_bg with dissolve
 
@@ -90,7 +90,7 @@ label day11:
 
     stop music
 
-    play music "audio/music/z_148.mp3"
+    play music "audio/music/z_140.mp3"
 
     scene an_d11_03_bg
     
@@ -169,7 +169,7 @@ label day11:
 
     stop music
 
-    play music "audio/music/z_175.mp3"
+    play music "audio/music/z_130.mp3"
 
     scene bg pool_big_catfish_night
 
@@ -278,7 +278,7 @@ label day11:
 
     stop music
 
-    play music "audio/music/z_154.mp3"
+    play music "audio/music/z_002.mp3"
 
     #scene bg watchmans_cabin_ul_al
 

@@ -219,7 +219,7 @@ label day10:
 
     stop music
 
-    play music "audio/music/z_127.mp3"
+    play music "audio/music/z_023.mp3"
 
     "А, чуть не забыла! У Мику в помещении музкружка живет кот Мармелад."
 

@@ -199,7 +199,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_127.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene an_d10_01_bg with dissolve
 
@@ -255,7 +255,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_191.mp3"
+    play music "audio/music/z_131.mp3"
 
     show sp_smu_003:
         yalign -0.0 subpixel True
@@ -357,7 +357,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_191.mp3"   
+    play music "audio/music/z_131.mp3"   
 
     "Но буча началась не из-за этого, а из-за СИМВОЛИКИ."
 
@@ -537,7 +537,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_178.mp3"
+    play music "audio/music/z_130.mp3"
 
 
     "Я заметила, что левый берег, вдоль которого мы плыли, стал двигаться быстрее, о чем я и сказала Петровичу."

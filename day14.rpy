@@ -386,7 +386,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_308.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene bg mus_curtains with dissolve
 
@@ -577,7 +577,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_421.mp3"
+    play music "audio/music/z_131.mp3"
 
     scene cg secret_folder with dissolve
 
@@ -708,7 +708,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_421.mp3"
+    play music "audio/music/z_131.mp3"
 
     "И кого вы думаете, мы там увидели? Не догадаетесь никогда. Когда мы вошли, там шла съемка. Они нас не заметили. Славя сидела вся из себя важная, а ее фотографировал... Семён!"
 
@@ -878,7 +878,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_127.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene cg meeting with dissolve
 

@@ -17,7 +17,7 @@ label day13:
     stop music
 
 
-    play music "audio/music/z_199.mp3"
+    play music "audio/music/z_197.mp3"
 
     scene bg camp_artifacts
 
@@ -171,7 +171,7 @@ screen key_theft_9():
 
 label key_theft_1:
     
-    play music "audio/music/z_200.mp3"
+    play music "audio/music/z_131.mp3"
 
     show screen key_theft_1 with fade
 

@@ -297,7 +297,7 @@ label day19:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_123.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene cg dead_pilot2 with dissolve
 

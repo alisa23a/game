@@ -199,7 +199,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_190.mp3"
+    play music "audio/music/z_127.mp3"
 
     scene an_d10_01_bg with dissolve
 

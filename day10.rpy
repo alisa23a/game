@@ -491,7 +491,7 @@ label day10:
     
     stop music
 
-    play music "audio/music/z_123.mp3"
+    play music "audio/music/z_023.mp3"
 
     scene cg tales_of_petrovich with dissolve
 
@@ -523,7 +523,7 @@ label day10:
 
     # stop music
 
-    # play music "audio/music/z_123.mp3"
+    # play music "audio/music/z_023.mp3"
 
     scene cg bathyscaphe
     
@@ -590,7 +590,7 @@ label day10:
 
     stop music
 
-    play music "audio/music/z_123.mp3"
+    play music "audio/music/z_023.mp3"
 
     sl "(Пытаясь снять напряжение) \nА что большевики?"
 
@@ -633,7 +633,7 @@ label day10:
 
     stop music
 
-    play music "audio/music/z_123.mp3"
+    play music "audio/music/z_023.mp3"
 
 
     el "Так деда, там же в лебедке электричества нету. И наверное, обмотка давно тю-тю..."

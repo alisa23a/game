@@ -878,7 +878,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_190.mp3"
+    play music "audio/music/z_127.mp3"
 
     scene cg meeting with dissolve
 

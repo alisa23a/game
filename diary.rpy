@@ -768,8 +768,54 @@ screen sc_d_49:
         hover "gui/dnav3hover.png"
         
         hotspot(24,464,112,152) action Hide ("sc_d_49"), Show ("sc_d_48")
-        hotspot(1784,464,112,152) action Hide ("sc_d_49"), Show ("info_stand")
-        hotspot(1787,37,85,84) action Hide ("sc_d_49"), Show ("info_stand")
+        hotspot(1784,464,112,152) action Hide ("sc_d_49"), Show ("sc_d_50")
+        #hotspot(1787,37,85,84) action Hide ("sc_d_49"), Show ("info_stand")
+
+
+screen sc_d_50:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/p_50.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("sc_d_50"), Show ("sc_d_49")
+        hotspot(1784,464,112,152) action Hide ("sc_d_50"), Show ("sc_d_51")
+        hotspot(1787,37,85,84) action Hide ("sc_d_50"), Show ("info_stand")
+
+
+screen sc_d_51:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/p_51.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("sc_d_51"), Show ("sc_d_50")
+        hotspot(1784,464,112,152) action Hide ("sc_d_51"), Show ("sc_d_52")
+        hotspot(1787,37,85,84) action Hide ("sc_d_51"), Show ("info_stand")
+
+
+screen sc_d_52:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/p_52.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("sc_d_52"), Show ("sc_d_51")
+        hotspot(1784,464,112,152) action Hide ("sc_d_52"), Show ("info_stand")
+        hotspot(1787,37,85,84) action Hide ("sc_d_52"), Show ("info_stand")
+
 
 # label prolog:
 

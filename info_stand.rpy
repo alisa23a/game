@@ -842,6 +842,9 @@ screen info_stand():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
+    on 'show' action PauseAudio('music', True) 
+    on 'hide' action PauseAudio('music', False)
+
     tag menu
     zorder 100
     modal True

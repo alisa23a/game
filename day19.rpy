@@ -1795,9 +1795,9 @@ label day19:
     "Потом фигура стала что-то говорить и говорила не останавливаясь, всё громче и громче, пока слова не слились в какой-то крик. Затем фигура стала вращаться, кружить. В руках у неё тоже были огоньки."
 
 
-    scene cg woodo_ritual with dissolve
+    scene an_d19_02 with dissolve
 
-    pause (1000000000000000000.0)
+    #pause (1000000000000000000.0)
 
     "Наконец, когда кружение стало очень быстрым, плащ на фигуре распахнулся и в свете огня можно было различить, что это женщина и она под плащом абсолютно голая."
 
@@ -1806,23 +1806,37 @@ label day19:
     image an_19_01: # Анимация с женщиной на кладбище
         
         "images/an/an19day/an_d19_01.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        pause 1.0
         "images/an/an19day/an_d19_02.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        pause 1.0
         "images/an/an19day/an_d19_03.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an19day/an_d19_04.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an19day/an_d19_05.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
         "images/an/an19day/an_d19_04.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an19day/an_d19_03.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an19day/an_d19_02.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an19day/an_d19_01.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        pause 1.0
+        "images/an/an19day/an_d19_05.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_06.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_07.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_08.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_09.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_10.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_11.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_12.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_13.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_14.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an19day/an_d19_15.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        #"images/an/an19day/an_d19_16.webp" with Dissolve(0.5, alpha=True)
+        #pause 1.0
   
         repeat
 
@@ -1832,7 +1846,7 @@ label day19:
     pause (10000000000000000000000.0)
 
 
-    scene cg woodo_ritual with dissolve
+    scene an_d19_01 with dissolve
 
     "Расстояние не позволяло различить детали, не было видно лица."
 

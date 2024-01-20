@@ -45,6 +45,11 @@ define od = Character('Ольга Дмитриевна', color="#ffffff")
 
 define ln = Character('Любовь Никаноровна', color="#ffff99")
 
+define vio = Character('Виола', color="#6633CC")
+
+
+
+
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",

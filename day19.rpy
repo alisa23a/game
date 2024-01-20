@@ -1999,6 +1999,6 @@ label day19:
 
     stop music
 
-    #jump day20
+    jump day20
 
 return 

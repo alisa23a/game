@@ -392,12 +392,7 @@ label day20:
     pause (10000000000000000000000.0)
 
 
-    scene bg stadium6 with dissolve
-
-    show volleyball_od at flip:
-        yalign 1.0 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.0
+    scene cg volleyball_od with dissolve
 
     "Даже Ольга Дмитриевна, как она сказала, «тряхнула стариной».  Завязала свои шикарные волосы в пучок, то бы не мешали. И давай играть… Они с Виолой прямо дуэль устроили. Мы стояли восхищенные."
 

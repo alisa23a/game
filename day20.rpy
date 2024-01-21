@@ -352,7 +352,7 @@ label day20:
     "Потом, на радостях, мы сыграли товарищеский матч с оставшейся частью нашего отряда, которые тоже хотели поиграть."
 
 
-    image an_19_01: # Анимация волейбол
+    image an_20_01: # Анимация волейбол
         
         "images/an/an20day/an_d20_01.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
@@ -387,7 +387,7 @@ label day20:
         repeat
 
 
-    scene an_19_01 with dissolve
+    scene an_20_01 with dissolve
 
     pause (10000000000000000000000.0)
 

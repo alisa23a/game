@@ -11,6 +11,11 @@ style InvItemStyleText_text:
     #font "fonts/mateur-webfont.ttf"
     size 30
 
+style InvItemStyleNoteText_text:
+    color "#fff"
+    #font "fonts/mateur-webfont.ttf"
+    size 26
+
 style InvItemPrevCaption_frame:
     background None
 
@@ -1085,7 +1090,7 @@ screen notes_slots():
             idle_background "images/inventory/item_prev/prev_single_note.png"
             hover_background "images/inventory/item_prev/prev_single_note.png"
             style_prefix "InvItemPrevCaption"
-            text "Первая записка" xalign (0.5) yalign (0.07)
+            text "Записка от Пионера" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("notes_slots"), Show("inv_item_note_one")
 
@@ -1098,7 +1103,7 @@ screen notes_slots():
             idle_background "images/inventory/item_prev/prev_single_note.png"
             hover_background "images/inventory/item_prev/prev_single_note.png"
             style_prefix "InvItemPrevCaption"
-            text "Вторая записка" xalign (0.5) yalign (0.07)
+            text "Ключ к шифру" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("notes_slots"), Show("inv_item_note_two")
 
@@ -1136,13 +1141,13 @@ screen inv_item_note_one():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Первая записка"
+                text "Записка от Пионера"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
-                style_prefix "InvItemStyleText"
-                text "Это записка от... \nНе скажу от кого. \nЧто в ней? \nМного будешь знать, скоро состаришься."
+                style_prefix "InvItemStyleNoteText"
+                text "Дорогая Ульяна. \nНедеюсь, ты помнишь нашу прогулку в лодке. \nХотелось бы продолжить шане знакомство. \nНе ходи сегодня на ужин (будет, как всегда, лапшевник). \nГолодная не останешься, обещаю. \nПриходи к 17-00 на то место, где мы растались. \nПоплывём на отмель. \nДумаю, тебе будет интересно посидеть у костра и узнать \nмного нового о лагере и его истории. \nОбещаю вернуть тебя до отбоя (если захочешь). \nНадеюсь, ты любишь рыбу. \nТвой друг Пионер."
 
     imagebutton:
         xpos 0 ypos 0
@@ -1172,13 +1177,13 @@ screen inv_item_note_two():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Вторая записка"
+                text "Ключ к шифру"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
-                style_prefix "InvItemStyleText"
-                text "(Читай, что написала про первую)."
+                style_prefix "InvItemStyleNoteText"
+                text "Это ключ к шифру, которым написан дневник Семёна."
 
     imagebutton:
         xpos 0 ypos 0

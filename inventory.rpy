@@ -1252,7 +1252,7 @@ screen keys_slots():
         vbox:
             vbox:
                 style_prefix "keysStyle"
-                text "Я нашла эту связку ключей в лагере. На ней было три ключа. \nЯ буду цеплять сюда все ключи, которые найду."
+                text "Я буду цеплять на эту связку все ключи, которые найду."
 
     
     
@@ -1263,52 +1263,12 @@ screen keys_slots():
         hover "gui/bg_1x1_transparent.png"
         action Hide ("keys_slots"), Show("inventory_slots")
     
-    ## Превьюшка Ключ от Коптёрки физрука
+    ## Превьюшка Ключ от Чердака Алисы и Ульяны / слот 1
 
     if inv_item_25:
         button:
-            xpos 356 ypos 230
-            xsize 287 ysize 353
-            idle_background "images/inventory/item_prev/prev_single_key.png"
-            hover_background "images/inventory/item_prev/prev_single_key.png"
-            style_prefix "InvItemPrevCaption"
-            text "Коптёрка физрука" xalign (0.5) yalign (0.07)
-            #focus_mask True
-            action Hide ("keys_slots"), Show("inventory_slots")
-
-    ## Превьюшка Ключ от Лодочной станции
-
-    if inv_item_26:
-        button:
-            xpos 662 ypos 230
-            xsize 287 ysize 353
-            idle_background "images/inventory/item_prev/prev_single_key.png"
-            hover_background "images/inventory/item_prev/prev_single_key.png"
-            style_prefix "InvItemPrevCaption"
-            text "Лодочная станция" xalign (0.5) yalign (0.07)
-            #focus_mask True
-            action Hide ("keys_slots"), Show("inventory_slots")
-
-    ## Превьюшка Ключ от Продуктового склада
-
-    if inv_item_27:
-        button:
-            xpos 968 ypos 230
-            xsize 287 ysize 353
-            idle_background "images/inventory/item_prev/prev_single_key.png"
-            hover_background "images/inventory/item_prev/prev_single_key.png"
-            style_prefix "InvItemPrevCaption"
-            text "Продуктовый склад" xalign (0.5) yalign (0.07)
-            #focus_mask True
-            action Hide ("keys_slots"), Show("inventory_slots")
-
-
-    ## Превьюшка Ключ от Чердака Алисы и Ульяны
-
-    if inv_item_28:
-        button:
-            xpos 1274 ypos 230
-            xsize 287 ysize 353
+            xpos 103 ypos 227
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
@@ -1316,13 +1276,12 @@ screen keys_slots():
             #focus_mask True
             action Hide ("keys_slots"), Show("inventory_slots")
 
+    ## Превьюшка Ключ от Супернычки (чердак домика ОД) / слот 2
 
-    ## Превьюшка Ключ от Супернычки (чердак домика ОД)
-
-    if inv_item_29:
+    if inv_item_26:
         button:
-            xpos 356 ypos 613
-            xsize 287 ysize 353
+            xpos 391 ypos 227
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
@@ -1330,13 +1289,12 @@ screen keys_slots():
             #focus_mask True
             action Hide ("keys_slots"), Show("inventory_slots")
 
+    ## Превьюшка Ключ от Бомбоубежища / слот 3
 
-    ## Превьюшка Ключ от Бомбоубежища
-
-    if inv_item_30:
+    if inv_item_27:
         button:
-            xpos 662 ypos 613
-            xsize 287 ysize 353
+            xpos 679 ypos 227
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
@@ -1345,26 +1303,40 @@ screen keys_slots():
             action Hide ("keys_slots"), Show("inventory_slots")
 
 
-    ## Превьюшка Ключ от Спецхрана библиотеки
+    ## Превьюшка Ключ от кладовки под Гендой / слот 4
 
-    if inv_item_31:
+    if inv_item_28:
         button:
-            xpos 968 ypos 613
-            xsize 287 ysize 353
+            xpos 968 ypos 227
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
-            text "Спецхран библиотеки" xalign (0.5) yalign (0.07)
+            text "Кладовка под Гендой" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("keys_slots"), Show("inventory_slots")
 
 
-    ## Превьюшка Ключ от Лаборатории
+    ## Превьюшка Ключ от кружка Усталые ручки / слот 5
 
-    if inv_item_32:
+    if inv_item_29:
         button:
-            xpos 1274 ypos 613
-            xsize 287 ysize 353
+            xpos 1256 ypos 227
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Усталые Ручки" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Лаборатории / слот 6
+
+    if inv_item_30:
+        button:
+            xpos 1544 ypos 227
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
@@ -1373,26 +1345,54 @@ screen keys_slots():
             action Hide ("keys_slots"), Show("inventory_slots")
 
 
-    ## Превьюшка Неизвестный ключ 1
+    ## Превьюшка Ключ от Подземного бассейна / слот 7
+
+    if inv_item_31:
+        button:
+            xpos 103 ypos 588
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Подземный бассейн" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Шахты / слот 8
+
+    if inv_item_32:
+        button:
+            xpos 391 ypos 588
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Шахта" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Ключ от Подвала / слот 9
 
     if inv_item_33:
         button:
-            xpos 356 ypos 230
-            xsize 287 ysize 353
+            xpos 679 ypos 588
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
-            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            text "Подвал" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("keys_slots"), Show("inventory_slots")
 
 
-    ## Превьюшка Неизвестный ключ 2
+    ## Превьюшка Неизвестный ключ 1 / слот 10
 
     if inv_item_34:
         button:
-            xpos 662 ypos 230
-            xsize 287 ysize 353
+            xpos 968 ypos 588
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
@@ -1401,15 +1401,86 @@ screen keys_slots():
             action Hide ("keys_slots"), Show("inventory_slots")
 
 
-    ## Превьюшка Неизвестный ключ 3
+    ## Превьюшка Неизвестный ключ 2 / слот 11
 
     if inv_item_35:
         button:
-            xpos 968 ypos 230
-            xsize 287 ysize 353
+            xpos 1256 ypos 588
+            xsize 270 ysize 332
             idle_background "images/inventory/item_prev/prev_single_key.png"
             hover_background "images/inventory/item_prev/prev_single_key.png"
             style_prefix "InvItemPrevCaption"
             text "Неизвестно от чего" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Неизвестный ключ 3 / слот 12
+
+    if inv_item_36:
+        button:
+            xpos 1544 ypos 588
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+
+    ## Превьюшка Неизвестный ключ со связки Семёна 1 / слот 2
+
+    if inv_item_37:
+        button:
+            xpos 391 ypos 227
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+    ## Превьюшка КНеизвестный ключ со связки Семёна 2 / слот 3
+
+    if inv_item_38:
+        button:
+            xpos 679 ypos 227
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Неизвестный ключ со связки Семёна 3 / слот 4
+
+    if inv_item_39:
+        button:
+            xpos 968 ypos 227
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+
+
+    ## Превьюшка Неизвестный ключ со связки Семёна 4 / слот 5
+
+    if inv_item_40:
+        button:
+            xpos 1256 ypos 227
+            xsize 270 ysize 332
+            idle_background "images/inventory/item_prev/prev_single_key.png"
+            hover_background "images/inventory/item_prev/prev_single_key.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестно от чего" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("keys_slots"), Show("inventory_slots")
+

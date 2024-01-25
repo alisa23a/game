@@ -140,7 +140,7 @@ define gm65 = True
 define inv_item_01 = False # 1 Жемчужина
 define inv_item_02 = True # 2 Записная книжка
 define inv_item_03 = False # 3 Карта и компас
-define inv_item_04 = True # 4 Связка ключей
+define inv_item_04 = False # 4 Связка ключей
 define inv_item_05 = True # 5 Конфетки
 define inv_item_06 = True # 6 Котлетки
 define inv_item_07 = False # 7 Сахарные грибы
@@ -161,17 +161,24 @@ define inv_item_21 = True # 21 Записки
 define inv_item_22 = True # 22 Первая записка
 define inv_item_23 = False # 23 Вторая записка
 define inv_item_24 = False # 24 Третья записка
-define inv_item_25 = False # 25 Ключ от Коптёрки физрука
-define inv_item_26 = False # 26 Ключ от Лодочной станции
-define inv_item_27 = False # 27 Ключ от Продуктового склада
-define inv_item_28 = False # 28 Ключ от Чердака Алисы и Ульяны
-define inv_item_29 = False # 29 Ключ от Супернычки (чердак домика ОД)
-define inv_item_30 = False # 30 Ключ от Бомбоубежища
-define inv_item_31 = False # 31 Ключ от Спецхрана библиотеки
-define inv_item_32 = False # 32 Ключ от Лаборатории
-define inv_item_33 = True # 33 Неизвестный ключ 1
-define inv_item_34 = True # 34 Неизвестный ключ 2
-define inv_item_35 = True # 35 Неизвестный ключ 3
+define inv_item_25 = False # 25 Ключ от Чердака Алисы и Ульяны / слот 1
+define inv_item_26 = False # 26 Ключ от Супернычки (чердак домика ОД) / слот 2
+define inv_item_27 = False # 27 Ключ от Бомбоубежища / слот 3
+define inv_item_28 = False # 28 Ключ от кладовки под Гендой / слот 4
+define inv_item_29 = False # 29 Ключ от кружка Усталые ручки / слот 5
+define inv_item_30 = False # 30 Ключ от Лаборатории / слот 6
+define inv_item_31 = False # 31 Ключ от Подземного бассейна / слот 7
+define inv_item_32 = False # 32 Ключ от Шахты / слот 8
+define inv_item_33 = False # 33 Ключ от Подвала / слот 9
+define inv_item_34 = False # 34 Неизвестный ключ 1 / слот 10
+define inv_item_35 = False # 35 Неизвестный ключ 2 / слот 11
+define inv_item_36 = False # 36 Неизвестный ключ 3 / слот 12
+define inv_item_37 = False # 37 Неизвестный ключ со связки Семёна 1 / слот 2
+define inv_item_38 = False # 38 Неизвестный ключ со связки Семёна 1 / слот 3
+define inv_item_39 = False # 39 Неизвестный ключ со связки Семёна 1 / слот 4
+define inv_item_40 = False # 40 Неизвестный ключ со связки Семёна 1 / слот 5
+
+
 
 ################################################
 ## Перенесено из scrypt.rpy Алексея

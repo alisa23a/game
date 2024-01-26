@@ -1,3 +1,5 @@
+####################################
+## Дневник, картиночная версия, отображается в начале игры
 screen sc_p_prologue:
     tag menu
     zorder 100
@@ -269,7 +271,21 @@ screen sc_p_14:
         hover "gui/dnav3hover.png"
         
         hotspot(24,464,112,152) action Hide ("sc_p_14"), Show ("sc_p_13")
-        hotspot(1784,464,112,152) action Hide ("sc_p_14"), Show ("sc_p_15")
+        hotspot(1784,464,112,152) action Hide ("sc_p_14"), Show ("sc_p_14_1")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page17"), Show ("info_stand")
+
+screen sc_p_14_1:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/p_14_1.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("sc_p_14_1"), Show ("sc_p_14")
+        hotspot(1784,464,112,152) action Hide ("sc_p_14_1"), Show ("sc_p_15")
         #hotspot(1787,37,85,84) action Hide ("day3_diary_page17"), Show ("info_stand")
 
 screen sc_p_15:
@@ -283,7 +299,35 @@ screen sc_p_15:
         hover "gui/dnav3hover.png"
         
         hotspot(24,464,112,152) action Hide ("sc_p_15"), Show ("sc_p_14")
-        hotspot(1784,464,112,152) action Hide ("sc_p_15"), Show ("sc_p_16")
+        hotspot(1784,464,112,152) action Hide ("sc_p_15"), Show ("sc_p_15_1")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen sc_p_15_1:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/p_15_1.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("sc_p_15_1"), Show ("sc_p_15")
+        hotspot(1784,464,112,152) action Hide ("sc_p_15_1"), Show ("sc_p_15_2")
+        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+screen sc_p_15_2:
+    tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/diary/p_15_2.webp"
+        idle "gui/dnav3idle.png"
+        hover "gui/dnav3hover.png"
+        
+        hotspot(24,464,112,152) action Hide ("sc_p_15_2"), Show ("sc_p_15_1")
+        hotspot(1784,464,112,152) action Hide ("sc_p_15_2"), Show ("sc_p_16")
         #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
 screen sc_p_16:
@@ -296,7 +340,7 @@ screen sc_p_16:
         idle "gui/dnav3idle.png"
         hover "gui/dnav3hover.png"
         
-        hotspot(24,464,112,152) action Hide ("sc_p_16"), Show ("sc_p_15")
+        hotspot(24,464,112,152) action Hide ("sc_p_16"), Show ("sc_p_15_2")
         hotspot(1784,464,112,152) action Hide ("sc_p_16"), Show ("sc_p_17")
         #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 

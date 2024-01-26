@@ -47,6 +47,9 @@ define ln = Character('Любовь Никаноровна', color="#ffff99")
 
 define vio = Character('Виола', color="#6633CC")
 
+define al_ul = Character('Алиса и Ульяна', color="#ffffff")
+
+define gan = Character('Долговязый', color="#996633")
 
 
 

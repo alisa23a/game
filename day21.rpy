@@ -1760,7 +1760,7 @@ label day21_cont4:
 
     stop music
 
-    #jump day22
+    jump day22
 
 return 
 

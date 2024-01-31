@@ -296,7 +296,7 @@ label day22:
 
 
     show sp_at_020:
-        yalign 0.1 subpixel True
+        yalign 0.17 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1 
     with dissolve

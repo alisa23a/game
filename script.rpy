@@ -51,6 +51,7 @@ define al_ul = Character('Алиса и Ульяна', color="#ffffff")
 
 define gan = Character('Долговязый', color="#996633")
 
+define vas = Character('Вася', color="#ff9966")
 
 
 # Вместо использования оператора image можете просто

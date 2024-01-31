@@ -202,7 +202,7 @@ label day15:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_481.mp3"
+    play music "audio/music/prolog.mp3"
 
     scene bg boat_station2 with dissolve
 

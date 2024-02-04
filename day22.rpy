@@ -206,10 +206,10 @@ label day22:
 
     hide sp_mi_013
 
-    stop music fadeout 1.0
+    # stop music fadeout 1.0
 
 
-    play music "audio/music/track4.mp3"
+    # play music "audio/music/track4.mp3"
 
 
     show sp_al_037:
@@ -221,18 +221,24 @@ label day22:
     al "А я может, уже нашла. Просто даю в прокат, на время, более нуждающимся."
 
 
-    scene bg bravepath with dissolve
+    scene cg hike with dissolve
 
     "Все засмеялись. Никто не воспринял эту игру слов всерьез. Но идти стало заметно легче."
 
-
+    scene bg bravepath with dissolve
 
     stop music fadeout 1.0
 
 
     play music "audio/music/z_022.mp3"
 
-    scene cg redhead_vas with dissolve
+    #scene cg redhead_vas with dissolve
+
+    show sp_vas_002:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
 
     "Вася оказался не только долговязым, но и выносливым. Сначала он понес Женин рюкзак. Она была не против."
 
@@ -242,16 +248,38 @@ label day22:
 
     vas "А что, мне не трудно, я сбегаю ещё."
 
+
+    scene cg tent_hike with dissolve
+
+    show sp_vas_002:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
     "Вася суетился по благоустройству лагеря. Разжег костер, быстро поставил все палатки, повесил гамак для Ольги Дмитриевны."
 
     "Потом принялся делать лавочку и стол, попутно проводя ликбез по выживанию для смотрящих на него во все глаза девочек. Попутно умудрился сварить кашу с тушенкой и вскипятить чай."
 
-    pause (10000000000000000000000.0)
+    hide sp_vas_002
+
+
+    "На его фоне остальные парни казались просто бездельниками и ненужным отряду балластом."
 
 
     scene cg hut_hike with dissolve
 
-    "На его фоне остальные парни казались просто бездельниками и ненужным отряду балластом."
+    show sp_el_005:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_shu_004:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
 
     "Это возмутило кибернетиков, которые тут же построили шалаш, а потом лестницу, ведущую на толстую раскидистую ель. Если на неё взобраться, можно было попасть в некое подобие гнезда на дереве."
 

@@ -76,7 +76,7 @@ label day15:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_471.mp3"
+    play music "audio/music/z_152.mp3"
 
     scene bg disland2 with dissolve
 

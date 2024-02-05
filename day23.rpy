@@ -95,19 +95,19 @@ label day23:
 
     od "Здесь нет поселений. Можете бегать по берегу и купаться. Мальчики отдельно, подальше. А девочки тут."
 
-    hide sp_od_018
+    hide sp_od_017
 
     show sp_ul_023:
-        yalign 0.0 subpixel True
+        yalign -0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
  
     "А можно, мы вместе?"
 
     hide sp_ul_023
 
-    show sp_od_018:
+    show sp_od_017:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -117,7 +117,7 @@ label day23:
 
     od "До конца дня, нам надо вернуться от землянки Золотоискателя на этот берег. Тут заночуем, а утром уйдем в лагерь. Чтобы я никого не искала. Слышите? Василий, проследи!"
 
-    hide sp_od_018
+    hide sp_od_017
 
 
     "Мы убежали искать ракушки. Я нашла аж шесть штук. Они были как шапочки звездочетов. Но внутри пустые."
@@ -135,9 +135,9 @@ label day23:
     "Потом  я стала смотреть на тот берег. Там что-то сверкало как зеркальце. Я сказала об этом Славе. Она тоже долго смотрела."
 
     show sp_ul_021:
-        yalign 0.0 subpixel True
+        yalign -0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
  
     "Может быть, рыбаки?"
@@ -146,9 +146,9 @@ label day23:
  
 
     show sp_sl_020:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2
+        zoom 1.25
     with dissolve
  
     "Ольга Дмитриевна сказала, что ту никто не живет. Странно. "
@@ -166,7 +166,7 @@ label day23:
     stop music fadeout 1.0
 
 
-    play music "audio/music/516.mp3"
+    play music "audio/music/z_516.mp3"
 
 
     scene cg hike2 with dissolve
@@ -200,7 +200,7 @@ label day23:
 
 
     show sp_je_017 at flip:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
     with dissolve
@@ -223,7 +223,7 @@ label day23:
 
     show sp_al_055:
         yalign 0.05 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -245,7 +245,7 @@ label day23:
 
     show sp_al_055:
         yalign 0.05 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -315,7 +315,7 @@ label day23:
     stop music fadeout 1.0
 
 
-    play music "audio/music/527.mp3"
+    play music "audio/music/z_527.mp3"
 
 
     scene bg lakedeep2 with dissolve
@@ -380,7 +380,7 @@ label day23:
     hide sp_al_056
 
 
-    show sp_ul_019:
+    show sp_ul_021:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -388,10 +388,10 @@ label day23:
 
     ul "А может и не рыбалка. Может быть, это ныряльщицы за жемчугом. Мне Атсуи рассказывала, в Японии есть такие."
 
-    hide sp_ul_019
+    hide sp_ul_021
 
 
-    show sp_al_056:
+    show sp_al_037:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
@@ -399,7 +399,7 @@ label day23:
 
     al "Скажешь тоже. То океан, а тут озеро. Ольга Дмитриевна сказала, тут необитаемые места."
 
-    hide sp_al_056
+    hide sp_al_037
 
 
     show sp_ul_019:
@@ -410,26 +410,6 @@ label day23:
 
     ul "Она не все знает. А я знаю, что есть морской жемчуг, а есть речной. А вот озерный... Не знаю."
 
-    hide sp_ul_019
-
-
-    show sp_al_056:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2 
-    with dissolve
-
-    al "Да... Раз есть лодка, то кто-то живет. Но это далеко."
-
-    hide sp_al_056
-
-
-    show sp_ul_019:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
-
     ul "Слушай, Алиса, давай метнемся кабанчиком на тот берег? Тут, если по берегу, будет может, километр или два, не больше."
 
     ul "Если там лодка, то сплаваем сюда напрямую. Смотри,  какая луна. Я спать совсем не хочу. А ты?"
@@ -437,7 +417,7 @@ label day23:
     hide sp_ul_019
 
 
-    show sp_al_056:
+    show sp_al_055:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
@@ -445,7 +425,7 @@ label day23:
 
     al "Идея хорошая. Я взяла запасные батарейки. Только надо дождаться, пока Вася уйдет от костра. Он нас спалит."
 
-    hide sp_al_056
+    hide sp_al_055
 
 
     scene cg moon_lake with dissolve

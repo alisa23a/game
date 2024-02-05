@@ -1655,7 +1655,7 @@ label day21_cont4:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_471.mp3"
+    play music "audio/music/z_152.mp3"
 
     ul "И вот что ещё я подумала. Ключи Семён потерял. Они у нас. Он сюда больше не зайдет. Так что, бояться нечего."
 

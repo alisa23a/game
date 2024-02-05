@@ -803,7 +803,7 @@ label day22:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_471.mp3"
+    play music "audio/music/z_152.mp3"
 
 
     scene cg tent_hike2 with dissolve

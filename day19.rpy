@@ -1610,14 +1610,6 @@ label day19:
     "Мы пробирались на ощупь вдоль стены и добрались до того угла, где сидели в прошлый раз. Неожиданно откуда-то из под сводов часовни сорвалась и вылетела в окно ночная птица."
 
 
-    #stop music fadeout 1.0
-
-
-    #play music "audio/music/z_1000.mp3" noloop
-
-
-#    $ renpy.music.set_pause(True, delay=1.5, channel="music")
-
     $ renpy.music.set_volume(0.00, delay=1.0, channel='music')
 
     play miscSounds "audio/music/z_1000.mp3" noloop
@@ -1626,14 +1618,11 @@ label day19:
 
     stop miscSounds fadeout 1.0
 
-#    $ renpy.music.set_pause(False, delay=1.5, channel="music")
+
 
     $ renpy.music.set_volume(1.00, delay=1.0, channel='music')
 
-    # stop music fadeout 1.0
 
-
-    # play music "audio/music/z_192.mp3"
 
 
     show sp_al_007:

@@ -748,8 +748,11 @@ label day23:
     stop music fadeout 1.0
 
 
-    #play music "audio/music/z_130.mp3"
+    play music "audio/music/z_480.mp3"
   
+
+    scene bg terrace with dissolve
+
 
     show sp_al_055:
         yalign 0.1 subpixel True
@@ -1119,7 +1122,7 @@ label day23:
     play music "audio/music/z_009.mp3"
 
 
-    "Мы не стали мыться в реке, чтобы у нас был жалкий вид, согласно плану Алисы. Мы просто собрали вещи, оделись и пошли по левому берегу вверх по течению."
+    "Ополоснувшись, мы собрали вещи, оделись и пошли по левому берегу вверх по течению."
 
 
     scene cg footprints with dissolve

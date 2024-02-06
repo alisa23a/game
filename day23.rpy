@@ -676,13 +676,28 @@ label day23:
     play music "audio/music/z_152.mp3"
    
 
-    scene cg al_awaking with dissolve
+    scene bg glade with dissolve
 
     "Но, как бы там ни было, надо было идти на звук. Алиса выглядела забавно. К ее волосам прилипли листья и веточки, куртка тоже была вымазана чем-то белым, наверное глиной."
 
     "Я сказала ей об этом. Она ответила, мол, на себя посмотри. И действительно, я немного порвала шорты и тоже была в глине."
 
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
     ul "Где же это мы нашли эту глину? Ничего же такого не было."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
 
     al "Да уж нашли. Кстати, белая глина это признак осадочных пород, точнее известняка."
 
@@ -690,17 +705,73 @@ label day23:
 
     al "А осадочные породы сюда может вынести только река. Причем, подземная река. Река наверняка впадает в Бурлейку, так-как она течет по ущелью. Все остальные реки это её притоки. Что это значит?"
 
+    hide sp_al_056
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
     ul "Это значит, что надо искать белую глину. Она выведет нас к притоку, а тот к Бурлейке. И вот мы спасены, потому что если идти вверх по течению Бурлейки, то мы точно придем в лагерь!"
+
+    hide sp_ul_021
+
+
+    show sp_al_037:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
 
     al "Соображаешь, Ленина!"
 
+    hide sp_al_037
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
     ul "Но в лагерь нам еще рано... Нас будут искать у озера. Значит, надо идти вверх по течению ручья и тогда, он выведет нас на тропу по которой мы шли к озеру."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
 
     al "Почему это?"
 
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
     ul "Да потому, что тропа подрезает склон, и все ручьи, идущие со склона, рано или поздно пересекают тропу. Что мы и видели, когда шли к озеру. Я насчитала тогда три ручья."
 
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
     al "Офигеть у тебя аналитические способности. Мне такое даже в голову бы не пришло. Хотя с луной мы облажались. И да, это была моя идея, каюсь."
+
+    hide sp_al_056
 
 
     scene bg white_stream with dissolve
@@ -748,8 +819,9 @@ label day23:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_480.mp3"
-  
+    #play music "audio/music/z_480.mp3"
+    play music "audio/music/z_492.mp3"
+
 
     scene bg terrace with dissolve
 

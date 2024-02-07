@@ -1161,7 +1161,7 @@ label day24:
     uv "Рыбка. Наловила в Озере."
 
 
-    scene cg yulya_fishing3 with dissolve
+    scene cg yulya_fishing4 with dissolve
 
     pause (10000000000000000000000.0)
 
@@ -1200,7 +1200,7 @@ label day24:
     ul "Как это, на свет от фонаря?"
 
 
-    scene cg yulya_fishing2 with dissolve
+    scene cg yulya_fishing4 with dissolve
 
 
     # show sp_iul_009:

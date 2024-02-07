@@ -53,6 +53,7 @@ define gan = Character('Долговязый', color="#996633")
 
 define vas = Character('Вася', color="#ff9966")
 
+define uv = Character('Юля', color="#ffd700")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

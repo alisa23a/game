@@ -32,46 +32,46 @@ label day24:
 
     "Я растолкала Алису. Какое то время мы вместе смотрели на порхающих бабочек. Алиса была очарована ими как и я."
 
-    image an_23_01: # Анимация с Ульяной Алисой, наблюдающими за бабочками
+    image an_24_01: # Анимация с Ульяной Алисой, наблюдающими за бабочками
         
-        "images/an/an23day/an_d23_01.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_01.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_02.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_02.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_03.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_03.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_04.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_04.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_05.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_05.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_06.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_06.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_07.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_07.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_08.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_08.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_09.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_09.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_10.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_10.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_11.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_11.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_12.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_12.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_03.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_03.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_13.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_13.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_14.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_14.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_15.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_15.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_16.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_16.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
   
         repeat
 
-    scene an_23_01 with dissolve
+    scene an_24_01 with dissolve
 
     pause (10000000000000000000000.0)
 
@@ -284,24 +284,24 @@ label day24:
     "Она постучала по сталактиту и не без труда отбила небольшой кусок. Он заискрился внутри фиолетовым блеском. Красота!"
 
 
-    image an_23_02: # Анимация аметистовая жеода
+    image an_24_02: # Анимация аметистовая жеода
         
-        "images/an/an23day/an_d23_17.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_17.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_18.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_18.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_19.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_19.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_20.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_20.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_21.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_21.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an23day/an_d23_22.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an24day/an_d24_22.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
   
         repeat
 
-    scene an_23_02 with dissolve
+    scene an_24_02 with dissolve
 
     pause (10000000000000000000000.0)
 
@@ -1163,7 +1163,40 @@ label day24:
     uv "Рыбка. Наловила в Озере."
 
 
-    scene cg yulya_fishing4 with dissolve
+    #scene cg yulya_fishing4 with dissolve
+
+
+    image an_24_03: # Анимация Юля ловит рыбу на фонарь
+        
+        "images/an/an24day/an_d24_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an24day/an_d24_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+  
+        repeat
+
+    scene an_24_03 with dissolve
 
     pause (10000000000000000000000.0)
 

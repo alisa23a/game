@@ -962,24 +962,25 @@ label day24:
     "Вход в спальню был завешан свисающей шуршащей бамбуковой шторкой."
 
 
+    scene bg yulya_room2 with dissolve
+
     show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "(Наблюдая за гостями) \nА вы, наверное, думали, что я живу в норе, без удобств?"
 
     uv "Нет. Этот домик когда-то был охотничьим домиком хозяина Прииска. Тут всё есть. Даже часть стен из кирпича, камин, ванна и туалет. Я слежу, чтобы всё это не обветшало."
 
-    hide sp_iul_009
+
+    scene bg yulya_room with dissolve
 
 
     show sp_ul_033:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
-    with dissolve
 
     ul "С ума сойти!"
 
@@ -993,14 +994,14 @@ label day24:
 
     al "Да уж... А с виду  хибара. И не подумаешь, что внутри так уютно."
 
-    hide sp_al_055
+
+    scene bg yulya_room2 with dissolve
 
 
     show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "Так было задумано владельцем. Он сделал домик под древнюю избушку снаружи и обустроил его с удобствам внутри. Богатый был."
 
@@ -1014,7 +1015,6 @@ label day24:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
-    with dissolve
 
     ul "Книги на полочке, ты читаешь? Ой и бумажные снежинки... Сама вырезала? И мячик! Не его ли так долго искал Тарас Юрьевич?"
 
@@ -1029,36 +1029,38 @@ label day24:
 
     al "Он самый. А нас поругали. А он вот где."
 
-    hide sp_al_055
+
+
+    scene bg yulya_room2 with dissolve
 
 
     show sp_iul_010:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "(Краснея) \nЧитаю. А мячик я взяла поиграть. На время. Честное слово. Снежинки я вырезала. Тут нет зимы, но я помню ее по детству. Вы же не заберете мячик?"
 
-    hide sp_iul_010
+
+
+    scene bg yulya_room with dissolve
 
 
     show sp_al_055:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     al "Нет. Если что, мы тебя не видели и про мяч не знаем. \n(подмигивает)"
 
-
-    scene bg yulya_room with dissolve
+    hide sp_al_055
 
 
     show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
+    with dissolve
 
     ul "(Садясь на стул) \nА почему у стульев такие короткие ножки?"
 
@@ -1131,34 +1133,33 @@ label day24:
     hide sp_ul_021
 
 
-    scene bg yulya_room with dissolve
+    scene bg yulya_room2 with dissolve
 
     show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
 
-    uv "Ну.. Эээ… Не знаю.. У нас всегда были семь свечей.. Когда еще у меня был дом и родители.. Но я их почти не помню. А вот свечи, помню. Так больше  похоже на настоящий дом."
+    uv "Ну... Э-э-э... Не знаю. У нас всегда были семь свечей. Когда еще у меня был дом и родители. Но я их почти не помню. А вот свечи помню. Так больше похоже на настоящий дом."
 
-    hide sp_iul_009
 
+    scene bg yulya_room with dissolve
 
     show sp_al_055:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     al "Улька хватит все выспрашивать! Это неделикатно. А что это за запах? Как будто варится что? Вкусно пахнет."
 
-    hide sp_al_055
+
+    scene bg yulya_room2 with dissolve
 
 
     show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "Рыбка. Наловила в Озере."
 
@@ -1203,6 +1204,7 @@ label day24:
 
     scene bg yulya_room with dissolve
 
+
     show sp_ul_021:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
@@ -1210,20 +1212,21 @@ label day24:
 
     ul "Так вот кто рыбачил на другом берегу! Мы тебя видели! Только не знали, что это ты. Даже лодку хотели взять. Ну, с разрешения конечно. Думали, какой-то рыбак."
 
-    hide sp_ul_021
+
+    scene bg yulya_room2 with dissolve
 
 
     show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "Я вас заметила, когда вы всем отрядом ещё шли по Тропе. Ну и шуму же от вас!"
 
     uv "А когда вы пришли к Озеру, то распугали там всю рыбу. Мне пришлось ждать вечера, пока вы угомонитесь и ловить на свет от фонаря."
 
-    hide sp_iul_009
+
+    scene bg yulya_room with dissolve
 
 
     show sp_ul_019:
@@ -1237,26 +1240,20 @@ label day24:
 
     scene cg yulya_fishing4 with dissolve
 
-
-    # show sp_iul_009:
-        # yalign 0.1 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.2 
-
     uv "Просто. Рыба же любопытна. Она плывет на свет. А тут я её..."
 
 
     scene bg yulya_room with dissolve
 
 
-    show sp_ul_019:
+    show sp_ul_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
 
     ul "Лапой?!"
 
-    hide sp_ul_019
+    hide sp_ul_023
 
 
     show sp_al_055:
@@ -1267,23 +1264,22 @@ label day24:
 
     al "(Толкая Ульяну и обращаясь к Юле) \nОна хотела сказать, что ты не пользуешься удочкой."
 
-    hide sp_al_055
 
+    scene bg yulya_room2 with dissolve
 
     show sp_iul_008:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "(Улыбаясь) \nДа, «лапой»."
 
     uv "(Показывает свои маленькие аккуратные ручки) \nВидите когти? Они очень острые. Растут быстро. Приходится их стачивать."
 
-    hide sp_iul_008
-
     "Юля кивнула на стоящий посреди комнаты, весь исцарапанный, столб."
 
+
+    scene bg yulya_room with dissolve
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -1295,6 +1291,8 @@ label day24:
     hide sp_ul_021
 
 
+    scene bg yulya_room2 with dissolve
+
     show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
@@ -1303,8 +1301,6 @@ label day24:
 
     uv "Да, на него вешали ружья и добычу всякую. Мне повезло. Не нужно выходить каждый раз из домика и портить деревья."
 
-    hide sp_iul_009
-
 
     stop music fadeout 1.0
 
@@ -1312,15 +1308,14 @@ label day24:
     play music "audio/music/z_417.mp3"
 
 
-    show sp_al_055:
+    scene bg yulya_room with dissolve
+
+    show sp_al_056:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     al "Скажи, а вот эти грибы... Ты их ищешь по всему лесу? Или они растут где-то в одном месте?"
-
-    hide sp_al_055
 
 
     scene cg yulya_mushrooms with dissolve
@@ -1372,6 +1367,12 @@ label day24:
 
 
     al "Все-то тебе везде тайны мерещиться."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_010.mp3" 
 
 
     scene bg yulya_room with dissolve
@@ -1435,7 +1436,681 @@ label day24:
     al_ul "(Cтремительно усаживаясь за стол, хором) \nДа кому он нужен!"
 
  
+    # stop music fadeout 1.0
 
+
+    # play music "audio/music/z_010.mp3" 
+ 
+    scene bg yulya_room with dissolve
+
+    pause (10000000000000000000000.0)
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "Когда мы насытились, я спросила:"
+
+    ul "А зачем тебе сахар? Ты сладкоежка?"
+
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    uv "Нет, он нужен не мне, а грибам."
+
+
+    scene cg yulya_mushrooms2 with dissolve
+
+    uv "Есть такой сорт грибов, они растут только возле старого лагеря. Им нужен сахар для роста. И если посыпать их сахаром, они вырастают очень большими."
+
+
+    scene an_d24_35 with dissolve
+
+    "И тут я представила себе как Юля выращивает грибы"
+
+
+    image an_24_04: # Анимация Юля выращивает грибы
+        
+        "images/an/an24day/an_d24_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an24day/an_d24_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+
+        repeat
+
+    scene an_24_04 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Но ты же не белка. Зачем тебе грибы? Или ты готовишь их так же, как любой другой человек, с луком и картошечкой?"
+
+    hide sp_al_055
+
+
+    show sp_al_037:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "А что, я бы не отказалась."
+
+    hide sp_al_037
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    uv "Обычные грибы кушать можно, а эти нет."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_171.mp3" 
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Они ядовитые? Тогда зачем они?"
+
+    hide sp_al_056
+ 
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_010:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "(Замявшись) \nНу... Нет, не ядовитые. Просто вы уснете. Надолго. А когда проснетесь, все ваши проблемы решаться сами собой. Обычно хватает одного гриба. Так сказал Пионер."
+
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Пионер?"
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_010:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    uv "(Переходя на шепот) \nТихо, он может услышать. Он сказал, что эти грибы спасут всех нас. В свое время. И кажется, это время уже близко."
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Странные вещи."
+
+
+    scene cg mushrooms with dissolve
+
+    al "А что, если мы съедим по маленькому кусочку? Ведь от маленького кусочка, ничего страшного не будет?"
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "С ума сошла! Какие-то ядовитые грибы. А потом мы умрем в страшных муках. Пусть скажет, она сама их ела? Скажи, Юля, ты жарила грибы хоть раз?"
+
+    hide sp_ul_033
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Их не надо жарить. Они сухие. Достаточно просто пожевать немного, но не глотать. Подержать кашицу во рту около десяти минут, а потом выплюнуть."
+
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "(С ехидцей) \nТак сказал Пионер?"
+
+
+
+    scene bg yulya_room2 with dissolve
+
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Нет, я сама так делала. Поняла методом проб и ошибок. Первый раз я много съела и проспала неделю. Потом стала осторожной."
+
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "И всё стало прекрасно?"
+
+
+
+    scene bg yulya_room2 with dissolve
+
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Сначала, меня ранили охотники."
+
+    uv "Вниз по реке, есть избушка браконьеров. Они там каждую осень проводят две недели, охотятся. Наверное приняли меня за зверушку. Я бы показала. Но на месте ранки ничего не осталось."
+
+    uv "И ещё, когда меня поймали в прошлом сезоне пионеры, заперли на складе, все само собой удачно закончилось."
+
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "А ты что, всегда носишь грибы с собой? Но у тебя же нет карманов на платье."
+
+
+
+    scene bg yulya_room2 with dissolve
+
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Да это нетрудно."
+
+
+    scene cg yulya_mushrooms3 with dissolve
+
+    uv "(Приподнимает край платья) \nТут."
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg yulya_room with dissolve
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Всё, не показывай. Я поняла. Офигеть. Не удивлена, что пионеры их не нашли."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Я прямо сейчас хочу попробовать! У меня коленка болит и тут поцарапано. \n(показывает локоть)"
+
+    ul "Как думаешь, пройдет?"
+
+    hide sp_ul_019
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "А у меня фингал. Как я с ним покажусь в лагере? Долговязый из второго отряда будет злорадствовать, гад."
+
+
+
+    scene bg yulya_room2 with dissolve
+
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Я думала, вы хотите погостить. Ну, ладно. \n(достает из баночки гриб)."
+
+    uv "Только чтобы сработало, нужно подумать о том, чего вам больше всего хочется, какая проблема вас тяготит сейчас больше всего."
+
+    uv "Вот, разделите между собой пополам. \n(отрезает кусочек гриба)"
+
+    uv "Этого будет достаточно. Только как я и сказала, не глотайте."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "Мы разделили гриб и принялись жевать."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_022.mp3"
+
+
+    scene cg al_ul_bra with dissolve
+
+    "Ну вот. Сначала мы думали, что это шутка. И сильно веселились."
+
+    "Показывали друг на друга пальцами и кричали: \n— Смотри, Ульяна! У тебя, кажется, уши начали расти! \n— А у тебя рога! Ой, смотри и шерсть появилась! Р-р-р!"
+
+    "И бегали, пугая друг друга."
+
+    scene bg yulya_room with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    "А Юля смотрела на нас грустно. И тоже улыбалась. Но она смотрела так, как смотрят взрослые, когда знают что-то, чего ещё не знают дети."
+
+
+    scene black with fade
+
+    "Потом был какой-то провал. Наверное, мы чудили. Но я не помню. Грибы точно были волшебные."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_023.mp3"
+
+
+    scene cg al_awaking3 with dissolve
+
+    "Когда мы очнулись, то обнаружили, что ты лежим на том же месте, где когда-то решили ждать утра. А тропа была в десяти метрах рядом. Но тогда мы ее не заметили. Потому что потерялись."
+
+    "И вот сейчас мы поняли, что нам не надо было никуда идти. Ведь отряд должен был возвращаться этой тропой назад."
+
+  
+    scene bg glade with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ты помнишь, как мы сюда пришли? Я не помню. И где домик Юли?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Я сама не пойму. Помню, что съели гриб, ещё дурачились. Это я точно помню. А чтобы мы куда-то шли... Нет, не помню."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Но как-то же мы здесь оказались? До этого места, если идти по Юлиным следам, не меньше часа ходу."
+
+    ul "К тому же, я в жизни бы обратную дорогу не нашла. Тем более, под этими грибочками. Может Юля притащила нас сюда?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Исключено. Двух человек тащить на себе два километра по лесу? Ты ее габариты видела. Думаю, даже Семен не смог бы."
+
+    hide sp_al_056
+
+
+    # stop music fadeout 1.0
+
+
+    # play music "audio/music/z_023.mp3"
+
+
+    "Скоро мы услышали голоса. На тропе появилась панама Ольги Дмитриевны. За ней шел весь отряд. Но Васи с ними не было. Ольга Дмитриевна была очень сердита."
+
+
+    scene cg meeting_forest with dissolve
+
+    "Все бросились к нам и радовались что мы нашлись."
+
+
+    scene cg meeting_forest2 with dissolve
+
+    od "Какая наглость, Ленина, Двачевская! \nМы все переволновались! Послали Василия по тропе. Наверное, он уже сбегал в лагерь и возвращается назад!"
+
+    od "Как вы могли бросить группу и пойти одни?! Мы вас обыскались! Весь лес проаукали!"
+
+    od "Хорошо, Электроник сказал, что, кажется, видел как вы утром выходили с рюкзаками. Мы поняли, что вы решили вернуться первыми, никому ничего не сказав, не подождав нас. А если бы вы заблудились?! И вообще!"
+
+    "Все вокруг галдели, как стая галок. Семен вдруг крикнул:"
+
+
+    scene bg glade with dissolve
+
+
+    show sp_sem_016:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2 
+
+    sem "ТИХО!"
+
+
+    scene bg glade with dissolve
+
+
+    show sp_sem_016:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+
+    "Семён подошел к Алисе, положил ей руку на плечо"
+
+    sem "Извини, это была плохая идея. Это моя вина."
+
+
+    scene bg glade with dissolve
+
+
+    show sp_sem_016:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2 
+
+    sem "(Поворачиваясь к ОД) \nКогда вы Ольга Дмитриевна, были на ручье, на привале была драка."
+ 
+    sem "И я сказал Двачевской, что её обязательно накажут, может даже выгонят, поэтому ей надо вернуться в лагерь и во всем самой признаться. Повинную голову меч не сечет."
+
+    sem "Ведь если бы Маргарита Павловна узнала об этом от вас, то был бы скандал. Ну, а Ульяна, как друг, увязалась за Алисой, тут все понятно."
+
+    hide sp_sem_016
+
+
+    show sp_od_017:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+    with dissolve
+
+    od "А я про драку ничего не знала. И потом, ты слишком плохо обо мне думаешь."
+
+    hide sp_od_017
+
+
+    show sp_sl_020:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    sl "А что, Электроник вам не рассказал? Он всё видел."
+
+    hide sp_sl_020
+
+
+    show sp_el_005:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+
+    el "Я не ябеда!"
+
+    hide sp_el_005
+
+
+    show sp_od_017:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+    with dissolve
+
+    od "Понятно. И все, значит, молчали. Круговая порука, значит."
+
+    hide sp_od_017
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Нет, это дружба называется!"
+
+    hide sp_ul_019
+
+
+    show sp_od_017:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+    with dissolve
+
+    od "Что же, хорошо, что вы одумались и подождали нас на тропе. Ульяна, это ты её переубедила?"
+
+
+
+    scene bg glade with dissolve
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+
+    al "(Толкает Ульяну локтем) \nГовори, что ты."
+
+    ul "Да, это я."
+
+  
+    scene bg glade with dissolve
+
+    "Все растерянно молчали."
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    "Алиса наклонилась к Семену и прошептала:"
+
+    al "Спасибо за красивую историю. Сам придумал?"
+
+    hide sp_al_056
+
+
+    show sp_sem_016:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    sem "(Ухмыльнувшись) \nНе за что. Был рад оказать услугу. Но с тебя причитается. А куда это вы исчезли ночью?"
+
+    hide sp_sem_016
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Не твое дело."
+
+    hide sp_al_056
+
+
+    show sp_od_017:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+    with dissolve
+
+    od "Давайте договоримся, больше от меня ничего не скрывать! Я не Карабас Барабас какой-нибудь. И я не желаю вам зла."
+
+    od "Инцидент, мы этот, конечно обговорим, с непосредственно виновными, но никакого товарищеского суда и тем более, планетарных разборок с дирекцией, не будет. Это я вам обещаю."
+
+    od "Но чтобы это был первый и последний раз!"
+
+    hide sp_od_017
+
+    "Все облегченно вздохнули."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_400.mp3"
+
+
+    scene cg hike2 with dissolve
+
+    "Отряд построился и зашагал в лагерь."
+
+    ul "(Наклонившись к Алисе) \nМожешь меня ущипнуть? Я точно не сплю? Это грибы? Ведь, как и говорила Юля, всё решилось наилучшим образом!"
+
+    al "Это потому, что я тогда думала не о фингале, а о том, что нас ждет в лагере и какой будет скандал. Ты тоже думала об этом?"
+
+    ul "Да, я тоже. Слушай. А фингала-то у тебя, нет!"
 
 
 

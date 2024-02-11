@@ -17,7 +17,7 @@ label day14:
     stop music
 
 
-    play music "audio/music/z_400.mp3"
+    play music "audio/music/z_022.mp3"
 
     scene cg meeting_far with dissolve
 
@@ -204,7 +204,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    #play music "audio/music/z_400.mp3"
+    #play music "audio/music/z_022.mp3"
 
 
 
@@ -662,7 +662,7 @@ label day14:
 
     stop music fadeout 1.0
 
-    play music "audio/music/z_400.mp3"
+    play music "audio/music/z_022.mp3"
 
     "Чему тут удивляться, он же бывший прапорщик. Про них как-то сказал мой папа: «Прапорщики огурцы из банок не едят - голова не пролазит»."
 

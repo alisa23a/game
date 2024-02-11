@@ -377,7 +377,7 @@ label day11:
 
     stop music
 
-    play music "audio/music/z_170.mp3"
+    play music "audio/music/z_022.mp3"
 
     scene bg crsh
 

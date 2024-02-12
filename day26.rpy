@@ -141,14 +141,14 @@ label day26:
 
     scene cg vas_questioning with dissolve
 
-    "И как позже нам рассказал Семен, уговорила Васю взять вину на себя. Потом его допросили милиционеры и он «сознался». Сказал, что искренне поверил, в листовки Смутьянова и бросил лекарства в реку."
+    "И как позже нам рассказал Семен, уговорила Васю взять вину на себя. Потом его допросили милиционеры и он «сознался». Сказал, что искренне поверил в листовки Смутьянова и бросил лекарства в реку."
 
 
     scene bg camp_artifacts with dissolve
 
     "Искали Смутьянова, но не нашли. Он прятался у сердобольной тети Любы."
 
-    "Литературу изъяли и сняли Васю с должности пионервожатого. За недопонимание и по малости лет, не арестовали."
+    "Литературу изъяли и сняли Васю с должности пионервожатого. За недопонимание и по малости лет не арестовали."
 
     "Маргарита Павловна уговорила не раздувать дело до «политического», сказала, что это всего лишь ребенок и все такое."
 
@@ -208,7 +208,246 @@ label day26:
     "Также было собрание в кабинете директрисы, на которое вызвали всех вожатых и воспитателей. Петровичу, как сторожу, был объявлен выговор. Смутьянова посадили в изолятор на два дня."
 
 
+    stop music fadeout 1.0
 
+
+    play music "audio/music/z_131.mp3"
+
+
+    scene bg square with dissolve
+
+    "Наш отряд обязали дежурить по складу. Каждую ночь внутри должен был находиться кто-то из нас. А снаружи бдительно охранять Петрович. Славя составила график дежурства по складу."
+
+
+    image an_26_01: # Анимация Славя склад сахар
+        
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_12.webp" with Dissolve(0.5, alpha=True)
+        pause 1.4
+        "images/an/an26day/an_d26_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/an_d26_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+
+        repeat
+
+
+
+    scene an_d26_01 with dissolve
+
+    "На самом деле, она по секрету сказала нам, что будет там дежурить одна, сама. И что считает делом чести снять пятно недоверия с  тех пионеров, которые не имеют отношения к краже."
+
+
+    scene cg diaries with dissolve
+
+    "Вот, еще про дневники расскажу."
+
+    "Мы с Алисой решили воспользоваться ситуацией с дневниками, пока их не вернули, и узнать, кто мог украсть сахар, по косвенным уликам. Кто-то что-то видел, кто-то что-то слышал и записал в дневник."
+
+    "Но главная причина, конечно, была в нашем любопытстве. Слишком много тайн возникло в последнее время. А еще мы были уверенны, что Славя уснет и проворонит вора."
+
+
+    scene an_26_01 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg stock3 with dissolve
+
+    "Поэтому решили наблюдать в окошко склада и параллельно установить собственное дежурство."
+
+    "Тут заканчиваю про сахар писать. Но не могу не упомянуть версии."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_1017.mp3"
+
+
+    scene an_d26_02_06 with dissolve
+
+    "Альтернативную версию выдвинул Семен. Он заявил, что сахар крадет кто-то для того, чтобы делать спирт. Его высмеяли. Но этой ночью мне приснился дурацкий сон с этой версией."
+
+    "Тут я нарисовала мой сон"
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_1017.mp3"
+
+
+    image an_26_02: # Анимация сон Семён Юля сахар
+        
+        "images/an/an26day/dream_sugar/an_d26_02_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+        "images/an/an26day/dream_sugar/an_d26_02_37.webp" with Dissolve(0.5, alpha=True)
+        pause 1.4
+        "images/an/an26day/dream_sugar/an_d26_02_38.webp" with Dissolve(0.5, alpha=True)
+        pause 1.8
+        "images/an/an26day/dream_sugar/an_d26_02_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.7
+
+        #repeat
+
+
+    scene an_26_02 with dissolve
 
 
 

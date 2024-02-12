@@ -1712,7 +1712,7 @@ label day24:
         xalign 1.0 subpixel True
         zoom 1.2 
 
-    uv "Да это нетрудно."
+    uv "Да, это нетрудно."
 
 
     scene cg yulya_mushrooms3 with dissolve

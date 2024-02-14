@@ -64,6 +64,7 @@ define cm47 = True
 define cm48 = True
 define cm49 = True
 define cm50 = True
+define cm51 = True
 
 #####################
 ## Переменные определяющие видимость локаций карты окрестностей
@@ -143,7 +144,7 @@ define inv_item_03 = False # 3 Карта и компас
 define inv_item_04 = False # 4 Связка ключей
 define inv_item_05 = True # 5 Конфетки
 define inv_item_06 = True # 6 Котлетки
-define inv_item_07 = False # 7 Сахарные грибы
+define inv_item_07 = True # 7 Сахарные грибы
 define inv_item_08 = False # 8 Кокарда горного инженера
 define inv_item_09 = True # 9 Моток верёвки
 define inv_item_10 = False # 10 Кристалл

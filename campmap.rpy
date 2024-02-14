@@ -109,7 +109,10 @@ screen campmap:
             hotspot(1049,316,82,68) action Hide ("campmap"), Show ("dining_menu")
         if cm50:
             hotspot(1183,424,171,72) action Hide ("campmap"), Show ("sewing")
-            
+        if cm51:
+            hotspot(400, 153, 225, 53) action Hide ("campmap"), Show ("mus_stairs")
+
+
 
     imagebutton:
         xpos 1856 ypos 11
@@ -119,6 +122,37 @@ screen campmap:
 
 
 # Локации лагеря
+
+
+screen mus_stairs:
+
+    # Нычка под лестницей в музкружок
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg mus_stairs"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Нычка под лестницей в музкружок"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("mus"), Show("campmap")
+
 
 screen mus:
 

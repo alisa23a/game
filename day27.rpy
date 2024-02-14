@@ -81,7 +81,140 @@ label day27:
         xalign 1.0 subpixel True
         zoom 1.2
 
-    al "Очень хочу, и про Жана расскажу, но без деталей. Ты еще маленькая. У подруг не должно быть тайн... Но позже. Просто еще больше я хочу узнать, что скрывается в конверте."
+    al "Очень хочу, и про Жана расскажу, но без деталей. Ты еще маленькая. У подруг не должно быть тайн... Но позже. А пока доставай то, что мы нашли в самолете."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_026:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "(Похолодев) \nБоже... Я спрятала его в подкладку рюкзака.  Кажется... А может, нет."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Ну и в чем проблема? Доставай свой рюкзак."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_016:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "(Морщит лоб, как бы стараясь что-то вспомнить) \nТак ведь это... Это, правда, не точно. Но я так думаю. Толик когда уезжал с экскурсией, попросил, и я его ему отдала, на время."
+
+    ul "Он после похода свой постирал. Сказал, не высох еще. А я совсем забыла что там документы в подкладке. И отдала. А может, нет."
+
+    ul "Я после тех грибов, что мы съели у Юли, напрочь забыла некоторые вещи. Например, куда я дела пакет."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "(Нахмурившись) \nТо есть, ты хочешь сказать, что возможно, пакет даже не в рюкзаке. И когда Толик приедет, его там может не оказаться? Я так поняла? Куда ты его спрятала, вспоминай!"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Есть несколько версий, куда я могла его спрятать. У меня же много нычек."
+
+    hide sp_ul_013
+
+    jump search_or_not
+
+
+label search_or_not:
+
+    menu:
+
+        "Дождаться Толика":
+            jump wait_tol
+        
+        "Обследовать нычки":
+            jump search_hides
+
+
+
+
+label wait_tol:
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Ладно, не напрягайся. Подождем Толика. А если в рюкзаке не найдем, будешь искать дальше. Пока давай разберем те документы, что мы стащили в библиотеке и у ОД."
+
+    al "Вот характеристики. Давай смотреть."
+
+
+    jump day27_cont3
+    
+    
+label search_hides:
+
+    $ config.rollback_enabled = False
+
+    jump docs_search
+    
+    pause (100000000000000000000.0)
+####################
+
+
+
+####################
+label day27_cont:
+
+    if doc_search_item_03 == True:
+
+        jump day27_cont2
+
+    else:
+
+        jump wait_tol
+
+
+
+
+
+
+
+
+
+
+label day27_cont2:
+
+    $ renpy.block_rollback()
+    $ config.rollback_enabled = True
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     "Алиса достала конверт и слегка согнула его."
 
@@ -655,12 +788,18 @@ label day27:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
-    with dissolve
 
-    al "Умничка. Так, с документами с самолета разобрались. Теперь смотрим досье, которое мы взяли в тумбочке ОД. Вот личное дело Лены. «Елена Тихонова»."
+    al "Умничка. Так, с документами с самолета разобрались. Теперь смотрим досье, которое мы взяли в тумбочке ОД."
 
+
+    jump day27_cont3
+
+
+label day27_cont3:
 
     scene cg le_dossier with dissolve
+
+    al "Вот личное дело Лены. «Елена Тихонова»."
 
     al "Та-а-ак. Посмотрим, что за человек наша тихоня."
 

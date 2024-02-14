@@ -126,18 +126,18 @@ screen inventory_slots():
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_cutlets")
 
-    ## Превьюшка Сахарные грибы
+    ## Превьюшка Потерянные вещи
 
     if inv_item_07:
         button:
             xpos 1592 ypos 52
             xsize 234 ysize 288
-            idle_background "images/inventory/item_prev/prev_with_slot_shugar_mushrooms.png"
-            hover_background "images/inventory/item_prev/prev_with_slot_shugar_mushrooms.png"
+            idle_background "images/inventory/item_prev/prev_with_slot_lost_items.png"
+            hover_background "images/inventory/item_prev/prev_with_slot_lost_items.png"
             style_prefix "InvItemPrevCaption"
-            text "Сахарные грибы" xalign (0.5) yalign (0.07)
+            text "Потерянные вещи" xalign (0.5) yalign (0.07)
             #focus_mask True
-            action Hide ("inventory_slots"), Show("inv_item_shugar_mushrooms")
+            action Hide ("inventory_slots"), Show("lost_stuff_slots")
 
     ## Превьюшка Кокарда горного инженера
     
@@ -558,7 +558,7 @@ screen inv_item_cutlets():
 
 screen inv_item_shugar_mushrooms():
 
-    ## Сахарные грибы
+    ## Потерянные вещи
 
     tag menu
     zorder 100
@@ -1483,4 +1483,836 @@ screen keys_slots():
             text "Неизвестно от чего" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("keys_slots"), Show("inventory_slots")
+
+
+
+
+screen lost_stuff_slots():
+
+
+    ##Экран потерянных вещей со слотами. При клике на превьюшку вещи открывается экран с полноразмерной картинкой вещи и описанием.
+
+    tag menu
+    zorder 100
+    modal True
+    
+    add "images/docs_search/lost_stuff_slots.webp"
+    
+    style_prefix "InvItemPrevCaption"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (518, 30)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "keysStyle"
+                text "Потерянные кем-то вещи, которые я нашла."
+
+    
+    
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_slots"), Show("inventory_slots")
+    
+    ## Превьюшка Резинка Мику / слот 1
+
+    if doc_search_item_01:
+        button:
+            xpos 342 ypos 122
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_01.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_01.png"
+            style_prefix "InvItemPrevCaption"
+            text "Резинка Мику" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_01")
+
+    ## Превьюшка Альбом художника / слот 2
+
+    if doc_search_item_02:
+        button:
+            xpos 592 ypos 122
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_02.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_02.png"
+            style_prefix "InvItemPrevCaption"
+            text "Альбом художника" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_02")
+
+    ## Превьюшка Документы лётчика / слот 3
+
+    if doc_search_item_03:
+        button:
+            xpos 842 ypos 122
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_03.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_03.png"
+            style_prefix "InvItemPrevCaption"
+            text "Документы лётчика" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_03")
+
+
+    ## Превьюшка Неизвестная заколка / слот 4
+
+    if doc_search_item_04:
+        button:
+            xpos 1092 ypos 122
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_04.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_04.png"
+            style_prefix "InvItemPrevCaption"
+            text "Неизвестная заколка" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_04")
+
+
+    ## Превьюшка Импортная зажигалка / слот 5
+
+    if doc_search_item_05:
+        button:
+            xpos 1342 ypos 122
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_05.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_05.png"
+            style_prefix "InvItemPrevCaption"
+            text "Импортная зажигалка" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_05")
+
+
+    ## Превьюшка Часы Шурика / слот 6
+
+    if doc_search_item_06:
+        button:
+            xpos 342 ypos 435
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_06.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_06.png"
+            style_prefix "InvItemPrevCaption"
+            text "Часы Шурика" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_06")
+
+
+    ## Превьюшка Панамка ОД / слот 7
+
+    if doc_search_item_07:
+        button:
+            xpos 592 ypos 435
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_07.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_07.png"
+            style_prefix "InvItemPrevCaption"
+            text "Панамка ОД" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_07")
+
+
+    ## Превьюшка Дужка от очков Жени / слот 8
+
+    if doc_search_item_08:
+        button:
+            xpos 842 ypos 435
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_08.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_08.png"
+            style_prefix "InvItemPrevCaption"
+            text "Дужка от очков Жени" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_08")
+
+
+    ## Превьюшка Пуговица Атсуи / слот 9
+
+    if doc_search_item_09:
+        button:
+            xpos 1092 ypos 435
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_09.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_09.png"
+            style_prefix "InvItemPrevCaption"
+            text "Пуговица Атсуи" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_09")
+
+
+    ## Превьюшка Галстук Саманты / слот 10
+
+    if doc_search_item_10:
+        button:
+            xpos 1342 ypos 435
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_10.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_10.png"
+            style_prefix "InvItemPrevCaption"
+            text "Галстук Саманты" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_10")
+
+
+    ## Превьюшка Нашивка Слави / слот 11
+
+    if doc_search_item_11:
+        button:
+            xpos 342 ypos 749
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_11.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_11.png"
+            style_prefix "InvItemPrevCaption"
+            text "Нашивка Слави" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_11")
+
+
+    ## Превьюшка Заколка Алисы / слот 12
+
+    if doc_search_item_12:
+        button:
+            xpos 592 ypos 749
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_12.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_12.png"
+            style_prefix "InvItemPrevCaption"
+            text "Заколка Алисы" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_12")
+
+
+    ## Превьюшка Пряжка от ремня / слот 13
+
+    if doc_search_item_13:
+        button:
+            xpos 842 ypos 749
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_13.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_13.png"
+            style_prefix "InvItemPrevCaption"
+            text "Пряжка от ремня" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_13")
+
+
+    ## Превьюшка Конверт со стихами / слот 14
+
+    if doc_search_item_14:
+        button:
+            xpos 1092 ypos 749
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_14.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_14.png"
+            style_prefix "InvItemPrevCaption"
+            text "Конверт со стихами" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_14")
+
+
+    ## Превьюшка Чёрный шиньон / слот 15
+
+    if doc_search_item_15:
+        button:
+            xpos 1342 ypos 749
+            xsize 234 ysize 288
+            idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_15.png"
+            hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_15.png"
+            style_prefix "InvItemPrevCaption"
+            text "Чёрный шиньон" xalign (0.5) yalign (0.07)
+            #focus_mask True
+            action Hide ("lost_stuff_slots"), Show("lost_stuff_15")
+
+
+
+
+## Экраны потерянных предметов
+
+screen lost_stuff_01():
+
+    ## Резинка Мику
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_01.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Резинка Мику"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Наверное, Мику её искала."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_01"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_02():
+
+    ## Альбом художника
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_02.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Альбом художника"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Рисунки похожи на рисунки Лены."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_02"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_03():
+
+    ## Документы лётчика
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_03.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Документы лётчика"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Вот из-за чего были все поиски."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_03"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_04():
+
+    ## Неизвестная заколка
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_04.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Неизвестная заколка"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Интересно, чья она."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_04"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_05():
+
+    ## Импортная зажигалка
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_05.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Импортная зажигалка"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Пригодится."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_05"), Show("lost_stuff_slots")
+
+
+
+screen lost_stuff_06():
+
+    ## Часы Шурика
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_06.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Часы Шурика"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Как он там без них."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_06"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_07():
+
+    ## Панамка ОД
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_07.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Панамка ОД"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Нужно вернуть, пока голову не напекло."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_07"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_08():
+
+    ## Дужка от очков Жени
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_08.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Дужка от очков Жени"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Отломалась."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_08"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_09():
+
+    ## Пуговица Атсуи
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_09.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Пуговица Атсуи"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Редкая."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_09"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_10():
+
+    ## Галстук Саманты
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_10.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Галстук Саманты"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Наверное, у неё их несколько."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_10"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_11():
+
+    ## Нашивка Слави
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_11.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Нашивка Слави"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Найдена в неожиданном месте."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_11"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_12():
+
+    ## Заколка Алисы
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_12.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Заколка Алисы"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Красивая."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_12"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_13():
+
+    ## Пряжка от ремня
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_13.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Пряжка от ремня"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Интересно, от чьего."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_13"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_14():
+
+    ## Конверт со стихами
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_14.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Конверт со стихами"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Это стихи-признание в любви."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_14"), Show("lost_stuff_slots")
+
+
+screen lost_stuff_15():
+
+    ## Чёрный шиньон
+
+    tag menu
+    zorder 100
+    modal True
+
+    add "images/inventory/item_full/inv_item_full_bg.png"
+    add "images/docs_search/lost_stuff_full/lost_stuff_full_15.png" pos (1112, 255)
+        
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (300, 300)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "InvItemStyleTitle"
+                text "Чёрный шиньон"
+
+            style_prefix "InvItemStyleText"   
+            vbox:
+                null height 50
+                style_prefix "InvItemStyleText"
+                text "Похож на хвост Виолы."
+                
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("lost_stuff_15"), Show("lost_stuff_slots")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

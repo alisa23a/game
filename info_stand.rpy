@@ -886,5 +886,5 @@ screen info_stand():
         xpos 1856 ypos 11
         idle "gui/closebut_idle.png"
         hover "gui/closebut_hover.png"
-        action Hide ("info_stand"), Return()
+        action Hide ("info_stand")#, Return()
         

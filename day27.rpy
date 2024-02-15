@@ -187,6 +187,8 @@ label search_hides:
 ####################
 label day27_cont:
 
+    $ show_quick_menu = True
+
     if doc_search_item_03 == True:
 
         jump day27_cont2
@@ -194,14 +196,6 @@ label day27_cont:
     else:
 
         jump wait_tol
-
-
-
-
-
-
-
-
 
 
 label day27_cont2:
@@ -797,6 +791,12 @@ label day27_cont2:
 
 label day27_cont3:
 
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_171.mp3"
+
     scene cg le_dossier with dissolve
 
     al "Вот личное дело Лены. «Елена Тихонова»."
@@ -849,12 +849,6 @@ label day27_cont3:
         zoom 1.1
 
     ul "Хм... Ну, это было бы слишком явно. Все бы ее осудили."
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_171.mp3"
 
 
     scene bg auhouse2 with dissolve

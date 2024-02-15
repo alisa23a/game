@@ -20,8 +20,12 @@ style InvItemPrevCaption_frame:
     background None
 
 style InvItemPrevCaption_text:
-    color "#fff"
-    size 20
+    color "#fff333"
+    size 10
+
+style InvItemPrevCaption_button:
+    color "#fff333"
+    size 10
 
 style InvItemPrevCaption_vbox:
     xalign (0.5) yalign (0.07)
@@ -1521,7 +1525,7 @@ screen lost_stuff_slots():
         hover "gui/bg_1x1_transparent.png"
         action Hide ("lost_stuff_slots"), Show("inventory_slots")
     
-    ## Превьюшка Резинка Мику / слот 1
+    ## Превьюшка Резинка для волос / слот 1
 
     if doc_search_item_01:
         button:
@@ -1530,7 +1534,7 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_01.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_01.png"
             style_prefix "InvItemPrevCaption"
-            text "Резинка Мику" xalign (0.5) yalign (0.07)
+            text "Резинка для волос" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_01")
 
@@ -1570,7 +1574,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_04.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_04.png"
             style_prefix "InvItemPrevCaption"
-            text "Неизвестная заколка" xalign (0.5) yalign (0.07)
+            text "Неизвестная" xalign (0.5) yalign (0.07)
+            text "заколка" xalign (0.5) yalign (0.17)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_04")
 
@@ -1584,12 +1589,13 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_05.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_05.png"
             style_prefix "InvItemPrevCaption"
-            text "Импортная зажигалка" xalign (0.5) yalign (0.07)
+            text "Импортная" xalign (0.5) yalign (0.07)
+            text "зажигалка" xalign (0.5) yalign (0.17)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_05")
 
 
-    ## Превьюшка Часы Шурика / слот 6
+    ## Превьюшка Часы / слот 6
 
     if doc_search_item_06:
         button:
@@ -1598,12 +1604,12 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_06.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_06.png"
             style_prefix "InvItemPrevCaption"
-            text "Часы Шурика" xalign (0.5) yalign (0.07)
+            text "Часы" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_06")
 
 
-    ## Превьюшка Панамка ОД / слот 7
+    ## Превьюшка Белая панама / слот 7
 
     if doc_search_item_07:
         button:
@@ -1612,12 +1618,12 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_07.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_07.png"
             style_prefix "InvItemPrevCaption"
-            text "Панамка ОД" xalign (0.5) yalign (0.07)
+            text "Белая панама" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_07")
 
 
-    ## Превьюшка Дужка от очков Жени / слот 8
+    ## Превьюшка Дужка от очков / слот 8
 
     if doc_search_item_08:
         button:
@@ -1626,12 +1632,12 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_08.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_08.png"
             style_prefix "InvItemPrevCaption"
-            text "Дужка от очков Жени" xalign (0.5) yalign (0.07)
+            text "Дужка от очков" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_08")
 
 
-    ## Превьюшка Пуговица Атсуи / слот 9
+    ## Превьюшка Голубая пуговица / слот 9
 
     if doc_search_item_09:
         button:
@@ -1640,12 +1646,12 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_09.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_09.png"
             style_prefix "InvItemPrevCaption"
-            text "Пуговица Атсуи" xalign (0.5) yalign (0.07)
+            text "Голубая пуговица" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_09")
 
 
-    ## Превьюшка Галстук Саманты / слот 10
+    ## Превьюшка Синий галстук скаута / слот 10
 
     if doc_search_item_10:
         button:
@@ -1654,26 +1660,30 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_10.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_10.png"
             style_prefix "InvItemPrevCaption"
-            text "Галстук Саманты" xalign (0.5) yalign (0.07)
+            text "Синий галстук" xalign (0.5) yalign (0.07)
+            text "скаута" xalign (0.5) yalign (0.17)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_10")
 
 
-    ## Превьюшка Нашивка Слави / слот 11
+    ## Превьюшка Нашивка на рубашку / слот 11
 
     if doc_search_item_11:
+        style_prefix "InvItemPrevCaption"
         button:
+            #text_size 10
             xpos 342 ypos 749
             xsize 234 ysize 288
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_11.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_11.png"
-            style_prefix "InvItemPrevCaption"
-            text "Нашивка Слави" xalign (0.5) yalign (0.07)
+            #style_prefix "InvItemPrevCaption"
+            text "Нашивка на" xalign (0.5) yalign (0.07)
+            text "рубашку" xalign (0.5) yalign (0.17)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_11")
 
 
-    ## Превьюшка Заколка Алисы / слот 12
+    ## Превьюшка Заколка для волос «Желтое сердечко» / слот 12
 
     if doc_search_item_12:
         button:
@@ -1682,7 +1692,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_12.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_12.png"
             style_prefix "InvItemPrevCaption"
-            text "Заколка Алисы" xalign (0.5) yalign (0.07)
+            text "Заколка для волос" xalign (0.5) yalign (0.07)
+            text "«Желтое сердечко»" xalign (0.5) yalign (0.17)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_12")
 
@@ -1715,7 +1726,7 @@ screen lost_stuff_slots():
             action Hide ("lost_stuff_slots"), Show("lost_stuff_14")
 
 
-    ## Превьюшка Чёрный шиньон / слот 15
+    ## Превьюшка Черный парик / слот 15
 
     if doc_search_item_15:
         button:
@@ -1724,7 +1735,7 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_15.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_15.png"
             style_prefix "InvItemPrevCaption"
-            text "Чёрный шиньон" xalign (0.5) yalign (0.07)
+            text "Черный парик" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_15")
 
@@ -1735,7 +1746,7 @@ screen lost_stuff_slots():
 
 screen lost_stuff_01():
 
-    ## Резинка Мику
+    ## Резинка для волос
 
     tag menu
     zorder 100
@@ -1754,13 +1765,13 @@ screen lost_stuff_01():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Резинка Мику"
+                text "Резинка для волос"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Наверное, Мику её искала."
+                text "Найдена под лестницей в музкружок. \nТакую никогда раньше не видела. \nЛюбопытно."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1797,7 +1808,7 @@ screen lost_stuff_02():
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Рисунки похожи на рисунки Лены."
+                text "С (неприличными) рисунками-карикатурами. \nНайден в в музкружке."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1834,7 +1845,7 @@ screen lost_stuff_03():
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Вот из-за чего были все поиски."
+                text "Документы, найденные в самолете, \nна теле погибшего летчика."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1871,7 +1882,7 @@ screen lost_stuff_04():
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Интересно, чья она."
+                text "Найдена в бытовке Петровича. \nВ нашем отряде таких нет. \nОчень красивая и дорогая заколка. \nТакие носят для очень длинных волос."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1908,7 +1919,7 @@ screen lost_stuff_05():
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Пригодится."
+                text "Найдена в бытовке Петровича. \nНа ней изображение мотоцикла. \nСкорее всего, хозяин мотоциклист."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1921,7 +1932,7 @@ screen lost_stuff_05():
 
 screen lost_stuff_06():
 
-    ## Часы Шурика
+    ## Часы
 
     tag menu
     zorder 100
@@ -1940,13 +1951,13 @@ screen lost_stuff_06():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Часы Шурика"
+                text "Часы"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Как он там без них."
+                text "Найдены в нерабочем помещении \nраздевалки для мальчиков, \n«Кружок усталые руки». \nЧасы «Слава», ходят, рабочие. \nНадо узнать, не терял ли кто часов."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1958,7 +1969,7 @@ screen lost_stuff_06():
 
 screen lost_stuff_07():
 
-    ## Панамка ОД
+    ## Белая панама
 
     tag menu
     zorder 100
@@ -1977,13 +1988,13 @@ screen lost_stuff_07():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Панамка ОД"
+                text "Белая панама"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Нужно вернуть, пока голову не напекло."
+                text "Найдена рядом со входом в бомбоубежище.\n Такая была только у Ольги Дмитриевны. \nБомбоубежище необитаемо. \nЧто делала ОД в бомбоубежище? \nЗагадка..."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -1995,7 +2006,7 @@ screen lost_stuff_07():
 
 screen lost_stuff_08():
 
-    ## Дужка от очков Жени
+    ## Дужка от очков
 
     tag menu
     zorder 100
@@ -2014,13 +2025,13 @@ screen lost_stuff_08():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Дужка от очков Жени"
+                text "Дужка от очков"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Отломалась."
+                text "Найдена в кружке Умелые руки. \nОчки явно женские. \nИз девочек в кружок хожу только я. \nНо я не ношу очков. \nИнтересненько."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2032,7 +2043,7 @@ screen lost_stuff_08():
 
 screen lost_stuff_09():
 
-    ## Пуговица Атсуи
+    ## Голубая пуговица
 
     tag menu
     zorder 100
@@ -2051,13 +2062,13 @@ screen lost_stuff_09():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Пуговица Атсуи"
+                text "Голубая пуговица"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Редкая."
+                text "Найдена возле памятнику Генде. \nМожет быть чья угодно."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2069,7 +2080,7 @@ screen lost_stuff_09():
 
 screen lost_stuff_10():
 
-    ## Галстук Саманты
+    ## Синий галстук скаута
 
     tag menu
     zorder 100
@@ -2088,13 +2099,13 @@ screen lost_stuff_10():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Галстук Саманты"
+                text "Синий галстук скаута"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Наверное, у неё их несколько."
+                text "Найден на крыше, нычка \n«Крыша где удобно целоваться». \nМесто в лагере известное и очень популярное. \nВот так дела. \nКажется, я знаю чей это галстук, \nвариантов тут не много."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2106,7 +2117,7 @@ screen lost_stuff_10():
 
 screen lost_stuff_11():
 
-    ## Нашивка Слави
+    ## Нашивка на рубашку
 
     tag menu
     zorder 100
@@ -2125,13 +2136,13 @@ screen lost_stuff_11():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Нашивка Слави"
+                text "Нашивка на рубашку"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Найдена в неожиданном месте."
+                text "«Звезда и костер», \nнайдена в помещении нашего чердака. \nИнтересно, кто мог попасть на чердак, \nесли ключ только у меня и у Алисы."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2143,7 +2154,7 @@ screen lost_stuff_11():
 
 screen lost_stuff_12():
 
-    ## Заколка Алисы
+    ## Заколка для волос «Жёлтое сердечко»
 
     tag menu
     zorder 100
@@ -2162,13 +2173,13 @@ screen lost_stuff_12():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Заколка Алисы"
+                text "Заколка для волос «Жёлтое сердечко»"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Красивая."
+                text "Найдена в нычке №2. \nКажется, я знаю, чья она."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2205,7 +2216,7 @@ screen lost_stuff_13():
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Интересно, от чьего."
+                text "Найдена в нычке №7, напротив \nокна в душевую домика ОД. \nПряжка, судя по всему, потеряна \nв момент манипуляции с ремнем. \nУчитывая место находки, не хочется \nдаже думать о причине потери. \nНадо узнать, кто терял пряжку."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2242,7 +2253,7 @@ screen lost_stuff_14():
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Это стихи-признание в любви."
+                text "Найден в Библиотеке. \nСтихи посвящены Жене."
                 
     imagebutton:
         xpos 0 ypos 0
@@ -2254,7 +2265,7 @@ screen lost_stuff_14():
 
 screen lost_stuff_15():
 
-    ## Чёрный шиньон
+    ## Чёрный парик
 
     tag menu
     zorder 100
@@ -2273,13 +2284,13 @@ screen lost_stuff_15():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Чёрный шиньон"
+                text "Чёрный парик"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Похож на хвост Виолы."
+                text "Найден в раздевалке для девочек."
                 
     imagebutton:
         xpos 0 ypos 0

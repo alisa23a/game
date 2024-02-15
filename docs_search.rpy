@@ -363,7 +363,7 @@ screen genda_ds:
     if doc_search_item_09 == False:
 
         imagebutton:
-            xpos 1160 ypos 956
+            xpos 1073 ypos 701
             xsize 70 ysize 70
             idle "images/docs_search/p_09_blue_button.png"
             hover "images/docs_search/p_09_blue_button.png"

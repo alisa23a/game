@@ -61,7 +61,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_perl.png"
             hover_background "images/inventory/item_prev/prev_with_slot_perl.png"
             style_prefix "InvItemPrevCaption"
-            text "Жемчужина" xalign (0.5) yalign (0.07)
+            text "Жемчужина" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_pearl")
 
@@ -74,7 +75,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_notebook.png"
             hover_background "images/inventory/item_prev/prev_with_slot_notebook.png"
             style_prefix "InvItemPrevCaption"
-            text "Записная книжка" xalign (0.5) yalign (0.07)
+            text "Записная книжка" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_notebook")
 
@@ -87,7 +89,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_mapcompass.png"
             hover_background "images/inventory/item_prev/prev_with_slot_mapcompass.png"
             style_prefix "InvItemPrevCaption"
-            text "Карта и компас" xalign (0.5) yalign (0.07)
+            text "Карта и компас" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_mapcompass")
 
@@ -100,7 +103,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_keys.png"
             hover_background "images/inventory/item_prev/prev_with_slot_keys.png"
             style_prefix "InvItemPrevCaption"
-            text "Связка ключей" xalign (0.5) yalign (0.07)
+            text "Связка ключей" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("keys_slots")
 
@@ -113,7 +117,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_sweets.png"
             hover_background "images/inventory/item_prev/prev_with_slot_sweets.png"
             style_prefix "InvItemPrevCaption"
-            text "Конфетки" xalign (0.5) yalign (0.07)
+            text "Конфетки" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_sweets")
 
@@ -126,7 +131,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_cutlets.png"
             hover_background "images/inventory/item_prev/prev_with_slot_cutlets.png"
             style_prefix "InvItemPrevCaption"
-            text "Котлетки" xalign (0.5) yalign (0.07)
+            text "Котлетки" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_cutlets")
 
@@ -139,7 +145,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_lost_items.png"
             hover_background "images/inventory/item_prev/prev_with_slot_lost_items.png"
             style_prefix "InvItemPrevCaption"
-            text "Потерянные вещи" xalign (0.5) yalign (0.07)
+            text "Потерянные вещи" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("lost_stuff_slots")
 
@@ -154,8 +161,10 @@ screen inventory_slots():
 
             vbox:
                 style_prefix "InvItemPrevCaption"
-                text "Кокарда горного" xalign (0.5) yalign (0.07)
-                text "Инженера" xalign (0.5) yalign (0.17)
+                text "Кокарда горного" xalign (0.5) yalign (0.07):
+                    size 18
+                text "Инженера" xalign (0.5) yalign (0.17):
+                    size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_badge")
 
@@ -168,7 +177,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_rope.png"
             hover_background "images/inventory/item_prev/prev_with_slot_rope.png"
             style_prefix "InvItemPrevCaption"
-            text "Моток веревки" xalign (0.5) yalign (0.07)
+            text "Моток веревки" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_rope")
 
@@ -181,7 +191,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_crystal.png"
             hover_background "images/inventory/item_prev/prev_with_slot_crystal.png"
             style_prefix "InvItemPrevCaption"
-            text "Кристалл" xalign (0.5) yalign (0.07)
+            text "Кристалл" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_crystal")
 
@@ -194,7 +205,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_knife.png"
             hover_background "images/inventory/item_prev/prev_with_slot_knife.png"
             style_prefix "InvItemPrevCaption"
-            text "Перочинный ножик" xalign (0.5) yalign (0.07)
+            text "Перочинный ножик" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_knife")
 
@@ -207,7 +219,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_camera.png"
             hover_background "images/inventory/item_prev/prev_with_slot_camera.png"
             style_prefix "InvItemPrevCaption"
-            text "Фотоаппарат" xalign (0.5) yalign (0.07)
+            text "Фотоаппарат" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_camera")
 
@@ -220,7 +233,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_flashlight.png"
             hover_background "images/inventory/item_prev/prev_with_slot_flashlight.png"
             style_prefix "InvItemPrevCaption"
-            text "Фонарик" xalign (0.5) yalign (0.07)
+            text "Фонарик" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_flashlight")
 
@@ -233,7 +247,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_berries.png"
             hover_background "images/inventory/item_prev/prev_with_slot_berries.png"
             style_prefix "InvItemPrevCaption"
-            text "Ягоды забвения" xalign (0.5) yalign (0.07)
+            text "Ягоды забвения" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_berries")
 
@@ -246,7 +261,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_beads.png"
             hover_background "images/inventory/item_prev/prev_with_slot_beads.png"
             style_prefix "InvItemPrevCaption"
-            text "Древние бусики" xalign (0.5) yalign (0.07)
+            text "Древние бусики" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_beads")
 
@@ -259,7 +275,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_gold.png"
             hover_background "images/inventory/item_prev/prev_with_slot_gold.png"
             style_prefix "InvItemPrevCaption"
-            text "Слиток золота" xalign (0.5) yalign (0.07)
+            text "Слиток золота" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_gold")
 
@@ -274,8 +291,10 @@ screen inventory_slots():
 
             vbox:
                 style_prefix "InvItemPrevCaption"
-                text "Баночка для" xalign (0.5) yalign (0.07)
-                text "шуршавчиков" xalign (0.5) yalign (0.17)
+                text "Баночка для" xalign (0.5) yalign (0.07):
+                    size 18
+                text "шуршавчиков" xalign (0.5) yalign (0.17):
+                    size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_jar")
 
@@ -288,7 +307,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_binoculars.png"
             hover_background "images/inventory/item_prev/prev_with_slot_binoculars.png"
             style_prefix "InvItemPrevCaption"
-            text "Бинокль" xalign (0.5) yalign (0.07)
+            text "Бинокль" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_binoculars")
 
@@ -301,7 +321,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_bandage.png"
             hover_background "images/inventory/item_prev/prev_with_slot_bandage.png"
             style_prefix "InvItemPrevCaption"
-            text "Бинтик" xalign (0.5) yalign (0.07)
+            text "Бинтик" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_bandage")
 
@@ -314,7 +335,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_iodine.png"
             hover_background "images/inventory/item_prev/prev_with_slot_iodine.png"
             style_prefix "InvItemPrevCaption"
-            text "Йод" xalign (0.5) yalign (0.07)
+            text "Йод" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_iodine")
 
@@ -327,7 +349,8 @@ screen inventory_slots():
             idle_background "images/inventory/item_prev/prev_with_slot_notes.png"
             hover_background "images/inventory/item_prev/prev_with_slot_notes.png"
             style_prefix "InvItemPrevCaption"
-            text "Записки" xalign (0.5) yalign (0.07)
+            text "Записки" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("inventory_slots"), Show("notes_slots")
 
@@ -1534,7 +1557,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_01.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_01.png"
             style_prefix "InvItemPrevCaption"
-            text "Резинка для волос" xalign (0.5) yalign (0.07)
+            text "Резинка для волос" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_01")
 
@@ -1547,7 +1571,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_02.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_02.png"
             style_prefix "InvItemPrevCaption"
-            text "Альбом художника" xalign (0.5) yalign (0.07)
+            text "Альбом художника" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_02")
 
@@ -1560,7 +1585,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_03.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_03.png"
             style_prefix "InvItemPrevCaption"
-            text "Документы лётчика" xalign (0.5) yalign (0.07)
+            text "Документы лётчика" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_03")
 
@@ -1574,8 +1600,10 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_04.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_04.png"
             style_prefix "InvItemPrevCaption"
-            text "Неизвестная" xalign (0.5) yalign (0.07)
-            text "заколка" xalign (0.5) yalign (0.17)
+            text "Неизвестная" xalign (0.5) yalign (0.07):
+                size 18
+            text "заколка" xalign (0.5) yalign (0.15):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_04")
 
@@ -1589,8 +1617,10 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_05.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_05.png"
             style_prefix "InvItemPrevCaption"
-            text "Импортная" xalign (0.5) yalign (0.07)
-            text "зажигалка" xalign (0.5) yalign (0.17)
+            text "Импортная" xalign (0.5) yalign (0.07):
+                size 18
+            text "зажигалка" xalign (0.5) yalign (0.15):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_05")
 
@@ -1604,7 +1634,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_06.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_06.png"
             style_prefix "InvItemPrevCaption"
-            text "Часы" xalign (0.5) yalign (0.07)
+            text "Часы" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_06")
 
@@ -1618,7 +1649,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_07.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_07.png"
             style_prefix "InvItemPrevCaption"
-            text "Белая панама" xalign (0.5) yalign (0.07)
+            text "Белая панама" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_07")
 
@@ -1632,7 +1664,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_08.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_08.png"
             style_prefix "InvItemPrevCaption"
-            text "Дужка от очков" xalign (0.5) yalign (0.07)
+            text "Дужка от очков" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_08")
 
@@ -1646,7 +1679,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_09.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_09.png"
             style_prefix "InvItemPrevCaption"
-            text "Голубая пуговица" xalign (0.5) yalign (0.07)
+            text "Голубая пуговица" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_09")
 
@@ -1660,8 +1694,10 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_10.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_10.png"
             style_prefix "InvItemPrevCaption"
-            text "Синий галстук" xalign (0.5) yalign (0.07)
-            text "скаута" xalign (0.5) yalign (0.17)
+            text "Синий галстук" xalign (0.5) yalign (0.07):
+                size 18
+            text "скаута" xalign (0.5) yalign (0.15):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_10")
 
@@ -1677,8 +1713,11 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_11.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_11.png"
             #style_prefix "InvItemPrevCaption"
-            text "Нашивка на" xalign (0.5) yalign (0.07)
-            text "рубашку" xalign (0.5) yalign (0.17)
+            text "Нашивка на" xalign (0.5) yalign (0.07):
+                size 18
+            text "рубашку" xalign (0.5) yalign (0.15):
+                size 18
+            
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_11")
 
@@ -1692,8 +1731,10 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_12.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_12.png"
             style_prefix "InvItemPrevCaption"
-            text "Заколка для волос" xalign (0.5) yalign (0.07)
-            text "«Желтое сердечко»" xalign (0.5) yalign (0.17)
+            text "Заколка для волос" xalign (0.5) yalign (0.07):
+                size 18
+            text "«Желтое сердечко»" xalign (0.5) yalign (0.15):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_12")
 
@@ -1707,7 +1748,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_13.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_13.png"
             style_prefix "InvItemPrevCaption"
-            text "Пряжка от ремня" xalign (0.5) yalign (0.07)
+            text "Пряжка от ремня" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_13")
 
@@ -1721,7 +1763,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_14.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_14.png"
             style_prefix "InvItemPrevCaption"
-            text "Конверт со стихами" xalign (0.5) yalign (0.07)
+            text "Конверт со стихами" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_14")
 
@@ -1735,7 +1778,8 @@ screen lost_stuff_slots():
             idle_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_15.png"
             hover_background "images/docs_search/lost_stuff_prev/lost_stuff_prev_15.png"
             style_prefix "InvItemPrevCaption"
-            text "Черный парик" xalign (0.5) yalign (0.07)
+            text "Черный парик" xalign (0.5) yalign (0.07):
+                size 18
             #focus_mask True
             action Hide ("lost_stuff_slots"), Show("lost_stuff_15")
 

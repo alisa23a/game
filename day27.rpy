@@ -1320,6 +1320,6 @@ label day27_cont3:
 
     stop music
 
-    #jump day28
+    jump day28
 
 return 

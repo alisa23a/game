@@ -256,6 +256,7 @@ label day29:
 
     play miscSounds "audio/music/z_001.mp3"
 
+    $ renpy.music.set_volume(0.50, delay=1.0, channel='miscSounds')
 
     play music "audio/music/z_131.mp3"
 

@@ -543,6 +543,355 @@ label day29:
     "И мы все вместе отправились в лагерь. А Алиса улыбалась, подмигивала мне и на ходу насвистывала какую то веселую мелодию."
 
 
+    stop music fadeout 1.0
+
+
+    stop miscSounds fadeout 1.0
+
+
+    play music "audio/music/z_516.mp3"
+
+
+    scene cg od_alter with dissolve
+
+    "После Случая с Вано мы как-то сблизились с Ольгой Дмитриевной. И я спросила ее, не знает ли она, откуда доносятся звуки и вибрация в лагере. Ольга Дмитриевна как будто задумалась."
+
+    od "А почему это тебя так интересует? Ты первая, кто задает мне этот вопрос."
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ольга Дмитриевна, согласитесь, странно, что никто кроме нас с Алисой не чувствует вибраций. И этот странный звук, который как бы из-под земли."
+
+
+    scene cg od_alter with dissolve
+
+    "Раньше мне казалось, что это только у меня такое ощущение. Оказывается, вы тоже его слышите?"
+
+
+    play miscSounds "audio/music/z_001.mp3"
+
+
+    play music "audio/music/z_417.mp3"
+
+
+    image an_29_02: # Анимация памятник качается
+        
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+        repeat
+
+
+    scene an_29_02 with dissolve
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ну да, мы тоже. А вот памятник, он всегда стоит так, как стоял? Мне кажется он поворачивается время от времени."
+
+
+    scene cg od_alter with dissolve
+
+    od "Ну, то история простая. Его ремонтировали в прошлом году. Он стоит на таком шпиле, как флюгер и от вибрации возможно немного поворачивается."
+
+    od "Да, это, наверное, шокирует. Но я за три года привыкла. Пионеры не замечают. Раньше он был закреплен и стоял неподвижно."
+
+    od "Но потом при реставрации рабочие потеряли болты от крепежа, и он остался стоять на центральной вращающейся основе. Он тяжелый, поэтому стоит как Александрийский столп в Питере, сам по себе."
+
+
+    play miscSounds "audio/music/z_001.mp3"
+
+
+    play music "audio/music/z_197.mp3"
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Фух, отлегло. А мы с Алисой думали, что он как Каменный гость, оживает каждую ночь. А вот еще странность, Вы не слышали у себя над головой каких-нибудь шагов?"
+
+
+    scene cg od_alter with dissolve
+
+    od "На чердаке? Нет. Все чердаки законсервированы. Ключи у завхоза. Не вздумайте проверять. Маргарита Павловна этого не поймет и будет большой скандал. Надеюсь, вы туда не лазали?"
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ну что вы, конечно, нет!"
+
+    ul "Вот, еще хочу спросить. Вы никогда не видели тут большую кошку в окрестностях лагеря? Просто мы с Алисой не только видели её, но и общались. Она как человек. У неё есть имя, Юля."
+
+
+    scene cg yulya_bushes with dissolve
+
+    od "А, эту? Это не кошка. Точнее, это девочка, которая вообразила себя кошкой."
+
+    od "Она тут давно живет. Некоторые думают что она из поселка. Возможно, сирота. Освоилась и живет. Где-то в районе озера. Петрович видел несколько раз, как она ловит рыбу. Очень ловкая. Прямо Маугли."
+
+    od "Раньше её подкармливали в столовой. Оставляли ей еду, и она ночью забирала. Но потом вездесущие пионеры решили поймать ее. И вспугнули. Больше она не приходит."
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А вам не кажется, что это ненормально, что девочка живет сама по себе и ни с кем не общается? Она умеет разговаривать и она не глупая."
+
+
+    scene cg od_alter with dissolve
+
+    od "Я сама была бы только за то, чтобы она жила в лагере и общалась с детьми. Но она пуглива. А Маргарита Павловна считает её дикаркой и говорит, что она мутант."
+
+    od "В принципе, она тоже наверное была бы не против, но она боится эпидемии. Мало ли чем болеет эта девочка? Сначала нужен карантин."
+
+
+    scene cg vio_skeleton with dissolve
+
+    od "Если бы Виолетта Церновна, которая не раз мне намекала сделать ей прививки от бешенства и разных болезней, провела карантин, то возможно эта, как её, Юля? Стала бы членом общества."
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg vio_iul with dissolve
+
+    od "Но вот мне кажется, что как раз Виолетту Церновну она боится больше всего."
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg iul_uniform with dissolve
+
+    ul "Вот здорово! А потом бы мы приняли её в пионеры!"
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg iul_reading with dissolve
+
+    od "Прежде её нужно отмыть, привить, и образовать."
+
+    od "Неплохо бы ей, прежде чем стать в ряды пионеров, что-нибудь почитать. Она, наверное, имеет образование не выше ученика третьего класса. Вопрос, умеет ли она вообще читать?"
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Вот и проверим. Значит, вы не против?"
+
+
+    scene cg od_alter with dissolve
+
+    od "А отряд знает про Юлю?"
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Мы с Алисой их познакомим. Уверена, она всем понравится."
+
+
+    play miscSounds "audio/music/z_001.mp3"
+
+
+    play music "audio/music/z_492.mp3"
+
+
+    scene an_d28_01 with dissolve
+
+    ul "И да, скажу вам по секрету. Это, возможно, не Вано воровал белье с веревок. Ну надо же ей во что-то одеваться!"
+
+
+    scene cg od_alter with dissolve
+
+    od "Я так и думала. Хотя он тоже воровал. У него в бытовке нашли кучу нижнего детского белья. Целая коробка. Сейчас ищем хозяев. Хотя... Там с у него коллекция с трех заездов. Маловероятно, что найдем."
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "У меня пропал красный купальник, майка и двое розовых трусов."
+
+    hide sp_ul_013
+
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "И у меня трусы белые с синей каёмкой."
+
+
+    scene cg od_alter with dissolve
+
+    od "Да, вроде такие были. Посмотрите потом. Ладно, приводите вашу Юлю, мы сделаем собрание отряда. Но должна сказать, её вид может шокировать детей."
+
+    od "Ей придется или снять хвост и ушки или, если уж она вбила себе в голову, что она кошка, прятать их под юбку и панамку. Хорошо?"
+
+
+    scene bg odhouse7 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "ДА! Мы с ней решим этот вопрос."
+
+
+    play miscSounds "audio/music/z_001.mp3"
+
+
+    play music "audio/music/z_022.mp3"
+
+
+    scene al_ul_iul_story with dissolve
+
+    "В тот же день мы с Алисой рассказали отряду о Юле. Были всякие споры."
+
+    "Никто сначала не верил, потом все стали очень хотеть её увидеть и интересовались, пьет ли она молоко как кошка, спит ли она в коробке, и всякие глупые вопросы такого рода. Ну, вы понимаете."
+
+    "И наконец, все уже ждали её появления в лагере. Осталось только уговорить саму Юлю."
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg auhouse2 with dissolve
+
+    "А я сказала Алисе:"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Слушай, Ольга Дмитриевна думает, что у неё хвост не настоящий!"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Ну и пусть думает. Какая разница? Лишь бы она не купалась голышом. А это я беру на себя."
 
 
 

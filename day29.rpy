@@ -574,7 +574,7 @@ label day29:
     "Раньше мне казалось, что это только у меня такое ощущение. Оказывается, вы тоже его слышите?"
 
 
-    play miscSounds "audio/music/z_001.mp3"
+    stop music fadeout 1.0
 
 
     play music "audio/music/z_417.mp3"
@@ -679,7 +679,7 @@ label day29:
     od "Но потом при реставрации рабочие потеряли болты от крепежа, и он остался стоять на центральной вращающейся основе. Он тяжелый, поэтому стоит как Александрийский столп в Питере, сам по себе."
 
 
-    play miscSounds "audio/music/z_001.mp3"
+    stop music fadeout 1.0
 
 
     play music "audio/music/z_197.mp3"
@@ -797,7 +797,7 @@ label day29:
     ul "Мы с Алисой их познакомим. Уверена, она всем понравится."
 
 
-    play miscSounds "audio/music/z_001.mp3"
+    stop music fadeout 1.0
 
 
     play music "audio/music/z_492.mp3"
@@ -851,7 +851,7 @@ label day29:
     ul "ДА! Мы с ней решим этот вопрос."
 
 
-    play miscSounds "audio/music/z_001.mp3"
+    stop music fadeout 1.0
 
 
     play music "audio/music/z_022.mp3"
@@ -892,6 +892,365 @@ label day29:
         zoom 1.2
 
     al "Ну и пусть думает. Какая разница? Лишь бы она не купалась голышом. А это я беру на себя."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_516.mp3"
+
+
+    scene cg yulya_hide with dissolve
+
+    "Мы направились в старый лагерь, чтобы разыскать Юлю."
+
+    "Но искать её не пришлось. Возле переправы мы заметили знакомую фигурку. Казалось, она ждет нас."
+
+    "Юля явно была рада встрече. Она помахала нам рукой и быстро пошла в лес, маня нас за собой. Мы догнали ее и пошли вместе по тропинке. Мы рассказывали ей все новости лагеря, а она нам лесные новости."
+
+    "Я задала ей те же вопросы, что и Ольге Дмитриевне. Про памятник она ничего не знала, а про вибрацию сказала, что в эти дни обычно снятся вещие сны."
+
+    "Только нужно съесть какие-то ягоды. Она назвала их Ягоды Забвения. И ты получишь ответы на свои вопросы."
+
+
+    scene bg opine2 with dissolve
+
+    "Эти ягоды растут неподалеку от сосны Совы. Это небольшая горка в лесу, на вершине которой растет одинокая сосна, и на ней есть дупло совы. Сова очень старая."
+
+    "Задавать сове вопросы, как говорил Пионер, можно, но она всё равно не ответит. Ты не знаешь птичьего языка. А она не говорить по человечески."
+
+ 
+    scene bg iul_hide1 with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "При чем же тут ягоды?"
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+ 
+    uv "Узнаешь."
+
+
+    scene bg yulya_hous with dissolve:
+        xpos 0.5 ypos -0.4 xanchor 0.5 yanchor 0.0 zoom 1.4
+
+
+    "Когда мы пришли к избушке, Юля накормила нас вкусной кашей «из одуванчиков», как её назвала Алиса."
+
+
+    scene bg yulya_fireplace2 with dissolve
+
+    "На самом деле, одуванчиков там не было, зато было какое-то зерно и травы. На вид, каша как каша. Чем-то напомнила овсянку."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Там есть сахарные грибы?"
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Нет. Их жуют отдельно и ни с чем не смешивают."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_495.mp3"
+
+
+    scene bg jusu with dissolve
+
+    "А потом Юля повела нас показывать свои ПРИПАСЫ, которые мы уже видели раньше, но были и другие."
+
+
+    scene bg jusu2 with dissolve
+
+    "Для этого в специальном дупле был оборудован склад. Это было огромное дерево, и мы бы никогда не заметили, что в нем есть дупло и лазейка туда, если бы Юля не показала нам её."
+
+    "Она приоткрыла плетеную заслонку из веток и листьев папоротника, и мы увидели..."
+
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Боже! Так вот где оказались недостающие три мешка сахара!"
+
+
+    scene bg jusu2 with dissolve
+
+    "Сахар был не в мешках, он был насыпан в деревянные березовые бочки из-под извести, аккуратно вымытые внутри."
+
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Юля, откуда эти бочки?"
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Строители оставили, когда ремонтировали лагерь."
+
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ну ты запасливая! Неужели сама все принесла?"
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Нет. У меня есть помощник. Только не спрашивайте кто, я всё равно не скажу."
+
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Разве твои припасы не могут отсыреть? Или их не могут стащить и съесть другие животные?"
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "У всех есть свои охотничьи угодья. Никто не ворует друг у друга. А дожди тут чрезвычайно редки, как если бы на небе был прозрачный зонтик. Охотничьи угодья есть даже у ежа и черепахи."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_214.mp3"
+
+
+    image an_29_02: # Анимация гроза над Бурлейкой
+        
+        "images/an/an29day/an_d29_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_38.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an29day/an_d29_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+      
+
+        repeat
+
+
+    scene an_29_02 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene an_d29_44 with dissolve
+
+
+    "А если идет вдруг дождь, все о нем знают заранее, потому что сначала сильные молнии и гром. Три часа сверкает и грохочет. Все прячут припасы. Потом настоящий потоп. Но он проходит в долине."
+
+    "Здесь — туман и маленький дождик, который быстро заканчивается. Но в долине у реки может продолжаться три дня. Однажды дождь шел неделю."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_492.mp3"
+
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "Я задумалась. И действительно, я не припомнила ни одного серьезного дождя за всё время, пока мы были в лагере. Кроме того случая на болотах."
+
+    ul "Но что-то же питает реку и ручьи? Всё тут как-то странно. Как будто, какой-то волшебник выращивает живность в большом аквариуме, создавая там микроклимат и время от времени подсыпая корм."
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Так и есть. Дождь, это когда моют «аквариум». Только в него потом подсаживают новую «живность», или наоборот."
+
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А ты?"
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    uv "Мы старожилы, мы постоянная величина. А еще ваша Виола, Ольга и Пионер. Возможно и вы станете, надо только дождаться дождя."
+   
+
+    scene bg iul_hide1 with dissolve
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А что с теми, кого смывает дождь?"
+
+
+    scene bg iul_hide2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    "Юля пожала плечами и замолчала. Потом встрепенулась и спросила:"
+
+    uv "А хотите, я покажу вам охотничьи угодья Ежа и Черепахи?"
+
+
+    scene cg iul_boat_river with dissolve
+
+    "Мы согласились и Юля повела нас в сторону реки. Оказывается, у неё была своя лодка."
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Лодку тоже украла?"
+
+    hide sp_al_055
+
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Юля молча кивнула."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_067.mp3"
+
+
+    scene bg dark_forest with dissolve
+
+    "Когда мы перебрались на другую сторону реки, то оказались в районе, который был значительно ниже по реке, чем даже Дальний пляж. Оттуда по тропе мы пошли в сторону горы."
+
+
+    scene cg peak_dv_03 with dissolve
+
+    "Затем лес расступился и перед нами открылся вид на скалу."
+
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Это же... Пик имени твоего имени! Пик Двачевской!"
+
+    hide sp_ul_033
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "О, да. Ну и устала же я тогда на него взбираться. Наверное, наш вымпел до сих пор там."
+
+    hide sp_al_055
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

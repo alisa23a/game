@@ -422,7 +422,7 @@ label day24:
 
     play music "audio/music/z_152.mp3"
 
-    scene bg dunes with dissolve
+    scene bg dunes2 with dissolve
 
 
     "Припекало. Идти никуда не хотелось."
@@ -1463,7 +1463,6 @@ label day24:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     uv "Нет, он нужен не мне, а грибам."
 

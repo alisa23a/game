@@ -1268,15 +1268,21 @@ label day29:
     pause (1000000000000000000000000.0)
 
 
-    stop music fadeout 1.0
+    # stop music fadeout 1.0
 
 
-    play music "audio/music/z_022.mp3"
+    # play music "audio/music/z_022.mp3"
 
 
     scene bg hetu2 with dissolve
 
     "Мы ещё полюбовались на уморительно забавного Ежа, как он смотрит на нас своими бусинками глазками и все время принюхивается, а потом стали спускаться вниз по склону."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_201.mp3"
 
 
     show sp_iul_009:
@@ -1318,6 +1324,13 @@ label day29:
 
     "Ольга Дмитриевна — блестящая как ставридка, Славя — рыба Луна, а директриса — Барракуда. Петрович, понятное дело, рак отшельник. Я бы и дальше фантазировала, но... Тут меня толкнула Алиса:"
 
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_181.mp3"
+
+
     scene bg hetu2 with dissolve
 
 
@@ -1325,7 +1338,6 @@ label day29:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-    with dissolve
 
     al "Ты что спишь? Идем."
 

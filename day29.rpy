@@ -993,7 +993,7 @@ label day29:
 
     scene bg iul_hide1 with dissolve
 
-    show sp_al_055:
+    show sp_al_058:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
@@ -1028,7 +1028,7 @@ label day29:
 
     scene bg iul_hide1 with dissolve
 
-    show sp_ul_033:
+    show sp_ul_021:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -1048,7 +1048,7 @@ label day29:
 
     scene bg iul_hide1 with dissolve
 
-    show sp_ul_033:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -1072,7 +1072,7 @@ label day29:
     play music "audio/music/z_214.mp3"
 
 
-    image an_29_02: # Анимация гроза над Бурлейкой
+    image an_29_03: # Анимация гроза над Бурлейкой
         
         "images/an/an29day/an_d29_37.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
@@ -1095,7 +1095,7 @@ label day29:
         repeat
 
 
-    scene an_29_02 with dissolve
+    scene an_29_03 with dissolve
 
     pause (10000000000000000000000.0)
 
@@ -1116,7 +1116,7 @@ label day29:
 
     scene bg iul_hide1 with dissolve
 
-    show sp_ul_033:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -1138,7 +1138,7 @@ label day29:
 
     scene bg iul_hide1 with dissolve
 
-    show sp_ul_033:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -1158,7 +1158,7 @@ label day29:
 
     scene bg iul_hide1 with dissolve
 
-    show sp_ul_033:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -1219,7 +1219,7 @@ label day29:
     "Затем лес расступился и перед нами открылся вид на скалу."
 
 
-    show sp_ul_033:
+    show sp_ul_021:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -1227,7 +1227,7 @@ label day29:
 
     ul "Это же... Пик имени твоего имени! Пик Двачевской!"
 
-    hide sp_ul_033
+    hide sp_ul_021
 
 
     show sp_al_055:
@@ -1239,6 +1239,200 @@ label day29:
     al "О, да. Ну и устала же я тогда на него взбираться. Наверное, наш вымпел до сих пор там."
 
     hide sp_al_055
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "А что ему сделается. Ты, наверное, первая, кто туда смог забраться."
+
+    hide sp_ul_021
+
+
+    scene bg hetu with dissolve
+
+    "Затем мы прошли через лес, растущий у подножья скалы."
+
+    "Вскоре деревья расступились и мы вышли на небольшую, освещенную солнцем прогалину, через которую протекал ручей, образуя небольшой пруд."
+
+    uv "Тише. Мы уже пришли. Видите маленький ручеек, поросший травой, а на кочке Черепаху? Она очень старая и всегда живет тут. Скоро появится и Еж."
+
+    "И действительно, вскоре мы увидели Ежа. Было ощущение, что они нас не боятся."
+
+    uv "Это потому что вы со мной."
+
+
+    pause (1000000000000000000000000.0)
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_022.mp3"
+
+
+    scene bg hetu2 with dissolve
+
+    "Мы ещё полюбовались на уморительно забавного Ежа, как он смотрит на нас своими бусинками глазками и все время принюхивается, а потом стали спускаться вниз по склону."
+
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    uv "А ещё тут есть старые штольни. Там много змей, и поэтому туда не стоит ходить. Когда-то тут были туристы, они спустились в одну из штолен, и больше их никто не видел."
+
+    uv "Это было как раз перед очередным дождем. Вода потопа уходит в штольни и поэтому вокруг всегда сухо."
+
+    hide sp_iul_009
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Наверное, они об этом не знали. Получается, что эти штольни выполняют роль сифона в аквариуме. Если они перестанут работать, мы все тут утонем."
+
+    hide sp_al_056
+
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Точно! Это аквариум!"
+
+
+    scene cg ul_fishes with dissolve
+
+    "И тут я представила, как все мы превращаемся в рыбок. Алиса — оранжевая рыбка, я — маленькая красная, Женька — синяя, Ленка — фиолетовая, Мику — зеленая, Саманта — неоновая, Атсуи — тритончик."
+
+    "Ольга Дмитриевна — блестящая как ставридка, Славя — рыба Луна, а директриса — Барракуда. Петрович, понятное дело, рак отшельник. Я бы и дальше фантазировала, но... Тут меня толкнула Алиса:"
+
+    scene bg hetu2 with dissolve
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Ты что спишь? Идем."
+
+    hide sp_al_055
+
+    "Оказывается, я так размечталась, что сошла с тропы и остановилась."
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "(Догоняя  Алису и Юлю) \nКогда-то я читала книжку, роман «Затерянный мир». Похоже, мы сейчас в таком затерянном мире."
+
+    hide sp_ul_021
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Ага, я тоже читала, классная книжка. Похоже, как там. Только, правда, динозавров не хватает. Но медведи — тоже ничего."
+
+
+    scene cg dino with dissolve
+
+    "И мы стали фантазировать про то, что было бы, будь тут динозавры. А Юля только улыбалась, слушая нас, пока не вывела нас к реке."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_480.mp3"
+
+
+    scene bg burleyka2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "Если пойдете вдоль берега, выйдете на дальний пляж и оттуда на лодочную станцию."
+
+    hide sp_iul_009
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al_ul "Постой! Мы же тебе главного не сказали! Хочешь в наш отряд? Будешь как мы, пионеркой!"
+
+
+    scene cg iul_uniform with dissolve
+
+    "И мы наперебой стали рассказывать, как будет классно, и что мы уже уговорили Ольгу Дмитриевну, и что никто не против, и все ждут только её согласия."
+
+
+    scene bg burleyka2 with dissolve
+
+    show sp_iul_010:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "(Помрачнев) \nЯ давно хочу, но Пионеру это может не понравиться."
+
+    hide sp_iul_010
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Пионеру?"
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Они друзья. Хорошо, Пионера я беру на себя."
+
+
+
+
+
+
 
 
 

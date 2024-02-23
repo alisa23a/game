@@ -536,10 +536,15 @@ label day30:
     ul "(Закрывая глаза и подставляя щеку) \nМожно."
 
 
+    scene ul_pi_kiss with dissolve
+
     "Пионер целует ее в губы."
 
-    hide sp_ul_022
 
+    pause (10000000000000000000000000.0)
+
+
+    scene bg hut3 with dissolve
 
     show sp_ul_019:
         yalign 0.0 subpixel True

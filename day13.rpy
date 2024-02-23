@@ -1150,16 +1150,26 @@ label day13_2:
         xalign 0.0 subpixel True
         zoom 1.2
 
-    show sp_sl_018:
+    show sp_sl_019:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
-    "Лена стояла бледная, а у Слави выступила кровь на закушенной губе. Потом красный от смущения Семён учил всех играть в покер, а меня делать фокусы."
+    "Лена стояла бледная, а у Слави выступила кровь на закушенной губе."
 
     hide sp_le_014
 
-    hide sp_sl_018
+    hide sp_sl_019
+
+
+    show sp_sem_025:
+        yalign 0.08 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Потом красный от смущения Семён учил всех играть в покер, а меня делать фокусы."
+
 
     scene bg attic_inside with dissolve
 

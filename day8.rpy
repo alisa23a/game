@@ -319,7 +319,7 @@ label day8:
 
     "Наша с Пионером лодка вошла в красивую бухточку окаймленную камышами. Она была просторной и наверное тут мог бы поместится целый лодочный флот. Этими мыслями я поделилась с Пионером и он одобрительно закивал, сказав:"
 
-    show sp_sem_001:
+    show sp_pi_001:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -346,7 +346,7 @@ label day8:
     
     "Обломки старых лодок, кусочки сетей, старый бакен, наполовину занесенный песком."
 
-    show sp_sem_001:
+    show sp_pi_001:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -365,7 +365,7 @@ label day8:
     
     "Это было захватывающее зрелище. В голове сразу пролетели все картины из книжек про пиратов, которые я прочитала когда-то."
 
-    show sp_sem_001:
+    show sp_pi_001:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -374,7 +374,7 @@ label day8:
     
     pi "Варварство, конечно, – рассказал Пионер. – С тех пор он тут и стоит. Каждый шторм (а они тут бывают) его всё больше затягивает песком."
 
-    hide sp_sem_001
+    hide sp_pi_001
 
     show sp_ul_013:
         yalign 0.0 subpixel True
@@ -387,14 +387,14 @@ label day8:
 
     "Я погладила борт баркаса и представила, как мы всем отрядом плывем к морю…"
 
-    show sp_sem_001:
+    show sp_pi_001:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     pi "А что с ней будет? Расплодилась снова. Ты же её ела сегодня."
 
-    hide sp_sem_001
+    hide sp_pi_001
 
     show sp_ul_014:
         yalign 0.0 subpixel True
@@ -417,7 +417,7 @@ label day8:
 
     scene bg pfis with fade
 
-    show sp_ul_013:
+    show sp_ul_045:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -426,9 +426,9 @@ label day8:
 
     ul "Это отношения?"
  
-    hide sp_ul_013
+    hide sp_ul_045
  
-    show sp_sem_009:
+    show sp_pi_008:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -437,7 +437,7 @@ label day8:
 
     "Быстро пролепетал Пионер, пряча глаза."
 
-    hide sp_sem_009
+    hide sp_pi_008
 
     show sp_ul_013:
         yalign 0.0 subpixel True
@@ -448,16 +448,16 @@ label day8:
 
     hide sp_ul_013
  
-    show sp_sem_004:
+    show sp_pi_008:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     "Он закивал. \nИ я сказала, сделав серьезное лицо (очень серьезное):"
 
-    hide sp_sem_004
+    hide sp_pi_008
 
-    show sp_ul_013:
+    show sp_ul_045:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -483,14 +483,14 @@ label day8:
 
     hide sp_ul_012
  
-    show sp_sem_001:
+    show sp_pi_001:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     pi "Давно… Очень давно."
 
-    hide sp_sem_001
+    hide sp_pi_001
 
     image ul_pi_islang_bg1 = "images/an/an8day/an004/an_004_000_1-min.webp"
     

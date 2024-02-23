@@ -88,12 +88,12 @@ label day10:
 
     "Ещё есть библиотечный кружок «Юный полиглот», который ведет Женя."
 
-    scene bg dining with dissolve
+    scene bg sewing with dissolve
 
     show sp_le_001 at flip:
-        yalign 0.0 subpixel True
+        yalign 0.07 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2
+        zoom 1.15
 
     "И кружок «Вышивальщица», который ведет Лена в помещении столовой. Там есть такая перегородочка, они берут столы и стулья в зале."
 

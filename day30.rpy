@@ -684,6 +684,719 @@ label day30:
     pi "(Бормочет) \nУдивительная... Удивительная..."
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_011.mp3"
+
+
+    scene cg iul_coming with dissolve
+
+    "Я добралась до лагеря без приключений, а еще через час пришла Юля. Она постучала в окно, и мы впустили ее. Видно было, что она боится, что ее увидят другие пионеры."
+
+    "Но мы успокоили ее, сказав, что в этом секторе нет других пионеров кроме нашего отряда, и тут же позвали ребят. Вскоре отряд собрался на чердаке. Все разглядывали Юлю."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_002.mp3"
+
+
+    scene cg iul_all_attic with dissolve
+
+    "Каждый норовил ее погладить и дотронуться до ушек. Мы заранее предупредили, чтобы никто не задавал нескромных вопросов, типа «Вылизываешься ли ты». Или «А ешь ли ты мышей»."
+
+    "Но Электроник все-таки, что-то ляпнул про хвост. На него все зашикали."
+
+    "Встал вопрос о том, где будет жить Юля. Все девочки хотели её к себе. Но мы с Алисой возмутились. Мы сказали, что первые нашли Юлю и отдавать её не собираемся. Тут все согласились."
+
+    "Но Юля ни в какую не хотела покидать свой домик в лесу."
+
+    "Тогда мы сказали ей: «Как хочешь, но знай, что тут, есть твое место, всегда можешь остаться»."
+
+
+    scene an_d30_01 with dissolve
+
+    "В конце концов она согласилась. Мы вытребовали у завхоза гамак для нее, потому что спать на кровати она отказалась. Хотя в лесу в ее домике у нее была кровать. Это я точно помню."
+
+    "А мальчики принесли шкафчик и тумбочку. Но Юля, узнав, что у нас есть чердак, забралась туда и повесила гамак. Он быстро убирается, если мы захотим провести там вечеринку."
+
+    "Зато стало удобно выпроваживать засидевшихся. «Юля хочет отдыхать». В общем, у неё была лучшая нычка в лагере. При том, что начальство о ней не знало."
+
+    "Если Юля не хотела нас беспокоить, она ночью ловко выбиралась через окно в чердаке по стоящему рядом густому кипарису и исчезала в лесу. Наверное, проверяла свои Припасы."
+
+    "Её любимым местом, кроме чердака, был наш холодильник."
+
+
+    image an_30_02: # Анимация Юля холодильник
+        
+        "images/an/an30day/an_d30_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+        repeat
+
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_027_2.mp3" # Мурчание и лакание
+
+
+    scene an_30_02 with dissolve
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene an_d30_15 with dissolve
+
+    "Когда она пила молоко, хвост действительно стоял торчком. Думаю, от удовольствия. Но Электронику, который глупо шутил, мы об этом не сказали."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_181.mp3"
+
+
+    scene bg attic with dissolve
+
+    "И вот как-то раз, устроившись вдвоем с Юлей в гамаке на чердаке, мы беседовали обо всяких разностях."
+
+    "Кто-то, может, скажет, что в гамаке мало места для лежания вдвоем. Но только не для нас. Нас двоих можно было считать за одного человека."
+
+    "Она была такая же маленькая как и я, даже меньше. Есть такое слово – миниатюрная."
+
+    "И нога у неё была на два размера меньше моей. Прямо лапка, а не нога, очень аккуратная, прямо игрушечная. И ручки такие же."
+
+    "А вот когти на них – будь здоров! Никакими уговорами нам не удалось убедить Юлю срезать их."
+
+
+    scene cg iul_hands with dissolve
+
+    "Но зато мы с Алисой стали ухаживали за ними и привели их, как сказала Алиса, «в божеский вид»."
+
+    "Алиса сделал ей настоящий маникюр, отмыла, подточила и покрасила ноготки. И не поверите, они перестали выглядеть устрашающе."
+
+    "Получилось красиво. Даже Семён, когда увидел, не выдержал, сбегал за красками и бумагой и нарисовал ее руки. (А вот мои руки он не рисует)."
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg attic2 with dissolve
+
+    "Семён подарил рисунок, и мы повесили его на чердаке, закрыв нехорошее слово, которое осталось от прошлых заездов."
+
+    "Алиса одобрила. Сказала: «Пусть будет альтернативой изображению грубой физической силы». Это она про портрет мускулистого дядьки, которого мы называем между собой «громила»."
+
+    "Мы давно его хотим убрать, хотя мальчишкам он нравиться. Но уже решено, что на чердаке теперь появятся и другие картины. Будет картинная галерея."
+
+    "Так что, мы это чудовище уберем со временем. Пусть «громила» висит у кибенетиков."
+
+
+    scene cg iul_new_dress with dissolve
+
+    "Ну вот про Юлю. Юля оказалась красивой девочкой. Это стало особенно заметно, когда мы искупали её в нашей душевой."
+
+    "Её волосы оказались густыми и шелковистыми. И мы ещё уговорили её немного их постричь. Совсем немного. Расчесали. Получилась впечатляющая копна."
+
+    "После шампуня, когда они высохли, они стали настолько густыми и поднялись, что ушей стало вообще не видно. И она ходила два дня без панамки в новом платье, которое сшила ей Лена."
+
+    "Но это я немножко забегаю вперед."
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg iul_uniform2 with dissolve
+
+    "Конечно, когда мы примем ее в пионеры, форма будет сидеть на ней еще красивее. Но пока надо еще подготовить Ольгу Дмитриевну."
+
+    "А я вот представила ее в пионерской форме. Прям здорово."
+
+
+    pause (10000000000000000000000.0)
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_176.mp3"
+
+
+    scene bg attic with dissolve
+
+
+    "Не удивительно, что Шурик стал ходить за ней по пятам."
+
+    "Он сказал, что изучает её, чтобы воплотить в образе кибердевочки, которую они с Электроником вымучивали уже третью неделю и все никак не могли сделать."
+
+    "Но мы-то понимали, что она ему просто понравилась."
+
+
+    scene bg library2 with dissolve
+
+    show sp_je_018:
+        yalign 0.1 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.3
+
+    "Это превращение произошло с ним после того, как Женя резко отвергла его ухаживания."
+
+    "Я бы даже сказала – безжалостно. Хоть и в вежливой форме. Да уж, что-что, а отшивать Женька, умеет."
+
+
+    scene bg camp_artifacts with dissolve
+
+    show sp_shu_003:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+
+
+
+
+    "Дня два Шурик ходил как потерянный, и на него было жалко смотреть. Но потом вдруг переключился на Юлю. Но Юля, хоть и разрешала ему сопровождать себя, однако никак не выражала своего особого расположения."
+
+    "По моему, ей было все равно."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_492.mp3"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_010:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    "Я спросила, нравиться ли ей кто-нибудь из мальчиков первого или второго отряда, а она только пожала плечами."
+
+    uv "Я НЕ ЗНАЮ. До сих пор я дружила только с Семёном."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А Семён тебе нравиться?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Он хороший. Я ему доверяю."
+
+    "И я подумала  что она наверное, не понимает моего вопроса. Ведь она всю жизнь живет одна и не знает, что бывают отношения. Но все-таки я снова спросила."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Я знаю, что ты читаешь книги, которые стащила в библиотеке. Там есть книжки про любовь. Что ты думаешь про любовь?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Я знаю про любовь. Это когда тому, с кем дружишь, разрешаешь гладить и чесать за ушком. Но при этом не царапаешь его. Хотя очень хочется."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А тебе хотелось поцарапать Семёна?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    "Юля какое-то время смотрела молча, потом улыбнулась."
+
+    uv "Я знаю не только про любовь, но и про ревность. Я читала. И мне кажется, ты ревнуешь."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_171.mp3"
+
+
+    "И я поняла что проговорилась. Я недооценила Юлю, она оказалась очень умной."
+
+    "Я подумала, что время остановилось, наверное, только для ее тела, но не для ума. Она наверняка перечитала за эти годы всю лагерную библиотеку."
+
+    "Она знает, что такое ОТНОШЕНИЯ, а я для нее маленькая девочка."
+
+    "То, что она умнее, чем кажется, наверняка знает и Семён. Конечно, Семёну она наверняка нравится. Иначе как объяснить, что он так быстро нашел общий язык с «дикаркой»."
+
+    "Но когда они успели познакомиться?"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_046:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "Я дотронулась до щеки, у меня горело лицо."
+
+    "Я подумала, что надо спросить прямо. Она не будет мне врать. Она не такая."
+
+    ul "Скажи... Когда вы познакомились Семёном?"
+
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Обычно я никому не рассказываю про друзей. Но я вижу, для тебя это очень важно. Нас познакомил Пионер. Он сказал, что Семёну можно доверять. А я верю Пионеру."
+
+    uv "Кстати, он называет тебя своим лучшим другом. И мы говорили о тебе. И я поняла про вас. У вас как в книгах..."
+
+    uv "Так что, тебе не о чём беспокоиться. Семён никогда не чесал меня за ушком."
+
+    hide sp_iul_009
+
+    show sp_iul_008:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    uv "А ты, можешь. \n(смеется)"
+
+    "И она обняла меня. Ее прикосновения были очень приятными, а запах странный, но тоже, приятный. И я обняла ее."
+
+    "Так мы сидели какое-то время, и я слышала, как бьется ее маленькое сердце и... Возможно мне показалось, но я услышала также тихое мурчание..."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_024.mp3"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А ты не поцарапаешь меня?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Как видишь, нет."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Спасибо. Я не знала, что кошки умеют читать мысли."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Мы много чего умеем. Только не забудь... Я не совсем кошка."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "(Облегченно вздохнув) \nДа, извини..."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_700.mp3"
+
+
+    scene bg ruins with dissolve
+
+
+    ul "Скажи, Юль, а что ты знаешь про старый лагерь?"
+
+
+    uv "Там все разрушено взрывом. Но есть подземная часть, она целая. Все двери в подвалы замурованы еще во время войны. А та дверь, в которую вы с Алисой ходили, единственная открывается, если знать как."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А что ты знаешь о взрыве?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Ничего. Кроме того, что он превратил меня в то, что я есть."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Значит ты была там во время взрыва? И сколько тебе было лет тогда?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Мне было восемь лет. И иногда мне кажется, что я так и не выросла."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Подожди. Если взрыв произошел в 1942 году, а сейчас 1969, значит, тебе..."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Тридцать пять лет."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "По моему, судя по тому, как ты выглядишь, тебе сейчас не больше 14 – 15 лет. Это значит, взрыв затормозил старение. Ой извини, взросление. На целых почти тридцать лет."
+
+    ul "Ты говоришь, что знала Виолетту Церновну еще до взрыва?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "А разве я это говорила?"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_046:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ну, мне показалось, что да."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Виолетте Церновне не понравится, если я буду рассказывать о ней. И я не буду."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_151.mp3"
+
+
+    scene cg vio_med with dissolve
+
+
+    ul "Хорошо... Скажи, а она помнит тебя до взрыва? Вы были знакомы?"
+
+
+    scene cg iul_number with dissolve
+
+    uv "Не просто знакомы. Вот, видишь?"
+
+    "Юля приспустила повязку на ноге"
+
+    uv "Это она сделала. Точнее, ей приказали."
+
+    "И я увидела номер. Прямо как у узников концлагерей, про которых я с папой смотрела фильм. Теперь понятно, почему Юля носит эту повязку. Она не поцарапалась, как все думали."
+
+    "Я похолодела. Онемела. По коже пробежали мурашки. И кажется, Юля заметила мое состояние. Она быстро надела повязку обратно и улыбнулась."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Тогда было страшно... Теперь уже нет."
+
+    "И я открыла рот, чтобы спросить, но увидев глаза Юли, поняла, что ПРО ЭТО она точно говорить не будет..."
+
+    "Поэтому я сменила тему разговора. Мне всегда хотелось узнать историю Дома на Болотах. И я стала приставать к Юле, чтобы она рассказала по него все, что знает."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_202.mp3"
+
+
+    scene bg shouse with dissolve
+
+    ul "А что ты знаешь про Дом на Болотах?"
+
+    uv "Знаю, что там кто-то живет. Ночью, во всяком случае. Это существо появляется там и ходит по верхним этажам."
+
+    uv "Но оно не человек. Хотя выглядит, как девушка с длинными черными волосами... Она в ночной рубашке, или что-то вроде того."
+
+    uv "Меня оно не тронуло. Я редко там бываю. Там не ловится рыба, и вообще ничего не живет, даже лягушки. Живет утка, но она живет не возле самого дома, а возле Непроходимого Брода."
+
+
+    scene bg dnest with dissolve
+
+    ul "А почему брод назвали Непроходимым? Он правда непроходимый?"
+
+    uv "Потому что там утонула немецкая машина и два немца. Такой броневик. Его засосал песок. Он и сейчас там. И скелеты внутри."
+
+    uv "А человек там пройти может. Хоть там и глубоко. Нам с тобой по шейку. Но Семен там проходит легко. Течение небольшое."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А зачем там ходил Семен?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Ему не понравится, если буду рассказывать. Поэтому не буду."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А тебе можно доверять тайны. Если я скажу, что мне не понравится, если ты кому-то что-то расскажешь, ты не расскажешь?"
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_017.mp3"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_iul_009:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    uv "Я и так не расскажу. Просто скажи, что это ТАЙНА."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Хорошо, последний вопрос. Есть ли у вас с Семенном тайны?"
+
+
+    scene an_d30_01 with dissolve
+
+    uv "(Подмигивает) \nО, вот это как раз тайна! Хочешь яблоко из заброшенного сада у Озера? Держи!"
+
+
+    image an_30_01: # Анимация Юля бросает яблоко
+        
+        "images/an/an30day/an_d30_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+
+
+    scene an_30_01 with dissolve
+
+
+    pause (10000000000000000000000.0)
+
+
+    "И она кинула в меня яблоком так быстро, что я едва поймала."
+
+    uv "А ты знаешь, из тебя вышла бы неплохая кошка."
+
+
+
+
+
+
 
 
 

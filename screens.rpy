@@ -706,7 +706,8 @@ screen file_slots(title):
                         imagebutton:
                             auto "/gui/delete_%s.png"
                             action FileDelete(slot)
-                            xpos 354
+                            #xpos 354
+                            xpos 0
                             ypos -265
 
             ## Кнопки для доступа к другим страницам.

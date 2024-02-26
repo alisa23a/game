@@ -511,7 +511,7 @@ label day24:
         zoom 1.1
     with dissolve
 
-    ul "Скажешь тоже. Мне Вася в этом смысле не интересен. Я бы за Женьку только радовалась. Он про нее расспрашивал, кстати."
+    ul "Скажешь тоже. Мне Вася в этом смысле не интересен. Я бы за Женьку только радовалась. Он про неё расспрашивал, кстати."
 
     hide sp_ul_021
 
@@ -1806,7 +1806,7 @@ label day24:
 
     scene bg yulya_room with dissolve
 
-    show sp_iul_009:
+    show sp_iul_012:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 

@@ -1946,7 +1946,7 @@ label day30:
     "Потом жгли костер у самой кромки воды и он отражался в реке. Было ощущение, что в воде горит второй костер."
 
 
-    scene cg cg_all_campfire_iul with dissolve
+    scene cg all_campfire_iul with dissolve
 
     "Курили запретные сигареты, которые Семен купил тайком от Виолы, когда ездил вместе с ней в райцентр за медикаментами."
 
@@ -1970,7 +1970,7 @@ label day30:
 
     stop music
 
-    #jump day31
+    jump day31
 
 return 
 

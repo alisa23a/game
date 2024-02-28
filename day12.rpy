@@ -501,7 +501,7 @@ label day12:
 
     stop music
 
-    play music "audio/music/z_150.mp3"
+    play music "audio/music/z_004.mp3"
 
     image an_12_02: # Анимация Петрович, Ульяна и Алиса в лодке, плывут
         

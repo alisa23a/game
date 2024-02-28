@@ -787,7 +787,7 @@ label day30:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_027_2.mp3" # Мурчание и лакание
+    play music "audio/music/z_027.mp3" # Мурчание и лакание
 
 
     scene an_30_02 with dissolve

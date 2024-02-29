@@ -1634,7 +1634,7 @@ label day31:
     hide sp_ul_019
 
 
-    scene bg shouse_roof2 with dissolve
+    scene cg sl_woodoo_doll with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True

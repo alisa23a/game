@@ -1636,11 +1636,6 @@ label day31:
 
     scene cg sl_woodoo_doll with dissolve
 
-    show sp_al_057:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2 
-
     al "То и значит, дуреха, что следующая кукла, пробитая булавками, будет блондинкой."
 
 

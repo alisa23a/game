@@ -1239,7 +1239,7 @@ label day31:
     hide sp_al_057
 
 
-    scene bg shouse_roof1 with dissolve
+    scene bg shouse_roof with dissolve
 
     "Мы перелезли через подоконник и оказались на крыше."
 
@@ -1254,25 +1254,394 @@ label day31:
 
     "С выступа был хорошо виден балкон и большое окно, через которое мы сбежали. Был виден даже стул, стоящий напротив окна."
 
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
     al "Ну, всё, теперь осталось только молиться. Ты умеешь молиться? Я — нет."
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
 
     ul "Я тоже."
 
+    hide sp_ul_019
 
 
+    stop music fadeout 1.0
 
 
+    play music "audio/music/z_130.mp3"
 
 
+    scene bg shouse_roof with dissolve
+
+    "Мы с Алисой спрятались за выступом крыши. Было слышно, как КТО-ТО ходит по комнате. Потом раздался скрип стула. Из окошка пахнуло табачным дымом."
 
 
+    scene bg shouse_roof2 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Вовремя мы спрятались на крыше. Только нельзя двигаться. Если черепица упадет, то ОНО нас заметит."
+
+    hide sp_al_057
 
 
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Но как же нам заглянуть за угол крыши? Если бы удалось, то сразу стало бы ясно, кто курил на чердаке домика Ольги Дмитриевны. Хоть бы одним глазком глянуть."
+
+    hide sp_ul_019
 
 
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Когда ОН или ОНА пойдет из домика, мы с крыши увидим. А пока сидим тихо."
 
 
+    scene cg shous_balcony with dissolve
 
+    "Прошло некоторое время. ОНО продолжало молча курить."
+
+    "Интересно, что ОНО высматривало?"
+    
+
+    scene bg shous_island with dissolve
+
+    "С крыши был виден остров и костер, который разожгли на берегу наши ребята."
+
+
+    scene bg shous_island2 with dissolve
+
+    "Какие-то силуэты появились у костра. И мне даже показалось, что это Семен и Славя. Ее белые волосы были довольно заметны."
+
+    ul "(Шёпотом) \nНе спят... Может, нас хватились? Думаешь, ОНО наблюдает за лагерем на Острове?"
+
+    al "А то. Конечно. Что ещё тут делать в этих развалинах?"
+
+    ul "Если бы я не боялась, что ОНО услышит, то покричала бы сейчас нашим. Как думаешь, нас видно с острова?"
+
+    al "Не думаю, что тебя услышали бы. Да и что им видно? Черное пятно ДОМА и всё. Нас же ничего не подсвечивает. У них костер, а у нас что?"
+
+
+    scene bg shouse_roof2 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Интересно, огонек сигареты виден на таком расстоянии?"
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Луна зашла за тучи. Не видно ничего... Думаешь, это женщина?"
+
+    hide sp_ul_019
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Что-то подсказывает мне, что да."
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Может, это ДУХ УТОПЛЕННИЦЫ?"
+
+    hide sp_ul_019
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Скажешь тоже. Утопленники не курят."
+
+    hide sp_al_055
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Слушай, нас не видно не только с острова, но и ЕЙ тоже."
+
+    ul "Если я вот так перегнусь и загляну в окно, совсем чуточку, то я смогу увидеть, кто это. У нас есть верёвка. Ты подстрахуешь меня, чтобы я не бахнулась с карниза."
+
+    ul "Если луна не появиться, мы не увидим с крыши, как этот человек будет уходить. И вообще ничего не увидим. Смотри, уже не видно даже кустов внизу."
+
+    hide sp_ul_019
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Рискованно. Но хотя, может и прокатить. Давай, я обвяжу тебя."
+
+    hide sp_al_057
+
+    "Алиса порылась в рюкзаке и вытащила верёвку."
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Так. Всё нормально. Давай."
+
+    hide sp_al_055
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Только ты крепко держи."
+
+    hide sp_ul_019
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Не бойся, я тяжелее тебя. Закон физики."
+
+    hide sp_al_055
+
+
+    scene cg shous_balcony2 with dissolve
+
+    "Я взялась за веревку одной рукой, а потом стала наклоняться вперед, как маятник, все ниже и ниже."
+
+    "Алиса завязала мне верёвку вокруг пояса, а другим концом опоясалась сама. Но всё равно было страшно."
+
+    "Если бы я сорвалась, то прощай мои косточки. Этажи в этом доме были не то что у нас, в хрущёвке, с потолками в два с половиной метра. Тут потолки были гораздо выше."
+
+    "И наш, считай, третий этаж (крыша) это была высота пятиэтажки. Ну, может чуть ниже. Не думаю, чтобы кто-то спрыгнул с пятого этажа и остался в живых."
+
+    "Я почувствовала, как у меня начали дрожать ноги. Страшно. Кажется, Алисе передалось моё волнение."
+
+
+    scene bg shouse_roof2 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "Ну, к черту. Разобьёшься. Я затяну тебя назад. Это была плохая идея."
+
+    hide sp_al_057
+
+
+    scene bg shouse_roof with dissolve
+
+    "Я не сдавалась, наклоняясь все ниже и ниже. Наконец, я заглянула за кромку карниза."
+
+    "В темноте я увидела огонек сигареты. И больше ничего. Какая досада!"
+
+
+    scene an_d31_16 with dissolve
+
+    "Но вдруг, огонек вспыхнул и высветил лицо. Наверное, человек сделал затяжку."
+
+
+    image an_31_02: # Анимация ОНО курит
+        
+        "images/an/an31day/an_d31_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        
+        repeat
+
+
+    scene an_31_02 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene an_d31_16 with dissolve
+
+    "Лицо осветилось буквально на пару секунд, но я точно разглядела (потому что до него было не больше пяти метров), что это лицо молодой девушки с черными волосами."
+
+    "Радужка сливалась со зрачком и от этого казалась неестественно огромной. Я не уверенна, что она была черной, скорее темно-синей, или даже фиолетовой."
+
+    "Черты лица были тонкими, а выражение лица очень серьезным, даже суровым. Конечно, это был всего лишь свет сигареты. Но мне показалось, что кожа у неё была очень белая."
+
+    "И я вспомнила, что там, на кладбище, я даже издалека отметила, что кожа у той колдуньи тоже была неестественно белой. Такой, какая бывает у людей, редко выходящих на солнечный свет."
+
+    "И ещё. На ней было ожерелье. Я так подумала, потому что что-то сверкнуло, как сверкают обычно граненые бусины. Только сильнее."
+
+
+    scene bg shouse_roof2 with dissolve
+
+    "Алиса буквально зашвырнула меня назад."
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "(Шёпотом) \nЧТО?!"
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "(Тоже шёпотом) \nПотом, сейчас не могу..."
+
+    hide sp_ul_019
+
+
+    scene bg shouse_roof with dissolve
+
+    "Мы тяжело дышали. В воздухе появился огонек, стремительно улетевший куда-то далеко вперед, как будто кто-то запустил сигарету щелчком пальца."
+
+    "Было ощущение, что девушка (а это была все-таки она) вдруг рассердилась и приняла какое-то решение."
+
+    "Я подумала, что это неестественно, ведь все окурки аккуратно лежали в баночке, а тут она бросила его в воду. Значит, что-то увидела на острове. Что то, что расстроило её."
+
+    "Всё так же шёпотом поделилась с Алисой своими наблюдениями."
+
+
+    scene bg shouse_roof2 with dissolve
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "Тихо. Уходит. Замри... Так. Всё, подождём немного, потом будем спускаться и айда в лагерь!"
+
+    al "А насчет того, что ты сказала, я тоже подумала. Мы одну мысль думали. Так это, говоришь, была та самая колдунья? Теперь понятно. Эх, Семен, Семен. Натворил ты дел…"
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Почему Семен?"
+
+    hide sp_ul_019
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "А ты не догадалась? Его она пасла на острове. А порча была сделана на меня. Только он там сейчас со Славей, а меня там нет. Зря порча была. Вот она и озверела. А это значит..."
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Что значит?"
+
+    hide sp_ul_019
+
+
+    scene bg shouse_roof2 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    al "То и значит, дуреха, что следующая кукла, пробитая булавками, будет блондинкой."
 
 
 

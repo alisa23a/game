@@ -1462,9 +1462,14 @@ label day31:
     hide sp_al_055
 
 
-    scene cg shous_balcony2 with dissolve
+    scene cg al_ul_roof with dissolve
 
     "Я взялась за веревку одной рукой, а потом стала наклоняться вперед, как маятник, все ниже и ниже."
+
+
+    pause (10000000000000000000000.0)
+
+
 
     "Алиса завязала мне верёвку вокруг пояса, а другим концом опоясалась сама. Но всё равно было страшно."
 
@@ -1487,7 +1492,7 @@ label day31:
     hide sp_al_057
 
 
-    scene bg shouse_roof with dissolve
+    scene cg al_ul_roof with dissolve
 
     "Я не сдавалась, наклоняясь все ниже и ниже. Наконец, я заглянула за кромку карниза."
 

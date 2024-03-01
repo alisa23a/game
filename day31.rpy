@@ -553,6 +553,9 @@ label day31:
 
     "Потом мы нашли на берегу хорошее место для лагеря."
 
+
+    scene bg camp_day with dissolve
+
     "Палатки поставили быстро (сказался опыт полученный в предыдущем походе). Потом ОД сказала, что все могут осмотреть окрестности, но попросила далеко не уходить."
 
     "Через два часа все собрались на ужин. Ограничились гречкой с тушенкой, чаем и печеньем."
@@ -752,7 +755,7 @@ label day31:
     hide sp_al_037
 
 
-    scene bg coast5 with dissolve
+    scene bg camp_day with dissolve
 
     "И мы ушли. Вернулись к ручью и принесли воды. Алиса пошла к костру, а я помчалась назад к Баркасу на заброшенный пляж."
 
@@ -781,25 +784,22 @@ label day31:
     play music "audio/music/z_478.mp3"
 
 
-    scene bg night_camp with dissolve
+    scene bg camp_evening with dissolve
 
     "Их долго не было, стало темнеть."
-
-
-    scene bg night_camp with dissolve
 
 
     show sp_sem_016:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
-
+    with dissolve
 
     show sp_sl_021:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
-
+    with dissolve
 
     "Потом Славя и Семен пришли к костру мокрые. И Славя на меня пронзительно смотрела, а я отвернулась, как будто я не в курсе."
 
@@ -823,19 +823,92 @@ label day31:
     pause (10000000000000000000000.0)
 
 
+    scene bg camp_night with dissolve
+
+    "А когда мы вернулись в палатку, то обнаружили в ней спящего Семена. Наверное, он перепутал палатки, темнело уже."
+
+
+    show sp_al_062:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "И Алиса громко, чтобы все слышали, стала его стыдить. Мол, тут тебе не общежитие, иди к кибернетикам."
+
+    hide sp_al_062
+
+
+    show sp_sl_023:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "На шум появилась Славя. И кажется она психанула, потому, что убежала прямо чуть не в слезах."
+
+
+    scene an_d31_17 with dissolve
+
+    "Он за ней пошел, а я прокралась за ними и видела, что она его прогнала."
+
+    "А потом, она сильно плакала."
+
+
+    image an_31_03: # Анимация Славя плачет
+        
+        "images/an/an31day/an_d31_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_18.webp" with Dissolve(0.5, alpha=True)
+        pause 1.5
+        "images/an/an31day/an_d31_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an31day/an_d31_18.webp" with Dissolve(0.5, alpha=True)
+        pause 1.5
+        "images/an/an31day/an_d31_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+        repeat
+
+
+    scene an_31_03 with dissolve
+
+
+    pause (100000000000000000000000000.0)
+
+
+    scene an_d31_17 with dissolve
+
+    "В общем, Алиса разбила пару. Можно было по тихому сказать что бы уходил, а она устроила такое. Думаю из ревности."
+
+
     stop music fadeout 1.0
 
 
     play music "audio/music/z_028.mp3"
 
 
-    scene bg night_camp with dissolve
+    scene bg camp_night with dissolve
 
     "К полуночи все разбрелись по палаткам, а мы с Алисой остались одни у костра. И я решилась ей рассказать."
 
-    "Но в то же время я хотела, чтобы она побыстрее забыла о Семене."
+    "Я не хотела делать Алисе больно. Но в то же время я хотела, чтобы она побыстрее забыла о Семене."
 
-    "Он, конечно, хороший друг, на него можно положиться и я даже сама была немножко влюблена в него, но он был, как сказала бы моя мама — бабник."
+    "Он, конечно, хороший друг, на него можно положиться и я даже сама была немножко влюблена в него, но он был, как сказала бы моя мама, бабник."
 
 
     stop music fadeout 1.0
@@ -980,7 +1053,7 @@ label day31:
     ul "По моему, после кладбища, нам уже никто не страшен. Подумаешь, какое-то там привидение. Надо выяснить, кто там живет."
 
 
-    scene bg night_camp with dissolve
+    scene bg camp_night with dissolve
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -1642,6 +1715,65 @@ label day31:
     scene cg sl_woodoo_doll with dissolve
 
     al "То и значит, дуреха, что следующая кукла, пробитая булавками, будет блондинкой."
+
+
+    pause (10000000000000000000000.0)
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_004.mp3"
+
+
+    scene bg shouse4 with dissolve
+
+    "Все-таки мы изрядно натерпелись страху в Доме на Болтах. Может быть, поэтому Алиса гребла очень быстро. Мы пересекли залив, отделявший нас от острова."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_152.mp3"
+
+
+    scene bg disland with dissolve
+
+    "Луна зашла за гору и ничто не мешало нам смотреть на звезды и млечный путь. В городе его не видно. Там свет от домов мешает. В общем было очень красиво. А все спали и не видели."
+
+
+    scene bg fishing_campfire with dissolve
+
+    "Мы еще посидели у костра. Подложили в него дров."
+
+    "Я проголодалась, но мы нашли печеную картошку. Думаю, это Славя с Семеном пекли но забыли. Они последние сидели у костра. Забыли, потому, что, наверное, им было не до картошки..."
+
+
+    scene bg camp_night with dissolve
+
+    "До рассвета оставалось немного времени и мы решили вздремнуть до завтрака."
+
+    "Проходя мимо палатки ОД, мы услышали из нее тихий разговор. Палатка была двухместной, и один из голосов был явно мужской."
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+    with dissolve
+
+    al "(Шёпотом) \nЭто Семен. Когда он перепутал мою палатку со своей, а я его высмеяла, на шум прибежали Ленка со Славей. Они наверняка на него обиделись."
+
+    hide sp_al_055
+
+    "Мы забрались в палатку и продолжали обсуждать все события вечера и ночи."
+
+    al "Интересно, если он сидел со Славей ночью, у костра, как ты говоришь,  значит, они объяснялись. И помирились."
+
+    ul "Наверняка. Он вообще-то должен был спать в палатке Толика, но туда уже заселился Шурик. Логично, что Семен пошел к ОД."
+
+    al "Хотя... Они и так живут в одном домике. Какая разница. Ладно, давай спать. Надеюсь, нам не приснятся болотные привидения и утопленники."
+
 
 
 

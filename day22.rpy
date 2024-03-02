@@ -763,7 +763,7 @@ label day22:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_492.mp3"
+    play music "audio/music/z_176.mp3"
 
 
     scene cg ul_eavesdrops_dark with dissolve

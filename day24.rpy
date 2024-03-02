@@ -226,7 +226,7 @@ label day24:
 
 
     #play music "audio/music/z_480.mp3"
-    play music "audio/music/z_492.mp3"
+    play music "audio/music/z_176.mp3"
 
 
     scene bg terrace with dissolve

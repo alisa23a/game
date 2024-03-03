@@ -917,14 +917,6 @@ label day30:
     play music "audio/music/z_012.mp3"
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_010:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
-
     scene cg ul_iul_hammock with dissolve
 
     "Я спросила, нравится ли ей кто-нибудь из мальчиков первого или второго отрядов, а она только пожала плечами."
@@ -932,64 +924,22 @@ label day30:
     uv "Я НЕ ЗНАЮ. До сих пор я дружила только с Семёном."
 
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     ul "А Семён тебе нравится?"
 
-
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
 
     uv "Он хороший. Я ему доверяю."
 
     "И я подумала  что она наверное, не понимает моего вопроса. Ведь она всю жизнь живет одна и не знает, что бывают отношения. Но все-таки я снова спросила."
 
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     ul "Я знаю, что ты читаешь книги, которые стащила в библиотеке. Там есть книжки про любовь. Что ты думаешь про любовь?"
 
-
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
 
     uv "Я знаю про любовь. Это когда тому, с кем дружишь, разрешаешь гладить и чесать за ушком. Но при этом не царапаешь его. Хотя очень хочется."
 
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     ul "А тебе хотелось поцарапать Семёна?"
 
-
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_012:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
 
     "Юля какое-то время смотрела молча, потом улыбнулась."
 
@@ -1012,14 +962,6 @@ label day30:
 
     "Но когда они успели познакомиться?"
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_046:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     "Я дотронулась до щеки, у меня горело лицо."
 
     "Я подумала, что надо спросить прямо. Она не будет мне врать. Она не такая."
@@ -1027,21 +969,11 @@ label day30:
     ul "Скажи... Когда вы познакомились Семёном?"
 
 
-
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Обычно я никому не рассказываю про друзей. Но я вижу, для тебя это очень важно. Нас познакомил Пионер. Он сказал, что Семёну можно доверять. А я верю Пионеру."
 
     uv "Кстати, он называет тебя своим лучшим другом. И мы говорили о тебе. И я поняла про вас. У вас как в книгах..."
 
     uv "Так что, тебе не о чём беспокоиться. Семён никогда не чесал меня за ушком."
-
-    # hide sp_iul_009
 
 
     stop music fadeout 1.0
@@ -1049,12 +981,6 @@ label day30:
 
     play music "audio/music/z_478.mp3"
 
-
-    # show sp_iul_013:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-    # with dissolve
 
     uv "А ты, можешь. \n(смеется)"
 
@@ -1071,52 +997,17 @@ label day30:
     "Так мы сидели какое-то время, и я слышала, как бьется ее маленькое сердце и... Возможно мне показалось, но я услышала также тихое мурчанье..."
 
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     ul "А ты не поцарапаешь меня?"
 
-
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_012:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
 
     uv "Как видишь, нет."
 
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     ul "Спасибо. Я не знала, что кошки умеют читать мысли."
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_012:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Мы много чего умеем. Только не забудь... Я не совсем кошка."
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "(Облегченно вздохнув) \nДа, извини..."
 
@@ -1140,104 +1031,35 @@ label day30:
 
     scene cg ul_iul_hammock with dissolve
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "А что ты знаешь о взрыве?"
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Ничего. Кроме того, что он превратил меня в то, что я есть."
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "Значит ты была там во время взрыва? И сколько тебе было лет тогда?"
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Мне было восемь лет. И иногда мне кажется, что я так и не выросла."
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "Подожди. Если взрыв произошел в 1942 году, а сейчас 1969, значит, тебе..."
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Тридцать пять лет."
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "По моему, судя по тому, как ты выглядишь, тебе сейчас не больше 14 – 15 лет. Это значит, взрыв затормозил старение. Ой извини, взросление. На целых почти тридцать лет."
 
     ul "Ты говоришь, что знала Виолетту Церновну еще до взрыва?"
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "А разве я это говорила?"
 
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_046:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-
     ul "Ну, мне показалось, что да."
 
-
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
 
     uv "Виолетте Церновне не понравится, если я буду рассказывать о ней. И я не буду."
 
@@ -1269,12 +1091,6 @@ label day30:
 
     scene cg ul_iul_hammock with dissolve
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
 
     uv "Тогда было страшно... Теперь уже нет."
 
@@ -1311,32 +1127,12 @@ label day30:
 
     scene cg ul_iul_hammock with dissolve
 
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "А зачем там ходил Семен?"
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Ему не понравится, если буду рассказывать. Поэтому не буду."
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "А тебе можно доверять тайны. Если я скажу, что мне не понравится, если ты кому-то что-то расскажешь, ты не расскажешь?"
 
@@ -1347,22 +1143,8 @@ label day30:
     play music "audio/music/z_017.mp3"
 
 
-    # scene bg auhouse_crop2 with dissolve
-
-    # show sp_iul_009:
-        # yalign 0.0 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.1
-
     uv "Я и так не расскажу. Просто скажи, что это ТАЙНА."
 
-
-    # scene bg auhouse_crop1 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
 
     ul "Хорошо, последний вопрос. Есть ли у вас с Семенном тайны?"
 

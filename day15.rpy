@@ -17,7 +17,7 @@ label day15:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_455.mp3"
+    play music "audio/music/z_306.mp3"
 
     scene cg concert_ad with dissolve
 

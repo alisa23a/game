@@ -322,14 +322,14 @@ label sem_helps:
     scene bg tdom_night_beach with dissolve
 
 
-    show sp_gan_001:
+    show sp_gan_003:
         yalign 0.15 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
 
     gan "(Убегая и грозя кулаком) \nНу погоди, рыжая, и ты тоже, еще встретимся!"
 
-    hide sp_gan_001
+    hide sp_gan_003
 
 
     stop music fadeout 1.0

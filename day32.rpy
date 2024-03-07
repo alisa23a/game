@@ -613,7 +613,7 @@ label day32:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_033.mp3"
+    play music "audio/music/z_1016.mp3"
 
 
     scene cg all_dancing with dissolve
@@ -735,6 +735,16 @@ label day32:
     "Ну ладно, думаю, разок пусть станцует. А он оказывается тоже неплохо танцевал, очень старался."
 
     "И все мне комплименты говорил, что не ожидал тогда, что я такая спортивная, и спрашивал, где я научилась так драться. В общем, к концу танца мы расстались уже почти друзьями."
+
+    pause (10000000000000000000000.0)
+
+    scene black with fade
+
+    stop music
+
+    jump spec_nb_001
+
+
 
 
 

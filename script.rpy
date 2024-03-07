@@ -59,6 +59,8 @@ define fi = Character('Тарас Юрьевич', color="#3333ff")
 
 define mp = Character('Маргарита Павловна', color="#ba55d3")
 
+define gan = Character('Долговязый', color="#cc9966")
+
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",

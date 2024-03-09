@@ -7,7 +7,7 @@ label spec_nb_001:
     play music "audio/music/z_055.mp3"
 
 
-    image an_spec_nb_01: # Анимация тетрадь для особых мыслей
+    image spec_nb_01_an_01: # Анимация тетрадь для особых мыслей
         
 
 
@@ -31,7 +31,7 @@ label spec_nb_001:
         #repeat
 
 
-    scene an_spec_nb_01 with dissolve
+    scene spec_nb_01_an_01 with dissolve
 
     pause (10000000000000000000000.0)
 
@@ -42,7 +42,7 @@ label spec_nb_001:
     "Ну вот, дело было так."
 
 
-    image an_spec_nb_02: # Анимация ТДОМ костёр Славя, Лена, Алиса
+    image spec_nb_01_an_02: # Анимация ТДОМ костёр Славя, Лена, Алиса
 
 
         "images/an/an_spec_nb/an_spec_nb_01/an_spec_nb_01_01.webp" with Dissolve(0.5, alpha=True)
@@ -67,7 +67,7 @@ label spec_nb_001:
         repeat
 
 
-    scene an_spec_nb_02 with dissolve
+    scene spec_nb_01_an_02 with dissolve
 
 
     pause (10000000000000000000000.0)
@@ -567,7 +567,7 @@ label spec_nb_001_cont:
 
     stop music
 
-    #jump 
+    jump spec_nb_002
 
 return 
     

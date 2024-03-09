@@ -1,0 +1,908 @@
+label spec_nb_002:
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_023.mp3"
+
+
+    scene bg stadium2 with dissolve
+
+    "Когда мы пошли играть в мяч (я кидала, а Алиса отбивала его бейсбольной битой), то  в процессе обсудили наш план."
+
+
+    show sp_al_062:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Я не собираюсь это так оставлять. Я знаю, кто это сделал. Это Долговязый из второго отряда и его дружки. Всё, им конец."
+
+    hide sp_al_062
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "А вдруг, ты ошиблась? Пострадают невинные."
+
+    hide sp_ul_019
+
+
+    scene bg dresser3 with dissolve
+
+    "Мы зашли в раздевалку. Там никого не было, и можно было спокойно обсудить наш план."
+
+
+    show sp_al_056:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Не говори ерунду. Эта компания по всему лагерю слоняется. Вечно смотрят, как бы напакостить."
+
+    al "Тузику привязали к хвосту консервную банку и развлекались, наблюдая, как бедный ошалевший пес бегает по лагерю."
+
+    al "Петровичу в табак насыпали какой-то дряни, он потом три дня болел."
+
+    al "А сетку волейбольную кто, по твоему, украл и пытался ловить ею рыбу? Нашли сетку через два дня, её снесло течением, и она зацепилась за опору лодочной станции."
+
+    al "В ней еще запутались малыши. Они могли утонуть, а наказали физрука. Я, конечно, не люблю Тараса Юрьевича, но пострадал он зазря."
+
+    hide sp_al_056
+
+
+    show sp_al_062:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Короче, им не жить! Всё, кончились их подлые выходки. За малышей, за Тузика и за Петровича страшно отомстим!"
+
+    hide sp_al_062
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Отомстим, точно! Но как?"
+
+
+    scene bg secret3 with dissolve
+
+    "Мы переоделись и вышли на улицу."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_176.mp3"
+
+
+    show sp_al_005:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "У меня есть план. Я вызову Долговязого на разборку."
+
+    hide sp_al_005
+
+
+    show sp_ul_026:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Но это же драка! За такое точно по головке не погладят."
+
+    hide sp_ul_026
+
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "И потом, он трус, один он не пойдет, позовёт с собой весь второй отряд. А они все тебя ненавидят. "
+
+    hide sp_ul_013
+
+
+    scene an_spec_nb_02_12 with dissolve
+
+    al "Тогда я на всякий случай возьму биту для бейсбола, которую мне подарила Саманта. На всякий крайний. Ну, если толпой нападут. А один на один на кулаках он мне проиграет."
+
+
+    image spec_nb_02_an_01: # Анимация Алиса с битой
+        
+
+
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+        repeat
+
+
+    scene spec_nb_02_an_01 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg secret3 with dissolve
+
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Не будет он драться один на один. Только если случайно столкнемся, и ему просто деваться некуда будет."
+
+    hide sp_ul_013
+
+
+    show sp_al_004:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Давай так. Я постараюсь с ним разобраться один на один, но если он позовет толпу, то беги к нашим."
+
+    al "Когда начнется, ты на васаре будешь стоять. В драку, если что, не лезь. Тебя затопчут, малявка."
+
+    hide sp_al_004
+
+
+    show sp_ul_045:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Вот еще! Я ловкая. Я не буду смотреть, как тебя бьют."
+
+    hide sp_ul_045
+
+
+    show sp_al_005:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Верю. Но всё равно, на стрёме стой. Ну что, ОДИН ЗА ВСЕХ?!"
+
+    hide sp_al_005
+
+
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "И ВСЕ ЗА ОДНОГО!"
+
+    hide sp_ul_014
+
+    "И мы ударились кулаками."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    scene bg stadium2 with dissolve
+
+    "Но все случилось быстрее, чем мы думали. Со стороны спортплощадки нас окликнул Долговязый. Он был не один. С двумя мальчиками из второго отряда."
+
+
+    show sp_gan_001:
+        yalign 0.15 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    gan "Эй, голожопые, куда намылились?"
+
+
+
+    scene bg secret3 with dissolve
+
+    show sp_al_061:
+        yalign 0.05 subpixel True
+        xalign 0.50 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "(Направляясь прямо к нему) \nНу что, придурок, продолжаешь распространять слухи про нас с Ульяной? Когда это мы бегали пьяные и голые по пляжу?"
+
+    al "А чем вам Тузик помешал? Кстати, за Петровича тоже давно пора вам навалять."
+
+
+    scene bg stadium2 with dissolve
+
+    show sp_gan_001:
+        yalign 0.15 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    gan "(Ухмыляясь) \nНу и чё ты нам сделаешь, рыжая?"
+
+
+    scene cg al_gan_fight with dissolve
+
+    "И тут она ему резко, неожиданно (даже я вздрогнула), врезала кулаком. Так ловко, снизу, под дых. А когда он согнулся, ударила коленкой в челюсть."
+
+
+    pause (10000000000000000000000.0)
+
+
+    "Он охнул и свалился, держась за лицо. Ну и испуганная же у него была рожа! Кажется, она ему губу разбила, а может, даже зубу хана."
+
+    "Те двое побежали сразу за подмогой. А я кинулась в домик Ольги Дмитриевны."
+
+    scene bg odhouse4 with dissolve
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Семен что-то читал на крыльце."
+
+    hide sp_sem_001
+
+
+    show sp_ul_026:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "Я заорала: «Наших бьют!»"
+
+    hide sp_ul_026
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_1004.mp3"
+
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Семен даже не стал спрашивать, что и как. Перепрыгнул через поручень, прямо как Тарзан, и мы побежали к столовой."
+
+
+    scene bg dining_menu_bu with dissolve
+
+
+    show sp_shu_001:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    show sp_tol_001:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+    show sp_el_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "По дороге, с вопросом «А что случилось?» к нам присоединились Толик, Шурик и Электроник, возвращавшиеся с ужина."
+
+
+    scene bg camp_artifacts with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Кое-кому надо объяснить, что девочек трогать нехорошо!"
+
+    scene bg stadium2 with dissolve
+
+    "Когда мы подбежали, весь второй отряд уже был там, а руководил Долговязый."
+
+    show sp_gan_002:
+        yalign 0.15 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    gan "Справа заходи! Ты, мелкий, кидайся ей под ноги! Отсекайте от домиков, она сейчас убежит!"
+
+
+    scene cg al_bat_wall with dissolve
+
+    "Но Алиса не собиралась бежать. Они окружили её, и она стала спиной к складу, держа в руках биту. А кто-то уже валялся на земле, держась за руку."
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg stadium2 with dissolve
+
+    "Долговязый прятался за спинами и орал:"
+
+    show sp_gan_003:
+        yalign 0.15 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    gan "Тварь! Бейте ногами! Держите её за руки, я ей щас врежу!"
+
+    hide sp_gan_003
+
+
+    "Они нас не ждали. И мы налетели."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_088.mp3"
+
+
+    image spec_nb_02_an_02: # Анимация драка со вторым отрядом
+        
+
+
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+        repeat
+
+
+    scene spec_nb_02_an_02 with dissolve
+
+    pause (10000000000000000000000.0)
+
+    
+    scene cg squad_fight with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg stadium2 with dissolve
+
+    show sp_tol_011:
+        yalign 0.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Особенно отличился Толик. Кто бы мог подумать, что он так ловко умеет бить всех в лоб своей лысой башкой?!"
+
+    hide sp_tol_011
+
+
+    show sp_sem_017:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "На Семена напали сразу трое."
+
+    hide sp_sem_017
+
+    "Долговязый визжал как резаный:"
+
+
+    show sp_gan_003:
+        yalign 0.15 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    gan "Здорового валите, его первого надо отключить! Вы, трое, вперед!"
+
+
+    scene cg squad_fight2 with dissolve
+
+    "Но я Семену помогла, одного отвлекла на себя. Шурик с Электроником дрались ещё с тремя. Один потом убежал, но их всё равно было много."
+
+
+    scene cg sl_mi_le_running with dissolve
+
+    "И тут, я вижу, бегут наши."
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg squad_fight2 with dissolve
+
+    "Славя — просто звезда, сходу завалила какого-то пацана, ловко ударив его ногой в пах. Как он орал, держась за (тут не буду писать не хорошее слово)."
+
+    "Остальные девчонки хватали тех за волосы. Одному Ленка расцарапала лицо, а потом Мику с Леной повалили долговязого."
+
+    "Он вырвался, но споткнулся и в позе «зю» пробежал метра три, уткнувшись прямо в колени Алисы."
+
+
+    scene bg stadium2 with dissolve
+
+    show sp_al_063:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.0
+
+    al "Вот так встреча! \n(прикладывает его битой по спине)"
+
+
+    scene cg squad_fight2 with dissolve
+
+    "Женя упала и потеряла очки. Её пытались ударить ногой, лежачую и душил один галстуком, но подскочил Шурик, выручил её, скинул душителя и нашел ей очки."
+
+    "Они с Шуриком потом вообще дрались как в фильме «Семеро отважных», стоя спина к спине."
+
+    "(Шурик её потом провожал до домика, ведь надежда умирает последней)."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_196.mp3"
+
+
+    scene bg stadium2 with dissolve
+
+    "В общем, когда эти, из второго отряда, поняли, что все пропало, они бросились наутек. Одного мы взяли в плен, потом отпустили."
+
+    show sp_at_020:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.0
+    with dissolve
+
+    "Атсуи, прибежала тоже, но на «шапочный разбор». Очень расстроилась, что без неё всё закончилось."
+
+    hide sp_at_020
+
+
+    "А Саманта ужинала в своей комнатке и ничего не видела. Но это даже лучше. А вдруг бы она влезла в драку? Был бы международный конфликт."
+
+    "Я представила Мегги в драке и что-то мне поплохело. Точно трупики штабелем бы лежали. Нет, хорошо что они не видели."
+
+
+    scene bg camp_artifacts with dissolve
+
+    "Ну вот. Что было потом. Прибежали еще пионеры с других отрядов, доложили Ольге Дмитриевне."
+
+
+    show sp_od_025:
+        yalign 0.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "Она сразу отправила Алису к директрисе (замолчать такое шумное событие было невозможно)."
+
+
+    scene bg mp_office2 with dissolve
+
+    show sp_mp_004:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+    "Та наказала, естественно, зачинщика."
+
+
+    scene bg camp_artifacts with dissolve
+
+    show sp_fi_015:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Физруку поручили отвести Алису в изолятор лагеря, временно, пока точно не выяснится, кто виноват."
+
+
+    image spec_nb_02_an_03: # Анимация Алиса в изоляторе
+        
+
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_01.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+        repeat
+
+    scene spec_nb_02_an_03 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene an_spec_nb_02_01 with dissolve
+
+    "Ну, мы ей ночью туда притащили еды и сигарет, а Женя — хорошую книжку. Кажется, Хроника царствования Карла двенадцатого, Мериме (там еще про Варфоломеевскую ночь)."
+
+
+    scene bg camp_artifacts with dissolve
+
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "А на мне ни царапины."
+
+    hide sp_ul_014
+
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Семен меня поблагодарил за помощь. Хотя он сам справился, если честно. Дерется он круто. Закончил с этими и сразу помогать нашим."
+
+    hide sp_sem_001
+
+
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "Я только два раза стукнула одного, прыщавого. Пнула ногой, как в карате, как меня Мегги учила. Он сложился сразу."
+
+    hide sp_ul_014
+
+
+
+    $ renpy.music.set_volume(0.00, delay=1.0, channel='music')
+
+    play miscSounds "audio/music/z_035.mp3" noloop
+
+
+
+    image spec_nb_02_an_04: # Анимация Ульяна карате
+        
+
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+
+
+        repeat
+
+    scene spec_nb_02_an_04 with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    stop miscSounds fadeout 1.0
+
+
+    $ renpy.music.set_volume(1.00, delay=1.0, channel='music')
+
+
+    scene bg camp_artifacts with dissolve
+
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "Больше не успела. Все очень быстро закончилось. Алиса меня похвалила, сказала: «Вот это удар! Вроде, я тебе такого не показывала»."
+
+    hide sp_ul_014
+
+
+    scene cg meeting_sad with dissolve
+
+    "Плохо только, что будет собрание отряда, а может даже лагеря, и нас будут ПРОРАБАТЫВАТЬ. Как сказала Ольга Дмитриевна, чтобы другим было неповадно."
+
+    "А я так думаю, правильно мы всё сделали!"
+
+
+    scene bg attic2 with dissolve
+
+    "Потом мы собрались всем отрядом на чердаке у нас с Алисой. Потому что никто не мог спать, и все наперебой делились впечатлениями."
+
+
+    scene bg mp_office2 with dissolve
+
+    show sp_mp_004:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+    "Утром мы пошли всем отрядом к директрисе. Просить за Алису."
+
+
+    scene bg mp_office with dissolve
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+
+    "Семён был от нас делегатом. Он говорил за всех."
+
+    "А выбрали мы его потому, что знали, что Маргоша к нему неровно дышит. Почему так думали? Ну, лагерь хоть и большой, но маленький. Ничего не утаишь."
+
+    "Например, когда Сёму пригласили на вечеринку администрации, кто-то из ребят видел, как он остался у Маргоши в кабинете, когда все разошлись."
+
+    "Не сказку же он ей на ночь рассказывал? В общем, дело ясное."
+
+    hide sp_sem_001
+
+
+    show sp_od_023:
+        yalign 0.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "И вот, мы стоим в кабинете Маргариты Павловны. И Ольга Дмитриевна тоже там."
+
+
+    scene bg mp_office2 with dissolve
+
+    show sp_mp_004:
+        yalign 0.05 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+    "А Маргарита Павловна так ходит туда-сюда, как тигр в в клетке, и выговаривает:"
+
+    mp "Вы позорите лагерь! Наша репутация теперь не стоит выеденного яйца! Кто захочет отправлять детей на убой?!"
+
+    mp "Мы — лагерь образцового содержания! Никогда до вас тут не было потасовок."
+
+    mp "А что я скажу вашим родителям? Мы за вас отвечаем. А если бы кому-нибудь пробили голову или выбили глаз?!"
+
+    "Ну и всё в таком духе."
+
+
+    scene bg mp_office with dissolve
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+
+    "Семен дал ей выпустить пар и взял слово."
+
+    "И это было круто!"
+
+    "Он так логически все разложил, что по его словам выходило, что нас не то что наказывать, а благодарить надо за то, что мы предотвратили анархию, моральное разложение и развал в лагере."
+
+    "Что мы надежда и опора администрации. И что драку начала не Алиса, а на неё подло напали. Могли и изнасиловать. Но, слава богу, мы подоспели вовремя."
+
+    "И все мы, как один, отбивались от хулиганов и спасали члена своего отряда."
+
+    "И самое главное – хулиганы из второго отряда опасны для дисциплины в лагере и что этот вирус неповиновения, идущий от них, может заразить и другие отряды."
+
+    "И что только железною рукой... И так далее."
+
+
+    hide sp_sem_001
+
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "А мы дружно поддакивали и кивали. И Ольга Дмитриевна приняла нашу сторону."
+
+    hide sp_od_022
+
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Потом Семен рассказал факты о втором отряде, которых не знала Марго."
+
+
+    scene bg mp_office2 with dissolve
+
+    show sp_mp_009:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+
+    "Она ахнула. От былой ее решимости нас наказать не осталось и следа. И мы попросили выпустить Алису из изолятора, как потерпевшую."
+
+
+    scene bg mp_office with dissolve
+
+    show sp_fi_015:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+
+    "Она сразу позвала Тараса Юрьевича, и мы торжественно пошли её вызволять."
+
+
+    scene bg insulator with dissolve
+
+    "А когда открыли изолятор, выяснилось, что Алиса сбежала через окно. Ещё утром. Вот так..."
+
+    show sp_fi_015:
+        yalign 0.05 subpixel True
+        xalign 0.5 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Тарас Юрьевич выругался: «Хулиганка» и пошел к себе в раздевалку. У него там малыши готовились к соревнованиям."
+
+    hide sp_fi_015
+
+    "Теперь надо было найти Алису и рассказать ей, что гроза миновала, и чтобы она возвращалась."
+
+
+    scene an_d10_01_bg with dissolve
+
+    "Вот так всё закончилось. И всё благодаря Семену."
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    pause (10000000000000000000000.0)
+
+    scene black with fade
+
+    stop music
+
+    #jump label spec_nb_002
+
+return 
+
+
+

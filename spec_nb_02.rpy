@@ -883,24 +883,13 @@ label spec_nb_002:
     
 
 
-
-
-
-
-
-
-
-
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
     stop music
 
-    #jump label spec_nb_002
+    jump day11
 
 return 
 

@@ -422,8 +422,30 @@ label sem_helps:
     hide sp_ul_013
 
 
-    jump spec_nb_001_cont
+    show sp_al_005:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
 
+    al "В лазейку пойдем, а то на входе придется объясняться, чего это мы в таком виде."
+
+    hide sp_al_005
+
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Ага."
+
+    hide sp_ul_012
+
+    "И мы побежали в лагерь."
+
+    jump spec_nb_002
 
 
 label sem_doesnt_help:
@@ -501,55 +523,19 @@ label sem_doesnt_help:
     ul "Честное пионерское!"
 
 
-    scene bg tdom_night_beach with dissolve
+    scene cg al_ul_dressing with dissolve
 
     "Семён ушёл. Мы выбрались из воды и быстро оделись."   
 
 
-    show sp_al_004:
-        yalign 0.05 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
-    with dissolve
+    pause (10000000000000000000000.0)
+
 
     al "Я всё равно ему не верю. Ну фартануло парню. Сидел сейчас в кустах, наверное, и смотрел, как мы тут голые одевались."
 
-    hide sp_al_004
-
-
-    show sp_ul_013:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
-
     ul "Зря ты так. Хотя..."
 
-    hide sp_ul_013
-
-
-    jump spec_nb_001_cont
-
-
-label spec_nb_001_cont:
-
-
-    show sp_al_005:
-        yalign 0.05 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
-    with dissolve
-
     al "В лазейку пойдем, а то на входе придется объясняться, чего это мы в таком виде."
-
-    hide sp_al_005
-
-
-    show sp_ul_012:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
 
     ul "Ага."
 
@@ -557,6 +543,7 @@ label spec_nb_001_cont:
 
     "И мы побежали в лагерь."
 
+    jump spec_nb_002
 
 
 

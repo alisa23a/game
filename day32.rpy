@@ -1190,6 +1190,6 @@ label day32:
 
     stop music
 
-    #jump day33
+    jump day33
 
 return 

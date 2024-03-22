@@ -63,6 +63,14 @@ define gan = Character('Долговязый', color="#cc9966")
 
 define zh = Character('Жан', color="#add8e6")
 
+define pis = Character('Пионеры', color="#b22222")
+
+define gop1 = Character('Главный', color="#778899")
+
+define gop2 = Character('Амбал', color="#b8860b")
+
+define gop3 = Character('Дрищ', color="#bc8f8f")
+
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

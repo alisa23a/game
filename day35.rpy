@@ -895,7 +895,7 @@ label day35:
         xalign 1.0 subpixel True
         zoom 1.2
 
-    show sp_ln_001:
+    show sp_ln_002:
         yalign -0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.05
@@ -1180,7 +1180,7 @@ label day35:
 
     scene bg watchmans_cabin with dissolve
 
-    show sp_ln_001:
+    show sp_ln_003:
         yalign 0.05 subpixel True
         xalign 0.50 subpixel True
         zoom 1.2
@@ -1189,7 +1189,7 @@ label day35:
 
     ln "Идите, я вам там печень пожарила. Она огромная. Отнесете своим. Угостите. Там на весь отряд хватит."
 
-    hide sp_ln_001
+    hide sp_ln_003
 
 
     show sp_al_005:

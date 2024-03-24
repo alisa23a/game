@@ -929,6 +929,322 @@ label day35:
 
     ul "А ну, брысь отсюда, недомерок! Сказано же — ТОЛЬКО ПЕРВЫЙ ОТРЯД!"
 
+    hide sp_ul_019
+
+
+    "Вскоре на пристань прибыли трое репортеров Совёнка из редакции одноимённой стенной газеты. Разделку сома пришлось на время отложить."
+
+    "Они сделали несколько фотографий Петровича, Алисы и моих на фоне сома. Толик фотографироваться отказался. Вскоре репортеры убежали."
+
+
+    show sp_fi_015:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    fi "С чего начнем?"
+
+    hide sp_fi_015
+
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    pe "Потроха вынимай, заберу, Тузику скормлю. Остальное поруби на кухню, будет ребятишкам рыбный день."
+
+    hide sp_pe_005
+
+    "Так и сделали. Первый отряд отпустили, после того как они помогли отнести остатки сома на кухню."
+
+
+    scene bg auhouse2 with dissolve
+
+    "Все собрались в нашем с Алисой домике и обсуждали рыбалку."
+
+    "Неожиданно появился пионер, рассыльный, из тех что приносили записки, сообщил, что нас с Алисой зовёт к себе сторож, и убежал."
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Странно. Может, у Петровича неприятности? Вроде, складно врали..."
+
+
+    scene bg watchmans_cabin with dissolve
+
+    "На пороге сторожки мы застали Петровича, кормящего с рук Тузика."
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    pe "А, рыбаки-пиротехники. Пришли, значит. А у меня тут для вас есть диковинка."
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    "Петрович проводил нас внутрь, посадил за стол, а потом вытащил из кармана тряпицу, положил на стол и развернул."
+
+    pe "Как думаете, что это?"
+
+
+    scene cg engineer_badge_cufflinks with dissolve
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Не знаю... Похоже на значок какой-то. Только старый очень. Наверное, коллекционный. И вот это, я такие видела у отца. Кажется, запонки."
+
+    hide sp_al_004
+
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Это классная штука. Мой папа собирал значки. За такой он Вам отсыпал бы, знаете сколько денег? Сразу видно, он старинный. Очень ценный, наверное."
+
+    hide sp_ul_012
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pe "Не угадали. Вот в одном вы правду говорите, знак это. Сейчас никто не знает такого. И я бы не знал, если бы такой сам раньше не видел."
+
+    pe "А видел я его у нашего горного инженера. Это эмблема горного инженера, еще царская. Такие только они носили. И точно, запонки его. Но это не самое интересное ребятушки..."
+
+    pe "А самое интересное, вот что. Принес я потроха сома, чтобы значит, Тузика угостить. Ну  понятно, сразу удалил желчь и все несъедобное. А вот печень и желудок очень собаки уважают."
+
+    pe "Да и я печени оставил малость себе. Угощу вас, как Любаша приготовит. Хотя, вас сегодня, видно, накормят так, что на мой гостинец и смотреть не захотите..."
+
+    pe "Так вот, разрезаю я желудок, чтобы почистить, а там вот это."
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Эмблема горного инженера?!"
+
+    hide sp_ul_013
+
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "С ума сойти. Это значит что... Сом его тавось?"
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pe "Вот! Тут, понимаешь, главная тайна будет. Сома-то ловят на лягушку, и на медведку он идет, и всяко на червя и рыбку мелкую, не брезгует."
+
+    pe "Но если что крупнее взял, то потом будет ловиться и на это. Я же свинину  ему в прошлый раз на приманку, не просто так  приготовил, тухлую, потому как..."
+
+    "Петрович многозначительно выдержал паузу."
+
+    pe "Потому как, она с человечиной схожа. Слышали рассказы вожатых, что тут утаскивали детей? А вот. Вам не расскажут."
+
+    pe "А не пускали вас вниз по реке купаться, потому что сами знают, что тут были случаи. Утаскивал наш сом пионеров-то."
+
+    pe "А если сом раз человечины пробовал, то уж всегда потом будет. Вот почему я его поклялся извести. Людоед он! И зуб у меня на него вырос."
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_ul_050:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А почему вы нам, дедушка, сразу не сказали?"
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pe "А потому, что вы бы испугались и мне помогать не стали. Тут психическая хитрость."
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Я вот что думаю... Говорят, сомы живут до сорока лет. А когда он инженера утащил, то уже большой был. Ему сейчас, наверное, по размеру и возрасту лет сорок и есть."
+
+    al "Отнимаем сорок лет, получается 1926 год. Ну, рос он еще лет двадцать, потому как получается, что он уже большой был, когда утянул инженера."
+
+    al "И получается, в начале пятидесятых примерно он сюда приезжал, инженер этот. Или, около того."
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    show sp_pe_003:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    "Петрович, потрясенный дедуктивными способностями Алисы, только ахал."
+
+    pe "Ну, ты, девонька, и голова. Вот оно, молодое поколение! Я бы сроду не додумался от сома посчитать."
+
+    pe "Я ведь как кумекал, что году в тридцать втором он вернулся. Ан нет, позже получается. После войны значит. Старый он был. Потому и не смог вырваться от сома."
+
+    pe "Да...  Век живи, век учись."
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Алиса, ты прямо Шерлок Холмс!"
+
+    hide sp_ul_012
+
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Алиса покраснела."
+
+    al "Скажешь тоже. Это же элементарно..."
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_ul_014:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+
+    show sp_al_006:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al_ul "(Обе в один голос) \nВАТСОН!"
+
+
+
+    scene bg watchmans_cabin with dissolve
+
+    show sp_ln_001:
+        yalign 0.05 subpixel True
+        xalign 0.50 subpixel True
+        zoom 1.2
+
+    "Дружное веселье прервала заглянувшая в сторожку Любовь Никаноровна."
+
+    ln "Идите, я вам там печень пожарила. Она огромная. Отнесете своим. Угостите. Там на весь отряд хватит."
+
+    hide sp_ln_001
+
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "А можно мы значок и запонки эти возьмем, Архип Петрович? Нам очень надо. Для истории лагеря. \n(соврала она и покраснела)"
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    show sp_pe_005:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pe "А на что оно мне? Конечно. Берите."
+
+
+    scene bg watchmans_cabin with dissolve
+ 
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Точно, бери Алиса. У нас же база вещественных доказательств должна быть. Мы же следователи."
+
+
+    scene bg camp_artifacts with dissolve 
+
+    "Мы забрали эмблему и запонки и вышли из сторожки."
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Я сома есть не буду. Он людей жрал."
+
+    hide sp_al_001
+
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Я тоже."
+
+
 
 
 

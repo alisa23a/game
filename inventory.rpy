@@ -150,7 +150,7 @@ screen inventory_slots():
             #focus_mask True
             action Hide ("inventory_slots"), Show("lost_stuff_slots")
 
-    ## Превьюшка Кокарда горного инженера
+    ## Превьюшка Эмблема горного инженера
     
     if inv_item_08:
         button:
@@ -161,7 +161,7 @@ screen inventory_slots():
 
             vbox:
                 style_prefix "InvItemPrevCaption"
-                text "Кокарда горного" xalign (0.5) yalign (0.07):
+                text "Эмблема горного" xalign (0.5) yalign (0.07):
                     size 18
                 text "Инженера" xalign (0.5) yalign (0.17):
                     size 18
@@ -621,7 +621,7 @@ screen inv_item_shugar_mushrooms():
 
 screen inv_item_badge():
 
-    ## Кокарда горного инженера
+    ## Эмблема горного инженера
 
     tag menu
     zorder 100
@@ -640,7 +640,7 @@ screen inv_item_badge():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Кокарда горного \nинженера"
+                text "Эмблема горного \nинженера"
 
             style_prefix "InvItemStyleText"   
             vbox:

@@ -18,7 +18,7 @@ label day36:
     stop music fadeout 1.0
 
 
-    play music "audio/music/z_176.mp3"
+    play music "audio/music/z_076.mp3"
 
 
     scene bg camp_artifacts with dissolve
@@ -111,6 +111,12 @@ label day36:
     "И я отправилась к Петровичу, от которого исходили инициативы последних героических дней."
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_023.mp3"
+
+
     scene cg bot_station_tuzik with dissolve
 
     "По дороге я увидела Тузика, уныло бредущего по пирсу, где он напрасно ждал подачки в виде мелкой рыбешки."
@@ -140,6 +146,12 @@ label day36:
     "В расстроенных чувствах Тарас Юрьевич привязывал лодку, и не заметив улёгшегося прямо на понтоне Тузика, наступил на пса..."
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_126.mp3"
+
+
     scene cg fi_tuz with dissolve
 
 
@@ -151,10 +163,29 @@ label day36:
 
     "Тарас Юрьевич заорал благим матом, схватившись за ногу, оступился и рухнул в воду."
 
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_208.mp3"
+
+
     "И все бы ничего, но упал он головой вниз, между стоящих у пирса лодок, напоролся животом на торчавшее весло и ударился лицом об уключину."
 
 
-    scene bg medic2 with dissolve
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_301.mp3"
+
+
+    scene bg medic with dissolve
+
+    show sp_fi_016:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
 
     "Так его, хромающего, с разорванной от укуса ногой и разбитым лицом, доставили в медпункт."
 
@@ -163,11 +194,12 @@ label day36:
     "Не то чтобы за Тараса Юрьевича сильно переживали (пионеры не любили физрука за грубые выходки и солдатский юмор), но вид его был так жалок, что все невольно прониклись сочувствием."
 
 
+    scene bg medic2 with dissolve
+
     show sp_vio_017:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1
-    with dissolve
 
     "Тарасу Юрьевичу была оказана необходимая помощь, но Виолетта Церновна, осмотрев ногу и лицо, твердо вынесла свой приговор:"
 

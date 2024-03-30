@@ -35,7 +35,7 @@ label day14:
 
     "А у нас ничего приготовлено не было. Если малыши седьмого и восьмого отрядов хотя бы выучили стишки, то у нас, как сказал бы мой папа, «И бык не валялся»."
 
-    show sp_mi_012:
+    show sp_mi_020:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -43,7 +43,7 @@ label day14:
 
     "Выручила Мику. Она была заведующей музыкального кружка. И вот что она предложила. Она напишет песню, а мы ее разучим и споем хором. Так и сделали."
 
-    hide sp_mi_012
+    hide sp_mi_020
 
 
     scene bg stage2 with dissolve
@@ -79,13 +79,13 @@ label day14:
 
     scene bg stage4 with dissolve
 
-    show sp_od_001:
-        yalign 0.05 subpixel True
+    show sp_od_022:
+        yalign 0.00 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     show sp_sl_003:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -178,7 +178,7 @@ label day14:
 
     hide sp_fi_006
 
-    show sp_od_010:
+    show sp_od_024:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -186,7 +186,7 @@ label day14:
 
     "И ОД тоже похвалила Мику. Сказала, что если будет краевой конкурс пионерских песен, то мы поедем на него с этой песней."
 
-    hide sp_od_010
+    hide sp_od_024
 
     show sp_ul_014:
         yalign 0.0 subpixel True
@@ -400,7 +400,7 @@ label day14:
 
     scene bg genda_blured with dissolve
 
-    show sp_od_001:
+    show sp_od_022:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -752,7 +752,7 @@ label day14:
 
     scene bg fotoc with dissolve
 
-    show sp_sem_004:
+    show sp_sem_025:
         yalign 0.08 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -764,7 +764,7 @@ label day14:
 
     "Яблоко покатилось. Алиса нагнулась, взяла яблоко, потерла его и протянула Семёну. Он как-то растерялся. А она ему, подделавшись под голос Слави: «Семочка, просто возьми яблочко»."
 
-    hide sp_sem_004
+    hide sp_sem_025
 
     hide sp_al_003
 
@@ -892,7 +892,7 @@ label day14:
         xalign 0.45 subpixel True
         zoom 0.5
 
-    show sp_od_016:
+    show sp_od_025:
         yalign 0.5 subpixel True
         xalign 0.23 subpixel True
         zoom 0.5
@@ -939,7 +939,7 @@ label day14:
     scene bg hide_bench with dissolve  
 
     show sp_pe_005:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -950,7 +950,7 @@ label day14:
 
     scene bg genda_blured with dissolve
 
-    show sp_od_001:
+    show sp_od_022:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -961,7 +961,7 @@ label day14:
     scene bg hide_bench with dissolve  
 
     show sp_pe_003:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -970,7 +970,7 @@ label day14:
 
     scene bg genda_blured with dissolve
 
-    show sp_od_002:
+    show sp_od_022:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -981,7 +981,7 @@ label day14:
     scene bg hide_bench with dissolve  
 
     show sp_pe_002:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -990,7 +990,7 @@ label day14:
     hide sp_pe_002
 
     show sp_pe_005:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
@@ -1004,7 +1004,7 @@ label day14:
 
     scene bg genda_blured with dissolve
 
-    show sp_od_006:
+    show sp_od_024:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -1015,7 +1015,7 @@ label day14:
     scene bg hide_bench with dissolve  
 
     show sp_pe_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -1024,7 +1024,7 @@ label day14:
 
     scene bg genda_blured with dissolve
 
-    show sp_od_015:
+    show sp_od_022:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -1035,7 +1035,7 @@ label day14:
     scene bg hide_bench with dissolve  
 
     show sp_pe_002:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -1043,7 +1043,7 @@ label day14:
 
     scene bg genda_blured with dissolve
 
-    show sp_od_002:
+    show sp_od_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2

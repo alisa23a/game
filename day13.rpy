@@ -326,14 +326,14 @@ label day13_2:
 
     hide sp_sl_001
 
-    show sp_le_006:
-        yalign 0.1 subpixel True
+    show sp_le_021:
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     le "Ясенева!"
 
-    hide sp_le_006
+    hide sp_le_021
 
     show sp_al_005:
         yalign 0.1 subpixel True
@@ -345,7 +345,7 @@ label day13_2:
     hide sp_al_005
 
     show sp_je_013:
-        yalign 0.03 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -353,14 +353,14 @@ label day13_2:
 
     hide sp_je_013
 
-    show sp_mi_012:
+    show sp_mi_015:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     mi "И уроки на гитаре будем  устраивать, а главное – квартирники!"
 
-    hide sp_mi_012
+    hide sp_mi_015
 
     show sp_at_004:
         yalign 0.1 subpixel True
@@ -418,14 +418,14 @@ label day13_2:
 
     hide sp_ul_014
 
-    show sp_le_006:
-        yalign 0.1 subpixel True
+    show sp_le_018:
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     le "(Ухмыляясь и глядя на Алису) \nДа-а... Кто-то скоренько наладит тут личную жизнь."
 
-    hide sp_le_006
+    hide sp_le_018
 
     show sp_al_005:
         yalign 0.1 subpixel True
@@ -708,14 +708,14 @@ label day13_2:
 
     hide sp_sl_001
 
-    show sp_le_004:
-        yalign 0.1 subpixel True
+    show sp_le_021:
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     le "(Исподлобья взглянув на Славю) \nТы не на митинге, Ясенева, лучше просто пусть скажет, что делать."
 
-    hide sp_le_004
+    hide sp_le_021
 
     show sp_pe_005:
         yalign 0.0 subpixel True
@@ -940,7 +940,7 @@ label day13_2:
         (13440, 1080),
         (1150, 0), "images/sp/el/sp_el_001.png",
         #(0, 0), "images/sp/sam/sp_sam_001.png",
-        (0, 0), "images/sp/le/sp_le_001.png",
+        (0, 0), "images/sp/le/sp_le_017.png",
         (360, -120), "images/sp/cards/sp_cards_je_01.png",
 
         (4990, 0), "images/sp/tol/sp_tol_001.png",
@@ -952,7 +952,7 @@ label day13_2:
         (8040, -120), "images/sp/cards/sp_cards_sem_01.png",
 
         (12720, 0), "images/sp/shu/sp_shu_001.png",
-        (11470, 0), "images/sp/mi/sp_mi_012.png",
+        (11470, 0), "images/sp/mi/sp_mi_020.png",
         (11880, -120), "images/sp/cards/sp_cards_ul_02.png")
 
 
@@ -1145,8 +1145,8 @@ label day13_2:
 
     scene bg attic_inside with dissolve
 
-    show sp_le_014:
-        yalign 0.1 subpixel True
+    show sp_le_016:
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -1157,7 +1157,7 @@ label day13_2:
 
     "Лена стояла бледная, а у Слави выступила кровь на закушенной губе."
 
-    hide sp_le_014
+    hide sp_le_016
 
     hide sp_sl_019
 

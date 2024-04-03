@@ -1703,12 +1703,66 @@ screen current_day:
 
 
 
+screen current_day_bad_1:
+
+    #tag menu
+    zorder 100
+    #modal True
+
+    add "images/cg/cg_oth/current_day_bad_1.webp"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (1366, 47)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "currentDayStyle"
+                text "День [days]"
 
 
 
+screen current_day_bad_2:
+
+    #tag menu
+    zorder 100
+    #modal True
+
+    add "images/cg/cg_oth/current_day_bad_2.webp"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (1366, 47)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "currentDayStyle"
+                text "День [days]"
 
 
 
+screen current_day_bad_3:
+
+    #tag menu
+    zorder 100
+    #modal True
+
+    add "images/cg/cg_oth/current_day_bad_3.webp"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (1366, 47)
+        background None
 
 
-
+        vbox:
+            vbox:
+                style_prefix "currentDayStyle"
+                text "День [days]"

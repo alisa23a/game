@@ -71,6 +71,14 @@ define gop2 = Character('Амбал', color="#b8860b")
 
 define gop3 = Character('Дрищ', color="#bc8f8f")
 
+define pch1 = Character('Первый браконьер', color="#ffffff")
+
+define pch2 = Character('Второй браконьер', color="#ffffff")
+
+define pch3 = Character('Третий браконьер', color="#ffffff")
+
+
+
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

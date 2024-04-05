@@ -787,7 +787,7 @@ label day12:
 
     play music "audio/music/z_180.mp3"
 
-    scene bg fishing_campfire with dissolve
+    scene cg fishing_campfire with dissolve
 
     "Мы посидели немного у костра. Потом, по совету Петровича, распотрошили и присолили рыбку. Аккуратно сложили ее в ведро и закрыли целлофаном. Затем вернулись на Маленькую пристань."
 

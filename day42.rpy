@@ -406,12 +406,166 @@ label day42:
     "Юля, вернувшись с рыбалки, была очень рада нам. Мы ели её волшебную кашу и пили чай с грибами."
 
 
+    scene cg crystals with dissolve
+
+    "Я показала ей кристаллы которые нашла в ручье. Юля сказала «Подожди» и куда то исчезла. Она появилась через минуту, держа в ладони точно такие же, похожие на мои кристаллы."
+
+
+    scene bg crystal_spryng2 with dissolve:
+        xpos 0.5 ypos -0.0 xanchor 0.5 yanchor 0.0 zoom 1.4
+
+
+    "Она объяснила, что эти кристаллы она тоже нашла в роднике. Выяснилось что свечи и колокольчики тоже ее рук дело."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А зачем ты оставила там колокольчики?"
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_012:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "Это не обычные кристаллы. Они усиливают воображение. То, о чем ты думаешь, может стать реальностью."
+
+    uv "Они реагируют на вибрации. Колокольчики создают вибрации, похожие на те, что вы слышите в лагере."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "И что тогда происходит?"
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_012:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "Если звенят колокольчики, то это слабые вибрации, и ничего страшного не произойдет. Желания исполняются, но материализации не будет."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "А если сильные вибрации?"
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_012:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "Если такие, как в тот день, когда был гул... То имея кристаллы, лучше ни о чем не думать. Исполнится. Даже если ты подумала о чем-то страшном. Оно просто материализуется."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Как в сказках?"
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_012:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "Да, именно так."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Как интересно. Надо подумать о Жане."
+
+    hide sp_al_055
+
+    "Все засмеялись."
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Кто о чем, а она о своем Жане."
+
+
+    scene bg yulya_room2 with dissolve
+
+    show sp_iul_012:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    uv "Но сильной вибрации пока нет, так что не бойтесь. Но помните, о чем я вам рассказала."
+
+
+    scene bg yulya_room with dissolve
+
+    show sp_ul_023:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Да... Волшебные кристаллы, исполняющие желания. О таком я не могла даже мечтать. Алиса, ты веришь в это?"
+
+    hide sp_ul_023
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Неважно. Они и так красивые. Ну, если приносят удачу, то и хорошо."
+
+    hide sp_al_055
+
+
     scene bg yulya_hous with dissolve
 
     show sp_iul_012:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
+
+    "Прощаясь, Юля очень серьёзно сказала мне:"
+    
+    uv "Не носи их с собой. Спрячь где-нибудь."
+
+    "И я решила, что оставлю один, самый красивый синий, остальные спрячу в нычку на складе рядом с каморкой Петровича."
 
     "Затем, распрощавшись с Юлей, не пошедшей с нами и сославшейся на дела, мы втроем отправились в лагерь. Алисе все-таки удалось уговорить Лену вернуться."
 
@@ -1281,9 +1435,7 @@ label day42:
     play music "audio/music/z_207.mp3"
 
     
-    scene cg bathyscaphe with dissolve 
-    
-    
+    scene cg bathyscaphe with dissolve  
 
     "Мы снова начали спуск. Я крутила ручку легко, но не торопясь. Как-то не хотелось с разгона удариться о дно."
 
@@ -1514,6 +1666,574 @@ label day42:
     "Алиса озадаченно посмотрела на меня."
 
     al "Все это конечно очень интересно... Но никакой машины, ни в иллюминаторе, ни на дне, я не увидела. Похоже, ее тут нет. Ладно... Что ты думаешь по поводу этой штуки?"
+
+
+    stop music
+
+
+    play music "audio/music/z_176.mp3"
+
+
+    scene cg gold_bar with dissolve
+
+    "Мы долго разглядывали брусочек."
+
+    "Из документов, которые нашлись в архивах, мы знали что фамилия, вытесненная на бруске, была фамилией местного золотопромышленника, который держал Прииск еще в царские времена."
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Это золото."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Возможно, отметка в журнале Виолы, это указание не на остатки приборов лаборатории, а на золото Прииска?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Я думаю, что лабораторию не уничтожили, а перенесли. Ещё думаю, что она продолжает работать."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Точно. Иначе откуда взялись все эти странности в лагере? И кто, по-твоему, может проводить опыты в лаборатории сегодня?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Не знаю. Но судя по утопленнице, остатки экспериментов уничтожаются. Так сказать, «концы в воду»."
+
+    hide sp_al_056
+
+
+    show sp_ul_033:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Думаешь, это пионерка из прошлого заезда? Боже... это же ужас!"
+
+    hide sp_ul_033
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Я вот что думаю. У нас осталось мало времени. Воздух в батискафе постепенно становиться непригодным для дыхания. А у нас нет кислородного баллона."
+
+    al "Так что, еще минут пятнадцать и наверх. Я посмотрю еще на дне, может быть, что-то найду."
+
+    hide sp_al_056
+
+
+    stop music
+
+
+    play music "audio/music/z_208.mp3" noloop
+
+
+    "Алиса нырнула снова."
+
+
+    stop music
+
+
+    play music "audio/music/z_171.mp3"
+
+
+    scene cg bathyscaphe with dissolve
+
+    "На этот раз я только светила ей двумя фонариками."
+
+    "Алиса сама погрузилась в воду, и я видела, как она плавает внутри колокола, разглядывая что-то на дне."
+
+    "Наконец, она вынырнула. В руке у нее, был такой же брусок, как и в первый раз. Алиса выбралась из проема. Она дрожала."
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "На, держи. Похоже, такой же. Там больше ничего нет, всё обыскала. Если и есть, то дальше, за границей батискафа. Тут сильное течение. И холод адский. А еще очень сильно давит на уши."
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Дай, я тебя разотру своей майкой. Черт, мы даже полотенце не захватили."
+
+    hide sp_ul_019
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "(Порывшись в рюкзаке и стуча зубами) \nЗато, я захватила ЭТО."
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Что это?"
+
+    hide sp_ul_019
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Помнишь, Петрович давал Толику, когда мы ходили на Вторую охоту, на Сома?"
+
+    hide sp_al_057
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Архиповка?"
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Да. Я выпросила у Петровича, и он налил мне во флакончик. Сказал, только как наружное средство, растираться от простуды». Думаю, сейчас самое время."
+
+    hide sp_al_057
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Давай, тебя первую."
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Да, снаружи и немного внутрь. Два глоточка приму, она очень крепкая. А потом тебя разотру, тоже вся синяя сидишь."
+
+    hide sp_al_057
+
+
+    "Я стала растирать Алису. В это время мы услышали странный звук. Какой-то «ДЗЫНЬ!» Как будто, что-то ударило про крышке батискафа."
+
+    "Потом батискаф качнуло. Он как будто сдвинулся с места. Наступила тишина. Потом раздался скрип."
+
+
+    stop music
+
+
+    play music "audio/music/z_205.mp3"
+
+
+    "Батискаф полз по дну и края колокола скребли песок . Звук усиливался самой конструкцией аппарата и оттого был очень громким."
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Всё, хана… Это канат лопнул. Быстро покрути ручку лебедки!"
+
+    hide sp_al_057
+
+
+    stop music
+
+
+    play music "audio/music/z_204.mp3"
+
+
+    show sp_ul_053:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Не чувствую сопротивления, просто вращается вхолостую."
+
+    hide sp_ul_053
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "А ну, дай я... Да, действительно. Значит, он оборвался. Это плохо."
+
+    hide sp_al_057
+
+
+    stop music
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    show sp_ul_053:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Нас тащит. Мы ползем по дну..."
+
+    hide sp_ul_053
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Да, знаю. Не мешай, я думаю."
+
+    al "Через верхний люк нам не выбраться, его прижимает давлением, а нижний открыт. Но пока дно гладкое, нас просто будет тащить, пока мы во что-то не упремся."
+
+    al "Мы остановимся, и там не будет щели, чтобы выбраться. Потом река начнет постепенно забрасывать батискаф песком..."
+
+    al "И через пару лет мы станем отмелью. Мумиями в склепе. И никто никогда нас не найдет."
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Ты хотела сказать, мы станем не отмелью, а МЕЛЬЮ?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ну да... Кстати, та мель, ну, на которую нас вынесло. Она же прямо за Омутом, между ним и водоворотом."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Значит, она... Ты считаешь, она образовалась искусственно?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Может быть, может быть... Если что-то тяжелое сначала тащило течением, а потом засыпало песком."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "А это «что-то» сейчас на МЕЛИ. На которую наведывается Петрович с лопатой. Значит, это может быть..."
+
+    hide sp_ul_019
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+
+    al_ul "(В один голос) \nЗОЛОТО!"
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Правильно! Помнишь, Петрович рассказывал, что перед революцией, золото несколько лет подряд не вывозилось!"
+
+    al "А потом, когда начались события революции, то целый караван из подвод ехал в сторону Прииска и их завернули красноармейцы? Значит, золота тут очень много, и его так и не вывезли!"
+
+    hide sp_al_055
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Да. И Инженер знал об этом. Не даром, он приезжал сюда. И недаром, в желудке у Сома нашли его значок."
+
+    ul "Он нырял за золотом, которое сам же когда-то утопил на дне омута, и потом его, этого инженера, схрумкал Сом!"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Странно. Не таскал же он этот значок столько лет с собой просто так. Ну разве что, как талисман, память. А может, боялся что его не узнают и хотел предъявить... Кому-то. Но кому?"
+
+    hide sp_al_056
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+
+    al_ul "(В один голос) \nПЕТРОВИЧУ!"
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Да! Потому что он единственный из работавших на прииске, оставался в живых. А возможно, единственный был посвящен в тайну спрятанного клада!"
+
+    ul "Точно, инженеру был нужен помощник. Ведь столько лет прошло. Одному ему столько золота было не достать и не вывезти."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Думаешь, Петрович утопил Инженера? А сам понемногу копает золотишко на мели?"
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Точно! Вот для чего ему там нужна была лопата!"
+
+    ul "Но я не думаю, что он утопил инженера. Он мог, зная, что клада уже нет на дне Омута, просто сделать вид, что не узнал его, и сказать: «Я Вас не знаю», и всё."
+
+    ul "А тот от безысходности пошел нырять в омут. А там Чудовище! Вспомни, откуда вытащили ржавый батискаф."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ну, фактически из Омута, если верить Петровичу."
+
+    hide sp_al_056
+
+
+    stop music
+
+
+    play music "audio/music/z_202.mp3"
+
+
+    scene cg bathyscaphe with dissolve
+
+    "Так мы беседовали, пока течение тащило наш батискаф по дну. Потом батискаф стал приподниматься и вращаться. Сначала медленно, потом все быстрее."
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "ВОДОВОРОТ! Держись!"
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Он не поднимет наш колокол, тот слишком тяжелый!"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Поднимает, как видишь, но ненамного. Пока он его держит силой вращения, нужно ему помочь. Это восходящая струя. Она уже как бы за Водоворотом."
+
+    al "Если мы раскачаем колокол, то опрокинем его с помощью водоворота, и тогда, с выходящим воздухом и воспользовавшись ВОСХОДЯЩЕЙ СТРУЕЙ, вынырнем наружу!"
+
+    al "Хватай рюкзак с находками, пристегни его крепко к себе, потому что тебе понадобятся свободные руки."
+
+    hide sp_al_056
+
+
+    scene cg bathyscaphe with dissolve
+
+    "И мы, как и сказала Алиса, взобравшись на скамеечку, стали дружно, по её команде, раскачивать верхнюю часть колокола."
+
+    "Он все больше раскачивался и в какой-то момент стал заваливаться набок."
+
+
+    scene bg bathyscaphe7 with dissolve
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Набирай воздух! Как только мы окажемся в воде, продуй уши, как я учила! Сейчас понесет!"
+
+    hide sp_al_057
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

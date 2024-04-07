@@ -834,8 +834,9 @@ screen stand_campfire():
 
 
 
-image progressbar = Transform(DynamicImage('images/info_stand/progressbar/[days].png'), xpos = 446, ypos = 34, xsize=1027, ysize=68) ## Динамически меняющаяся картинка с прогрессбаром.
-
+##image progressbar = Transform(DynamicImage('images/info_stand/progressbar/[days].png'), xpos = 446, ypos = 34, xsize=1027, ysize=68) ## Динамически меняющаяся картинка с прогрессбаром.
+ 
+## РАСКОММЕНТИРОВАТЬ imgage progressbar, КОГДА БУДУТ КАРТИНКИ ПО КОЛИЧЕСТВУ ДНЕЙ!!! И НИЖЕ, В screen info_stand() ТОЖЕ!!!
 
 
 screen info_stand():
@@ -855,13 +856,6 @@ screen info_stand():
         idle "images/info_stand/info_stand_normal.png"
         hover "images/info_stand/info_stand_hover.png"
 
-        #hotspot(90,178,357,81) action Start()
-        #hotspot(90,277,506,81) action ShowMenu("load")
-        #hotspot(90,378,539,81) action ShowMenu("preferences")
-        #hotspot(90,478,333,81) action ShowMenu("about")
-        #hotspot(90,580,371,81) action ShowMenu("help")
-        #hotspot(90,674,286,86) action Quit(confirm=True)
-
         hotspot(589,285,373,42) action Show ("stand_camp_rules")
         hotspot(537,182,458,64) action Show ("stand_honor_board")
         hotspot(604,330,118,108) action Show ("stand_advertisements")
@@ -879,7 +873,7 @@ screen info_stand():
 
     add "stand_campfire_anim"
 
-    add "progressbar"
+    #add "progressbar" РАСКОММЕНТИРОВАТЬ, КОГДА БУДУТ КАРТИНКИ ДНЕЙ!!!
     
 
     imagebutton:

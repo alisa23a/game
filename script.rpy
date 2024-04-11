@@ -77,7 +77,7 @@ define pch2 = Character('Второй браконьер', color="#ffffff")
 
 define pch3 = Character('Третий браконьер', color="#ffffff")
 
-
+define may = Character('Майя Марковна', color="#DC143C")
 
 
 # Вместо использования оператора image можете просто

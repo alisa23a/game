@@ -475,6 +475,862 @@ label day43:
 
     fi "Лопаты и метлы отдать Архипу Петровичу! Всем мыть руки и в столовую! Вожатым построить отряды согласно расписанию приема пищи! Первыми идут малыши!"
 
+    hide sp_fi_015
+
+
+    stop music
+
+
+    play music "audio/music/z_176.mp3"
+
+
+    scene cg documents_black_bg with dissolve
+
+    "По документам, которые мы нашли в архиве получалось, что после взрыва всё оборудование и взрывчатку для горных работ спрятали в шахте."
+
+    "Но на шахте висел замок. Да и двери туда давно не открывались. Возможно, правда, Петрович наведывался туда за динамитом, чтобы глушить потом рыбу."
+
+    "Так что ключ, если и были, то только у него."
+
+
+    scene bg watchmans_cabin_2 with dissolve
+
+    "И мы выкрали связку ключей, когда Петрович вечером заступил на дежурство."
+
+    "Мы уже знали, какие ключи на его связке какие замки открывают, но там висел ещё один, еще неизвестный нам, ключ. Здоровенный. Вот он, наверное, и был от того огромного замка на дверях шахты."
+
+
+    scene bg square with dissolve
+
+    "И мы смылись, даже не пошли на ужин. Сначала хотели идти утром, но потом подумали, что это привлечет внимание."
+
+    "К тому же, ключ надо было вернуть раньше, чем Петрович заметит его исчезновение."
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Всё равно в шахте темно, и нам придется брать фонарики. Так какая разница, когда идти, утром или вечером?"
+
+    hide sp_al_055
+
+
+    stop music
+
+
+    play music "audio/music/z_132.mp3"
+
+
+    scene bg mcity4 with dissolve
+
+    "И мы решили вечером. Дорогу мы знали, потому что проходили мимо поселка ещё когда шли в ПЕРВЫЙ ПОХОД на Пик Двачевской."
+
+    "Правда, тогда мы не спустились к шахте. Ольга Дмитриевна очень торопилась. Но теперь всё было иначе. Мы пришли туда, когда ещё не было десяти часов и у нас была целая ночь впереди."
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Слушай, Алиса, А что Петрович говорил про то, что там всё заминировано? Начнем открывать замок, а там как бабахнет!"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Может и заминировано, но точно не вход. Как бы дед ходил туда регулярно? Вот сама подумай. Он же и разминировал, наверное, сам. И небось написал «МИНЫ». Чтобы такие как мы, не лазали."
+
+    hide sp_al_056
+
+
+    scene bg mcity3 with dissolve
+
+    "И мы отправились к ШАХТЕ. До Поселка горняков дошли довольно быстро. Вход в шахту находился  тут же."
+
+    "Собственно поселок построили у входа в шахту. Время экономили, поспал, покушал и сразу за работу. Какая еще дорога."
+
+
+    stop music
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    "Мы огляделись. Поселок, и без того не веселый,  сейчас выглядел просто зловеще. Я посмотрела на Алису. Было заметно, что ей тоже не по себе."
+
+
+    scene bg bunker5 with dissolve
+
+    "Над входом в шахту была еле различимая расплывшаяся от времени надпись. Видно было, что ее неоднократно замазывали и снова писали поверх краски."
+
+
+    pause (10000000000000000000000.0)
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Смотри, правда, замок и написано «ВХОД ВОСПРЕЩЕН, ОСТАЛИСЬ НЕРАЗМИНИРОВАННЫЕ УЧАСТКИ!»"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ну да, написано аккуратно."
+
+    hide sp_al_056
+
+
+    "Мы попробовали, подходит ли тот здоровый ключ к этому замку. Замок открылся так, как если бы был смазан буквально вчера."
+
+    "Но с дверью пришлось повозиться. Она никак не хотела открываться. Наконец, Алиса притащила какую-то железяку, которую нашла в поселке, и использовала её как рычаг."
+
+
+    stop music
+
+
+    play music "audio/music/z_044.mp3"
+
+
+    "Дело пошло. Из тоннеля пахнуло сыростью."
+
+
+    stop music
+
+
+    play music "audio/music/z_171.mp3"
+
+
+    scene bg bunker10 with dissolve
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Опять рельсы, такие же, как в пещере, видишь?"
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Нет, эти шире. Тут, похоже, дело было поставлено с размахом."
+
+    hide sp_ul_019
+
+
+    "Мы включили фонарики и пошли вперед. Через десять минут мы уперлись во вторую дверь. Под неё уходили рельсы."
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ты видишь хоть какие-то следы медной руды?"
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Нет, может, дальше. Но я в руде не разбираюсь."
+
+    hide sp_ul_019
+
+
+    "Через какое то время Тоннель разошелся в двух направлениях. Направо уходили рельсы, а налево нет. Мы пошли по левому, с ровным полом."
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Смотри, стенки забетонированные, гладкие. Никакая это не шахта. Скорее, бункер. Не удивлюсь, если выясниться, что меди тут никогда и не было."
+
+    hide sp_al_056
+
+
+    # stop music
+
+
+    play music "audio/music/z_130.mp3"
+
+
+    scene bg bunker2 with dissolve
+
+    "Через несколько метров путь нам преградила огромная дверь."
+
+    "Алиса посветила на дверь. Скорее это была даже не дверь а огромный люк. На нем не было замка. Ниже едва заметно, наискось, краской под трафарет, было написано:"
+
+    "«ПРОХОДА НЕТ! МИНЫ!»"
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Смотри  краска почти свежая. Думаю, это уже дело рук Петровича. Смотри, вон и трафаретка валяется. Торопился, набивал впопыхах."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "И что теперь делать?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ну не возвращаться же назад! Или ты струсила?"
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Если честно, то ДА… Я за тебя боюсь."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Тогда тянем жребий."
+
+    "Алиса достала спички."
+
+    al "Тянешь ты. Если короткая, возвращаемся, если длинная, идем дальше. Согласна?"
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Согласна."
+
+    hide sp_ul_019
+
+
+    "Я вытянула длинную. Мы попробовали открыть люк. Он не поддавался."
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Такие огромные люки не открывают руками. Должна быть кнопка."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Какая кнопка? Тут и электричества-то нет. Она же автоматическая."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Много ты понимаешь. Если там пружина, то достаточно нажать где-нибудь, и засов сработает на открытие. Как в сейфах. Я в фильмах видела."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Ну вот же слева пульт какой-то. Правда, он, наверное, не рабочий давно."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ну-ка, дай посмотрю. \n(жмет на все кнопки)"
+
+    hide sp_al_056
+
+
+    "Неожиданно по периметру люка зажглись огоньки, а над головой — два плафона. Раздался рокот и гул."
+
+
+    stop music
+
+
+    play music "audio/music/z_045.mp3"
+
+
+
+    "Люк медленно и плавно открылся. Он был толстенный."
+
+
+    stop music
+
+
+    play music "audio/music/z_177.mp3"
+
+
+    "Хорошо что мы успели отскочить в сторону."
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Махина..."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Наверное, на случай бомбардировки делали. Странно. Значит электричество все-таки есть. Где же источник? Тут же с войны наверное все заброшено."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Петрович — мастер на все руки. Помнишь, как он с лебедкой управился. Починил. Только что ему тут было надо?"
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Да, судя по рокоту снизу, мы запустили генератор. Он сейчас работает."
+
+
+    scene bg bunker3 with dissolve
+
+    "Мы прошли проем и углубились в длинный коридор, закончившийся тупиком. В полу мы увидели квадратный люк и лестницу, опускавшуюся вертикально вниз. "
+
+    "Перед нами опять встал вопрос, спускаться или вернуться назад. В этот раз мы подбросили монетку. Выпало, идти до конца. Меня это УСТРАИВАЛО, похоже, Алису тоже."
+
+
+    scene bg bunker7 with dissolve
+
+    "Пройдя немного, мы уперлись еще в одну дверь. На ней был какой то знак."
+
+ 
+    stop music
+
+
+    play music "audio/music/z_1013.mp3"
+ 
+ 
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Знак радиоактивности."
+
+    hide sp_al_056
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Может, не пойдем? А то будем радиоактивные. Папа говорил, что это вредно."
+
+    hide sp_ul_019
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "(Бурчит) \nДверей понатыкали, как собак не резаных..."
+
+    al "Оно, конечно вредно... Но на знаке тоже краска свежая. Это Петрович глаза отводит. Как с «минами»."
+
+    hide sp_al_056
+
+
+    "С дверью тоже заминки не возникло, потому что прямо рядом на стене была кнопка. Эта дверь тоже открылась автоматически."
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Фу-у-ух... Ну, слава Богу, сработало. А то я думала, тут куковать будем."
+
+    hide sp_al_056
+
+
+    "Коридор за дверью уперся в стену."
+
+
+    scene bg bunker9 with dissolve
+
+    "Вверх опять шла лестница."
+
+
+    stop music
+
+
+    play music "audio/music/z_046.mp3"
+
+
+    pause (10000000000000000000000.0)
+
+
+    stop music
+
+
+    play music "audio/music/z_171.mp3"
+
+
+    scene bg bunker8 with dissolve
+
+    "Поднявшись по ней, мы попали в какое-то захламленное помещение."
+
+    "Под ногами то и дело хрустело стекло. Присмотревшись, мы заметили, что это остатки каких-то лабораторных склянок."
+
+    "Там были пробирки и еще какие-то странные стеклянные шары и фарфоровые тигли."
+
+
+    stop music
+
+
+    play music "audio/music/z_417.mp3"
+
+
+    scene bg bunker4 with dissolve
+
+    "Мы прошли дальше и попали в довольно просторное помещение."
+
+    "Под потолком, находились большие лампы, как в операционной. Все заливал тусклый, мягкий , зеленый, идущий откуда-то сверху, свет."
+
+    "Когда наши глаза привыкли, мы стали различить детали и заметили, что в воздухе летают какие-то маленькие, светящиеся зеленым светом, шарики."
+
+    "Они были как светлячки, только во много раз больше и шуршали в воздухе."
+
+    "Шарики висели неподвижно, но каждый раз, когда мы начинали двигаться, они выстраивались в небольшую стайку и двигались за нами."
+
+    "Алиса подняла руку, шарики тут-же отлетели в сторону и сгруппировались в небольшую зеленоватую тучку. Они как-будто общались между собой."
+
+
+    stop music
+
+
+    play music "audio/music/z_1013.mp3"
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Аффигеть... Да они как живые!"
+
+    hide sp_ul_021
+
+
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Пуганные. Смотри, реагируют на жесты. Они точно, разумны. Или что-то вроде того."
+
+    al "Как эти твари тут очутились, чем питаются, и что это вообще такое? Никогда ничего подобного не видела."
+
+    al "Кажется, они преследуют нас. Смотри, при каждом нашем движении они тоже перемещаются. Мне страшно."
+
+    hide sp_al_056
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Что тут страшного? Ну, подумаешь, светляки какие-то."
+
+    ul "Хотя, смотри, все вокруг как будто залито какой-то зеленой жидкостью. Может, эти штуки, испарения этой жидкости?"
+
+    ul "А что, если с ними попробовать пообщаться? Сейчас я дотронусь до одного."
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Стой! Ни в коем случае! Может, они состоят из чего-то едкого. Вроде кислоты."
+
+    hide sp_al_057
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Разумная кислота? Не смеши. Ой, они снова начали двигаться. Сейчас я проверю, слышат ли они звук."
+
+    ul "(Кричит) \nШАРИКИ, БРЫСЬ!"
+
+    hide sp_ul_021
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Смотри! Они улетели в дальний конец комнаты. С ума сойти. Стой, я их сейчас смогу посчитать, наконец."
+
+    al "Один, два, три... Их двадцать восемь. Если, конечно, где-то не прячется еще парочка."
+
+    hide sp_al_055
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Шарики, КО МНЕ!"
+
+    hide sp_ul_021
+
+
+    stop music
+
+
+    play music "audio/music/z_1005.mp3" noloop
+
+
+    show sp_al_058:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "А-а-а! Не делай так! Они летят к нам!"
+
+    hide sp_al_058
+
+
+    stop music
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Шарики, СТОЙТЕ!"
+
+    ul "Вот видишь, они слушаются. Мои милые шарики."
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Твои милые? Ты очень беспечна, если не сказать, безрассудна. Эти штуковины нам не друзья."
+
+    al "Но, что точно, так это то, что они понимают команды."
+
+    al "Послушай, надо уходить. Уже поздно."
+
+    al "Но нет, не то... Во первых, мне тут страшно, во вторых, мы не знаем, с чем мы столкнулись."
+
+    al "Судя по всему, это лаборатория. Пусть и заброшенная. А эти, медузы, или шаровые молнии, не знаю, как их назвать. Э-э-э..."
+
+    hide sp_al_057
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Светлячки!"
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Хорошо, пусть светлячки. Они явно разумны, и кажется, чего-то от нас хотят. В общем, мы потом это обсудим."
+
+    al "Сейчас я от страха даже не могу говорить, не то что соображать. И кажется, я мокрая... Отступаем к двери. Вроде, они тебя слушаются. Скажи им замереть и валим!"
+
+    hide sp_al_057
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Да легко. Мои шарики меня слушаются."
+
+    ul "ШАРИКИ, замрите!"
+
+    ul "Если ты настаиваешь, пойдем. Но я бы одного поймала и забрала с собой."
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Сумасшедшая!"
+
+    hide sp_al_057
+
+
+    "Алиса потащила меня к выходу."
+
+
+    scene bg bunker11 with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Я поняла, как я их назову! Шуршавчики! Они же так мило шуршат. Ты слышала?"
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "К ЧЕРТУ! Ты ненормальная. Уходим!"
+
+    hide sp_al_057
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Извини, но я вернусь. Я забыла там рюкзак."
+
+    hide sp_ul_019
+
+
+    stop music
+
+
+    play music "audio/music/z_130.mp3"
+
+
+    scene bg bunker4 with dissolve
+
+    "Я выскользнула из рук Алисы и бросилась в лабораторию. Я вспомнила, что в моем рюкзаке есть баночка, которую я брала когда-то для бабочек. Я решила сделать немыслимое."
+
+    show sp_ul_023:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Один шарик, быстро в баночку!"
+
+    "Я вытянула руку с баночкой. Стая шариков понеслась ко мне. Наверное, все хотели попасть в неё. Но я быстро закрыла крышку, как только в неё влетел первый."
+
+    ul "(Шепотом) \nВсё! За остальными приду потом. Сидите тут тихо."
+
+    "Шарики какое то время кружились вокруг, потом среагировав на команду «БРЫСЬ!» снова улетели в дальний конец комнаты."
+
+    hide sp_ul_023
+
+
+    stop music
+
+
+    play music "audio/music/z_202.mp3"
+
+
+    scene bg bunker11 with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "Я выпрыгнула наружу, захлопнула дверь и прокричала сквозь неё:"
+
+    ul "МЫ ЕЩЕ ВЕРНЕМСЯ, ШУРШАВЧИКИ! НЕ СКУЧАЙТЕ!"
+
+    hide sp_ul_021
+
+
+    show sp_al_057:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Я хотела уже бежать за тобой! Что ты так долго возилась?"
+
+    hide sp_al_057
+
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Потом скажу. Бежим."
+
+    hide sp_ul_021
+
+
+    scene bg bunker with dissolve
+
+    "Мы долго бежали по коридору, по лестницам, и кажется, немного заблудились, потому что я точно помню, что мы так долго раньше не шли. Это был какой-то совсем другой тоннель."
+
+
+    scene bg bunker6 with dissolve
+
+    "Наконец, мы уперлись в казалось бы знакомую дверь. Фух... Значит, показалось."
+
+    "Но, когда мы вышли на поверхность, выяснилось, что это был совершенно другой выход."
+
+
+    scene bg mcity4 with dissolve
+
+    "Странно. Но рассуждать было некогда. Пробежав по склону, в нагромождению валунов, поросших густым кустарником, мы нашли тропу и спустились по ней в поселок Горняков."
+
 
 
 

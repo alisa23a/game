@@ -830,8 +830,10 @@ label day43:
     stop music
 
 
-    play music "audio/music/z_045.mp3"
+    play music "audio/music/z_045.mp3" noloop
 
+
+    scene bg bunker13 with dissolve
 
 
     "Люк медленно и плавно открылся. Он был толстенный."
@@ -939,6 +941,9 @@ label day43:
     al "Оно, конечно вредно... Но на знаке тоже краска свежая. Это Петрович глаза отводит. Как с «минами»."
 
     hide sp_al_056
+
+
+    scene bg bunker12 with dissolve
 
 
     "С дверью тоже заминки не возникло, потому что прямо рядом на стене была кнопка. Эта дверь тоже открылась автоматически."

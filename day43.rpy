@@ -79,12 +79,14 @@ label day43:
 
     "Заодно, уборка должна была отлечь пионеров от дурных мыслей, если таковые у них остались, и вернуть в строй."
 
+    "Чтобы малыши не мешали уборке, младшие отряды отправили с их вожатыми в поход по Старой дороге."
+
     hide sp_mp_004
 
 
     scene cg meeting with dissolve
 
-    "Руководство мероприятием было поручено Ольге Дмитриевне."
+    "Руководить уборкой было поручено Ольге Дмитриевне."
 
     "Она раздала всем имевшийся на складе инвентарь. Метлы, краску для бордюров, тряпки, ведра. Предстояло подмести всю территорию лагеря и прибраться в домиках."
 
@@ -495,26 +497,14 @@ label day43:
 
     scene bg watchmans_cabin_2 with dissolve
 
-    "И мы выкрали связку ключей, когда Петрович вечером заступил на дежурство."
+    "И мы выкрали связку ключей, когда Петровича не было в каптёрке."
 
     "Мы уже знали, какие ключи на его связке какие замки открывают, но там висел ещё один, еще неизвестный нам, ключ. Здоровенный. Вот он, наверное, и был от того огромного замка на дверях шахты."
 
 
-    scene bg square with dissolve
+    scene bg stels with dissolve
 
-    "И мы смылись, даже не пошли на ужин. Сначала хотели идти утром, но потом подумали, что это привлечет внимание."
-
-    "К тому же, ключ надо было вернуть раньше, чем Петрович заметит его исчезновение."
-
-    show sp_al_055:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
-    with dissolve
-
-    al "Всё равно в шахте темно, и нам придется брать фонарики. Так какая разница, когда идти, утром или вечером?"
-
-    hide sp_al_055
+    "И мы смылись, сразу после обеда."
 
 
     stop music
@@ -523,11 +513,11 @@ label day43:
     play music "audio/music/z_132.mp3"
 
 
-    scene bg mcity4 with dissolve
+    scene bg mcity2 with dissolve
 
-    "И мы решили вечером. Дорогу мы знали, потому что проходили мимо поселка ещё когда шли в ПЕРВЫЙ ПОХОД на Пик Двачевской."
+    "Дорогу мы знали, потому что проходили мимо поселка ещё когда шли в ПЕРВЫЙ ПОХОД на Пик Двачевской."
 
-    "Правда, тогда мы не спустились к шахте. Ольга Дмитриевна очень торопилась. Но теперь всё было иначе. Мы пришли туда, когда ещё не было десяти часов и у нас была целая ночь впереди."
+    "Правда, тогда мы не спустились к шахте. Ольга Дмитриевна очень торопилась. Но теперь всё было иначе. Мы пришли туда, когда ещё не было двух часов, и у нас была куча времени."
 
 
     show sp_ul_019:
@@ -552,7 +542,7 @@ label day43:
     hide sp_al_056
 
 
-    scene bg mcity3 with dissolve
+    scene bg mcity with dissolve
 
     "И мы отправились к ШАХТЕ. До Поселка горняков дошли довольно быстро. Вход в шахту находился  тут же."
 
@@ -1332,11 +1322,304 @@ label day43:
     "Но, когда мы вышли на поверхность, выяснилось, что это был совершенно другой выход."
 
 
-    scene bg mcity4 with dissolve
+    scene bg mcity2 with dissolve
 
     "Странно. Но рассуждать было некогда. Пробежав по склону, в нагромождению валунов, поросших густым кустарником, мы нашли тропу и спустились по ней в поселок Горняков."
 
 
+    stop music
+
+
+    play music "audio/music/z_011.mp3"
+
+
+    scene an_d10_01_bg with dissolve
+
+
+    show an_10_01
+
+    "Ну вот, потом было много событий. Но, обо всем по порядку."
+
+    "Начну с костра."
+
+    scene cg campfire_aka_day with dissolve
+
+    "Когда мы вернулись в лагерь, то узнали, что все наши пошли жечь костёр на то место, где в первые три дня мы сидели вместе. Оттуда видно Рачью отмель."
+
+    "Мы пошли к ним. Там все галдели о том, что сходили бы еще раз в поход, но все плановые походы для старших групп закончились."
+
+    "Только малышей еще водили в ближние маршруты. Но мы там все исследовали и они нам были уже неинтересны."
+
+    "Потом начались, как всегда у костров, всякие истории. Решили, что каждый расскажет интересную историю из своей жизни."
+
+
+    scene cg campfire_beach with fade
+
+
+    show sp_shu_002:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_el_002:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    "Последними были Шурик с Электроником. Они опоздали к началу вечеринки но были очень возбуждены."
+
+    "Они закричали: «Вот мы вам сейчас расскажем историю!»"
+
+
+    stop music
+
+
+    play music "audio/music/z_1016.mp3"
+
+
+    scene cg all_campfire_evening with dissolve
+
+    "Мы придвинулись поближе, чтобы не пропустить ни слова. И действительно, история оказалась удивительной. Чем-то похожей на сказку о Буратино."
+
+    "Тем более что, как утверждали оба, она произошла только что, буквально час назад, когда они собирали робота."
+
+
+    scene cg shu_el_robot with dissolve
+
+    "Ну вот... Не успели кибернетики закончить своего робота, потому что ничего у них не получалось. Каких-то там деталей не хватало, чтобы кукла заработала."
+
+    "Ну и руки не сделали ей, потому что нужных пружинок не нашли, а как сказал Электроник, «гидравлику мы бы не потянули»."
+
+    "В общем, механическую решили делать, что-то вроде часов в театре Образцова. А вместо кукушки, она говорила бы всякие слова."
+
+    "И только они собрались на обед, как вдруг, кукла задвигала головой, и руками."
+
+    "(Тут я нарисовала, как я это себе представляю)."
+
+
+    image an_43_01: # Анимация кибирнетики робот
+
+        "images/an/an43day/an_d43_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_04.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_07.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_08.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_09.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_38.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_38.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+    show an_43_01
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg all_campfire_evening with dissolve
+
+    "А потом она им стала глазки делать. Ой, умора. Ну и фантазеры."
+
+    "Алиса смеялась и сказала, что кибернетики переплюнули по части выдумки даже меня. Все развеселились. Байка получилась веселая. Прямо научная."
+
+    "Не знала, что у изобретателей такое хорошее чувство юмора. Я думала они зануды и сухари."
+
+
+    scene cg campfire_beach with fade
+
+
+    show sp_shu_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_el_003:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+
+    "Вот только кибернетики с нами не веселились, а так обиделись, что ушли."
+
+    hide sp_shu_001 with moveoutright
+
+    hide sp_el_003 with moveoutright
+
+
+    show sp_al_055:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Чего это с ними, мы же по дружески."
+
+
+    scene cg all_campfire_evening with dissolve
+
+    "В общем, вечер получился очень интересный. Я назвала его «ВЕЧЕР УДИВИТЕЛЬНЫХ ИСТОРИЙ»."
+
+
+    stop music
+
+
+    play music "audio/music/z_214.mp3"
+
+
+    "Снова началась вибрация. Мы чувствовали ее даже у костра. Потом пошел сильный дождь. Прямо потоп. Все бросили костер и побежали в домики."
+
+
+    image an_43_02: # Анимация гроза над «Совёнком»
+
+        "images/an/an43day/an_d43_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_45.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_46.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_47.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_48.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_49.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_50.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_51.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_52.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_53.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an43day/an_d43_54.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+        repeat
+
+    show an_43_02
+
+    pause (10000000000000000000000.0)
+
+
+    scene an_d43_44 with dissolve
+
+    "Дождём залило всю площадь, и мы бежали по щиколотку в воде. Все произошло внезапно. Огромные черные тучи появились как «черт из табакерки»."
+
+    "Грохотал такой гром, что у меня чуть не лопнули барабанные перепонки."
+
+
+    scene bg oldroad2 with dissolve
+
+    "Вожатые 8-го, 7-го, 6-го и 5-го отрядов должны были сводить малышей по Старой дороге."
+
+
+    scene bg cave with dissolve
+
+    "Маршрут  включал в себя посещение пещеры."
+
+
+    scene bg mcity2 with dissolve
+
+    "Затем Поселка горняков."
+
+    scene an_d43_44 with dissolve
+
+    "В назначенное время ушедшие в поход группы не вернулись."
+
+    "Дождь  становился сильнее. Предположительно отряды заблудились или пережидали дождь в пещере."
+
+    "Появился один из вожатых и сообщил, что они не рискнули вести малышей по скользкому склону под дождём. Сейчас они в пещере с остальными вожатыми."
+
+    "МП хотела отправить детям воду, еду и одеяла, чтобы они смогли продержаться ночь в пещере, но начался настоящий ураган, и дойти до пещеры, да ещё и с грузом, стало нереально."
+
+    "Половина лагеря этой ночью не спала. Вся администрация уж точно."
 
 
 
@@ -1347,6 +1630,6 @@ label day43:
 
     stop music
 
-    #jump day44
+    jump day44
 
 return

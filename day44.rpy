@@ -380,7 +380,28 @@ label day44:
     "Шурика с Электроником что-то давно не было видно. И я предложила Алисе заглянуть в кружок «Умелые руки», а заодно забрать у кибернетиков фонарики. Так и сделали."
 
 
-    show sp_elya_001:
+    image an_43_03: # Анимация Эля двигает глазами
+
+        "images/sp/elya/sp_elya_007.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/sp/elya/sp_elya_008.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/sp/elya/sp_elya_009.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/sp/elya/sp_elya_010.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/sp/elya/sp_elya_011.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/sp/elya/sp_elya_012.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+
+
+
+        repeat
+        
+        repeat
+
+    show an_43_03:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -420,10 +441,17 @@ label day44:
 
     scene bg handmade with dissolve
 
-    show sp_elya_001:
+    # show sp_elya_001:
+        # yalign 0.05 subpixel True
+        # xalign 0.45 subpixel True
+        # zoom 1.2
+
+
+    show an_43_03:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
+
 
     "Между тем то, что происходило в кружке, напоминало кадры фантастического фильма."
 

@@ -1353,7 +1353,7 @@ label day43:
     "Потом начались, как всегда у костров, всякие истории. Решили, что каждый расскажет интересную историю из своей жизни."
 
 
-    scene cg campfire_beach with fade
+    scene bg aulane with fade
 
 
     show sp_shu_002:
@@ -1503,7 +1503,7 @@ label day43:
     "Не знала, что у изобретателей такое хорошее чувство юмора. Я думала они зануды и сухари."
 
 
-    scene cg campfire_beach with fade
+    scene bg aulane with fade
 
 
     show sp_shu_001:

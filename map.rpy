@@ -606,4 +606,12 @@ screen map:
                 hover_foreground "images/fireh.png"
                 focus_mask True
                 action Hide ("map"), Show ("rail")
-        
+
+        if gm66:
+            button:
+                xpos 350 ypos 610
+                xsize 27 ysize 37
+                idle_background "images/fire.png"
+                hover_foreground "images/fireh.png"
+                focus_mask True
+                action Hide ("map"), Show ("aulane")

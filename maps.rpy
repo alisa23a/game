@@ -2689,6 +2689,37 @@ screen busstop:
 
 
 
+screen aulane:
+
+    # Поляна Алисы и Ульяны
+
+    tag menu
+    modal True
+    zorder 300
+
+    add "bg aulane"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Поляна Алисы и Ульяны"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("aulane"), Show("map")
+
+
+
 label nbeach:
     scene bg nbeach with dissolve
     "Пляж ближний"
@@ -3116,4 +3147,15 @@ label rail:
     "Железная дорога"
     call screen map
     return
-    
+
+label aulane:
+    scene bg rail with dissolve
+    "Поляна Алисы и Ульяны"
+    call screen map
+    return
+
+
+
+
+
+

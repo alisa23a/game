@@ -65,7 +65,9 @@ label day45:
 
     "Ольга Дмитриевна хотела сказать речь, но заплакала."
 
-    "Она плакала, но все-таки нашла в себе силы выразить благодарность Мегги и Саманте за участие в жизни лагеря и за их вклад и участи в игре Зарница."
+    "Она плакала, но все-таки нашла в себе силы выразить благодарность Мегги и Саманте за участие в жизни лагеря и за их вклад и участи в игре «Зарница»."
+
+    "(Про «Зарницу» я потом напишу, там много писать.)"
 
     hide sp_od_023
 
@@ -101,16 +103,24 @@ label day45:
     "Этот же немой вопрос застыл в глазах и у других девочек. Однако Семён, прощаясь, поцеловал Саманту в лоб, как меня тогда, на Тропе украденной котлеты. Она ревела."
 
 
-    scene cg sam_bus with dissolve
+    scene bg sam_minibus with dissolve
 
-    "Но ее мягко но настойчиво вели в машину... Машина была красивая. Большой красный автобус, не то что наш скромненький ПАЗик. Икарус называется." 
+    show sp_sam_001:
+        yalign 0.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.1
+
+    "Но ее мягко но настойчиво вели в машину... Машина была красивая. Бело-голубой микроавтобус, не то что наш скромненький ПАЗик." 
+
+    hide sp_sam_001 with dissolve
+
 
     "В машине ещё сидели какие-то люди в костюмах. Как сказала Алиса, «гебешники». Что это такое, я переспрашивать не стала."
 
-    "Все дружно замахали руками, когда машина тронулась, и махали, пока она не скрылась за поворотом."
-
 
     scene bg road with dissolve
+
+    "Все дружно замахали руками, когда машина тронулась, и махали, пока она не скрылась за поворотом."
 
     "Наш отряд стал меньше на одного друга."
 
@@ -130,7 +140,7 @@ label day45:
 
     show sp_od_022:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -141,7 +151,7 @@ label day45:
 
     show sp_tol_007:
         yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -152,7 +162,7 @@ label day45:
 
     show sp_od_024:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -169,7 +179,7 @@ label day45:
 
     "Все облегченно вздохнули. Ольга Дмитриевна раскинула руки, как бы приглашая всех обниматься. Что мы с радостью и сделали."
 
-    "Это была прекрасная сцена. У всех ещё стояли слезы по поводу отъезда Саманты, а тут такое! И мы снова ревели. Вспоминали нашу ВОЙНУ и всё-всё…"
+    "Это была прекрасная сцена. У всех ещё стояли слезы по поводу отъезда Саманты, а тут такое! И мы снова ревели. Вспоминали наши приключения..."
 
 
     show sp_al_005:
@@ -187,7 +197,7 @@ label day45:
 
     show sp_od_024:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -209,7 +219,7 @@ label day45:
 
     show sp_od_024:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -224,7 +234,7 @@ label day45:
 
     show sp_je_001:
         yalign 0.05 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -235,7 +245,7 @@ label day45:
 
     show sp_sl_001:
         yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -309,7 +319,7 @@ label day45:
 
     show sp_sem_022:
         yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -379,7 +389,7 @@ label day45:
 
     show sp_at_004:
         yalign 0.1 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -497,7 +507,7 @@ label day45:
 
     show sp_elya_006:
         yalign 0.05 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -510,7 +520,7 @@ label day45:
 
     show sp_od_022:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -521,7 +531,7 @@ label day45:
 
     show sp_je_001:
         yalign 0.05 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -532,7 +542,7 @@ label day45:
 
     show sp_sl_019:
         yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -543,7 +553,7 @@ label day45:
 
     show sp_le_016:
         yalign 0.08 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.25
     with dissolve
 
@@ -607,7 +617,7 @@ label day45:
 
     show sp_od_025:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
@@ -620,7 +630,7 @@ label day45:
 
     show sp_je_001:
         yalign 0.05 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
 
@@ -631,7 +641,7 @@ label day45:
 
     show sp_od_022:
         yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 

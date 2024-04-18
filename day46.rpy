@@ -21,7 +21,7 @@ label day46:
     play music "audio/music/z_181.mp3"
 
 
-    scene cg sem_ul_outback_hugging with dissolve
+    #scene cg sem_ul_outback_hugging with dissolve
 
 
 

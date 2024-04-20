@@ -524,6 +524,54 @@ label day46:
 
     "Я подумала, что он шутит, сделала страшное лицо и зарычала: «Ррр!»"
 
+
+    image an_46_03: # Анимация Ульяна кристалл
+
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an46day/an_d46_10.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+
+
+
+        #repeat
+
+    scene an_46_03 with dissolve
+
+
+    pause (10000000000000000000000.0)
+
+
     "Сделала вид, что кусаю его. А он от меня отшатнулся и бросился бежать."
 
 

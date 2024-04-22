@@ -2249,10 +2249,10 @@ label day46:
     "Нам помогали только часть пионеров третьего отряда и Эля."
 
 
-    # stop music
+    stop music
 
 
-    # play music "audio/music/z_120.mp3"
+    play music "audio/music/z_177.mp3"
 
 
     "За обедом «революционеры» живо обсуждали последние новости, своё сборище, и кто какие «министерские портфели» получил в новом пионерском правительстве."
@@ -2308,7 +2308,7 @@ label day46:
     stop music
 
 
-    play music "audio/music/z_910.mp3"
+    play music "audio/music/z_177.mp3"
 
 
     scene cg dining_crowded with dissolve
@@ -2334,6 +2334,12 @@ label day46:
     "Особенно с удовольствием они обсуждали за столом, как они будут наказывать Ольгу Дмитриевну и директрису."
 
     "Об этом даже писать не хочется. Никогда не думала, до какой низости могут упасть люди."
+
+
+    stop music
+
+
+    play music "audio/music/z_910.mp3"
 
 
     show sp_iul_009:

@@ -1608,10 +1608,10 @@ label day46:
     "Тут прибежали предупреждённые Мику пионеры во главе с Толиком и приняли активное участие в побоище."
 
 
-    stop music
+    # stop music
 
 
-    play music "audio/music/z_076.mp3"
+    # play music "audio/music/z_202.mp3"
 
 
     scene bg camp_artifacts with dissolve

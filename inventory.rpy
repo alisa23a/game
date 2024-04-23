@@ -11,6 +11,12 @@ style InvItemStyleText_text:
     #font "fonts/mateur-webfont.ttf"
     size 30
 
+style InvItemStyleText2_text:
+    color "#fff"
+    #font "fonts/mateur-webfont.ttf"
+    size 28
+
+
 style InvItemStyleNoteText_text:
     color "#fff"
     #font "fonts/mateur-webfont.ttf"
@@ -1143,7 +1149,7 @@ screen notes_slots():
             idle_background "images/inventory/item_prev/prev_single_note.png"
             hover_background "images/inventory/item_prev/prev_single_note.png"
             style_prefix "InvItemPrevCaption"
-            text "Третья записка" xalign (0.5) yalign (0.07)
+            text "Прокламация" xalign (0.5) yalign (0.07)
             #focus_mask True
             action Hide ("notes_slots"), Show("inv_item_note_three")
 
@@ -1233,20 +1239,20 @@ screen inv_item_note_three():
     frame:
         xpadding 10
         ypadding 10
-        pos (300, 300)
+        pos (300, 100)
         background None
-
+        xmaximum 800
 
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Третья записка"
+                text "Прокламация"
 
-            style_prefix "InvItemStyleText"   
+            style_prefix "InvItemStyleText2"   
             vbox:
                 null height 50
-                style_prefix "InvItemStyleText"
-                text "Очень личная. Ну ты понял. Завидуй молча."
+                style_prefix "InvItemStyleText2"
+                text "Братья! Нужно непременно брать власть в свои руки, мы без колебаний это сделаем и пойдём по пути, начертанному ОСНОВАТЕЛЕМ. Враги принизили его заслуги, умалили его достижения. Низвели его до роли простого памятника «незнамо чему», а именно — простого архитектурного украшения лагеря, части садового ландшафта. Немыслимое варварство! Но мы-то с вами знаем, кто был этот великий человек. Это ОН дал нам понимание РАВЕНСТВА и БРАТСТВА не в том ключе, как его преподносит прогнившая система, а в буквальном, общечеловеческом смысле! Но это ложь, товарищи! Мы знаем, кто был настоящим вождём. Пусть одни выбирают себе любого. Наш пионерский вождь — ГЕНДА! Именно он предложил пионерский галстуки, как символ для подрастающих строителей светлого будущего, но идею у него бессовестно украли! Нам подсунули ложных вождей, мы носим их символы на значках. Сорвём же с себя постылые значки с изображением ложного идола! Оставим только чистый незапятнанный символ пионерии - КРАСНЫЙ ГАЛСТУК."
 
     imagebutton:
         xpos 0 ypos 0

@@ -83,6 +83,8 @@ define elya = Character('Эля', color="#b0c4de")
 
 define manneq = Character('Главный манекен', color="#d3d3d3")
 
+define manneqs = Character('Манекены', color="#d3d3d3")
+
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

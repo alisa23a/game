@@ -624,6 +624,12 @@ label day42:
     "Маргарита Павловна не уставала повторять, что «буквально чуть не поседела» за эти дни. Однако мы этого не заметили. Или у нее очень хорошая краска для волос."
 
 
+    stop music
+
+
+    play music "audio/music/z_023.mp3"
+
+
     scene bg auhouse4 with dissolve
 
     "Мы решили переодеться, и я осталась в домике, а Алиса убежала спросить у Семёна, когда они с Толиком планируют поход."
@@ -669,6 +675,12 @@ label day42:
     "Мы разглядывали и переводили пользуясь шифром с еще немного влажных, но горячих от глянцевателя, фотографий."
 
     "Ждать мы не могли. И вот что мы узнали. Привожу текст последних страниц дневника."
+
+
+    stop music
+
+
+    play music "audio/music/z_130.mp3"
 
 
     scene cg sem_dyary_biker with dissolve
@@ -751,10 +763,10 @@ label day42:
     "Оставалось наедятся, что, как любил говорить мой папа, «Количество, рано или поздно, перейдет в качество»."
 
 
-    stop music
+    stop music fadeout 1
 
 
-    play music "audio/music/z_002.mp3"
+    play music1 "audio/music/z_002.mp3" fadein 1
 
 
     scene cg longboat_sail with dissolve
@@ -838,10 +850,10 @@ label day42:
     "Алиса села за руль, Толик занялся парусами, Семён прокладывал курс, а я стояла на носу, чтобы предупредить, если будет мель."
 
 
-    stop music
+    stop music1 fadeout 1
 
 
-    play music "audio/music/z_022.mp3"
+    play music "audio/music/z_022.mp3" fadein 1
 
 
     scene cg longboat_sail with dissolve

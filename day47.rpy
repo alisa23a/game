@@ -62,8 +62,10 @@ label day47:
 
     scene bg smu_legs with dissolve
 
+
     "Лысая голова «вождя всея пионерии» бессильно свисала. Глаза закатились. Лицо приобрело синеватый оттенок."
 
+    scene bg medic3 with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -133,7 +135,7 @@ label day47:
     " И я вспомнила, как это было у меня..."
 
 
-    scene bg smu_legs with dissolve
+    scene bg medic3 with dissolve
 
 
     show sp_al_056:
@@ -182,7 +184,7 @@ label day47:
     vio "Лучшее, что я могу, это сделать ему эвтаназию. Но это запрещено законом."
 
 
-    scene bg smu_legs with dissolve
+    scene bg medic3 with dissolve
 
 
     show sp_al_056:
@@ -310,6 +312,8 @@ label day47:
     "Я вошла в медпункт. Смутьянов уже был совсем бледный, кровь отлила от его кожи. Стал как будто полупрозрачный, восковой. Аж позеленел."
 
 
+    scene bg medic3 with dissolve
+
     show sp_al_056:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
@@ -407,6 +411,8 @@ label day47:
     pause (10000000000000000000000.0)
 
 
+    scene bg medic3 with dissolve
+
     show sp_al_055:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
@@ -438,14 +444,14 @@ label day47:
 
     ul "Ты такое когда-нибудь видела? Они что, поменялись? У меня дрожат руки. Что теперь будет?"
 
-    al "Не знаю. Ты же говорила, Пионер утверждал, что души меняют тела. Ну как бы они их регенерируют. Так что шанс  у нас есть."
+    al "Не знаю, но души Смутьянова там уже нет. Она теперь в банке"
 
     al "о душу Смутьянова вытеснили, её там уже нет. Она теперь в банке. Фу, какой противный цвет у него."
 
 
     "Шарик заметался в банке. Он бился о её стенки, а потом затих. Алиса протянула банку мне."
 
-    scene bg smu_legs with dissolve
+    scene bg medic3 with dissolve
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -534,7 +540,7 @@ label day47:
     vio "Стоп. Не надо пока никого звать и уносить. Смутьянов ещё жив. Хотя это и невероятно. И кажется, он даже нормально дышит. Это какой-то нонсенс. Что вы с ним делали?"
 
 
-    scene bg smu_legs with dissolve
+    scene bg medic3 with dissolve
 
     show sp_al_055:
         yalign 0.1 subpixel True
@@ -558,7 +564,7 @@ label day47:
     hide sp_vio_001
 
 
-    scene bg smu_legs with dissolve
+    scene bg medic3 with dissolve
 
     show sp_al_055:
         yalign 0.1 subpixel True
@@ -608,7 +614,7 @@ label day47:
         xalign 1.0 subpixel True
         zoom 1.2
 
-    al "Увидим"
+    al "Увидим."
 
     hide sp_al_055
 

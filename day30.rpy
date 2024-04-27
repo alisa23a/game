@@ -488,7 +488,113 @@ label day30:
         xalign 1.0 subpixel True
         zoom 1.2 
 
-    pi "Все. На сегодня хватит. Мне нужно будет исчезнуть на время. Кажется, ОН что-то подозревает. Он посылал за мной, но я спрятался. И тебе не стоит больше сюда приходить. Я боюсь за тебя."
+    pi "Про шахту? Надеюсь, вы туда не лазали?"
+
+
+    scene bg hut3 with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Нет."
+
+
+    scene bg pi_ul_dialog with dissolve
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    pi "Это хорошо. Потому что там есть бункер, в котором возможно находятся те, кто исчез при взрыве. И скорее всего, поэтому он заминирован."
+
+
+    scene bg hut3 with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Петрович тоже нас пугал минами. Но все же погибли!"
+
+
+    scene bg pi_ul_dialog with dissolve
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    pi "Понимаешь, почему я так думаю, в разговоре с Виолой Гендаков упоминал о каких-то развоплощенных душах, которые он собирается использовать в своем жутком проекте."
+
+    pi "Возможно исчезли только тела."
+
+
+    scene bg hut3 with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Души? А Ленин говорил, что душ нет, потому что мир материален. А души, они же нематериальны."
+
+
+    scene bg pi_ul_dialog with dissolve
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    pi "Вообще-то материальны. Только это другой вид материи. Ну, не знаю, что-то вроде плазмоидов."
+
+
+    scene bg hut3 with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Плазмоиды? Я такого слова не знаю."
+
+
+    scene bg pi_ul_dialog with dissolve
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    pi "Ну, это как шаровые молнии, только слабее, как светлячки. Не знаю, как тебе объяснить. Возможно, они невидимы для глаза. Или имеют слабое свечение."
+
+    pi "В общем, не забивай себе голову."
+
+
+    scene bg hut3 with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ну от чего же. Интересно же."
+
+
+    scene bg pi_ul_dialog with dissolve
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+    pi "Тебя, наверное, уже хватились. Потом про всё поговорим."
+
+    pi "На сегодня хватит. Мне нужно будет исчезнуть на время. Кажется, ОН что-то подозревает. Он посылал за мной, но я спрятался. И тебе не стоит больше сюда приходить. Я боюсь за тебя."
 
     pi "Ладно, я отвезу тебя. Черт, лодка отвязалась, пока болтали!"
 

@@ -943,8 +943,8 @@ label day13_2:
         (0, 0), "images/sp/le/sp_le_017.png",
         (360, -120), "images/sp/cards/sp_cards_je_01.png",
 
-        (4990, 0), "images/sp/tol/sp_tol_001.png",
-        (3840, 0), "images/sp/at/sp_at_001.png",
+        (4990, 0), "images/sp/at/sp_at_001.png",
+        (3840, 0), "images/sp/tol/sp_tol_008.png",
         (4200, -120), "images/sp/cards/sp_cards_al_01.png",
 
         (7580, 0), "images/sp/sl/sp_sl_001.png",

@@ -303,7 +303,7 @@ label day29:
 
     "Через минуту сзади послышался шелест камыша и на песчаный берег вышел Смутьянов."
 
-    show sp_smu_009:
+    show sp_smu_001:
         yalign 0.05 subpixel True
         xalign 0.46 subpixel True
         zoom 1.1
@@ -369,7 +369,7 @@ label day29:
 
     al "Ну ты, недовождь. Полегче на поворотах. А то я тебе за такие слова твою лобастую голову быстро подрихтую."
 
-    al "У меня рука тяжелая. Спроси у долговязого. Кстати, вот уж кто холуй, так холуй. Он украл для тебя колбасу с кухни?"
+    al "У меня рука тяжелая. Спроси у Долговязого. Кстати, вот уж кто холуй, так холуй. Он украл для тебя колбасу с кухни?"
 
 
     scene bg crsh3 with dissolve
@@ -438,7 +438,7 @@ label day29:
 
     "Смутьянов злобно посмотрел в сторону удаляющегося топота."
 
-    show sp_smu_011:
+    show sp_smu_004:
         yalign 0.05 subpixel True
         xalign 0.46 subpixel True
         zoom 1.1
@@ -458,7 +458,7 @@ label day29:
     hide sp_smu_011
 
 
-    show sp_smu_002:
+    show sp_smu_001:
         yalign 0.05 subpixel True
         xalign 0.46 subpixel True
         zoom 1.1

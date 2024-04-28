@@ -143,8 +143,8 @@ label day10:
         
 
 
-        "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        #"images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
+        #pause 0.5
         "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_13.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
@@ -289,6 +289,9 @@ label day10:
     "И тут она ему резко, неожиданно (даже я вздрогнула), врезала кулаком. Так ловко, снизу, под дых. А когда он согнулся, ударила коленкой в челюсть."
 
 
+    scene cg al_gan_fight
+
+
     pause (10000000000000000000000.0)
 
 
@@ -382,6 +385,9 @@ label day10:
     scene cg al_bat_wall with dissolve
 
     "Но Алиса не собиралась бежать. Они окружили её, и она стала спиной к складу, держа в руках биту. А кто-то уже валялся на земле, держась за руку."
+
+
+    scene cg al_bat_wall
 
 
     pause (10000000000000000000000.0)
@@ -490,6 +496,10 @@ label day10:
 
     "И тут, я вижу, бегут наши."
 
+
+    scene cg sl_mi_le_running
+
+
     pause (10000000000000000000000.0)
 
 
@@ -563,10 +573,10 @@ label day10:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_004:
-        yalign 0.05 subpixel True
+    show sp_mp_001:
+        yalign 0.1 subpixel True
         xalign 0.45 subpixel True
-        zoom 1.2
+        zoom 1.3
 
     "Та наказала, естественно, зачинщика."
 
@@ -574,7 +584,7 @@ label day10:
     scene bg camp_artifacts with dissolve
 
     show sp_fi_015:
-        yalign 0.05 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -756,7 +766,7 @@ label day10:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_004:
+    show sp_mp_001:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -793,7 +803,7 @@ label day10:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_004:
+    show sp_mp_001:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -867,7 +877,7 @@ label day10:
     scene bg mp_office with dissolve
 
     show sp_fi_015:
-        yalign 0.05 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.2
 
@@ -879,7 +889,7 @@ label day10:
     "А когда открыли изолятор, выяснилось, что Алиса сбежала через окно. Вот так..."
 
     show sp_fi_015:
-        yalign 0.05 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.2
     with dissolve
@@ -948,7 +958,7 @@ label day10:
     scene bg mus with dissolve
     
     show sp_mi_012:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -957,7 +967,7 @@ label day10:
     scene bg balet_room_empty with dissolve
 
     show sp_al_037 at flip:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -974,8 +984,8 @@ label day10:
 
     scene bg sewing with dissolve
 
-    show sp_le_001 at flip:
-        yalign 0.07 subpixel True
+    show sp_le_017:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.15
 
@@ -984,7 +994,7 @@ label day10:
     scene bg fotoc with dissolve
 
     show sp_sl_001:
-        yalign 0.0 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
@@ -1006,8 +1016,8 @@ label day10:
 
     scene bg stadium with dissolve
 
-    show sp_fi_001:
-        yalign 0.0 subpixel True
+    show sp_fi_015:
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -1292,7 +1302,7 @@ label day10:
 
     show sp_smu_001:
         yalign -0.0 subpixel True
-        xalign 0.4 subpixel True
+        xalign 0.5 subpixel True
         zoom 1.2
 
     smu "Враки всё это! Буржуазные сплетни! Про прииск вы нам сто раз рассказывали. Не было тут никакого прииска. И золота отродясь не было! Если бы было, бы мы бы его тут находили, под ногами бы валялось."
@@ -1307,7 +1317,7 @@ label day10:
 
     show sp_smu_001:
         yalign -0.0 subpixel True
-        xalign 0.4 subpixel True
+        xalign 0.5 subpixel True
         zoom 1.2
 
     smu "Ну бочка такая, с иллюминатором и ржавым люком, которая на Рачьей отмели. От неё еще цепь в омут тянется. Неужели не видели? \n(покосился опасливо на палку Петровича)"
@@ -1331,16 +1341,16 @@ label day10:
 
     scene bg stage3 with dissolve
 
-    show sp_smu_012:
+    show sp_smu_005:
         yalign 0.0 subpixel True
-        xalign 0.4 subpixel True
+        xalign 0.5 subpixel True
         zoom 1.2
 
     smu "Это противозаконно! Рукоприкладство! Это произвол администрации!"
 
     scene bg stage4 with dissolve
 
-    show sp_smu_010:
+    show sp_smu_005:
         yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 0.5

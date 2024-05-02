@@ -85,6 +85,9 @@ define manneq = Character('Главный манекен', color="#d3d3d3")
 
 define manneqs = Character('Манекены', color="#d3d3d3")
 
+define ge = Character('Генда', color="#9acd32")
+
+
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.

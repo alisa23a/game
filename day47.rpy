@@ -581,12 +581,21 @@ label day47:
 
     scene bg medic2 with dissolve
 
-    show sp_vio_001:
+    show sp_vio_022:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
 
     vio "С ума сошли. Это медицинский спирт, я принесла его для обтирания трупа. Странно, что спирт так подействовал на больного."
+
+    hide sp_vio_022
+
+
+    show sp_vio_001:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
 
     vio "Хорошо, пустите меня к нему и идите. Если он выживет, то считайте, что вы сделали научное открытие по побочному действию спирта на организм."
 
@@ -1154,11 +1163,1435 @@ label day47:
     "Никто не знал, сколько ещё живых манекенов было у Гендакова. А то, что он будет не один, не вызывало сомнений."
 
 
+    stop music
+
+
+    play music "audio/music/z_207_1.mp3" noloop
+
+
+    scene an_46_06 with dissolve
+
+    "Во второй половине дня, тишину лагеря нарушил странный звук. Это скрипела поворачивающаяся статуя Генды."
+
+    "Она развернулась, уставилась глазами-стеклышками на библиотеку и началась вибрация."
+
+
+    stop music
+
+
+    play music "audio/music/z_048.mp3"
+
+
+    "Но в это раз она была вдвое сильнее обычной."
+
+
+    stop music
+
+
+    play music "audio/music/z_064.mp3" noloop
+
+
+    #scene арт с манекенами и Гендой with dissolve
+    
+    scene bg gates with dissolve
+
+    show sp_pi_010:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+
+    "Тут же в лагерь через ворота механическим шагом вошли десять манекенов, окружавших идущего в центре Пионера."
+
+
+    stop music
+
+
+    play music "audio/music/z_151.mp3"
+
+
+    "Он остановился и поднял руку. Все замолчали. Он медленно опустил руку и улыбнулся."
+
+
+    stop music
+
+
+    play music "audio/music/z_065.mp3" noloop
+ 
+
+    image an_47_02: # Анимация трансформация Генды
+
+        "images/an/an47day/an_d47_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an47day/an_d47_38.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+
+
+    scene an_47_02 with dissolve
+
+
+    "Затем раздался легкий хлопок и фигура стала похожей на серый расплывающийся человеческий силуэт"
+
+
+    stop music
+
+
+    play music "audio/music/z_130.mp3"
+
+
+    "Видение длилось секунду, и вот перед нами стоял уже не пионер, хотя он был всё в той же белой рубашке с галстуком. Он был похож на изрядно постаревшего пионервожатого."
+
+    "Но теперь у него было лицо ПАМЯТНИКА. Настоящий, живой Генда с бородкой и в очках."
+
+    "Он стоял некоторое время, как бы наслаждаясь произведенным эффектом."
+
+
+    scene bg medic_lib_ext3 with dissolve
+
+
+    show sp_shu_001:
+        yalign -0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 0.8
+
+
+    # show sp_sem_022:
+        # yalign 0.1 subpixel True
+        # xalign 0.14 subpixel True
+        # zoom 0.8
+
+
+    show sp_le_016:
+        yalign -0.2 subpixel True
+        xalign 0.27 subpixel True
+        zoom 0.78
 
 
 
+    show sp_tol_013:
+        yalign -0.30 subpixel True
+        xalign 0.74 subpixel True
+        zoom 0.75
 
 
+
+    show sp_mi_017:
+        yalign -0.3 subpixel True
+        xalign 0.62 subpixel True
+        zoom 0.75
+
+
+    show sp_al_002:
+        yalign 0.1 subpixel True
+        xalign 0.47 subpixel True
+        zoom 0.8
+
+
+    show sp_el_003:
+        yalign -0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 0.8
+
+
+    show sp_at_002:
+        yalign -0.1 subpixel True
+        xalign 0.88 subpixel True
+        zoom 0.8
+
+
+    show sp_sl_028:
+        yalign 0.1 subpixel True
+        xalign 0.12 subpixel True
+        zoom 0.85
+
+
+    show sp_iul_010:
+        yalign -1.1 subpixel True
+        xalign 0.67 subpixel True
+        zoom 0.75
+
+
+    show sp_ul_019:
+        yalign -1.0 subpixel True
+        xalign 0.39 subpixel True
+        zoom 0.75
+
+
+    show sp_elya_006:
+        yalign -0.7 subpixel True
+        xalign 0.06 subpixel True
+        zoom 0.8
+
+
+    "Все были не в силах сдвинутся с места."
+
+
+#    $ show_quick_menu = False
+
+
+    pause (10000000000000000000000.0)
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_al_002:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Только Алиса не потерла своего всегдашнего самообладания."
+
+    al "(Шёпотом) \nГендаков... Владимир Геннадьевич. Вот значит, кто скрывался под личиной таинственного Пионера."
+
+
+    stop music
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    scene cg silent_scene with dissolve
+
+    "Мы знали, что для начала «тестирования» ему понадобится Виола."
+
+    "Что собой представляло «тестирование», мы не знали. Но предчувствие было нехорошим."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    "Генда что-то сказал одному из манекенов, а сам вошел в медпункт."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Никого не обнаружив, он задумчиво вышел со стулом в руке, поставил его на крыльцо и сел."
+
+
+    pause (10000000000000000000000.0)
+
+
+    ge "(Обращаясь к манекенам) \nСоберите все отряды. Постройте."
+
+    ge "(Обращаясь к строящимся пионерам) \nГде Ольга Дмитриевна? Где Виолетта Церновна?"
+
+    "Было странно, что несмотря на то, что до этого никто из пионеров Гендакова в живую никогда не видел, все беспрекословно подчинялись его приказам."
+
+
+    stop music
+
+
+    play music "audio/music/z_333.mp3"
+
+
+    scene bg gates with dissolve
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 0.488 subpixel True
+        zoom 1.1
+
+    "Одна Ольга Дмитриевна смело вышла вперед. Мы не успели её удержать."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_al_002:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Черт, мы ей не рассказали! Теперь будет плохо."
+
+
+    scene bg gates with dissolve
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 0.488 subpixel True
+        zoom 1.1
+
+    od "Кто вы такой? Почему мы должны следовать вашим распоряжениям? Я позвоню в райотдел. Я вызову милицию."
+
+
+    scene cg od_mann with dissolve
+
+
+    "Манекены молча стали у неё за спиной, схватив за руки. Она было попыталась вырваться, но вскоре затихла."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Ко я такой? Я ваш Бог!"
+
+
+    scene bg genda2 with dissolve
+
+    ge "А вот и мой памятник."
+
+    "Генда рассмеялся неприятным скрипучим смехом."
+
+    ge "По-моему, неплох. Хотя, ему не хватаем моего изящества, конечно. Ну уж какой есть. Вы должны были привыкнуть к моему лицу."
+
+
+    stop music
+
+
+    play music "audio/music/z_125.mp3"
+
+
+    scene cg silent_scene with dissolve
+
+
+    "Пионеры стояли и молча смотрели в землю. Все понимали, что происходит что-то насильственное, ужасное. И это отнимало у всех силы."
+
+    "Какая-то неизбежность происходящего лишала воли. Как будто кто-то шептал: «Так надо. Смирись»."
+
+
+    scene cg manns2 with dissolve
+
+    "Манекены, обшарив все домики, заглянули в каждое хозяйственное помещение (один даже сбегал на лодочную станцию) и вернулись на площадь."
+
+    "Они сообщили что ни Виолы ни Семёна в лагере нет."
+
+
+    stop music
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Стерва! Сбежала. Она лгала мне. Увлеклась молодым парнем. Я должен был это предвидеть. Но всё же... Нет, это невероятно."
+
+    ge "Хотя... В любом случае, им обоим не выйти за границы ЗОНЫ. Жаль, у меня мало времени. Я насладился бы местью."
+
+    ge "В таком случае, тестирование отменяется. И это плохо в первую очередь для присутствующих. Ваша доктор предала не только меня, но и вас!"
+
+    ge "А вы?"
+
+
+    scene cg silent_scene with dissolve
+
+    "Генда обвел взглядом стоявших перед ним пионеров."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Вы могли бы стать ростками нового невероятного изобретения, новой жизни."
+
+    ge "Вы прошли жесткий отбор! Созрели для того, чтобы из вас сделали настоящих солдат! Супр-солдат. Моих солдат! Осталось только провести последние тесты!"
+
+    ge "И я взял бы вас собой в новый мир. Теперь всё летит к черту. Точнее, вы летите к черту."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_mann_002:
+        yalign 0.1 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+
+    "Генда подозвал старшего манекена."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Лагерь сжечь. Пионеров аннигилировать."
+
+    ge "Да! \n(наморщил лоб как бы вспоминая что-то)"
+
+    ge "Где эти чертовы сталкерши? Я их не вижу.\n(оглядывает толпу)"
+
+    "Алиса присела на корточки за спинами ребят и потянула меня вниз."
+
+    ge "Где Двачевская и Ленина?"
+
+    ge "(Усмехаясь) \nВпрочем, при самоуничтожении Коллайдера они тоже погибнут. Взрыв не удастся пережить никому. Как и в прошлый раз."
+
+
+    stop music
+
+
+    play music "audio/music/z_130.mp3"
+
+
+    scene cg od_mann with dissolve
+
+    od "Я ничего не понимаю. Если нам всем суждено погибнуть..."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Не всем. Я лично уйду в портал. А вам счастливо оставаться."
+
+
+    scene cg od_mann with dissolve
+
+    od "Какой портал? Вы хотите сказать, что Вы уйдете вот в такую вороночку, что показывают в фильмах? Такую, похожую на торнадо? Вы сумасшедший! Отпустите детей. И катитесь к черту."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Вороночку. Хм... Да, пожалуй, похоже на то. Ладно. К чему пустые слова?"
+
+    ge "Жаль, что мой клон исчез. Но я найду нового. Там..."
+
+    "Генда неопределенно махнул рукой в пространство. Затем посмотрел на часы."
+
+    ge "Черт, заболтался! Процесс уже начался..."
+
+
+    stop music
+
+
+    play music "audio/music/z_171.mp3"
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Надо тянуть время. Возможно, что-то удастся придумать. Вся надежда на Пионера. Ты говорила, что в трудный момент он может помочь. Кристалл с тобой?"
+
+    hide sp_al_001
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Да."
+
+    hide sp_ul_019
+
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Быстро представляй себе Пионера! Проси, заклинай, делай что угодно, но что бы он появился. Сегодня вибрация особенно сильная, это должно сработать. А я отвлеку его."
+
+    hide sp_al_001
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_066:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Алиса вышла из-за строя, так, чтобы её видел Генда."
+
+    al "Скажите, а где Пионер? Вы же не Пионер? Я не верю, что Вы это он."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Ой, кого я вижу, вся рыжая гвардия в сборе. Кто это прячется у тебя за спиной, не Ульяна ли?"
+
+    ge "Да, признаюсь, создали вы мне проблем."
+
+    ge "Значит, наша отважная малышка влюбилась... В Пионера. Это так трогательно."
+
+    ge "Нет, я не Пионер. Этот персонаж нашего «спектакля» позорно бежал от моей кары. Но, думаю, ненадолго."
+
+    ge "Я неоднократно перевоплощался, поэтому знаю все ваши тайны. Я мог бы стать кем угодно. Хоть вашей вожатой. Коллайдер творит чудеса."
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_066:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Это называется массовый гипноз?"
+
+
+    stop music
+
+
+    play music "audio/music/z_1002.mp3"
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "Именно. В точку. Но гораздо сильнее. А ты любознательная... Впрочем, эти знания вы унесете с собой в могилу. Хех."
+
+    ge "Ах, да... Я и забыл, после аннигиляции могил не будет. Горстка пела."
+
+    ge "«Но идущий за мною сильнее меня; я не достоин понести обувь Его; Он будет крестить вас ОГНЕМ». Это про меня, между прочим."
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_066:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_je_001:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    je "(Неожиданно выступая вперед) \nОн сказал — «Духом святым и Огнем»."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_008:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    ge "(Удивленно) \nОднако... Евгения Умнова, Браво!"
+
+    "Генда игронично похлопал в лашоши."
+
+    ge "Святым духом говоришь? Ну да, ну да. В каком-то смысле именно так."
+
+    ge "Жаль, я не смогу аннигилировать вместе с тобой и твою мать. Бедняжка, она будет безутешна. Такое вот мое наказание."
+
+    "Генда захохотал."
+
+
+    stop music
+
+
+    play music "audio/music/z_735.mp3"
+
+
+    image an_47_03: # Анимация появление портала
+
+        "images/an/an47day/an_d47_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_45.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_46.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_47.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_48.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_49.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_50.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_51.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_52.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_53.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_54.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_55.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+
+
+    scene an_47_03 with dissolve
+
+    "Неожиданно напротив ворот возник сначала бледный, но все уплотняющийся вращающийся шар, постепенно превращавшийся в воронку голубого цвета."
+
+    "Воронка ширилась и росла, пока не стала величиной с наш домик."
+
+    "У всех растрепались волосы и галстуки. Ветер, кажется, шел внутрь этой ДЫРЫ."
+
+
+    scene bg medic_lib_ext with dissolve
+
+    show sp_ge_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Гендаков встал, отшвырнул ногой стул."
+
+    ge "Да, такую прекрасную оперу превратить в фарс!"
+
+
+    scene an_d47_55 with dissolve
+
+    show sp_ge_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Он шагнул к воронке."
+
+
+    stop music
+
+
+    play music "audio/music/z_131.mp3"
+
+
+    scene cg manns2 with dissolve
+ 
+    "В руках у манекенов появились какие-то странные приборы, напоминающие водяные детские пистолеты."
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_066:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Аннигиляторы! Где Пионер?"
+
+    hide sp_al_066
+
+
+    show sp_ul_016:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Я старалась..."
+
+
+    scene cg genda_plate_07 with dissolve
+
+    "Я посмотрела на памятник Генде. Табличка под ним была открыта. Алиса перехватила мой взгляд."
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Как только он шагнет, врубаем СТОП КРАН!"
+
+    hide sp_al_001
+
+
+    "Мы бросились к памятнику. Зная брезгливость Генды, мы догадались, что манекены не начнут аннигиляцию раньше, чем он исчезнет (как произошло в тот раз в лаборатории)."
+
+
+    stop music
+
+
+    play music "audio/music/z_048.mp3"
+
+
+    scene an_d47_55 with dissolve
+
+    show sp_ge_001:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+    "Генда обвел лагерь задумчивым взглядом, немного постоял, затем решительно шагнул в портал."
+
+
+    image an_47_04: # Анимация Генда уходит в портал
+
+        "images/an/an47day/an_d47_56.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_57.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_58.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_59.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_60.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_61.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_62.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_54.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_52.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_50.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_48.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_46.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.2
+
+
+    scene an_47_04 with dissolve
+
+
+    pause (10000000000000000000000.0)
+
+
+    "Портал тут же растворился. Через несколько секунд уже ничего не напоминало о его существовании. Ветер неожиданно прекратился."
+
+
+    stop music
+
+
+    play music "audio/music/z_1013.mp3"
+
+
+    scene cg manns2 with dissolve
+
+    "Манекены некоторое время еще смотрели на место, в котором исчез их Бог, потом повернулись к пионерам, наводя на них свои «пистолетики»."
+
+
+    scene cg Алиса и Ульяна срывают стоп кран with dissolve
+
+    "Я упала на рубильник одновременно с Алисой. Рубильник поддался и ушел вниз, табличка захлопнулась. Однако вибрация не прекратилась."
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_007:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Еще действует! Думай Ленина думай! Ну хоть на что то годится же твой кристалл!"
+
+    hide sp_al_007
+
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Да! Сейчас."
+
+
+    hide sp_ul_013
+
+
+    show sp_ul_017:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    "Я сосредоточилась, представляя себе бессильно падающих манекенов, у которых из рук выпадают анигиляторы."
+
+    "Но, кажется, я перестаралась. Они не просто падали, а лопались как мыльные пузыри."
+
+    "Пионеры бессильно садились на землю. Уколы всё ещё действовали. Однако, им хватило сил крикнуть вялое «Ура»."
+
+
+    scene an_d47_39 with dissolve
+
+    show sp_pi_007:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+
+    "Появился Пионер. Он тяжело дышал."
+
+
+    scene cg ul_pi_gates with dissolve
+
+    "Я бросилась к нему."
+
+    ul "Ну где же ты был!"
+
+    pi "Я успел?! Думал, вас уже никого не застану в живых!"
+
+    pi "де Генда?"
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_007:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Исчез в портале."
+
+    hide sp_al_007
+
+
+    show sp_sem_022:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    "На площади появился Семен. Он молча подошел и пнул ногой лежащий манекен."
+
+    sem "Что у вас тут произошло?"
+
+    hide sp_sem_022
+
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Финал спектакля под названием «Лагерь Совенок в объятьях Хаоса»."
+
+    al "А Где Виола? Надеюсь, она еще не очнулась?"
+
+    hide sp_al_004
+
+
+    show sp_sem_022:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    sem "Нет, я был один на чердаке."
+
+    hide sp_sem_022
+
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Сбежала! Вот хитрая бестия!"
+
+    hide sp_al_004
+
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Значит, она могла, но не стала помогать Генде!"
+
+    hide sp_ul_013
+
+
+    show sp_sem_022:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    sem "Я думаю, у нее была своя игра, и она изначально не собиралась ему помогать. Впрочем, это только мои предположения. Теперь это уже не имеет значения."
+
+    hide sp_sem_022
+
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    "Подошла Ольга Дмитриевна."
+
+    od "Кто объяснит, что это было? Оживший памятник, портал, манекены, аннигиляторы..."
+
+    od "Бред какой-то. Или я уже схожу с ума... Мало нам вчерашней бойни, пожаров и потрясений."
+
+    hide sp_od_022
+
+
+    show sp_pe_005:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    "К группе подошел запыхавшийся Петрович."
+
+    hide sp_pe_005
+
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    "Подошла Ольга Дмитриевна."
+
+    od "Архип Петрович, а Вы где были, когда были так нужны! Где, наконец, Любовь Никаноровна?"
+
+    hide sp_od_022
+
+
+    show sp_pe_005:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pe "(Обращаясь к Пионеру) \nНу здоров же ты бегать, малец. За тобой не угнаться."
+
+    pe "(Повернувшись к ОД)\nБыл там, где нужно."
+
+    pe "Мы вот с ним (кивает на Пионера) кончали эту штуковину. Рванули там всё. Нет больше лаборатории. Самоуничтожения этого и взрыва не будет."
+
+    pe "Мы снесли механизм, но не смогли остановить машину. Она там под развалинами. Всё ещё работает."
+
+    hide sp_pe_005
+
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+    od "А где Любовь Никаноровна? Кто-нибудь её видел?"
+
+    hide sp_od_022
+
+
+    show sp_pe_005:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pe "Запер ее в бытовке. Сказал ей не высовываться, пока все не кончится. Пойду, отопру."
+
+    hide sp_pe_005
+
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "И что теперь, эта машина, ну Коллайдер, так и будет работать? Зачем были все эти жертвы?"
+
+    hide sp_al_004
+
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    pi "Нет, не будет. Как давно исчез Портал? После закрытия Портала машина будет работать еще несколько минут. У вас есть возможность..."
+
+    "Пионер запнулся."
+
+    pi "Загадать последнее желание. Пока не прекратилась вибрация."
+
+    pi "Вы все или кто-то из вас должны что-то пожелать. Или ничего не желать, постарайтесь не думать ни о чём, пока вибрация не остановится."
+
+    hide sp_pi_001
+
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "В таком случае... Ольга Дмитриевна, говорите с пионерами. Отвлеките их, они не должны ничего желать. Пока они Вас слушают, их мысли будут сосредоточены на Вас. А нам тут надо быстро посоветоваться."
+
+    hide sp_al_005
+
+
+    show sp_od_022:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    od "Поняла. Хоть я во всё это всё равно не верю, но я уже не раз убеждалась, что вы знаете больше меня."
+
+    "ОД посмотрела на Семёна."
+
+    od "И я надеюсь, вы знаете, что делаете."
+
+    hide sp_od_022
+
+
+    "Повернувшись, Ольга Дмитриевна пошла к стоящим на площади пионерам второго и третьего отряда."
+
+
+    scene bg camp_artifacts with dissolve
+
+    "Вдруг, передо мной в одно мгновение пронеслись все эти дни, что мы провели в лагере."
+
+    "И я подумала. Всё, что произошло за последние три часа, можно было назвать сплошным кошмаром. Из-за работы Коллайдера все мысли находящихся в Зоне людей обретали физическое воплощение."
+
+    "Мысли были разные. Безумные, странные, тусклые, обыденные. Иногда абсурдные. Но, какие бы они ни были, они тут же материализовались."
+
+    "Как те манекены на складе, ожившие благодаря пьяному бреду Петровича и выступившие в проход, как деревянные солдаты Урфина Джуса."
+
+    "Вспомнилось, как Тузик гонит Долговязого, и разрывает его."
+
+    "Мысли и мечты кибернетиков, оживившие кибердевочку Элю."
+
+    "Теперь она стояла воплощенная, как Галатея. Живая, обнимающая Электроника и быстро что-то говорящая ему своим синтетическим, лишенным эмоций, голосом."
+
+
+    scene bg genda2 with dissolve
+
+
+    show sp_al_007:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Алиса прикрикнула на Элю с напускной суровостью:"
+
+    al "Молчи, железяка! Мы тут как бы пытаемся сосредоточится, а ты мешаешь."
+
+    hide sp_al_007
+
+    "Наступила тишина, нарушаемая только мягким гулом вибрирующей под ногами площади и голосом ОД, что-то говорящей пионерам."
+
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Алсиа повернулась к Пионеру."
+
+    al "Какая у нас есть возможность? Напомни еще раз."
+
+    hide sp_al_005
+
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    pi "Загадать последнее желание, пока вибрация не закончилась. Кристаллы с вами?"
+
+    hide sp_pi_001
+
+
+    show sp_ul_013:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Да, мой кристалл всегда со мной."
+
+    hide sp_ul_013
+
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Алиса о чём-то пошепталась с членами отряда, те кивнули, и Алиса выступила вперёд."
+
+    hide sp_al_005
+
+
+    stop music
+
+
+    play music "audio/music/track7.mp3"
+
+
+    show sp_al_066:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    al "Ульяна, мы решили. Сейчас у нас осталось, если верить Пионеру, не больше двух-трёх, минут. Слава богу, что всё наконец закончится."
+
+    al "Так вот. Мы все решили, что эти последние минуты мы НЕ БУДЕМ ДУМАТЬ НИ О ЧЁМ! Это трудно, очень трудно, не думать. Но мы попробуем."
+
+    al "Мы оставляем последнее желание за тобой. Потому что знаем, ты самая чистая из нас, ты не можешь пожелать плохого."
+
+    al "Ты ещё ребенок, и твои мечты и детские образы не принесут никому вреда, даже если ты вдруг и продумаешь о чём-то не том."
+
+    al "Сосредоточься пожалуйста, у тебя есть минута, подумай о хорошем. Когда портал закроется, ничего нельзя будет уже исправить. Ну же! Быстрей!"
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_ul_017:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    "Я сосредоточилась. Я старалась не думать о своих мечтах, я хотела что-нибудь для всех."
+
+    "Я думала о нашей будущей взрослой жизни, которая пугала меня, о том, что я потеряю своих друзей, и они рано или поздно станут старше, а потом станут старичками и умрут."
+
+    "И мне стало страшно. И я закрыла глаза и закричала:"
+
+    "ПУСТЬ ВСЁ В ЛАГЕРЕ БУДЕТ, КАК В ПЕРВЫЙ ДЕНЬ, НО ВСЕ ПИОНЕРЫ НАШЕГО ОТРЯДА БУДУТ СОВЕРШЕННОЛЕТНИМИ И НЕ БУДУТ ЗАВИСЕТЬ ОТ ВЗРОСЛЫХ!"
+
+    "И ПУСТЬ НАВСЕГДА ОСТАНУТСЯ ТАКИМИ ЖЕ ЮНЫМИ, А ЛЕТО ВЕЧНЫМ И МЫ БУДЕМ ДРУЖИТЬ! И ТАК БУДЕТ ВСЕГДА, ПОТОМУ ЧТО МЫ, НАКОНЕЦ, НАШЛИ СВОЙ ДОМ!"
+
+    hide sp_ul_017
+
+    "Через пару секунд вибрация исчезла. Все ждали взрыва, о котором говорил Генда-Гендаков."
+
+
+    stop music
+
+
+    play music "audio/music/z_066.mp3"
+
+
+    "Но вместо него вдруг раздался страшный звук, от которого все присели и схватились за голову. Казалось, наши барабанные перепонки вот-вот лопнут."
+
+    stop music
+
+    "Потом наступила какая-то звенящая тишина."
+
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Я посмотрела на Пионера. Он что-то говорил, но я видела только двигающиеся губы."
+
+    hide sp_pi_001
+
+
+    "Через какое-то время свист в ушах стал стихать."
+
+    "Между тем, произошло что-то странное... Сначала никто не мог понять, что. Но потом поняли, что всё окружающие нас странным образом изменилось."
+
+
+    stop music
+
+
+    play music "audio/music/z_055.mp3"
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    "Каждый, стал как будто выше, лица приобрели осмысленное, взрослое выражение."
+
+    "Кибернетики возмужали. Юля стала вровень с Мику. Глаза Атсуи больше не смотрели по-детски наивно, а вместо этого зажглись особым восхитительным блеском."
+
+    "Бёдра Слави округлились, а грудь стала больше."
+
+    "У Алисы исчезло ребяческое, вызывающее выражение лица, а в её и без того выразительных глазах появилась какая-то огромная глубина и мягкость."
+
+    "Женя расцвела и превратилась в стройную высокую девушку без признаков всегдашней робости и смущения. Ну а Лена стала просто красавицей!"
+
+    "Толик же, помолодел. Это не был больше пожилой лысый мужчина. Его лоб окаймляли милые кудряшки, а на лице застыло какое-то удивленное, детское выражение."
+
+    "Только Семен ничуть не изменился."
+
+    "Некоторое время все молчали. Затем лица вытянулись и рты открылись. Все разглядывали других, не зная что изменились сами."
+
+
+    show sp_al_066:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    "Алиса резко повернулась ко мне:"
+
+    al "ЧТО ТЫ СДЕЛАЛА!? О ЧЕМ ТЫ ПО…"
+
+    "Она осеклась."
+
+    al "Боже, Ульяна, твоя грудь!"
+
+
+    scene cg Арт измененной Ульяны with dissolve
+
+    "Я опустила глаза и вдруг поняла, что первый раз не вижу своего живота из-за двух внушительных холмиков, выпирающих из-под майки."
+
+    "Я взялась за них, чтобы убедиться, что это не обман зрения. Они были НАСТОЯЩИМИ!"
+
+    "В голове откуда-то из прошлого, зазвучал далекий голос Алисы: «Не спеши, маленькая, когда-нибудь и у тебя будут такие же»."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+
+    show sp_sem_018:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Я увидела глаза Семена. В них больше не было братского, ироничного прищура, а только удивление, смешанное с восхищением, как если бы он вдруг увидел меня впервые."
+
+    hide sp_sem_018
+
+
+    scene cg ul_grownup with dissolve
+
+
+    pause (100000000000000000000000000.0)
+
+
+    "Я шагнула к нему, вложила свою ладошку в его большую руку и первый раз посмотрела на него не снизу вверх, а потом сказала голосом, который сама едва узнавала:"
+
+    ul "Ну что, «братик», теперь у тебя есть возможность выполнить своё обещание. Помнишь? «Если бы ты не была мне как сестра»."
+
+
+    scene cg ul_sem_hands with dissolve
+
+
+    pause (100000000000000000000000000.0)
+
+
+    "Я почувствовала, как его пальцы сжали мою ладонь."
+
+    sem "Помню."
+
+
+    stop music
+
+
+    play music "audio/music/z_111.mp3"
+
+
+    scene cg_bikers with dissolve
+
+    "На площадь перед памятником, рыча моторами, въехала колонна мотоциклистов, и сделав круг, остановилась."
+
+    "Знакомая длинноволосая фигура в кожаном комбинезоне приветственно подняла руку."
+
+
+    scene bg genda2 with dissolve
+
+    show sp_al_049:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Все повернулись к Алисе. Она буквально излучала свет."
+
+    "Наверное, никакой коллайдер не смог бы преобразить человека так, как преображает его ощущение счастья. А это несомненно было ОНО."
+
+
+    scene cg_bikers with dissolve
+
+    "Мотоциклисты сделали круг, помахали нам на прощанье и, выехав за ворота, умчались по дороге в поселок."
+
+
+    scene cg jean_square with dissolve
+
+    "На площади остался только один мотоцикл. На нем сидел Жан. И улыбался во всю физиономию."
+
+
+    pause (100000000000000000000000000.0)
+
+
+    scene bg genda2 with dissolve
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Что же ты стоишь как столб? Вот глупая. Беги! Он же ждет!"
+
+
+    stop music
+
+
+    play music "audio/music/z_068.mp3"
+
+
+    scene bg gates_buses with dissolve
+
+    "Алиса рванулась к Жану, а я услышала, как вдали раздались сигналы подъезжающих автобусов."
+
+
+    stop music
+
+
+    play music "audio/music/z_069.mp3"
+
+    "Из крайнего высыпали люди. Родители и пионеры двинулись на встречу друг-другу."
+
+
+    show sp_mp_003:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.25
+    with dissolve
+
+    "Возгласы радости перекрыл пронзительный голос Маргариты Павловны."
+
+    mp "Что за анархия? Потом сантименты! Ольга Дмитриевна, организуйте группы!"
+
+    mp "Все собираем вещи, ничего не забываем и дисциплинированно грузимся в автобусы! Надо пересчитать детей!"
+
+
+    scene bg genda2 with dissolve
+
+
+    show sp_je_001:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    "Женя, грустно глядя на всеобщую суету:"
+
+    je "Ну да... Мама как всегда рулит. Как будто в последний день без этого было нельзя обойтись."
+
+    hide sp_je_001
+
+
+    stop music
+
+
+    play music "audio/music/z_179.mp3"
+
+
+    show sp_sl_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.3
+    with dissolve
+
+    "Появилась Славя, неся треногу с фотоаппаратом."
+
+    sl "Так, минуточку! Стоп! Надо сделать общее фото! Такого случая больше не будет! Первый Отряд! Все построились в две линии."
+
+    sl "Алиса приглашай Жана и становитесь во второй ряд. Да Элю и Юлю тоже к нам!"
+
+    sl "Ольга Дмитриевна, Любовь Никаноровна! Петрович! Давайте с нами!"
+
+    hide sp_sl_001
+
+
+    show sp_ul_012:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+    ul "Пионера забыли!"
+
+    hide sp_ul_012
+
+
+    show sp_sl_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.3
+    with dissolve
+
+    sl "Да и Пионера тоже сюда. Тузика возьмите на руки кто-нибудь."
+
+    sl "Так... Стали?"
+
+    "Славя запустила таймер на фотоаппарате, подбежала и стала ко всем."
+
+    scene Общее фото with dissolve
+
+    sl "А теперь все дружно улыбнулись и сказали СЫЫЫЫЫЫР!"
+
+
+    stop music
+
+
+    play music "audio/music/z_070.mp3"
+
+
+    scene cg epilogue with dissolve
 
 
 

@@ -209,3 +209,6 @@ init python:
 ## разделённые дробью.
 
 # define build.itch_project = "renpytom/test-project"
+
+
+#define config.layers = [ 'master', 'transient', 'screens', 'overlay', 'layer1', 'layer2', 'layer3', 'layer4', 'layer5', 'layer6', 'layer7', 'layer8']

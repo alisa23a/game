@@ -1581,7 +1581,7 @@ label day46:
     scene cg stock_mannequins3 with dissolve
 
 
-    show sp_vio_007:
+    show sp_vio_020:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -1674,7 +1674,7 @@ label day46:
 
     "И хотя, обезображенные ударами пионеров, «тела» всё ещё корчились и пытались встать с земли, они были уже ни на что не годны."
 
-    "Один из манекенов, с белой повязкой на лбу, раздававший приказания голосом диктора метрополитена и, очевидно, ГЛАВНЫЙ, поднял руку."
+    "Один из манекенов, с повязкой на лбу, раздававший приказания голосом диктора метрополитена и, очевидно, ГЛАВНЫЙ, поднял руку."
 
     "Битва на время прекратилась. Он выступил вперед."
 
@@ -1689,7 +1689,14 @@ label day46:
     #scene cg negotiation_bg with dissolve
 
 
+    show sp_mann_002:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.3
+
     manneq "У нас ваши заложники. Также, мы можем взорвать лагерь, если поймем, что проиграли. Однако, у вас есть тот, кто нам нужен. Если вы отдадите его, мы уйдем."
+
+    hide sp_mann_002
 
 
     show sp_od_022:
@@ -1707,13 +1714,30 @@ label day46:
 
     manneq "Она нужна нам для... \n(он замялся)"
 
-    manneq "Это вопрос выживания. Так как вы уничтожили последнего манекена-женщину. Только что. Вы не оставили нам выбора."
+    manneq "Это вопрос выживания."
 
 
     scene bg camp_artifacts with dissolve
     #scene cg negotiation_bg with dissolve
 
+    show sp_mann_004:
+        yalign 0.15 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.3
+
+    show sp_mann_002:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.3
+
+    manneq "Так как вы уничтожили последнего манекена-женщину. Только что. Вы не оставили нам выбора."
+
+    hide sp_mann_004
+
+
     manneq "Отдайте нам андроида, и мы уйдем в Бункер к своим товарищам."
+
+    hide sp_mann_002
 
 
     show sp_al_004:
@@ -1757,7 +1781,7 @@ label day46:
     hide sp_el_002
 
 
-    show sp_vio_003:
+    show sp_vio_028:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -1767,7 +1791,7 @@ label day46:
 
     vio "Это нам понятно, господин Главнокомандующий Картонными Войсками. Вы лучше скажите, зачем вы это начали и какова была ваша первоначальная цель?"
 
-    hide sp_vio_003
+    hide sp_vio_028
 
 
     stop music
@@ -1775,6 +1799,12 @@ label day46:
 
     play music "audio/music/z_130.mp3"
 
+
+    show sp_mann_002:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.3
+    with dissolve
 
     manneq "Нас создал гений, а не ваша наука. Он вложил в уста сторожа заклинание. Но сейчас нашего создателя, к сожалению, нет с нами, иначе бы вам пришлось плохо."
 
@@ -1791,6 +1821,9 @@ label day46:
     manneq "И поверьте, вам будет несдобровать, если я дам команду."
 
     manneq "Нас около тридцати, а вас кажется меньше двадцати, минус две девочки и сторож. Подумайте трезво: война и неизбежное поражение, или моё выгодное предложение?"
+
+
+    hide sp_mann_002
 
 
     stop music
@@ -1825,7 +1858,7 @@ label day46:
     scene bg camp_artifacts with dissolve
     #scene cg negotiation_bg with dissolve
 
-    show sp_vio_003:
+    show sp_vio_027:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -2039,7 +2072,7 @@ label day46:
     "Раз, два, три! Рычаг со скрипом ушел вниз."
 
 
-    image an_46_06: # Анимация костёр землетрясение
+    image an_46_06: # Анимация памятник поворачивается
 
         "images/an/an46day/an_d46_23.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
@@ -2131,7 +2164,7 @@ label day46:
     hide sp_od_022
 
 
-    show sp_vio_004:
+    show sp_vio_001:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -2143,7 +2176,7 @@ label day46:
 
     "Казалось, она была огорчена таким исходом битвы."
 
-    hide sp_vio_004
+    hide sp_vio_001
 
 
     show sp_al_004:
@@ -2157,7 +2190,7 @@ label day46:
     hide sp_al_004
 
 
-    show sp_vio_004:
+    show sp_vio_001:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -2168,7 +2201,7 @@ label day46:
     vio "И ещё, там в пожарном щите два огнетушителя. Пользоваться умеете? Хорошо. Залейте то, что ещё горит. Пожара нам только не хватало."
 
 
-    hide sp_vio_004
+    hide sp_vio_001
 
 
     scene cg dying_bonfire with dissolve
@@ -2318,7 +2351,7 @@ label day46:
     "Они его ищут, чтобы провести над ним суд и объявить его РЕНЕГАТОМ, а потом показательно казнят (принесут в жертву Генде) как и всех, кого поймают из нашего отряда."
 
     
-    show sp_vio_003:
+    show sp_vio_028:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
@@ -2326,7 +2359,7 @@ label day46:
 
     "Между тем, Виола, слушавшая стоя в стороне эти «планы», только ухмылялась."
 
-    hide sp_vio_003
+    hide sp_vio_028
 
 
     "А я подумала, все-таки он оказался неплохой мальчик, надо его найти и спасти."

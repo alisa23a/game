@@ -244,7 +244,7 @@ label day32:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_002:
+    show sp_mp_015:
         yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.3 
@@ -268,7 +268,7 @@ label day32:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_002:
+    show sp_mp_015:
         yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.3 
@@ -292,7 +292,7 @@ label day32:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_002:
+    show sp_mp_015:
         yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.3 
@@ -312,7 +312,7 @@ label day32:
 
     scene bg mp_office2 with dissolve
 
-    show sp_mp_002:
+    show sp_mp_015:
         yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.3 
@@ -327,7 +327,7 @@ label day32:
     "Тогда она под ответственность воспитателей и особенно физрука, разрешила танцы с восьми до десяти часов вечера."
 
 
-    show sp_mp_002:
+    show sp_mp_015:
         yalign 0.1 subpixel True
         xalign 0.5 subpixel True
         zoom 1.3 

@@ -1515,7 +1515,7 @@ label day33:
     stop music fadeout 1.0
 
 
-    #play music "audio/music/z_901.mp3"
+    play music "audio/music/z_023.mp3"
 
 
     "Праздник Воинской Славы лагеря закончился. Кто-то еще остался смотреть на пионерский костер, и мы пошли к себе в домик."
@@ -1558,6 +1558,12 @@ label day33:
     "Как говорил мой папа, «дети жестоки» (надеюсь, он имел в виду не меня)."
 
     "Особенно, когда объединяются в СТАЮ, чтобы как волчатам затравить кого-нибудь ОСОБЕННОГО, не такого как они. Или, как говорят взрослые, «белую ворону»."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_130.mp3"
 
 
     scene cg bikers_campfire with dissolve
@@ -1645,6 +1651,12 @@ label day33:
     "Оставался Старый лагерь. Туда отправили экспедицию во главе с Петровичем, знавшим каждый метр заброшки. Но безрезультатно."
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_197.mp3"
+
+
     scene an_d29_01 with dissolve
 
     "Мы с Алисой ломали голову над разгадкой этого происшествия."
@@ -1687,6 +1699,12 @@ label day33:
     al "Давай, колись. Мы все ждём. Не забудь, ты теперь член отряда, пионерка. А это, как ты понимаешь, обязывает."
 
     hide sp_al_002
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_201.mp3"
 
 
     show sp_iul_010:
@@ -1768,6 +1786,12 @@ label day33:
     uv "Нет, она будет просто спать. Сны видеть всякие. Ну, пока не разбудить. Надо еще слова сказать. В общем... Так вы её не разбудите."
 
     hide sp_iul_009
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_1013.mp3"
 
 
     show sp_ul_013:
@@ -1906,6 +1930,12 @@ label day33:
     hide sp_el_002
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_197.mp3"
+
+
     show sp_al_004:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
@@ -1963,12 +1993,24 @@ label day33:
     hide sp_al_006
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_182.mp3"
+
+
     scene bg uv_shelter with dissolve
 
     "Мы с Юлей решили не терять времени.  Мы быстро добрались до УБЕЖИЩА короткой дорогой. Было ещё светло."
 
 
     pause (10000000000000000000000.0)
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_007.mp3"
 
 
     scene bg uv_shelter2 with dissolve
@@ -2093,6 +2135,12 @@ label day33:
     # with dissolve
 
     # uv "Нет, не любой. Корзинка остаётся наверху, и только я знаю, что нужно сделать, чтобы её спустить."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_495.mp3"
 
 
     scene bg uv_shelter6 with dissolve
@@ -2243,6 +2291,11 @@ label day33:
     hide sp_ul_013
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_542.mp3"
+
 
     scene an_d33_01 with dissolve
 
@@ -2369,6 +2422,12 @@ label day33:
     "И она застонала и обхватила меня руками. Наверное, она тоже ПАДАЛА."
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/track8.mp3"
+
+
     scene bg uv_shelter2 with dissolve
 
     "Дальше было неинтересно."
@@ -2423,6 +2482,12 @@ label day33:
     "Но я думаю, его, как говорил Петрович, «танком не задавишь»."
 
 
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_055.mp3"
+
+
     show sp_od_024:
         yalign 0.03 subpixel True
         xalign 1.0 subpixel True
@@ -2444,6 +2509,13 @@ label day33:
 
     "Саша рассказывала нам о своих приключениях."
 
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_531.mp3"
+
+
     "Слушая рассказы Саши мы узнали, что она была в пещере, и прошла её до конца."
 
     "Что пещера выходит в районе старых штолен, которые находятся неподалеку от отмелей, на которых браконьеров сожрало чудовище."
@@ -2455,6 +2527,13 @@ label day33:
     "Не всегда совы одерживали верх. Однажды мыши победили, после чего Саша решила не оставаться в пещере."
 
     "Она рассказывала, что ни те ни другие не знали пощады. Похоже, что это противостояние длилось не один десяток лет. Это было что-то вроде ритуальной войны. Войны на истребление."
+
+
+    stop music fadeout 1.0
+
+
+    play music "audio/music/z_009.mp3"
+
 
     "Ещё какое-то время Саша жила на отмели. Она сообщила, что видела там Пионера, но побоялась окликнуть его, думая, что он расскажет про неё кому-нибудь в лагере и её вернут обратно."
 

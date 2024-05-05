@@ -2054,25 +2054,103 @@ label day46:
     "Наконец, раздался щелчок, и табличка неожиданно легко повернулась в горизонтальное положение, а затем уехала куда-то вглубь постамента."
 
 
-    scene cg lever with dissolve
+    image an_46_11: # Анимация поворот таблички
+
+
+
+        # "images/an/an46day/an_d46_58.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an46day/an_d46_59.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an46day/an_d46_60.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an46day/an_d46_61.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an46day/an_d46_62.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an46day/an_d46_63.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an46day/an_d46_64.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        "images/an/an46day/an_d46_65.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_66.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_67.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_68.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_69.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_70.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_71.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+
+    scene an_46_11 with dissolve
+
+
+    pause (100000000000000000000000000000000000.0)
+
 
     "За ней оказался какой-то рычаг."
 
 
-    show sp_al_004:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
-    with dissolve
-
     al "Рубильник, что ли? Током не ударит?"
-
-    hide sp_al_004
-
 
     "Алиса обмотала руки снятыми гольфами, и я сделала то же самое. Мы ухватились за рычаг."
 
+
+    image an_46_12: # Анимация рубильник
+
+
+
+        "images/an/an46day/an_d46_72.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_73.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_74.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_75.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_76.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_77.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_78.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_79.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_80.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_81.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_82.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_83.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_84.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_85.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_86.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_87.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_88.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+
+
+
+    scene an_46_12 with dissolve
+
     "Раз, два, три! Рычаг со скрипом ушел вниз."
+
+
+    pause (100000000000000000000000000000000000.0)
 
 
     image an_46_06: # Анимация памятник поворачивается
@@ -2153,9 +2231,9 @@ label day46:
     scene bg camp_artifacts with dissolve
 
     show sp_vio_018:
-        yalign 0.05 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.3
     with dissolve
 
     vio "Отдыхай, трухлявый!"
@@ -2165,7 +2243,7 @@ label day46:
 
     "Главный рухнул на площадь и его голова откатилась в сторону. Тело шарило вокруг в поисках утерянной части. Но некоторые пионеры уже пинали эту голову друг другу."
 
-    "Другие пионеры, не занятые этим своеобразным футболом, ходили по территории, отбирая у бессмысленно ползающих манекенов зажатые в картонных руках динамитные шашки."
+    "Другие пионеры, не занятые этим своеобразным футболом, ходили по территории, отбирая у бессмысленно ползающих манекенов зажатые в пластмассовых руках динамитные шашки."
 
 
     show sp_od_022:
@@ -2179,10 +2257,10 @@ label day46:
     hide sp_od_022
 
 
-    show sp_vio_001:
-        yalign 0.05 subpixel True
+    show sp_vio_018:
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.3
     with dissolve
 
     "Виолетта Церновна с подозрением посмотрела на нас с Алисой. Потом на памятник."
@@ -2191,7 +2269,7 @@ label day46:
 
     "Казалось, она была огорчена таким исходом битвы."
 
-    hide sp_vio_001
+    hide sp_vio_018
 
 
     show sp_al_004:
@@ -2205,10 +2283,10 @@ label day46:
     hide sp_al_004
 
 
-    show sp_vio_001:
-        yalign 0.05 subpixel True
+    show sp_vio_018:
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.3
     with dissolve
 
     vio "Ну да, врать вам не привыкать. Хорошо. Идите, помогите убрать этот хлам."
@@ -2216,7 +2294,7 @@ label day46:
     vio "И ещё, там в пожарном щите два огнетушителя. Пользоваться умеете? Хорошо. Залейте то, что ещё горит. Пожара нам только не хватало."
 
 
-    hide sp_vio_001
+    hide sp_vio_018
 
 
     scene cg dying_bonfire with dissolve

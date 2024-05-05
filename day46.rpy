@@ -1447,9 +1447,12 @@ label day46:
     play music "audio/music/z_047_2.mp3" noloop
 
 
-    scene cg closet_ruins with dissolve
+    scene cg capter_explosion with dissolve
 
     "Взрыв был сильный!"
+
+
+    pause (100000000000000000000000000000.0)
 
 
     stop music
@@ -1732,7 +1735,7 @@ label day46:
 
     manneq "Так как вы уничтожили последнего манекена-женщину. Только что. Вы не оставили нам выбора."
 
-    hide sp_mann_004
+    hide sp_mann_004 with dissolve
 
 
     manneq "Отдайте нам андроида, и мы уйдем в Бункер к своим товарищам."
@@ -2113,13 +2116,23 @@ label day46:
     play music "audio/music/z_151.mp3"
 
 
-    scene cg fallen_mannequins with dissolve
+    scene cg fallen_manns with dissolve
 
     "Мы посмотрели на площадь. Манекены вдруг стали бесцельно двигаться взад и вперед. Многие упали на колени и пытались ползти."
 
+
+    pause (1000000000000000000000000000.0)
+
+
     "Дольше всех на ногах стоял Главный. Он цеплялся за Виолу, чтобы не упасть. Она коротким движением ударила его в грудь, но он успел схватить её за халат."
 
-    "Крутанувшись вокруг своей оси, Виола оставила халат в руках Главного и нанесла ему потрясающий по красоте удар с разворота в его картонную голову."
+
+    scene cg vio_mann with dissolve
+
+    "Крутанувшись вокруг своей оси, Виола оставила халат в руках Главного и нанесла ему потрясающий по красоте удар с разворота в его пластмассовую голову."
+
+
+    pause (1000000000000000000000000000.0)
 
 
     stop music
@@ -2136,6 +2149,8 @@ label day46:
 
     play music "audio/music/z_023.mp3"
 
+
+    scene bg camp_artifacts with dissolve
 
     show sp_vio_018:
         yalign 0.05 subpixel True

@@ -1575,11 +1575,16 @@ label day47:
         # zoom 0.8
 
 
+    # show sp_le_016:
+        # yalign -0.2 subpixel True
+        # xalign 0.27 subpixel True
+        # zoom 0.78
+
+
     show sp_le_016:
         yalign -0.2 subpixel True
-        xalign 0.27 subpixel True
+        xalign 0.60 subpixel True
         zoom 0.78
-
 
 
     show sp_tol_013:
@@ -1589,9 +1594,14 @@ label day47:
 
 
 
+    # show sp_mi_017:
+        # yalign -0.3 subpixel True
+        # xalign 0.62 subpixel True
+        # zoom 0.75
+
     show sp_mi_017:
         yalign -0.3 subpixel True
-        xalign 0.62 subpixel True
+        xalign 0.29 subpixel True
         zoom 0.75
 
 
@@ -1613,13 +1623,19 @@ label day47:
         zoom 0.8
 
 
+    show sp_elya_017:
+        yalign -1.7 subpixel True
+        xalign 0.02 subpixel True
+        zoom 0.75
+
+
     show sp_sl_028:
         yalign 0.1 subpixel True
         xalign 0.12 subpixel True
         zoom 0.85
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign -1.1 subpixel True
         xalign 0.67 subpixel True
         zoom 0.75
@@ -1631,13 +1647,13 @@ label day47:
         zoom 0.75
 
 
-    show sp_elya_006:
-        yalign -0.7 subpixel True
-        xalign 0.06 subpixel True
-        zoom 0.8
+    # show sp_elya_017:
+        # yalign -1.7 subpixel True
+        # xalign 0.06 subpixel True
+        # zoom 0.75
 
 
-    "Все были не в силах сдвинутся с места."
+    "Все были не в силах сдвинуться с места."
 
 
 #    $ show_quick_menu = False

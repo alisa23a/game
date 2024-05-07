@@ -380,28 +380,42 @@ label day44:
     "Шурика с Электроником что-то давно не было видно. И я предложила Алисе заглянуть в кружок «Умелые руки», а заодно забрать у кибернетиков фонарики. Так и сделали."
 
 
-    image an_43_03: # Анимация Эля двигает глазами
+    image an_44_01: # Анимация Эля двигает глазами
 
-        "images/sp/elya/sp_elya_007.png" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/sp/elya/sp_elya_008.png" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/sp/elya/sp_elya_009.png" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/sp/elya/sp_elya_010.png" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/sp/elya/sp_elya_011.png" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/sp/elya/sp_elya_012.png" with Dissolve(0.5, alpha=True)
-        pause 1.0
 
+        "images/an/an44day/an_d44_01.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_03.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_01.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_03.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_04.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_01.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_05.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_06.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_07.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_06.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_05.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_08.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_09.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an44day/an_d44_06.png" with Dissolve(0.5, alpha=True)
+        pause 1.0
 
 
         repeat
-        
-        repeat
 
-    show an_43_03:
+    show an_44_01:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -447,7 +461,7 @@ label day44:
         # zoom 1.2
 
 
-    show an_43_03:
+    show sp_elya_001:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -555,7 +569,7 @@ label day44:
 
     scene bg handmade with dissolve
 
-    show sp_elya_003:
+    show sp_elya_001:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -566,9 +580,9 @@ label day44:
 
     "Я даже спросила её, может ли она чувствовать, и так слегка её ущипнула."
 
-    hide sp_elya_003
+    hide sp_elya_001
 
-    show sp_elya_004:
+    show sp_elya_014:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2
@@ -576,7 +590,7 @@ label day44:
 
     "А она сказала «ОЙ!»"
 
-    hide sp_elya_004
+    hide sp_elya_014
 
 
     show sp_sl_001:
@@ -599,7 +613,7 @@ label day44:
 
     scene bg handmade with dissolve
 
-    show sp_elya_006:
+    show sp_elya_017:
         yalign 0.05 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2

@@ -1659,7 +1659,7 @@ label day46:
 
     "Неожиданно, Алисе пришла в голову спасительная мысль."
 
-    al "- Стоп! Всем стоп! Давайте выясним, чего они хотят."
+    al "Стоп! Всем стоп! Давайте выясним, чего они хотят."
 
     al "ПЕРЕГОВОРЫ!"
 
@@ -1711,7 +1711,16 @@ label day46:
     od "Мы однозначно не отдадим никого из людей. Но все же интересно, кто это?"
 
 
-    scene cg elyatronic2 with dissolve
+    #scene cg elyatronic2 with dissolve
+
+    scene black with dissolve
+
+    show sp_elya_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
 
     manneq  "У вас есть андроид."
 
@@ -1878,14 +1887,14 @@ label day46:
     scene bg camp_artifacts with dissolve
     #scene cg negotiation_bg with dissolve
 
-    show sp_elya_006:
+    show sp_elya_013:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     "Привели Элю. Рвущихся не допустить ОБМЕНА Электроника и Шурика держали за руки пионеры."
 
-    hide sp_elya_006
+    hide sp_elya_013 with dissolve
 
 
     "Из помещения склада манекены вывели двух девочек со связанными за спиной руками. Переговаривающиеся стороны стали оговаривать «детали» и выторговывать «гарантии»."

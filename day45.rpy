@@ -991,7 +991,7 @@ label day45:
     play music "audio/music/z_099.mp3"
 
 
-    scene cg longboat_sail with dissolve
+    scene cg longboat_tshirts with dissolve
 
     "Её примеру последовали остальные. Все, кроме Жени. На ней было платье."
 
@@ -1009,7 +1009,7 @@ label day45:
     # play music "audio/music/z_099.mp3"
 
 
-    scene cg longboat_sail with dissolve
+    scene cg longboat_tshirts with dissolve
 
     "Славя засмеялась:"
 
@@ -1017,7 +1017,7 @@ label day45:
 
     "Все наши подхватили её смех."
 
-    "Я повернулась к преследователям и показала им свои ягодицы."
+    "Я повернулась к преследователям и показала им свой зад."
 
     ul "А это вы видели, извращенцы?! \n(пошлёпала себя по шортам)"
 
@@ -1038,7 +1038,16 @@ label day45:
     "Мы обогнули дальний остров и нас подхватило быстрое течение. Но баркас был тяжелее лодок и расстояние между нами снова стало сокращаться."
 
 
+    show sp_at_021:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
     ats "Вот черт!"
+
+    hide sp_at_021 with dissolve
+
 
     "Все приуныли."
 
@@ -1056,7 +1065,55 @@ label day45:
 
     je "ЛАДНО, РАЗ СИТУАЦИЯ КРИТИЧЕСКАЯ..."
 
+
+    image an_45_02: # Анимация Женя платье
+
+        "images/an/an45day/an_d45_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_13.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_14.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_16.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_15.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_17.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_12.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_18.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_19.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an45day/an_d45_11.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5 
+ 
+
+        repeat
+
+    show an_45_02
+
+
     "Мы оглянулись. На Жене не было майки и шортиков, как на всех нас, на ней было длинное синее платье. Точнее, его уже НЕ БЫЛО."
+
+
+    pause (10000000000000000000000.0)
+
 
     al "А это поступок!"
 

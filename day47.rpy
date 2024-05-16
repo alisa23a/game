@@ -2122,9 +2122,41 @@ label day47:
     play music "audio/music/z_131.mp3"
 
 
-    scene cg manns2 with dissolve
+    scene cg manns3 with dissolve
  
     "В руках у манекенов появились какие-то странные приборы, напоминающие водяные детские пистолеты."
+
+
+    image an_47_04: # Анимация аннигиляторы
+
+        "images/an/an47day/an_d47_63.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_64.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_65.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_66.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_67.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_68.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_69.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+        "images/an/an47day/an_d47_71.png" with Dissolve(0.5, alpha=True)
+        pause 0.2
+
+        repeat 
+
+    scene black with dissolve
+
+    show an_47_04
+
+
+    pause (10000000000000000000000.0)
+
+
+
 
 
     scene bg genda2 with dissolve
@@ -2184,7 +2216,7 @@ label day47:
     "Генда обвел лагерь задумчивым взглядом, немного постоял, затем решительно шагнул в портал."
 
 
-    image an_47_04: # Анимация Генда уходит в портал
+    image an_47_05: # Анимация Генда уходит в портал
 
         "images/an/an47day/an_d47_56.webp" with Dissolve(0.5, alpha=True)
         pause 0.2
@@ -2222,7 +2254,7 @@ label day47:
         pause 0.2
 
 
-    scene an_47_04 with dissolve
+    scene an_47_05 with dissolve
 
 
     pause (10000000000000000000000.0)
@@ -2237,9 +2269,9 @@ label day47:
     play music "audio/music/z_1013.mp3"
 
 
-    scene cg manns2 with dissolve
+    scene cg manns3 with dissolve
 
-    "Манекены некоторое время еще смотрели на место, в котором исчез их Бог, потом повернулись к пионерам, наводя на них свои «пистолетики»."
+    "Манекены некоторое время еще смотрели на место, в котором исчез их бог, потом повернулись к пионерам, наводя на них свои «пистолетики»."
 
 
     scene an_46_12 with dissolve
@@ -2669,23 +2701,122 @@ label day47:
 
     "Каждый, стал как будто выше, лица приобрели осмысленное, взрослое выражение."
 
-    "Кибернетики возмужали. Юля стала вровень с Мику. Глаза Атсуи больше не смотрели по-детски наивно, а вместо этого зажглись особым восхитительным блеском."
+
+    scene bg medic_lib_ext2 with dissolve
+
+
+    show sp_shu_006:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_el_008:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+
+    "Кибернетики возмужали."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_iul_016:
+        yalign 0.07 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
+
+    show sp_mi_026:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+
+    "Юля стала вровень с Мику."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_at_022:
+        yalign 0.00 subpixel True
+        xalign 0.9 subpixel True
+        zoom 1.0
+
+
+    "Глаза Атсуи больше не смотрели по-детски наивно, а вместо этого зажглись особым восхитительным блеском."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_sl_029:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.35
+
 
     "Бёдра Слави округлились, а грудь стала больше."
 
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_al_067:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
     "У Алисы исчезло ребяческое, вызывающее выражение лица, а в её и без того выразительных глазах появилась какая-то огромная глубина и мягкость."
 
-    "Женя расцвела и превратилась в стройную высокую девушку без признаков всегдашней робости и смущения. Ну а Лена стала просто красавицей!"
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_je_020:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.3
+
+
+    "Женя расцвела и превратилась в стройную высокую девушку без признаков всегдашней робости и смущения."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_le_023:
+        yalign 0.08 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Ну а Лена стала просто красавицей!"
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_tol_016:
+        yalign 0.03 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.4
 
     "Толик же, помолодел. Это не был больше пожилой лысый мужчина. Его лоб окаймляли милые кудряшки, а на лице застыло какое-то удивленное, детское выражение."
+
+
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_sem_027:
+        yalign 0.07 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     "Только Семен ничуть не изменился."
 
     "Некоторое время все молчали. Затем лица вытянулись и рты открылись. Все разглядывали других, не зная что изменились сами."
 
 
-    show sp_al_066:
-        yalign 0.1 subpixel True
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_al_068:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
     with dissolve
@@ -2699,9 +2830,16 @@ label day47:
     al "Боже, Ульяна, твоя грудь!"
 
 
-    scene cg Арт измененной Ульяны with dissolve
+    scene bg medic_lib_ext2 with dissolve
 
-    "Я опустила глаза и вдруг поняла, что первый раз не вижу своего живота из-за двух внушительных холмиков, выпирающих из-под майки."
+    show sp_ul_054:
+        yalign -0.02 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    with dissolve
+
+
+    "Я опустила глаза и вдруг поняла, что первый раз не вижу своего живота из-за двух внушительных холмиков, выпирающих из-под рубашки."
 
     "Я взялась за них, чтобы убедиться, что это не обман зрения. Они были НАСТОЯЩИМИ!"
 
@@ -2711,14 +2849,14 @@ label day47:
     scene bg medic_lib_ext2 with dissolve
 
 
-    show sp_sem_018:
-        yalign 0.1 subpixel True
+    show sp_sem_027:
+        yalign 0.07 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     "Я увидела глаза Семена. В них больше не было братского, ироничного прищура, а только удивление, смешанное с восхищением, как если бы он вдруг увидел меня впервые."
 
-    hide sp_sem_018
+    hide sp_sem_027
 
 
     scene cg ul_grownup with dissolve
@@ -2758,8 +2896,8 @@ label day47:
 
     scene bg genda2 with dissolve
 
-    show sp_al_049:
-        yalign 0.1 subpixel True
+    show sp_al_069:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
@@ -2783,8 +2921,8 @@ label day47:
 
     scene bg genda2 with dissolve
 
-    show sp_ul_012:
-        yalign 0.0 subpixel True
+    show sp_ul_054:
+        yalign -0.02 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
 
@@ -2823,13 +2961,13 @@ label day47:
     mp "Все собираем вещи, ничего не забываем и дисциплинированно грузимся в автобусы! Надо пересчитать детей!"
 
 
-    scene bg genda2 with dissolve
 
+    scene bg medic_lib_ext2 with dissolve
 
-    show sp_je_001:
+    show sp_je_020:
         yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.3
 
     "Женя, грустно глядя на всеобщую суету:"
 
@@ -2844,10 +2982,12 @@ label day47:
     play music "audio/music/z_179.mp3"
 
 
-    show sp_sl_001:
-        yalign 0.1 subpixel True
+    scene bg genda2 with dissolve
+
+    show sp_sl_029:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.3
+        zoom 1.35
     with dissolve
 
     "Появилась Славя, неся треногу с фотоаппаратом."
@@ -2860,29 +3000,31 @@ label day47:
 
     sl "Ольга Дмитриевна, Любовь Никаноровна! Петрович! Давайте с нами!"
 
-    hide sp_sl_001
+    hide sp_sl_029
 
 
-    show sp_ul_012:
-        yalign 0.0 subpixel True
+    show sp_ul_054:
+        yalign -0.02 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
     with dissolve
 
     ul "Пионера забыли!"
 
-    hide sp_ul_012
+    hide sp_ul_054
 
 
-    show sp_sl_001:
-        yalign 0.1 subpixel True
+    show sp_sl_029:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.3
+        zoom 1.35
     with dissolve
 
-    sl "Да и Пионера тоже сюда. Тузика возьмите на руки кто-нибудь."
+    sl "Да и Пионера тоже сюда."
 
     sl "Так... Стали?"
+
+    hide sp_sl_029
 
     "Славя запустила таймер на фотоаппарате, подбежала и стала ко всем."
 

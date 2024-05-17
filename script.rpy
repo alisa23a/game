@@ -4,6 +4,10 @@ init:
     transform flip:
         xzoom -1.0
 
+    $ flash = Fade(.25, 0, .75, color="#fff")
+
+define slowdissolve = Dissolve(3.0)
+
 # Определение персонажей игры.
 define e = Character('Эйлин', color="#c8ffc8")
 

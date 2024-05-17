@@ -1569,18 +1569,6 @@ label day47:
         zoom 0.8
 
 
-    # show sp_sem_022:
-        # yalign 0.1 subpixel True
-        # xalign 0.14 subpixel True
-        # zoom 0.8
-
-
-    # show sp_le_016:
-        # yalign -0.2 subpixel True
-        # xalign 0.27 subpixel True
-        # zoom 0.78
-
-
     show sp_le_016:
         yalign -0.2 subpixel True
         xalign 0.60 subpixel True
@@ -1592,12 +1580,6 @@ label day47:
         xalign 0.74 subpixel True
         zoom 0.75
 
-
-
-    # show sp_mi_017:
-        # yalign -0.3 subpixel True
-        # xalign 0.62 subpixel True
-        # zoom 0.75
 
     show sp_mi_017:
         yalign -0.3 subpixel True
@@ -1646,11 +1628,6 @@ label day47:
         xalign 0.39 subpixel True
         zoom 0.75
 
-
-    # show sp_elya_017:
-        # yalign -1.7 subpixel True
-        # xalign 0.06 subpixel True
-        # zoom 0.75
 
 
     "Все были не в силах сдвинуться с места."
@@ -2981,14 +2958,20 @@ label day47:
 
     play music "audio/music/z_179.mp3"
 
+    scene bg medic_lib_ext2 with dissolve
 
-    scene bg genda2 with dissolve
-
-    show sp_sl_029:
+    show sp_sl_030:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.35
-    with dissolve
+
+
+    show tripod:
+        yalign -1.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 0.8
+
+
 
     "Появилась Славя, неся треногу с фотоаппаратом."
 
@@ -3000,8 +2983,8 @@ label day47:
 
     sl "Ольга Дмитриевна, Любовь Никаноровна! Петрович! Давайте с нами!"
 
-    hide sp_sl_029
 
+    scene bg genda2 with dissolve
 
     show sp_ul_054:
         yalign -0.02 subpixel True
@@ -3014,32 +2997,47 @@ label day47:
     hide sp_ul_054
 
 
-    show sp_sl_029:
+    scene bg medic_lib_ext2 with dissolve
+
+    show sp_sl_030:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.35
-    with dissolve
+
+
+    show tripod:
+        yalign -1.0 subpixel True
+        xalign 0.45 subpixel True
+        zoom 0.8
 
     sl "Да и Пионера тоже сюда."
 
     sl "Так... Стали?"
 
-    hide sp_sl_029
+    hide sp_sl_030 with moveoutright
 
     "Славя запустила таймер на фотоаппарате, подбежала и стала ко всем."
 
-    scene Общее фото with dissolve
+    scene cg group_photo with dissolve
+
 
     sl "А теперь все дружно улыбнулись и сказали СЫЫЫЫЫЫР!"
 
 
     stop music
 
+    play miscSounds "audio/music/z_071.mp3" noloop
 
     play music "audio/music/z_070.mp3"
 
+    scene cg group_photo2
 
-    scene cg epilogue with dissolve
+    with flash
+
+    $ renpy.pause(1.0, hard=True)
+
+
+    scene cg group_photo3 with slowdissolve
 
 
 
@@ -3051,6 +3049,6 @@ label day47:
 
     stop music
 
-    #jump day48
+    jump day48
 
 return

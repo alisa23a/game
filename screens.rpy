@@ -1766,3 +1766,24 @@ screen current_day_bad_3:
             vbox:
                 style_prefix "currentDayStyle"
                 text "День [days]"
+
+
+screen epilogue:
+
+    #tag menu
+    zorder 100
+    #modal True
+
+    add "images/day.webp"
+
+    frame:
+        xpadding 10
+        ypadding 10
+        pos (1366, 47)
+        background None
+
+
+        vbox:
+            vbox:
+                style_prefix "currentDayStyle"
+                text "Эпилог"

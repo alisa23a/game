@@ -627,7 +627,7 @@ screen credits():
 
     style_prefix "credits"
 
-    timer 100.0 action Return() #46.5 seconds
+    timer 102.0 action Return() #46.5 seconds
     ## Adjust this number to control when the Credits screen is hidden and the game
     ## returns to its normal flow.
 
@@ -638,7 +638,7 @@ screen credits():
 
         vbox:
             xsize 1000
-            null height 400
+            null height 450
 
             text "Дневник Ульяны":
                 font "fonts/mateur-webfont.ttf"

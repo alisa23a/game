@@ -476,136 +476,6 @@ label day48:
     jump finalcredits2
 
 
-# label finalcredits:
-    # scene cg way_home with dissolve
-    # show screen creditscreen
-    # pause 100 # or however long it takes to scroll through in a reasonable speed
-    # pause
-    # hide screen creditscreen
-    # jump finalcredits2
-
-# screen creditscreen:
-    # vbox:
-        # xsize 1000 # horizontal size of the credits
-        # ysize 3240 # how much vertical space your rolling credits take.
-        # xalign 0.5
-        # yalign 0.0
-        # at transform:
-            # subpixel True
-            # easein 50: # or however long it takes to scroll through in a reasonable speed
-                # yalign 1.0
-        # vbox:
-            # ysize 1080 # enter vertical resolution, so that it starts with an empty screen
-        # text "Дневник Ульяны":
-            # font "fonts/mateur-webfont.ttf"
-            # color "#fff"
-            # size 80
-            # xalign 0.5
-        # text "Визуальная новелла":
-            # #font "FredokaOne-regular.ttf"
-            # #color "#79F"
-            # color "#fff"
-            # size 50
-            # xalign 0.5
-        # text "По мотивам визуальной новеллы «Бесконечное Лето»":
-            # #font "FredokaOne-regular.ttf"
-            # color "#fff"
-            # size 30
-            # xalign 0.5
-        # text "Сделано на Ren'Py":
-            # #font "ZCOOLXiaoWei-Regular.ttf"
-            # #bold True
-            # size 30
-            # xalign 0.5
-        # vbox:
-            # ysize 50 # some empty space in between
-        # # add "images/fire.png": # adding a picture in-between the text
-            # # zoom 0.75
-            # # xalign 0.5
-        # text "Создатели игры благодарят всех, кто так или иначе принимал участие в разработке. Всех авторов использованных в игре артов и музыки.":
-            # #font "ZCOOLXiaoWei-Regular.ttf"
-            # #bold True
-            # xalign 0.5
-        # vbox:
-            # ysize 10
-        # text "Руководитель проекта:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
-
-        # text "Феликс Ясневский": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # text "Сценарий:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
- 
-        # text "Саша Сад": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # text "Кодинг:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
-
-        # text "Алексей Урклин, Алиса Фамина": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # text "Графика:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
-
-        # text "Саша Сад, Сергей Иванов, Алиса Фамина": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # text "(При создании некоторых изображений использовались ИИ-инструменты)": # add all your credits here
-            # size 20
-            # xalign 0.5
-
-        # text "Анимация:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
-
-        # text "Саша Сад": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # text "Редактор:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
-
-        # text "Валентин Семёнов (Семён Зимний)": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # text "Подбор музыки:": # add all your credits here
-            # bold True
-            # size 30
-            # xalign 0.5
-
-        # text "Саша Сад": # add all your credits here
-            # size 30
-            # xalign 0.5
-
-        # vbox:
-            # ysize 50
-
-        # text "Выражаем благодарность художникам, чьи работы были использованы при создании визуальной новеллы «Дневник Ульяны»:": # add all your credits here
-            # bold True
-            # size 20
-            # xalign 0.5
-
-        # add "images/cg/cg_oth/cg credits.webp": # adding a picture in-between the text
-            # zoom 0.75
-            # xalign 0.5
 
 
 
@@ -626,6 +496,7 @@ screen credits():
     key "mouseup_3" action NullAction()
 
     style_prefix "credits"
+
 
     timer 102.0 action Return() #46.5 seconds
     ## Adjust this number to control when the Credits screen is hidden and the game
@@ -683,49 +554,49 @@ screen credits():
 
 
 
-            text "Руководитель проекта:": # add all your credits here
+            text "Руководитель проекта:":
                 bold True
                 size 30
                 xalign 0.5
 
-            text "Феликс Ясневский": # add all your credits here
+            text "Феликс Ясневский":
                 size 30
                 xalign 0.5
 
             null height 75
 
-            text "Сценарий:": # add all your credits here
+            text "Сценарий:":
                 bold True
                 size 30
                 xalign 0.5
      
-            text "Саша Сад": # add all your credits here
+            text "Саша Сад":
                 size 30
                 xalign 0.5
 
             null height 75
 
-            text "Кодинг:": # add all your credits here
+            text "Кодинг:":
                 bold True
                 size 30
                 xalign 0.5
 
-            text "Алексей Урклин, Алиса Фамина": # add all your credits here
+            text "Алексей Урклин, Алиса Фамина":
                 size 30
                 xalign 0.5
 
             null height 75
 
-            text "Графика:": # add all your credits here
+            text "Графика:":
                 bold True
                 size 30
                 xalign 0.5
 
-            text "Саша Сад, Сергей Иванов, Алиса Фамина": # add all your credits here
+            text "Саша Сад, Сергей Иванов, Алиса Фамина":
                 size 30
                 xalign 0.5
 
-            text "(При создании некоторых изображений использовались ИИ-инструменты)": # add all your credits here
+            text "(При создании некоторых изображений использовались ИИ-инструменты)":
                 size 20
                 xalign 0.5
 
@@ -766,7 +637,7 @@ screen credits():
 
             text "Выражаем благодарность художникам, чьи работы были использованы при создании визуальной новеллы «Дневник Ульяны»:": # add all your credits here
                 bold True
-                size 20
+                size 24.5
                 xalign 0.5
 
             null height 75
@@ -793,32 +664,6 @@ screen credits():
 
 
 
-
-
-
-            # null height 400
-            # text "Дневник Ульяны" xalign 0.5
-            # null height 75
-            # text "Визуальная новелла"
-            # label "Producer" xalign 0.5
-            # null height 75
-            # text "BadMustard"
-            # null height 150
-            # label "Special Thanks" xalign 0.5
-            # null height 10
-            # label "To all my" xalign 0.5
-            # null height 10
-            # label "Patron's" xalign 0.5
-            # null height 10
-            # text "redacted"
-            # null height 10
-            # text "redacted"
-            # null height 10
-            # text "redacted"
-
-
-
-
 style credits_hbox:
     spacing 40
     ysize 30
@@ -827,27 +672,19 @@ style credits_vbox:
     xalign 0.5
     text_align 0.5
 
-# style credits_label_text:
-    # xalign 0.5
-    # justify True
-    # size 125
-    # text_align 0.5
-    # color "#ff0000"
-
-# style credits_text:
-    # xalign 0.5
-    # size 60
-    # justify True
-    # text_align 0.5
-    # color "#ffffff"
-
 
 label finalcredits2:
     scene cg way_home with dissolve
     show screen credits
-    # pause 100 # or however long it takes to scroll through in a reasonable speed
-    pause
-    hide screen credits
-    return
+    pause (102.0) # or however long it takes to scroll through in a reasonable speed
+    hide screen credits 
+
+    $ renpy.music.set_volume(0.00, delay=2.0, channel='miscSounds')
+ 
+    scene cg way_home with dissolve
+
+    $ renpy.pause(2.0, hard=True)
+
+    #return
 
 return

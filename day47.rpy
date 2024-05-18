@@ -3036,6 +3036,7 @@ label day47:
 
     $ renpy.pause(1.0, hard=True)
 
+    stop miscSounds
 
     scene cg group_photo3 with slowdissolve
 

@@ -174,7 +174,7 @@ label day17:
     "За болотом был лесок, овраг, горка и лес, в который уходило полотно."
 
 
-    scene bg spa2 with dissolve
+    scene bg spa3 with dissolve
 
     "В лесу узкоколейка неожиданно закончилась, упершись в небольшое строение. Это было что-то вроде склада, на котором давно уже сгнили обитые железом ворота."
 
@@ -234,31 +234,7 @@ label day17:
         zoom 1.1
     with dissolve
 
-    ul "Точно. Идем вдоль линии камышей. А я сначала думала, мы пойдем по кочками. Как в фильме «А зори здесь тихие»."
-
-    hide sp_ul_019
-
-
-    show sp_al_056:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
-    with dissolve
-
-    al "Типун на тебя! Там героиня утопла в болоте."
-
-    hide sp_al_056
-
-
-    show sp_ul_019:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
-
-    ul "Ой, извини. Да, страшный момент..."
-
-    hide sp_ul_019
+    ul "Точно. Идем вдоль линии камышей. А я сначала думала, мы пойдем по кочкам."
 
 
     scene bg swamp2 with dissolve

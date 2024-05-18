@@ -93,23 +93,59 @@ define ge = Character('Генда', color="#9acd32")
 
 
 
-# Вместо использования оператора image можете просто
-# складывать все ваши файлы изображений в папку images.
-# Например, сцену bg room можно вызвать файлом "bg room.png",
-# а eileen happy — "eileen happy.webp", и тогда они появятся в игре.
+screen GameSplashScreen():
 
-# Игра начинается здесь:
-#label start:
+    key "K_ESCAPE" action NullAction()
+    key "K_MENU" action NullAction()
+    key "mouseup_3" action NullAction()
 
-    #scene bg room
+    vbox:
+        xalign 0.5
 
-    #show eileen happy
 
-    #e "Вы создали новую игру Ren'Py."
+        vbox:
+            xsize 1000
+            null height 75
 
-    #e "Добавьте сюжет, изображения и музыку и отправьте её в мир!"
+            text "Внимание!":
+                color "#fff"
+                size 50
+                xalign 0.5
 
-    #return
+            null height 75
+
+            text "Игра «Дневник Ульяны» является некоммерческим проектом и распространяется бесплатно.":
+                color "#fff"
+                size 30
+                #xalign 0.5
+
+            null height 75
+
+
+            text "Создатели игры не претендуют на авторство многих использованных в игре визуальных материалов, а также всех использованных в игре аудиоматериалов, за исключением песен «Знаменосец» и «Цветок полевой». Также авторскими для разработчиков являются сценарий, часть изображений, анимации, скрипт и редактирование. При создании некоторых изображений были использованы ИИ-инструменты.":
+                color "#fff"
+                size 30
+                #xalign 0.5
+
+            null height 75
+
+
+            text "«Дневник Ульяны», это не мод к визуальной новелле «Бесконечное Лето». Это самостоятельная оригинальная игра, созданная по мотивам «Бесконечного Лета». Это дает создателям право на свой собственный сюжет, создание собственных персонажей и собственное видение истории. Все совпадения с другими работами разных авторов случайны.":
+                color "#fff"
+                size 30
+                #xalign 0.5
+
+            null height 75
+
+
+
+
+
+
+
+return
+
+
 
 label splashscreen:
 
@@ -119,23 +155,33 @@ label splashscreen:
 
     ## Видео пока закомментированы, чтобы не скипать их каждый раз
 
-    #scene campfire with fade
-
-    #pause(0.05)
-
-    #scene black with fade
 
     $ renpy.movie_cutscene('video/intro.webm')
 
     scene black with fade
 
-    # $ renpy.movie_cutscene('video/prologue.webm')
 
-    # scene black with fade
+    show screen GameSplashScreen
 
-    # $ renpy.movie_cutscene('video/first_morning.webm')
+    $ renpy.pause(5.0, hard=True)
 
-    # scene black with fade
+    hide screen GameSplashScreen
+
+    show screen GameSplashScreen
+
+    pause (100000000000000000000000.0)
+
+    hide screen GameSplashScreen
+
+    scene black with fade
+
+ #   $ renpy.movie_cutscene('video/prologue.webm')
+
+ #   scene black with fade
+
+ #   $ renpy.movie_cutscene('video/first_morning.webm')
+
+ #   scene black with fade
 
     pause(0.05)
 

@@ -627,11 +627,11 @@ screen credits():
 
     style_prefix "credits"
 
-    timer 62.0 action Return() #46.5 seconds
+    timer 100.0 action Return() #46.5 seconds
     ## Adjust this number to control when the Credits screen is hidden and the game
     ## returns to its normal flow.
 
-    frame at credits_scroll(1000.0): #bigger is slower
+    frame at credits_scroll(1500.0): #bigger is slower
         ## Adjust this number to control the speed at which the credits scroll.
         background None
         xalign 0.5
@@ -665,12 +665,23 @@ screen credits():
 
             null height 150
 
-            text "Создатели игры благодарят всех, кто так или иначе принимал участие в разработке. Всех авторов использованных в игре артов и музыки.":
+            text "Создатели игры выражают благодарность всем, кто тем или иным образом были причастны к её созданию. Авторам идей, сюжетов, стихов, музыки, песен, сценариев, монтажа, рисунков, и особенно редактору.":
                 #font "ZCOOLXiaoWei-Regular.ttf"
                 #bold True
                 xalign 0.5
 
             null height 150
+
+
+            text "Также мы благодарим всех поклонников визуальной новеллы «Дневник Ульяны». Тех, кто на протяжении двух лет оставался с нами, поддерживая в нас волю и желание довести проект до его полного завершения.":
+                #font "ZCOOLXiaoWei-Regular.ttf"
+                #bold True
+                xalign 0.5
+
+            null height 150
+
+
+
 
             text "Руководитель проекта:": # add all your credits here
                 bold True

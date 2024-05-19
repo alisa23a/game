@@ -646,7 +646,7 @@ label day12:
 
     play music "audio/music/z_180.mp3"
 
-    scene bg fishing_campfire with dissolve
+    scene cg fishing_campfire with dissolve
 
     "Прошло уже два часа, а сом всё не показывался. Минули обещанные Петровичем двенадцать часов."
 

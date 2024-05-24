@@ -852,9 +852,9 @@ screen info_stand():
 
     imagemap:
 
-        ground "images/info_stand/info_stand_gr.webp"
-        idle "images/info_stand/info_stand_normal.png"
-        hover "images/info_stand/info_stand_hover.png"
+        ground "images/info_stand/info_stand_gr2.webp"
+        idle "images/info_stand/info_stand_normal2.png"
+        hover "images/info_stand/info_stand_hover2.png"
 
         hotspot(589,285,373,42) action Show ("stand_camp_rules")
         hotspot(537,182,458,64) action Show ("stand_honor_board")
@@ -867,9 +867,10 @@ screen info_stand():
         hotspot(983,512,255,261) action Show ("campmap")
         hotspot(1243,501,182,136) action Show ("stand_gallery")
         hotspot(1252,684,175,101) action Show ("stand_tips_owl")
-        hotspot(434,869,282,187) action Show ("sc_d_prologue")
+        #hotspot(434,869,282,187) action Show ("sc_d_prologue")
         #hotspot(1258,851,226,212) action Show ("stand_inventory")
-        hotspot(1258,851,226,212) action Show ("inventory_slots")
+        #hotspot(1258,851,226,212) action Show ("inventory_slots")
+        hotspot(848,851,226,212) action Show ("inventory_slots")
 
     add "stand_campfire_anim"
 

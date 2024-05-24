@@ -573,7 +573,7 @@ label day45:
     hide sp_mi_019
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2

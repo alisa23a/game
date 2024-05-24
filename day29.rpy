@@ -1418,14 +1418,14 @@ label day29:
 
     scene bg burleyka2 with dissolve
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     uv "(Помрачнев) \nЯ давно хочу, но Пионеру это может не понравиться."
 
-    hide sp_iul_010
+    hide sp_iul_009
 
 
     show sp_al_056:

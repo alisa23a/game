@@ -635,6 +635,24 @@ label day24:
     al_ul "(В один голос) \nЮЛЯ!"
 
 
+
+    pause (10000000000000000000000.0)
+  
+  
+    scene cg map_fragment with dissolve
+
+
+    "Вот, я срисовала тут и карту и следы."
+
+    pause (10000000000000000000000.0)
+
+
+    scene cg fooptprints_comparison with dissolve
+
+
+    pause (10000000000000000000000.0)
+
+
     stop music fadeout 1.0
 
 
@@ -1034,7 +1052,7 @@ label day24:
     scene bg yulya_room2 with dissolve
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
@@ -1568,7 +1586,7 @@ label day24:
 
     scene bg yulya_room2 with dissolve
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 
@@ -1590,7 +1608,7 @@ label day24:
 
     scene bg yulya_room2 with dissolve
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2 

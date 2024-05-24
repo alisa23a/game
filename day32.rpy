@@ -446,7 +446,7 @@ label day32:
     "И тут меня как молнией ударило. Юля! Я поднялась на чердак."
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.03 subpixel True
         xalign 0.5 subpixel True
         zoom 1.2 

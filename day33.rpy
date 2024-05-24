@@ -1707,7 +1707,7 @@ label day33:
     play music "audio/music/z_201.mp3"
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign -0.02 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1 
@@ -1719,7 +1719,7 @@ label day33:
 
     uv "Вы не спрашивали, поэтому я не говорила. Ну, в общем, она у меня, в убежище. Но я обещала ей не говорить вожатым. Ну и директрисе."
 
-    hide sp_iul_010
+    hide sp_iul_009
 
 
     show sp_al_002:
@@ -1805,7 +1805,7 @@ label day33:
     hide sp_ul_013
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign -0.02 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1 
@@ -1813,7 +1813,7 @@ label day33:
 
     uv "(Нагибаясь к уху Ульяны, шёпотом, чтобы не слышали другие) \nКрибле Крабле Бумс."
 
-    hide sp_iul_010
+    hide sp_iul_009
 
 
     show sp_ul_013:
@@ -2215,7 +2215,7 @@ label day33:
     hide sp_ul_013
 
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign -0.02 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1 
@@ -2227,7 +2227,7 @@ label day33:
 
     uv "И добавила ненужный ингредиент. Мухоморов. Они вызвали неправильную реакцию. Сон был не приятным, а тревожным. Приходили всякие сущности. Беседовали со мной."
 
-    hide sp_iul_010
+    hide sp_iul_009
 
 
     show sp_ul_013:
@@ -2653,7 +2653,7 @@ label day33:
 
     scene bg auhouse2 with dissolve
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2674,7 +2674,7 @@ label day33:
 
     scene bg auhouse2 with dissolve
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2696,14 +2696,14 @@ label day33:
 
     scene bg auhouse2 with dissolve
 
-    show sp_iul_010:
+    show sp_iul_009:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
 
     uv "ОНИ не хотели бы, чтобы я говорила. И я не буду."
 
-    hide sp_iul_010
+    hide sp_iul_009
 
     "Она метнулась к двери и выскользнула из домика."
 
@@ -2842,6 +2842,10 @@ label day33:
     scene cg ul_little_bot with dissolve
 
     "Все прошло замечательно, и я отпустила подарок Петровича как раз на середине реки. Со мной был фонарик, и я светила ему, когда он уплывал."
+
+
+    pause (1000000000000000000000000.0)
+
 
     "Если честно, я подумала, что мы его уже никогда не увидим."
 

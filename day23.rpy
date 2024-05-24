@@ -610,18 +610,6 @@ label day23:
     stop music fadeout 1.0
 
 
-    pause (10000000000000000000000.0)
-  
-  
-    scene cg map_fragment with dissolve
-
-
-    "Вот, я срисовала тут и карту и следы."
-
-    pause (10000000000000000000000.0)
-
-
-    scene cg fooptprints_comparison with dissolve
 
 
     pause (10000000000000000000000.0)

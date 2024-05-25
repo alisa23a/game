@@ -1,32 +1,10 @@
 ####################################
 ## Дневник, картиночная версия, отображается в начале игры
-# screen sc_p_prologue:
-    # tag menu
-    # zorder 100
-    # modal True
-    
-    # imagemap:
-        # ground "images/diary/p_prologue.webp"
-        # idle "gui/dnav1idle.png"
-        # hover "gui/dnav1hover.png"
-        
-        # hotspot(1784,464,112,152) action Hide ("sc_p_prologue"), Show ("sc_p_00")
-        # #hotspot(1787,37,85,84) action Hide ("prolog_diary_page"), Show ("info_stand")
 
 screen sc_p_prologue:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav1-1idle.png"
-        hover "gui/dnav1-1hover.png"
-        
-        hotspot(1784,464,112,152) action Hide ("sc_p_prologue"), Show ("sc_p_00")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page"), Show ("info_stand")
 
-
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -63,8 +41,6 @@ screen sc_p_prologue:
 
 
 
-
-
 style diary_pages_hbox:
     xsize 1500
     align (0.5, 0.0)
@@ -82,17 +58,8 @@ style diary_pages_text:
 
 screen sc_p_00:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_00"), Show ("sc_p_prologue")
-        hotspot(1784,464,112,152) action Hide ("sc_p_00"), Show ("sc_p_01")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page2"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -131,19 +98,8 @@ screen sc_p_00:
 
 screen sc_p_01:
     tag menu
-    zorder 100
-    modal True
 
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/diary4-1i.png"
-        hover "gui/diary4-1h.png"
-        
-        hotspot(1040,557,685,384) action Hide ("sc_p_01"), Show ("sc_p_01_pic")
-        hotspot(24,464,112,152) action Hide ("sc_p_01"), Show ("sc_p_00")
-        hotspot(1784,464,112,152) action Hide ("sc_p_01"), Show ("sc_p_02")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page4"), Show ("info_stand")
-
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -178,7 +134,10 @@ screen sc_p_01:
 
             text "(Тут я нарисовала свой сон)"
 
-
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary4-1i.png")
+                hover ("images/diary/diary4-1h.png")
+                action Hide ("sc_p_01"), Show("sc_p_01_pic")
 
 
 screen sc_p_01_pic:
@@ -186,8 +145,8 @@ screen sc_p_01_pic:
     zorder 100
     modal True
 
-    on "show" action Play("dreamMusicChannel", "audio/music/dream.mp3")
-    on "hide" action Stop("dreamMusicChannel")
+    on "show" action Play("dreamMusicChannel", "audio/music/dream.mp3"), Stop("music")
+    on "hide" action Stop("dreamMusicChannel"), Play("music", "audio/music/z_480_1.mp3")
 
     add "p_dream"
 
@@ -200,20 +159,9 @@ screen sc_p_01_pic:
 
         
 screen sc_p_02:
-    tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/diary5-1i.png"
-        hover "gui/diary5-1h.png"
-        
-        hotspot(176,149,682,685) action Hide ("sc_p_02"), Show ("sc_p_02_pic")
-        hotspot(24,464,112,152) action Hide ("sc_p_02"), Show ("sc_p_01")
-        hotspot(1784,464,112,152) action Hide ("sc_p_02"), Show ("sc_p_03")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page5"), Show ("info_stand")    
+    tag menu  
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -222,6 +170,11 @@ screen sc_p_02:
         vbox:
 
             null height 100
+
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary5-1i.png")
+                hover ("images/diary/diary5-1h.png")
+                action Hide ("sc_p_02"), Show("sc_p_02_pic")
 
 
         vbox:
@@ -245,7 +198,6 @@ screen sc_p_02_pic:
     zorder 100
     modal True
 
-    #$ renpy.music.stop()
     add "p_house"
     imagebutton:
         xpos 0 ypos 0
@@ -256,17 +208,8 @@ screen sc_p_02_pic:
 
 screen sc_p_03:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_03"), Show ("sc_p_02")
-        hotspot(1784,464,112,152) action Hide ("sc_p_03"), Show ("sc_p_04")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page6"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -301,18 +244,8 @@ screen sc_p_03:
 
 screen sc_p_04:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/diary8-1i.png"
-        hover "gui/diary8-1h.png"
 
-        hotspot(1061,605,612,332) action Hide ("sc_p_04"), Show ("sc_p_04_pic")        
-        hotspot(24,464,112,152) action Hide ("sc_p_04"), Show ("sc_p_03")
-        hotspot(1784,464,112,152) action Hide ("sc_p_04"), Show ("sc_p_05")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page7"), Show ("info_stand")
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -341,23 +274,16 @@ screen sc_p_04:
 
             text "(Здесь я нарисовала себя в лодке)"
 
-
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary8-1i.png")
+                hover ("images/diary/diary8-1h.png")
+                action Hide ("sc_p_04"), Show("sc_p_04_pic")
 
 
 screen sc_p_05:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_05"), Show ("sc_p_04")
-        hotspot(1784,464,112,152) action Hide ("sc_p_05"), Show ("sc_p_06")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page8"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -409,18 +335,8 @@ image bg boat_station2 = "images/bg/bg boat_station2.webp"
 
 screen sc_p_06:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_06"), Show ("sc_p_05")
-        hotspot(1784,464,112,152) action Hide ("sc_p_06"), Show ("sc_p_07")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page9"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -434,8 +350,10 @@ screen sc_p_06:
 
             null height 120
 
-            add "bg boat_station2":
-                zoom 0.33
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary06-1i.png")
+                hover ("images/diary/diary06-1h.png")
+                action Hide ("sc_p_06"), Show("sc_p_06_pic")
 
 
         vbox:
@@ -454,22 +372,27 @@ screen sc_p_06:
             text "Костер мы развели на холме, на опушке леса с видом на реку. Пришлось уйти от лагеря и мы были одни. Алиса сказала, что свет от лагеря мешает увидеть звезды. Мы жгли веточки которые я нашла наощупь в лесу, а Алиса ходила за мной, как будто тоже собирать, но я знала что теперь она просто боится что я опять потеряюсь. Я очень ей благодарна. Она хорошая. Вот тут размазались чернила… это я плачу."
 
 
+screen sc_p_06_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "bg boat_station2"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_06_pic"), Show("sc_p_06")
+
+
+
 image cg fishing_campfire = "images/cg/cg_day11_day12/cg fishing_campfire.webp"
 
 screen sc_p_07:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_07"), Show ("sc_p_06")
-        hotspot(1784,464,112,152) action Hide ("sc_p_07"), Show ("sc_p_08")
-        #hotspot(1787,37,85,84) action Hide ("prolog_diary_page10"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -479,9 +402,10 @@ screen sc_p_07:
 
             null height 100
 
-
-            add "cg fishing_campfire":
-                zoom 0.33
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary07-1i.png")
+                hover ("images/diary/diary07-1h.png")
+                action Hide ("sc_p_07"), Show("sc_p_07_pic")
 
             null height 70
 
@@ -507,19 +431,24 @@ screen sc_p_07:
             text "— Маленькая, не грусти! Пройдет немного времени, и у тебя будут милые грудки."
 
 
+screen sc_p_07_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg fishing_campfire"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_07_pic"), Show("sc_p_07")
+
+
 screen sc_p_08:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
- 
-        hotspot(24,464,112,152) action Hide ("sc_p_08"), Show ("sc_p_07") 
-        hotspot(1784,464,112,152) action Hide ("sc_p_08"), Show ("sc_p_09")
-        #hotspot(1787,37,85,84) action Hide ("day2_diary_page11"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -579,17 +508,8 @@ screen sc_p_08:
 
 screen sc_p_09:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_09"), Show ("sc_p_08")
-        hotspot(1784,464,112,152) action Hide ("sc_p_09"), Show ("sc_p_10")
-        #hotspot(1787,37,85,84) action Hide ("day2_diary_page12"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -632,17 +552,8 @@ image cg ul_elya_diary = "images/diary/cg ul_elya_diary.webp"
 
 screen sc_p_10:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_10"), Show ("sc_p_09")
-        hotspot(1784,464,112,152) action Hide ("sc_p_10"), Show ("sc_p_11")
-        #hotspot(1787,37,85,84) action Hide ("day2_diary_page13"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -673,29 +584,32 @@ screen sc_p_10:
 
             null height 20
 
-            add "cg ul_elya_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary10-1i.png")
+                hover ("images/diary/diary10-1h.png")
+                action Hide ("sc_p_10"), Show("sc_p_10_pic")
 
 
+screen sc_p_10_pic:
+    tag menu
+    zorder 110
+    modal True
 
+    add "cg ul_elya_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_10_pic"), Show("sc_p_10")
 
 
 
 
 screen sc_p_11:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_11"), Show ("sc_p_10")
-        hotspot(1784,464,112,152) action Hide ("sc_p_11"), Show ("sc_p_12")
-        #hotspot(1787,37,85,84) action Hide ("day2_diary_page14"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -730,17 +644,8 @@ image cg ul_cat_diary = "images/diary/cg ul_cat_diary.webp"
 
 screen sc_p_12:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_12"), Show ("sc_p_11")
-        hotspot(1784,464,112,152) action Hide ("sc_p_12"), Show ("sc_p_13")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page15"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -750,9 +655,10 @@ screen sc_p_12:
 
             null height 100
 
-            add "cg ul_cat_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary12-1i.png")
+                hover ("images/diary/diary12-1h.png")
+                action Hide ("sc_p_12"), Show("sc_p_12_pic")
 
             null height 20
 
@@ -781,21 +687,27 @@ screen sc_p_12:
             text "— Дяденька рыбак!"
 
 
+screen sc_p_12_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_cat_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_12_pic"), Show("sc_p_12")
+
+
+
 image cg pi_diary = "images/diary/cg pi_diary.webp"
 
 screen sc_p_13:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_13"), Show ("sc_p_12")
-        hotspot(1784,464,112,152) action Hide ("sc_p_13"), Show ("sc_p_14")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page16"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -828,9 +740,10 @@ screen sc_p_13:
 
             null height 100
 
-            add "cg pi_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary13-1i.png")
+                hover ("images/diary/diary13-1h.png")
+                action Hide ("sc_p_13"), Show("sc_p_13_pic")
 
             null height 20
 
@@ -844,21 +757,30 @@ screen sc_p_13:
 
             text "Лодка резко ускорилась, и от рывка я плюхнулась на дно."
 
+
+screen sc_p_13_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg pi_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_13_pic"), Show("sc_p_13")
+
+
+
+
+
 image cg pi_ul_boat_diary = "images/diary/cg pi_ul_boat_diary.webp"
 
 screen sc_p_14:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_14"), Show ("sc_p_13")
-        hotspot(1784,464,112,152) action Hide ("sc_p_14"), Show ("sc_p_14_1")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page17"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -868,9 +790,10 @@ screen sc_p_14:
 
             null height 100
 
-            add "cg pi_ul_boat_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary14-1i.png")
+                hover ("images/diary/diary14-1h.png")
+                action Hide ("sc_p_14"), Show("sc_p_14_pic")
 
             null height 20
 
@@ -918,21 +841,26 @@ screen sc_p_14:
             text "Он не дал договорить и быстро закрыл мне рот ладонью. От этого лодка развернулась и сделала на воде круг. Волна ударила в борт и лодка, остановившись, закачалась."
 
 
+screen sc_p_14_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg pi_ul_boat_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_14_pic"), Show("sc_p_14")
+
+
 
 
 screen sc_p_14_1:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_14_1"), Show ("sc_p_14")
-        hotspot(1784,464,112,152) action Hide ("sc_p_14_1"), Show ("sc_p_15")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page17"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -986,17 +914,8 @@ screen sc_p_14_1:
 
 screen sc_p_15:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_15"), Show ("sc_p_14")
-        hotspot(1784,464,112,152) action Hide ("sc_p_15"), Show ("sc_p_15_1")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1042,17 +961,8 @@ image cg le_frog_diary = "images/diary/cg le_frog_diary.webp"
 
 screen sc_p_15_1:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_15_1"), Show ("sc_p_15")
-        hotspot(1784,464,112,152) action Hide ("sc_p_15_1"), Show ("sc_p_15_2")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1087,26 +997,31 @@ screen sc_p_15_1:
 
             null height 20
 
-            add "cg le_frog_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary15_1-1i.png")
+                hover ("images/diary/diary15_1-1h.png")
+                action Hide ("sc_p_15_1"), Show("sc_p_15_1_pic")
 
+
+screen sc_p_15_1_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg le_frog_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_15_1_pic"), Show("sc_p_15_1")
 
 
 
 screen sc_p_15_2:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_15_2"), Show ("sc_p_15_1")
-        hotspot(1784,464,112,152) action Hide ("sc_p_15_2"), Show ("sc_p_16")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1142,17 +1057,8 @@ image cg pillow_fight = "images/cg/cg_day11_day12/cg pillow_fight.webp"
 
 screen sc_p_16:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_16"), Show ("sc_p_15_2")
-        hotspot(1784,464,112,152) action Hide ("sc_p_16"), Show ("sc_p_17")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1179,20 +1085,16 @@ screen sc_p_16:
 
             text "Мы сдвинули кровати и бегали вокруг, стараясь попасть друг в друга, но я попадала чаще и Алиса пошла «в рукопашную». Мы запрыгнули на кровати и продолжили битву. Алиса была выше и ловко обрушивала подушку сверху вниз, так что скоро моя голова уже гудела как колокол. Нет уж, так нечестно!"
 
-            text ""
-
-            text ""
-
-            text ""
 
 
         vbox:
 
             null height 100
 
-            add "cg pillow_fight":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary16-1i.png")
+                hover ("images/diary/diary16-1h.png")
+                action Hide ("sc_p_16"), Show("sc_p_16_pic")
 
             null height 20
 
@@ -1205,23 +1107,28 @@ screen sc_p_16:
             text "И мы стали подпрыгивать еще выше, пока Алиса не ударилась головой о висящий плафон. Она упала на кровать и заорала, что марсиане осуществили недружественный акт, они атаковали нас своими альфа лучами и один попал ей в голову! Она свела глаза к кончику носа и крутила головой, изображая головокружение."
 
 
+screen sc_p_16_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg pillow_fight"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_16_pic"), Show("sc_p_16")
+
+
 
 image cg ul_martian_diary = "images/diary/cg ul_martian_diary.webp"
 
 
 screen sc_p_17:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_17"), Show ("sc_p_16")
-        hotspot(1784,464,112,152) action Hide ("sc_p_17"), Show ("sc_p_18")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1262,26 +1169,36 @@ screen sc_p_17:
 
             null height 100
 
-            add "cg ul_martian_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary17-1i.png")
+                hover ("images/diary/diary17-1h.png")
+                action Hide ("sc_p_17"), Show("sc_p_17_pic")
+
+
+
+screen sc_p_17_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_martian_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_17_pic"), Show("sc_p_17")
+
+
+
 
 
 image cg vio_mirror_diary = "images/diary/cg vio_mirror_diary.webp"
 
 screen sc_p_18:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_18"), Show ("sc_p_17")
-        hotspot(1784,464,112,152) action Hide ("sc_p_18"), Show ("sc_p_19")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1328,26 +1245,37 @@ screen sc_p_18:
 
             null height 20
 
-            add "cg vio_mirror_diary":
-                xalign 0.5
-                zoom 0.33
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary18-1i.png")
+                hover ("images/diary/diary18-1h.png")
+                action Hide ("sc_p_18"), Show("sc_p_18_pic")
+
+
+screen sc_p_18_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg vio_mirror_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_18_pic"), Show("sc_p_18")
+
+
+
+
+
 
 
 image cg vio_turns_diary = "images/diary/cg vio_turns_diary.webp"
 
 screen sc_p_19:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_19"), Show ("sc_p_18")
-        hotspot(1784,464,112,152) action Hide ("sc_p_19"), Show ("sc_p_20")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1387,9 +1315,24 @@ screen sc_p_19:
 
             null height 20
 
-            add "cg vio_turns_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary19-1i.png")
+                hover ("images/diary/diary19-1h.png")
+                action Hide ("sc_p_19"), Show("sc_p_19_pic")
+
+
+screen sc_p_19_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg vio_turns_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_19_pic"), Show("sc_p_19")
 
 
 
@@ -1399,17 +1342,8 @@ image cg ul_twilight_diary = "images/diary/cg ul_twilight_diary.webp"
 
 screen sc_p_20:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_20"), Show ("sc_p_19")
-        hotspot(1784,464,112,152) action Hide ("sc_p_20"), Show ("sc_p_21")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1434,39 +1368,38 @@ screen sc_p_20:
 
             text "Но её уже не было. Она как будто растворилась в наступившей темноте. А ведь у меня очень острое зрение и хожу я быстро. Как так-то? Я была в недоумении."
 
-            text ""
-
-            text ""
-
-            text ""
-
-            text ""
 
 
         vbox:
 
             null height 100
 
-            add "cg ul_twilight_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary20-1i.png")
+                hover ("images/diary/diary20-1h.png")
+                action Hide ("sc_p_20"), Show("sc_p_20_pic")
+
+
+screen sc_p_20_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_twilight_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_20_pic"), Show("sc_p_20")
 
 
 image cg ul_lilac_diary = "images/diary/cg ul_lilac_diary.webp"
 
 screen sc_p_21:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_21"), Show ("sc_p_20")
-        hotspot(1784,464,112,152) action Hide ("sc_p_21"), Show ("sc_p_22")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1493,9 +1426,10 @@ screen sc_p_21:
 
             null height 100
 
-            add "cg ul_lilac_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary21-1i.png")
+                hover ("images/diary/diary21-1h.png")
+                action Hide ("sc_p_21"), Show("sc_p_21_pic")
 
             null height 20
 
@@ -1506,21 +1440,27 @@ screen sc_p_21:
             text "Наконец, он спрыгнул с крыльца и быстро пошёл в ту же сторону, куда недавно ушла Виола. Меня распирало любопытство. Подкравшись к двери, я осмотрела её. Что же ему тут было нужно? Может быть он хотел проникнуть в медпункт? Но зачем? Я решила на всякий случай посмотреть в замочную скважину. Может быть он пытался разглядеть свет, идущий изнутри?"
 
 
+screen sc_p_21_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_lilac_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_21_pic"), Show("sc_p_21")
+
+
+
 image cg al_grumpy_diary = "images/diary/cg al_grumpy_diary.webp"
 
 screen sc_p_22:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_22"), Show ("sc_p_21")
-        hotspot(1784,464,112,152) action Hide ("sc_p_22"), Show ("sc_p_23")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1540,9 +1480,10 @@ screen sc_p_22:
 
             null height 20
 
-            add "cg al_grumpy_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary22-1i.png")
+                hover ("images/diary/diary22-1h.png")
+                action Hide ("sc_p_22"), Show("sc_p_22_pic")
 
 
         vbox:
@@ -1569,19 +1510,27 @@ screen sc_p_22:
             text "— Прямо так и сказал? – Я вытаращила глаза и наверное у меня стало смешное лицо, потому что Алиса улыбнулась и наконец в её голосе появились мягкие нотки."
 
 
+screen sc_p_22_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg al_grumpy_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_22_pic"), Show("sc_p_22")
+
+
+
+
+
 screen sc_p_23:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_23"), Show ("sc_p_22")
-        hotspot(1784,464,112,152) action Hide ("sc_p_23"), Show ("sc_p_24")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1657,17 +1606,8 @@ image cg sem_vio_note_diary = "images/diary/cg sem_vio_note_diary.webp"
 
 screen sc_p_24:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_24"), Show ("sc_p_23")
-        hotspot(1784,464,112,152) action Hide ("sc_p_24"), Show ("sc_p_25")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1689,9 +1629,10 @@ screen sc_p_24:
 
             null height 40
 
-            add "cg sem_vio_note_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary24-1i.png")
+                hover ("images/diary/diary24-1h.png")
+                action Hide ("sc_p_24"), Show("sc_p_24_pic")
 
 
 
@@ -1720,19 +1661,26 @@ screen sc_p_24:
             text "Я успела разглядеть на папках фамилии девочек нашего отряда. Оказывается, у неё есть досье на каждого пионера."
 
 
+
+screen sc_p_24_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg sem_vio_note_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_24_pic"), Show("sc_p_24")
+
+
+
 screen sc_p_25:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_25"), Show ("sc_p_24")
-        hotspot(1784,464,112,152) action Hide ("sc_p_25"), Show ("sc_p_26")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1785,17 +1733,8 @@ screen sc_p_25:
 
 screen sc_p_26:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_26"), Show ("sc_p_25")
-        hotspot(1784,464,112,152) action Hide ("sc_p_26"), Show ("sc_p_27")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1849,17 +1788,8 @@ image cg house_silhouette_diary = "images/diary/cg house_silhouette_diary.webp"
 
 screen sc_p_27:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_27"), Show ("sc_p_26")
-        hotspot(1784,464,112,152) action Hide ("sc_p_27"), Show ("sc_p_28")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1879,11 +1809,10 @@ screen sc_p_27:
 
             null height 70
 
-            add "cg house_silhouette_diary":
-                zoom 0.33
-                xalign 0.5
-
-            null height 20
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary27-1i.png")
+                hover ("images/diary/diary27-1h.png")
+                action Hide ("sc_p_27"), Show("sc_p_27_pic")
 
 
 
@@ -1918,19 +1847,26 @@ screen sc_p_27:
             text "— Будем ждать, — Алиса села на землю и заставила меня сделать то же самое. Мы потушили фонарик. Настала такая темнота, что я не видела даже Алису, а только слышала её учащённое дыхание. "
 
 
+screen sc_p_27_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg house_silhouette_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_27_pic"), Show("sc_p_27")
+
+
+
+
 screen sc_p_28:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_28"), Show ("sc_p_27")
-        hotspot(1784,464,112,152) action Hide ("sc_p_28"), Show ("sc_p_29")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -1993,17 +1929,8 @@ image cg uvao_diary = "images/diary/cg uvao_diary.webp"
 
 screen sc_p_29:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_29"), Show ("sc_p_28")
-        hotspot(1784,464,112,152) action Hide ("sc_p_29"), Show ("sc_p_30")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2013,9 +1940,10 @@ screen sc_p_29:
 
             null height 100
 
-            add "cg uvao_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary29-1i.png")
+                hover ("images/diary/diary29-1h.png")
+                action Hide ("sc_p_29"), Show("sc_p_29_pic")
 
             null height 20
 
@@ -2058,22 +1986,29 @@ screen sc_p_29:
             text "Алиса продолжала расспрашивать её, но кошка только пожимала плечами. Наконец, сказав: «САМИ УВИДИТЕ», она взяла мешочек, в который собирала сахар, встала и махнула нам рукой, приглашая следовать за ней."
 
 
+screen sc_p_29_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg uvao_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_29_pic"), Show("sc_p_29")
+
+
+
+
 
 image cg ruins_diary = "images/diary/cg ruins_diary.webp"
 
 screen sc_p_30:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_30"), Show ("sc_p_29")
-        hotspot(1784,464,112,152) action Hide ("sc_p_30"), Show ("sc_p_31")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2106,9 +2041,10 @@ screen sc_p_30:
 
             null height 100
 
-            add "cg ruins_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary30-1i.png")
+                hover ("images/diary/diary30-1h.png")
+                action Hide ("sc_p_30"), Show("sc_p_30_pic")
 
             null height 20
 
@@ -2119,22 +2055,29 @@ screen sc_p_30:
             text "Алиса включила фонарик. Кошка оглянулась и зашипела. Мы с Алисой отпрянули. Это было очень неожиданно. Потушив фонарик, Алиса взяла свечу и зажгла её. Кошка успокоилась. Мы спускались вниз, и мне казалось, что ступеням не будет конца."
 
 
+screen sc_p_30_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ruins_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_30_pic"), Show("sc_p_30")
+
+
+
+
 image cg downstairs = "images/diary/cg downstairs.webp"
 
 
 screen sc_p_31:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_31"), Show ("sc_p_30")
-        hotspot(1784,464,112,152) action Hide ("sc_p_31"), Show ("sc_p_32")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2144,9 +2087,10 @@ screen sc_p_31:
 
             null height 100
 
-            add "cg downstairs":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary31-1i.png")
+                hover ("images/diary/diary31-1h.png")
+                action Hide ("sc_p_31"), Show("sc_p_31_pic")
 
             null height 20
 
@@ -2184,21 +2128,28 @@ screen sc_p_31:
             text "— Ты же пионер, а пионеры не отступают перед трудностями."
 
 
+screen sc_p_31_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg downstairs"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_31_pic"), Show("sc_p_31")
+
+
+
+
 image cg al_ul_underground_diary = "images/diary/cg al_ul_underground_diary.webp"
 
 screen sc_p_32:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_32"), Show ("sc_p_31")
-        hotspot(1784,464,112,152) action Hide ("sc_p_32"), Show ("sc_p_33")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2208,9 +2159,10 @@ screen sc_p_32:
 
             null height 100
 
-            add "cg al_ul_underground_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary32-1i.png")
+                hover ("images/diary/diary32-1h.png")
+                action Hide ("sc_p_32"), Show("sc_p_32_pic")
 
             null height 20
 
@@ -2249,23 +2201,31 @@ screen sc_p_32:
 
             text "Она сказала это так заговорщицки, что я поняла, что она шутит. Это меня рассмешило."
 
+
+screen sc_p_32_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg al_ul_underground_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_32_pic"), Show("sc_p_32")
+
+
+
+
 image cg ul_al_candle_diary = "images/diary/cg ul_al_candle_diary.webp"
 image cg staircase_diary = "images/diary/cg staircase_diary.webp"
 
 
 screen sc_p_33:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_33"), Show ("sc_p_32")
-        hotspot(1784,464,112,152) action Hide ("sc_p_33"), Show ("sc_p_34")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2275,9 +2235,10 @@ screen sc_p_33:
 
             null height 100
 
-            add "cg ul_al_candle_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary33-1i.png")
+                hover ("images/diary/diary33-1h.png")
+                action Hide ("sc_p_33"), Show("sc_p_33_1_pic")
 
             null height 20
 
@@ -2320,9 +2281,41 @@ screen sc_p_33:
 
             null height 20
 
-            add "cg staircase_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary33-2i.png")
+                hover ("images/diary/diary33-2h.png")
+                action Hide ("sc_p_33"), Show("sc_p_33_2_pic")
+
+
+
+screen sc_p_33_1_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_al_candle_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_33_1_pic"), Show("sc_p_33")
+
+
+
+screen sc_p_33_2_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg staircase_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_33_2_pic"), Show("sc_p_33")
+
 
 
 image cg starry_sky_diary = "images/diary/cg starry_sky_diary.webp"
@@ -2330,17 +2323,8 @@ image cg starry_sky_diary = "images/diary/cg starry_sky_diary.webp"
 
 screen sc_p_34:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_34"), Show ("sc_p_33")
-        hotspot(1784,464,112,152) action Hide ("sc_p_34"), Show ("sc_p_35")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2350,9 +2334,10 @@ screen sc_p_34:
 
             null height 100
 
-            add "cg starry_sky_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary34-1i.png")
+                hover ("images/diary/diary34-1h.png")
+                action Hide ("sc_p_34"), Show("sc_p_34_pic")
 
             null height 20
 
@@ -2402,22 +2387,27 @@ screen sc_p_34:
             text "— Странное совпадение, — прошептала она мне."
 
 
+screen sc_p_34_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg starry_sky_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_34_pic"), Show("sc_p_34")
+
+
 image cg al_ul_pi_campfire = "images/diary/cg al_ul_pi_campfire.webp"
 
 
 screen sc_p_35:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_35"), Show ("sc_p_34")
-        hotspot(1784,464,112,152) action Hide ("sc_p_35"), Show ("sc_p_36")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2427,9 +2417,10 @@ screen sc_p_35:
 
             null height 100
 
-            add "cg al_ul_pi_campfire":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary35-1i.png")
+                hover ("images/diary/diary35-1h.png")
+                action Hide ("sc_p_35"), Show("sc_p_35_pic")
 
             null height 20
 
@@ -2479,21 +2470,26 @@ screen sc_p_35:
             text "— Этот лагерь во время войны готовил разведчиц, и мой отец был тут начальником. И они бы убили главного фашистского зверя, если бы эта штука, — он сделал рукой круг над головой, — вдруг не включилась сама."
 
 
+screen sc_p_35_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg al_ul_pi_campfire"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_35_pic"), Show("sc_p_35")
+
+
+
 
 screen sc_p_36:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_36"), Show ("sc_p_35")
-        hotspot(1784,464,112,152) action Hide ("sc_p_36"), Show ("sc_p_37")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2548,17 +2544,8 @@ image cg al_ul_dossier_diary = "images/diary/cg al_ul_dossier_diary.webp"
 
 screen sc_p_37:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_37"), Show ("sc_p_36")
-        hotspot(1784,464,112,152) action Hide ("sc_p_37"), Show ("sc_p_38")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2607,24 +2594,33 @@ screen sc_p_37:
 
             null height 20
 
-            add "cg al_ul_dossier_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary37-1i.png")
+                hover ("images/diary/diary37-1h.png")
+                action Hide ("sc_p_37"), Show("sc_p_37_pic")
+
+
+screen sc_p_37_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg al_ul_dossier_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_37_pic"), Show("sc_p_37")
+
+
+
 
 
 screen sc_p_38:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_38"), Show ("sc_p_37")
-        hotspot(1784,464,112,152) action Hide ("sc_p_38"), Show ("sc_p_39")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2690,17 +2686,8 @@ image cg lenin_diary = "images/diary/cg lenin_diary.webp"
 
 screen sc_p_39:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_39"), Show ("sc_p_38")
-        hotspot(1784,464,112,152) action Hide ("sc_p_39"), Show ("sc_p_40")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2710,9 +2697,10 @@ screen sc_p_39:
 
             null height 100
 
-            add "cg al_ul_dossier_diary2":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary39-1i.png")
+                hover ("images/diary/diary39-1h.png")
+                action Hide ("sc_p_39"), Show("sc_p_39_1_pic")
 
             null height 20
 
@@ -2750,29 +2738,50 @@ screen sc_p_39:
 
             null height 20
 
-            add "cg lenin_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary39-2i.png")
+                hover ("images/diary/diary39-2h.png")
+                action Hide ("sc_p_39"), Show("sc_p_39_2_pic")
+
+
+
+screen sc_p_39_1_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg al_ul_dossier_diary2"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_39_1_pic"), Show("sc_p_39")
+
+
+
+screen sc_p_39_2_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg lenin_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_39_2_pic"), Show("sc_p_39")
+
 
 
 image cg sem_dossier = "images/cg/cg_oth/dossiers/cg sem_dossier.webp"
 
 
-
 screen sc_p_40:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_40"), Show ("sc_p_39")
-        hotspot(1784,464,112,152) action Hide ("sc_p_40"), Show ("sc_p_41")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2808,9 +2817,10 @@ screen sc_p_40:
 
             null height 100
 
-            add "cg sem_dossier":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary40-1i.png")
+                hover ("images/diary/diary40-1h.png")
+                action Hide ("sc_p_40"), Show("sc_p_40_pic")
 
             null height 20
 
@@ -2819,24 +2829,28 @@ screen sc_p_40:
             text "— «Семён — важное звено эксперимента. Оказать содействие по внедрению. Отобран в связи с особыми качествами характера. Идеален для подсадки в любой коллектив, группу, сообщество. Имеет способности располагать к себе, пользуется успехом у противоположного пола, абсолютно аморален, тверд. Любит испытывать и причинять боль. Бисексуален, любопытен, неразборчив в средствах. Управляем через тщеславие. Идеалов нет. Самолюбив. Склонен преувеличивать собственную значимость. Синдром Герострата»."
 
 
+screen sc_p_40_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg sem_dossier"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_40_pic"), Show("sc_p_40")
+
+
 
 image cg ul_dossier = "images/cg/cg_oth/dossiers/cg ul_dossier.webp"
 
 
 screen sc_p_41:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_41"), Show ("sc_p_40")
-        hotspot(1784,464,112,152) action Hide ("sc_p_41"), Show ("sc_p_42")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2867,14 +2881,29 @@ screen sc_p_41:
 
             null height 100
 
-            add "cg ul_dossier":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary41-1i.png")
+                hover ("images/diary/diary41-1h.png")
+                action Hide ("sc_p_41"), Show("sc_p_41_pic")
 
             null height 20
 
             text "— Теперь понятно, почему Ольга Дмитриевна меня опекает. «Глаз да глаз». И вовсе я не такая."
 
+
+
+screen sc_p_41_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_dossier"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_41_pic"), Show("sc_p_41")
 
 
 
@@ -2884,18 +2913,8 @@ image cg le_dossier = "images/cg/cg_oth/dossiers/cg le_dossier.webp"
 
 screen sc_p_42:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_42"), Show ("sc_p_41")
-        hotspot(1784,464,112,152) action Hide ("sc_p_42"), Show ("sc_p_43")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2905,9 +2924,10 @@ screen sc_p_42:
 
             null height 100
 
-            add "cg al_dossier":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary42-1i.png")
+                hover ("images/diary/diary42-1h.png")
+                action Hide ("sc_p_42"), Show("sc_p_42_1_pic")
 
             null height 20
 
@@ -2918,9 +2938,10 @@ screen sc_p_42:
 
             null height 100
 
-            add "cg le_dossier":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary42-2i.png")
+                hover ("images/diary/diary42-2h.png")
+                action Hide ("sc_p_42"), Show("sc_p_42_2_pic")
 
             null height 20
 
@@ -2937,22 +2958,40 @@ screen sc_p_42:
             text "Особые черты характера: Обладает хорошей памятью. Наблюдательна."
 
 
+screen sc_p_42_1_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg al_dossier"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_42_1_pic"), Show("sc_p_42")
+
+
+
+screen sc_p_42_2_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg le_dossier"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_42_2_pic"), Show("sc_p_42")
+
 
 
 screen sc_p_43:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_43"), Show ("sc_p_42")
-        hotspot(1784,464,112,152) action Hide ("sc_p_43"), Show ("sc_p_44")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -2993,18 +3032,8 @@ image cg meeting_dyaries_diary = "images/cg/cg_oth/cg meeting_dyaries_diary.webp
 
 screen sc_p_44:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_44"), Show ("sc_p_43")
-        hotspot(1784,464,112,152) action Hide ("sc_p_44"), Show ("sc_p_45")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3014,9 +3043,10 @@ screen sc_p_44:
 
             null height 100
 
-            add "cg meeting_dyaries_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary44-1i.png")
+                hover ("images/diary/diary44-1h.png")
+                action Hide ("sc_p_44"), Show("sc_p_44_pic")
 
             null height 20
 
@@ -3047,21 +3077,25 @@ screen sc_p_44:
             text "— Вы можете писать для себя всё, что хотите, — продолжила Ольга Дмитриевна. — Но отдельные ваши рассказы мы будем печатать в стенной газете. Какие, вы решите сами. Дневники ваши и вы сможете забрать их после каникул домой, как память о пребывании в лагере. Если кто-то делает это в первый раз, то может посоветоваться с Женей и Ульяной. Женя будет подсказывать вам ваши ошибки, чтобы вы вели дневник грамотно. А теперь мы вручим вам дневники."
 
 
+screen sc_p_44_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg meeting_dyaries_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_44_pic"), Show("sc_p_44")
+
 
 screen sc_p_45:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_45"), Show ("sc_p_44")
-        hotspot(1784,464,112,152) action Hide ("sc_p_45"), Show ("sc_p_46")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3099,18 +3133,8 @@ screen sc_p_45:
 
 screen sc_p_46:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_46"), Show ("sc_p_45")
-        hotspot(1784,464,112,152) action Hide ("sc_p_46"), Show ("sc_p_47")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3160,18 +3184,8 @@ image cg sam_diary1 = "images/diary/cg sam_diary1.webp"
 
 screen sc_p_47:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_47"), Show ("sc_p_46")
-        hotspot(1784,464,112,152) action Hide ("sc_p_47"), Show ("sc_p_48")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3189,9 +3203,10 @@ screen sc_p_47:
 
             null height 20
 
-            add "cg sam_diary1":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary47-1i.png")
+                hover ("images/diary/diary47-1h.png")
+                action Hide ("sc_p_47"), Show("sc_p_47_pic")
 
 
         vbox:
@@ -3211,6 +3226,20 @@ screen sc_p_47:
             text "Но как бы то ни было, дело было уже сделано. Весь план Маргариты Павловны и Ольги Дмитриевны пошел насмарку."
 
 
+screen sc_p_47_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg sam_diary1"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_47_pic"), Show("sc_p_47")
+
+
 
 
 image cg sam_diary2 = "images/diary/cg sam_diary2.webp"
@@ -3218,18 +3247,8 @@ image cg sam_diary3 = "images/diary/cg sam_diary3.webp"
 
 screen sc_p_48:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_48"), Show ("sc_p_47")
-        hotspot(1784,464,112,152) action Hide ("sc_p_48"), Show ("sc_p_49")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
 
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3239,9 +3258,10 @@ screen sc_p_48:
 
             null height 100
 
-            add "cg sam_diary2":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary48-1i.png")
+                hover ("images/diary/diary48-1h.png")
+                action Hide ("sc_p_48"), Show("sc_p_48_pic")
 
             null height 20
 
@@ -3256,12 +3276,6 @@ screen sc_p_48:
 
             null height 100
 
-            # add "cg sam_diary3":
-                # zoom 0.33
-                # xalign 0.5
-
-            # null height 20
-
             text "На её лице играла добродушная улыбка."
 
             text "Другие пытались оттеснить Семёна и заговорить с девочкой, но Семён прочно удерживал её внимание и, наконец, взяв за руку, повёл в библиотеку. Женя стала объяснять напиравшей толпе, что официальная часть знакомства произойдет позже и Саманта расскажет о себе и своей миссии, а пока ей нужно показать её комнату над библиотекой. Когда страсти поутихли, весь наш отряд собрался в читальном зале."
@@ -3273,23 +3287,26 @@ screen sc_p_48:
             text "Почему высшим руководством был выбран именно наш лагерь, было непонятно. Саманта сказала, что наш лагерь ей очень понравился. У них нет таких специальных лагерей. Скауты в США обычно представляют отдельные колледжи, а собираются только в походы на природу, во временные лагеря, где инструктора учат их «выживанию»."
 
 
+screen sc_p_48_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg sam_diary2"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_48_pic"), Show("sc_p_48")
 
 
 image cg scout_diary = "images/diary/cg scout_diary.webp"
 
 screen sc_p_49:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_49"), Show ("sc_p_48")
-        hotspot(1784,464,112,152) action Hide ("sc_p_49"), Show ("sc_p_50")
-        #hotspot(1787,37,85,84) action Hide ("day3_diary_page18"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3305,22 +3322,15 @@ screen sc_p_49:
 
             text "И вот что та рассказала."
 
-            text ""
-
-            text ""
-
-            text ""
-
-            text ""
-
 
         vbox:
 
             null height 100
 
-            add "cg scout_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary49-1i.png")
+                hover ("images/diary/diary49-1h.png")
+                action Hide ("sc_p_49"), Show("sc_p_49_pic")
 
             null height 20
 
@@ -3331,23 +3341,27 @@ screen sc_p_49:
             text "Скаут сам пришивает нашивки на свою форму, делает это аккуратно и красиво. Скаут должен следить за правильностью расположения нашивок на своей форме."
 
 
+screen sc_p_49_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg scout_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_49_pic"), Show("sc_p_49")
+
 
 image cg symbols_diary = "images/diary/cg symbols_diary.webp"
 
 
 screen sc_p_50:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_50"), Show ("sc_p_49")
-        hotspot(1784,464,112,152) action Hide ("sc_p_50"), Show ("sc_p_51")
-        #hotspot(1787,37,85,84) action Hide ("sc_d_50"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3357,9 +3371,10 @@ screen sc_p_50:
 
             null height 100
 
-            add "cg symbols_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary50-1i.png")
+                hover ("images/diary/diary50-1h.png")
+                action Hide ("sc_p_50"), Show("sc_p_50_pic")
 
             null height 20
 
@@ -3383,23 +3398,28 @@ screen sc_p_50:
             text "Зеленый — цвет наставника (высшее звание среди скаутов). Добиться этой ступени — значит, уметь находить выход из любой ситуации, быть лидером среди товарищей и являть собой эталон настоящего скаута."
 
 
+screen sc_p_50_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg symbols_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_50_pic"), Show("sc_p_50")
+
+
 image cg uniform_diary = "images/diary/cg uniform_diary.webp"
 image cg ul_sam_flag_diary = "images/diary/cg ul_sam_flag_diary.webp"
 
 
 screen sc_p_51:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_51"), Show ("sc_p_50")
-        hotspot(1784,464,112,152) action Hide ("sc_p_51"), Show ("sc_p_52")
-        #hotspot(1787,37,85,84) action Hide ("sc_d_51"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3409,12 +3429,12 @@ screen sc_p_51:
 
             null height 100
 
-            add "cg uniform_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary51-1i.png")
+                hover ("images/diary/diary51-1h.png")
+                action Hide ("sc_p_51"), Show("sc_p_51_1_pic")
 
             null height 20
-
 
 
             text "Скаутский шейный платок завязывается особым образом и не так, как пионерский. Иногда есть специальная застежка для галстука."
@@ -3426,14 +3446,14 @@ screen sc_p_51:
             text "Но мы её не очень послушались. Всем хотелось побыть рядом с Самантой. Все фотографировались. И я тоже сфотографировалась с Самантой."
 
 
-
         vbox:
 
             null height 100
 
-            add "cg ul_sam_flag_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary51-2i.png")
+                hover ("images/diary/diary51-2h.png")
+                action Hide ("sc_p_51"), Show("sc_p_51_2_pic")
 
             null height 20
 
@@ -3442,22 +3462,40 @@ screen sc_p_51:
             text "Ну вот. Оказывается, Ольга Дмитриевна приготовила дневник и для Саманты. И ей его торжественно вручила под наши аплодисменты. Вот какая у нас предусмотрительная вожатая. Ни в одном лагере такой нет. Интересно, что напишет Саманта про наш лагерь. Вот бы посмотреть хоть одним глазком. Может, и про меня что-нибудь."
 
 
+screen sc_p_51_1_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg uniform_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_51_1_pic"), Show("sc_p_51")
+
+
+screen sc_p_51_2_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg ul_sam_flag_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_51_2_pic"), Show("sc_p_51")
+
 
 image cg meeting_total_sam = "images/cg/cg_oth/cg meeting_total_sam.webp"
 
 screen sc_p_52:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_52"), Show ("sc_p_51")
-        hotspot(1784,464,112,152) action Hide ("sc_p_52"), Show ("sc_p_53")
-        #hotspot(1787,37,85,84) action Hide ("sc_d_52"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3467,9 +3505,10 @@ screen sc_p_52:
 
             null height 100
 
-            add "cg meeting_total_sam":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary52-1i.png")
+                hover ("images/diary/diary52-1h.png")
+                action Hide ("sc_p_52"), Show("sc_p_52_pic")
 
             null height 20
 
@@ -3498,20 +3537,24 @@ screen sc_p_52:
             text "Ну и пишет: «Если я тебе не безразличен, приходи туда-то и туда-то. Если тебе всё равно — порви это письмо и напиши НЕТ»."
 
 
+screen sc_p_52_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg meeting_total_sam"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_52_pic"), Show("sc_p_52")
+
 
 screen sc_p_53:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_53"), Show ("sc_p_52")
-        hotspot(1784,464,112,152) action Hide ("sc_p_53"), Show ("sc_p_54")
-        #hotspot(1787,37,85,84) action Hide ("sc_d_53"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3545,23 +3588,13 @@ screen sc_p_53:
             text "И мы пошли в столовую. Я ковыряла запеканку (не люблю я её), а сама грустно думала, почему мне не пишут? Что со мной не так? А Алиса сказала, что все боятся, потому что у меня такой характер. Думают, засмею."
 
 
-
 image cg_pi_note_diary = "images/diary/cg_pi_note_diary.webp"
 
 
 screen sc_p_54:
     tag menu
-    zorder 100
-    modal True
-    
-    imagemap:
-        ground "images/diary/diary_blue_bg.webp"
-        idle "gui/dnav3-1idle.png"
-        hover "gui/dnav3-1hover.png"
-        
-        hotspot(24,464,112,152) action Hide ("sc_p_54"), Show ("sc_p_53")
-        hotspot(1784,464,112,152) action Hide ("sc_p_54"), Jump ("day8")
-        #hotspot(1787,37,85,84) action Hide ("sc_d_54"), Show ("info_stand")
+
+    add "images/diary/diary_blue_bg.webp"
 
     style_prefix "diary_pages"
 
@@ -3586,9 +3619,11 @@ screen sc_p_54:
 
             null height 100
 
-            add "cg_pi_note_diary":
-                zoom 0.33
-                xalign 0.5
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary54-1i.png")
+                hover ("images/diary/diary54-1h.png")
+                action Hide ("sc_p_54"), Show("sc_p_54_pic")
+
 
             null height 20
 
@@ -3597,18 +3632,28 @@ screen sc_p_54:
             text "А Алиса отнеслась к записке серьезно. Говорит, одну тебя не пущу. Но я же упрямая. И она все-таки разрешила."
 
 
+screen sc_p_54_pic:
+    tag menu
+    zorder 110
+    modal True
 
-#Jump ("day8")
+    add "cg_pi_note_diary"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_54_pic"), Show("sc_p_54")
+
 
 image prologue = Movie(play="video/prologue.webm", size=(1920, 1080))
 
 image first_morning = Movie(play="video/first_morning.webm", size=(1920, 1080))
 
-    # scene ul_pi_island_02
-
-    # pause (10000000000)
 
 label start:
+
+    $ style.say_window = style.window
 
     stop music
 
@@ -3628,35 +3673,608 @@ label first_m:
     stop music
 
     show first_morning
-    
-    #$ renpy.movie_cutscene("video/first_morning.webm")
 
     pause (406.0)
 
     hide first_morning
 
-    jump diary_pages_all
 
 
-label diary_pages_all:
+    jump sc_p_prologue
+
+
+label sc_p_prologue:
+
+    $ style.say_window = style.window_CUSTOM
 
     stop music
 
+    play music "audio/music/z_480_1.mp3"
+
+    $ show_quick_menu = True
+
     show screen sc_p_prologue with fade
-    
-    pause (10000000000)
+
+    ""
+
+    jump sc_p_00
 
 
+label sc_p_00:
+
+    $ style.say_window = style.window_CUSTOM
 
 
+    show screen sc_p_00 with fade
+
+    ""
+
+    jump sc_p_01
 
 
+label sc_p_01:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_01 with fade
+
+    ""
+
+    jump sc_p_02
 
 
+label sc_p_02:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_02 with fade
+
+    ""
+
+    jump sc_p_03
 
 
+label sc_p_03:
 
+    $ style.say_window = style.window_CUSTOM
 
+    show screen sc_p_03 with fade
+
+    ""
+
+    jump sc_p_04
+
+label sc_p_04:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_04 with fade
+
+    ""
+
+    jump sc_p_05
+
+label sc_p_05:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_05 with fade
+
+    ""
+
+    jump sc_p_06
+
+label sc_p_06:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_06 with fade
+
+    ""
+
+    jump sc_p_07
+
+label sc_p_07:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_07 with fade
+
+    ""
+
+    jump sc_p_08
+
+label sc_p_08:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_08 with fade
+
+    ""
+
+    jump sc_p_09
+
+label sc_p_09:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_09 with fade
+
+    ""
+
+    jump sc_p_10
+
+label sc_p_10:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_10 with fade
+
+    ""
+
+    jump sc_p_11
+
+label sc_p_11:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_11 with fade
+
+    ""
+
+    jump sc_p_12
+
+label sc_p_12:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_12 with fade
+
+    ""
+
+    jump sc_p_13
+
+label sc_p_13:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_13 with fade
+
+    ""
+
+    jump sc_p_14
+
+label sc_p_14:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_14 with fade
+
+    ""
+
+    jump sc_p_15
+
+label sc_p_15:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_15 with fade
+
+    ""
+
+    jump sc_p_15_1
+
+label sc_p_15_1:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_15_1 with fade
+
+    ""
+
+    jump sc_p_15_2
+
+label sc_p_15_2:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_15_2 with fade
+
+    ""
+
+    jump sc_p_16
+
+label sc_p_16:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_16 with fade
+
+    ""
+
+    jump sc_p_17
+
+label sc_p_17:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_17 with fade
+
+    ""
+
+    jump sc_p_18
+
+label sc_p_18:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_18 with fade
+
+    ""
+
+    jump sc_p_19
+
+label sc_p_19:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_19 with fade
+
+    ""
+
+    jump sc_p_20
+
+label sc_p_20:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_20 with fade
+
+    ""
+
+    jump sc_p_21
+
+label sc_p_21:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_21 with fade
+
+    ""
+
+    jump sc_p_22
+
+label sc_p_22:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_22 with fade
+
+    ""
+
+    jump sc_p_23
+
+label sc_p_23:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_23 with fade
+
+    ""
+
+    jump sc_p_24
+
+label sc_p_24:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_24 with fade
+
+    ""
+
+    jump sc_p_25
+
+label sc_p_25:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_25 with fade
+
+    ""
+
+    jump sc_p_26
+
+label sc_p_26:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_26 with fade
+
+    ""
+
+    jump sc_p_27
+
+label sc_p_27:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_27 with fade
+
+    ""
+
+    jump sc_p_28
+
+label sc_p_28:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_28 with fade
+
+    ""
+
+    jump sc_p_29
+
+label sc_p_29:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_29 with fade
+
+    ""
+
+    jump sc_p_30
+
+label sc_p_30:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_30 with fade
+
+    ""
+
+    jump sc_p_31
+
+label sc_p_31:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_31 with fade
+
+    ""
+
+    jump sc_p_32
+
+label sc_p_32:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_32 with fade
+
+    ""
+
+    jump sc_p_33
+
+label sc_p_33:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_33 with fade
+
+    ""
+
+    jump sc_p_34
+
+label sc_p_34:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_34 with fade
+
+    ""
+
+    jump sc_p_35
+
+label sc_p_35:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_35 with fade
+
+    ""
+
+    jump sc_p_36
+
+label sc_p_36:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_36 with fade
+
+    ""
+
+    jump sc_p_37
+
+label sc_p_37:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_37 with fade
+
+    ""
+
+    jump sc_p_38
+
+label sc_p_38:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_38 with fade
+
+    ""
+
+    jump sc_p_39
+
+label sc_p_39:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_39 with fade
+
+    ""
+
+    jump sc_p_40
+
+label sc_p_40:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_40 with fade
+
+    ""
+
+    jump sc_p_41
+
+label sc_p_41:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_41 with fade
+
+    ""
+
+    jump sc_p_42
+
+label sc_p_42:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_42 with fade
+
+    ""
+
+    jump sc_p_43
+
+label sc_p_43:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_43 with fade
+
+    ""
+
+    jump sc_p_44
+
+label sc_p_44:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_44 with fade
+
+    ""
+
+    jump sc_p_45
+
+label sc_p_45:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_45 with fade
+
+    ""
+
+    jump sc_p_46
+
+label sc_p_46:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_46 with fade
+
+    ""
+
+    jump sc_p_47
+
+label sc_p_47:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_47 with fade
+
+    ""
+
+    jump sc_p_48
+
+label sc_p_48:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_48 with fade
+
+    ""
+
+    jump sc_p_49
+
+label sc_p_49:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_49 with fade
+
+    ""
+
+    jump sc_p_50
+
+label sc_p_50:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_50 with fade
+
+    ""
+
+    jump sc_p_51
+
+label sc_p_51:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_51 with fade
+
+    ""
+
+    jump sc_p_52
+
+label sc_p_52:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_52 with fade
+
+    ""
+
+    jump sc_p_53
+
+label sc_p_53:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_53 with fade
+
+    ""
+
+    jump sc_p_54
+
+label sc_p_54:
+
+    $ style.say_window = style.window_CUSTOM
+
+    show screen sc_p_54 with fade
+
+    ""
+
+    hide screen sc_p_54
+
+    jump day8
 
 
 

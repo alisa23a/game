@@ -561,6 +561,10 @@ image ul1_2:
 
 default show_quick_menu = True
 
+default show_window = False
+
+
+
 
 
 

@@ -138,6 +138,16 @@ style window:
 
     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
+
+style window_CUSTOM is window:
+    background Image("gui/custom_textbox.png", xalign=0.5, yalign=1.0)
+
+
+style window_CUSTOM_2 is window:
+    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+
+
+
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign

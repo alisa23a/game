@@ -5,6 +5,8 @@ style skytext_text:
 
 label day8:
 
+    $ style.say_window = style.window
+
     default days = 8
 
     stop music

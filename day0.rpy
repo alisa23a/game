@@ -3689,7 +3689,7 @@ label sc_p_prologue:
 
     stop music
 
-    play music "audio/music/z_480_1.mp3"
+    play music "audio/music/z_017_1.mp3"
 
     $ show_quick_menu = True
 

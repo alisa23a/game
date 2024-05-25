@@ -146,7 +146,7 @@ screen sc_p_01_pic:
     modal True
 
     on "show" action Play("dreamMusicChannel", "audio/music/dream.mp3"), Stop("music")
-    on "hide" action Stop("dreamMusicChannel"), Play("music", "audio/music/z_480_1.mp3")
+    on "hide" action Stop("dreamMusicChannel"), Play("music", "audio/music/z_017_1.mp3")
 
     add "p_dream"
 

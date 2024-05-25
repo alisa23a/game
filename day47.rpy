@@ -1,5 +1,7 @@
 label day47:
 
+    $ style.say_window = style.window
+
     $ days = 47
 
     play music "audio/music/z_300.mp3"

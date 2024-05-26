@@ -1797,3 +1797,4 @@ screen epilogue:
             vbox:
                 style_prefix "currentDayStyle"
                 text "Эпилог"
+                text "День [days]"

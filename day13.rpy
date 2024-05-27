@@ -4,24 +4,31 @@ label day13:
 
     $ days = 13
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
 
+
     pause (1000000000000000000.0)
+
 
     hide screen current_day
 
     $ show_quick_menu = True
 
-    stop music
-
-
-    play music "audio/music/z_197.mp3"
 
     scene bg camp_artifacts
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     "Идея игры в карты принадлежала Алисе. Она же определила место."
 
@@ -47,7 +54,7 @@ label day13:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 0.5
 
     jump key_theft_1
 
@@ -173,7 +180,7 @@ screen key_theft_9():
 
 label key_theft_1:
     
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
     show screen key_theft_1 with fade
 
@@ -263,11 +270,14 @@ label day13_2:
 
     $ show_quick_menu = True
 
-    stop music
-
-    play music "audio/music/z_089.mp3"
 
     scene bg attic_inside with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_089.mp3"
+
 
     "Наконец мы попали в заветное помещение. Там царили паутина, пыль и летучая мышь. Мышь решили не трогать, она стала символом Чердака и его талисманом. От остального безжалостно избавились."
 
@@ -306,11 +316,13 @@ label day13_2:
         repeat 
 
 
-    stop music
-
-    play music "audio/music/z_201.mp3"
-
     scene an_d13_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
+
 
     show an_13_01
 
@@ -598,11 +610,13 @@ label day13_2:
     guys "(Хором) \nВсегда готовы!"
 
 
-    stop music
-
-    play music "audio/music/z_055.mp3"   
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"   
+
 
     show an_10_01
 
@@ -617,11 +631,13 @@ label day13_2:
     "После обеда при помощи  первого отряда и Петровича, решено было начать подъем."
 
 
-    stop music
-
-    play music "audio/music/z_124.mp3" 
-
     scene bg bathyscaphe
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3" 
+
 
     "К обеду все было готово. Петрович с Электроником и Шуриком , отбили ржавчину, смазали весь механизм, прикрепили трос."
 
@@ -638,8 +654,10 @@ label day13_2:
 
     scene bg bathyscaphe4
 
+
     pause (10000000000000000000000.0)
-    
+
+
     "Я прочитала вслух выдавленные на корпусе лебедки буквы: «Екатерининский завод»"
 
     scene bg bathyscaphe
@@ -742,17 +760,20 @@ label day13_2:
     hide sp_pe_005
 
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_206.mp3" 
+    queue music "audio/music/z_206.mp3" 
+
 
     "Несмотря на протесты Петровича, все девочки кинулись помогать. Я споткнулась впопыхах и наверное упала бы с пристани, но зацепившись за коромысло, к которому был привязан противовес, повисла над водой."
 
     "Колесо с противовесом медленно вращалось, поднимая меня все выше и выше."
 
-    stop music
 
-    play music "audio/music/z_205.mp3" 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_205.mp3" 
+
 
     show sp_ul_037:
         yalign 0.0 subpixel True
@@ -765,9 +786,11 @@ label day13_2:
 
     "Я подтянулась и закрепилась ногами, забравшись на самое коромысло крана-лебедки. Противовес шел вниз и я своим весом как бы помогала тянуть трос."
 
-    stop music
 
-    play music "audio/music/z_206.mp3" 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_206.mp3" 
+
 
     "Все закричали: «Уходи оттуда! Отпускаем!» Но Петрович не дал отпустить рычаг."
 
@@ -781,11 +804,13 @@ label day13_2:
     hide sp_pe_005
 
 
-    stop music
-
-    play music "audio/music/z_207.mp3" 
-
     scene bg bathyscaphe3
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_207.mp3" 
+
 
     "Наконец, противовес достиг высшей точки и остановился. С высоты коромысла я увидела весь лагерь и то, как колокол показался из воды и, медленно переворачиваясь, выпрямлялся."
 
@@ -805,27 +830,32 @@ label day13_2:
 
     "Колокол вдруг вынырнул из воды и издал какой-то плюхающий звук."
 
-    " Чпок!"
+    "Чпок!"
 
-    stop music
 
-    play music "audio/music/z_209.mp3" 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_209.mp3" 
+
 
     "А я от неожиданности отпустила руки и полетела в воду."
 
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_208.mp3"
+    queue music "audio/music/z_208.mp3"
 
 
     "Хрясь!"
 
-    stop music
-
-    play music "audio/music/z_210.mp3" 
 
     scene an_d13_03_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_210.mp3" 
+
 
     "Вынырнув, я крикнула:"
 
@@ -863,10 +893,6 @@ label day13_2:
     image an_13_03: # Анимация Ульяна машет флажком
         
 
-        # "images/an/an13day/an_d13_18.png" with Dissolve(0.5, alpha=True)
-        # pause 0.2
-        # "images/an/an13day/an_d13_19.png" with Dissolve(0.5, alpha=True)
-        # pause 0.2
         "images/an/an13day/an_d13_20.png" with Dissolve(0.5, alpha=True)
         pause 0.2
         "images/an/an13day/an_d13_21.png" with Dissolve(0.5, alpha=True)
@@ -882,7 +908,6 @@ label day13_2:
         repeat
 
 
-
     scene an_d13_03_bg with dissolve
 
     show an_13_03
@@ -896,12 +921,15 @@ label day13_2:
     "Я видела, как маленькие фигурки на пристани засуетились, трос напрягся и колокол медленно двинулся против течения. И я подумала: «Я как капитан крейсера Аврора. Жаль, что нет из чего пальнуть»"
 
     "Для полноты счастья не хватало фейерверка."
-
-    stop music
-
-    play music "audio/music/z_102.mp3"   
+  
 
     scene bg bathyscaphe2
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3" 
+
 
     "Вот такая история. Так мы притащили батискаф. Он теперь  красуется рядом с пристанью. Физрук обещал сделать из него музей."
 
@@ -909,10 +937,6 @@ label day13_2:
 
     "Жаль, пока туда не пускают. Физрук не смог открыть ржавый замок. Но мы с Алисой уже выпросили у Петровича ножовку по металлу. И ночью... Ну, вы поняли. Хе-хе."
 
-
-    # stop music
-
-    # play music "audio/music/z_102.mp3"   
 
     scene an_d10_01_bg with dissolve
 
@@ -927,15 +951,13 @@ label day13_2:
     "К тому же она была слишком взрослой для нас. А одну, без охраны, Саманту бы не пустили."
 
 
-    # stop music
-
-    # play music "audio/music/z_124.mp3"
-
-    stop music
-
-    play music "audio/music/z_305.mp3"
-
     scene bg attic_inside
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_305.mp3"
+
 
 
     image card_play composite = Composite(
@@ -982,10 +1004,6 @@ label day13_2:
     scene bg attic_inside
     hide card_play composite
 
-
-    # stop music
-
-    # play music "audio/music/z_305.mp3"
 
     "Сдавал Семён. Как-то все сразу согласились, что он будет сдающим. Он умел делать карточные фокусы и к тому же знал много игр."
 
@@ -1116,9 +1134,11 @@ label day13_2:
 
     "Но вдруг Семён объявил, что готов поменяться местами с физруком, но с условием «в губы». «И ты мне ничего не должна»."
 
-    stop music
 
-    play music "audio/music/z_303.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_303.mp3"
+
 
     hide sp_sem_001
 
@@ -1133,11 +1153,14 @@ label day13_2:
 
     "Но отвертеться не удалось. Народ жаждал зрелища здесь и сейчас. Алиса колебалась, но потом решительно притянула к себе Семёна и..."
 
-    stop music
-
-    play music "audio/music/z_055.mp3"
 
     scene cg sem_al_kiss with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "Все стали считать..."
 
@@ -1195,17 +1218,12 @@ label day13_2:
 
 
 
-
-
-
-
-
     #pause (10000000000000000000000.0)
 
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day14
 

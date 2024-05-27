@@ -4,9 +4,12 @@ label day50:
 
     $ days = 50
 
-    play music "audio/music/z_181.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_181.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,14 +20,13 @@ label day50:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-
-    play miscSounds "audio/music/z_1015.mp3"
-
-
     scene cg ul_grown_up with dissolve
+
+
+    stop music fadeout 0.5
+
+    play music "audio/music/z_1015.mp3"
+
 
     "А на следующий день за мной приехал дядя Жора. Он меня не узнал. Я думала сначала, что это потому, что я вся зареванная. Но потом вспомнила, что я уже взрослая. Он привез мне новые вещи от папы."
 

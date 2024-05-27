@@ -40,7 +40,6 @@ label day39:
 
     scene black with fade
 
-    #stop music
 
     jump day40
 

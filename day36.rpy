@@ -17,13 +17,13 @@ label day36:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_076.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_076.mp3"
+
 
 
     "На следующий день, по случаю поимки Большого Сома, в лагере было решено устроить праздник. Это была инициатива директрисы."
@@ -95,13 +95,13 @@ label day36:
     "Тузик раздулся как мячик. Он до того объелся рыбой, что не смог пролезть в будку и уснул прямо на улице у крыльца столовой."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene cg bot_station_tuzik with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "К вечеру выспавшийся Тузик снова проголодался и отправился на лодочную станцию, чтобы выпросить у рыбаков пойманную рыбную мелочь."
 
@@ -130,13 +130,13 @@ label day36:
     "В расстроенных чувствах Тарас Юрьевич привязывал лодку, и не заметив улёгшегося прямо на понтоне Тузика, наступил на пса..."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_126.mp3"
-
-
     scene cg fi_tuz with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_126.mp3"
+
 
 
     "Взвывший от боли Тузик, тут же тяпнул физкультурника за ногу и пустился наутёк."
@@ -148,22 +148,21 @@ label day36:
     "Тарас Юрьевич заорал благим матом, схватившись за ногу, оступился и рухнул в воду."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_208.mp3"
+    queue music "audio/music/z_208.mp3"
 
 
     "И все бы ничего, но упал он головой вниз, между стоящих у пирса лодок, напоролся животом на торчавшее весло и ударился лицом об уключину."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_301.mp3"
-
-
     scene bg medic with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
+
 
     show sp_fi_016:
         yalign 0.1 subpixel True
@@ -205,7 +204,7 @@ label day36:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day37
 

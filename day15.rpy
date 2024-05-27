@@ -4,24 +4,31 @@ label day15:
 
     $ days = 15
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
 
+
     pause (1000000000000000000.0)
+
 
     hide screen current_day
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_306.mp3"
 
     scene cg concert_ad with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_306.mp3"
+
 
     "Ну вот, про концерт. С утра мы устроили концерт. Переволновались, конечно. Не знали, понравиться ли Саманте наша программа. У них там, в Америке, наверное все по другому. Мюзиклы разные, шоу... Мы такого не умеем."
 
@@ -32,26 +39,27 @@ label day15:
 
     "Наш ансамбль Ночные Совы был последним в программе. И только мы закончили, все начали хлопать. И мы стали звездами!"
 
-    stop music fadeout 1.0
-
-##############################################
-## Эпизод про жемчужину
-
-
-    play music "audio/music/z_055.mp3"
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     show an_10_01
 
     "После концерта мы побежали на пляж ополоснуться."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_474.mp3"
-
     scene bg boat_station with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_474.mp3"
+
 
     "Вообще-то у нас три пляжа. Один для младших отрядов. Он возле лодочной станции."
 
@@ -60,27 +68,32 @@ label day15:
     "Нет, он, конечно, красивый. Но что за удовольствие купаться в загородке между флажками и пирсом? И там очень мелко и глубоко нырнуть не получается."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_475.mp3"
-
     scene bg boat_station3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_475.mp3"
+
 
     "Но иногда приходим туда сразу после обеда, пока никто не видит. В лагере тихий час, а мы с разбегу прыгаем с пристани."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-    play music "audio/music/z_208.mp3"
+    queue music "audio/music/z_208.mp3"
+
 
     "За пристанью - глубина.  Ныряем и плаваем всласть. Пока тот, кто стоит на «шухере» не свистнет: «Атас, братва, физрук идет!»"
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_152.mp3"
-
     scene bg disland2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
 
     "Второй пляж на острове Ближнем. Красивый, с шезлонгами. Для старших групп."
 
@@ -89,22 +102,26 @@ label day15:
     "К нему ведет красивый мостик. Можно даже вечером искупаться, потому что там есть фонари. Мы и купаемся. "
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_176.mp3"
-
     scene bg nbeach3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Мальчишки любят за нами подглядывать."
 
     "Но ничего им там увидеть не получается, потому что мы знаем про их нычку на дереве, над раздевалкой и заранее под одежду надеваем купальники. Переодеваемся после купания уже в домиках."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_477.mp3"
-
     scene bg crsh with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_477.mp3"
+
 
     "Если ночные купания, без всего, то мы идем на Рачью отмель. Там большой песчаный берег и мальчишкам спрятаться негде. Зато можно переодеться в камышах."
 
@@ -130,11 +147,13 @@ label day15:
     "А еще есть Дикий, или как его называют, Заброшенный пляж. Петрович нам про него рассказывал. И он где-то на Дальнем острове. Пойдем туда в поход, опишу его подробно. Ну вот, продолжу о главном."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_480.mp3"
-
     scene bg nbeach3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_480.mp3"
+
 
     show sp_at_001:
         yalign 0.0 subpixel True
@@ -191,22 +210,14 @@ label day15:
 
     ats "Проще простого. Просто поплыли со мной. Я буду нырять, а ты держись за бакен и жди. Я буду отдавать тебе жемчужины, если найду. А то у меня в руках много не поместится. В купальнике нет карманов, а с пакетом нырять неудобно."
 
-#ВЫБОР
-#ОСТАТЬСЯ КУПАТЬСЯ У БЕРЕГА
-#ПЛЫТЬ С АТСУИ
-
-# Остаться
-#"Но я отказалась. Я подумала, что еще недостаточно хорошо плаваю для таких дел. Очень хотелось поплыть с Атсуи. Но ведь она и так поделится, если найдет жемчуг. Она добрая. Зачем рисковать? Вдруг физрук говорит правду и там сильное течение? И я представила себе, как опускаюсь на дно как мертвяк. А меня жрут рыбы. Брр!.. Ну уж нет. И я осталась купаться у берега и ждать Атсуи."
-
-
-# Плыть
-
-
-    stop music fadeout 1.0
-
-    play music "audio/music/prolog.mp3"
 
     scene bg boat_station2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/prolog.mp3"
+
 
     "Все лодки были предусмотрительно привязаны Тарасом Юрьевичем и нам ничего не оставалось, как добираться до бакена вплавь."
 
@@ -333,11 +344,13 @@ label day15:
     "Тут Атсуи покраснела, чего я у неё раньше никогда не наблюдала. У неё кожа такая, не краснеющая. Однако тут она покраснела и перевела разговор на другую тему. Я не стала настаивать."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_055.mp3"
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     show an_10_01
 
@@ -346,16 +359,13 @@ label day15:
     "Но мою огромную жемчужину я спрятала так, что никто её у меня не сворует. Помните про тайный кармашек в моем рюкзаке? Вот. В него."
 
 
-
-
-
-## Конец Эпизод про жемчужину
-##############################################
-
-
-    play music "audio/music/z_454.mp3"
-
     scene cg dancing with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_454.mp3"
+
 
     "А потом были танцы! Я слышала, как мальчики из других отрядов шептались: «Посмотри на ту рыжую, она у них на барабанах, вот классная. Нам бы в отряд такую.»"
 
@@ -370,23 +380,27 @@ label day15:
 
     "Интересно, Семён пригласил бы? Эх... Ему есть кого приглашать. Тут конкуренция будь здоров."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_055.mp3"
-    #play music "audio/music/z_102.mp3"
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     show an_10_01
 
     "Ладно, завтра напишу еще про соревнования. И про всё, что за эти дни было."
 
 
-
-    play music "audio/music/z_176.mp3"
-
     scene cg ul_al_pe_04 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "После вечерней проверки мы, как всегда, пошли на лавочку, где Петрович сидел на дежурстве, чтобы послушать его рассказы. Очень они у него всегда интересные."
 
@@ -403,10 +417,11 @@ label day15:
 
     pe "И вот, значит, когда немцы бомбить стали..."
 
-    stop music fadeout 1.0
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_589.mp3"
+    queue music "audio/music/z_589.mp3"
+
 
     ul "Погоди, деда! А ты не рассказал, что за склады тут были."
 
@@ -424,12 +439,14 @@ label day15:
 
     pe "Однако немцы, видно, прознали про наши склады и аккурат навели авиацию."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_015.mp3"
 
     scene cg ul_al_pe_04 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_015.mp3"
+
 
     ul "А какой это был год? Не помните?"
 
@@ -484,12 +501,13 @@ label day15:
 
     ul "Ух, ты! Так, получается, тут война была! Прям настоящая! И наверное, могилы бойцов наших и немецких, тоже есть?"
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_531.mp3"
 
     scene bg oldcem3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_531.mp3"
 
 
     pe "А как же? Всех похоронили на кладбище горняков. Наших поселковых там не хоронят. Потому, что заброшенное оно. И вообще, не ходите туда детки. Нехорошее это место."
@@ -528,6 +546,7 @@ label day15:
 
     pe "И потом. Солдата беспокоить не надо. Где упал в землю, там, значит, ему господь определил. Потому я против, что копают эти всякие отряды. Не надо этого. Нехорошо."
 
+
     scene cg ul_al_pe_03 with dissolve
 
     ul "А на вашей карте, что вы доставали, тогда когда мы сома ловили, эта тропка есть?"
@@ -538,12 +557,14 @@ label day15:
 
     pe "Скажу так. Лагерь этот не на хорошем месте придумали. Детям тут не место. Я писал начальству вашему. Только они меня разве слушают?"
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
 
     scene bg auhouse2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
  
     "Мы вернулись в домик и после того разговора решили непременно сходить на болота, чтобы посмотреть на самолет. Точно, там есть ТАЙНА! Но прежде надо умыкнуть у Петровича его чудо-карту."
 
@@ -625,28 +646,13 @@ label day15:
     ul "Но, может быть, у Слави есть такая тренога? Это все-таки лучше, чем снимать руками. Папа говорил, что только кажется, будто руки неподвижны. Они все равно двигаются. И будет не так четко."
 
 
-    # scene bg fotoc with dissolve
-
-    # "И мы побежали в фотокружок, он как раз открылся после обеда."
-
-    # "Так мы снова получили фотоаппарат."
-
-    stop music fadeout 1.0
-
-
-
-
-
-
-
-
 
     #pause (10000000000000000000000.0)
 
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day16
 

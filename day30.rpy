@@ -17,13 +17,13 @@ label day30:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_002.mp3"
-
-
     scene cg pi_fishing_fog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Я проснулась. В шалаше никого. И снова приятный запах рыбки от костра. И я выползаю на четвереньках из шалаша и ползу к костру. А глаза ещё слипаются."
 
@@ -137,13 +137,13 @@ label day30:
     pi "Любую твою просьбу я выполню."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_152.mp3"
-
-
     scene bg hut3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -203,12 +203,6 @@ label day30:
         zoom 1.2 
 
     pi "(Наклонившись к ней, шепчет) \nГЕНДА..."
-
-
-    # stop music fadeout 1.0
-
-
-    # play music "audio/music/z_130.mp3"
 
 
     scene bg hut3 with dissolve
@@ -284,10 +278,9 @@ label day30:
     pi "Бывают. Тут все бывает."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_125.mp3"
+    queue music "audio/music/z_125.mp3"
 
 
     pi "(Понизив голос) \nА Генда, это бывший начальник лагеря 410 Бурлейка. На самом деле его фамилия Гендаков."
@@ -601,13 +594,13 @@ label day30:
     pi "Ладно, я отвезу тебя. Черт, лодка отвязалась, пока болтали!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_181.mp3"
-
-
     scene cg boat_water with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
     "Пионер зашёл в воду по плечи, чтобы притянуть качающуюся на волнах лодку."
 
@@ -769,13 +762,13 @@ label day30:
     ul "Вот, отлично."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_460.mp3"
-
-
     scene bg pi_ul_dialog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_460.mp3"
+
 
     show sp_pi_001:
         yalign 0.1 subpixel True
@@ -792,26 +785,26 @@ label day30:
     pi "(Бормочет) \nУдивительная... Удивительная..."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene cg iul_coming with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
     "Я добралась до лагеря без приключений, а еще через час пришла Юля. Она постучала в окно, и мы впустили ее. Видно было, что она боится, что ее увидят другие пионеры."
 
     "Но мы успокоили ее, сказав, что в этом секторе нет других пионеров кроме нашего отряда, и тут же позвали ребят. Вскоре отряд собрался на чердаке. Все разглядывали Юлю."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_002.mp3"
-
-
     scene cg iul_all_attic with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Каждый норовил ее погладить и дотронуться до ушек. Мы заранее предупредили, чтобы никто не задавал нескромных вопросов, типа «Вылизываешься ли ты». Или «А ешь ли ты мышей»."
 
@@ -892,13 +885,12 @@ label day30:
 
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_027.mp3" # Мурчание и лакание
-
-
     scene an_30_02 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_027.mp3" # Мурчание и лакание
 
 
     pause (10000000000000000000000.0)
@@ -909,13 +901,13 @@ label day30:
     "Когда она пила молоко, хвост действительно стоял торчком. Думаю, от удовольствия. Но Электронику, который глупо шутил, мы об этом не сказали."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_181.mp3"
-
-
     scene cg ul_iul_hammock with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
     "И вот как-то раз, устроившись вдвоем с Юлей в гамаке на чердаке, мы беседовали обо всяких разностях."
 
@@ -974,13 +966,13 @@ label day30:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     show sp_shu_003:
         yalign 0.05 subpixel True
@@ -1019,13 +1011,13 @@ label day30:
     "По моему, ей было все равно."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_012.mp3"
-
-
     scene cg ul_iul_hammock with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     "Я спросила, нравится ли ей кто-нибудь из мальчиков первого или второго отрядов, а она только пожала плечами."
 
@@ -1054,10 +1046,9 @@ label day30:
     uv "Я знаю не только про любовь, но и про ревность. Я читала. И мне кажется, ты ревнуешь."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     "И я поняла что проговорилась. Я недооценила Юлю, она оказалась очень умной."
@@ -1084,10 +1075,9 @@ label day30:
     uv "Так что, тебе не о чем беспокоиться. Семён никогда не чесал меня за ушком."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_478.mp3"
+    queue music "audio/music/z_478.mp3"
 
 
     uv "А ты можешь. \n(смеётся)"
@@ -1120,15 +1110,14 @@ label day30:
     ul "(Облегченно вздохнув) \nДа, извини..."
 
 
-    stop music fadeout 1.0
+    scene bg ruins with dissolve
+
+
+    stop music fadeout 0.5
 
     stop miscSounds fadeout 1.0
 
-
-    play music "audio/music/z_700.mp3"
-
-
-    scene bg ruins with dissolve
+    queue music "audio/music/z_700.mp3"
 
 
     ul "Скажи, Юль, а что ты знаешь про старый лагерь?"
@@ -1172,13 +1161,13 @@ label day30:
     uv "Виолетте Церновне не понравится, если я буду рассказывать о ней. И я не буду."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_151.mp3"
-
-
     scene cg vio_med with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_151.mp3"
+
 
 
     ul "Хорошо... Скажи, а она помнит тебя до взрыва? Вы были знакомы?"
@@ -1207,13 +1196,13 @@ label day30:
     "Поэтому я сменила тему разговора. Мне всегда хотелось узнать историю Дома на Болотах. И я стала приставать к Юле, чтобы она рассказала по него все, что знает."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene bg shouse with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     ul "А что ты знаешь про Дом на Болотах?"
 
@@ -1245,10 +1234,9 @@ label day30:
     ul "А тебе можно доверять тайны. Если я скажу, что мне не понравится, если ты кому-то что-то расскажешь, ты не расскажешь?"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_017.mp3"
+    queue music "audio/music/z_017.mp3"
 
 
     uv "Я и так не расскажу. Просто скажи, что это ТАЙНА."
@@ -1305,13 +1293,13 @@ label day30:
     uv "А ты знаешь, из тебя вышла бы неплохая кошка."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene bg stock4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
     
     show sp_od_024:
         yalign 0.03 subpixel True
@@ -1478,13 +1466,13 @@ label day30:
     "А Ольге Дмитриевне мы решили не говорить про находку. Просто спросили, привозил ли Вано в лагерь что-то для администрации, и получили отрицательный ответ. Вот, рассказываю, что было дальше."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg oldcamp4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "День рождения Жени мы решили отмечать всем отрядом, втайне от руководства и Ольги Дмитриевны. Сразу после отбоя, в 22-30 в хорошо сохранившемся административном корпусе старого лагеря."
 
@@ -1554,10 +1542,9 @@ label day30:
     "В следующие пять минут весь компот был выпит. Я тоже хотела попробовать, на общей волне, но Славя положила мне руку на плечо и покачала головой."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_155.mp3"
+    queue music "audio/music/z_155.mp3"
 
 
 
@@ -1621,25 +1608,6 @@ label day30:
     scene cg contest_je with dissolve
 
     "Все, в том числе и еще не успевшие переодеться девочки, кинулись обнимать и целовать Женю. Все были очень рады за неё."
-
-
-    # scene bg oldcam_stage with dissolve
-
-
-    # show sp_le_001:
-        # yalign 0.1 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.2 
-
-
-    # le "(Трогая рукой платье Жени) \nНадо же, кто бы мог подумать! А тени... И помада. Какие классные! Вот, Женька, скрывала от нас такую красоту!"
-
-    # le "Непременно дашь мне свои цацки и косметику на танцы! Заметано?"
-
-
-    # scene cg contest_je with dissolve
-
-    # je "Конечно."
 
 
     scene bg oldcam_stage with dissolve
@@ -1827,13 +1795,13 @@ label day30:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_181.mp3"
-
-
     scene bg night_beach with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
     "Потом все пошли на реку Бурлейку, купаться. На берегу ночью было очень красиво."
 
@@ -1862,14 +1830,11 @@ label day30:
 
 
 
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day31
 

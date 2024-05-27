@@ -4,9 +4,12 @@ label day26:
 
     $ days = 26
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,13 +19,14 @@ label day26:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
 
     scene bg stock3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Сегодня на складе обнаружили пропажу трех мешков сахара."
 
@@ -37,21 +41,21 @@ label day26:
     "Мы стали думать, на что же понадобилось столько сахару. Между тем, Вано доложил о пропаже Маргоше, а та вызвала милицию."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_444.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_444.mp3"
+
 
     "В лагерь приехал УАЗик со следователем, двумя оперативниками и овчаркой. Это было смешно. Из-за трех мешков сахара? Тут что-то было нечисто. Что-то в лагере произошло."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_201.mp3"
 
-    play music "audio/music/z_201.mp3"
 
     "Самое интересное, что следователь даже не обследовал склад. Зато он долго о чем-то беседовал с Виолой. А потом откозырял ей, как будто она сама была милиционером."
 
@@ -81,13 +85,13 @@ label day26:
     "У нас с Алисой было две версии. Первая: что Виола хотела скрыть недостачу лекарств. Вторая: что их правда украли, но в знак протеста."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_333.mp3"
-
-
     scene cg smu_flyer with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     "Потому что Смутьянов давно грозился вывести администрацию на чистую воду."
 
@@ -95,14 +99,14 @@ label day26:
 
     "В общем, начальство взялось за нас не на шутку. Кража из медпункта была серьезным проступком. Ну и бонусом шли три мешка сахара."
 
- 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
 
     scene bg camp_artifacts with dissolve
+ 
+ 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Первое, что сделала следственная группа, это провела обыски по домикам. Особенно искали в домиках второго отряда. В домике Смутьянова даже вскрыли полы."
 
@@ -130,13 +134,13 @@ label day26:
     "Нашли в административном корпусе! Дело приняло нехороший оборот."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg mar_questioning with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Тогда Маргарита Павловна долго беседовала  с Васей в Красном уголке. "
 
@@ -155,10 +159,10 @@ label day26:
     "Маргарита Павловна уговорила не раздувать дело до «политического», сказала, что это всего лишь ребенок и все такое."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_527.mp3"
 
-    play music "audio/music/z_527.mp3"
 
     "Мы с Алисой, конечно же, пришли утешить Васю, и он по секрету рассказал нам, что эти книги брал у нашего завхоза, Майи."
 
@@ -174,13 +178,13 @@ label day26:
     "А я спросила у Жени, почему она не дала адрес. Она ответила: «Чтобы не давать ложную надежду». Вот как."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1018.mp3"
-
-
     scene cg cop_dog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1018.mp3"
+
 
     "Итогом расследования стала улика, найденная особо натасканной служебно-розыскной собакой, Бураном."
    
@@ -210,13 +214,13 @@ label day26:
     "Также было собрание в кабинете директрисы, на которое вызвали всех вожатых и воспитателей. Петровичу, как сторожу, был объявлен выговор. Смутьянова посадили в изолятор на два дня."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg square with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Наш отряд обязали дежурить по складу. Каждую ночь внутри должен был находиться кто-то из нас. А снаружи бдительно охранять Петрович. Славя составила график дежурства по складу."
 
@@ -312,10 +316,10 @@ label day26:
     "Тут заканчиваю про сахар писать. Но не могу не упомянуть версии."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
 
-    play music "audio/music/z_1017.mp3"
+    queue music "audio/music/z_1017.mp3"
 
 
     scene an_d26_02_06 with dissolve
@@ -324,11 +328,6 @@ label day26:
 
     "Тут я нарисовала мой сон"
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1017.mp3"
 
 
     image an_26_02: # Анимация сон Семён Юля сахар
@@ -452,6 +451,9 @@ label day26:
     scene an_26_02 with dissolve
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1017.mp3"
 
 
 
@@ -461,7 +463,7 @@ label day26:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day27
 

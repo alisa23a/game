@@ -4,9 +4,12 @@ label day47:
 
     $ days = 47
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day47:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Когда мы пришли в лагерь, то заметили, что на площади никого нет. Остатки манекенов куда-то убрали."
 
@@ -56,13 +59,12 @@ label day47:
     "Мы бросились в медпункт. Там было людно. Кажется, что весь лагерь собрался вокруг кушетки с лежащим телом."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg smu_legs with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
 
 
     "Лысая голова «вождя всея пионерии» бессильно свисала. Глаза закатились. Лицо приобрело синеватый оттенок."
@@ -126,13 +128,13 @@ label day47:
     hide sp_ul_019
 
 
-    stop music
-
-
-    play music "audio/music/z_542.mp3"
-
-
     scene cg mushroom_trip with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_542.mp3"
+
 
     " И я вспомнила, как это было у меня..."
 
@@ -161,10 +163,9 @@ label day47:
     hide sp_ul_019
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     "Суета вокруг посиневшего Смутьянова, кажется, подходила к финалу."
@@ -303,13 +304,13 @@ label day47:
     ul "Да, мне всё равно. Он был хоть и взбалмошный, но, в общем, неплохой мальчик. Просто идейный."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg smu_legs2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Я вошла в медпункт. Смутьянов уже был совсем бледный, кровь отлила от его кожи. Стал как будто полупрозрачный, восковой. Аж позеленел."
 
@@ -398,16 +399,12 @@ label day47:
 
 
 
-        #repeat
-
-
-    stop music
-
-
-    play music "audio/music/z_1003.mp3"
-
-
     scene an_47_01 #with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1003.mp3"
 
 
     pause (10000000000000000000000.0)
@@ -497,16 +494,13 @@ label day47:
     hide sp_ul_021
 
 
-    #"Я вдруг вспомнила, что в моем кошмарном сне Виола тоже держала меня в стеклянной банке."
-
-
-    stop music
-
-
-    play music "audio/music/z_495.mp3"
-
-
     scene bg medic2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_495.mp3"
+
 
     show sp_vio_001:
         yalign 0.05 subpixel True
@@ -628,13 +622,13 @@ label day47:
     hide sp_al_055
 
 
-    stop music
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     show sp_smu_001:
         yalign 0.05 subpixel True
@@ -760,10 +754,9 @@ label day47:
     hide sp_al_005
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_132.mp3"
+    queue music "audio/music/z_132.mp3"
 
 
     show sp_ul_012:
@@ -918,13 +911,13 @@ label day47:
     "И мы не мешкая прикрепили фотографии в нашем красном уголке, на стенд БОЕВОЙ СЛАВЫ."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg library with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     show sp_sem_001:
         yalign 0.1 subpixel True
@@ -1057,13 +1050,13 @@ label day47:
     hide sp_ul_019
 
 
-    stop music
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg attic2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     show sp_iul_008:
         yalign 0.1 subpixel True
@@ -1098,13 +1091,13 @@ label day47:
     "Мы незаметно прокрались и выскочили за забор лагеря через нашу лазейку."
 
 
-    stop music
-
-
-    play music "audio/music/z_005.mp3"
-
-
     scene bg opine2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_005.mp3"
+
 
     "Юля шла быстро. Через пол часа мы были на вершине «кургана». На нём росла одинокая сосна. Она была огромной. Высоко над землей зияло дупло, откуда на нас смотрели два совиных глаза."
 
@@ -1186,13 +1179,13 @@ label day47:
     pause (100000000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg dining with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Приближалось обеденное время. Юля сделала отвар и процедив, вылила его в стакан."
 
@@ -1229,13 +1222,13 @@ label day47:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg medic_lib_ext with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Когда пришло время обеда, мы с замиранием сердца наблюдали, как Семён тащит разнос с едой в медпункт. Дверь за ним закрылась."
 
@@ -1313,13 +1306,13 @@ label day47:
     hide sp_iul_012
 
 
-    stop music
-
-
-    play music "audio/music/z_201.mp3"
-
-
     scene bg watchmans_cabin_2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
+
 
     show sp_pe_002:
         yalign 0.05 subpixel True
@@ -1411,13 +1404,13 @@ label day47:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_1013.mp3"
-
-
     scene cg vio_docs with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
 
 
     "Когда мы открыли сейф, то увидели в нем папки и тетради. А также пачки отдельных листочков аккуратно перевязанных бечёвкой."
@@ -1496,10 +1489,9 @@ label day47:
     "Тут же в лагерь через ворота механическим шагом вошли несколько манекенов, окружавших идущего в центре Пионера."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_151.mp3"
+    queue music "audio/music/z_151.mp3"
 
 
     "Он остановился и поднял руку. Все замолчали. Он медленно опустил руку и улыбнулся."
@@ -1549,10 +1541,9 @@ label day47:
     "Затем раздался легкий хлопок и фигура стала похожей на серый расплывающийся человеческий силуэт"
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     "Видение длилось секунду, и вот перед нами стоял уже не пионер, хотя он был всё в той же белой рубашке с галстуком. Он был похож на изрядно постаревшего пионервожатого."
@@ -1653,13 +1644,13 @@ label day47:
     al "(Шёпотом) \nГендаков... Владимир Геннадьевич. Вот, значит, кто скрывался под личиной таинственного Пионера."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg silent_scene with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Мы знали, что для начала «тестирования» ему понадобится Виола."
 
@@ -1691,13 +1682,13 @@ label day47:
     "Было странно, что несмотря на то, что до этого никто из пионеров Гендакова в живую никогда не видел, все беспрекословно подчинялись его приказам."
 
 
-    stop music
-
-
-    play music "audio/music/z_333.mp3"
-
-
     scene bg gates with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -1752,13 +1743,12 @@ label day47:
     ge "По-моему, неплох. Хотя, ему не хватаем моего изящества, конечно. Ну уж какой есть. Вы должны были привыкнуть к моему лицу."
 
 
-    stop music
-
-
-    play music "audio/music/z_125.mp3"
-
-
     scene cg silent_scene with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
 
 
     "Пионеры стояли и молча смотрели в землю. Все понимали, что происходит что-то насильственное, ужасное. И это отнимало у всех силы."
@@ -1773,13 +1763,13 @@ label day47:
     "Они сообщили что ни Виолы ни Семёна в лагере нет."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg medic_lib_ext with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     show sp_ge_008:
         yalign 0.1 subpixel True
@@ -1844,13 +1834,13 @@ label day47:
     ge "(Усмехаясь) \nВпрочем, при самоуничтожении Коллайдера они тоже погибнут. Взрыв не удастся пережить никому. Как и в прошлый раз."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg od_mann with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     od "Я ничего не понимаю. Если нам всем суждено погибнуть..."
 
@@ -1886,13 +1876,13 @@ label day47:
     ge "Черт, заболтался! Процесс уже начался..."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg medic_lib_ext with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     show sp_al_001:
         yalign 0.1 subpixel True
@@ -1966,13 +1956,13 @@ label day47:
     al "Это называется массовый гипноз?"
 
 
-    stop music
-
-
-    play music "audio/music/z_1002.mp3"
-
-
     scene bg medic_lib_ext with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1002.mp3"
+
 
     show sp_ge_008:
         yalign 0.1 subpixel True
@@ -2020,12 +2010,6 @@ label day47:
     "Генда захохотал."
 
 
-    stop music
-
-
-    play music "audio/music/z_735.mp3"
-
-
     image an_47_03: # Анимация появление портала
 
         "images/an/an47day/an_d47_39.webp" with Dissolve(0.5, alpha=True)
@@ -2066,6 +2050,12 @@ label day47:
 
     scene an_47_03 with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_735.mp3"
+
+
     "Неожиданно напротив ворот возник сначала бледный, но все уплотняющийся вращающийся шар, постепенно превращавшийся в воронку голубого цвета."
 
     "Воронка ширилась и росла, пока не стала величиной с наш домик."
@@ -2095,13 +2085,13 @@ label day47:
     "Он шагнул к воронке."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg manns3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
  
     "В руках у манекенов появились какие-то странные приборы, напоминающие водяные детские пистолеты."
 
@@ -2179,13 +2169,13 @@ label day47:
     "Мы бросились к памятнику. Зная брезгливость Генды, мы догадались, что манекены не начнут аннигиляцию раньше, чем он исчезнет (как произошло в тот раз в лаборатории)."
 
 
-    stop music
-
-
-    play music "audio/music/z_048.mp3"
-
-
     scene an_d47_55 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_048.mp3"
+
 
     show sp_ge_001:
         yalign 0.1 subpixel True
@@ -2242,13 +2232,13 @@ label day47:
     "Портал тут же растворился. Через несколько секунд уже ничего не напоминало о его существовании. Ветер неожиданно прекратился."
 
 
-    stop music
-
-
-    play music "audio/music/z_1013.mp3"
-
-
     scene cg manns3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
 
     "Манекены некоторое время еще смотрели на место, в котором исчез их бог, потом повернулись к пионерам, наводя на них свои «пистолетики»."
 
@@ -2596,10 +2586,9 @@ label day47:
     hide sp_al_005
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/track7.mp3"
+    queue music "audio/music/track7.mp3"
 
 
     show sp_al_066:
@@ -2641,10 +2630,9 @@ label day47:
     "Через пару секунд вибрация исчезла. Все ждали взрыва, о котором говорил Генда-Гендаков."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_066.mp3"
+    queue music "audio/music/z_066.mp3"
 
 
     "Но вместо него вдруг раздался страшный звук, от которого все присели и схватились за голову. Казалось, наши барабанные перепонки вот-вот лопнут."
@@ -2670,13 +2658,13 @@ label day47:
     "Между тем, произошло что-то странное... Сначала никто не мог понять, что. Но потом поняли, что всё окружающее нас странным образом изменилось."
 
 
-    stop music
-
-
-    play music "audio/music/z_055.mp3"
-
-
     scene bg medic_lib_ext2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "Каждый, стал как будто выше, лица приобрели осмысленное, взрослое выражение."
 
@@ -2860,13 +2848,13 @@ label day47:
     sem "Помню."
 
 
-    stop music
-
-
-    play music "audio/music/z_111.mp3"
-
-
     scene cg_bikers with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_111.mp3"
+
 
     "На площадь перед памятником, рыча моторами, въехала колонна мотоциклистов, и, сделав круг, остановилась."
 
@@ -2908,21 +2896,21 @@ label day47:
     ul "Что же ты стоишь как столб? Вот глупая. Беги! Он же ждет!"
 
 
-    stop music
-
-
-    play music "audio/music/z_068.mp3"
-
-
     scene bg gates_buses with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_068.mp3"
+
 
     "Алиса рванулась к Жану, а я услышала, как вдали раздались сигналы подъезжающих автобусов."
 
 
-    stop music
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_069.mp3"
 
-    play music "audio/music/z_069.mp3"
 
     "Из крайнего высыпали люди. Родители и пионеры двинулись навстречу друг другу."
 
@@ -2955,12 +2943,14 @@ label day47:
     hide sp_je_001
 
 
-    stop music
-
-
-    play music "audio/music/z_179.mp3"
-
     scene bg medic_lib_ext2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_179.mp3"
+
+
 
     show sp_sl_030:
         yalign 0.05 subpixel True
@@ -3028,29 +3018,42 @@ label day47:
 
     stop music
 
+
     play miscSounds "audio/music/z_071.mp3" noloop
+
 
     play music "audio/music/z_070.mp3"
 
+
     scene cg group_photo2
+
 
     with flash
 
+
     $ renpy.pause(1.0, hard=True)
 
+
     stop miscSounds
+
 
     scene cg group_photo3 with slowdissolve
 
 
+    $ renpy.pause(3.0, hard=True)
 
+
+    scene cg group_photo3
 
 
     pause (10000000000000000000000.0)
 
+
     scene black with fade
 
-    stop music
+
+    stop music fadeout 1.0
+
 
     jump day48
 

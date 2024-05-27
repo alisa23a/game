@@ -4,9 +4,12 @@ label day20:
 
     $ days = 20
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,12 +19,13 @@ label day20:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_905.mp3"
 
     scene bg football with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_905.mp3"
 
 
     "Физрук давно грозился провести первенство лагеря по футболу, и наконец сегодня с утра нам сообщили, что пройдут отборочные матчи."
@@ -42,12 +46,13 @@ label day20:
     "Мы договорились, что если дело будет плохо, то на ворота встанет Толик, а я пойду в центр, нападающим. Никто лучше меня не умел финтить."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
     scene bg football2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     show sp_ul_039:
         yalign 0.0 subpixel True
@@ -75,19 +80,18 @@ label day20:
     "Но тем не менее, долговязый, который, оказывается, несмотря на нескладную фигуру, отлично играл в футбол, снова мне забил."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_121.mp3"
+    queue music "audio/music/z_121.mp3"
 
 
     "Тут сказался мой маленький рост. Нижние мячи я подбирала легко, а вот в девятку я не выпрыгивала, и он положил мяч точно в верхний левый от меня угол. Я сидела и рыдала."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_131.mp3"
 
-    play music "audio/music/z_131.mp3"
 
     "В довершение, сильно травмировали Славю. Она сидела с распухшей лодыжкой, но уходить с поля отказалась. Я поставила Толика на ворота и рванула в нападение, выручать команду."
 
@@ -123,13 +127,13 @@ label day20:
     "Ага, так и сделаю"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene cg ul_vio_football with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "И тут, на наше счастье, появилась Виола. Я подбежала к Виоле."
 
@@ -144,13 +148,13 @@ label day20:
     "Мы попросили тайм–аут. На поле появился еще и Семен, что позволило заменить бесполезных кибернетиков."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/track8.mp3"
-
-
     scene cg al_sem_football with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track8.mp3"
+
 
     "Алиса быстро его размяла. Потом, пока он переодевался, мы обсудили  тактику игры. И началось!"
 
@@ -197,10 +201,9 @@ label day20:
     "Тарас Юрьевич только устало махнул на неё рукой и прихрамывая побрел к умывальнику."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/track4.mp3"
+    queue music "audio/music/track4.mp3"
 
 
     "Вечером того же дня мы раскатали третий отряд (легкотня) и стали победителями. Тарас Юрьевич так расстроился, что отказался вручать приз, сославшись на травму, и приз вручала директриса."
@@ -213,12 +216,12 @@ label day20:
     "Только кибернетики были грустные, они понимали, что в победе было мало их заслуги. Но мы их утешили, сказав, что в волейбольном матче у них еще будет шанс."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_910.mp3"
-
     scene cg festive_dinner with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_910.mp3"
 
 
     "Было много шума, конфет и лимонада."
@@ -230,12 +233,13 @@ label day20:
     "Теперь нас ждал чемпионат по волейболу. Там физрук и компания решил отыграться. Черта с два им!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_089.mp3"
-
     scene bg stadium with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_089.mp3"
+
 
     "День закончился первенством лагеря по волейболу. Тут, мы тоже не ударили в грязь лицом."
 
@@ -279,10 +283,9 @@ label day20:
     hide volleyball_sl
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_418.mp3"
+    queue music "audio/music/z_418.mp3"
 
 
     show volleyball_je:
@@ -320,13 +323,13 @@ label day20:
     hide volleyball_mi
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_454.mp3"
-
-
     scene cg volleyball_ats with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_454.mp3"
+
 
 
     "Атсуи не играла,  но устроила такое шоу в группе поддержки, в компании с Мегги и Самантой, что подняла наш боевой дух на недосягаемую высоту."
@@ -401,13 +404,14 @@ label day20:
     "Оказывается, Ольга Дмитриевна отлично играет и говорят, была даже чемпионкой своего педучилища по волейболу!"
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_078.mp3"
-
     scene bg stadium with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_078.mp3"
+
+
 
     "Итак, мы стали АБСОЛЮТНЫМИ ЧЕМПИОНАМИ лагеря в двух видах! Даже Долговязый и компания, пришли пожать нам руки. Они были восхищены и говорили искренне."
 
@@ -416,10 +420,10 @@ label day20:
     "Остался еще ВОДНЫЙ ЧЕМПИОНАТ. Заплыв на дистанцию 50 метров и гребля на шлюпках. Но, его решено было перенести на окончание каникул."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_102.mp3"
 
-    play music "audio/music/z_102.mp3"
 
     "В общей сложности мы выиграли два кубка и завоевали все золото. Серебро досталось второму отряду."
 
@@ -454,7 +458,7 @@ label day20:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day21
 

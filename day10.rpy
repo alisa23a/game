@@ -17,14 +17,13 @@ label day10:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
-
     scene bg stadium2 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_023.mp3"
+
 
     "После завтрака мы пошли играть в мяч. Я кидала, а Алиса отбивала его бейсбольной битой, потом наоборот. В процессе мы обсудили наш план."
 
@@ -98,10 +97,9 @@ label day10:
     "Мы переоделись и вышли на улицу."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5 fadeout 1.0
 
-
-    play music "audio/music/z_176.mp3"
+    queue music "audio/music/z_176.mp3"
 
 
     show sp_al_005:
@@ -143,7 +141,6 @@ label day10:
 
     image spec_nb_02_an_01: # Анимация Алиса с битой
         
-
 
         #"images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_12.webp" with Dissolve(0.5, alpha=True)
         #pause 0.5
@@ -241,13 +238,13 @@ label day10:
     "И мы ударились кулаками."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg stadium2 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Но все случилось быстрее, чем мы думали. Со стороны спортплощадки нас окликнул Долговязый. Он был не один. С двумя мальчиками из второго отряда."
 
@@ -301,6 +298,7 @@ label day10:
 
     "Те двое побежали сразу за подмогой. А я кинулась в домик Ольги Дмитриевны."
 
+
     scene bg odhouse4 with dissolve
 
     show sp_sem_001:
@@ -325,10 +323,9 @@ label day10:
     hide sp_ul_026
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5 fadeout 1.0
 
-
-    play music "audio/music/z_1004.mp3"
+    queue music "audio/music/z_1004.mp3"
 
 
     show sp_sem_001:
@@ -370,6 +367,7 @@ label day10:
     with dissolve
 
     ul "Кое-кому надо объяснить, что девочек трогать нехорошо!"
+
 
     scene bg stadium2 with dissolve
 
@@ -413,14 +411,7 @@ label day10:
     "Они нас не ждали. И мы налетели."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_088.mp3"
-
-
     image spec_nb_02_an_02: # Анимация драка со вторым отрядом
-        
 
 
         "images/an/an_spec_nb/an_spec_nb_02/an_spec_nb_02_18.webp" with Dissolve(0.5, alpha=True)
@@ -445,6 +436,12 @@ label day10:
 
 
     scene spec_nb_02_an_02 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_088.mp3"
+
 
     pause (10000000000000000000000.0)
 
@@ -499,13 +496,13 @@ label day10:
     "И тут, я вижу, бегут наши."
 
 
-    scene cg sl_mi_le_running
+    scene cg squad_fight2 with dissolve
 
+
+    scene cg sl_mi_le_running
 
     pause (10000000000000000000000.0)
 
-
-    scene cg squad_fight2 with dissolve
 
     "Славя — просто звезда, сходу завалила какого-то пацана, ловко ударив его ногой в пах. Как он орал, держась за (тут не буду писать не хорошее слово)."
 
@@ -533,13 +530,13 @@ label day10:
     "(Шурик её потом провожал до домика, ведь надежда умирает последней)."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_196.mp3"
-
-
     scene bg stadium2 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_196.mp3"
+
 
     "В общем, когда эти, из второго отряда, поняли, что все пропало, они бросились наутек. Одного мы взяли в плен, потом отпустили."
 
@@ -675,13 +672,6 @@ label day10:
     hide sp_ul_014
 
 
-
-    $ renpy.music.set_volume(0.00, delay=1.0, channel='music')
-
-    play miscSounds "audio/music/z_035.mp3" noloop
-
-
-
     image spec_nb_02_an_04: # Анимация Ульяна карате
         
 
@@ -731,9 +721,19 @@ label day10:
 
         repeat
 
+
     scene spec_nb_02_an_04 with dissolve
 
+
+    $ renpy.music.set_volume(0.00, delay=1.0, channel='music')
+
+    play miscSounds "audio/music/z_035.mp3" noloop
+
+
     pause (10000000000000000000000.0)
+
+
+    scene bg camp_artifacts with dissolve
 
 
     stop miscSounds fadeout 1.0
@@ -741,8 +741,6 @@ label day10:
 
     $ renpy.music.set_volume(1.00, delay=1.0, channel='music')
 
-
-    scene bg camp_artifacts with dissolve
 
     show sp_ul_014:
         yalign 0.0 subpixel True
@@ -908,12 +906,6 @@ label day10:
     "Вот так всё закончилось. И всё благодаря Семену."
 
 
-    stop music
-
-
-    play music "audio/music/z_055.mp3"
-
-
     image an_10_01: # Анимация с Ульяной, лежащей в комнате и пишущей дневник
         
         "images/an/an10day/an_d10_08.png" with Dissolve(0.5, alpha=True)
@@ -951,11 +943,19 @@ label day10:
   
         repeat
 
+
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     show an_10_01
 
     "Как-то я забыла написать про наши кружки. Ну, то есть я написала, что они есть, но они настолько интересные, что нужно написать отдельно."
+
 
     scene bg mus with dissolve
     
@@ -966,6 +966,7 @@ label day10:
 
     "У нас есть: Музыкальный кружок «Меломан», который ведет Мику. "
 
+
     scene bg balet_room_empty with dissolve
 
     show sp_al_037 at flip:
@@ -974,6 +975,7 @@ label day10:
         zoom 1.2
 
     "Хореографический кружок «Прима», который ведет Алиса"
+
 
     scene bg library with dissolve
 
@@ -984,6 +986,7 @@ label day10:
 
     "Ещё есть библиотечный кружок «Юный полиглот», который ведет Женя."
 
+
     scene bg sewing with dissolve
 
     show sp_le_017:
@@ -993,6 +996,7 @@ label day10:
 
     "И кружок «Вышивальщица», который ведет Лена в помещении столовой. Там есть такая перегородочка, они берут столы и стулья в зале."
 
+
     scene bg fotoc with dissolve
 
     show sp_sl_001:
@@ -1001,6 +1005,7 @@ label day10:
         zoom 1.2
 
     "А также кружок-фотостудия «Совенок», который ведет Славя."
+
 
     scene bg handmade with dissolve
 
@@ -1016,6 +1021,7 @@ label day10:
 
     "Ну и куда без кружка «Умелые руки» с Шуриком и Электроником во главе."
 
+
     scene bg stadium with dissolve
 
     show sp_fi_015:
@@ -1025,11 +1031,11 @@ label day10:
 
     "Также, на нашем стадионе, Тарас Юрьевич ведет секцию «Юный Спортсмен»."
 
+
     scene bg fine_arts with dissolve
 
     "И наконец, тоже мой любимый кружок, кружок ИЗО. Изобразительного искусства."
 
-    #scene bg fine_arts with dissolve
 
     show sp_sem_013:
         yalign 1.0 subpixel True
@@ -1045,15 +1051,12 @@ label day10:
     show an_10_01
 
 
-    # stop music
-
-    # play music "audio/music/z_102.mp3"
-
     "Есть расписание занятий кружков и каждый записался в те кружки, которые ему нравятся."
 
     "Я, конечно, записалась во все кружки. Но из-за того, что я часто занята всякими интересными делами (вы же знаете, какая я непоседа), я не всегда успеваю во все ходить."
 
     "Я решила, что чаще буду ходить в те, что пригодятся мне в жизни."
+
 
     scene bg handmade with dissolve
 
@@ -1061,15 +1064,18 @@ label day10:
 
     "К тому же, у меня аллергия на дым канифоли, который там всё время витает в воздухе."
 
+
     scene bg balet_room_empty with dissolve
 
     "Вот кружок хореографии, это класс! Тем более, что его ведет моя лучшая подруга. Про него расскажу, про первый."
 
     "Занимаемся мы в свободные часы в помещении музкружка, когда Мику не проводит там свои «Веселые голоса», аккомпанируя на рояле малышам. У них хор."
 
+
     scene bg stage with dissolve
 
     "Или когда нет репетиции нашего ансамбля (вот ещё любимое моё занятие – играть на барабанах, на ударной установке). Проводим их прямо на эстраде лагеря."
+
 
     scene an_d10_01_bg with dissolve
 
@@ -1083,10 +1089,6 @@ label day10:
 
 
     scene cg balet_room_training with dissolve
-
-    # stop music
-
-    # play music "audio/music/z_102.mp3"
 
     "Сперва начинаем растягиваться. Это очень поможет нам в жизни, так сказала Алиса. На растяжку уходит почти всё занятие."
 
@@ -1113,9 +1115,11 @@ label day10:
 
     scene cg marmalade with dissolve
 
-    stop music
 
-    play music "audio/music/z_023.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "А, чуть не забыла! У Мику в помещении музкружка живет кот Мармелад."
 
@@ -1126,8 +1130,7 @@ label day10:
 
     image an_10_02: # Анимация с Алисой, занимающейся йогой
         
-        # "images/an/an10day/an_d10_2_01.png" with Dissolve(0.5, alpha=True)
-        # pause 0.5
+
         "images/an/an10day/an_d10_2_02.png" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
@@ -1171,7 +1174,9 @@ label day10:
 
     "С ним приходила черная, с белой «манишкой и перчатками», кошечка Муся."
 
+
     scene an_d10_2_bg
+
 
     show an_10_02
     
@@ -1189,9 +1194,11 @@ label day10:
 
     scene cg alise_training_wcat with dissolve
 
-    stop music
 
-    play music "audio/music/z_078.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_078.mp3"
+
 
     "Марик, тоже любит крутиться возле Алисы, когда она показывает нам растяжку."
 
@@ -1207,14 +1214,13 @@ label day10:
     "Ну всё, я побежала! Много разных дел сегодня. Допишу еще про кружки, попозже."
 
 
-###########################################
-## Десятый день, Часть 2
-
-    stop music
-
-    play music "audio/music/z_124.mp3"   
-
     scene an_d10_3_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3" 
+
 
     image an_10_03: # Анимация Петрович, Алиса, Ульяна и Лена на лавочке
         
@@ -1249,9 +1255,6 @@ label day10:
         repeat
 
 
-    #show an_10_03
-    
-    #pause (10000000000000000000000.0)
 
     "Вечером всем неохота идти спать и мы собирались возле Петровича, который, как он сам говорил – «заступил на дежурство»."
 
@@ -1259,25 +1262,25 @@ label day10:
 
     "Оттуда был хорошо виден внутренний двор лагеря и площадь со спортивной площадкой, а также просматривались входы в столовую и библиотеку."
 
-
-
-    #hide an_10_03
-
     "Мы уже ждали. Он неторопливо садился на лавочку, отложив суковатую палку в сторону и, закинув ногу в старом разношенном и сто раз чиненом сапоге за ногу, доставал, как он его называл, «прибор»."
 
     "Прибор, это маленькое, похожее на коробочку приспособление для скручивания самокруток.."
     
     "Преисполненный чувства собственной значительности, Петрович знал, что все мы ждем его вечерних рассказов о «старых добрых временах»."
 
+
     scene cg tales_of_petrovich with dissolve
 
     "Скоро подтянулись и остальные члены отряда. Всем хотелось послушать."
 
-    stop music
-
-    play music "audio/music/z_125.mp3"
 
     scene an_d10_3_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     pe "Трофейная, \n( показывает на коробочку)"
 
@@ -1287,11 +1290,14 @@ label day10:
 
     pe "Здоровенный был, гад. Не дождалась Гретхен своего Фрица. Тут, значит, или он меня или я его. Война. \n(все недоверчиво затихли)"
 
-    stop music
-
-    play music "audio/music/z_124.mp3"
 
     scene an_d10_3_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     pe "Ну так вот, ребятишки, слушайте… Щас расскажу про прииск."
 
@@ -1311,9 +1317,11 @@ label day10:
 
     smu "Вы нам лучше про «батискаф» расскажите, что на берегу валяется."
 
+
     scene cg tales_of_petrovich with dissolve
 
     allchar "Какой батискаф? Какой батискаф?"
+
 
     scene bg stage3
 
@@ -1324,11 +1332,14 @@ label day10:
 
     smu "Ну бочка такая, с иллюминатором и ржавым люком, которая на Рачьей отмели. От неё еще цепь в омут тянется. Неужели не видели? \n(покосился опасливо на палку Петровича)"
 
+
     scene an_d10_3_bg with dissolve
 
-    stop music
 
-    play music "audio/music/z_125.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     show sp_pe_006:
         yalign 0.0 subpixel True
@@ -1337,11 +1348,14 @@ label day10:
 
     pe "(Грозно) \nТы кто такой, малец, чтобы старших перебивать?!"
 
-    stop music
-
-    play music "audio/music/z_121.mp3"
 
     scene bg stage3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_121.mp3"
+
 
     show sp_smu_005:
         yalign 0.0 subpixel True
@@ -1349,6 +1363,7 @@ label day10:
         zoom 1.2
 
     smu "Это противозаконно! Рукоприкладство! Это произвол администрации!"
+
 
     scene bg stage4 with dissolve
 
@@ -1365,9 +1380,11 @@ label day10:
 
     smu "Мы не рабы! \n(разбрасывает вокруг себя листовки)"
 
-    stop music
 
-    play music "audio/music/z_128.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_128.mp3"
+
 
     show cg leaflet:
         yalign 0.2 subpixel True
@@ -1377,25 +1394,32 @@ label day10:
 
     pause (10000000000000000000000.0)
 
-    stop music
-
-    play music "audio/music/z_126.mp3"
 
     scene bg stage3 with dissolve
 
-    "Тузик бросается на Смутьянова и тот убегает"
-    
-    stop music
 
-    play music "audio/music/z_023.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_126.mp3"
+
+
+    "Тузик бросается на Смутьянова и тот убегает"
+  
 
     scene cg tales_of_petrovich with dissolve
+ 
+ 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     pe "А ну-ка, дайте мне эту агитацию. На самокрутки пущу её. Гляди-ка. Это же из кабинета Любаши бумага. Наверное, в присутствии спёр..."
 
     "Присутствием Петрович называл административный корпус, где стояла печатная машинка, на которой Любаша помогала директрисе печатать приказы и распоряжения, которыми была увешана доска информации на площади."
     
     "Пионеры собрали листовки и вручили старику."
+
 
     scene an_d10_3_bg with dissolve
 
@@ -1405,11 +1429,13 @@ label day10:
     
     "«Гаврики» дружно закивали."
 
+
     scene cg tales_of_petrovich with dissolve
 
     sl "Да вы не обращайте на него внимания, Архип Петрович. Его тут уже давно никто не слушает кроме второго отряда."
 
     sl "А что за батискаф на Рачьей отмели?"
+
 
     scene an_d10_3_bg with dissolve
 
@@ -1417,15 +1443,13 @@ label day10:
 
     pe "А вот эта история как раз про прииск. Я хотел рассказать. Да тут этот смутьян... \n(прокашлялся)"
 
-    # stop music
-
-    # play music "audio/music/z_023.mp3"
 
     scene cg bathyscaphe
     
     pause (10000000000000000000000.0)
     
     pe "Это не батискаф. Это колокол водолазный. И вот зачем. Когда драга намыла много песку, а дно опустилось (омута-то раньше вовсе не было), то драга стала вынимать со дна самородки."
+
 
     scene an_d10_3_bg with dissolve
 
@@ -1434,9 +1458,11 @@ label day10:
 
     pe "Не перебивай, а то забуду, что хотел сказать. Они значит, тяжелее и оседают вниз. А песочек-то сверху."
 
+
     scene cg tales_of_petrovich with dissolve
 
     el "Мы бы с Шуриком придумали устройство производительнее."
+
 
     scene an_d10_3_bg with dissolve
 
@@ -1449,6 +1475,7 @@ label day10:
     al "Наверное страшно было опускаться?"
 
     pe "Эт точно! Опускались многие, да и сам я в нём был. Страшно было… Течение норовит перевернуть колокол, а ты стоишь по колено в воде, внутри него, значит, и корячишься."
+
 
     scene cg tales_of_petrovich with dissolve
 
@@ -1463,36 +1490,42 @@ label day10:
     "Петрович махнул рукой в сторону реки."
 
 
-    stop music
-
-    play music "audio/music/z_130.mp3" 
-
-
     scene bg shouse
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3" 
+
+
     pe "Инженер там жил с женой и дочерью. Ждали, что приедет золотопромышленник, да увезет золотишко. Я в охране стоял. Потому как народ тут лихой был."
+
 
     scene cg tales_of_petrovich with dissolve
 
     "Все замолчали. Очевидно, у каждого были свои ассоциации с домом на болотах."
 
+
     scene an_d10_3_bg with dissolve
 
     le "Там страшно... Мы ходили с девчонками, но не вошли внутрь, убежали. Там какие-то звуки все время были и смех женский... Жуть..."
+
 
     scene cg tales_of_petrovich with dissolve
 
     mi "Да... Как вспомню, прямо мурашки."
 
-    stop music
 
-    play music "audio/music/z_023.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     sl "(Пытаясь снять напряжение) \nА что большевики?"
 
-    # stop music
+    # stop music fadeout 0.5
 
-    # play music "audio/music/z_131.mp3"
+    # queue music "audio/music/z_131.mp3"
 
     scene an_d10_3_bg with dissolve
 
@@ -1504,6 +1537,7 @@ label day10:
 
     ul "Да, деда, десять пудов это много. Не может быть, чтобы десять. Хоть пуд-то был?"
 
+
     scene cg tales_of_petrovich with dissolve
 
     pe "Был, внученька, был. Вот вы про сома не верили. А он был?"
@@ -1514,22 +1548,26 @@ label day10:
 
     pe "Ясно дело, можно. Если механизм лебедки починить. Он хоть и ржавый, а я его исправно бы опустил. Да и поднял бы, если подсобил бы кто. Только кто возиться будет? Таких смелых еще поискать."
 
+
     scene an_d10_3_bg with dissolve
 
-    stop music
 
-    play music "audio/music/z_132.mp3"
-    
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_132.mp3"
+  
+  
     ul "Я готова!"
 
     pe "Ишь ты, мелочь. Готова она. Вот. А сам-то я не смогу. Боязно. Я и тогда боялся. Я закрытых помещений жуть как боюсь. Даже в бытовке двери открытыми держу."
 
+
     scene cg tales_of_petrovich with dissolve
 
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     el "Так деда, там же в лебедке электричества нету. И наверное, обмотка давно тю-тю..."
@@ -1543,11 +1581,13 @@ label day10:
     pe "Про Колизей не знаю. А у нас работало. Хотя, что я всё болтаю без толку! А ну-ка, ребятишки, пошли. Покажу вам агрегат. Только чур, не говорите, что я вас туда водил. А то начальство у нас строгое."
 
 
-    stop music
-
-    play music "audio/music/z_140.mp3"
-
     scene bg winch
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_140.mp3"
+
 
     "И мы пошли на пристань."
 
@@ -1599,12 +1639,14 @@ label day10:
 
     pe "Потом назад таким же способом. Лебедку крутили, канат наматывался и против течения понтон шел назад, к пристани."
 
-    stop music
-
-    play music "audio/music/z_102.mp3"
-
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
+
 
     show an_10_01
 
@@ -1622,7 +1664,7 @@ label day10:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day11
 

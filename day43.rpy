@@ -4,9 +4,12 @@ label day43:
 
     $ days = 43
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day43:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/track5.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track5.mp3"
+
 
     show sp_mp_004:
         yalign 0.1 subpixel True
@@ -206,13 +209,13 @@ label day43:
     "У меня они не развились, поэтому я не обливалась. Иначе сразу стало бы видно, что я похожа на мальчишку."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene cg genda_plate_05 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Грустно поразмышляв на эту тему, я принялась протирать на памятнике табличку «ГЕНДА НАШ ОСНОВАТЕЛЬ»."
 
@@ -238,13 +241,13 @@ label day43:
     "Это было странно."
 
 
-    stop music
-
-
-    play music "audio/music/z_201.mp3"
-
-
     scene cg genda_plate_06 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
+
 
     "Я нажала на верхний край таблички и она ушла в постамент, как бы повернувшись вокруг своей оси."
 
@@ -264,13 +267,13 @@ label day43:
     "Вот так дела! Надо было срочно рассказать обо всем Алисе."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -326,10 +329,9 @@ label day43:
     hide sp_al_056
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_ul_033:
@@ -409,13 +411,13 @@ label day43:
     hide sp_ul_021
 
 
-    stop music
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene cg genda_plate_05 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_017.mp3"
+
 
     "Мы вернули табличку на место."
 
@@ -438,13 +440,13 @@ label day43:
     al "С чего начнем?"
 
 
-    stop music
-
-
-    play music "audio/music/z_102.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
+
 
     show sp_may_001:
         yalign 0.05 subpixel True
@@ -482,13 +484,13 @@ label day43:
     hide sp_fi_015
 
 
-    stop music
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene cg documents_black_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "По документам, которые мы нашли в архиве получалось, что после взрыва всё оборудование и взрывчатку для горных работ спрятали в шахте."
 
@@ -509,13 +511,13 @@ label day43:
     "И мы смылись, сразу после обеда."
 
 
-    stop music
-
-
-    play music "audio/music/z_132.mp3"
-
-
     scene bg mcity2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_132.mp3"
+
 
     "Дорогу мы знали, потому что проходили мимо поселка ещё когда шли в ПЕРВЫЙ ПОХОД на Пик Двачевской."
 
@@ -551,10 +553,9 @@ label day43:
     "Собственно поселок построили у входа в шахту. Время экономили. Поспал, покушал и сразу за работу. Какая еще дорога."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     "Мы огляделись. Поселок, и без того не веселый,  сейчас выглядел просто зловеще. Я посмотрела на Алису. Было заметно, что ей тоже не по себе."
@@ -595,22 +596,21 @@ label day43:
     "Но с дверью пришлось повозиться. Она никак не хотела открываться. Наконец, Алиса притащила какую-то железяку, которую нашла в поселке, и использовала её как рычаг."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_044.mp3"
+    queue music "audio/music/z_044.mp3"
 
 
     "Дело пошло. Из тоннеля пахнуло сыростью."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg bunker10 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -673,13 +673,13 @@ label day43:
     hide sp_al_056
 
 
-    # stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg bunker2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Через несколько метров путь нам преградила огромная дверь."
 
@@ -819,22 +819,21 @@ label day43:
     "Неожиданно по периметру люка зажглись огоньки, а над головой — два плафона. Раздался рокот и гул."
 
 
-    stop music
-
-
-    play music "audio/music/z_045.mp3" noloop
-
-
     scene bg bunker13 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_045.mp3" noloop
+
 
 
     "Люк медленно и плавно открылся. Он был толстенный."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_177.mp3"
+    queue music "audio/music/z_177.mp3"
 
 
     "Хорошо что мы успели отскочить в сторону."
@@ -894,10 +893,9 @@ label day43:
     "Пройдя немного, мы уперлись еще в одну дверь. На ней был какой-то знак."
 
  
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1013.mp3"
+    queue music "audio/music/z_1013.mp3"
  
  
     show sp_al_056:
@@ -960,22 +958,21 @@ label day43:
     "Вверх опять шла лестница."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_046.mp3"
+    queue music "audio/music/z_046.mp3"
 
 
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg bunker8 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Поднявшись по ней, мы попали в какое-то захламленное помещение."
 
@@ -984,13 +981,13 @@ label day43:
     "Там были пробирки и еще какие-то странные стеклянные шары и фарфоровые тигли."
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene bg bunker4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Мы прошли дальше и попали в довольно просторное помещение."
 
@@ -1005,10 +1002,9 @@ label day43:
     "Алиса подняла руку, шарики тут-же отлетели в сторону и сгруппировались в небольшую зеленоватую тучку. Они как-будто общались между собой."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1013.mp3"
+    queue music "audio/music/z_1013.mp3"
 
 
     show sp_ul_021:
@@ -1099,10 +1095,9 @@ label day43:
     hide sp_ul_021
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1005.mp3" noloop
+    queue music "audio/music/z_1005.mp3" noloop
 
 
     show sp_al_058:
@@ -1116,10 +1111,9 @@ label day43:
     hide sp_al_058
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_ul_021:
@@ -1242,13 +1236,13 @@ label day43:
     hide sp_ul_019
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg bunker4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Я выскользнула из рук Алисы и бросилась в лабораторию. Я вспомнила, что в соседнем помещении видела много стеклянных баночек с крышками. Я метнулась туда, схватила одну и решила сделать немыслимое."
 
@@ -1269,13 +1263,13 @@ label day43:
     hide sp_ul_023
 
 
-    stop music
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene bg bunker11 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -1329,13 +1323,13 @@ label day43:
     "Странно. Но рассуждать было некогда. Пробежав по склону и нагромождению валунов, поросших густым кустарником, мы нашли тропу и спустились по ней в поселок Горняков."
 
 
-    stop music
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
 
     show an_10_01
@@ -1374,13 +1368,13 @@ label day43:
     "Они закричали: «Вот мы вам сейчас расскажем историю!»"
 
 
-    stop music
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene cg all_campfire_evening with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1016.mp3"
+
 
     "Мы придвинулись поближе, чтобы не пропустить ни слова. И действительно, история оказалась удивительной. Чем-то похожей на сказку о Буратино."
 
@@ -1541,10 +1535,9 @@ label day43:
     "В общем, вечер получился очень интересный. Я назвала его «ВЕЧЕР УДИВИТЕЛЬНЫХ ИСТОРИЙ»."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_214.mp3"
+    queue music "audio/music/z_214.mp3"
 
 
     "Снова началась вибрация. Мы чувствовали ее даже у костра. Потом пошел сильный дождь. Прямо потоп. Все бросили костер и побежали в домики."
@@ -1630,7 +1623,7 @@ label day43:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day44
 

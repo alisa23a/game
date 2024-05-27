@@ -4,9 +4,12 @@ label day18:
 
     $ days = 18
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,27 +19,31 @@ label day18:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_007.mp3"
 
     scene bg dugout4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_007.mp3"
+
 
     "Мы проснулись, когда дождя уже не было. На время все вокруг как будто стихло. Наконец, прекратился дувший всю ночь, сильный ветер. Вещи подсохли."
 
     "Наскоро перекусив и проверив, не тлеют ли в печке угольки, мы, прихватив находку (журнал учета с прииска), двинулись дальше, помахав на прощанье рукой приютившему нас блиндажу."
-    
-    stop music fadeout 1.0
+   
+
+    scene bg swamp3 with dissolve 
 
 
-    play music "audio/music/z_013.mp3"
+    stop music fadeout 0.5
 
-    scene bg swamp3 with dissolve
+    queue music "audio/music/z_013.mp3"
+
 
     "Углубившись в лес, мы пошли по компасу. Выходило, что восток у нас за спиной, но понять, откуда взойдет солнце, в такую пасмурную погоду, было невозможно. Компас, оказался как нельзя кстати."
 
-    "Однако идти по болотистому лесу без дорог и ориентиров было трудно. Алиса выстрогала мне шест, и мы шли осторожно, стараясь обходить блестящие то тут то там лужи." # https://www.rbc.ru/life/news/646b7d199a79472a90810db7 Запятая перед союзом "и" в сложном предложении
+    "Однако идти по болотистому лесу без дорог и ориентиров было трудно. Алиса выстрогала мне шест, и мы шли осторожно, стараясь обходить блестящие то тут то там лужи."
 
 
     scene bg swamp4 with dissolve
@@ -48,10 +55,10 @@ label day18:
 
     "Пройдя по ней еще какое-то время, мы заметили большую просеку,  переходящую в ровную поляну. Лес вокруг стал гуще. На краю поляны мы остановились."
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_023.mp3"
 
-    play music "audio/music/z_023.mp3"
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -133,12 +140,14 @@ label day18:
 
     al "Да, в этой зоне все странно. То вдруг появляется ветер, то наводнение. При том, что небо еще минуту назад было чистое."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
 
     scene bg swamp5 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Мы подошли к торчащему из земли фюзеляжу самолета."
 
@@ -340,10 +349,11 @@ label day18:
 
     "Между тем, ветер еще сильнее засвистел в обшивке. Самолет задрожал и покачнулся. Вскоре свист перешел в завывание. Фюзеляж раскачивался так, что стало трудно устоять на ногах."
 
-    stop music fadeout 1.0
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_735.mp3"
+    queue music "audio/music/z_735.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -410,7 +420,7 @@ label day18:
         linear 0.5 xalign 1.0 yalign -0.2 zoom 0.4
         linear 0.5 xalign 1.2 yalign -0.5 zoom 0.2
         linear 0.5 xalign 1.5 yalign -1.0 zoom 0.2
-        #repeat
+
     $ renpy.pause(3.5, hard=True)
 
 
@@ -419,15 +429,12 @@ label day18:
     show sp_al_ul_par:
 
 
-        #xalign 0.5 yalign 0.3
-
         ease 0.5 xalign 0.5 yalign 0.3 zoom 0.8
         ease 0.5 xalign 0.4 yalign 0.35 zoom 0.7        
         ease 0.5 xalign 0.5 yalign 0.3 zoom 0.8
         ease 0.5 xalign 0.5 yalign 0.25 zoom 0.7
 
         repeat
-    #$ renpy.pause(3.5, hard=True)
 
     "Иногда, парашют так взлетал, что мы едва касались ногами земли. Я оглянулась, Алиса плотно висела на мне сжимая меня за талию."
 
@@ -437,8 +444,6 @@ label day18:
     scene bg par_flight2
 
     "Он стремительно удалялся и скоро скрылся из виду."
-
-    stop music fadeout 1.0
 
 
     image an_18_01: # Анимация пейзаж меняет цвет
@@ -456,9 +461,14 @@ label day18:
   
         repeat
 
-    play music "audio/music/z_125.mp3"
 
     scene an_18_01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     "Топь под нами и небо постоянно  меняли свой цвет. Как будто кто-то второпях менял фильтры на прожекторе, освещающем сцену, не решаясь выбрать между светом и тьмой."
 
@@ -470,17 +480,7 @@ label day18:
     "Вскоре мелькание исчезло.. Я облегченно вздохнула. Нет, со мной все в порядке."
 
     show sp_al_ul_par
-    # show sp_al_ul_par:
 
-
-        # #xalign 0.5 yalign 0.3
-
-        # ease 0.5 xalign 0.5 yalign 0.3 zoom 0.8
-        # ease 0.5 xalign 0.4 yalign 0.35 zoom 0.7        
-        # ease 0.5 xalign 0.5 yalign 0.3 zoom 0.8
-        # ease 0.5 xalign 0.5 yalign 0.25 zoom 0.7
-
-        # repeat
 
     "Я снова оглянулась. Кажется, мы набрали порядочную высоту. А что, если парашют сложится? От ужаса у меня свело мышцы. Ветер свистел в стропах и иногда хлопал парусиной."
 
@@ -489,12 +489,13 @@ label day18:
     "Я думала лишь об одном: только бы она не свалилась вниз. Туда я старалась не смотреть. Но лететь с закрытыми глазами было еще страшнее. Тогда я посмотрела вперед, в ту сторону, куда нас относил ветер."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_736.mp3"
-
     scene bg par_flight2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_736.mp3"
+
 
     "Он нёс нас на болота! В ту самую просеку. Хорошо, что парашют не давал нам упасть. Вокруг, сколько видел глаз, раскинулась бескрайняя топь. Возможно, ветер когда-нибудь стихнет."
 
@@ -512,7 +513,7 @@ label day18:
         linear 0.5 xalign 1.0 yalign -0.2 zoom 0.4
         linear 0.5 xalign 1.2 yalign -0.5 zoom 0.2
         linear 0.5 xalign 1.5 yalign -1.0 zoom 0.2
-        #repeat
+
     $ renpy.pause(3.5, hard=True)
 
 
@@ -521,25 +522,13 @@ label day18:
 
     scene bg par_flight2 with dissolve
 
-    #show sp_al_ul_par
-    # show sp_al_ul_par:
-
-
-        # #xalign 0.5 yalign 0.3
-
-        # ease 0.5 xalign 0.5 yalign 0.3 zoom 0.8
-        # ease 0.5 xalign 0.4 yalign 0.35 zoom 0.7        
-        # ease 0.5 xalign 0.5 yalign 0.3 zoom 0.8
-        # ease 0.5 xalign 0.5 yalign 0.25 zoom 0.7
-
-        # repeat
-
 
     "Ветер нёс нас с нарастающей скоростью. Я боялась, что если вдруг он внезапно стихнет, мы упадем в болото. Иногда нас подхватывал поток воздуха и приподнимал над болотом на несколько десятков метров."
 
     "В такие моменты я панически думала, что Алиса не удержится и упадет, а меня ветер унесет куда-нибудь в неизведанные края."
 
     "Когда нас приподняло в очередной раз, я увидела лес, растущий на краю топи. Алиса тоже увидела лес и закричала:"
+
 
     scene cg ul_al_flight2 with dissolve
 
@@ -551,13 +540,14 @@ label day18:
 
     "Вскоре мы опустились так низко, что стали цепляться ногами за болотную жижу, оставляя после себя веер брызг. Точно как тот глиссер, который я однажды видела на подмосковном водохранилище."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
 
     scene bg willow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Правда, глиссировали мы недолго. У кромки болота росла старая ива и нас несло прямо на неё."
 
@@ -829,19 +819,22 @@ label day18:
 
     "Я хотела стащить этот скребок, чтобы приобщить его к своей коллекции вещественных доказательств. Но Алиса не разрешила."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_126.mp3"
 
     scene cg dinning_ext_ln_tuz with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_126.mp3"
+
+
     "И вот уже лагерь. Нас заметил Тузик и бросился к нам с радостным лаем. На этот лай из столовой вышла Любовь Никаноровна. Руки у неё были красные от свеклы, которую она чистила."
 
-    stop music fadeout 1.0
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_043.mp3"
+    queue music "audio/music/z_043.mp3"
+
 
     pause (100000000000000000.0)
 
@@ -905,12 +898,14 @@ label day18:
 
     "Алиса толкнула меня локтем и сказала: «Надо что-то придумать, иначе нам хана»"
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
 
     scene bg genda with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     show sp_mi_012:
         yalign 0.0 subpixel True
@@ -933,13 +928,14 @@ label day18:
 
     "Потом был большой кипеш."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_155.mp3"
-
 
     scene bg genda with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_155.mp3"
+
 
     show sp_sem_001:
         yalign 0.05 subpixel True
@@ -971,18 +967,12 @@ label day18:
 
 
 
-
-
-
-
-
-
     #pause (10000000000000000000000.0)
 
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day19
 

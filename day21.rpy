@@ -4,24 +4,31 @@ label day21:
 
     $ days = 21
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
 
+
     pause (1000000000000000000.0)
+
 
     hide screen current_day
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_124.mp3"
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     show an_10_01
 
@@ -137,10 +144,10 @@ label day21:
     "Когда мы пришли к себе, стали аккуратно перелистывать книги. В них ничего не было. Но в одной из книг на последней страничке я увидела какие-то вдавленные буквы."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_999.mp3"
 
-    play music "audio/music/z_999.mp3"
 
     "Так бывает, когда пишут, подложив более мягкий листок под тот, на котором пишут, чтобы ручка лучше писала."
 
@@ -192,9 +199,8 @@ label day21_cont:
 
 
     image an_21_01: # Анимация шифр
-        
-        # "images/an/an21day/an_d21_01.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
+
+
         "images/an/an21day/an_d21_02.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an21day/an_d21_03.webp" with Dissolve(0.5, alpha=True)
@@ -280,13 +286,9 @@ return
 
 style SemDiaryText_text:
     color "#000"
-    #font "fonts/mateur-webfont.ttf"
     size 20
 
 screen day21_sem_diary01():
-
-    # on 'show' action PauseAudio('music', True) 
-    # on 'hide' action PauseAudio('music', False)
 
     tag menu
     zorder 100
@@ -416,13 +418,14 @@ screen day21_sem_diary03_img01():
 
 label day21_sem_diary01:
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_140.mp3"
-
 
     show screen day21_sem_diary01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_140.mp3"
+
 
     pause (10000000000000000000000.0)
 
@@ -435,12 +438,13 @@ label day21_sem_diary01:
 label day21_cont2:
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_491.mp3"
-
     scene bg nbeach with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_491.mp3"
+
 
     "Сегодня на пляж перед обедом пришли Маргарита Павловна и Атсуи. Впервые директриса появилась в купальнике!"
 
@@ -535,13 +539,14 @@ label day21_cont2:
     "Не то, что бы их не волновала тема фигур (конечно, каждой хотелось, чтобы на пляже на неё смотрели с восхищением), однако КУПАЛЬНИКИ... Согласитесь, ЭТО СВЯТОЕ."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_076.mp3"
-
-
     scene bg dining with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_076.mp3"
+
+
 
     "Странно, уже целый день после соревнований прошёл, а кушать хочется, «как не в себя». И в обед особенно кушать хотелось. Как говорила тетя Люба, промялись, видать, спортсмены."
 
@@ -561,10 +566,10 @@ label day21_cont2:
     "И вот, пока мы разговаривали, я увидела как тетя Люба на наш стол тарелки раскладывает. И тут заходит Семён. А она ему с подноса тарелочку. А там! Не поверите! Вместо одной, ТРИ КОТЛЕТЫ! Вот Гад!"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1004.mp3"
 
-    play music "audio/music/z_1004.mp3"
 
     "Ну, у меня от такой несправедливости, прямо красные круги перед глазами. Я толкаю Толика: «Видишь?!» А он так грустно отвечает: «Да, она так всегда делает»."
 
@@ -582,12 +587,13 @@ label day21_cont2:
     "Потом подумала, что НЕТ, черта с два, пусть эти котлеты никому не достанутся. Остановилась и зашвырнула их далеко в лес. И снова побежала. Я слышала за спиной тяжелое дыхание Семёна..."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1001.mp3"
-
     scene cg ul_cutlet_path2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1001.mp3"
+
 
     "И я подумала: «Бедненький, ему ни в жизнь меня не догнать». Но, ведь если он меня не догонит, то какой смысл было их воровать."
 
@@ -597,17 +603,17 @@ label day21_cont2:
     "И я остановилась, чтобы посмотреть как сильно он отстал. Но он оказался ближе, чем я думала, налетел сзади и снес меня."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1005.mp3" noloop
 
-    play music "audio/music/z_1005.mp3" noloop
 
     "Я ударилась коленкой. Там был склон, и мы покатились по тропинке вниз, в траву."
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_125.mp3"
 
-    play music "audio/music/z_125.mp3"
 
     "И я оказалась прямо под ним. А у него глаза дикие и не человеческие какие-то. Как у Вано, когда он на меня смотрит. И я ещё сильнее испугалась."
 
@@ -629,13 +635,14 @@ label day21_cont2:
 
     "Ну, они же в одном домике живут. Тут еще эти сплетни в отряде про ОД... И меня почему-то прямо в жар кинуло. Наверное, я красна вся стала."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_010.mp3"
-
 
     scene cg sem_ul_cutlet2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_010.mp3"
+
 
     sem "Что с тобой? Ты не заболела? Вся горишь... \n(трогает щеки и лоб)"
 
@@ -697,12 +704,13 @@ label day21_cont2:
     ul "Пусть достанутся Ежу и Черепахе."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/track2.mp3"
-
     scene cg sem_ul_cutlet3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track2.mp3"
+
 
     "И мы вместе зашагали назад. А я спросила по дороге:"
 
@@ -736,12 +744,13 @@ label day21_cont2:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
     scene bg library with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "А позже в этот же день я занесла словарик английских терминов в библиотеку и заметила, что Женя выглядит озабочено."
 
@@ -1045,10 +1054,10 @@ screen find_the_door():
 label find_the_door:
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_124.mp3"
 
-    play music "audio/music/z_124.mp3"
 
     $ show_quick_menu = False
 
@@ -1093,12 +1102,13 @@ label day21_cont4:
     "На втором этаже домика ОД тоже был чердак, как и над нашим с Алисой. Он тоже был закрыт на замок, как и все чердаки (мы проверяли все). А вот к этой двери ключ подошел."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
     scene bg msecret with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "И вот мы вошли. Мы думали что там будет пыль и паутина как у нас (мы же долго его отмывали и прибирали там, прежде чем сделать себе нычку)."
 
@@ -1307,13 +1317,13 @@ label day21_cont4:
     hide sp_ul_012
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg bomp_shelter2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "И ту мы вместе воскликнули: «БОМБОУБЕЖИЩЕ!»"
 
@@ -1353,23 +1363,26 @@ label day21_cont4:
     "Но сейчас спускаться туда было небезопасно. Нас могли увидеть. Мы решили дождаться ночи."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1006.mp3"
-
     scene bg bomp_shelter2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1006.mp3"
+
 
     "Итак, мы нашли дверь."
 
     "Один из ключей снова подошел. Нашему ликованию не было предела."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
 
     scene bg bomp_shelter with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Дверь вела в узкий проход, фактически не освещённый ничем. От бесконечных похождений наши батарейки в фонариках давно сели, но на этот раз мы запаслись свечками. "
 
@@ -1385,10 +1398,10 @@ label day21_cont4:
     ul "Да, я вот тоже думаю, ЧТО сейчас над нами? Так-то, если посчитать количество поворотов, мы должны пройти библиотеку и медпункт. Сейчас мы где-то под домиком Ольги Дмитриевны."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1013.mp3"
 
-    play music "audio/music/z_1013.mp3"
 
     al "Возможно. Но это точно не бомбоубежище. Этот ход, а точнее тоннель, не имеет к бомбоубежищу никакого отношения."
 
@@ -1582,26 +1595,26 @@ label day21_cont4:
     ul "Смотри, кто-то моется."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1009.mp3"
-
-
     scene cg mi_showers with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1009.mp3"
+
 
     al "Поздно уже... Кто это?"
 
     ul "Это Мику! Смотри, как тщательно моет свои волосы."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_125.mp3"
-
-
     scene cg al_ul_candles with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     al "Кто-то идет по коридору! Прячемся!"
 
@@ -1619,10 +1632,9 @@ label day21_cont4:
     ul "Дай я посмотрю в скважину... Это не Семён. Точно не он."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_201.mp3"
+    queue music "audio/music/z_201.mp3"
 
 
     ul "Боже, это же... Это же Пионер. Вот он куда исчез. Бродит по лабиринтам. А мы думаем, он на отмели."
@@ -1634,30 +1646,29 @@ label day21_cont4:
     al "Одно другому не мешает." 
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1010.mp3" noloop
-
-
     scene cg bombshelter_shadows with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1010.mp3" noloop
+
 
     "Люк закрылся. Интересно, куда он ведет..."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1012.mp3"
+    queue music "audio/music/z_1012.mp3"
 
 
     ul "С меня хватит. Слышишь, как сердце колотится? Надо выбираться отсюда. Всё, что нужно, мы уже узнали. Пошли."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_152.mp3"
 
-    play music "audio/music/z_152.mp3"
 
     ul "И вот что ещё я подумала. Ключи Семён потерял. Они у нас. Он сюда больше не зайдет. Так что, бояться нечего."
 
@@ -1666,21 +1677,21 @@ label day21_cont4:
     ul "(С досадой) \nДурачок безглазый."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1007.mp3"
 
-    play music "audio/music/z_1007.mp3"
 
     "Было тихо. Только в душевой едва слышно капала вода. Мику ушла. Мы облегченно выдохнули и стали пробираться к выходу."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene cg al_ul_candles with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Обратный путь прошел без приключений. Мы дошли почти до лестницы,  по которой спустились в бомбоубежище.  Осталось только миновать последний  поворот коридора, подняться наверх и выйти на поверхность."
 
@@ -1698,18 +1709,17 @@ label day21_cont4:
     "Я нашарила в кармане спички и снова зажгла свечу."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1008.mp3" noloop
 
-    play music "audio/music/z_1008.mp3" noloop
 
     "По ступенькам лестницы зазвучали чьи-то шаги."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_125.mp3" noloop
+    queue music "audio/music/z_125.mp3" noloop
 
 
     ul "БЕЖИМ!"
@@ -1725,16 +1735,20 @@ label day21_cont4:
     "Нас с незнакомцем разделял только поворот коридора. Когда этот КТО-ТО поравнялся с нами, я резко подняла свечу."
 
 
+    scene cg ul_gangly with dissolve
+
+
     $ renpy.music.set_volume(0.00, delay=1.0, channel='music')
+
 
     play miscSounds "audio/music/z_1011.mp3" noloop
 
 
-    scene cg ul_gangly with dissolve
-
     "От неожиданности гость вскрикнул. Это был не Семен и не Петрович. Это был..."
 
+
     stop miscSounds fadeout 1.0
+
 
     $ renpy.music.set_volume(1.00, delay=1.0, channel='music')
 
@@ -1760,7 +1774,7 @@ label day21_cont4:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day22
 

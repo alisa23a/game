@@ -4,9 +4,12 @@ label day24:
 
     $ days = 24
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,13 +19,14 @@ label day24:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_533.mp3"
-
 
     scene cg al_awaking2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_533.mp3"
+
 
     "Когда я проснулась, мы уже лежали обнявшись. Алиса еще спала. Было прохладно, и мы, наверное, инстинктивно прижались друг к другу, чтобы не замерзнуть."
 
@@ -78,13 +82,13 @@ label day24:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_152.mp3"
-   
-
     scene bg glade with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
 
     "Но, как бы там ни было, надо было идти на звук. Алиса выглядела забавно. К ее волосам прилипли листья и веточки, куртка тоже была вымазана чем-то белым, наверное глиной."
 
@@ -209,13 +213,13 @@ label day24:
     hide sp_al_056
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1020.mp3"
-   
-
     scene bg burleyka with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1020.mp3"
+
 
     "И действительно, скоро нам открылся вид на Бурлейку."
 
@@ -224,14 +228,13 @@ label day24:
     "Был даже слышен отдаленный рев этого потока. Это и был тот самый звук, что мы слышали в лесу. Так вот почему она Бурлейка! Мы двинулись назад, по террасе, и вдруг Алиса указала мне на склон:"
 
 
-    stop music fadeout 1.0
-
-
-    #play music "audio/music/z_480.mp3"
-    play music "audio/music/z_176.mp3"
-
-
     scene bg terrace with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
 
     show sp_al_055:
@@ -305,6 +308,7 @@ label day24:
 
     scene an_24_02 with dissolve
 
+
     pause (10000000000000000000000.0)
 
 
@@ -344,7 +348,9 @@ label day24:
 
     $ inv_item_15 = True
 
+
     pause (100000000000000000.0)
+
 
     scene bg cave2 with dissolve
 
@@ -384,13 +390,13 @@ label day24:
     "Я положила находки в рюкзак. Больше мы ничего не нашли и отправились вниз по террасе, а потом вскоре нашли начало нашей тропы. Дошли по ней до ручья и снова пошли по нему."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_140.mp3"
-   
-
     scene bg coast3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_140.mp3"
+
 
     "Наш ручей привел нас на огромные песчаные плесы, тянущиеся вдоль Бурлейки."
 
@@ -419,12 +425,13 @@ label day24:
     "Потом вымазались в песке, зарывая друг друга по очереди, потом свалились в изнеможении, подставляя тела солнцу и загорая до самого полудня."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_152.mp3"
-
     scene bg dunes2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
 
 
     "Припекало. Идти никуда не хотелось."
@@ -584,12 +591,6 @@ label day24:
     ul "Что, голыми?"
 
     hide sp_ul_023
- 
- 
-    # stop music fadeout 1.0
-
-
-    # play music "audio/music/z_1014.mp3"
 
 
     scene bg coast3 with dissolve
@@ -601,10 +602,9 @@ label day24:
     al "Сдаюсь, сдаюсь!"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_009.mp3"
+    queue music "audio/music/z_009.mp3"
 
 
     "Ополоснувшись, мы собрали вещи, оделись и пошли по левому берегу вверх по течению."
@@ -617,13 +617,13 @@ label day24:
     "Через полчаса мы вышли на опушку леса и миновав её, вошли в заросшую цветами долину, по которой пролегала маленькая, чуть заметная тропка. Алиса наклонилась, показав мне на неё."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene cg footprints2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "На тропе явственно отпечатался след чьей-то босой, очень маленькой ноги."
 
@@ -655,13 +655,13 @@ label day24:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_495.mp3"
-
-
     scene bg yulya_hous with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_495.mp3"
+
 
     "Маленькие следы привели нас к заброшенному домику в лесу."
 
@@ -820,13 +820,13 @@ label day24:
     hide sp_al_056
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_480.mp3"
-
-
     scene cg yulya_bushes with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_480.mp3"
+
 
     "Из-за дерева появилась любопытное личико. Какое-то время Юля смотрела на нас своими огромными глазищами. Потом вышла, и я увидела, что она всё в том же коричневом платьице, в котором была в развалинах."
 
@@ -950,14 +950,13 @@ label day24:
     hide sp_iul_009
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_478.mp3"
-
-
     scene bg yulya_hous with dissolve:
         xpos 0.5 ypos -0.4 xanchor 0.5 yanchor 0.0 zoom 1.4
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_478.mp3"
 
 
     pause (10000000000000000000000.0)
@@ -1184,8 +1183,6 @@ label day24:
     uv "Рыбка. Наловила в Озере."
 
 
-    #scene cg yulya_fishing4 with dissolve
-
 
     image an_24_03: # Анимация Юля ловит рыбу на фонарь
         
@@ -1322,13 +1319,13 @@ label day24:
     uv "Да, на него вешали ружья и добычу всякую. Мне повезло. Не нужно выходить каждый раз из домика и портить деревья."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene bg yulya_room with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -1389,15 +1386,16 @@ label day24:
     al "Все-то тебе везде тайны мерещиться."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_010.mp3" 
-
-
     scene bg yulya_room with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_010.mp3" 
+
+
     "Затем мы вернулись в домик и уютно расположились у камина."
+
 
     scene bg yulya_fireplace2 with dissolve
 
@@ -1455,15 +1453,13 @@ label day24:
 
     al_ul "(Cтремительно усаживаясь за стол, хором) \nДа кому он нужен!"
 
- 
-    # stop music fadeout 1.0
 
-
-    # play music "audio/music/z_010.mp3" 
  
     scene bg yulya_room with dissolve
 
+
     pause (10000000000000000000000.0)
+
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -1530,6 +1526,7 @@ label day24:
 
     scene an_24_04 with dissolve
 
+
     pause (10000000000000000000000.0)
 
 
@@ -1567,13 +1564,13 @@ label day24:
     uv "Обычные грибы кушать можно, а эти нет."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_171.mp3" 
-
-
     scene bg yulya_room with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3" 
+
 
 
     show sp_al_056:
@@ -1609,6 +1606,7 @@ label day24:
 
 
     scene bg yulya_room2 with dissolve
+
 
     show sp_iul_009:
         yalign 0.1 subpixel True
@@ -1694,7 +1692,6 @@ label day24:
     ul "И всё стало прекрасно?"
 
 
-
     scene bg yulya_room2 with dissolve
 
 
@@ -1720,7 +1717,6 @@ label day24:
         zoom 1.2 
 
     al "А ты что, всегда носишь грибы с собой? Но у тебя же нет карманов на платье."
-
 
 
     scene bg yulya_room2 with dissolve
@@ -1810,13 +1806,13 @@ label day24:
     "Мы разделили гриб и принялись жевать."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene cg al_ul_bra with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Ну вот. Сначала мы думали, что это шутка. И сильно веселились."
 
@@ -1839,14 +1835,14 @@ label day24:
     "Потом был какой-то провал. Наверное, мы чудили. Но я не помню. Грибы точно были волшебные."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
 
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day25
 

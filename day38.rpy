@@ -4,9 +4,12 @@ label day38:
 
     $ days = 38
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day38:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg oldcem6 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_197.mp3"
+
 
     "Нам не давала покоя история с магией и куклой. И мы с Алисой решили еще раз сходить на кладбище."
 
@@ -71,13 +74,13 @@ label day38:
     al "Так, теперь давай сопоставим все имеющиеся у нас факты."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg woodoo_doll with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Кукла сшита профессионально, а шьет у нас только Лена."
 
@@ -198,13 +201,13 @@ label day38:
     hide sp_al_004
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene bg auhouse3 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_017.mp3"
+
 
     show sp_mi_016:
         yalign 0.05 subpixel True
@@ -236,13 +239,13 @@ label day38:
     "Остаемся только мы с Алисой, но у нас, как ей показалось, какие-то свои тайны, в которые мы её не посвящаем. В общем, выглядела она расстроено."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_201.mp3"
-
-
     scene bg auhouse2 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_201.mp3"
+
 
 
     show sp_ul_013:
@@ -272,13 +275,13 @@ label day38:
     "У Мику загорелись глаза. Она дала клятву молчать как рыба. Расстались мы с обнимашками. Она убежала окрыленная."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Через час о магии знал уже весь отряд. Мику проболталась. Вышло это, как она сама сказала, СЛУЧАЙНО."
 
@@ -302,13 +305,13 @@ label day38:
     "Мы с Алисой посовещались и решили не рассказывать в отряде про Дом на Болотах, потому что не были уверены, действительно ли та таинственная девушка, которую мы видели, имеет отношение к магии."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg attic3 with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_023.mp3"
+
 
 
     "Собрание отряда назначили на тот же день, вечером. Решили собраться после отбоя снова на нашем чердаке. Лене не сказали зачем, чтобы она не сбежала."
@@ -358,10 +361,10 @@ label day38:
 
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5 fadeout 1.0
 
+    queue music "audio/music/z_131.mp3"
 
-    play music "audio/music/z_131.mp3"
 
     "Потом встала и попыталась уйти. Но дверь была заперта и её усадили назад."
 
@@ -440,17 +443,11 @@ label day38:
 
 
 
-
-
-
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day39
 

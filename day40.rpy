@@ -4,7 +4,6 @@ label day40:
 
     $ days = 40
 
-    #play music "audio/music/z_1003.mp3"
 
     show screen current_day_bad_2 with fade
 
@@ -35,7 +34,6 @@ label day40:
 
     scene black with fade
 
-    #stop music
 
     jump day41
 

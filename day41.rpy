@@ -4,7 +4,6 @@ label day41:
 
     $ days = 41
 
-    #play music "audio/music/z_1003.mp3"
 
     show screen current_day_bad_3 with fade
 
@@ -97,13 +96,13 @@ label day41:
     "Тут же снарядили лодки и сети с баграми, чтобы прочесать дно Омута. В бесплодных поисках прошли последние двое суток. Но через какое-то время  действительно обнаружили женское тело."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg drowned2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Из одежды на нем была только черная ночная рубашка. Никто, даже Славя, не смогли вспомнить, была ли такая у Лены. Рост и телосложение, как будто, совпадали."
 
@@ -190,13 +189,13 @@ label day41:
     "Тогда я выкрала у ОД из стола это письмо и мы с Алисой его прочитали. Вот оно."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg lenas_note with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
 
     pause (10000000000000000000000.0)
@@ -232,13 +231,13 @@ label day41:
     "Все портил факт найденного тела. Принадлежало ли оно Лене? Но если нет, то кому? Это была загадка."
 
 
-    stop music
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene cg epicenter with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1016.mp3"
+
 
     "По нашим с Алисой расчётам, граница Зоны была не более шести километров."
 
@@ -263,13 +262,13 @@ label day41:
     "Теперь, когда мы сделали всё необходимое, мы могли, наконец, отправится в путь."
 
 
-    stop music
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg stels with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     "Рано утром мы незаметно выскользнули через лазейку в заборе лагеря, потому что у ворот дежурил Петрович. А мы не хотели, чтобы он доложил, что видел нас идущими по старой дороге."
 
@@ -294,13 +293,13 @@ label day41:
     "Я подумала, зачем забивать себе голову неразрешимыми задачами, тем более, что надо было идти трудный подъем в гору?"
 
 
-    stop music
-
-
-    play music "audio/music/track5.mp3"
-
-
     scene bg moсr with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track5.mp3"
+
 
     "После того, как мы по узкому мостику прошли ручей, тропа резко пошла вверх."
 
@@ -318,13 +317,13 @@ label day41:
     "Мы пошли дальше. Тропа стала уходить вниз, в ущелье между гор и вывела нас на небольшое плато."
 
 
-    stop music
-
-
-    play music "audio/music/z_201.mp3"
-
-
     scene bg ogm with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
+
 
     "Часть склона была как будто подрезана огромным ножом, и была видна дыра, вход в этот самый прииск. Только в отличие от пещеры, он был обложен бревнами."
 
@@ -417,13 +416,13 @@ label day41:
     hide sp_ul_019
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg mine2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "И мы вошли в эту шахту. По её дну шили рельсы для вагонеток, но самих вагонеток не было, наверное они были где-то глубоко внизу."
 
@@ -436,13 +435,13 @@ label day41:
     "Мы прошли еще, покричали. Никто не отозвался, и мы хотели идти назад, но в глубине тоннеля что-то блеснуло."
 
 
-    stop music
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene cg scull with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "Мы направили оба фонаря в это место и увидели смотрящий на нас черными глазницами человеческий череп."
 
@@ -452,22 +451,21 @@ label day41:
     pause (10000000000000000000000.0)
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_042.mp3" noloop
+    queue music "audio/music/z_042.mp3" noloop
 
 
     "И мы, конечно, заорали и хотели кинулись к выходу. Утопленница, а теперь еще это! Наши нервы были на пределе."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg mine_scull with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Но пересилив себя, мы подошли к останкам. Рядом с черепом лежала истлевшая одежда, похожая на военную форму. А в песке видно было что-то вроде коробочки."
 
@@ -502,13 +500,13 @@ label day41:
     "Когда мы выскочили наружу, то испытали огромное облегчение. Нам надо было отдышаться. Но оставаться рядом со входом мы уже не захотели."
 
 
-    stop music
-
-
-    play music "audio/music/z_1001.mp3"
-
-
     scene cg skeleton with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1001.mp3"
+
 
     "Мне казалось, что тот скелет сейчас выскочит за нами. Мы в этом друг другу не признавались, но судя по тому, как быстро бежала Алиса, она думала о том же."
 
@@ -516,13 +514,13 @@ label day41:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_013.mp3"
-
-
     scene bg wdgorge with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_013.mp3"
+
 
     "Мы пробежали еще по тропе и перешли на шаг. Тут тоже была небольшая площадка и можно было отдохнуть."
 
@@ -581,10 +579,10 @@ label day41:
     hide sp_ul_019
 
 
-    stop music
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1020.mp3"
 
-    play music "audio/music/z_1020.mp3"
 
     "И мы прошли еще немного. Вскоре мы услышали громкое журчание. В распадке рос небольшой лесок и звук доносился оттуда."
 
@@ -596,13 +594,13 @@ label day41:
     "Мы напились воды, которая оказалась холодной и очень вкусной, и наполнили солдатскую флягу, которую одолжили у Петровича."
 
 
-    stop music
-
-
-    play music "audio/music/z_002.mp3"
-
-
     scene bg tcc with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
 
     show sp_al_055:
@@ -659,13 +657,13 @@ label day41:
     hide sp_al_055
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene cg sig_case with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Старый портсигар со свастикой долго не хотел открываться. Он был перетянут истлевшей от времени лентой, а штифты внутри поворотного механизма, очевидно, заржавели."
 
@@ -744,13 +742,13 @@ label day41:
     hide screen germat_note
 
 
-    stop music
-
-
-    play music "audio/music/z_533.mp3"
-
-
     scene bg ba_path with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_533.mp3"
+
 
     "Мы перекусили припасёнными бутербродами и двинулись в путь."
 
@@ -937,13 +935,13 @@ label day41:
     hide sp_ul_021
 
 
-    stop music
-
-
-    play music "audio/music/z_1020.mp3"
-
-
     scene bg river with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1020.mp3"
+
 
     "Вскоре показалась река. На ней в этом месте были пороги, поэтому вся река пенилась."
 
@@ -974,13 +972,13 @@ label day41:
     "Она скользила бесшумно и на поверхности реки от неё не было никаких волн. Это было так внезапно, что мы вздрогнули."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg poachers with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -1017,10 +1015,9 @@ label day41:
     pch3 "А что тогда попало только что в сеть?"
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_202.mp3"
+    queue music "audio/music/z_202.mp3"
 
 
     "Неожиданно от сильного рывка сети, за которую они держались, все трое упали в воду. Как будто кто-то утянул сеть на глубину вместе с ловцами."
@@ -1037,10 +1034,9 @@ label day41:
     "Мы стояли уже не скрываясь, во весь рост. Оцепеневшие, оглушённые увиденным. Через какое-то время я смогла прийти в себя."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_ul_053:
@@ -1099,10 +1095,9 @@ label day41:
     hide sp_al_057
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1003.mp3"
+    queue music "audio/music/z_1003.mp3"
 
 
     show sp_ul_019:
@@ -1131,13 +1126,13 @@ label day41:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene cg equipment with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
 
     pause (10000000000000000000000.0)
@@ -1264,13 +1259,13 @@ label day41:
     hide sp_al_037
 
 
-    stop music
-
-
-    play music "audio/music/z_1009.mp3"
-
-
     scene bg burleyka with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1009.mp3"
+
 
     "Мы осторожно переправились с шестами по камням порогов, дважды чуть не упав воду в местах, где расстояние между валунами было особенно большим."
 
@@ -1279,13 +1274,13 @@ label day41:
     "Я поделилась своими мыслями с Алисой. Она согласилась."
 
 
-    stop music
-
-
-    play music "audio/music/z_418.mp3"
-
-
     scene bg bravepath with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
+
 
     "Теперь снова нужно было идти в гору по той тропе, по которой мы когда-то ходили с ОД во второй поход, где и произошла потасовка Лены и Алисы."
 
@@ -1308,13 +1303,13 @@ label day41:
     al "Ведь ты говоришь, он знает всё. Интересно, знает ли он, что мы сейчас идём по тропе в сторону Землянки золотоискателя?"
 
 
-    stop music
-
-
-    play music "audio/music/z_012.mp3"
-
-
     scene cg boat_river with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     "Вдали, на излучине реки показалась лодка."
 
@@ -1404,10 +1399,9 @@ label day41:
     al "Неужели ты ещё не поняла, что он за человек? Хотя, время для свиданий не подходящее. Думаю, что-то они там ищут... На острове."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_002.mp3"
+    queue music "audio/music/z_002.mp3"
 
 
     al "Ладно, пойдем. Время работает не на нас."
@@ -1508,13 +1502,13 @@ label day41:
     "Мы обследовали все вокруг землянки и вдруг Алиса вскрикнула:"
 
 
-    stop music
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene cg iul_le_footprits with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     al "Смотри!"
 
@@ -1538,13 +1532,13 @@ label day41:
     al "Доберемся до Юлькиной норы и постараемся уговорить Ленку вернуться."
 
 
-    stop music
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene bg coast3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_017.mp3"
+
 
     "И мы долго шли. Дошли до берега, где отмели, и где мы бегали в прошлый раз голышом. Но останавливаться не стали, хотя очень устали и хотелось искупаться."
 
@@ -1572,24 +1566,24 @@ label day41:
     al "С этой тропы свернём направо и выйдем к Юлиному домику."
 
 
-    stop music
-
-
-    play music "audio/music/z_002.mp3"
-
-
     scene bg crystal_spryng with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Такой у нас был план. И когда стало уже смеркаться, мы вышли к роднику. На карте он был обозначен как Родник Кристальный. Там мы и заночевали."
 
 
-    stop music
-
-
-    play music "audio/music/z_180.mp3"
-
-
     scene cg fishing_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
 
     "Мы немного посидели у символического костра, потом положили себе подстилку из папоротника, а сверху взятое из лагеря одеяло (потому что палатки у нас не было)."
 
@@ -1602,7 +1596,7 @@ label day41:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day42
 

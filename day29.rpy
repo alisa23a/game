@@ -4,9 +4,12 @@ label day29:
 
     $ days = 29
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -15,12 +18,6 @@ label day29:
     hide screen current_day
 
     $ show_quick_menu = True
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
 
 
     image an_29_01: # Анимация Ольга Дмитриевна разговор
@@ -91,6 +88,11 @@ label day29:
 
 
     scene an_29_01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
 
 
     pause (10000000000000000000000.0)
@@ -221,13 +223,13 @@ label day29:
     "Мы пришли в наш домик и сели пить компот с печеньками, которые принесли из столовой."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg smu_docs with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     al "Та-а-ак. Посмотрим, что за перец такой этот Смутьянов."
 
@@ -253,17 +255,17 @@ label day29:
     "{i}Пишет капитальный труд – «Лагеря и мракобесие в современной России». Нуждается в особом присмотре и оргвыводах.{/i}"
 
 
-    stop music fadeout 1.0
+    scene bg crsh with dissolve
 
+
+    stop music fadeout 0.5
 
     play miscSounds "audio/music/z_001.mp3"
 
     $ renpy.music.set_volume(0.50, delay=1.0, channel='miscSounds')
 
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
-
-    scene bg crsh with dissolve
 
     "После обеда мы отправились на Рачью отмель."
 
@@ -454,7 +456,7 @@ label day29:
     play miscSounds "audio/music/z_001.mp3"
 
 
-    play music "audio/music/z_022.mp3"
+    queue music "audio/music/z_022.mp3"
 
 
     hide sp_smu_011
@@ -545,16 +547,15 @@ label day29:
     "И мы все вместе отправились в лагерь. А Алиса улыбалась, подмигивала мне и на ходу насвистывала какую то веселую мелодию."
 
 
-    stop music fadeout 1.0
-
-
-    stop miscSounds fadeout 1.0
-
-
-    play music "audio/music/z_516.mp3"
-
-
     scene cg od_alter with dissolve
+
+
+    stop music fadeout 0.5
+
+    stop miscSounds fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
+
 
     "После Случая с Вано мы как-то сблизились с Ольгой Дмитриевной. И я спросила ее, не знает ли она, откуда доносятся звуки и вибрация в лагере. Ольга Дмитриевна как будто задумалась."
 
@@ -574,12 +575,6 @@ label day29:
     scene cg od_alter with dissolve
 
     od "Раньше мне казалось, что это только у меня такое ощущение. Оказывается, вы тоже его слышите?"
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_417.mp3"
 
 
     image an_29_02: # Анимация памятник качается
@@ -659,6 +654,11 @@ label day29:
     scene an_29_02 with dissolve
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
+
     pause (10000000000000000000000.0)
 
 
@@ -681,13 +681,13 @@ label day29:
     od "Но потом при реставрации рабочие потеряли болты от крепежа, и он остался стоять на центральной вращающейся основе. Он тяжелый, поэтому стоит как Александрийский столп в Питере, сам по себе."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg odhouse7 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -799,13 +799,13 @@ label day29:
     ul "Мы с Алисой их познакомим. Уверена, она всем понравится."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene an_d28_01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     ul "И да, скажу вам по секрету. Это, возможно, не Вано воровал белье с веревок. Ну надо же ей во что-то одеваться!"
 
@@ -853,13 +853,13 @@ label day29:
     ul "ДА! Мы с ней решим этот вопрос."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene al_ul_iul_story with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "В тот же день мы с Алисой рассказали отряду о Юле. Были всякие споры."
 
@@ -896,13 +896,13 @@ label day29:
     al "Ну и пусть думает. Какая разница? Лишь бы она не купалась голышом. А это я беру на себя."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_516.mp3"
-
-
     scene cg yulya_hide with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
+
 
     "Мы направились в старый лагерь, чтобы разыскать Юлю."
 
@@ -975,13 +975,13 @@ label day29:
     uv "Нет. Их жуют отдельно и ни с чем не смешивают."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_495.mp3"
-
-
     scene bg jusu with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_495.mp3"
+
 
     "А потом Юля повела нас показывать свои ПРИПАСЫ, которые мы уже видели раньше, но были и другие."
 
@@ -1068,12 +1068,6 @@ label day29:
     uv "У всех есть свои охотничьи угодья. Никто не ворует друг у друга. А дожди тут чрезвычайно редки, как если бы на небе был прозрачный зонтик. Охотничьи угодья есть даже у ежа и черепахи."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_214.mp3"
-
-
     image an_29_03: # Анимация гроза над Бурлейкой
         
         "images/an/an29day/an_d29_37.webp" with Dissolve(0.5, alpha=True)
@@ -1099,6 +1093,12 @@ label day29:
 
     scene an_29_03 with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_214.mp3"
+
+
     pause (10000000000000000000000.0)
 
 
@@ -1110,13 +1110,13 @@ label day29:
     "Здесь — туман и маленький дождик, который быстро заканчивается. Но в долине у реки может продолжаться три дня. Однажды дождь шел неделю."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg iul_hide1 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -1213,13 +1213,13 @@ label day29:
     "Юля молча кивнула."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_067.mp3"
-
-
     scene bg dark_forest with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_067.mp3"
+
 
     "Когда мы перебрались на другую сторону реки, то оказались в районе, который был значительно ниже по реке, чем даже Дальний пляж. Оттуда по тропе мы пошли в сторону горы."
 
@@ -1278,21 +1278,14 @@ label day29:
     pause (1000000000000000000000000.0)
 
 
-    # stop music fadeout 1.0
-
-
-    # play music "audio/music/z_022.mp3"
-
-
     scene bg hetu2 with dissolve
 
     "Мы ещё полюбовались на уморительно забавного Ежа, как он смотрит на нас своими бусинками глазками и все время принюхивается, а потом стали спускаться вниз по склону."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_201.mp3"
+    queue music "audio/music/z_201.mp3"
 
 
     show sp_iul_009:
@@ -1335,13 +1328,13 @@ label day29:
     "Ольга Дмитриевна — блестящая как ставридка, Славя — рыба Луна, а директриса — Барракуда. Петрович, понятное дело, рак отшельник. Я бы и дальше фантазировала, но... Тут меня толкнула Алиса:"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_181.mp3"
-
-
     scene bg hetu2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
 
     show sp_al_055:
@@ -1381,13 +1374,13 @@ label day29:
     "И мы стали фантазировать про то, что было бы, будь тут динозавры. А Юля только улыбалась, слушая нас, пока не вывела нас к реке."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_480.mp3"
-
-
     scene bg burleyka2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_480.mp3"
+
 
     show sp_iul_009:
         yalign 0.1 subpixel True
@@ -1450,13 +1443,13 @@ label day29:
     ul "Они друзья. Хорошо, Пионера я беру на себя."
 
 
-    stop music fadeout 1.0
-
-
-    #play music "audio/music/track1.mp3"
-    play music "audio/music/z_007.mp3"
-
     scene bg hut3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_007.mp3"
+
 
     "И мы расстались.  Алиса пошла в лагерь, а Юля отвезла меня на отмель, где я рыбачила с Пионером. Его не было."
 
@@ -1477,7 +1470,7 @@ label day29:
     "Я быстро записываю ответы в дневник, чтобы не забыть. А чернила почему-то бледнеют и исчезают, прямо у меня на глазах. А я снова к сове. А её уже нет."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
 
 
@@ -1486,7 +1479,7 @@ label day29:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day30
 

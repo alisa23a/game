@@ -4,9 +4,12 @@ label day19:
 
     $ days = 19
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,12 +19,14 @@ label day19:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     show an_10_01
 
@@ -265,12 +270,14 @@ label day19:
 
     ul "(Неуверенно) \nЭ-э-э, так... Он же вроде должен смотреть на площадь? Ну, то есть на... Когда мы на линейке..."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_015.mp3"
 
     scene bg genda_looks_right with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_015.mp3"
+
 
     al "А сейчас он стоит к ней спиной и смотрит..."
 
@@ -293,15 +300,13 @@ label day19:
     pause (10000000000000000000000.0)
 
 
-# Библиотека
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
     scene cg dead_pilot2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Планшет, который мы принесли с Алисой из похода на болота, содержал ценные сведения и дополнил те документы, которые мы стащили из подвала библиотеки."
 
@@ -456,7 +461,6 @@ label day19:
 
     scene bg library2 with dissolve
 
-
     show sp_ul_013:
         yalign 0.0 subpixel True
         xalign 0.45 subpixel True
@@ -514,11 +518,6 @@ label day19:
     je "Ничего серьезного, я даже удивилась зачем ему детская литература. Но он отшутился: «Для лучшего знания детской психологии»."
 
 
-# ВЫБОР
-# СПРОСИТЬ ПРО КНИГУ
-# НЕ СПРАШИВАТЬ
-
-
     scene bg library2 with dissolve
 
     show sp_al_005:
@@ -554,12 +553,14 @@ label day19:
 
     je "Ладно. Только он ее уже принес. Вон она, в зеленой обложке, берите. Она не ценная, я могу дать вам ее с собой.  Кстати, это Лена сказала ему, что я читаю по ночам, он и пришел. Она тоже иногда заходит. Чай пьем."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
 
     scene cg lena_painter with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     je "Она принесла две картины свои. Натюрморты. Вы знали, что она рисует?"
 
@@ -593,12 +594,14 @@ label day19:
 
     ul "Да... У нас своя."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_081.mp3"
 
     scene bg attic_inside with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_081.mp3"
+
 
     al "Жень, если надоест читать, приходите всем трио к нам с Ульяной на чердак. "
 
@@ -795,12 +798,13 @@ label day19:
     pause (10000000000000000000000.0) # Не убирать паузу
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
     scene bg auhouse2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Не успели мы вернуться из библиотеки, как к нам постучалась Женя.  Я испугалась. Неужели Женя заметила пропажу документов, что мы стащили в прошлый раз?  Вид у неё был расстроенный."
 
@@ -918,12 +922,13 @@ label day19:
     je " И один номер 1942 года. Видно, его выпускали даже во время войны."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
     scene bg library3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "В тот же день мы собрались в библиотеке на первую редколлегию «Мурзилки». ОД одобрила. Конечно, это нагрузка. Но я же будущий репортер и журналист. А тут такой случай!"
 
@@ -1021,12 +1026,13 @@ label day19:
     al "У тебя теперь есть повод.  Все, беги!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_002.mp3"
-
     scene bg fi_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Я поднялась по лестнице в бытовку Тараса Юрьевича. Я знала, что физрук сейчас на пляже и наблюдает за купанием младших групп. Я рассчитывала застать Толика одного. Так и случилось."
 
@@ -1046,12 +1052,13 @@ label day19:
     "Тарас Юрьевич никогда не спал в своей бытовке! Так-так... Я посмотрела на Толика. Толик был потный и смущенный. Он дышал как после тяжелой физической работы."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_012.mp3"
-
     scene bg fi_cabin3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -1295,24 +1302,26 @@ label day19:
     hide sp_ul_024
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     show an_10_01
 
     "Я успела написать статью про День Павших в боях во время Великой Отечественной войны. Статья попала в нашу газету. Во второй половине дня, после обеда, был проведен слет, посвященный ДНЮ ПАВШИХ. Это слет проходил ежегодно."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_900.mp3"
-
     scene cg squad with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_900.mp3"
+
 
     "Мы с Алисой успели на Поляну Слетов к концу митинга и пристроились в колонну, идущую на мемориал павшим в борьбе с фашизмом, который находился на Кладбище горняков."
 
@@ -1320,10 +1329,10 @@ label day19:
 
     "Мы замыкали строй малышей из восьмого отряда. Алиса сказала, что не хочет идти на кладбище, но я настояла, потому, что там точно будет перекличка и мы должны будем показаться на глаза Ольге Дмитриевне."
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_124.mp3"
 
-    play music "audio/music/z_124.mp3"
 
     "Перед тем как пойти, мы взяли бутерброды и что-нибудь почитать. Не то, что бы мы не уважали память павших, просто митинги обычно затягивались и превращались в страшную рутину."
 
@@ -1438,12 +1447,13 @@ label day19:
     "Этими мыслями я поделилась с Алисой. Наши мысли совпали."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
     scene bg oldclock with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Мы тихо спрятались за стеной небольшой часовни , там была тень и не так жарко."
 
@@ -1456,12 +1466,13 @@ label day19:
     "Потом меня разбудила Алиса. Она смотрела куда-то в угол церкви, где был алтарь, и сказала шепотом, что там кто-то есть. Мы спрятали рюкзак с книгами и пошли посмотреть."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
     scene bg oldclock2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Что-то, услышав нас, действительно шевельнулось, а потом метнулось через дверь вверх по ступенькам в старую часовню. "
 
@@ -1507,12 +1518,13 @@ label day19:
     "Но никто не отозвался. Мы услышали звук горна, извещающий, что митинг окончен, и все отряды пошли в лагерь. Мы сразу побежали, чтобы пристроиться к колонне."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_058.mp3"
-
     scene bg square with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_058.mp3"
+
 
     "Когда мы вернулись в лагерь, стало темнеть."
 
@@ -1550,10 +1562,10 @@ label day19:
     "Но стоять рядом с этим адским пламенем было невозможно. Тарас Юрьевич, заранее огородил периметр костра на безопасном расстоянии колышками с верёвкой, и за них никто не заходил."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_130.mp3"
 
-    play music "audio/music/z_130.mp3"
 
     "И когда мы сидели так в темноте и любовались костром, я вдруг вспомнила, что мой рюкзак со всякими вещественными доказательствами МЫ ЗАБЫЛИ НА КЛАДБИЩЕ!"
 
@@ -1566,13 +1578,14 @@ label day19:
 
     "Пока мы шли, стемнело окончательно. А у нас не было даже фонарика. Но я хорошо помнила, где та часовня, в которой мы сидели во время митинга. Дорогу к ней я тоже помнила."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_192.mp3"
-
 
     scene bg oldcem9 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_192.mp3"
+
 
     "Мы прошли вход с сорванными, висящими на петлях, воротами и пошли вдоль ограды к виднеющейся черным силуэтом на фоне неба часовне. Нам было страшно, мне так уж точно, но мы обе не подавали виду."
 
@@ -1614,17 +1627,16 @@ label day19:
 
     $ renpy.music.set_volume(0.00, delay=1.0, channel='music')
 
+
     play miscSounds "audio/music/z_1000.mp3" noloop
+
 
     "Кровь застыла у меня в жилах. В глазах Алисы я увидела испуг. Даже она боялась."
 
     stop miscSounds fadeout 1.0
 
 
-
     $ renpy.music.set_volume(1.00, delay=1.0, channel='music')
-
-
 
 
     show sp_al_007:
@@ -1649,12 +1661,13 @@ label day19:
     hide sp_ul_016
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_125.mp3"
-
     scene bg oldclock4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     "Мы принялись шарить руками по полу. Попадались какие-то куски битого кирпича, а рюкзак как сквозь землю провалился. Вдруг я почувствовала, как кто-то тянет меня за руку. Это Алиса нашла, наконец, то что мы искали."
 
@@ -1725,10 +1738,10 @@ label day19:
 
     "Потом снова зажегся, но тускло. Как будто кто-то пересадил огонь в стеклянную бутылку. От огонька падала чья-то тень. Вдруг, огонек двинулся в нашу сторону."
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_1002.mp3"
 
-    play music "audio/music/z_1002.mp3"
 
     show sp_ul_026:
         yalign 0.0 subpixel True
@@ -1781,7 +1794,9 @@ label day19:
 
     scene cg oldcem_figure with dissolve
 
+
     pause (1000000000000000000.0)
+
 
     "Между тем, огонь стал больше, а потом мы увидели целый круг из маленьких огоньков. Как будто кто-то расставил свечки по кругу."
 
@@ -1862,12 +1877,12 @@ label day19:
     "Она как будто растворилась в темноте. Прошло пять, может быть десять, минут, но мы не двигались."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_125.mp3"
-
     scene bg oldclock6 with dissolve 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
 
 
     show sp_ul_025:
@@ -1917,12 +1932,13 @@ label day19:
     "Алиса достала из кармана спички и зажгла по очереди остальные свечи. Теперь стали отчетливо видны и звезда и предмет, лежащий на ней."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1003.mp3"
-
     scene cg woodoo_doll with dissolve 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1003.mp3"
+
 
     "Это была... КУКЛА."
 
@@ -1977,7 +1993,9 @@ label day19:
 
     scene cg woodoo_doll2 with dissolve
 
+
     pause (1000000000000000.0)
+
 
     al "(Присматривается поднеся свечу к кукле.) \nЯ не уверена, но... Кажется, это КРОВЬ."
 
@@ -1987,14 +2005,11 @@ label day19:
 
 
 
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day20
 

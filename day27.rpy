@@ -4,9 +4,12 @@ label day27:
 
     $ days = 27
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,13 +19,14 @@ label day27:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
 
     scene cg od_all_bench with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Утром, после линейки, в домиках было тихо. Сначала все сидели и ждали автобуса. Ольга Дмитриевна переоделась и была вся из себя, в колготах и костюмчике. Красавица. И мы тоже были там, чтобы посмотреть на неё."
 
@@ -225,13 +229,13 @@ label day27_cont2:
     al "Ого! Там прямо много чего-то."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_192.mp3"
-
-
     scene cg wax_seal with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_192.mp3"
+
 
     "Она обследовала печать. Потом попросила меня включить кипятильник."
 
@@ -287,17 +291,10 @@ label day27_cont2:
     al "Странно, это какие-то инструкции, схемы и чертежи."
 
 
-    #hide sp_al_004
-
     "Последняя бумага содержала какие-то записи. Они были сделаны мелким торопливым почерком. Похоже, что они были вырваны из блокнота и вложены в конверт в последний момент."
 
     "Алиса пододвинула настольную лампу поближе."
 
-    # show sp_al_004:
-        # yalign 0.1 subpixel True
-        # xalign 1.0 subpixel True
-        # zoom 1.2
-    # with dissolve
 
     al "Ты можешь читать мелкий рукописный текст? У меня все сливается, наверное, из-за того, что не выспалась."
 
@@ -348,10 +345,9 @@ label day27_cont2:
     "{i}У меня мало времени, если когда-нибудь, кто-то найдет эти записи, то пусть передаст их вместе с вложенными сюда документами профессору Новицкому В.Г. Они не должны попасть больше ни в чьи руки. Это письмо адресовано ему{/i}."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     "Дальше шёл текст письма:"
@@ -416,13 +412,13 @@ label day27_cont2:
     "{i}Но шесть из семи девушек вскоре погибли при невыясненных обстоятельствах.{/i}"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene cg vio_vamp with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "{i}Последняя из них выжила. Именно она отличалась особым хладнокровием и безжалостностью по отношению к немцам. Эта девушка, названная мной «Куклой», получила желаемые характеристики.{/i}"
 
@@ -455,13 +451,13 @@ label day27_cont2:
     "{i}Машина поставлена на таймер, который связан с фазами Луны. Это сделано для того, чтобы механизмы не простаивали и на момент Вашего приезда сюда были в рабочем состоянии...{/i}"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_125.mp3"
-
-
     scene cg letter with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     "Дальше текст был дописан еще более неровным почерком и другими чернилами."
 
@@ -494,13 +490,13 @@ label day27_cont2:
     "Алиса внимательно прочитала ее."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg auhouse_crop1 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
 
     show sp_ul_012:
@@ -675,12 +671,6 @@ label day27_cont2:
     ul "Мама дорогая... Мне страшно. Это же Юля. Я прямо вижу, как это случилось."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     image an_27_01: # Анимация превращение Юли
         
         "images/an/an27day/an_d27_01.webp" with Dissolve(0.5, alpha=True)
@@ -754,6 +744,13 @@ label day27_cont2:
 
     scene an_27_01 with dissolve
 
+
+    stop music fadeout 0.5
+
+
+    queue music "audio/music/z_131.mp3"
+
+
     pause (10000000000000000000000.0)
 
 
@@ -784,13 +781,14 @@ label day27_cont2:
 label day27_cont3:
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
 
     scene bg camp with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "После того как мы закончили и Алиса прилегла вздремнуть, я побежала смотреть все нычки в лагере. Ни одной лавочки не пропустила, забралась даже на крышу столовой. Да-а-а, в лагере было много укромных мест."
 
@@ -848,13 +846,13 @@ label day27_cont3:
     "Я не проворная оказалась. Прямо аж до слез обидно. Но ничего, я обязательно расследую. Потому что это не шутка."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_102.mp3"
-
-
     scene bg secret7 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
+
 
     "Потом я посетила нычку №7 (я их пронумеровала про себя)."
 
@@ -896,12 +894,6 @@ label day27_cont3:
     "Возможно, Виола. Все же уехали из отряда. Значит точно, она. Я уже видела ее неодетой, когда она светилась как елка. Нет, в этот раз не светится. Просто купается. Ничего интересного."
 
     "Но самая крутая нычка, конечно, наша, на чердаке. Ну, не считая той таинственной комнаты на чердаке домика Ольги Дмитриевны. Я подумала, а вдруг кто-то там был уже с тех пор? Надо проверить. И я пошла туда."
-
-
-    # stop music fadeout 1.0
-
-
-    # play music "audio/music/z_102.mp3"
 
 
     scene bg od_attic_stairs with dissolve
@@ -950,13 +942,13 @@ label day27_cont3:
     "Значит, если тут и был мужчина, то курящий, пьющий мужчина и непьющая женщина. На стакане губной помады не было. Конечно, не ахти какое расследование. Ну, хоть что-то."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg od_attic_stairs with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "И я на цыпочках спустилась вниз, и тут у меня появилась идея. Ольга Дмитриевна забрала все наши дневники! И появилась возможность много узнать такого, чего мы с Алисой не знали о пионерах нашего отряда."
 
@@ -984,14 +976,14 @@ label day27_cont3:
 
     "И я сама не знаю почему, схватила тетрадку. Когда уже мчалась в наш домик, подумала, что я сглупила. Он точно хватится. И тут у меня снова, шмяк! Идея."
  
- 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_171.mp3"
-
 
     scene bg auhouse2 with dissolve
+ 
+ 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
  
  
     "Прибежав, я стала будить Алису. Видимо, она не выспалась со своими ночными посиделками и решила вздремнуть днем."
@@ -1148,7 +1140,7 @@ label day27_cont3:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day28
 

@@ -4,9 +4,12 @@ label day22:
 
     $ days = 22
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,12 +19,14 @@ label day22:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/track6.mp3"
 
     scene bg bravepath with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track6.mp3"
+
 
     "Утром все было готово. Долгожданный поход по тропе Отважных."
 
@@ -128,12 +133,13 @@ label day22:
     "Дорога пошла в гору. Все запыхтели."
  
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_181.mp3"
-
     scene cg hike with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
     pause (10000000000000000000000.0)
 
@@ -208,11 +214,6 @@ label day22:
 
     hide sp_mi_013
 
-    # stop music fadeout 1.0
-
-
-    # play music "audio/music/track4.mp3"
-
 
     show sp_al_037:
         yalign 0.05 subpixel True
@@ -229,12 +230,11 @@ label day22:
 
     scene bg bravepath with dissolve
 
-    stop music fadeout 1.0
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_022.mp3"
+    queue music "audio/music/z_022.mp3"
 
-    #scene cg redhead_vas with dissolve
 
     show sp_vas_002:
         yalign 0.05 subpixel True
@@ -388,6 +388,7 @@ label day22:
 
     "Лена намазала меня противокомариной мазью. Но похоже, у меня была на неё аллергия, и я вся распухла. Девочки тоже отказались лезть в шалаш. Алису комары почему-то не кусали."
 
+
     scene cg hut_hike with dissolve
 
     show sp_sem_016:
@@ -414,12 +415,15 @@ label day22:
 
     hide sp_al_037
 
-    stop music fadeout 1.0
 
-
-    play music "audio/music/z_131.mp3"
 
     scene cg tent_hike with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
 
     show sp_le_015:
@@ -467,20 +471,21 @@ label day22:
     hide sp_mi_013
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1014.mp3"
-
     scene cg al_le_fight2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1014.mp3"
+
 
     "Через минуту началась драка. Я среагировала на крики. То есть, я прозевала момент начала драки."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_019.mp3"
 
-    play music "audio/music/z_019.mp3"
 
     "Когда я выскочила из палатки, Лена и Алиса уже катались по траве, колотя друг друга кулаками и таская за волосы. А Славя, подбоченившись, подбадривала Лену."
 
@@ -521,12 +526,14 @@ label day22:
 
     "Я же разнимала дерущихся, и в конце концов, нам с Атсуи удалось их растащить." 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
 
     scene cg tent_hike with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     "У Алисы был фингал, у Лены разбит нос. Когда я оттаскивала Алису, та сплюнула на траву и посмотрела на Славю."
 
@@ -633,12 +640,13 @@ label day22:
     allchar "(Хором) \nИди к черту!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
     scene bg lakedeep4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Ближе к вечеру все разбились на группы. Неудивительно, учитывая ситуацию с дракой. Хотели сначала сидеть у одного костра."
 
@@ -745,13 +753,13 @@ label day22:
     hide sp_ul_021
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_020.mp3"
-
-
     scene cg girls_sem_campfire2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_020.mp3"
+
 
     "Ночь прошла в песнях под гитару."
 
@@ -762,13 +770,13 @@ label day22:
     "Потом Семён рассказывал страшилки. Это он умеет."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene cg ul_eavesdrops_dark with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Потом, по просьбе Ольги Дмитриевны, я пошла позвать к костру кибернетиков. Но услышав их разговор, я затаилась."
 
@@ -786,10 +794,10 @@ label day22:
     "Но я отвлеклась. Так вот..."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_002.mp3"
 
-    play music "audio/music/z_002.mp3"
 
     "У Васи обнаружился глубокий баритон."
 
@@ -802,19 +810,15 @@ label day22:
     "Образ «тихони» постепенно рассеивался. Просто она ждала своего часа. Как сказала бы Ольга Дмитриевна, скромность украшает."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_152.mp3"
-
-
     scene cg tent_hike2 with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
+
     "Под утро всех сморило."
-
-
-
-
 
 
 
@@ -822,7 +826,7 @@ label day22:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day23
 

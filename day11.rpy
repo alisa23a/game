@@ -4,23 +4,32 @@ label day11:
 
     $ days = 11
 
+
     play music "audio/music/z_300.mp3"
+
 
     show screen current_day with fade
 
+
     $ show_quick_menu = False
+
 
     pause (1000000000000000000.0)
 
+
     hide screen current_day
+
 
     $ show_quick_menu = True
 
-    stop music
-
-    play music "audio/music/z_081.mp3"
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_081.mp3"
+
 
     show an_10_01
 
@@ -55,9 +64,12 @@ label day11:
 
     scene an_d11_02_bg with dissolve
 
+
     show an_11_02
 
+
     pause (10000000000000000000000.0)
+
 
     "Ну ладно, нас хорошо кормят мы прибавили в весе, но мои грудки явно выросли не за счет котлеток тети Любы. Были просто два пупырышка."
 
@@ -90,11 +102,14 @@ label day11:
 
     "Все ещё засмеялись тогда. Вот первая странность."
 
-    stop music
-
-    play music "audio/music/z_140.mp3"
 
     scene an_d11_03_bg
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_140.mp3"
+
     
     image an_11_03: # Анимация трансформация ОД 1
         
@@ -118,10 +133,7 @@ label day11:
 
     image an_11_03_2: # Анимация трансформация ОД 2
         
-        # "images/an/an11day/an_d11_15.png" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an11day/an_d11_16.png" with Dissolve(0.5, alpha=True)
-        # pause 0.5
+
         "images/an/an11day/an_d11_17.png" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an11day/an_d11_16.png" with Dissolve(0.5, alpha=True)
@@ -138,8 +150,10 @@ label day11:
 
     show an_11_03
 
+
     pause (4.5)
-    
+
+
     show an_11_03_2
 
     "А Ольга Дмитриевна с первого дня тоже, как будто помолодела. Ну, то есть, она была молодая, но теперь стала, как старшеклассница."
@@ -147,6 +161,7 @@ label day11:
     "Воздух тут такой целебный. Ольга Дмитриевна рассказывала, что территория лагеря соседствует с заповедником, где растут всякие целебные травы."
 
     "Надо все проверить насчет трав. Поспрашивать у Петровича. Буду наблюдать странности дальше."
+
 
     scene an_d10_01_bg with dissolve
 
@@ -160,20 +175,24 @@ label day11:
 
     "Если стать рядом, то прямо пол «ходуном ходит». Может, это передается на расстояния? Под лагерем же шахты были и всякие пустоты. Вот лагерь и «резонирует». Это я тоже еще никому не рассказывала."
 
-    stop music
 
-    play music "audio/music/z_102.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
+
 
     "Только знаешь ты, мой читатель. Наверное, когда кто-то первый раз прочтет, я буду уже старушка. Это же секретный дневник. Но все старые люди публикуют мемуары. Может и я опубликую."
 
     "Когда секреты перестанут быть секретами."
 
 
-    stop music
-
-    play music "audio/music/z_130.mp3"
-
     scene bg pool_big_catfish_night
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "После рассказа Семёна у костра про то, что в Омуте, живет Большой сом, мы с Алисой серьезно задумались."
 
@@ -194,6 +213,7 @@ label day11:
 
     scene bg pool_big_catfish_morning
 
+
     "Мы с Алисой рассуждали так."
 
     "Во-первых, не может один сом жить так долго. Возможно, это просто потомки Большого Сома. И они точно, не большие. Прямо скажем – сомята по сравнению с легендой."
@@ -201,17 +221,16 @@ label day11:
     "Но мы пионерки и должны нести свет знаний в «неокрепшие умы» аборигенов."
 
 
-    stop music
-
-    #play music "audio/music/z_177.mp3"
-
-    play music "audio/music/z_023.mp3"
-
     scene bg watchmans_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "В общем, было решено запастись всякими снастями для поимки Сома. А снасти были только у Петровича. И мы пошли к нему."
 
-#    scene bg watchmans_cabin_ul_al
 
     show sp_al_005:
         yalign 0.0 subpixel True
@@ -227,6 +246,7 @@ label day11:
 
 
     "Мы всё так честно ему рассказали, что хотим поймать этого сома. А когда изловим, то отнесем его на кухню и пусть в лагере будет рыбный день. День Большого Сома. Если, конечно, это все не сказки бабушки Арины."
+
 
     scene bg watchmans_cabin_2 with dissolve
     
@@ -278,13 +298,13 @@ label day11:
     pe "А то, что ему сто лет – это правда."
 
 
-    stop music
-
-    play music "audio/music/z_002.mp3"
-
-    #scene bg watchmans_cabin_ul_al
-
     scene bg watchmans_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     show sp_al_005:
         yalign 0.0 subpixel True
@@ -307,7 +327,6 @@ label day11:
 
     pe "Конечно, вы его сегодня не поймаете, но тренировка - большое дело. Наловите на хорошую уху, глядишь, и с сомом справитесь. Ничего не наловите, значит, проверите мои раколовки. Всё какой-никакой улов."
 
-    #scene bg watchmans_cabin_ul_al
 
     scene bg watchmans_cabin with dissolve
 
@@ -377,11 +396,13 @@ label day11:
     "Мне стало как-то тепло от слов Алисы. Все-таки она лучшая подруга! "
 
 
-    stop music
-
-    play music "audio/music/z_022.mp3"
-
     scene bg crsh
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "И мы пошли на рачью отмель. Потому что идти к омуту было страшно.  Может, сом приплывет к нам. Он же на раков тоже, небось, охотится. А там их тьма-тьмущая."
 
@@ -464,11 +485,14 @@ label day11:
   
         repeat
 
-    stop music
-
-    play music "audio/music/z_153.mp3"
 
     scene an_d11_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_153.mp3"
+
 
     show an_11_01
 
@@ -481,14 +505,13 @@ label day11:
     "Попался только рак. Он вцепился в рыбу и ни в какую не хотел отпускать. Еле клешни разжали. Так он в авоську и попал с рыбой и потом в уху."
 
 
-    stop music
-
-    play music "audio/music/z_155.mp3"
-
-
-    #scene bg watchmans_cabin_ul_al
-
     scene bg watchmans_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_155.mp3"
+
 
     show sp_al_005:
         yalign 0.0 subpixel True
@@ -518,7 +541,6 @@ label day11:
 
     "Достал котелок, завернутый в тряпицу, чтобы не остыл. Уха получилась отличная. И мы так натрескались, что еле-еле встали из-за стола. А нам ещё на линейку утром."
 
-    #scene bg watchmans_cabin_ul_al
 
     scene bg watchmans_cabin with dissolve
 
@@ -596,26 +618,13 @@ label day11:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day12
 
 return
 
 
-
-
-    # show sp_al_037 at flip:
-        # yalign 0.0 subpixel True
-        # xalign 0.9 subpixel True
-        # zoom 0.6
-    # with Dissolve(0.3)
-    
-    # show sp_ul_019:
-        # yalign 0.4 subpixel True
-        # xalign 0.7 subpixel True
-        # zoom 0.5
-    # with Dissolve(0.3)
 
 
 

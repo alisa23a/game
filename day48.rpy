@@ -4,9 +4,12 @@ label day48:
 
     $ days = 48
 
-    play music "audio/music/z_181.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_181.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day48:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/z_067.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_067.mp3"
+
 
     "Ещё два дня я была в лагере. Я вспомнила, как все грузились в автобусы. В какой-то страной спешке."
 
@@ -70,13 +73,12 @@ label day48:
     "Никто не гонял в футбол, не купался а пляже. Сиротливо смотрелись вывески кружков."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg patyvan with dissolve
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Приехали приглашенные Маргаритой Павловной рабочие, чтобы отремонтировать наполовину снесенную взрывом сторожку Петровича. А также два милиционера с собакой, один из которых был следователем."
 
@@ -100,13 +102,12 @@ label day48:
     "Тузик тоже в лагерь не вернулся."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg smu with dissolve
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Последними приехали родители Смутьянова. Он держался отстранённо, как бы не узнавая их, и все время молчал. Обеспокоенные, они посадили его в свою машину «Москвич» и уехали."
 
@@ -172,13 +173,13 @@ label day48:
     "Но родители Саши все-таки приехали, и пришлось ее «выдать»."
 
 
-    stop music
-
-
-    play music "audio/music/z_480.mp3"
-
-
     scene cg od_sad with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_480.mp3"
+
 
     "Ольга Дмитриевна выглядела какой-то расстроенной. Срок её стажировки закончился, но МП  уговорила её остаться на пару дней."
 
@@ -216,21 +217,16 @@ label day48:
     "Что-то про время и про автобус который «больше не работает как портал». Всё это было очень загадочно и непонятно..."
 
 
-    stop music
-
-
-    play music "audio/music/z_1012.mp3"
-
-
     scene cg ul_sad with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1012.mp3"
+
 
     "У меня сжалось сердце. Я подумала, что наверное, никогда больше его не увижу. А нам так о многом надо было поговорить."
 
-
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
 
 
     "Мне надо было задать ему главный вопрос. Я даже в голове сочинила целую речь. Но... Вот, все зря. И на следующий день он тоже не появился. И я ревела у нас в домике."
@@ -238,14 +234,24 @@ label day48:
 
     scene cg ul_bed with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
+
+
     "Там было одиноко без Алисы, и я так ревела, что уснула."
 
 
     pause (10000000000000000000000.0)
 
+
     scene black with fade
 
-    stop music
+
+    stop music fadeout 1.0
+
 
     jump day49
 

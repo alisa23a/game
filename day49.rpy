@@ -4,9 +4,12 @@ label day49:
 
     $ days = 49
 
-    play music "audio/music/z_181.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_181.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day49:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/z_495.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_495.mp3"
+
     
     "И на следующий день Семен тоже он тоже не появился."
 
@@ -45,23 +48,23 @@ label day49:
     "Но я сейчас не стала читать, я думала про Семёна и ни о чем больше не могла думать."
 
 
-    stop music
-
-
-    play music "audio/music/z_055.mp3"
-
-
     scene cg al_diary with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_055.mp3"
+
 
     "Алиса забыла свой дневник под подушкой, наверное, очень торопилась к Жану."
 
 
-    play music "audio/music/z_111.mp3"
+    play miscSounds "audio/music/z_111.mp3"
 
 
     "Помню, как мы обнимались и ревели под рев двигателя."
 
-    stop music
+    stop miscSounds
 
     "Сильнее чем когда мы провожали Саманту."
 
@@ -79,13 +82,13 @@ label day49:
     "Но все равно, очень грустно."
 
 
-    stop music
-
-
-    play music "audio/music/z_140.mp3"
-
-
     scene cg smu_soul2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_140.mp3"
+
 
     "Баночку с шуршавчиком Смутьянова я отдала Петровичу. Но я не сказала, что это. Просто попросила не открывать и спрятать подальше. Он обещал."
 
@@ -113,13 +116,13 @@ label day49:
     "Были ещё ключи. Я, конечно, могла бы ещё полазать везде. Мы же не всё обследовали. Но без Алисы это уже теряло всякий смысл. Никакого желания."
 
 
-    stop music
-
-
-    play music "audio/music/z_181.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_181.mp3"
+
 
     show sp_tol_016:
         yalign 0.03 subpixel True
@@ -163,13 +166,13 @@ label day49:
     "И вообще... Имею ли я право? Ведь ничего так и не было. Ну, в смысле, настоящих взрослых отношений. Но наш поход после кораблекрушения врезался мне в память."
 
 
-    stop music
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene cg sem_ul_carries with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_017.mp3"
+
 
     "И то, что Семён много раз меня спасал. И как нес на руках, и много еще всего."
 
@@ -200,9 +203,12 @@ label day49:
 
     pause (10000000000000000000000.0)
 
+
     scene black with fade
 
-    stop music
+
+    stop music fadeout 1.0
+
 
     jump day50
 

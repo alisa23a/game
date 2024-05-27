@@ -4,23 +4,31 @@ label day12:
 
     $ days = 12
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
 
+
     pause (1000000000000000000.0)
+
 
     hide screen current_day
 
     $ show_quick_menu = True
 
-    stop music
-
-    play music "audio/music/z_012.mp3"
 
     scene bg pfis with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     "После разговора с Пионером, я всерьез задумалась о баркасе. Кто бы мог его починить, если не кибернетики. Начать надо с обычной лодки. Пусть починит старую, что лежит на Рачьей отмели."
 
@@ -69,11 +77,13 @@ label day12:
     el "Что? Жени? Ну ладно... Пойдем."
 
 
-    stop music
-
-    play music "audio/music/z_198.mp3"
-
     scene bg fbeach
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_198.mp3"
+
 
     "Мы ушли довольно далеко от лагеря по берегу реки, пока не уткнулись в старую лодку, лежащую на берегу."
 
@@ -199,11 +209,13 @@ label day12:
     ul "Это я беру на себя."
 
 
-    stop music
-
-    play music "audio/music/z_023.mp3"
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     show an_10_01
 
@@ -231,9 +243,11 @@ label day12:
 
     hide sp_fi_012
 
-    stop music
 
-    play music "audio/music/z_075.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_075.mp3"
+
 
     "Но как только он ушел, такое началось! Стадо слоников бегало по музкружку под звуки рояля и трубило хоботами."
 
@@ -255,9 +269,10 @@ label day12:
     "И даже показал этих зомби. Всем понравилось, и когда лекция закончилась, все стали изображать зомби."
 
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
+
 
     show sp_smu_003:
         yalign -0.0 subpixel True
@@ -294,11 +309,13 @@ label day12:
     "Потом придумали, что убивает зомби и правила. Их убить, оказывается, почти невозможно. Я была на «светлой стороне», а со мной Алиса, Славя, Атсуи, Саманта и Мику."
 
 
-    stop music
-
-    play music "audio/music/z_193.mp3"
-
     scene black with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_193.mp3"
+
 
     show sp_sem_014:
         yalign -0.0 subpixel True
@@ -307,14 +324,14 @@ label day12:
 
     "Семён стал главным вампиром."
 
-    hide sp_sem_014
-
-    stop music
-
-    play music "audio/music/z_192.mp3"   
-
 
     scene cg lena_vamp with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_192.mp3"   
+
     
     pause (10000000000000000000.0)
 
@@ -346,20 +363,23 @@ label day12:
     "И было страшно. Смотрят на тебя и о чем-то говорят и улыбаются. А ты не понимаешь. А они может, говорят, как они тебя съедят вечером... Жуть."
 
 
-    stop music
-
-    play music "audio/music/z_194.mp3"   
-
     scene bg full_moon with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_194.mp3"   
+
 
     "А еще в лагере стали выть по ночам. Особенно когда луна. Страшно было. Хоть мы и знали что это наши вампиры воют понарошку. Но волки в горах не знали и отзывались."
 
     "Тогда становилось действительно страшно. Даже вампирам."
 
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_131.mp3"   
+    queue music "audio/music/z_131.mp3"   
+
 
     "Но буча началась не из-за этого, а из-за СИМВОЛИКИ."
 
@@ -369,8 +389,10 @@ label day12:
     scene black with dissolve
 
     show cg emblem
-    
+ 
+ 
     pause (100000000000000.0)
+
 
     "Ну и вот, все зомбаки пришили себе эту эмблему. И бегали в ней. И шла игра полным ходом."
 
@@ -383,11 +405,13 @@ label day12:
     "И прям все с похоронными лицами и физрук такой серьезный. И вся администрация. Только что милицию не вызвали."
 
 
-    stop music
-
-    play music "audio/music/z_195.mp3"
-
     scene bg square_day with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_195.mp3"
+
 
     show sp_fi_003:
         yalign 0.05 subpixel True
@@ -406,9 +430,11 @@ label day12:
 
     pause (100000000000000000.0)
 
-    stop music
 
-    play music "audio/music/z_083.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_083.mp3"
+
 
     "И Маргарита Павловна произнесла пламенную речь. Ну, типа «фашизм не пройдет». Прямо настоящая инквизиция. Все было круто. Мне понравилось. Но я так и не поняла, при чем тут фашизм."
 
@@ -417,11 +443,13 @@ label day12:
     "Потом физрук и с ним «правильные пионеры» искали по домикам остатки атрибутики вампиров, но нашу нычку не нашли."
 
 
-    stop music
-
-    play music "audio/music/z_196.mp3"
-
     scene cg vamp_banner with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
 
     "Они, например, не знали, что одно запасное черное знамя, Вампиры отдали Шурику (он был самым фанатичным вампиром и пользовался у них уважением) и он его обернул вокруг тела (так не нашли). А потом отнес нам и мы спрятали."
 
@@ -432,12 +460,13 @@ label day12:
     "Вот то, что мы сохранили с Алисой. Для Истории."
 
 
-
-    stop music
-
-    play music "audio/music/z_176.mp3"
-
     scene bg evening_camp with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "После вечерней проверки и отбоя мы с Алисой, тихонько взяв всё приготовленное для рыбалки (фонарики, кое-какую еду и куртки, чтобы не замерзнуть ночью), отправились к Петровичу, который уже ждал нас у лодочной станции."
 
@@ -501,10 +530,6 @@ label day12:
     "Было так тихо, что даже звуки падающих с весел капель воды казались нам громкими."
 
 
-    stop music
-
-    play music "audio/music/z_004.mp3"
-
     image an_12_02: # Анимация Петрович, Ульяна и Алиса в лодке, плывут
         
 
@@ -526,6 +551,12 @@ label day12:
 
     scene an_d12_02_bg with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
+
     show an_12_02
 
     "Петрович докурил и налег на весла. Берег быстро удалялся. Течение подхватило лодку."
@@ -537,9 +568,9 @@ label day12:
     pe "Да вы не ерзайте тут! А то, понимаешь, раскачали лодку. Ты, рыженькая, на руле, правее бери, правее! Вот, так держать!"
 
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     "Я заметила, что левый берег, вдоль которого мы плыли, стал двигаться быстрее, о чем я и сказала Петровичу."
@@ -567,11 +598,13 @@ label day12:
     ul "Я сама!"
 
 
-    stop music
-
-    play music "audio/music/z_179.mp3"
-
     scene bg first fishing with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_179.mp3"
+
 
     al "Ой, да это маленькая пристань! Откуда она тут? "
 
@@ -585,7 +618,9 @@ label day12:
 
     ul "Будем немы как рыбы."
 
+
     scene bg fishing_dialogue with dissolve
+
 
     pe "Ну, пошевеливайтесь. Вот так, через камыши идите, светите фонариком. Тропинку видите? Вот по ней и идите. Она точно к омуту нас выведет."
 
@@ -594,11 +629,13 @@ label day12:
     "Название ручья мы не знали. И на карте его не было. Поэтому я назвала его Скрытный. Непременно нанесу его на свою секретную карту."
 
 
-    stop music
-
-    play music "audio/music/z_182.mp3"
-
     scene bg little_pier with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_182.mp3"
+
 
     ul "Ой, красиво как! И луна со звездами в воде светится дорожкой. Интересно, тут глубоко?"
 
@@ -606,7 +643,9 @@ label day12:
 
     pe "Глубину никто не мерил, только я как-то закинул донку, там метров двадцать будет лески. Прямо с лодки с грузилом, так она на дно не легла, вертикально стояла. Вот сама и подумай, какая тут глубина."
 
+
     scene bg fishing_dialogue2 with dissolve
+
 
     ul "А с виду не скажешь."
 
@@ -627,6 +666,7 @@ label day12:
 
     scene bg fishing_dialogue1 with dissolve
 
+
     pe "Видите ручей? За ним протока, а слева холм.  Там полянка хорошая, там разводите. А я заброшу прикормку. Запах ему нужен, чтобы к берегу подошел. На мелководье его, если что, потянем."
 
     ul "А мы не прозеваем сома?"
@@ -644,11 +684,13 @@ label day12:
     pe  "Там пудов пять будет. Да нас ещё трое. Главное, багром его зацепить, уж тогда он от нас не вырвется. Ну, иди к костру, а я покурю малость. Пока греб, прямо замаялся без курева."
 
 
-    stop music
-
-    play music "audio/music/z_180.mp3"
-
     scene cg fishing_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
 
     "Прошло уже два часа, а сом всё не показывался. Минули обещанные Петровичем двенадцать часов."
 
@@ -663,13 +705,13 @@ label day12:
     pe "Ты, Рыжая, вон там стань, а ты, малая, ей помогай. Сачок рядом положи. Если большой лещ, то под него сачком подводи. Да не пугайтесь, коль угорь клюнет. А то он шибко на змею похож."
 
 
-    stop music
-
-    play music "audio/music/z_076.mp3"
-
     scene cg fishing_civil with dissolve
 
-    #show an_11_01
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_076.mp3"
+
 
     "Пошла рыбалка. Алисе везло. Она то и дело выдергивала из воды блестящие в лунном свете, бьющиеся тела."
  
@@ -682,11 +724,13 @@ label day12:
     "Ведра у Алисы и Петровича наполнялись быстро. Только в моём, лежали и хватали воздух, выпучив глаза, несколько плотвичек."
 
 
-    stop music
-
-    play music "audio/music/z_149.mp3"
-
     scene cg catfish3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_149.mp3"
+
 
     pe "Тихо! А ну, ходи от берега!"
 
@@ -732,11 +776,13 @@ label day12:
     "Но очевидно, сом был очень голодным. Почти сразу капроновая нить резко натянулась и опрокинув нас с Алисой, быстро стала уходить под воду."
 
 
-    stop music
-
-    play music "audio/music/z_202.mp3"
-
     scene cg catfish2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     pe "Врешь, гад! Не уйдешь!"
 
@@ -774,9 +820,10 @@ label day12:
     "Петрович опустился рядом. Очевидно, забег с багром вдоль берега и борьба с течением, отняли у него последние силы."
 
     
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_088.mp3"
+    queue music "audio/music/z_088.mp3"
+
 
     "Неожиданно, он расхохотался. Мы тоже начали смеяться. Сначала нервно, а потом всё более задорно."
 
@@ -785,20 +832,24 @@ label day12:
     "Алиса так хохотала, что слезы катились у неё из глаз. Я не отставала. Но больше всех смеялся Петрович. А сом… Сом, видно, ушел к себе в домик, в свой глубокий омут."
 
 
-    stop music
-
-    play music "audio/music/z_180.mp3"
-
     scene cg fishing_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
 
     "Мы посидели немного у костра. Потом, по совету Петровича, распотрошили и присолили рыбку. Аккуратно сложили ее в ведро и закрыли целлофаном. Затем вернулись на Маленькую пристань."
 
 
-    stop music
-
-    play music "audio/music/z_181.mp3"
-
     scene bg little_pier2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
     "Наша лодочка  мирно покачивалась на воде, привязанная рачительным хозяином крепкой цепочкой. Цепочка позвякивала. Лодка тоже время от времени покачивалась, издавая сдвоенный стук лежащих на дне весел."
 
@@ -818,7 +869,7 @@ label day12:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day13
 

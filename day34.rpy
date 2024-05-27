@@ -4,26 +4,32 @@ label day34:
 
     $ days = 34
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
+
 
     pause (1000000000000000000.0)
 
+
     hide screen current_day
+
 
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "В связи с ночным происшествием, администрацией лагеря было принято решение не проводить утреннюю линейку, а дать пионерам поспать до 10-11 часов."
 
@@ -64,13 +70,13 @@ label day34:
     "Поэтому на момент сбора отряда Толик был уже с нами. Он из кожи вон лез, что бы вновь заручиться нашим доверием."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene bg pfis with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1016.mp3"
+
 
     "На совете отряда мы решили, что в рабочую команду войдут Семён, Толик, кибернетики, Славя, Лена, Атсуи, Алиса и я. Женя осуществляла информационное прикрытие. Вместе дело пойдет быстрее."
 
@@ -104,10 +110,9 @@ label day34:
     "В общем, вскоре мы занялись своими обычными делами."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     "После обеда мы заметили суету в лагере. Взмыленный Тарас Юрьевич, жестикулируя  и делая страшные глаза, что-то взволнованно рассказывал Петровичу."
@@ -241,13 +246,13 @@ label day34:
     pe "Так, гаврики. Есть у меня для вас дело!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg watchmans_cabin_2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     "Он завел нас в свою сторожку и разложил на столе уже знакомую нам карту."
 
@@ -468,13 +473,13 @@ label day34:
     pe "Так я глухой почти. Мне и так хорошо."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "У нас впереди было ещё целых полдня свободного времени, и мы решили сходить в посёлок."
 
@@ -496,10 +501,12 @@ label day34:
     "Жаль только, что после нашего приключения с Алисой, замок точно поменяют (я так думаю), потому что на вечернюю проверку мы опоздали. А тут строго."
 
 
-    stop music fadeout 1.0
+    scene bg road with dissolve
 
 
-    play music "audio/music/z_099.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_099.mp3"
 
 
     scene bg road with dissolve
@@ -540,14 +547,14 @@ label day34:
 
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene bg hemp_field with dissolve
+
+
+    stop music fadeout 0.5
+
+
+    queue music "audio/music/z_1016.mp3"
+
 
 
     "Но сначала тропа шла через огромную, заросшую высокой травой, поляну."
@@ -634,13 +641,13 @@ label day34:
     hide sp_al_006
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_124.mp3"
-
-
     scene bg tuni with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     "Потом поле закончилось, и мы вышли к тоннелю."
 
@@ -733,10 +740,9 @@ label day34:
     gop1 "(Показывает на Амбала и Дрища) \nА это Жорик и Димон."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_152.mp3"
+    queue music "audio/music/z_152.mp3"
 
 
     "И вот тут у меня отлегло. Я поняла, что у нас есть время что-то придумать. И что всё не так уж плохо."
@@ -811,10 +817,9 @@ label day34:
     gop1 "Во, точно. Она."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_516.mp3"
+    queue music "audio/music/z_516.mp3"
 
 
     "И тут он прямо серьёзный весь стал и даже папироску затоптал недокуренную."
@@ -882,13 +887,13 @@ label day34:
     "И мы пошли в тоннель. А Главный нам вслед крикнул что-то, как будто предостерегал."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_125.mp3"
-
-
     scene bg rail with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     "Ну, в общем, мы бежали быстро. Они потом, конечно, спохватились. Потому что кричали что-то вдогонку все вместе. Но мы уже далеко были."
 
@@ -901,16 +906,16 @@ label day34:
     "Но странно, эта дорога же с поломанными рельсами. Тут я точно знала, что поезда с войны не ходят.  Может от страха, приглючилось. Но все-таки мы добежали."
 
 
-    stop miscSounds fadeout 1.0
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_181.mp3"
-
 
     scene bg camp3 with dissolve
+
+
+    stop miscSounds fadeout 1.0
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_181.mp3"
+
 
     "А лагерь действительно был уже близко. Но как мы ни бежали, а на проверку опоздали."
 
@@ -957,11 +962,9 @@ label day34:
     al "Да! Я думала, только у меня крышу сносит."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_040.mp3" noloop
-
+    queue music "audio/music/z_040.mp3" noloop
 
 
 
@@ -970,7 +973,7 @@ label day34:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day35
 

@@ -4,9 +4,12 @@ label day31:
 
     $ days = 31
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day31:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene cg od_sl_earful with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "После Дня Рождения Жени к нам утром пришел Семен и рассказал о том, что Ольга Дмитриевна как-то прознала, что нас не было всю ночь. Шум поднимать не стала, но вызвала Славю."
 
@@ -78,13 +81,13 @@ label day31:
     "И я подумала, что надо его перепрятать. Мало ли. Один раз пронесло. Но не факт."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_010.mp3"
-
-
     scene cg pioneers_message with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_010.mp3"
+
 
     "И тут, как раз в разгар беседы, снова прибежал «почтовый голубь» (мальчик из 7 отряда) и принес мне записку. Я дала ему конфет, и он убежал."
 
@@ -117,13 +120,13 @@ label day31:
     "Алиса что-то вслед мне крикнула. Но я уже не разобрала."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_004.mp3"
-
-
     scene an_d31_06 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
 
     "В общем, Пионер уже ждал. Мы обогнули остров Ближний и попали прямо на середину реки. Нас понесло течение."
 
@@ -183,13 +186,13 @@ label day31:
     pi "(Покраснев) \nЗа всех. Ну и за тебя особенно."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_012.mp3"
-
-
     scene bg far_island_rocks with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     "И скоро мы были у острова. Течение быстро донесло лодку. Но причалили мы с другой стороны. Этого берега я не знала."
 
@@ -235,10 +238,10 @@ label day31:
     "Мы там искупались. Потом он взял меня за руку и сказал:"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
 
-    play music "audio/music/z_1013.mp3"
+    queue music "audio/music/z_1013.mp3"
 
 
     show sp_pi_009:
@@ -494,13 +497,13 @@ label day31:
     pi "Нет уж. Я ещё не сошёл с ума."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_012.mp3"
-
-
     scene bg far_island_beach with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     "Мы вернулись на пляж и болтали. Ещё купались и сидели мокрые обнявшись, и... (Но об этом я не буду тут писать)."
 
@@ -514,13 +517,13 @@ label day31:
     "А после обеда, как и сказал Пионер, для нашего отряда объявили сбор и сказали, что мы идем в Третий Поход НА ОСТРОВ."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene cg far_island_map with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "До острова мы добирались на четырех лодках. Гребли мальчики, физрук и Петрович."
 
@@ -584,18 +587,18 @@ label day31:
     al "Если что, мы сходим два раза."
 
 
-    stop music fadeout 1.0
+    scene bg stream_waterfall with dissolve
 
 
-    play music "audio/music/z_140.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_140.mp3"
+
 
     $ renpy.music.set_volume(0.10, delay=0.0, channel='music')
 
     $ renpy.music.set_volume(0.50, delay=1.0, channel='music')
 
-
-
-    scene bg stream_waterfall with dissolve
 
     "Взяв самый большой котелок, мы с Алисой отправились за водой."
 
@@ -616,10 +619,10 @@ label day31:
 
     $ renpy.music.set_volume(1.0, delay=0.0, channel='music')
 
-    stop music fadeout 1.0
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     "Вскоре мы услышали голоса, остановились и стали прислушиваться. Голоса приближались."
@@ -651,17 +654,18 @@ label day31:
     al "А ты ещё маленькая, такое смотреть."
 
 
-    stop music fadeout 1.0
+    scene bg pfis with dissolve
 
 
-    play music "audio/music/z_140.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_140.mp3"
+
 
     $ renpy.music.set_volume(0.10, delay=0.0, channel='music')
 
     $ renpy.music.set_volume(0.50, delay=1.0, channel='music')
 
-
-    scene bg pfis with dissolve
 
     "Ну, в общем, мы пошли и скоро вышли прямо к тому месту, где я с Пионером купалась в прошлый раз. И я отвела Алису к баркасу. Он ей очень понравился."
 
@@ -763,13 +767,15 @@ label day31:
 
     $ renpy.music.set_volume(1.0, delay=0.0, channel='music')
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_196.mp3"
 
 
     scene cg sem_ls_longboat with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
 
     "И там... Я такое увидела! Они купались как мне показалось, голыми! Но это не точно, далеко было. А ближе я боялась подойти. Я злилась на себя, что не взяла свой бинокль."
 
@@ -780,13 +786,13 @@ label day31:
     "И решила подползти поближе но хрустнула веточкой. И кажется, они меня заметили, поэтому я быстро вернулась."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_478.mp3"
-
-
     scene bg camp_evening with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_478.mp3"
+
 
     "Их долго не было, стало темнеть."
 
@@ -898,13 +904,13 @@ label day31:
     "В общем, Алиса разбила пару. Можно было по тихому сказать чтобы уходил, а она устроила такое. Думаю, из ревности."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_028.mp3"
-
-
     scene bg camp_night with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_028.mp3"
+
 
     "К полуночи все разбрелись по палаткам, а мы с Алисой остались одни у костра. И я решилась ей рассказать."
 
@@ -913,10 +919,9 @@ label day31:
     "Он, конечно, хороший друг, на него можно положиться и я даже сама была немножко влюблена в него, но он был, как сказала бы моя мама, бабник."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_181.mp3"
+    queue music "audio/music/z_181.mp3"
 
 
     "И я рассказала Алисе о том, что видела на Заброшенном пляже. Она выслушала, усмехнулась и сказала:"
@@ -1031,10 +1036,9 @@ label day31:
     hide sp_al_055
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     show sp_ul_021:
@@ -1078,14 +1082,13 @@ label day31:
     al "Ладно, тут недалеко. Уведем лодку по-тихому. Главное, чтобы нас не хватились. Возьму фонарики, а ты жди меня у пристани."
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_004.mp3"
-
-
     scene bg shouse7 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
 
     "Ночью плыть по реке, это не то, что днем. Страшно. Коряги торчат из воды, и по сути, мало что видно, только очертания склонов гор и силуэт берега в лунном свете."
 
@@ -1094,13 +1097,13 @@ label day31:
     "Когда мы подплыли ближе, стали видны черные глазницы окон."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_124.mp3"
-
-
     scene bg shouse5 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     "Тот, кто его строил, был очевидно мрачным человеком и, как мне показалось, был лишен фантазии. Однако ему хватило ума пристроить к дому некое подобие мезонина, что делало дом ещё более странным."
 
@@ -1278,10 +1281,9 @@ label day31:
     "Мы хотели обследовать также и закрытую комнатку, найдя способ ее открыть."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_125.mp3"
+    queue music "audio/music/z_125.mp3"
 
 
     "Но тут мы услышали звук, как будто кто-то поднимался по нижней лестнице."
@@ -1352,13 +1354,13 @@ label day31:
     hide sp_ul_019
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg shouse_roof with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Мы с Алисой спрятались за выступом крыши. Было слышно, как КТО-ТО ходит по комнате. Потом раздался скрип стула. Из окошка пахнуло табачным дымом."
 
@@ -1722,24 +1724,24 @@ label day31:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_004.mp3"
-
-
     scene bg shouse4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
 
     "Все-таки мы изрядно натерпелись страху в Доме на Болтах. Может быть, поэтому Алиса гребла очень быстро. Мы пересекли залив, отделявший нас от острова."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_152.mp3"
-
-
     scene bg disland with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
 
     "Луна зашла за гору и ничто не мешало нам смотреть на звезды и млечный путь. В городе его не видно. Там свет от домов мешает. В общем было очень красиво. А все спали и не видели."
 
@@ -1784,7 +1786,7 @@ label day31:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day32
 

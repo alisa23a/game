@@ -4,9 +4,12 @@ label day25:
 
     $ days = 25
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,13 +19,14 @@ label day25:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
 
     scene cg al_awaking3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Когда мы очнулись, то обнаружили, что мы лежим на том же месте, где когда-то решили ждать утра. А тропа была в десяти метрах рядом. Но тогда мы ее не заметили. Потому что потерялись."
 
@@ -76,10 +80,10 @@ label day25:
     hide sp_al_056
 
 
-    # stop music fadeout 1.0
+    # stop music fadeout 0.5
 
 
-    # play music "audio/music/z_023.mp3"
+    # queue music "audio/music/z_023.mp3"
 
 
     "Скоро мы услышали голоса. На тропе появилась панама Ольги Дмитриевны. За ней шел весь отряд. Но Васи с ними не было. Ольга Дмитриевна была очень сердита."
@@ -292,13 +296,13 @@ label day25:
     "Все облегченно вздохнули."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene cg hike2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Отряд построился и зашагал в лагерь."
 
@@ -309,13 +313,13 @@ label day25:
     ul "Да, я тоже. Слушай. А фингала-то у тебя нет!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_418.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
+
 
 
     "Отряд пришел в лагерь как раз к обеду. Но мы с Алисой так хорошо подкрепились у Юли, что взяли в домик только компот, фрукты и печенье."
@@ -325,7 +329,7 @@ label day25:
     "Когда я пересекала площадь, то у ворот на входе в лагерь увидела большую группу пионеров."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
 
     play miscSounds "audio/music/z_111.mp3"
@@ -338,10 +342,9 @@ label day25:
     "Я тут же забыла, зачем шла и выскочила на дорогу перед воротами. Я никогда не видела так много мотоциклистов. Их было человек двенадцать."
 
 
-    play music "audio/music/z_401.mp3"
-
-
     scene cg_jean with dissolve
+
+    queue music "audio/music/z_401.mp3"
 
 
     "Один был особенно хорош, с длинными волосами и весь в коже."
@@ -357,16 +360,17 @@ label day25:
     scene cg sl_biker with dissolve
 
     "Славю катали дольше и быстрее всех. Она выделялась своими белыми волосами и фигурой. Если бы я была мотоциклистом, я тоже, наверное, любовалась бы ею."
-
-
-    stop music fadeout 1.0
-
-    stop miscSounds fadeout 1.0
-
-    play music "audio/music/z_124.mp3"
  
  
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    stop miscSounds fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     "Я вспомнила, зачем я шла, и вернулась на склад."
 
@@ -440,15 +444,13 @@ label day25:
     "Интересно, он тогда, когда я ушла оставив их вдвоем, пытался поцеловать ее? Ну, когда она дала ему пощечину. Думаю, Алиса уже целовалась с мальчиками раньше. А я вот нет."
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_010.mp3"
-
-
-
     scene cg sem_ul_cutlet with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_010.mp3"
+
 
 
     "Ну кроме... Того случая с Семеном."
@@ -485,13 +487,13 @@ label day25:
     "Мы вместе похихикали над нашим, как его назвала Алиса, «Отелло». Но у меня почему-то на душе кошки скреблись."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_401.mp3"
-
-
     scene cg_bikers with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_401.mp3"
+
 
 
     "И мы пошли на остановку. Мотоциклисты уже не катали пионеров."
@@ -512,13 +514,13 @@ label day25:
     "Потом они завели свои мотоциклы, свернули на старую дорогу и исчезли за поворотом, а физрук направился в лагерь."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg busstop6 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
  
 
     show sp_ul_012:
@@ -626,13 +628,13 @@ label day25:
     "Потом я ушла в соседний сектор чтобы отнести вожатым наш первый лагерный тираж Мурзилки, который Толик уже успел написать, а Лена оформить картинками. Я подумала, что они нас здорово выручили."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_012.mp3"
-
-
     scene an_d25_06 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
 
     "Когда я пришла, то застала Алису в хорошем настроении."
@@ -670,13 +672,13 @@ label day25:
     ul "Думаешь, он так хорошо ко мне относиться, потому что у него виды на тебя?"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_182.mp3"
-
-
     scene an_d25_03 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_182.mp3"
+
 
 
     al "Эх ты... Простота. Конечно. Что ему в тебе."
@@ -718,16 +720,16 @@ label day25:
     al "Ох. Горе ты мое."
 
 
-# Вторая часть, расставить аудио
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
+# Вторая часть
 
 
     scene cg_bikers with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "С суетой вокруг приезда мотоциклистов, мы чуть не забыли, что у нас концерт и надо к нему готовиться."
 
@@ -954,14 +956,13 @@ label day25:
     pause (10000000000000000000000.0)
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_055.mp3"
-
-
     scene spectacle_20 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "Спектакль прошел с оглушительным успехом. Но конечно, не обошлось без недоразумений."
 
@@ -1033,13 +1034,13 @@ label day25:
     "А это мы с Ленкой сфотались после спектакля. На память."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_401.mp3"
-
-
     scene cg_bikers2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_401.mp3"
+
 
     "Ну вот. А потом было представление мотоциклистов. Они включили фары, хотя было еще не темно. Это было круто."
 
@@ -1050,13 +1051,13 @@ label day25:
     "Когда они закончили, все, конечно, кинулись к ним и просили их катать. И меня катали. И Алису, и Славю. Всех."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_152.mp3"
-
-
     scene cg sl_jean with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_152.mp3"
+
 
     "Вот про Славю — отдельно."
 
@@ -1139,7 +1140,7 @@ label day25:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day26
 

@@ -9,11 +9,14 @@ label day8:
 
     default days = 8
 
-    stop music
+
+    show screen current_day with fade
+
+
+    stop music fadeout 0.5
 
     play music "audio/music/z_300.mp3"
 
-    show screen current_day with fade
 
     $ show_quick_menu = False
 
@@ -22,8 +25,7 @@ label day8:
     hide screen current_day
 
     $ show_quick_menu = True
-    
-    #image tent = Movie(play="video/video8day/tent_out.webm", size=(1920, 1080))
+
     
     image tent:
     
@@ -53,15 +55,15 @@ label day8:
 
     scene tent with dissolve
 
-    stop music
+    stop music fadeout 0.5
 
-    play music "audio/music/z_005.mp3"
+    queue music "audio/music/z_005.mp3"
+
 
     "Я проснулась от звонкого чириканья птиц. Утро было прохладным и вылезать из спальника не хотелось."
 
     "Я с удивлением рассматривала ветки над головой,  пытаясь вспомнить события минувшего дня."
 
-    #image hut = Movie(play="video/video8day/hut.webm", size=(1920, 1080))
 
     image hut:
     
@@ -117,24 +119,21 @@ label day8:
         pause 1.0
 
 
-
-
-
         repeat
 
 
-
     scene hut with fade
-    
-    play music "audio/music/z_007.mp3"
-    
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_007.mp3"
+
+
     "Да, конечно! Я же сейчас с Пионером на острове! Мы уехали на лодке,  когда Пионер забрал меня с того пляжа, где мы последний раз расстались после того памятного события, когда я потерялась."
 
     "Да-да, точно. Мы плыли довольно долго вниз по течению и Пионер всё время молчал."
 
-    stop music
-
-    #image pi_ul_boat = Movie(play="video/video8day/pi_ul_boat.webm", size=(1920, 1080))
 
     image pi_ul_boat:
     
@@ -166,9 +165,13 @@ label day8:
         repeat
 
     scene pi_ul_boat with fade
-    
-    play music "audio/music/z_004.mp3"
-    
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
+
     "Как всегда, его глаз не было видно из-под свисающей челки и я не могла понять, в каком он настроении. Потом мы разожгли костер на острове."
 
     "Мы сидели у костра, пытаясь увидеть звезды в нахмуренном небе."
@@ -176,12 +179,13 @@ label day8:
     "А потом пошел дождь. Мы спрятались в шалаш."
 
 
-    
-    stop music
-
     scene bg hut2 with fade
 
-    play music "audio/music/z_003.mp3"
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_003.mp3"
+
 
     "А капли так усыпляющее стучали по крыше..."
 
@@ -210,15 +214,19 @@ label day8:
 
     "Я тихонько выглянула  наружу. Костер уже весело потрескивал и пахло чем-то съестным."
 
-    stop music
 
     scene an_005_001 with fade
 
-    play music "audio/music/z_006.mp3"
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_006.mp3"
+
 
     "От дождя не осталось и следа. Только камни и листочки на деревьях блестели в лучах восходящего солнца."
 
     "Было еще рано. Никогда я так рано не вставала. В лагере, наверное, ещё два часа до утренней линейки."
+
 
     scene an_005_002 with fade   
 
@@ -228,11 +236,14 @@ label day8:
     
     pi "Тсс, тихо... Не вспугни. Они всё слышат и видят."
 
-    stop music
 
     scene cg ul_pi_fishing with fade
 
-    play music "audio/music/z_002.mp3"
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     #pi "Тсс, тихо... Не вспугни. Они всё слышат и видят."
 
@@ -251,6 +262,7 @@ label day8:
     ul "(вытаскивая леску, на которой нанизаны за жабры пять рыбин) Ух ты! Это же огромный улов!"
 
     pi "Да нет, так себе... Но нам на завтрак точно хватит. И тише. Я же просил, не кричи. Упс! У меня клюет. Хочешь подсечь? (передает удочку Ульяне)"
+
 
     scene cg ul_fishing with fade
 
@@ -289,11 +301,14 @@ label day8:
     ul "Тихо, не мешай. Кажется, снова клюет. На червяка? А, так это... Папа так делал."
 
 
-    stop music
 
     scene bg pdl with fade
 
-    play music "audio/music/z_002.mp3"
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Позавтракав картошкой и рыбкой, вкусно запеченной Пионером над углями, мы отправились на лодке на остров На этом острове никто из нашего отряда ещё ни разу не был. Экскурсия отряда туда ожидалась со дня на день."
 
@@ -311,11 +326,14 @@ label day8:
 
     "Я никогда раньше не видела остров Дальний. Катающимся на лодках пионерам всех отрядов категорически не разрешалось спускаться вниз по течению и заплывать дальше Большого острова и речной станции. Да, остров был красивым. "
 
-    stop music
 
     scene bg abandbeach with fade
 
-    play music "audio/music/z_006.mp3"
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_006.mp3"
+
 
     "На его берегу рос высокий хвойный лес. Похоже, остров не был намыт песком, а всегда был частью суши."
 
@@ -328,6 +346,7 @@ label day8:
 
 
     pi "Да, настоящая пиратская гавань."
+
 
     scene bg piharbor with fade
 
@@ -355,16 +374,17 @@ label day8:
     
     pi "Вот то о чем я говорил!"
 
-    #hide sp_sem_001
-
     "Пионер показал рукой в сторону мыса в южной части острова. Там чернело что-то похожее на большую лодку. Когда мы подошли ближе, нам открылся вид на старый баркас."
 
-    stop music
 
     scene bg pfis with fade
 
-    play music "audio/music/z_001.mp3"
-    
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_001.mp3"
+ 
+ 
     "Это было захватывающее зрелище. В голове сразу пролетели все картины из книжек про пиратов, которые я прочитала когда-то."
 
     show sp_pi_001:
@@ -409,13 +429,17 @@ label day8:
 
     "Мы долго смеялись и бегали вокруг баркаса в догонялки. Потом упали на песок, чтобы отдышаться и…"
 
-    stop music
-
-    play music "audio/music/z_009.mp3"
 
     scene cg ul_pi_cheek with fade
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_009.mp3"
+
+
     "Пионер поцеловал меня в щеку. Это было неожиданно. Я прямо вся замерла и удивленно посмотрела на него. Наверное, у меня было такое лицо, что он испугался."
+
 
     scene bg pfis with fade
 
@@ -465,16 +489,20 @@ label day8:
         zoom 1.1
 
     ul "– Тогда... можешь поцеловать, только в щеку."
-    
+
+
     scene cg ul_pi_cheek_closed_eyes with fade
 
     "И закрыла глаза. А про себя подумала: \n«Жаль, что не отношения, как у взрослых.»"
 
-    stop music
-
-    play music "audio/music/z_010.mp3"
 
     scene bg reverside_2
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_010.mp3"
+
 
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -497,7 +525,6 @@ label day8:
     image ul_pi_islang_bg1 = "images/an/an8day/an004/an_004_000_1-min.webp"
     
     image ul_pi_islang_bg2 = "images/an/an8day/an004/an_004_000_2-min.webp"
-
 
  
     image ul_pi_island_01:
@@ -569,6 +596,7 @@ label day8:
 
     hide ul_pi_island_01
 
+
     scene ul_pi_islang_bg2 with fade
     
     show ul_pi_island_02
@@ -580,6 +608,7 @@ label day8:
 
     hide ul_pi_island_02
 
+
     scene ul_pi_islang_bg2
     
     show ul_pi_island_02
@@ -590,6 +619,7 @@ label day8:
 
 
     hide ul_pi_island_02
+
 
     scene ul_pi_islang_bg1 with fade
     
@@ -674,23 +704,20 @@ label day8:
 
 
 
-
-
-
     scene ul_pi_beach_bg1 with fade
     
     show ul_pi_beach_01
     
     "Мы искупались и лежали на песке я мечтала, смотрела на небо, пролетающих над головой птиц и облака."
- 
-    #image ul_pi_beach_02 = Movie(play="video/video8day/ul_pi_beach_02.webm", size=(1920, 1080))
- 
+
+
     scene ul_pi_beach_bg1
-    
+
     show ul_pi_beach_02
- 
+
     pause (10000000000)
-    
+
+
     scene bg ul_pi_talk with fade
 
     "Пионер смотрел на меня как-то задумчиво и вдруг сказал:"
@@ -757,8 +784,12 @@ label day8:
 
 
     scene bg dunes with dissolve
-    
-    play music "audio/music/z_002.mp3"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Когда мы вернулись на отмель, было уже совсем жарко. Солнце стояло высоко и тень от шалаша почти исчезла. У меня в голове крутились мысли и я никак не могла собрать их вместе."
 
@@ -786,8 +817,12 @@ label day8:
 
 
     scene ul_pi_campfire with dissolve
-    
-    play music "audio/music/z_009.mp3"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_009.mp3"
+
 
     "Мы развели костер и  поставили  воду на чай."
 
@@ -842,7 +877,7 @@ label day8:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day9
 

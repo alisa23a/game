@@ -4,9 +4,12 @@ label day46:
 
     $ days = 46
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day46:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/z_478.mp3"
-
-
     scene bg forest1 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_478.mp3"
+
 
     "Рано утром я пыталась идти, но не смогла. К тому же наше кораблекрушение оставило свой след, я сильно ударилась коленкой о камень. Теперь она распухла и болела."
 
@@ -117,13 +120,13 @@ label day46:
     "А вокруг джунгли и обезьяны, и крики всяких птиц-попугаев, и индусы в тюрбанах... И я, наверное, заснула."
 
 
-    stop music
-
-
-    play music "audio/music/z_495.mp3"
-
-
     scene cg sem_ul_carries3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_495.mp3"
+
 
     "Но иногда я открывала глаза, чтобы посмотреть вокруг и понять, куда же мы идем. Тропинка петляла и вела нас через полянки и лес."
 
@@ -173,13 +176,13 @@ label day46:
     "И я прижалась к нему, потому что мне все-таки было немножко страшно. А вдруг лес проглотит нас навсегда?"
 
 
-    stop music
-
-
-    play music "audio/music/z_516.mp3"
-
-
     scene bg forest3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
+
 
     "Но вот, спустя время, всё стало четким, качание прекратилось, а лес стал обычным лесом."
 
@@ -329,10 +332,9 @@ label day46:
     "Тут я хотела возмутиться на слово «МАЛЯВКА», но когда увидела Озеро, то прям замерла. Оно светилось и сверкало. "
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/track4.mp3"
+    queue music "audio/music/track4.mp3"
 
 
     "Солнце только взошло, и всё переливалось, как в сказке. Я спрыгнула на землю и стояла, открыв рот."
@@ -384,13 +386,13 @@ label day46:
     pause (100000000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_1015.mp3"
-
-
     scene cg sky2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1015.mp3"
+
 
     "Семён рассказал мне про своё детство."
 
@@ -405,13 +407,13 @@ label day46:
     "И мне стало казаться что мы знаем друг друга уже сто лет. А ещё я случайно рассказа ему про то, что мы нашли на прииске."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg scull with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Ну это я, конечно, немножко проговорилась. Но он не удивился ничуть и сказал, что знает про немцев и про их задание. А вот откуда он знал это, интересно?"
 
@@ -566,8 +568,6 @@ label day46:
 
 
 
-        #repeat
-
     scene an_46_03 with dissolve
 
 
@@ -605,12 +605,6 @@ label day46:
     hide sp_sem_026
 
 
-    stop music
-
-
-    play music "audio/music/z_048.mp3"
-
-
     image an_46_02: # Анимация озеро
 
         "images/an/an46day/an_d46_05.webp" with Dissolve(0.5, alpha=True)
@@ -631,6 +625,11 @@ label day46:
     scene an_46_02 with dissolve
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_048.mp3"
+
+
     pause (10000000000000000000000.0)
 
 
@@ -643,13 +642,13 @@ label day46:
     "Я посмотрела еще раз на камушек и спрятала его. А Семён еще долго не приближался, пока я сама к нему не подошла и не села ему на колено."
 
 
-    stop music
-
-
-    play music "audio/music/z_002.mp3"
-
-
     scene an_d46_05 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -674,10 +673,9 @@ label day46:
     hide sp_sem_016
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_055.mp3"
+    queue music "audio/music/z_055.mp3"
 
 
     "Ну вот... Потом мы перекусили остатками Женькиного бутерброда (первый мы съели ещё там, в шалаше) и пошли дальше."
@@ -719,13 +717,13 @@ label day46:
     "И ещё чуть что, говорят про гормоны. Что за гормоны такие, я их совсем не чувствую. В общем, я злилась."
 
 
-    stop music
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene bg iul_hide2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
     "Тем временем мы вышли на другую тропу."
 
@@ -889,13 +887,13 @@ label day46:
     "В общем, всех мышей мы в тот день точно распугали."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg uhouse4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     show sp_iul_012:
         yalign 0.1 subpixel True
@@ -938,13 +936,13 @@ label day46:
     "В месте, где ручей Тихий впадает в Омут, где мы рыбачили Сома, была спрятана Юлина лодка. Оттуда мы добрались на ней до острова Ближний."
 
 
-    stop music
-
-
-    play music "audio/music/z_005.mp3"
-
-
     scene bg old_well with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_005.mp3"
+
 
     "Место, где мы причалили, было мне чем-то неуловимо незнакомо."
 
@@ -985,24 +983,24 @@ label day46:
     "Так я узнала про то, что Семён регулярно пользуется тайным ходом. "
 
 
-    stop music
-
-
-    play music "audio/music/z_910.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_910.mp3"
+
 
     "Вскоре мы были уже в лагере. Все в это время были в столовой. Мы заглянули туда. Нас радостно встретили. Все переживали за нас."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg attic2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "После столовой мы снова собрались на чердаке нашего домика, который давно стал нашей «штаб квартирой», чтобы обсудить, что нам делать после нашего неудачного похода на баркасе."
 
@@ -1098,13 +1096,13 @@ label day46:
     "И мы пошли к ОД, чтобы выяснить, чем мы можем ей помочь."
 
 
-    stop music
-
-
-    play music "audio/music/z_132.mp3"
-
-
     scene bg mus with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_132.mp3"
+
 
     "Все собрались в музкружке и там был «военный совет»."
 
@@ -1122,13 +1120,13 @@ label day46:
     hide sp_od_022
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "В лагере назревала смута."
 
@@ -1177,13 +1175,13 @@ label day46:
 
 
 
-    stop music
-
-
-    play music "audio/music/z_049.mp3"
-
-
     scene an_46_04 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_049.mp3"
+
 
 
     pause (10000000000000000000000.0)
@@ -1273,9 +1271,6 @@ label day46:
 
 
     play miscSounds "audio/music/z_047_1.mp3" noloop
-
-
-    #scene an_46_05 with dissolve
 
 
     "Раздался взрыв. Мимо пробежала Славя."
@@ -1425,10 +1420,9 @@ label day46:
 
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_333.mp3"
+    queue music "audio/music/z_333.mp3"
 
 
     "Мы бросились к складу."
@@ -1443,7 +1437,7 @@ label day46:
     "Ольга пыталась загородить нам путь, но мы с Алисой ловко поднырнули под её расставленные руки и добежав до склада, запрыгнули туда в последний момент перед вторым ВЗРЫВОМ."
 
 
-    stop music
+    stop music fadeout 0.5
 
 
     play music "audio/music/z_047_2.mp3" noloop
@@ -1489,10 +1483,9 @@ label day46:
     sem "Брысь отсюда! С ума сошли! Вы же в самое логово! Немедленно! Они же вас!"
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_125.mp3"
+    queue music "audio/music/z_125.mp3"
 
 
     "Закончить он не успел, дверь в помещение склада Вано открылась. Через проём на нас смотрели белеющие в темноте истуканы. Их глаза зловеще светились."
@@ -1568,7 +1561,7 @@ label day46:
     pause (100000000000000000000000000000.0)
 
 
-    stop music
+    stop music fadeout 0.5
 
 
     play music "audio/music/z_051.mp3" noloop
@@ -1577,13 +1570,14 @@ label day46:
     "Мы, все трое, закричали: «УРА! Подмога!»"
 
 
+    scene cg stock_mannequins3 with dissolve
+
+
     stop music
 
 
     play music "audio/music/z_202.mp3"
 
-
-    scene cg stock_mannequins3 with dissolve
 
 
     show sp_vio_020:
@@ -1611,12 +1605,6 @@ label day46:
     "Они разгадали замысел «картонной армии» (как назвал ее Семён) и вскоре багор и топор быстро замелькали в их руках."
 
     "Тут прибежали предупреждённые Мику пионеры во главе с Толиком и приняли активное участие в побоище."
-
-
-    # stop music
-
-
-    # play music "audio/music/z_202.mp3"
 
 
     scene bg camp_artifacts with dissolve
@@ -1666,14 +1654,14 @@ label day46:
     al "ПЕРЕГОВОРЫ!"
 
 
-    stop music
-
-
-    play music "audio/music/z_1003.mp3"
-
-
     scene bg camp_artifacts with dissolve
-    #scene cg negotiation with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1003.mp3"
+
+
 
     "Похоже, манекены хотели того же. Они прекрасно понимали, что рано или поздно их количество перестанет быть достаточным для сопротивления."
 
@@ -1684,14 +1672,12 @@ label day46:
     "Битва на время прекратилась. Он выступил вперед."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg camp_artifacts with dissolve
-    #scene cg negotiation_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_mann_002:
@@ -1713,8 +1699,6 @@ label day46:
     od "Мы однозначно не отдадим никого из людей. Но все же интересно, кто это?"
 
 
-    #scene cg elyatronic2 with dissolve
-
     scene black with dissolve
 
     show sp_elya_001:
@@ -1732,7 +1716,7 @@ label day46:
 
 
     scene bg camp_artifacts with dissolve
-    #scene cg negotiation_bg with dissolve
+
 
     show sp_mann_004:
         yalign 0.15 subpixel True
@@ -1808,10 +1792,9 @@ label day46:
     hide sp_vio_028
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     show sp_mann_002:
@@ -1840,10 +1823,9 @@ label day46:
     hide sp_mann_002
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_197.mp3"
+    queue music "audio/music/z_197.mp3"
 
 
     show sp_al_004:
@@ -1870,7 +1852,7 @@ label day46:
 
 
     scene bg camp_artifacts with dissolve
-    #scene cg negotiation_bg with dissolve
+
 
     show sp_vio_027:
         yalign 0.05 subpixel True
@@ -1887,7 +1869,7 @@ label day46:
 
 
     scene bg camp_artifacts with dissolve
-    #scene cg negotiation_bg with dissolve
+
 
     show sp_elya_014:
         yalign 0.05 subpixel True
@@ -1962,13 +1944,13 @@ label day46:
     hide sp_al_004
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg mannequin_world with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Я сразу представила себе новое поколение манекенов-пионеров, выросших в Совёнке. Мне стало не по себе..."
 
@@ -2068,21 +2050,6 @@ label day46:
     image an_46_11: # Анимация поворот таблички
 
 
-
-        # "images/an/an46day/an_d46_58.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an46day/an_d46_59.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an46day/an_d46_60.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an46day/an_d46_61.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an46day/an_d46_62.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an46day/an_d46_63.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an46day/an_d46_64.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
         "images/an/an46day/an_d46_65.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an46day/an_d46_66.webp" with Dissolve(0.5, alpha=True)
@@ -2097,7 +2064,6 @@ label day46:
         pause 0.5
         "images/an/an46day/an_d46_71.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-
 
 
     scene an_46_11 with dissolve
@@ -2172,7 +2138,7 @@ label day46:
         pause 0.5
 
 
-    stop music
+    stop music fadeout 0.5
 
 
     play music "audio/music/z_207_1.mp3" noloop
@@ -2199,13 +2165,14 @@ label day46:
     "Вибрация неожиданно прекратилась."
 
 
+    scene cg fallen_manns with dissolve
+
+
     stop music
 
 
     play music "audio/music/z_151.mp3"
 
-
-    scene cg fallen_manns with dissolve
 
     "Мы посмотрели на площадь. Манекены вдруг стали бесцельно двигаться взад и вперед. Многие упали на колени и пытались ползти."
 
@@ -2233,13 +2200,14 @@ label day46:
     "Голова вмялась, и образовавшаяся на месте виска огромная дыра выплюнула сгусток пыли."
 
 
+    scene bg camp_artifacts with dissolve
+
+
     stop music
 
 
     play music "audio/music/z_023.mp3"
 
-
-    scene bg camp_artifacts with dissolve
 
     show sp_vio_018:
         yalign 0.07 subpixel True
@@ -2347,12 +2315,6 @@ label day46:
     "Идею тогда подал Семён."
 
 
-    # stop music
-
-
-    # play music "audio/music/z_023.mp3"
-
-
     scene cg mushroom_soup with dissolve
 
     "Юля с помощью тети Любы быстро сварила «грибной супчик», добавив туда еще каких-то трав."
@@ -2369,13 +2331,13 @@ label day46:
     "Очевидно, «яд Смутьяновской пропаганды» проник в них глубоко."
 
 
-    stop music
-
-
-    play music "audio/music/z_910.mp3"
-
-
     scene cg dining_crowded with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_910.mp3"
+
 
     "Вскоре, оголодавшие после своих выборов, пионеры, нагрянули в столовую и набросились на еду."
 
@@ -2386,10 +2348,9 @@ label day46:
     "Нам помогали только часть пионеров третьего отряда и Эля."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_177.mp3"
+    queue music "audio/music/z_177.mp3"
 
 
     "За обедом «революционеры» живо обсуждали последние новости, своё сборище и кто какие «министерские портфели» получил в новом пионерском правительстве."
@@ -2421,13 +2382,13 @@ label day46:
     "Также под репрессии должны был попасть все инакомыслящие, то есть несогласные. Я вот, например."
 
 
-    stop music
-
-
-    play music "audio/music/z_333.mp3"
-
-
     scene cg parade with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     "Интересно, когда они меня казнят, будущие поколения будут проходить мимо моего памятника как в спектакле про мальчиша Кибальчиша, отдавая салют?"
 
@@ -2442,13 +2403,13 @@ label day46:
     "Но пусть. Потомки Ленину не забудут."
 
 
-    stop music
-
-
-    play music "audio/music/z_177.mp3"
-
-
     scene cg dining_crowded with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_177.mp3"
+
 
     "Кстати, этот мальчик из второго отряда, который был в меня влюблен, сбежал от них и тоже где-то прятался."
 
@@ -2474,13 +2435,13 @@ label day46:
     "Об этом даже писать не хочется. Никогда не думала, до какой низости могут упасть люди."
 
 
-    stop music
-
-
-    play music "audio/music/z_910.mp3"
-
-
     scene cg dining_crowded2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_910.mp3"
+
 
     show sp_iul_009:
         yalign 0.1 subpixel True
@@ -2503,13 +2464,13 @@ label day46:
     "Такой вот конец был у этой РЕВОЛЮЦИИ."
 
 
-    stop music
-
-
-    play music "audio/music/track2.mp3"
-
-
     scene cg meeting_total with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track2.mp3"
+
 
     "Потом нас собрала Ольга Дмитриевна, поблагодарила за помощь, поздравила с «победой»."
 
@@ -2522,14 +2483,13 @@ label day46:
     "Все согласились, потому что понимали. Даже если кому рассказать... Все равно в такое никто не поверит."
 
 
-
-    stop music
-
-
-    play music "audio/music/z_1013.mp3"
-
-
     scene bg dining with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
 
     "В лагере наступила непривычная тишина."
 
@@ -2691,10 +2651,9 @@ label day46:
     hide sp_ul_013
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     show sp_al_002:
@@ -2822,16 +2781,13 @@ label day46:
     "Волнения и голод сделали свое дело. Из-за войны с манекенами обед в лагере не случился. Вскоре и они тоже спали мертвецким сном."
 
 
-    stop music
-
-
-    stop miscSounds
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg dining with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
 
     show sp_al_004:
@@ -2858,13 +2814,13 @@ label day46:
     al "Не факт, что его потом не станут искать вызванные в лагерь МП охотники, чтобы убить собаку-людоеда."
 
 
-    stop music
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg dining with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
 
     "ОД сказала, чтобы мы не будили уснувших в столовой. Мы усадили их на стулья. Так они и спали, положив головы на столы."
@@ -3036,13 +2992,13 @@ label day46:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg massage2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     mi "Она нажала на одну ножку, и он встал на дыбы. Под ним открылся люк, такой квадратный, и лестница вниз. Мы все туда спустились."
 
@@ -3136,13 +3092,13 @@ label day46:
     al "Обещаем."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg medic2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "В тот же вечер мы, конечно же, пробрались в медпункт через оставленную открытой форточку. Я пролезла. Открыла окно и впустила Алису."
 
@@ -3238,13 +3194,13 @@ label day46:
     hide sp_ul_021
 
 
-    stop music
-
-
-    play music "audio/music/z_053.mp3"
-
-
     scene cg handcar with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_053.mp3"
+
 
     "Мы стали качать рычаг, по очереди отталкивая его от себя."
 
@@ -3286,10 +3242,9 @@ label day46:
     al "Давай встанем. Эти стулья можно убрать. Видишь, они отводятся вбок? Стоя навалимся. Так удобнее. И всем телом. Главное, преодолеть этот пригорок, а там снова ровно."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_054.mp3"
+    queue music "audio/music/z_054.mp3"
 
 
     "Мы встали и качали рычаг стоя. Дрезина весело взвизгнула всеми колесами и снова начала разгоняться."
@@ -3312,10 +3267,9 @@ label day46:
     ul "Агась, буду как мячик..."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_053.mp3"
+    queue music "audio/music/z_053.mp3"
 
 
     "Вдали появился лесок, а за ним виднелась коричневая крыша старой лаборатории."
@@ -3335,22 +3289,21 @@ label day46:
     "На одном из рычагов дрезина заметно дрогнула и как бы споткнулась. Алиса резко потянула этот рычаг вниз. Я тоже стала помогать ей, и мы вдвоем навалились всем своим весом на рычаг."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_056.mp3"
+    queue music "audio/music/z_056.mp3"
 
 
     "Раздался пронзительный визг тормозов, из под колес посыпались искры. Дрезина встала."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg laboratory2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Мы вышли из неё, прошли пешком метров пятьдесят и остановились перед воротами."
 
@@ -3370,13 +3323,13 @@ label day46:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg barrels with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Рядом с лабораторией стояли желтые бочки с нерусскими буквами. На них были нарисованы знаки. Очевидно, что содержимое бочек было опасно для здоровья, а то и жизни."
 
@@ -3455,10 +3408,9 @@ label day46:
     hide sp_al_055
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_ul_019:
@@ -3520,13 +3472,13 @@ label day46:
     "Мы выбросили всю стеклянную начинку ящика и спокойно уместились в нём вдвоем с Алисой, закрыв над собой крышку."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg box with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
 
     pause (10000000000000000000000.0)
@@ -3576,10 +3528,9 @@ label day46:
     "Неожиданно прямо рядом с ящиком раздался женской голос. Это был голос Виолы."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     vio "Давно жду Вас. Уже два часа курю. Дрезину отослала, думала Вы приедете на ней, но ошиблась. Хотя, как мне показалось, я слышала стук колес о рельсы."
@@ -3661,10 +3612,9 @@ label day46:
     vio "От девчонки одни проблемы. Но Вам виднее. Идут Ваши помощники."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_202.mp3"
+    queue music "audio/music/z_202.mp3"
 
 
     pi "Пусть сядут на ящик напротив Аннигилятора. Надеюсь, Вы избавите меня от необходимости видеть это."
@@ -3692,19 +3642,17 @@ label day46:
     vio "Включаю наш КОЛЛАЙДЕР. Все смотрим вот на этот малиновый огонек у меня в руке."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_048.mp3"
+    queue music "audio/music/z_048.mp3"
 
 
     "Мы с Алисой почувствовали, как началась сильная вибрация. Ящик трясло."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_151.mp3"
+    queue music "audio/music/z_151.mp3"
 
 
     "Затем возник сильный свист и оглушительный шум. Я почувствовала себя как в тот раз, когда я ехала и уснула в 410-м автобусе."
@@ -3747,12 +3695,6 @@ label day46:
 
 
     pause (10000000000000000000000.0)
-
-
-    stop music
-
-
-    play music "audio/music/z_125.mp3"
 
 
     image an_46_09: # Анимация аннигиляция
@@ -3825,6 +3767,11 @@ label day46:
     scene an_46_09 with dissolve
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
+
     "Был ЗВУК… Меня как будто втянуло в какую-то трубу и стало вращать. Было ощущение падения, и оно не заканчивалось. И это было страшно."
 
     "Но вдруг, я почувствовала, что не одна. Что кто-то сжимает мою руку. Это была Алиса. Похоже, что с ней происходило то же самое."
@@ -3843,10 +3790,9 @@ label day46:
     "Вдруг все кончилось. Кружение прекратилось. Стихли шаги уходящей Виолы."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     "Ощупав пространство вокруг себя, я наткнулась на руку Алисы. Кажется, она была без сознания."
@@ -3899,10 +3845,9 @@ label day46:
     "Через полчаса мы смогли подняться и нормально ходить."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_176.mp3"
+    queue music "audio/music/z_176.mp3"
 
 
     "Сразу принялись искать выход. Огромные ворота были закрыты. Зато, в углу помещения был люк и лестница вела куда-то вниз."
@@ -3918,13 +3863,13 @@ label day46:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene cg collider_console with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Вибрация не стихала. Лестница вела глубоко под землю. Мы прошли четыре пролета, пока не очутились в небольшом зале с мигающими повсюду огоньками."
 
@@ -3963,13 +3908,13 @@ label day46:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg laboratory_hangar with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Мы быстро поднялись наверх."
 
@@ -4088,13 +4033,12 @@ label day46:
         repeat
 
 
-    stop music
-
-
-    play music "audio/music/z_057.mp3"
-
-
     scene an_46_10 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_057.mp3"
 
 
     "Мы ползли по вентиляционной шахте и уперлись в вентилятор."
@@ -4120,13 +4064,14 @@ label day46:
     "Она открыла коробочку и, достав платок, обмотала им кисть руки. Потом этой же рукой соединила два проводка."
 
 
+    scene bg fan with dissolve
+
+
     stop music
 
 
     play music "audio/music/z_060.mp3" noloop
 
-
-    scene bg fan with dissolve
 
     "Раздался хлопок и сноп искр на секунду озарил всё вокруг. Вентилятор встал. Сразу наступила тишина."
 
@@ -4147,14 +4092,14 @@ label day46:
 
     "Как же Алиса много знает!"
 
+    scene bg fan2 with dissolve
+
 
     stop music
 
 
-    play music "audio/music/z_059.mp3" noloop
+    queue music "audio/music/z_059.mp3" noloop
 
-
-    scene bg fan2 with dissolve
 
     "Мы отогнули решетку ломиком, взятым в зале, пролезли между лопастей и вышли на крышу."
 
@@ -4162,7 +4107,7 @@ label day46:
     scene bg lab_roof with dissolve
 
 
-    stop music
+    stop music fadeout 0.5
 
 
     play music "audio/music/z_171.mp3"
@@ -4217,18 +4162,11 @@ label day46:
 
 
 
-
-
-
-
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day47
 

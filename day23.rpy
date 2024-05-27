@@ -16,13 +16,14 @@ label day23:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_012.mp3"
-
 
     scene cg tent_hike with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_012.mp3"
+
 
     show sp_vas_002:
         yalign 0.05 subpixel True
@@ -74,13 +75,13 @@ label day23:
     "Наскоро позавтракав, все стали собираться. Как только солнце поднялось над деревьями, мы уже шагали по тропе в сторону озера, до которого оставался час ходьбы."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_055.mp3"
-
-
     scene bg lakedeep7 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
 
     "Озеро встретило нас ослепительным блеском отраженного в нем солнца. Оно было великолепно. Далеко, насколько видел глаз, простиралась водная гладь, с каймой темно-зеленого с синеватой дымкой, леса."
@@ -127,12 +128,13 @@ label day23:
     "Вася сказал, что ракушки выбрасывает на берег, когда их обитатели покидают их. Вот бы увидеть эту живность. Я взяла их на память."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/prolog.mp3"
-
     scene cg flash_lake with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/prolog.mp3"
+
 
     "Потом  я стала смотреть на тот берег. Там что-то сверкало как зеркальце. Я сказала об этом Славе. Она тоже долго смотрела."
 
@@ -165,13 +167,13 @@ label day23:
     "Кто бы это мог быть? Но точно не из нашего лагеря. Наверное, кто-то рыбачил. Вот бы выпросить у этого рыбака лодку и покататься по озеру!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_516.mp3"
-
-
     scene cg hike2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
+
 
     "Через час, немного подкрепившись печеньем и холодным чаем из фляг, мы снова шли в гору."
 
@@ -314,13 +316,13 @@ label day23:
     hide sp_od_017
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_527.mp3"
-
-
     scene bg lakedeep2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_527.mp3"
+
 
     "Дошли быстро. Спускаться с горы было гораздо легче, чем карабкаться на неё. Спустившись к озеру, прошли вдоль него дальше от места прежнего привала, нашли удобное для лагеря место. Поставили палатки."
 
@@ -439,12 +441,13 @@ label day23:
     "Тем более, надо было спешить."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_533.mp3"
-
     scene bg coast4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_533.mp3"
+
 
     "Незаметно выскользнув из лагеря, мы отправились вдоль берега. Песок был твердый, спрессованный и идти было легко."
 
@@ -548,10 +551,10 @@ label day23:
     hide sp_al_056
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_909.mp3"
 
-    play music "audio/music/z_909.mp3"
 
     "Мы стали всматриваться в темноту. Вскоре от напряжения у меня разболелась голова."
 
@@ -609,7 +612,7 @@ label day23:
     "Тогда мы решили остановиться тут и заночевать. Все лучше, чем в лесу. Только опустившись на землю, мы поняли, как смертельно устали. Сев спина к спине, мы тут же заснули."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
 
 
@@ -618,7 +621,7 @@ label day23:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day24
 

@@ -4,9 +4,12 @@ label day44:
 
     $ days = 44
 
-    play music "audio/music/z_1003.mp3"
 
     show screen current_day_bad_1 with fade
+
+
+    play music "audio/music/z_1003.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day44:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene an_d43_42 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Утром, когда дождь ещё шел, но уже не так сильно, физрук отправился в пещеру."
 
@@ -103,13 +106,13 @@ label day44:
     "Юля ушла в сторону Омута и дома на Болотах."
 
 
-    stop music
-
-
-    play music "audio/music/z_149.mp3"
-
-
     scene bg hetu with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_149.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -154,13 +157,13 @@ label day44:
     "Мы предупредили Петровича о том, что там водится ТВАРЬ, но он только махнул на нас рукой. Но мы настаивали, и он положил в лодку, на всякий случай, пару шашек динамита, багор и топор."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg newtcreek with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Остальные аукали, бродя у Ручья тритонов"
 
@@ -177,23 +180,21 @@ label day44:
     "Мы обошли всё, даже еще раз прошли по пещере, но так и не нашли никого, а сами чуть не потерялись."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_047.mp3" noloop
+    queue music "audio/music/z_047.mp3" noloop
 
 
     "Но потом услышали звук взрыва (два раза) и поняли, что Петрович что-то взорвал на реке. И мы пошли на этот шум. "
 
 
-
-    stop music
-
-
-    play music "audio/music/z_333.mp3"
-
-
     scene bg boat_bow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     show sp_pe_012:
         yalign 0.05 subpixel True
@@ -231,13 +232,13 @@ label day44:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_058.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_058.mp3"
+
 
     "Все поисковые группы, кроме Жени и Семёна, вернулись."
 
@@ -300,13 +301,13 @@ label day44:
     "Оказывается, Женя и Семён нашли их на Карьере."
 
 
-    stop music
-
-
-    play music "audio/music/z_196.mp3"
-
-
     scene bg carier with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
 
     "Как они зашли так далеко, осталось загадкой. Что бы их ни спрашивали, они отвечали одинаково: «заблудились»."
 
@@ -325,13 +326,13 @@ label day44:
     "Столовая гудела от голосов детей, которые делились с другими пионерами пережитым опытом. Кажется, после этих рассказов весь лагерь готов был идти на карьер играть в пиратов."
 
 
-    stop music
-
-
-    play music "audio/music/z_102.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
+
 
     "Но в лагере после бури, наконец, восстановилась связь, и Маргарита Павловна вызвала автобусы (этот день был последним днём пребывания для младших групп)."
 
@@ -371,13 +372,13 @@ label day44:
     hide sp_mp_003
 
 
-    stop music
-
-
-    play music "audio/music/z_1013.mp3"
-
-
     scene bg handmade with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
 
     "Шурика с Электроником что-то давно не было видно. И я предложила Алисе заглянуть в кружок «Умелые руки», а заодно забрать у кибернетиков фонарики. Так и сделали."
 
@@ -480,13 +481,13 @@ label day44:
     "И я подумала, как удивятся наши начальники, когда увидят такое! Это событие даже на время заслонило историю с поисками малышей, настолько оно было удивительным."
 
 
-    stop music
-
-
-    play music "audio/music/z_301.mp3"
-
-
     scene cg meeting_elya with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
+
 
     "Потом была кутерьма. Набежали пионеры, все столпились, разглядывали девочку-робота и общались с ней. Она оказалась довольно эрудированной. В смысле, умной для робота."
 
@@ -625,13 +626,13 @@ label day44:
     "После этого Эля выглядела, в общем, очень даже замечательно."
 
 
-    stop music
-
-
-    play music "audio/music/z_009.mp3"
-
-
     scene cg ul_sam with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_009.mp3"
+
 
     "Я уже писала, что мы очень подружились с Самантой. Все мы знали, что скоро Саманта от нас уедет. Было грустно."
 
@@ -652,13 +653,13 @@ label day44:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene cg maggie_gun with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Ну и всякие тайны про Мегги. Все-таки Мегги загадочная личность. И вообще. Никогда до этого не видела настоящего «зеленого берета», да еще и женщину. Мне повезло."
 
@@ -668,13 +669,13 @@ label day44:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_901.mp3"
-
-
     scene cg sam_parade with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_901.mp3"
+
 
     "На прощанье решили сделать торжество. Объявление о нем вывесили заранее. В честь Саманты устроили торжественную линейку и парад."
 
@@ -685,13 +686,12 @@ label day44:
     "Потом был маленький концерт. В основном читали стихи, посвященные Саманте и русско-американской дружбе. Потом были танцы."
 
 
-    stop music
-
-
-    play music "audio/music/z_454.mp3"
-
-
     scene cg concert_ad2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_454.mp3"
 
 
     pause (10000000000000000000000.0)
@@ -713,13 +713,13 @@ label day44:
     "Потом мы поставили записи музыки с кассеты Саманты, через усилитель и сами потанцевали. Саманта в это вечер была «нарасхват» Все хотели с ней потанцевать."
 
 
-    stop music
-
-
-    play music "audio/music/z_460.mp3"
-
-
     scene cg sem_meg_dancing with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_460.mp3"
+
 
     "Даже Мегги приглашали, хотя она была на голову выше своих кавалеров. Кроме Семёна, конечно. Он тоже с ней танцевал."
 
@@ -783,7 +783,7 @@ label day44:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day45
 

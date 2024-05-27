@@ -4,9 +4,12 @@ label day28:
 
     $ days = 28
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day28:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene an_d16_06 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Предупреждения Петровича насчет Вано скоро оправдались. Вано Артабекович явно выделял меня из общей массы пионерок. Он всячески тайно подчеркивал свое расположение и задаривал меня подарками."
 
@@ -132,12 +135,6 @@ label day28:
     od "Это уже не первый случай. Слава Богу, дальше этого пока не шло. Но, кто знает."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     image an_28_02: # Анимация Ольга Дмитриевна пишет, ест печенье
         
         "images/an/an28day/an_d28_07.webp" with Dissolve(0.5, alpha=True)
@@ -206,6 +203,12 @@ label day28:
 
     scene an_d28_07 with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
+
     pause (10000000000000000000000.0)
 
 
@@ -239,21 +242,22 @@ label day28:
     "И стал рассказывать, как он её любил и качал на коленях."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1005.mp3" noloop
+    queue music "audio/music/z_1005.mp3" noloop
 
 
     "Дальше произошло то, о чем я писать не буду. В общем, как и предполагала Ольга Дмитриевна, свисток пригодился. И как только я засвистела..."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_371.mp3" noloop
 
 
     scene bg stock3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_371.mp3" noloop
+
 
 
     show sp_pe_007:
@@ -272,10 +276,9 @@ label day28:
     "Дверь в кладовку склада,  слетела с петель и я увидела как Петрович с ломиком и Семен, ворвались внутрь"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_173.mp3" noloop
+    queue music "audio/music/z_173.mp3" noloop
 
 
     show sp_od_026:
@@ -314,15 +317,15 @@ label day28:
     "А Петрович кричал: «Я на войне контуженый, я за себя не отвечаю!» Но у него отобрали ломик."
 
     pause (10000000000000000000000.0)
-     
+ 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3" noloop
+    scene bg stock3 with dissolve    
 
 
-    scene bg stock3 with dissolve
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3" noloop
+
 
 
     "Вано сидел связанный, качался из стороны в сторону, плакал и повторял, что все мы его не так поняли."
@@ -338,8 +341,6 @@ label day28:
 
 
     pause (10000000000000000000000.0)
-
-
 
 
     scene bg stock3 with dissolve
@@ -373,21 +374,20 @@ label day28:
     "И всех, кроме меня, отправили по домикам. Магоша сказала: «Вам тут не цирк»."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_444.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_444.mp3"
+
 
     "Праздник отложили на следующий день. А вечером, приехал тот же следователь и с ним еще четверо."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1018.mp3"
+    queue music "audio/music/z_1018.mp3"
 
 
     "Спросили меня про всё и записали. Долго говорили с Виолеттой Церновной и я услышала, как она сказала: «Я не думаю, но завтра будет ясно»."
@@ -398,13 +398,12 @@ label day28:
     "Потом Вано в наручниках посадили в УАЗик. А он всё время повторял «Вай, вай, вай». Как объяснила Алиса, по грузински, это означает «ВСЕМУ КИРДЫК». И они уехали."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_201.mp3"
-
-
     scene cg vio_0 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
 
 
     "А Виолетта Церновна провела со мной несколько часов. Брала всякие анализы и говорила много и ласково."
@@ -420,13 +419,13 @@ label day28:
     "А в конце осмотра она произнесла, как будто говорила сама с собой: «Удивительно, какой потрясающий эффект. Впрочем, как и ожидалось». Я запомнила эту её фразу."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_067.mp3"
-
-
     scene an_28_02 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_067.mp3"
+
  
     "Вообще же, в течении дня, Ольга Дмитриевна с Алисой от меня не отходили, и я гостила в домике Ольги Дмитриевны. Она мне рассказывала что-то о себе, чтобы отвлечь меня от всего, что было."
 
@@ -484,13 +483,13 @@ label day28:
     "Просто так я бы его не взяла, но это нужно было для дела. Получилось, что он как бы не мой лично, а нашей следственной группы. А это, как сказал бы Петрович, «совсем другой коленкор»."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene cg meeting_staff with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     "А вечером было собрание персонала. Я забежала в столовую чтобы успеть всех сфотографировать новым фотоаппаратом для стенгазеты."
 
@@ -505,13 +504,13 @@ label day28:
     "В остальном всё было по-прежнему. Теперь, когда все хвалили новое меню, Любаша (ой, Любовь Никаноровна) говорила: «Скажите спасибо Лениной»."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_333.mp3"
-
-
     scene cg smu_hut with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     "И вроде теперь все вопли Смутьянова по поводу плохого питания можно было бы считать выдумкой. Но он сбежал. Наверное, после того случая с милицией."
 
@@ -527,7 +526,7 @@ label day28:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day29
 

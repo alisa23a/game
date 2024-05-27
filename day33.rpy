@@ -4,9 +4,12 @@ label day33:
 
     $ days = 33
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day33:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene an_d29_13 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Утром меня вызвала Ольга Дмитриевна."
 
@@ -220,13 +223,13 @@ label day33:
     ul "А Вашему независимому источнику передайте, если мы его вычислим, то мало ему не покажется. Мы не потерпим ябеду и предателя в своем отряде."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg auhouse2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "После нашего похода в развалины, мы с Алисой договорились вести совместное расследование всех тайн лагеря и стали думать, кого нам взять в команду."
 
@@ -508,13 +511,13 @@ label day33:
     al "Так... В отряде появилась КРЫСА."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg camp_fog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "С утра лагерь окутал сильный туман. Никогда такого не видела."
 
@@ -529,13 +532,13 @@ label day33:
     "Надо было ее предупредить и рассказать ей нашу версию для ОД, чтобы мы врали одинаково. Последнее время Саша пропадала там."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_111.mp3"
-
-
     scene cg bikers_fog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_111.mp3"
+
 
     "Мы кинулись к мотоциклистам. Далеко идти не пришлось. Они прогревали моторы у ворот лагеря, собирались ехать в поселок."
 
@@ -546,10 +549,9 @@ label day33:
     "Потом Жан сделал рукой жест, мол, «все будет нормально»."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_067.mp3"
+    queue music "audio/music/z_067.mp3"
 
 
     "Мотоциклисты перестали прогревать моторы чтобы Алиса с Жаном смогли поговорить. И они о чем-то говорили обнявшись. Потом он ее поцеловал, и мотоциклисты уехали по дороге в поселок, прямо в туман."
@@ -560,13 +562,13 @@ label day33:
     "Алиса стояла и смотрела им вслед. Я спросила ее, что случилось. А она сказала, что у нее странное предчувствие. И что, может быть, всему виной туман. А потом мы пошли искать Толика."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg camp_fog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Толика уже второй день никто не видел. Но, как ни странно, ОД о нем не спрашивала."
 
@@ -603,13 +605,13 @@ label day33:
     pause (1000000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg dnest2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Но вдруг, далеко за рекой, в районе Непроходимого брода, где надвигающийся туман еще не успел поглотить лес, блеснул едва заметный огонек."
 
@@ -636,13 +638,13 @@ label day33:
     "Это был самый короткий путь в лагерь, но тут было течение и все ходили в обход."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_201.mp3"
-
-
     scene cg tol_hut with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
+
 
     "Мы затаились в камышах. Вскоре мы убедились, что у костра сидел именно Толик. Это было нетрудно определить по отсвечивающей в свете костра лысине."
 
@@ -694,14 +696,13 @@ label day33:
     al "Выскочим одновременно с разных сторон. Только ты тоже ори, а то если я одна, будет не тот эффект."
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_193.mp3" noloop
-
-
     scene cg al_ul_tol_ghosts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_193.mp3" noloop
+
 
     "Мы надели на себя простыни и с раскинутыми руками и с криком «У-у-у!» выскочили к костру. Эффект был потрясающий!"
 
@@ -709,10 +710,9 @@ label day33:
     pause (10000000000000000000000000.0)
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_149.mp3"
+    queue music "audio/music/z_149.mp3"
 
 
 
@@ -742,13 +742,13 @@ label day33:
     "Алиса устало плюхнулась на траву, не обращая внимания па плачущего Толика, стискивающего её ногу. Она подняла бутылку, посмотрела на этикетку и сказала:"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene bg tol_hut_fog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -791,13 +791,13 @@ label day33:
     hide sp_al_056
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg al_ul_tol_ghosts2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Толик упал ниц, распростёршись перед Алисой, и глядя в землю, стал быстро бормотать. Из его бессвязной речи было понятно, что он сожалеет и раскаивается о том, что сделал."
 
@@ -829,10 +829,9 @@ label day33:
     "Мы с Алисой заметались. Вокруг были река и болото, отступать можно было только в сторону той самой тропы, по которой кто-то двигался в нашу сторону."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_202.mp3"
+    queue music "audio/music/z_202.mp3"
 
 
     show sp_al_057:
@@ -878,10 +877,9 @@ label day33:
     "Я заметила, что Алиса улыбается. Это была классная шутка. Но она так и повисла в воздухе. Потому что теперь мы обе понимали: это ВОВСЕ НИКАКАЯ НЕ ШУТКА."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1020.mp3"
+    queue music "audio/music/z_1020.mp3"
 
 
     "Плотик понемногу вынесло на середину реки. Иногда казалось, что это мы стоим на месте, а лес в тумане бесшумно движется мимо нас."
@@ -907,10 +905,9 @@ label day33:
     ul "Слушай, кажется, Омут уже проплыли. Тут далеко до берега и не за что зацепиться. Придется что-то придумывать. Дальше, как я понимаю, и есть тот самый водоворот."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_202.mp3"
+    queue music "audio/music/z_202.mp3"
 
 
     al "Давай обвяжемся простынями и поплывем в связке. Так нас не раскидает течением. Надо попытаться спрыгнуть с плота сейчас, пока еще течение не снесло нас в водоворот."
@@ -940,13 +937,13 @@ label day33:
     "Простыни тоже оказались кстати. Когда она устала и стала грести обеими руками то я была как на буксире. Больше всего я боялась, что наши простыни нечаянно развяжутся и меня унесет река."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_001.mp3"
-
-
     scene bg ushallow2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_001.mp3"
+
 
     "Но мы доплыли. Если бы мы не справились, то течение пронесло бы нас мимо мели и всё. Мы бы устали и утонули."
 
@@ -955,10 +952,9 @@ label day33:
     "Мы лежали на отмели совершенно обессилевшие. Даже Алиса выдохлась. Еще бы! Бороться с течением и ещё тащить меня на себе. Она настоящий друг!"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_179.mp3"
+    queue music "audio/music/z_179.mp3"
 
 
     "Мы разложили одежду сушиться и загорали голышом. Но вскоре солнце поднялось выше и стало припекать. Мы сделали шатёр из наших простыней и спрятались в него."
@@ -966,13 +962,13 @@ label day33:
     "Вдруг, Алиса вскочила, и сняв одну простыню, разорвала ее на четыре ленты."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene cg al_shallow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
     ul "Что ты делаешь?"
 
@@ -1006,10 +1002,9 @@ label day33:
     "Я прорыла от воды канал, а Алиса выкопала в песке яму и мы устроили маленькое озеро. Озеро скоро стало коричневым от песка и превратилось в густую коричневую жижу и мы ей намазались."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_153.mp3"
+    queue music "audio/music/z_153.mp3"
 
 
     "Потом танцевали дикарский танец. Жижа высохла и стала отваливаться."
@@ -1107,10 +1102,10 @@ label day33:
     "Мы стали хохотать до колик в животе и попадали на песок."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_012.mp3"
 
-    play music "audio/music/z_012.mp3"
 
     "Потом мы стряхнули с себя остатки «омолаживающий волшебной маски». Я устала и плюхнулась на живот, подставив себя солнцу, а Алиса надо мной подтрунивала. Она сказала:"
 
@@ -1148,10 +1143,9 @@ label day33:
     hide sp_ul_051
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_017.mp3"
+    queue music "audio/music/z_017.mp3"
 
 
     show sp_al_065:
@@ -1223,10 +1217,9 @@ label day33:
     "Так мель стала носить моё имя. Не ахти что, конечно. Не горная вершина или даже не ущелье, а только узкая полосочка песка, поросшая камышом и редким кустарником. НО ВСЁ ЖЕ!"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_001.mp3"
+    queue music "audio/music/z_001.mp3"
 
 
     show sp_ul_051:
@@ -1254,10 +1247,9 @@ label day33:
     "Туман, которого до этого не было над рекой, постепенно стал накрывать мель, и стало свежо. Мы надели свои так и не высохшие до конца вещи. Алисе тоже туман показался странным."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_417.mp3"
+    queue music "audio/music/z_417.mp3"
 
 
     "Он не стелился как обычно. А как-то заполнял пространство, как манная каша, плотный и вязкий. Может, нам так казалось. На теле появились даже капельки воды."
@@ -1293,23 +1285,22 @@ label day33:
     al "ТИХО! Слышишь?"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_004.mp3"
-
-
     scene cg pink_fog2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
 
     "Откуда–то донесся звук, напоминающий скрип уключин и шлепанье весел по воде."
 
     "Я хотела закричать: «Сюда, сюда мы здесь!» Но Алиса почему-то зажала мне рот ладошкой и потащила в камыши."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     ul "Разве мы не хотим, чтобы нас нашли?"
@@ -1348,13 +1339,13 @@ label day33:
     al "С лопатой? Шутишь?"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg ushallow2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
 
     show sp_pe_003:
@@ -1437,13 +1428,13 @@ label day33:
     pause (100000000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_474.mp3"
-
-
     scene cg large_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_474.mp3"
+
 
 
     "На Большом острове уже горел пионерский костер, собирались все отряды, и я вспомнила, что сегодня слет отрядов на праздник Воинской Славы лагеря. Его праздновали каждый заезд."
@@ -1471,13 +1462,13 @@ label day33:
     od "Архип Петрович, Вы мне сейчас очень нужны! А вы, Двачевская и Ленина, почему в таком виде? Немедленно переодеваться! Весь отряд уже здесь, только вы шляетесь, непонятно где!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Это была удача. Так мы под шумок вернулись, и за общей суетой никто ничего не заметил, спасибо Петровичу. И когда мы бежали в домик переодеваться, Алиса сказала:"
 
@@ -1514,10 +1505,9 @@ label day33:
     hide sp_al_056
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     "Праздник Воинской Славы лагеря закончился. Кто-то еще остался смотреть на пионерский костер, и мы пошли к себе в домик."
@@ -1562,13 +1552,13 @@ label day33:
     "Особенно, когда объединяются в СТАЮ, чтобы как волчатам затравить кого-нибудь ОСОБЕННОГО, не такого как они. Или, как говорят взрослые, «белую ворону»."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg bikers_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "А еще МП как-то дозналась, что Саша сидела всю ночь после танцев с мотоциклистами. Наверное, Долговязый выследил. Ну и подумала черт-те что."
 
@@ -1653,13 +1643,13 @@ label day33:
     "Оставался Старый лагерь. Туда отправили экспедицию во главе с Петровичем, знавшим каждый метр заброшки. Но безрезультатно."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene an_d29_01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     "Мы с Алисой ломали голову над разгадкой этого происшествия."
 
@@ -1703,10 +1693,9 @@ label day33:
     hide sp_al_002
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_201.mp3"
+    queue music "audio/music/z_201.mp3"
 
 
     show sp_iul_009:
@@ -1790,10 +1779,9 @@ label day33:
     hide sp_iul_009
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1013.mp3"
+    queue music "audio/music/z_1013.mp3"
 
 
     show sp_ul_013:
@@ -1932,10 +1920,9 @@ label day33:
     hide sp_el_002
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_197.mp3"
+    queue music "audio/music/z_197.mp3"
 
 
     show sp_al_004:
@@ -1995,13 +1982,13 @@ label day33:
     hide sp_al_006
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_182.mp3"
-
-
     scene bg uv_shelter with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_182.mp3"
+
 
     "Мы с Юлей решили не терять времени.  Мы быстро добрались до УБЕЖИЩА короткой дорогой. Было ещё светло."
 
@@ -2009,13 +1996,13 @@ label day33:
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_007.mp3"
-
-
     scene bg uv_shelter2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_007.mp3"
+
 
     "Оно представляло собой огромное дупло векового дерева непонятной породы. Юля сказала, что Пионер назвал его «Эо Росса»."
 
@@ -2047,105 +2034,13 @@ label day33:
     "Наверное, если бы я не была почти такой же маленькой и легкой как Юля, я ни за что бы не забралась туда."
 
 
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-    # with dissolve
-
-    # ul "А как же туда попала Саша?"
-
-    # hide sp_ul_013
-
-
-    # show sp_iul_012:
-        # yalign 0.1 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.2 
-    # with dissolve
-
-    # uv "Пара пустяков."
-
-    # "Юля пошевелила в кустах рукой и на нас спустилась на верёвке большая корзина с каким-то колёсиком и ручкой внутри."
-
-    # uv "(С гордостью) \nЯ сама придумала, а эту штуку (она показала на лебедку) притащил Пионер. Я ей не пользуюсь, только если нужно поднять пару мешков сахару."
-
-    # hide sp_iul_012
-
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-    # with dissolve
-
-    # ul "А Семён? Он знает про Убежище?"
-
-    # hide sp_ul_013
-
-
-    # show sp_iul_012:
-        # yalign 0.1 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.2 
-    # with dissolve
-
-    # uv "Нет. Никто, кроме тебя. Семен сложил мешки у меня в хижине, а сюда я перетаскала их сама."
-
-    # hide sp_iul_012
-
-
-    # show sp_ul_012:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-    # with dissolve
-
-    # ul "Мы будем подниматься на корзинке?"
-
-    # hide sp_ul_012
-
-
-    # show sp_iul_012:
-        # yalign 0.1 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.2 
-    # with dissolve
-
-    # uv "Хочешь посмотреть, как она работает? Садись и крути ручку, а я быстрее заберусь так."
-
-    # hide sp_iul_012
-
-    # "Юля с ловкостью белки взметнулась по своей паутинке и скоро была наверху."
-
-
-    # show sp_ul_013:
-        # yalign 0.0 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.1
-    # with dissolve
-
-    # ul "(С сомнением) \nНо ведь корзиной может воспользоваться любой!"
-
-    # hide sp_ul_013
-
-
-    # show sp_iul_012:
-        # yalign 0.1 subpixel True
-        # xalign 0.0 subpixel True
-        # zoom 1.2 
-    # with dissolve
-
-    # uv "Нет, не любой. Корзинка остаётся наверху, и только я знаю, что нужно сделать, чтобы её спустить."
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_495.mp3"
-
-
     scene bg uv_shelter6 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_495.mp3"
+
 
     "Вскоре я была уже в УБЕЖИЩЕ. Дупло было на удивление просторным, несмотря на узкий вход. На подстилке из сухого мха лежала девочка. Я невольно залюбовалась ею."
 
@@ -2293,13 +2188,13 @@ label day33:
     hide sp_ul_013
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_542.mp3"
-
-
     scene an_d33_01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_542.mp3"
+
 
     "Я сосредоточилась под ровное дыхание Саши и погрузилась в какой-то полусон."
 
@@ -2424,13 +2319,13 @@ label day33:
     "И она застонала и обхватила меня руками. Наверное, она тоже ПАДАЛА."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/track8.mp3"
-
-
     scene bg uv_shelter2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track8.mp3"
+
 
     "Дальше было неинтересно."
 
@@ -2484,10 +2379,9 @@ label day33:
     "Но я думаю, его, как говорил Петрович, «танком не задавишь»."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_055.mp3"
+    queue music "audio/music/z_055.mp3"
 
 
     show sp_od_024:
@@ -2512,10 +2406,9 @@ label day33:
     "Саша рассказывала о своих приключениях теперь уже всем и подробно."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_531.mp3"
+    queue music "audio/music/z_531.mp3"
 
 
     "Слушая рассказы Саши мы узнали, что она была в пещере, и прошла её до конца."
@@ -2531,10 +2424,9 @@ label day33:
     "Она рассказывала, что ни те ни другие не знали пощады. Похоже, что это противостояние длилось не один десяток лет. Это было что-то вроде ритуальной войны. Войны на истребление."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_009.mp3"
+    queue music "audio/music/z_009.mp3"
 
 
     "Ещё какое-то время Саша жила на отмели. Она сообщила, что видела там Пионера, но побоялась окликнуть его, думая, что он расскажет про неё кому-нибудь в лагере и её вернут обратно."
@@ -2559,24 +2451,23 @@ label day33:
     "Потом было поздно, и мы отвели Сашу в домик к Жене. Ее кровать вечно пустовала, потому что она обычно засиживалась допоздна и спала в библиотеке."
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_058.mp3"
-
-
     scene bg auhouse2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_058.mp3"
+
 
     "После всех событий дня мы с Алисой решили лечь пораньше и хорошо выспаться."
 
     "Было жарко, Алиса то и дело вставала и курила. Я тоже не могла уснуть. Еще были какие-то странные предчувствия. Наконец, меня сморило."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_131.mp3"
 
-    play music "audio/music/z_131.mp3"
 
     "Но не прошло и часа, как мы проснулись от странной вибрации. Раньше такое тоже было, но не так сильно."
 
@@ -2635,10 +2526,9 @@ label day33:
     hide sp_ul_013
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_417.mp3"
+    queue music "audio/music/z_417.mp3"
 
 
     "На днях мы решили нарисовать метки на постаменте памятника Генде и по ним определять, на сколько градусов сдвигается памятник при вибрации. Поэтому, мы сразу пошли смотреть."
@@ -2787,10 +2677,9 @@ label day33:
     hide sp_al_004
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_201.mp3"
+    queue music "audio/music/z_201.mp3"
 
 
     show sp_od_022:
@@ -2812,13 +2701,13 @@ label day33:
     "Кораблик мы запускали в Ручье Тритонов, но в такое далекое плавание он у нас еще не ходил."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_001.mp3"
-
-
     scene bg boat_station5 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_001.mp3"
+
 
     "Все лодки на лодочной станции были привязаны цепью и закрыты на замок, кроме одной маленькой детской лодочки. Она качалась на волнах рядом с пристанью."
 
@@ -2835,13 +2724,13 @@ label day33:
     "Когда я окажусь на середине реки, крикну ей и она привяжет веревку. Я пущу кораблик, а она притянет меня обратно. Так мы и сделали."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene cg ul_little_bot with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_017.mp3"
+
 
     "Все прошло замечательно, и я отпустила подарок Петровича как раз на середине реки. Со мной был фонарик, и я светила ему, когда он уплывал."
 
@@ -2865,10 +2754,9 @@ label day33:
     "Иногда мы светили фонариком, чтобы не пропустить парус, если наша догадка оправдается."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_542.mp3"
+    queue music "audio/music/z_542.mp3"
 
 
     "Прошёл час или два, я стала уже немного дремать и попросила Алису щипать меня, если она заметит, что я сплю. Не знаю, сколько ещё прошло времени. Но стало светать."
@@ -2893,13 +2781,12 @@ label day33:
     ul "Значит, вибрация должна уменьшатся по мере удаления от лагеря!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene bg auhouse2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_017.mp3"
 
 
     "Мы кинулись в домик и достали карту."
@@ -3067,16 +2954,11 @@ label day33:
     al "Точно. Лодку кибернетики починили. Начнем."
 
 
-
-
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day34
 

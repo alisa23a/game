@@ -4,19 +4,22 @@ label day17:
 
     $ days = 17
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
 
+
     pause (1000000000000000000.0)
+
 
     hide screen current_day
 
     $ show_quick_menu = True
-
-    stop music fadeout 1.0
 
 
     image an_17_01: # Анимация Алиса Ульяна блиндаж
@@ -143,9 +146,14 @@ label day17:
         repeat
 
 
-    play music "audio/music/z_023.mp3"
 
     scene bg river_fog with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Мы договорились, что на утренней линейке девочки крикнут за нас на перекличке. И вот, встав раньше всех, мы стали готовиться к походу через болота, к упавшему туда во время войны, самолету."
 
@@ -184,12 +192,14 @@ label day17:
 
     "Потом началась низина. От строения шла дорога, местами затопленная водой. Она то уходила в болото, то снова, участками, выходила на поверхность."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
 
     scene bg swamp_island with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Наконец мы вышли на что-то похожее на небольшой остров посреди трясины. Дорога ушла под воду, в сторону острова. Что делать дальше, мы не знали."
   
@@ -245,12 +255,14 @@ label day17:
 
     "Мы уже почти перевели дух и расслабились, пройдя большую часть пути до леса, как вдруг Алиса первый раз провалилась в топь. Наверное, в этом месте дорога поворачивала, а мы этого не заметили. Стало страшно."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
 
     scene cg al_swamp with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Через какое-то время Алиса провалилась в топь во второй раз. Откуда-то прилетел привлеченный нашей возней ворон и зловеще уселся на торчащее из воды чахлое деревце."
 
@@ -289,12 +301,14 @@ label day17:
 
     "Алиса поняла меня и с трудом, но выдернула шест из трясины сделав как я просила. Стало легче. Я тащила изо всех сил рывками. Наконец, Алиса смогла дотянуться до кустика и дело пошло."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_179.mp3"
 
     scene bg swamp_island with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_179.mp3"
+
 
     "Наконец, после того, как мы полчаса извивались в грязи, как два червяка, наши мученья увенчались успехом. И мы с Алисой выбрались на тот самый «остров»."
 
@@ -313,24 +327,27 @@ label day17:
 
     pause (10000000000000000.0)
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_055.mp3"
 
     scene cg map_plane with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "(Тут я нарисовала карту, как мы шли по болотам и все важные места)."
 
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
     scene bg rain with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "По кочкам мы выбрались на полоску твердой земли перед лесом. Страшная трясина осталась позади, но погода портилась. Откуда-то налетел шквалистый ветер. Как он умудрялся ТАК дуть в лесу, было непонятно."
 
@@ -405,12 +422,14 @@ label day17:
 
     ul "Ну вот тебе и источник. С меня грязища течет прям."
 
-    stop music fadeout 1.0
+
+    scene bg dugout3 with dissolve
 
 
-    play music "audio/music/z_176.mp3"
+    stop music fadeout 0.5
 
-    scene bg dugout3 with dissolve 
+    queue music "audio/music/z_176.mp3"
+ 
 
     show sp_al_055:
         yalign 0.1 subpixel True
@@ -501,12 +520,14 @@ label day17:
 
     hide sp_ul_019 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_213.mp3"
 
     scene an_17_02 with dissolve 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_213.mp3"
+
 
     "Гром и молния разломили воздух, вокруг запахло паленым деревом , что-то рухнуло неподалеку."
 
@@ -545,12 +566,14 @@ label day17:
 
     al "Вон стоит банка большая какая-то, лабораторная наверное. В ней литров 25 будет. Там и разведем."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/track7.mp3"
 
     scene an_17_03 with dissolve 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track7.mp3"
+
 
     "Мы выскочили прямо под грозу, раздевшись догола. Грязь стекала с нас коричнево-черными ручейками."
 
@@ -564,10 +587,11 @@ label day17:
 
     "Незамутненные мы. Хотя, я бы замутила, наверное, если бы была постарше. Ой, что-то я совсем не о том думаю."
 
-    stop music fadeout 1.0
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_002.mp3"
+    queue music "audio/music/z_002.mp3"
+
 
     "В общем, дальше вот что было. Ополоснувшись этой водой и постирав в ней вещи, мы снова вышли на дождь, чтобы с нас сошло наше «мыло»."
 
@@ -632,7 +656,9 @@ label day17:
 
     scene bg book with dissolve
 
+
     pause (10000000000000000000.0)
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -702,12 +728,14 @@ label day17:
 
     al "Ладно, разжигай."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_701.mp3"
 
     scene bg dugout_interior with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_701.mp3"
+
 
     "Скоро печка весело загудела."
 
@@ -715,12 +743,14 @@ label day17:
 
     "Потом мы постелили себе Алисин плащ, который чудом остался сухой."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_700.mp3"
 
     scene an_17_01 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_700.mp3"
+
 
     "На нём мы, съежившись калачиками, голышом, прижались другу к другу."
 
@@ -736,7 +766,7 @@ label day17:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day18
 

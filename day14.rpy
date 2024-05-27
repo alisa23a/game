@@ -4,24 +4,31 @@ label day14:
 
     $ days = 14
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
 
+
+    play music "audio/music/z_300.mp3"
+
+
     $ show_quick_menu = False
 
+
     pause (1000000000000000000.0)
+
 
     hide screen current_day
 
     $ show_quick_menu = True
 
-    stop music
-
-
-    play music "audio/music/z_022.mp3"
 
     scene cg meeting_far with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "За суетой с нашими с Алисой похождениями все как то забыли о том, что мы должны были устроить праздник в честь приезда Саманты. Но ОД напомнила нам об этом тем же вечером. Мы побежали готовиться."
 
@@ -114,11 +121,13 @@ label day14:
     "Ну вот, ВИА. Инструменты в музкружке были. И всем эта идея понравилась, особенно мальчикам, это освобождало их от необходимости петь, потому что ВИА был женским."
 
 
-    stop music
-
-    play music "audio/music/z_306.mp3"
-
     scene cg ul_drums with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_306.mp3"
+
 
     "Стали распределять, кто на чем будет играть. Я, конечно, сразу села за барабаны."
 
@@ -159,11 +168,13 @@ label day14:
     "(Но позже я всё-таки уговорила их на две песни)."
 
 
-    stop music
-
-    play music "audio/music/z_410.mp3"
-
     scene cg miku_piano with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_410.mp3"
+
 
     "Для нас Мику написала три  песни. Первая, моя любимая, «Почему не спит сова». Вот, прямо про Совенок."
 
@@ -202,21 +213,19 @@ label day14:
 
     window hide
 
+
     pause (100000000000000000.0)
-
-    stop music fadeout 1.0
-
-    #play music "audio/music/z_022.mp3"
-
 
 
     "Вторая — «Знаменосец» и третья — лирическая, «Принеси мне цветок полевой». Ну, она тоже любимая. Но только не про меня. Никто мне записок и цветов не шлет. Ну разве что Пионер. Но он не в счет. А вот знамя, это самое то."
 
-    #play music "audio/music/znamenosets_v.4.0.mp3" noloop
-    #play music "audio/music/znamenosets_v3.0.mp3" noloop
-    play music "audio/music/znamenosets_v3.0_cut.mp3" noloop
 
     scene cg standard_bearer with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/znamenosets_v3.0_cut.mp3" noloop
 
 
     "Бьется знамя на ветру — как живое \nЕсли мы умрем в бою — вместе, двое"
@@ -234,12 +243,14 @@ label day14:
 
     pause (10000000000000000.0)
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/wildflower.mp3"
 
     scene cg wildflower with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/wildflower.mp3"
+
 
     "Вот, хотела слова «Цветка полевого» еще написать. Помню там такое..."
 
@@ -251,22 +262,25 @@ label day14:
 
     pause (100000000000000000.0)
 
-    stop music fadeout 1.0
-
-
-
-    play music "audio/music/z_450.mp3"
 
     scene cg girl_bear with dissolve
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_450.mp3"
+
+
     "Мы знали, что Саманте нравятся наши песни из фильмов и решили разучить и сыграть песню про медведей (сюрприз)."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_067.mp3"
 
     scene cg boat_sem_mi_guitar with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_067.mp3"
+
 
     "А про Мику и Семёна мне потом Толик рассказал (оказывается, у него тоже есть особенность, как у меня, все подмечать)."
 
@@ -276,11 +290,6 @@ label day14:
 
     "И выяснилось, что это наша зеленоволосая с Семой наяривают. Женя долго подсматривала (интересно, зачем?) Говорит, просто играли в четыре руки. Ничего такого. Прямо чудеса..."
 
-
-
-    stop music
-
-    play music "audio/music/z_401.mp3"
 
     image an_14_01: # Анимация Алиса лёжа играет на гитаре
         
@@ -375,6 +384,11 @@ label day14:
     scene an_14_01 with dissolve
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_401.mp3"
+
+
     "Ну вот. Еще будут танцы и там мы оторвемся. Алиса обещала выдать сольную партию из рок-оперы Иисус Христос Суперзвезда. И Король скорости из Дип Пепл."
 
     "Я, правда, ни той ни другой не слышала, но, думаю, Алиса не станет играть отстой. Она вообще рокер и такие соляки выдает, закачаешься. Вот бы мне так…"
@@ -386,11 +400,13 @@ label day14:
     "Но это не значит, что принцессы не умели играть на инструментах. Вот хотя бы «Бременских музыкантов» взять. Там принцессу, между прочим, приняли в группу бродячих музыкантов."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_023.mp3"
-
     scene bg mus_curtains with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Ну вот и началась подготовка. Мы прямо до утра почти репетировали. Сделали вид что по домикам разошлись (после чердака). А сами, зашторили окна музкружка, чтобы нас не спалила ОД (отбой у нас в лагере это святое)."
 
@@ -420,25 +436,26 @@ label day14:
     "А Петрович ей: «Ну вы же знаете, Ольга Дмитриевна, мимо меня и мышь не проскользнет»."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_102.mp3"
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
+
 
     show an_10_01 
 
     "Подготовка продолжилась с утра и весь день. Только мы с Алисой в перерыве еще успели в библиотеку сходить, провернуть одно дело. Сейчас расскажу."
 
-########################################
-## Операция "Архив"
-
-
-    stop music fadeout 1.0
-
-    play music "audio/music/z_418.mp3"
 
     scene bg library2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
+
 
     "Ну вот, готовимся мы к концерту, а между тем я подговариваю Алису попробовать найти в библиотеке документы относящиеся к старому лагерю."
 
@@ -497,11 +514,13 @@ label day14:
     "Среди книг мне попалась старая карта. И я снова вспомнила про баркас. И подумала, что если мы доплывем на нем до моря, то эта карта может пригодиться. Я аккуратно свернула её и спрятала под рубашку."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_055.mp3"
-
     scene bg library4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "Почти во всех книгах было много закладок. И даже попадались цветы. Кто-то их высушил в память о ком-то... «Гербарий чувств». (О! хорошее название для рассказа, надо будет не забыть записать)."
 
@@ -515,9 +534,10 @@ label day14:
     "В общем, песенка про отношения."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-    play music "audio/music/z_418.mp3"
+    queue music "audio/music/z_418.mp3"
+
 
     "Помню ещё, наша директриса на прослушке сказала: «А это, Ольга Дмитриевна, не слишком интимно звучит?»"
 
@@ -526,11 +546,13 @@ label day14:
     "Вот как отбрила Маргошу! Та аж покраснела вся. А мы за сценой закричали «Ура!» и обнялись. Так песня без правок прошла."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_420.mp3"
-
     scene an_d14_24 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_420.mp3"
+
 
     "Ой, ну тут я отвлеклась. И значит, тащит Женя тяжеленную стопку папок с полки, а она возьми, да и упади на пол."
 
@@ -563,7 +585,6 @@ label day14:
         "images/an/an14day/an_d14_32.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
 
-        #repeat
 
     scene an_14_03 with dissolve
 
@@ -577,18 +598,16 @@ label day14:
     "Мы давай их срочно собирать. И тут я показываю Алисе на одну папку. Там схемы лагеря. Но не такие, как мы знаем, что висят на доске информации. Другие, все в каких-то красных пометках и линиях."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_131.mp3"
-
     scene cg secret_folder with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "А ещё на папке гриф «Секретно». Ну, думаю, это папки старого лагеря Бурлейка. (Так назывался старый пионерский лагерь). То, что нам надо! Ну вот, Алиса отвлекает Женю. А я эту папку тихо так, хвать и в свой рюкзачок. И сныкала."
 
-
-    # stop music fadeout 1.0
-
-    # play music "audio/music/z_418.mp3"
 
     scene bg library3 with dissolve
 
@@ -613,20 +632,17 @@ label day14:
     "Ну вот. А один ящик был набит картами. Мы его быстро затолкали в угол, чтобы потом выпотрошить. Потом зажегся свет. Женя быстро вернулась, мы папки сложили и закрыли подвал."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_418.mp3"
-
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
+
 
     show an_10_01
 
     "Мы бы еще помогли, но нам надо было репетировать. Только вечером мы смогли рассмотреть нашу «добычу». Вот такая была спецоперация и мы назвали её Спецоперация «Архив»."
-
-
-
-## Конец Операция "Архив"
-########################################
 
 
     scene bg stage2 with dissolve
@@ -643,28 +659,34 @@ label day14:
     "Думаю, она всю прогулку шлифовала проигрыш на гитаре. Хотя... Хотя у Алисы он все равно лучше получается."
 
 
-    stop music
-
-    play music "audio/music/z_412.mp3"
-
     scene bg stage with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_412.mp3"
+
 
     "В этом концерте Алиса еще зарубежные песни будет исполнять. И вот эту, для Саманты. Америка, Америка.. Элвиса Пресли. Она даже на английском ее выучила."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_309.mp3"
-
     scene cg ul_drums with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_309.mp3"
+
 
     "А я не теряла времени и три часа стучала на барабанах."
 
     "Физрук пришел ругаться. Сказал: «Дай дураку барабан, сам скоро дураком станешь». Это юмор у него такой."
 
-    stop music fadeout 1.0
 
-    play music "audio/music/z_022.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Чему тут удивляться, он же бывший прапорщик. Про них как-то сказал мой папа: «Прапорщики огурцы из банок не едят - голова не пролазит»."
 
@@ -688,16 +710,14 @@ label day14:
 
     "Ладно, что-то я отвлеклась. Буду писать про концерт."
 
-############################
-## Фотокружок
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_055.mp3"
-    #play music "audio/music/z_102.mp3"
 
     scene an_d10_01_bg with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     show an_10_01
 
@@ -708,20 +728,24 @@ label day14:
 
     "Но зато у нас есть Славя и ее фотокружок. Она может нас сфотографировать с гитарами и барабанами. А Семён написал бы объявление. Это была хорошая идея! И мы побежали в фотокружок, он как раз открылся после обеда."
 
-    stop music fadeout 1.0
 
-    play music "audio/music/z_131.mp3"
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "И кого вы думаете, мы там увидели? Не догадаетесь никогда. Когда мы вошли, там шла съемка. Они нас не заметили. Славя сидела вся из себя важная, а ее фотографировал... Семён!"
 
     "А она с яблоком. Ну, типа, она Ева... Хорошо, хотя бы не в костюме Евы."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_460.mp3"
 
     scene cg fall with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_460.mp3"
+
 
     "А почему я про историю с яблоком знаю. К нам соседка богомольная заходила пока не было родителей и сунула мне брошюрку «Сотворение Мира Господом»."
 
@@ -747,12 +771,14 @@ label day14:
 
     "Ну вот, Алиса так прямо вошла, как бы вроде, только что. А Славя спрыгнула с тумбы и покраснела. Она всегда краснеет, если волнуется."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_124.mp3"
 
     scene bg fotoc with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     show sp_sem_025:
         yalign 0.08 subpixel True
@@ -827,7 +853,6 @@ label day14:
     hide sp_sl_019
 
 
-
     $ inv_item_12 = True
 
     scene cg ul_camera
@@ -836,10 +861,6 @@ label day14:
 
     "Так мы получили фотоаппарат."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_055.mp3"
 
     image an_band: #Анимация, смена разных цг с музыкантами
     
@@ -855,7 +876,14 @@ label day14:
         pause 1.5 
         repeat
 
+
     scene an_band with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "Потом снимали наш ансамбль. Славе отдали пленку, а она обещала, что они с Семёном утром вывесят красивое объявление о концерте."
 
@@ -875,14 +903,13 @@ label day14:
     "А мы с Алисой побежали в домик и там валялись на кроватях и смеялись, вспоминая, как Славя вся покраснела как помидор. В общем, вспугнули голубков."
 
 
-############################
-## Концерт
-
-    stop music fadeout 1.0
-
-    play music "audio/music/z_023.mp3"
-
     scene cg meeting with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "В общем, не все у нас шло по плану. И всему виной второй отряд. Они почему-то решили устроить забастовку. Есть у них там один баламут. Бывший пионервожатый. Смутьянов его фамилия. Вот он и мутил там воду."
 
@@ -917,28 +944,23 @@ label day14:
         "images/an/an11day/an_d11_19.png" with Dissolve(0.5, alpha=True)
         pause 0.5
 
-        #repeat
 
     scene an_d11_03_bg
 
     show an_14_02
 
-    # pause (3.0)
-    
-    # hide an_14_02
-
-    # show an_d11_19 with dissolve
-
     "Ольга Дмитриевна покраснела как «маков цвет», бровки домиком, ломает руки  и все время спрашивает: «Что делать будем?» И почему-то у Семёна. Вроде он как скорая неотложная помощь."
 
     "Он только плечами пожимает. А у нас, как на зло, ни одного номера больше нет."
 
-    stop music fadeout 1.0
+
+    scene bg hide_bench with dissolve 
 
 
-    play music "audio/music/z_451.mp3"
+    stop music fadeout 0.5
 
-    scene bg hide_bench with dissolve  
+    queue music "audio/music/z_451.mp3"
+ 
 
     show sp_pe_005:
         yalign 0.05 subpixel True
@@ -1000,11 +1022,13 @@ label day14:
     pe "Вот я запою, а молодежь подхватит. В наше время все знали эти песни."
 
 
-    stop music fadeout 1.0
-
-    play music "audio/music/z_453.mp3"
-
     scene bg genda_blured with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_453.mp3"
+
 
     show sp_od_024:
         yalign 0.0 subpixel True
@@ -1043,6 +1067,7 @@ label day14:
 
     pe " О! Мазурку могу! Хороший танец." 
 
+
     scene bg genda_blured with dissolve
 
     show sp_od_023:
@@ -1057,12 +1082,14 @@ label day14:
 
     "Петрович сходил в свою каптерку и принес аккордеон. Сел на лавочку и ка-а-к запоет дурным голосом, частушки."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_452.mp3"
 
     scene cg pe_ul_accordion with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_452.mp3"
+
 
     "Все пионеры прибежали. Насилу его Маргарита Павловна с Ольгой Дмитриевной угомонили."
 
@@ -1075,7 +1102,7 @@ label day14:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day15
 

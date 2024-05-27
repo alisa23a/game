@@ -4,9 +4,12 @@ label day42:
 
     $ days = 42
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    queue music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,27 +20,26 @@ label day42:
     $ show_quick_menu = True
 
 
-    stop music
-
-
-    play music "audio/music/z_005.mp3"
-
-
     scene bg crystal_spryng2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_005.mp3"
+
 
     "Ночь прошла спокойно. Было еще рано. Но неутомимые жуки уже вовсю трудились, кружась над красивыми цветами, обильно росшими у родника."
 
     "Где-то чирикала одна птичка. Наверное, такая же непоседа, как и я. Алиса еще спала. Я сходила к роднику и наполнила нашу флягу."
 
 
-    stop music
-
-
-    play music "audio/music/z_1013.mp3"
-
-
     scene bg crystal_spryng2 with dissolve:
         xpos 0.5 ypos -0.0 xanchor 0.5 yanchor 0.0 zoom 1.4
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
 
 
     "Я увидела, что у основания родника была небольшая каменная плита, на которой стояли незамеченные нами вчера в темноте остатки сгоревших свечей. А рядом, на дереве, тесемочка с колокольчиками."
@@ -70,13 +72,13 @@ label day42:
     "Я подумала, что это не просто иллюзия, а сверкающая иллюзия. И она отражение от света. Тогда я стала спиной к свету, чтобы отражение исчезло."
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene cg crystal_spryng5 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Теперь вода стала почти черной. Она больше не отражала меня."
 
@@ -126,13 +128,13 @@ label day42:
     "«Надо будет показать Алисе» — подумала я."
 
 
-    stop music
-
-
-    play music "audio/music/z_542.mp3"
-
-
     scene bg iul_hide2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_542.mp3"
+
 
     "Потом я разбудила Алису. Она долго не хотела вставать, наверное умаялась вчера."
 
@@ -207,13 +209,13 @@ label day42:
     "Когда мы подошли к озеру, то увидели, что вдоль него идёт чуть заметная тропа. Мы пошли по ней. Тропа снова привела нас к озеру, но с другой стороны. И тут..."
 
 
-    stop music
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene cg le with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Тут мы увидели сидящую на камне, на берегу ЛЕНУ!"
 
@@ -354,13 +356,13 @@ label day42:
     "И мы все отправились в Юлькино убежище."
 
 
-    stop music
-
-
-    play music "audio/music/z_055.mp3"
-
-
     scene bg yulya_hous with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
+
 
     "Там Лена напоила нас чаем и дала сушеной рыбы. Потом она поставила на очаг варить какую-то еду."
 
@@ -392,13 +394,13 @@ label day42:
     hide sp_le_017
 
 
-    stop music
-
-
-    play music "audio/music/z_301.mp3"
-
-
     scene bg yulya_room2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
+
 
     show sp_iul_013:
         yalign 0.1 subpixel True
@@ -593,13 +595,13 @@ label day42:
     "Затем, распрощавшись с Юлей, не пошедшей с нами и сославшейся на дела, мы втроем отправились в лагерь. Алисе все-таки удалось уговорить Лену вернуться."
 
 
-    stop music
-
-
-    play music "audio/music/z_179.mp3"
-
-
     scene cg le_martyr with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_179.mp3"
+
 
     "Надо ли говорить, что по возвращении в лагерь все смотрели на Лену как на воскресшую из мертвых. Все были ошеломлены и рады одновременно."
 
@@ -626,13 +628,13 @@ label day42:
     "Маргарита Павловна не уставала повторять, что «буквально чуть не поседела» за эти дни. Однако мы этого не заметили. Или у нее очень хорошая краска для волос."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg auhouse4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Мы решили переодеться, и я осталась в домике, а Алиса убежала спросить у Семёна, когда они с Толиком планируют поход."
 
@@ -679,13 +681,12 @@ label day42:
     "Ждать мы не могли. И вот что мы узнали. Привожу текст последних страниц дневника."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene cg sem_dyary_biker with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
 
 
     pause (100000000000000000000000000000000.0)
@@ -765,13 +766,13 @@ label day42:
     "Оставалось наедятся, что, как любил говорить мой папа, «Количество, рано или поздно, перейдет в качество»."
 
 
-    stop music fadeout 1
-
-
-    play music1 "audio/music/z_002.mp3" fadein 1
-
-
     scene cg longboat_sail with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1
+
+    queue music1 "audio/music/z_002.mp3" fadein 1
+
 
     "Наш баркас, который мы отогнали на «Якорную стоянку», наконец получил нормальный парус."
 
@@ -852,13 +853,13 @@ label day42:
     "Алиса села за руль, Толик занялся парусами, Семён прокладывал курс, а я стояла на носу, чтобы предупредить, если будет мель."
 
 
-    stop music1 fadeout 1
-
-
-    play music "audio/music/z_022.mp3" fadein 1
-
-
     scene cg longboat_sail with dissolve
+
+
+    stop music fadeout 0.51 fadeout 1
+
+    queue music "audio/music/z_022.mp3" fadein 1
+
 
 
     "И вот, наш парус наполнился ветром. Это было так красиво, что мы на минуту позабыли о цели нашего плавания. Под аплодисменты оставшихся на берегу, мы дали «круг почета»."
@@ -881,13 +882,13 @@ label day42:
     "К этому времени нас оставалось трое: я, Алиса и Атсуи. Семёну и Толику зачем-то надо было в лагерь и они ушли по берегу. Мы еще покатались на лодке и направились к Ближнему острову."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg island_blizhniy_picnic with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Когда наша лодка подошла к Ближнему острову, мы обнаружили нечто странное. Были слышны звуки музыки и голоса."
 
@@ -968,13 +969,13 @@ label day42:
     al "Мяско жарят. Уф... Запах аж тут слышно. Чет у меня слюна набежала. Всё, причалим выше. Не надо чтобы они знали, что мы видим их пикничок. Мы чужие на этом празднике жизни."
 
 
-    stop music
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "Когда мы подошли к лагерю, то увидели не менее странное зрелище. Ворота были настежь, по площади гуляли малыши. Никакого присмотра за ними не было, а вожатых и след простыл."
 
@@ -1042,10 +1043,9 @@ label day42:
 
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     show sp_ln_001:
@@ -1069,10 +1069,9 @@ label day42:
     "Сегодня с утра всем начали делать прививки. Объявления не было, просто вожатые по очереди водили свои отряды в медпункт."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_125.mp3"
+    queue music "audio/music/z_125.mp3"
 
 
     "Дальше события покатились как снежный ком."
@@ -1123,10 +1122,9 @@ label day42:
     "Стало ясно – готовится что-то вроде революции. Учитывая вибрацию и связанное с этим сильное возбуждение детей, удивляться этому не приходилось."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_202.mp3"
+    queue music "audio/music/z_202.mp3"
 
 
     "Мы пробрались к нашим домикам и освободили Славю, Лену и Мику."
@@ -1146,13 +1144,13 @@ label day42:
     "А в том, что БИТВА будет, уже никто не сомневался. Малышей можно было не брать во внимание. Но старшие отряды с примкнувшими к ним Атсуи и Кибернетиками в массе представляли грозную силу."
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg stock3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "Мы заняли склад, на котором хранились инструменты, ломы лопаты  и топоры,  до которых еще не добрались пионеры."
 
@@ -1163,10 +1161,9 @@ label day42:
     "Похоже, что никто из восставших ещё не додумался перерезать провода. Если бы связь, которой пока не было, удалось восстановить, это решило бы всё."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     "Пока мы обсуждали план действий, я заметила, что Славя сползает по стеночке. Не лучше выглядели и остальные."
@@ -1276,13 +1273,13 @@ label day42:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_333.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     "Мы подбежали к окну. На площади в разных позах, свесив голову на грудь, сидели пионеры. Малыши спали на лавочках."
 
@@ -1403,10 +1400,9 @@ label day42:
     hide sp_al_056
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     show sp_ul_019:
@@ -1444,13 +1440,13 @@ label day42:
     hide sp_ul_019
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg camp_artifacts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Мы вышли из укрытия. Физрук отдавал распоряжения еле волочащим ноги вожатым. Порядок на площади был быстро наведен. Смутьянов в очередной раз сбежал."
 
@@ -1498,10 +1494,9 @@ label day42:
     hide sp_vio_001
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     show sp_pe_002:
@@ -1555,13 +1550,11 @@ label day42:
 
 
 
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day43
 

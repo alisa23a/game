@@ -4,9 +4,12 @@ label day45:
 
     $ days = 45
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -15,12 +18,6 @@ label day45:
     hide screen current_day
 
     $ show_quick_menu = True
-
-
-    stop music
-
-
-    play music "audio/music/z_412.mp3"
 
 
     image an_45_01: # Анимация Ульяна плачет прощание с Самантой
@@ -49,6 +46,12 @@ label day45:
         repeat
 
     show an_45_01
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_412.mp3"
+
 
     pause (10000000000000000000000.0)
 
@@ -129,13 +132,13 @@ label day45:
     "Все были в смешанных чувствах."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg attic2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "И мы решили собраться на чердаке, поговорить о событиях последних трех дней. Слишком много всего случилось."
 
@@ -280,13 +283,12 @@ label day45:
     hide sp_mi_015
 
 
-    stop music
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
 
 
-    play music "audio/music/z_197.mp3"
-
-
-    show sp_sl_006:
+    show sp_sl_025:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
@@ -294,7 +296,7 @@ label day45:
 
     sl "Что значит, «всеми разобрана по косточкам?» Давайте отсюда, пожалуйста, поподробнее. Я рассказала только тебе. Ах ты, водоросль японская, вот, значит, как ты хранишь тайны!"
 
-    hide sp_sl_006
+    hide sp_sl_025
 
 
     show sp_mi_019:
@@ -354,10 +356,9 @@ label day45:
     hide sp_od_024
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_le_016:
@@ -448,10 +449,9 @@ label day45:
     hide sp_je_002
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_177.mp3"
+    queue music "audio/music/z_177.mp3"
 
 
     show sp_od_022:
@@ -489,10 +489,9 @@ label day45:
     hide sp_od_022
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1016.mp3"
+    queue music "audio/music/z_1016.mp3"
 
 
     show sp_ul_012:
@@ -652,13 +651,13 @@ label day45:
     hide sp_od_022 with moveoutright
 
 
-    stop music
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg genda2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "С отъездом  Саманты вибрация возобновилась.  Памятник опять развернулся лицом к библиотеке."
 
@@ -676,13 +675,13 @@ label day45:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg road4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Мы тайно ходили по дороге, ведущей в поселок, но и она привела нас обратно. Из ЗОНЫ был только один выход – попытаться плыть по реке в сторону порогов."
 
@@ -733,13 +732,13 @@ label day45:
     "Да еще по воде, мимо Омута, Водоворота и страшных порогов, на которых погиб, по ее мнению, Тарас Юрьевич."
 
 
-    stop music
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene cg longboat_ride with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
     "Итак, вскоре вся команда в составе Мику, Лены, Жени, Алисы, Слави, Атсуи, Семёна, Толика, меня и кибернетиков собралась вместе и выдвинулась в сторону «Тайной пристани»."
 
@@ -771,23 +770,22 @@ label day45:
     al "Долговязый! Следил, гад!"
 
 
-    stop music
-
-
-    play music "audio/music/z_126.mp3"
-
-
     scene bg nbeach with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_126.mp3"
+
 
     "Мы почти прошли мимо острова, когда с берега раздался заливистый лай. Это Тузик выбежал на песчаную косу, чтобы поприветствовать нас."
 
     "Судя по тому, как он подпрыгивал и сновал по берегу взад и вперед, он хотел на баркас."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/track5.mp3"
+    queue music "audio/music/track5.mp3"
 
 
     "Мы решили причалить и прокатить Тузика до Дальнего пляжа, а там выпустить на берег. Совсем забирать его было нельзя. В противном случае Петрович мог нас поругать."
@@ -803,13 +801,13 @@ label day45:
     "Мы подошли к берегу и помогли бросившемуся в воду Тузику забраться на борт."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg boat_station6 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Обогнув остров, мы увидели лодочную станцию. Наш дальнейший путь лежал мимо неё. Алиса взяла левее, чтобы нас оттуда не заметили."
 
@@ -858,12 +856,6 @@ label day45:
         zoom 1.2
 
     tol "Отчаянно гребут, Пора отрываться. Одно течение нас не спасет, они слишком быстро приближаются. ПОСТАВИТЬ ДОПОЛНИТЕЛЬНЫЙ ПАРУС!"
-
-
-    # stop music
-
-
-    # play music "audio/music/z_1004.mp3"
 
 
     scene cg longboat_sail with dissolve
@@ -986,14 +978,13 @@ label day45:
     hide sp_al_055
 
 
-    stop music
-
-
-    #play music "audio/music/z_075.mp3"
-    play music "audio/music/z_099.mp3"
-
-
     scene cg longboat_tshirts with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_099.mp3"
+
 
     "Её примеру последовали остальные. Все, кроме Жени. На ней было платье."
 
@@ -1003,12 +994,6 @@ label day45:
     scene bg deck with dissolve
 
     "Лодки, которые подошли совсем близко, стали удаляться. Крики радости «сексуальных маньяков» второго отряда сменился воплем разочарования."
-
-
-    # stop music
-
-
-    # play music "audio/music/z_099.mp3"
 
 
     scene cg longboat_tshirts with dissolve
@@ -1029,13 +1014,13 @@ label day45:
     "Толпа на лодках злобно взревела. Тузик ответил им заливистым лаем."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg chase with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Мы обогнули дальний остров и нас подхватило быстрое течение. Но баркас был тяжелее лодок и расстояние между нами снова стало сокращаться."
 
@@ -1054,13 +1039,13 @@ label day45:
     "Все приуныли."
 
 
-    stop music
-
-
-    play music "audio/music/track4.mp3"
-
-
     scene cg longboat_sail with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track4.mp3"
+
 
 
     "Вдруг мы услышали спокойный, но громкий голос."
@@ -1128,37 +1113,37 @@ label day45:
     tol "А вот это ещё больший поступок! Даешь традиции рыцарства!"
 
 
-    stop music
-
-
-    play music "audio/music/z_196.mp3"
-
-
     scene bg deck1 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
 
     "Все заулыбались. Лодки преследователей снова отстали и, похоже, теперь уже безнадежно."
 
 
-    stop music
-
-
-    play music "audio/music/z_210.mp3"
-
-
     scene bg pi_coast with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_210.mp3"
+
 
     "Вскоре мы прошли отмель, где я провела ночь с Пионером. Странно, но шалаша там уже не было."
 
     "Преследователи отстали и гребли как-то обреченно, движимые лишь волею своего руководителя."
 
 
-    stop music
-
-
-    play music "audio/music/z_1020.mp3"
-
-
     scene bg rapids3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1020.mp3"
+
 
     "Впереди нас ждали пороги, и Алиса направила баркас к берегу, чтобы на мелководье протащить его мимо торчащих из воды валунов."
 
@@ -1169,10 +1154,9 @@ label day45:
     "Первые камни мы прошли удачно."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_125.mp3"
+    queue music "audio/music/z_125.mp3"
 
 
     "Зато нашим незадачливым преследователям, повезло меньше."
@@ -1207,19 +1191,17 @@ label day45:
     "Мой жилет остался висеть на якоре. И когда я летела, то видела удаляющееся от меня оранжевое пятно. Я еще успела подумать: «НУ ВОТ И ВСЕ»."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_208.mp3"
+    queue music "audio/music/z_208.mp3"
 
 
     "Мы вошли в воду с большой силой, и кажется, погрузились до самого дна. "
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     "Неожиданно я почувствовала, как сильная рука обхватила меня и увлекла в сторону от основного потока. Мы вынырнули ниже по течению, за порогами. Нас пронесло еще  метров сто."
@@ -1232,19 +1214,17 @@ label day45:
     "С него мы наблюдали, как Атсуи вытаскивала Женю, а потом и Лену. Остальные столпились на противоположном от нас берегу и махали руками."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_126.mp3"
+    queue music "audio/music/z_126.mp3"
 
 
     "Расстояние было большим и мы не смогли ничего расслышать кроме лая Тузика."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_002.mp3"
+    queue music "audio/music/z_002.mp3"
 
 
     "Очевидно, увидев, что мы живы, все постепенно успокоились. Мы махнули им рукой, показывая что пойдем назад по левому берегу до Первого Брода."
@@ -1260,13 +1240,13 @@ label day45:
     "Мы сидели у кромки воды. Течение тут почти не ощущалось. Скорее, какое-то умиротворение. Рев порогов  превратился в отдаленный шум, и было слышно только прибой."
 
 
-    stop music
-
-
-    play music "audio/music/z_198.mp3"
-
-
     scene bg rapids2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_198.mp3"
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -1294,13 +1274,13 @@ label day45:
     sem "Ну что, за один день мы не дойдем. Нас ждет ночевка. Но спать мокрыми нельзя."
 
 
-    stop music
-
-
-    play music "audio/music/z_180.mp3"
-
-
     scene cg rapids_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
 
     "Я натаскала палочек лежащего вдоль берега плавника, и вскоре костёр уже весело потрескивал."
 
@@ -1316,10 +1296,9 @@ label day45:
     sem "«Фабрика Луначарского». Да, уважуха..."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_020.mp3"
+    queue music "audio/music/z_020.mp3"
 
 
     "Семён взял несколько аккордов."
@@ -1329,10 +1308,9 @@ label day45:
     sem "Наши засветло успеют в лагерь. По тому берегу, идти часа четыре, а по нашему втрое дольше."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     ul "Что-то меня колотит. Может, я простудилась?"
@@ -1385,13 +1363,13 @@ label day45:
     "И мы, надев еще немного влажные вещи, стали подниматься в гору по едва заметной тропинке."
 
 
-    stop music
-
-
-    play music "audio/music/z_182.mp3"
-
-
     scene bg outback3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_182.mp3"
+
 
     "Когда мы поднялись на гору, уже темнело. Не было и речи о том, чтобы найти место первой ночевки второго похода. Кругом была ГЛУХОМАНЬ."
 
@@ -1412,26 +1390,26 @@ label day45:
     sem "Так, я сейчас сооружу шалаш, пока не стемнело. Мало ли, вдруг пойдет дождь. Лапник на крышу и будет сухо. А ты, если еще в состоянии, пока не темно, нарви папоротника. Сделаем подстилку."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg outback4 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Мы занялись делом и скоро горка папоротника лежала перед шалашом, который Семён построил с какой то немыслимой скоростью."
 
     "Он спешил и правильно делал — через полчаса было уже почти ничего не видно. Фонарика в Женином рюкзаке мы не нашли."
 
 
-    stop music
-
-
-    play music "audio/music/z_180.mp3"
-
-
     scene cg outback_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
 
     "После того, как мы развели костер, мир вокруг нас сузился до размеров отбрасываемого им светового пятна."
 
@@ -1442,13 +1420,13 @@ label day45:
     "Мне становилось всё хуже. Я встала, чтобы натаскать на ощупь сухих веточек, которые видела поблизости. Но не сделав и два шага, почти сразу потеряла сознание."
 
 
-    stop music
-
-
-    play music "audio/music/dream.mp3"
-
-
     scene cg ul_sick_hut with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/dream.mp3"
+
 
     "Очнулась я от того, что Семён внес меня в шалаш и положил на подстилку из папоротника, на которой уже лежала его куртка."
 
@@ -1489,13 +1467,13 @@ label day45:
     pause (10000000000000000000000.0)
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene cg abyss with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Потом, как будто я уже умерла и лежу на дне. Где-то высоко небо, а я смотрю на него снизу, а надо мной километры воды."
 
@@ -1523,13 +1501,13 @@ label day45:
     "И вот я вдруг, резко стала подниматься вверх, на поверхность, и какой-то звук, как свист или крик..."
 
 
-    stop music
-
-
-    play music "audio/music/z_1012.mp3"
-
-
     scene cg resurrection with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1012.mp3"
+
 
     "И я очнулась. А это оказывается, Семён кричит и тормошит меня: «Так, Уля! Уля! Уля! ДЫШИ!»"
 
@@ -1540,13 +1518,13 @@ label day45:
     "Оказывается, я не дышала и пульса не было. А сердце сейчас билось, как бешеное. Наверное, оно наверстывало то, что долго не билось."
 
 
-    stop music
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene cg sem_ul_outback_hugging with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
     "И я подумала, что наверное я умирала, но Семён мне не дал умереть, спас. И я обхватила его за шею. Сильно-сильно."
 
@@ -1569,7 +1547,7 @@ label day45:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day46
 

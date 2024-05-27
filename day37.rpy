@@ -4,9 +4,12 @@ label day37:
 
     $ days = 37
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day37:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_477.mp3"
-
-
     scene cg longboat_repaired with dissolve
+
+
+    stop music fadeout 0.5 fadeout 1.0
+
+    queue music "audio/music/z_477.mp3"
+
 
     "Баркас был готов. Как сказал Семён, которого все негласно считали за капитана, «Нужно провести ходовые испытания»."
 
@@ -103,10 +106,9 @@ label day37:
     "И на этом от нас отстали."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_023.mp3"
+    queue music "audio/music/z_023.mp3"
 
 
     "После обеда МП вызвала ОД, Виолу, Майю, Любовь Никаноровну, физрука, всех вожатых и даже Петровича на СОВЕЩАНИЕ."
@@ -132,13 +134,13 @@ label day37:
     "Из архивного журнала стало ясно, что на дне омута кроется какая-то страшная тайна, связанная с лабораторией. Я тут же побежала и рассказала о своей находке Алисе."
 
 
-    stop music
-
-
-    play music "audio/music/z_417.mp3"
-
-
     scene cg collider with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
 
     "Мы предположили, что руководство лаборатории, уходя после взрыва, бросило на дно реки свое секретное оборудование. А скорее, намеренно спрятало."
 
@@ -156,13 +158,13 @@ label day37:
     "Придя к такому выводу мы сразу вспомнили про старый подводный колокол или как мы его назвали, БАТИСКАФ."
 
 
-    stop music
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene bg bathyscaphe with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Он был привязан к понтону и служил местом экскурсий. Иногда его неглубоко опускали для «экскурсий» под воду. Для этого на понтоне была установлена ручная лебёдка."
 
@@ -295,13 +297,13 @@ label day37:
     hide sp_al_055
 
 
-    stop music
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg bathyscaphe6 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     "И мы отправились проверять понтон. Лебёдка исправно вращалась, все канаты, трос и цепи были на месте."
 
@@ -332,10 +334,9 @@ label day37:
     "Понтон потихоньку начал отходить от берега, когда мы стали разматывать канат, связывающий его с другим понтонами. Канат слегка потрескивал."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     show sp_ul_019:
@@ -408,13 +409,13 @@ label day37:
     hide sp_al_055
 
 
-    stop music
-
-
-    play music "audio/music/z_126.mp3"
-
-
     scene cg pontoon with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_126.mp3"
+
 
     "Понтон в лучах уходящего солнца величественно двигался по водной глади."
 
@@ -429,13 +430,13 @@ label day37:
     "Бедняга ещё не знал, что ему придется опускаться в бездну. Сначала одному, а потом с нами."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg pontoon2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Вскоре канат натянулся. Это означало, что мы на середине реки и течение подхватило понтон."
 
@@ -447,13 +448,6 @@ label day37:
     "Хорошо, что мы привязали к понтону лодку. Нужно было закрепить один конец каната на дереве на берегу и подтянуть понтон, уведя его от стремнины."
 
     "Тогда он окажется как раз в центре омута. Там тоже было течение, но из-за глубины омута оно было небольшим на поверхности."
-
-
-    # stop music
-
-
-    # play music "audio/music/z_207.mp3"
-
 
     "Мы остановили лебедку, и у кормы понтона сразу образовался бурун воды. Это значило, что течение тут ещё довольно приличное."
 
@@ -603,23 +597,23 @@ label day37:
     "Внутри задался скулеж, а потом лай обескураженного животного."
 
 
-    stop music
+    stop music fadeout 0.5
 
+    queue music "audio/music/z_207.mp3"
 
-    play music "audio/music/z_207.mp3"
 
     "Лебедка закрутилась и батискаф пошел вниз."
 
     "Раньше мы играли возле батискафа и когда Тараса Юрьевича не было рядом, десятки раз опускали и поднимали его. Поэтому всё прошло на удивление быстро."
 
 
-    stop music
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene cg pontoon3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "Через какое-то время мы увидели, что канат, держащий батискаф, ослаб."
 
@@ -750,13 +744,13 @@ label day37:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene cg bathyscaphe_tuz with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1016.mp3"
+
 
     "Подъем Тузика прошёл без происшествий, и мы негромко закричали «УРА!» В иллюминаторе мы увидели радостно улыбающуюся собачью морду. Кажется, животное радовалось больше нас."
 
@@ -846,27 +840,25 @@ label day37:
     hide sp_al_056
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_207.mp3"
+    queue music "audio/music/z_207.mp3"
 
 
     "Я затарахтела лебедкой и батискаф пошел вниз."
 
-    stop music
 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_1012.mp3"
+    queue music "audio/music/z_1012.mp3"
 
 
     "Мое сердце сильно забилось."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1016.mp3"
+    queue music "audio/music/z_1016.mp3"
 
 
     show sp_al_056:
@@ -884,24 +876,24 @@ label day37:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_207.mp3"
-
-
     scene cg bathyscaphe with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_207.mp3"
+
 
     "Я крутанула ручку назад. Она пошла тяжело и Алисе пришлось мне помочь."
 
 
-    stop music
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene cg pontoon2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1016.mp3"
+
 
     "Мы поднялись и открыли люк."
 
@@ -910,10 +902,9 @@ label day37:
     hide sp_tuz_001
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_126.mp3"
+    queue music "audio/music/z_126.mp3"
 
 
     show sp_al_057:
@@ -927,33 +918,32 @@ label day37:
     "Алиса захлопнула люк и закрутила его штурвал до конца."
 
 
-    stop music
-
-
-    play music "audio/music/z_207.mp3"
-
-    
     scene cg bathyscaphe with dissolve  
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_207.mp3"
+
 
     "Мы снова начали спуск. Я крутила ручку легко, но не торопясь. Как-то не хотелось с разгона удариться о дно."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     "Внизу течение было сильней, и канат заметно натянулся. Его потрескивание держало нас в напряжении, ощущался холодок и предательская слабость в ногах. Было по-настоящему страшно."
 
 
-    stop music
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene bg bathyscaphe7 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     show sp_al_056:
         yalign 0.1 subpixel True
@@ -1055,10 +1045,9 @@ label day37:
     "Затем люк открылся. Под нами, в круглом проеме, была вода. Она стала подниматься вверх, но не дойдя до края люка, остановилась."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_171.mp3"
+    queue music "audio/music/z_171.mp3"
 
 
     show sp_al_056:
@@ -1166,13 +1155,13 @@ label day37:
     al "Все это конечно очень интересно... Но никакой машины, ни в иллюминаторе, ни на дне, я не увидела. Похоже, ее тут нет. Ладно... Что ты думаешь по поводу этой штуки?"
 
 
-    stop music
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene cg gold_bar with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Мы долго разглядывали брусочек."
 
@@ -1259,22 +1248,21 @@ label day37:
     hide sp_al_056
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_208.mp3" noloop
+    queue music "audio/music/z_208.mp3" noloop
 
 
     "Алиса нырнула снова."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg bathyscaphe with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "На этот раз я только светила ей двумя фонариками."
 
@@ -1388,10 +1376,9 @@ label day37:
     "Потом батискаф качнуло. Он как будто сдвинулся с места. Наступила тишина. Потом раздался скрип."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_205.mp3"
+    queue music "audio/music/z_205.mp3"
 
 
     "Батискаф полз по дну и края колокола скребли песок . Звук усиливался самой конструкцией аппарата и оттого был очень громким."
@@ -1408,10 +1395,9 @@ label day37:
     hide sp_al_057
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_204.mp3"
+    queue music "audio/music/z_204.mp3"
 
 
     show sp_ul_053:
@@ -1436,10 +1422,9 @@ label day37:
     hide sp_al_057
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     show sp_ul_053:
@@ -1649,13 +1634,13 @@ label day37:
     hide sp_al_056
 
 
-    stop music
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene cg bathyscaphe with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "Так мы беседовали, пока течение тащило наш батискаф по дну. Потом батискаф стал приподниматься и вращаться. Сначала медленно, потом все быстрее."
 
@@ -1719,13 +1704,13 @@ label day37:
     hide sp_al_057
 
 
-    stop music
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene cg bathyscaphe3 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "Дальше всё произошло почти мгновенно. Нас закрутило внутри переворачивающегося батискафа."
 
@@ -1744,13 +1729,13 @@ label day37:
     "Я обреченно озиралась, пытаясь что-то разглядеть в темноте и придумать способ, чтобы не задохнуться. Но было очень темно, потому что иллюминатор оказался внизу."
 
 
-    stop music
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene bg bathyscaphe9 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Но вот, после очередного толчка, влекомый течением по дну батискаф, развернулся иллюминатором вверх, и стало немного светлее."
 
@@ -1795,10 +1780,9 @@ label day37:
     "Иначе, на коченеющих руках, с негнущимися от холода пальцами, я провисела бы недолго."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     "Я вдруг поняла, что впадаю в какую то спячку. Возможно, от скопившегося выдыхаемого углекислого газа и еще от холода."
@@ -1812,13 +1796,13 @@ label day37:
     "Помню, я почти уснула, но что-то сильно стукнулось об иллюминатор снаружи. Я встрепенулась, ухватилась второй рукой за скобу и сильно прижалась к стеклу, чтобы разглядеть, что бы это могло быть."
 
 
-    stop music
-
-
-    play music "audio/music/z_542.mp3"
-
-
     scene cg at_resque with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_542.mp3"
+
 
     "В тусклом свете, пробивающемся с поверхности, я увидела смотревшее на меня, сплюснутое о стекло, ЛИЦО АТСУИ."
 
@@ -1977,10 +1961,9 @@ label day37:
     hide sp_at_001
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_140.mp3"
+    queue music "audio/music/z_140.mp3"
 
 
     "И едва я успела набрать воздуха в легкие, как Атсуи стремительно потащила меня к нижнему люку."
@@ -2074,14 +2057,13 @@ label day37:
     ats "Надо возвращаться. Я сплаваю к понтону и оттуда мы на лодке вернемся на мель, а вы сидите тут и ждите."
 
 
-
-    stop music
-
-
-    play music "audio/music/z_182.mp3"
-
-
     scene bg pbc with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_182.mp3"
+
 
     "Атсуи разбежалась и нырнула. Было видно, как цепочка воздушных пузырьков, сносимых течением, вытянулась в сторону смутно виднеющегося вдали понтона."
 
@@ -2146,10 +2128,9 @@ label day37:
     "Стоя на дне ямы, мы услышали голоса."
 
 
-    stop music
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_477.mp3"
+    queue music "audio/music/z_477.mp3"
 
 
     show sp_al_056:
@@ -2245,7 +2226,7 @@ label day37:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day38
 

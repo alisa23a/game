@@ -4,9 +4,11 @@ label day32:
 
     $ days = 32
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +19,13 @@ label day32:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_022.mp3"
-
-
     scene bg camp_day with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
+
 
     "Утром, говорят, нас будили, но мы не вышли из палатки. В общем, завтрак мы проспали. Мику оставила наши порции у костра, аккуратно накрыв котелки полотенцем."
 
@@ -100,13 +102,13 @@ label day32:
     od "Это, кажется, одичавший кот из поселка. Как его занесло на остров, ума не приложу. Наверное, убежал от рыбаков."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_130.mp3"
-
-
     scene bg camp_day with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -127,13 +129,13 @@ label day32:
     "Обязательно предупрежу ребят. Дам задание Семену и Славе. Они проследят, чтобы никто не ходил к сопкам."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_002.mp3"
-
-
     scene bg camp_day with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
 
     "Мы позавтракали и выпили кофе. Вскоре собрался весь отряд. Оказывается, группа ходила вверх по ручью, а потом Семен и Славя показывали им баркас."
 
@@ -194,14 +196,13 @@ label day32:
     "Так закончился наш поход."
 
 
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_023.mp3"
-
-
     scene cg meeting_sad with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     "Наступил момент, когда мы стали упрашивать ОД, чтобы она, в свою очередь, упросила Маргариту Павловну вернуть танцевальные вечера в лагере."
 
@@ -226,13 +227,13 @@ label day32:
     "Как бы то ни было, ОД пошла к директрисе на разговор. Я увязалась следом. Мне было интересно, чем закончатся их переговоры. И я подслушала."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
-
-
     scene bg mp_office with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -342,13 +343,13 @@ label day32:
     "Все радостно зааплодировали."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/track6.mp3"
-
-
     scene cg dance_announcement with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/track6.mp3"
+
 
     "Мы побежали делать рекламу. Мы использовали нашу старую концертную рекламу (новую рисовать не было времени)."
 
@@ -481,13 +482,13 @@ label day32:
     "Оставались уши. Но Лена соорудила Юле специальный ободок, который надевался так, что уши можно было принять за накладные. Выглядело мило."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_454.mp3"
-
-
     scene cg mi_house_girls with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_454.mp3"
+
 
     "Потом мы устроили у Мику в домике смотрины девочек отряда."
 
@@ -516,13 +517,13 @@ label day32:
     "А Славя и Ленка с Алисой смотрят на нас и понимают, у них сегодня нет ни одного шанса ВЗЯТЬ ПРИЗ ЗА ЛУЧШУЮ ПАРУ ВЕЧЕРА."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_034.mp3"
-
-
     scene an_d32_10 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_034.mp3"
+
 
     "В восемь вечера все были уже на месте. Хотя Алиса говорила, что надо прийти попозже, мол, принцессы всегда опаздывают. Но я не могла утерпеть."
 
@@ -548,13 +549,13 @@ label day32:
     "Но я отшутилась..."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_032.mp3"
-
-
     scene an_d32_10 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_032.mp3"
+
 
     "Мне хотелось станцевать первый танец с Семеном. Я даже подобралась к нему поближе. Он, конечно, уже кого-то наметил, но я решила, как говорит Алиса, «взять быка за рога»."
 
@@ -574,12 +575,6 @@ label day32:
     "И как только началась музыка, все кинулись танцевать. Никого упрашивать не пришлось. Я сначала думала, что все будут стесняться."
 
     "А потом поставили рок. Это был музыкальный марафон, когда быстрые вещи идут одна за другой, без перерыва."
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_306.mp3"
 
 
     image an_32_03: # Анимация танцы зал
@@ -609,16 +604,21 @@ label day32:
     scene an_32_03 with dissolve
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_306.mp3"
+
+
     pause (10000000000000000000000.0)
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_1016.mp3"
-
-
     scene cg all_dancing with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1016.mp3"
+
 
     "И так интересно было смотреть, как танцуют наши! В танце все выражали себя."
 
@@ -629,13 +629,13 @@ label day32:
     "Но круче всех быстрые танцы танцевала Алиса. Оно и понятно, у неё хореографическая подготовка. Она такое вытворяла! Прямо дух захватывало."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_029.mp3"
-
-
     scene cg slow_dance with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_029.mp3"
+
 
     "И тут, БАЦ! Поставили медляк. Я чуть не прозевала."
 
@@ -659,10 +659,9 @@ label day32:
     "Он придерживал меня за талию. Так что, я едва касалась ногами земли. Конечно, если такая сила, как у него, то любая партнерша будет слушаться. И всё получится."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_030.mp3"
+    queue music "audio/music/z_030.mp3"
 
 
     "А потом был латиноамериканский танец. Вот мы с ним оттянулись, не по-детски!"
@@ -684,13 +683,13 @@ label day32:
     "Не стала его удерживать."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_031.mp3"
-
-
     scene an_d32_10 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_031.mp3"
+
 
     "А потом просто стояла у сцены и смотрела, как он танцует с Леной. А она мне из-за спины Семена показала кулак. Наверное, он первый танец ей обещал. А я помешала."
 
@@ -738,22 +737,14 @@ label day32:
 
     "И все мне комплименты говорил, что не ожидал тогда, что я такая спортивная, и спрашивал, где я научилась так драться. В общем, к концу танца мы расстались уже почти друзьями."
 
-    # pause (10000000000000000000000.0)
-
-    # scene black with fade
-
-    # stop music
-
-    # jump spec_nb_001
-
-
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_037.mp3"
-
 
     scene cg all_dancing with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_037.mp3"
+
 
     "А потом танцевали летку-енку. Это когда все становиться друг за другом и танцуют хороводом в такт музыке, выбрасывая ноги."
 
@@ -766,13 +757,13 @@ label day32:
     "Но скоро мне это надоело. И я пошла посмотреть, где наши."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_011.mp3"
-
-
     scene cg al_jean_bench with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
+
 
 
     "И тут я случайно увидела Алису. Они с Жаном сидели на лавочке за раздевалкой."
@@ -799,10 +790,9 @@ label day32:
     "И  села в уютную нычку за домиком ОД. Решила пока перекусить, не мешать Алисе."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_130.mp3"
+    queue music "audio/music/z_130.mp3"
 
 
     show sp_sem_001:
@@ -1085,13 +1075,13 @@ label day32:
     hide sp_sem_001
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_111.mp3"
-
-
     scene cg_bikers2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_111.mp3"
+
 
     "И они договорились, что будет гонка между Семёном и Жаном, а все будут смотреть и болеть. Но гонка не простая. По правилам, за спиной у каждого гонщика должна сидеть девушка."
 
@@ -1102,13 +1092,13 @@ label day32:
     "И пока ещё шли танцы, под шум музыки, все мотоциклисты, а с ними Алиса, я, Славя и Семен, пошли на ту дорогу, что ведет на поселок."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_036.mp3"
-
-
     scene cg racing_road with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_036.mp3"
+
 
     "Мотоциклисты отвезли на место разворота покрышку и положили на дорогу. Там зажгли баночку с бензином, чтобы было видно. В крышке делается дырочка и туда вставляется фитиль. Так будет гореть долго."
 
@@ -1146,10 +1136,9 @@ label day32:
     "И наконец появились силуэты несущихся гонщиков. Я закрыла глаза, потому что мне казалось, что они должны непременно разбиться."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_102.mp3"
+    queue music "audio/music/z_102.mp3"
 
 
     "Потом меня тормошили и обнимали, все что-то кричали, и я открыла глаза, а это были наши."
@@ -1165,13 +1154,13 @@ label day32:
     "Прямо так и сказала. И я подумала, интересно, а с кем бы мне не было страшно? И решила, что подумаю об этом позже."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_020.mp3"
-
-
     scene cg bikers_campfire with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_020.mp3"
+
 
     "Потом все пошли в лагерь к мотоциклистам, Сели у костра. Хотели попеть вместе. Достали гитару. Но следом пришел физрук (наверное, кто-то ему сказал) и всех увел в лагерь."
 
@@ -1190,7 +1179,7 @@ label day32:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day33
 

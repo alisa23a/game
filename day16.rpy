@@ -4,9 +4,12 @@ label day16:
 
     $ days = 16
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    queue music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -16,15 +19,14 @@ label day16:
 
     $ show_quick_menu = True
 
-    stop music fadeout 1.0
-
-
-
-
-
-    play music "audio/music/z_015.mp3"
 
     scene bg watchmans_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_015.mp3"
+
 
     show sp_al_005:
         yalign 0.0 subpixel True
@@ -78,12 +80,14 @@ label day16:
 
     "Но мы успели. Сунув карту в ящик, мы кинулись через потайную дверь, в душевую."
  
-    stop music fadeout 1.0
 
+    scene cg al_ul_shower with dissolve
+ 
+ 
+    stop music fadeout 0.5
 
-    play music "audio/music/z_043.mp3"
-
-    scene cg al_ul_shower with dissolve 
+    queue music "audio/music/z_043.mp3"
+ 
 
     "Потом, немного постояли в воде, чтобы выйти с мокрыми волосами."
 
@@ -127,12 +131,14 @@ label day16:
   
     "Алиса прямо так и сказала: «Вот дуреха. Надеюсь на ее благоразумие»."
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_131.mp3"
 
     scene cg petrovichs_map with dissolve 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
 
     "И вот карта… Тут я ее не буду прикладывать, подробную, потому что нельзя. Это секретная карта. Вдруг кто ни будь украдет мой дневник."
 
@@ -283,12 +289,13 @@ label day16:
     al "Нет. Не в этот раз."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_333.mp3"
-
     scene bg square_day with dissolve 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_333.mp3"
+
 
     "И вот, значит, что было потом. Мы начали готовиться к походу и я побежала на склад, выпросить у Вано Артабековича «сухой паек»."
 
@@ -309,10 +316,6 @@ label day16:
     "И тут у меня сразу возникла мысль, что это новое приключение. Тем более, меня никто никогда не рисовал. Вот будет здорово, когда я привезу домой свой портрет и покажу папе."
 
     "Не всякую девочку рисуют. А тут такое. С другой стороны, надо было готовиться к походу. И я была в нерешительности. Он так умоляюще смотрел."
-
-
-#ВЫБОР
-#НЕ ХОДИТЬ С СЕМЁНОМ
 
     "Но я не пошла. Потому что меня ждала Алиса."
 
@@ -406,7 +409,7 @@ label day16:
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day17
 

@@ -4,9 +4,12 @@ label day35:
 
     $ days = 35
 
-    play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
+
+
+    play music "audio/music/z_300.mp3"
+
 
     $ show_quick_menu = False
 
@@ -17,13 +20,13 @@ label day35:
     $ show_quick_menu = True
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg boat_station2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "Утром вся наша команда охотников на сома была в сборе."
 
@@ -108,13 +111,13 @@ label day35:
     al "(Наваливаясь  на руль) \nНе учите учёную."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_004.mp3"
-
-
     scene cg fishing_catfish_boat1 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
 
 
     "Мы проплыли ещё с полкилометра, пока течение не вынесло нас на затон. Вода тут была спокойная. Проплыв ещё немного, мы очутились почти на самой середине омута."
@@ -122,13 +125,13 @@ label day35:
     "Я стала вглядываться в темную воду стремясь увидеть что-нибудь, похожее на сома. Петрович светил фонариком и немного подгребал одним веслом. Лодка медленно крутилась на месте."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg boat_bow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     show sp_pe_010:
         yalign 0.0 subpixel True
@@ -160,10 +163,9 @@ label day35:
     tol "Там ничего нет. Водоросли и дно чистое. Только бревно лежит большое... Глубоко очень."
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     "Петрович подпрыгнул на месте и схватил Толика за плечо."
@@ -199,10 +201,9 @@ label day35:
     pe "Не бревно это, дурында. СОМ!"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_202.mp3"
+    queue music "audio/music/z_202.mp3"
 
 
 
@@ -239,13 +240,13 @@ label day35:
     ul "ДНО. Всё, сейчас заглатывать будет."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_171.mp3"
-
-
     scene cg fishing_catfish_boat2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
 
     "Прошло почти полчаса. Вся команда сидела в оцепенении, боясь шелохнуться. Слышно было только, как дышит через трубку кит-Толик. Петрович сидел нахохлившись."
 
@@ -279,13 +280,13 @@ label day35:
     pe "Все, надо поспешать. Минута у нас! Ставьте вёсла!"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene cg fishing_catfish_boat2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     "Между тем, Толик продолжал следить за сомом через маску. Видно было, что он увлечён процессом не меньше других."
 
@@ -402,10 +403,9 @@ label day35:
     pe "Вёсла потом соберем. Где малец-то?! Не разгляжу, рюкзак или человек?"
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_004.mp3"
+    queue music "audio/music/z_004.mp3"
 
 
     "Мы стали грести изо всех сил руками к месту, где из воды торчало что-то тёмное."
@@ -413,13 +413,13 @@ label day35:
     pe "(Зацепив багром предмет) \nТак, ну-ка... Тяжелый... Нет. Это не рюкзак."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_177.mp3"
-
-
     scene bg boat_bow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_177.mp3"
+
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -478,13 +478,13 @@ label day35:
     tol "(Открывая глаза) \nГде я?"
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_017.mp3"
-
-
     scene bg boat_bow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_017.mp3"
+
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -677,13 +677,13 @@ label day35:
     "Вдруг от неожиданного толчка всех бросило вперёд."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_202.mp3"
-
-
     scene bg boat_bow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
+
 
     show sp_pe_002:
         yalign 0.0 subpixel True
@@ -723,13 +723,13 @@ label day35:
     pe "Пока контуженый, надо его буксировать к берегу и выволакивать на сушу.  Времени мало. Как он ещё не очнулся. Наверное, сильно его шандарахнуло..."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_018.mp3"
-
-
     scene cg fishing_catfish_boat1 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_018.mp3"
+
 
     "Сома зацепили багром, багор привязали к корме. Все ликовали."
 
@@ -753,13 +753,13 @@ label day35:
     "Алиса села за руль. Неожиданно лодку качнуло."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_149.mp3"
-
-
     scene bg boat_bow with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_149.mp3"
+
 
     show sp_pe_009:
         yalign 0.0 subpixel True
@@ -865,10 +865,9 @@ label day35:
     hide sp_tol_012
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_1002.mp3"
+    queue music "audio/music/z_1002.mp3"
 
 
     "Толик медленно сел на пирс, свесил ноги, посмотрел на дело своих рук, на торчащую из головы сома кирку и заплакал."
@@ -902,13 +901,13 @@ label day35:
     "Было видно, что Петровичу, любящему щеголять научными словами, нравилось слово «стресс»."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_206.mp3"
-
-
     scene bg boat_station2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_206.mp3"
+
 
     "Из лагеря на пирс сбегались любопытные пионеры."
 
@@ -932,10 +931,9 @@ label day35:
     hide sp_od_022
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_333.mp3"
+    queue music "audio/music/z_333.mp3"
 
 
     show sp_ul_019:
@@ -967,10 +965,9 @@ label day35:
     hide sp_od_026
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_155.mp3"
+    queue music "audio/music/z_155.mp3"
 
 
     show sp_fi_015:
@@ -1018,13 +1015,13 @@ label day35:
     "Физрук, вооружившись топором, вознамерился разделать сома на части. Рядом с ним уже суетилась Любовь  Никаноровна."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_197.mp3"
-
-
     scene bg boat_station2 with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -1053,10 +1050,9 @@ label day35:
     hide sp_ul_019
 
 
-    stop music fadeout 1.0
+    stop music fadeout 0.5
 
-
-    play music "audio/music/z_022.mp3"
+    queue music "audio/music/z_022.mp3"
 
 
     "Вскоре на пристань прибыли трое репортеров Совёнка из редакции одноимённой стенной газеты. Разделку сома пришлось на время отложить."
@@ -1103,13 +1099,13 @@ label day35:
     al "Странно. Может, у Петровича неприятности? Вроде, складно врали..."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_176.mp3"
-
-
     scene bg watchmans_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
 
     "На пороге сторожки мы застали Петровича, кормящего с рук Тузика."
 
@@ -1344,13 +1340,13 @@ label day35:
     pe "А на что оно мне? Конечно. Берите."
 
 
-    stop music fadeout 1.0
-
-
-    play music "audio/music/z_155.mp3"
-
-
     scene bg watchmans_cabin with dissolve
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_155.mp3"
+
  
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -1393,14 +1389,11 @@ label day35:
 
 
 
-
-
-
     pause (10000000000000000000000.0)
 
     scene black with fade
 
-    stop music
+    stop music fadeout 1.0
 
     jump day36
 

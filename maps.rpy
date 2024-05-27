@@ -26,7 +26,7 @@ screen nbeach:
 
     # Пляж ближний
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -55,7 +55,7 @@ screen nbeach2:
 
     # Пляж ближний 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -84,7 +84,7 @@ screen nbeach3:
 
     # Пляж ближний 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -113,7 +113,7 @@ screen nbeach4:
 
     # Пляж ближний 4
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -142,7 +142,7 @@ screen gog:
 
     # Поляна слётов
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -172,7 +172,7 @@ screen smg:
 
     # Малая поляна
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -202,7 +202,7 @@ screen disland:
 
     # Остров Дальний
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -232,7 +232,7 @@ screen disland2:
 
     # Остров Дальний 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -262,7 +262,7 @@ screen lakedeep:
 
     # Озеро Глубокое
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -292,7 +292,7 @@ screen lakedeep2:
 
     # Озеро Глубокое 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -322,7 +322,7 @@ screen uhouse:
 
     # Дом Юли
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -352,7 +352,7 @@ screen uhouse2:
 
     # Дом Юли 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -382,7 +382,7 @@ screen uhouse3:
 
     # Комната Юли
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -412,7 +412,7 @@ screen uhouse4:
 
     # Камин Юли
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -442,7 +442,7 @@ screen uhouse5:
 
     # Кровать Юли
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -472,7 +472,7 @@ screen uhouse6:
 
     # Ванна Юли
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -502,7 +502,7 @@ screen newtcreek:
 
     # Ручей тритонов
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -532,7 +532,7 @@ screen newtcreek:
 
     # Ручей тритонов
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -562,7 +562,7 @@ screen thiefpath:
 
     # Тропа украденной котлеты
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -592,7 +592,7 @@ screen swamp:
 
     # Болота
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -622,7 +622,7 @@ screen boat_station:
 
     # Лодочная станция
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -652,7 +652,7 @@ screen fbeach:
 
     # Пляж дальний
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -682,7 +682,7 @@ screen mcity:
 
     # Посёлок Рудный
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -712,7 +712,7 @@ screen mcity2:
 
     # Посёлок Рудный 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -742,7 +742,7 @@ screen dpeak:
 
     # Пик Двачевской
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -772,7 +772,7 @@ screen ushallow:
 
     # Ульянина мель
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -802,7 +802,7 @@ screen shpi:
 
     # Шалаш пионера
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -832,7 +832,7 @@ screen cave:
 
     # Пещера
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -862,7 +862,7 @@ screen moсr:
 
     # Горный ручей
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -892,7 +892,7 @@ screen opine:
 
     # Сосна совы
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -923,7 +923,7 @@ screen laboratory:
 
     # Лаборатория
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -953,7 +953,7 @@ screen oldroad:
 
     # Старая дорога
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -983,7 +983,7 @@ screen tcc:
 
     # Тропа безбашенных альпинистов
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1013,7 +1013,7 @@ screen goldd:
 
     # Землянка золотоискателя
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1043,7 +1043,7 @@ screen oldcamp:
 
     # Старый лагерь
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1073,7 +1073,7 @@ screen oldcamp2:
 
     # Старый лагерь 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1103,7 +1103,7 @@ screen oldcamp3:
 
     # Старый лагерь 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1133,7 +1133,7 @@ screen bravepath:
 
     # Тропа отважных
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1163,7 +1163,7 @@ screen bravepath2:
 
     # Тропа отважных 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1193,7 +1193,7 @@ screen wilderness:
 
     # Глухомань
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1223,7 +1223,7 @@ screen wilderness2:
 
     # Глухомань 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1253,7 +1253,7 @@ screen wilderness3:
 
     # Глухомань 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1283,7 +1283,7 @@ screen roadtn:
 
     # Дорога в никуда
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1313,7 +1313,7 @@ screen pibuh:
 
     # Пиратская бухта (гавань)
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1343,7 +1343,7 @@ screen oldmine:
 
     # Старая шахта
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1373,7 +1373,7 @@ screen oldmine2:
 
     # Старая шахта 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1403,7 +1403,7 @@ screen tuni:
 
     # Тоннель вход
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1433,7 +1433,7 @@ screen tuno:
 
     # Тоннель выход
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1463,7 +1463,7 @@ screen reeds:
 
     # Камыши
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1493,7 +1493,7 @@ screen iford:
 
     # Непроходимый Брод
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1523,7 +1523,7 @@ screen caroad:
 
     # Дорога на карьер
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1553,7 +1553,7 @@ screen carier:
 
     # Карьер
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1583,7 +1583,7 @@ screen zdm:
 
     # Железнодорожный мост
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1613,7 +1613,7 @@ screen ford:
 
     # Брод
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1643,7 +1643,7 @@ screen ford2:
 
     # Брод 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1673,7 +1673,7 @@ screen ford3:
 
     # Брод 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1703,7 +1703,7 @@ screen plane:
 
     # Самолёт
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1733,7 +1733,7 @@ screen plane2:
 
     # Самолёт 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1763,7 +1763,7 @@ screen crsh:
 
     # Рачья отмель
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1793,7 +1793,7 @@ screen rapids:
 
     # Шалаш браконьеров
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1823,7 +1823,7 @@ screen hetu:
 
     # Охотничьи угодья ежа и черепахи
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1853,7 +1853,7 @@ screen jusu:
 
     # Припасы Юли
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1883,7 +1883,7 @@ screen jusu2:
 
     # Припасы Юли 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1913,7 +1913,7 @@ screen pbc:
 
     # Омут Большой Сом
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1943,7 +1943,7 @@ screen dnest:
 
     # Гнездо утки
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1973,7 +1973,7 @@ screen shouse:
 
     # Дом на болотах
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2003,7 +2003,7 @@ screen crystalspring:
 
     # Кристальный родник
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2033,7 +2033,7 @@ screen mine:
 
     # Рудник
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2063,7 +2063,7 @@ screen oldclock:
 
     # Старая часовня
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2093,7 +2093,7 @@ screen oldcem:
 
     # Старое кладбище
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2123,7 +2123,7 @@ screen oldcem2:
 
     # Старое кладбище 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2153,7 +2153,7 @@ screen oldcem3:
 
     # Старое кладбище 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2183,7 +2183,7 @@ screen shallow:
 
     # Отмели
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2213,7 +2213,7 @@ screen lyhouse:
 
     # Дом Рыси
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2243,7 +2243,7 @@ screen deroad:
 
     # Дорога на посёлок
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2273,7 +2273,7 @@ screen deroad2:
 
     # Дорога на посёлок 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2303,7 +2303,7 @@ screen deroad3:
 
     # Дорога на посёлок 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2333,7 +2333,7 @@ screen wdgorge:
 
     # Очень глубокое ущелье
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2363,7 +2363,7 @@ screen dwhir:
 
     # Смертельный водоворот
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2393,7 +2393,7 @@ screen pot:
 
     # Тропа на тоннель
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2423,7 +2423,7 @@ screen pfis:
 
     # Пляж Дальний остров
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2453,7 +2453,7 @@ screen ogm:
 
     # Старый золотой прииск
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2483,7 +2483,7 @@ screen tbo:
 
     # Взять лодку
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2513,7 +2513,7 @@ screen pdl:
 
     # Пляж Озеро Глубокое
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2543,7 +2543,7 @@ screen spa:
 
     # Узкоколейка
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2572,7 +2572,7 @@ screen spa2:
 
     # Узкоколейка 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2602,7 +2602,7 @@ screen rail:
 
     # Железная дорога
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2632,7 +2632,7 @@ screen pointers:
 
     # Указатели
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2662,7 +2662,7 @@ screen busstop:
 
     # Остановка автобуса 410
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2693,7 +2693,7 @@ screen aulane:
 
     # Поляна Алисы и Ульяны
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 

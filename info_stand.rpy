@@ -4,7 +4,7 @@
 screen stand_camp_rules():
 
     ## Экран с правилами лагеря, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -18,7 +18,7 @@ screen stand_camp_rules():
 screen stand_honor_board():
 
     ## Экран с доской почёта, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -32,7 +32,7 @@ screen stand_honor_board():
 screen stand_advertisements():
 
     ## Экран с объявлениями, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -46,7 +46,7 @@ screen stand_advertisements():
 screen stand_mailbox():
 
     ## Экран с почтовым ящиком, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -60,7 +60,7 @@ screen stand_mailbox():
 screen stand_hikes():
 
     ## Экран с походами, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -74,7 +74,7 @@ screen stand_hikes():
 screen stand_history():
 
     ## Экран с историей, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -88,7 +88,7 @@ screen stand_history():
 screen stand_main_map():
 
     ## Экран с главной картой, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -102,7 +102,7 @@ screen stand_main_map():
 screen stand_wall_newspaper():
 
     ## Экран со стенгазетой, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -116,7 +116,7 @@ screen stand_wall_newspaper():
 screen stand_camp_map():
 
     ## Экран с картой лагеря, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -130,7 +130,7 @@ screen stand_camp_map():
 screen stand_gallery():
 
     ## Экран с галереей, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -166,7 +166,7 @@ image tips_owl_blink_anim:
 screen stand_tips_list():
 
     ## Экран со списком вопросов сове, открывается при клике на "Выбери вопрос" на экране stand_tips_owl
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -175,7 +175,7 @@ screen stand_tips_list():
         idle "images/tips_owl/tips_list_idle.png" 
         hover "images/tips_owl/tips_list_hover.png" 
 
-        hotspot(1845, 0, 75, 77) action Show("info_stand")
+        hotspot(1845, 0, 75, 77) action Hide("stand_tips_list"), Hide("stand_tips_owl"), Show("info_stand")
         hotspot(134, 80, 437, 32) action Show("tips_owl_tip_01")
         hotspot(134, 112, 561, 32) action Show("tips_owl_tip_02")
         hotspot(134, 144, 550, 32) action Show("tips_owl_tip_03")
@@ -230,7 +230,7 @@ image tips_owl_anim:
 screen stand_tips_owl():
 
     ## Экран с совой, дающей подсказки, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -250,7 +250,7 @@ screen stand_tips_owl():
 screen tips_owl_tip_01():
 
     ## Экран с подсказкой 01
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -268,7 +268,7 @@ screen tips_owl_tip_01():
 screen tips_owl_tip_02():
 
     ## Экран с подсказкой 02
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -286,7 +286,7 @@ screen tips_owl_tip_02():
 screen tips_owl_tip_03():
 
     ## Экран с подсказкой 03
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -304,7 +304,7 @@ screen tips_owl_tip_03():
 screen tips_owl_tip_04():
 
     ## Экран с подсказкой 04
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -322,7 +322,7 @@ screen tips_owl_tip_04():
 screen tips_owl_tip_05():
 
     ## Экран с подсказкой 05
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -340,7 +340,7 @@ screen tips_owl_tip_05():
 screen tips_owl_tip_06():
 
     ## Экран с подсказкой 06
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -358,7 +358,7 @@ screen tips_owl_tip_06():
 screen tips_owl_tip_07():
 
     ## Экран с подсказкой 07
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -376,7 +376,7 @@ screen tips_owl_tip_07():
 screen tips_owl_tip_08():
 
     ## Экран с подсказкой 08
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -394,7 +394,7 @@ screen tips_owl_tip_08():
 screen tips_owl_tip_09():
 
     ## Экран с подсказкой 09
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -412,7 +412,7 @@ screen tips_owl_tip_09():
 screen tips_owl_tip_10():
 
     ## Экран с подсказкой 10
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -430,7 +430,7 @@ screen tips_owl_tip_10():
 screen tips_owl_tip_11():
 
     ## Экран с подсказкой 11
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -448,7 +448,7 @@ screen tips_owl_tip_11():
 screen tips_owl_tip_12():
 
     ## Экран с подсказкой 12
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -466,7 +466,7 @@ screen tips_owl_tip_12():
 screen tips_owl_tip_13():
 
     ## Экран с подсказкой 13
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -484,7 +484,7 @@ screen tips_owl_tip_13():
 screen tips_owl_tip_14():
 
     ## Экран с подсказкой 14
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -502,7 +502,7 @@ screen tips_owl_tip_14():
 screen tips_owl_tip_15():
 
     ## Экран с подсказкой 15
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -520,7 +520,7 @@ screen tips_owl_tip_15():
 screen tips_owl_tip_16():
 
     ## Экран с подсказкой 16
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -538,7 +538,7 @@ screen tips_owl_tip_16():
 screen tips_owl_tip_17():
 
     ## Экран с подсказкой 17
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -556,7 +556,7 @@ screen tips_owl_tip_17():
 screen tips_owl_tip_18():
 
     ## Экран с подсказкой 18
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -574,7 +574,7 @@ screen tips_owl_tip_18():
 screen tips_owl_tip_19():
 
     ## Экран с подсказкой 19
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -592,7 +592,7 @@ screen tips_owl_tip_19():
 screen tips_owl_tip_20():
 
     ## Экран с подсказкой 20
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -610,7 +610,7 @@ screen tips_owl_tip_20():
 screen tips_owl_tip_21():
 
     ## Экран с подсказкой 21
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -628,7 +628,7 @@ screen tips_owl_tip_21():
 screen tips_owl_tip_22():
 
     ## Экран с подсказкой 22
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -646,7 +646,7 @@ screen tips_owl_tip_22():
 screen tips_owl_tip_23():
 
     ## Экран с подсказкой 23
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -664,7 +664,7 @@ screen tips_owl_tip_23():
 screen tips_owl_tip_24():
 
     ## Экран с подсказкой 24
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -682,7 +682,7 @@ screen tips_owl_tip_24():
 screen tips_owl_tip_25():
 
     ## Экран с подсказкой 25
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -700,7 +700,7 @@ screen tips_owl_tip_25():
 screen tips_owl_tip_26():
 
     ## Экран с подсказкой 26
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -718,7 +718,7 @@ screen tips_owl_tip_26():
 screen tips_owl_tip_27():
 
     ## Экран с подсказкой 27
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -736,7 +736,7 @@ screen tips_owl_tip_27():
 screen tips_owl_tip_28():
 
     ## Экран с подсказкой 28
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -754,7 +754,7 @@ screen tips_owl_tip_28():
 screen tips_owl_tip_29():
 
     ## Экран с подсказкой 29
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -780,7 +780,7 @@ screen tips_owl_tip_29():
 screen stand_diary():
 
     ## Экран с дневником, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -794,7 +794,7 @@ screen stand_diary():
 screen stand_inventory():
 
     ## Экран с инвентарём, открывается при клике в главном меню соответствующей таблички на стенде
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -834,9 +834,9 @@ screen stand_campfire():
 
 
 
-##image progressbar = Transform(DynamicImage('images/info_stand/progressbar/[days].png'), xpos = 446, ypos = 34, xsize=1027, ysize=68) ## Динамически меняющаяся картинка с прогрессбаром.
+image progressbar = Transform(DynamicImage('images/info_stand/progressbar/[days].png'), xpos = 446, ypos = 34, xsize=1027, ysize=68) ## Динамически меняющаяся картинка с прогрессбаром.
  
-## РАСКОММЕНТИРОВАТЬ imgage progressbar, КОГДА БУДУТ КАРТИНКИ ПО КОЛИЧЕСТВУ ДНЕЙ!!! И НИЖЕ, В screen info_stand() ТОЖЕ!!!
+## РАСКОММЕНТИРОВАТЬ imgage progressbar, КОГДА БУДУТ КАРТИНКИ ПО КОЛИЧЕСТВУ ДНЕЙ. И НИЖЕ, В screen info_stand() ТОЖЕ
 
 
 screen info_stand():
@@ -846,7 +846,7 @@ screen info_stand():
     on 'show' action PauseAudio('music', True) 
     on 'hide' action PauseAudio('music', False)
 
-    tag menu
+    #tag menu
     zorder 100
     modal True
 
@@ -874,7 +874,7 @@ screen info_stand():
 
     add "stand_campfire_anim"
 
-    #add "progressbar" РАСКОММЕНТИРОВАТЬ, КОГДА БУДУТ КАРТИНКИ ДНЕЙ!!!
+    add "progressbar" #РАСКОММЕНТИРОВАТЬ, КОГДА БУДУТ КАРТИНКИ ДНЕЙ
     
 
     imagebutton:

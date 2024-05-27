@@ -98,7 +98,7 @@ screen credits():
     style_prefix "credits"
 
 
-    timer 102.0 action Return() #46.5 seconds
+    timer 105.0 action Return() #46.5 seconds
     ## Adjust this number to control when the Credits screen is hidden and the game
     ## returns to its normal flow.
 
@@ -120,8 +120,6 @@ screen credits():
             null height 75
 
             text "Визуальная новелла":
-                #font "FredokaOne-regular.ttf"
-                #color "#79F"
                 color "#fff"
                 size 50
                 xalign 0.5
@@ -129,7 +127,6 @@ screen credits():
             null height 75
 
             text "По мотивам визуальной новеллы «Бесконечное Лето»":
-                #font "FredokaOne-regular.ttf"
                 color "#fff"
                 size 30
                 xalign 0.5
@@ -137,22 +134,14 @@ screen credits():
             null height 150
 
             text "Создатели игры выражают благодарность всем, кто тем или иным образом были причастны к её созданию. Авторам идей, сюжетов, стихов, музыки, песен, сценариев, монтажа, рисунков, и особенно редактору.":
-                #font "ZCOOLXiaoWei-Regular.ttf"
-                #bold True
                 xalign 0.5
 
             null height 150
-
 
             text "Также мы благодарим всех поклонников визуальной новеллы «Дневник Ульяны». Тех, кто на протяжении двух лет оставался с нами, поддерживая в нас волю и желание довести проект до его полного завершения.":
-                #font "ZCOOLXiaoWei-Regular.ttf"
-                #bold True
                 xalign 0.5
 
             null height 150
-
-
-
 
             text "Руководитель проекта:":
                 bold True
@@ -202,40 +191,40 @@ screen credits():
 
             null height 75
 
-            text "Анимация:": # add all your credits here
+            text "Анимация:":
                 bold True
                 size 30
                 xalign 0.5
 
-            text "Саша Сад": # add all your credits here
+            text "Саша Сад":
                 size 30
                 xalign 0.5
 
             null height 75
 
-            text "Редактор:": # add all your credits here
+            text "Редактор:":
                 bold True
                 size 30
                 xalign 0.5
 
-            text "Валентин Семёнов (Семён Зимний)": # add all your credits here
+            text "Валентин Семёнов (Семён Зимний)":
                 size 30
                 xalign 0.5
 
             null height 75
 
-            text "Подбор музыки:": # add all your credits here
+            text "Подбор музыки:":
                 bold True
                 size 30
                 xalign 0.5
 
-            text "Саша Сад": # add all your credits here
+            text "Саша Сад":
                 size 30
                 xalign 0.5
 
             null height 150
 
-            text "Выражаем благодарность художникам, чьи работы были использованы при создании визуальной новеллы «Дневник Ульяны»:": # add all your credits here
+            text "Выражаем благодарность художникам, чьи работы были использованы при создании визуальной новеллы «Дневник Ульяны»:":
                 bold True
                 size 24.5
                 xalign 0.5
@@ -249,19 +238,26 @@ screen credits():
             null height 75
 
             text "Сделано на Ren'Py":
-                #font "ZCOOLXiaoWei-Regular.ttf"
-                #bold True
                 size 30
                 xalign 0.5
 
             null height 75
 
             text "© 2024":
-                #font "ZCOOLXiaoWei-Regular.ttf"
-                #bold True
                 size 30
                 xalign 0.5
 
+            null height 75
+
+            text "Напишите свой отзыв об игре Дневник Ульяны в официальной группе ВКонтакте:":
+                size 30
+                xalign 0.5
+
+            null height 75
+
+            textbutton "https://vk.com/ulyanas_diary":
+                xalign 0.5
+                action OpenURL("https://vk.com/ulyanas_diary")
 
 
 style credits_hbox:
@@ -274,9 +270,17 @@ style credits_vbox:
 
 
 label finalcredits2:
+
+    $ show_quick_menu = False
+
+    $ renpy.block_rollback()
+
     scene cg way_home with dissolve
+
     show screen credits
-    $ renpy.pause (102.0, hard=True) # or however long it takes to scroll through in a reasonable speed
+
+    $ renpy.pause (105.0, hard=True) # or however long it takes to scroll through in a reasonable speed
+ 
     hide screen credits 
 
     $ renpy.music.set_volume(0.00, delay=2.0, channel='miscSounds')

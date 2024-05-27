@@ -3655,6 +3655,8 @@ label start:
 
     $ style.say_window = style.window
 
+    $ days = 0
+
     stop music
 
     $ show_quick_menu = False
@@ -3686,6 +3688,8 @@ label first_m:
 label sc_p_prologue:
 
     $ style.say_window = style.window_CUSTOM
+
+    $ days = 1
 
     stop music
 

@@ -1,6 +1,6 @@
 #экран карты лагеря
 screen campmap:
-    tag menu
+    #tag menu
     zorder 100
     modal True
     
@@ -128,7 +128,7 @@ screen mus_stairs:
 
     # Нычка под лестницей в музкружок
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -158,7 +158,7 @@ screen mus:
 
     # Музыкальный и хореографический кружок
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -188,7 +188,7 @@ screen atsuroom:
 
     # Комната Атсуи
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -218,7 +218,7 @@ screen atsuroom2:
 
     # Комната Атсуи 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -248,7 +248,7 @@ screen showers:
 
     # Душевые
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -278,7 +278,7 @@ screen showers2:
 
     # Душевые 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -308,7 +308,7 @@ screen zcloset:
 
     # Каморка Жени
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -338,7 +338,7 @@ screen zcloset2:
 
     # Каморка Жени 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -368,7 +368,7 @@ screen diroom:
 
     # Комната директрисы
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -398,7 +398,7 @@ screen library:
 
     # Библиотека
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -428,7 +428,7 @@ screen library2:
 
     # Библиотека 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -458,7 +458,7 @@ screen medic:
 
     # Медпункт
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -488,7 +488,7 @@ screen viroom:
 
     # Комната Виолы
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -518,7 +518,7 @@ screen odhouse:
 
     # Домик ОД и Семёна
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -548,7 +548,7 @@ screen odhouse2:
 
     # Комната ОД
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -578,7 +578,7 @@ screen odhouse3:
 
     # Комната Семёна
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -608,7 +608,7 @@ screen msecret:
 
     # Чердак меганычка
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -638,7 +638,7 @@ screen msecret2:
 
     # Чердак меганычка 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -668,7 +668,7 @@ screen secret1:
 
     # Нычка 1
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -698,7 +698,7 @@ screen genda:
 
     # Генда
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -728,7 +728,7 @@ screen square:
 
     # Площадь
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -758,7 +758,7 @@ screen lmhouse:
 
     # Домик Лены и Мику
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -788,7 +788,7 @@ screen lmhouse2:
 
     # Домик Лены и Мику 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -818,7 +818,7 @@ screen dining:
 
     # Столовая
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -848,7 +848,7 @@ screen watchcloset:
 
     # Каморка сторожа
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -878,7 +878,7 @@ screen stock:
 
     # Склад
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -908,7 +908,7 @@ screen stock2:
 
     # Склад 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -938,7 +938,7 @@ screen stock2:
 
     # Склад 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -968,7 +968,7 @@ screen busstop_cm:
 
     # Центральный вход. Автобус 410
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -998,7 +998,7 @@ screen busstop_cm2:
 
     # Центральный вход. Автобус 410 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1028,7 +1028,7 @@ screen busstop_cm3:
 
     # Центральный вход. Автобус 410 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1058,7 +1058,7 @@ screen busstop_cm4:
 
     # Центральный вход. Автобус 410 4
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1088,7 +1088,7 @@ screen secret4:
 
     # Нычка 4. Гитара
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1118,7 +1118,7 @@ screen bombu:
 
     # Вход в бомбоубежище
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1148,7 +1148,7 @@ screen bombu2:
 
     # Вход в бомбоубежище 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1178,7 +1178,7 @@ screen stadium:
 
     # Стадион
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1208,7 +1208,7 @@ screen stadium2:
 
     # Стадион 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1238,7 +1238,7 @@ screen stage:
 
     # Эстрада
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1268,7 +1268,7 @@ screen stage2:
 
     # Эстрада 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1298,7 +1298,7 @@ screen handmade:
 
     # Кружок «Умелые руки»
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1328,7 +1328,7 @@ screen gteach:
 
     # Комната физрука и завхоза
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1358,7 +1358,7 @@ screen fotoc:
 
     # Фотостудия
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1388,7 +1388,7 @@ screen kroof:
 
     # Крыша на которой удобно целоваться
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1418,7 +1418,7 @@ screen szhhouse:
 
     # Домик Слави и Жени
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1448,7 +1448,7 @@ screen secret2:
 
     # Нычка 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1478,7 +1478,7 @@ screen secret3:
 
     # Нычка 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1508,7 +1508,7 @@ screen shande:
 
     # 2 этаж. Шурик и Электроник
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1538,7 +1538,7 @@ screen stels:
 
     # Лазейка. Уйти незаметно
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1568,7 +1568,7 @@ screen attic:
 
     # Чердак. Лучшая нычка для курения и игры в карты.
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1598,7 +1598,7 @@ screen auhouse:
 
     # Домик Алисы и Ульяны
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1628,7 +1628,7 @@ screen auhouse2:
 
     # Домик Алисы и Ульяны 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1658,7 +1658,7 @@ screen tirhands:
 
     # Кружок Усталые ручки
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1688,7 +1688,7 @@ screen tirhands2:
 
     # Кружок Усталые ручки 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1718,7 +1718,7 @@ screen peep1:
 
     # Подглядывать 1
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1748,7 +1748,7 @@ screen peep2:
 
     # Подглядывать 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1778,7 +1778,7 @@ screen peep3:
 
     # Подглядывать 3
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1808,7 +1808,7 @@ screen peep32:
 
     # Подглядывать 3 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1838,7 +1838,7 @@ screen peep4:
 
     # Подглядывать 4
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1869,7 +1869,7 @@ screen peep5:
 
     # Подглядывать 5
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1900,7 +1900,7 @@ screen peep6:
 
     # Подглядывать 6
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1931,7 +1931,7 @@ screen secret7:
 
     # Нычка 7
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1961,7 +1961,7 @@ screen secret72:
 
     # Нычка 7 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -1991,7 +1991,7 @@ screen sroom:
 
     # Комната саманты
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2021,7 +2021,7 @@ screen dresser:
 
     # Раздевалка
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2051,7 +2051,7 @@ screen dresser2:
 
     # Раздевалка 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2081,7 +2081,7 @@ screen basketball:
 
     # Баскетбольная площадка
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2111,7 +2111,7 @@ screen caretakers_room:
 
     # Комната завхоза
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2141,7 +2141,7 @@ screen caretakers_room2:
 
     # Комната завхоза 2
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2171,7 +2171,7 @@ screen fine_arts:
 
     # Кружок ИЗО
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2201,7 +2201,7 @@ screen dining_menu:
 
     # Меню столовой
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2238,7 +2238,7 @@ screen dinning_menu_sovyonok:
 
     # Меню вблизи
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 
@@ -2269,7 +2269,7 @@ screen sewing:
 
     # Кружок кройки и шитья
 
-    tag menu
+    #tag menu
     modal True
     zorder 300
 

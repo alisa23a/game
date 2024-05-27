@@ -9,6 +9,7 @@ label day8:
 
     default days = 8
 
+    $ days = 8
 
     show screen current_day with fade
 

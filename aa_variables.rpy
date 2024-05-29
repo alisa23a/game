@@ -180,7 +180,161 @@ define inv_item_38 = False # 38 Неизвестный ключ со связк�
 define inv_item_39 = False # 39 Неизвестный ключ со связки Семёна 1 / слот 4
 define inv_item_40 = False # 40 Неизвестный ключ со связки Семёна 1 / слот 5
 
+################################################
+## Переменные, определяющие видимость картинок в галерее
 
+define im_gal_01_00 = True
+define im_gal_01_01 = True
+define im_gal_02_00 = True
+define im_gal_03_00 = True
+define im_gal_04_00 = True
+define im_gal_04_01 = True
+define im_gal_04_02 = True
+define im_gal_04_03 = True
+define im_gal_04_04 = True
+define im_gal_05_00 = True
+define im_gal_05_01 = True
+define im_gal_05_02 = True
+define im_gal_05_03 = True
+define im_gal_05_04 = True
+define im_gal_05_05 = True
+define im_gal_05_06 = True
+define im_gal_05_07 = True
+define im_gal_05_08 = True
+define im_gal_05_09 = True
+define im_gal_05_10 = True
+define im_gal_05_11 = True
+define im_gal_05_12 = True
+define im_gal_05_13 = True
+define im_gal_05_14 = True
+define im_gal_05_15 = True
+define im_gal_05_16 = True
+define im_gal_06_00 = True
+define im_gal_06_01 = True
+define im_gal_06_02 = True
+define im_gal_06_03 = True
+define im_gal_07_00 = True
+define im_gal_08_00 = True
+define im_gal_08_01 = True
+define im_gal_09_00 = True
+define im_gal_09_01 = True
+define im_gal_10_00 = True
+define im_gal_10_01 = True
+define im_gal_10_02 = True
+define im_gal_11_00 = True
+define im_gal_11_01 = True
+define im_gal_12_00 = True
+define im_gal_13_00 = True
+define im_gal_13_01 = True
+define im_gal_14_00 = True
+define im_gal_14_01 = True
+define im_gal_15_00 = True
+define im_gal_16_00 = True
+define im_gal_16_01 = True
+define im_gal_17_00 = True
+define im_gal_17_01 = True
+define im_gal_17_02 = True
+define im_gal_18_00 = True
+define im_gal_19_00 = True
+define im_gal_19_01 = True
+define im_gal_20_00 = True
+define im_gal_21_00 = True
+define im_gal_21_01 = True
+define im_gal_21_02 = True
+define im_gal_21_03 = True
+define im_gal_21_04 = True
+define im_gal_22_00 = True
+define im_gal_22_01 = True
+define im_gal_23_00 = True
+define im_gal_24_00 = True
+define im_gal_24_01 = True
+define im_gal_24_02 = True
+define im_gal_25_00 = True
+define im_gal_25_01 = True
+define im_gal_25_02 = True
+define im_gal_26_00 = True
+define im_gal_26_01 = True
+define im_gal_27_00 = True
+define im_gal_27_01 = True
+define im_gal_28_00 = True
+define im_gal_28_01 = True
+define im_gal_29_00 = True
+define im_gal_29_01 = True
+define im_gal_29_02 = True
+define im_gal_30_00 = True
+define im_gal_30_01 = True
+define im_gal_30_02 = True
+define im_gal_31_00 = True
+define im_gal_31_01 = True
+define im_gal_31_02 = True
+define im_gal_31_03 = True
+define im_gal_31_04 = True
+define im_gal_31_05 = True
+define im_gal_32_00 = True
+define im_gal_32_01 = True
+define im_gal_32_02 = True
+define im_gal_32_03 = True
+define im_gal_32_04 = True
+define im_gal_32_05 = True
+define im_gal_33_00 = True
+define im_gal_33_01 = True
+define im_gal_33_02 = True
+define im_gal_33_03 = True
+define im_gal_33_04 = True
+define im_gal_33_05 = True
+define im_gal_33_06 = True
+define im_gal_33_07 = True
+define im_gal_34_00 = True
+define im_gal_35_00 = True
+define im_gal_35_01 = True
+define im_gal_35_02 = True
+define im_gal_36_00 = True
+define im_gal_37_00 = True
+define im_gal_37_01 = True
+define im_gal_38_00 = True
+define im_gal_41_00 = True
+define im_gal_41_01 = True
+define im_gal_41_02 = True
+define im_gal_41_03 = True
+define im_gal_42_00 = True
+define im_gal_42_01 = True
+define im_gal_43_00 = True
+define im_gal_43_01 = True
+define im_gal_43_02 = True
+define im_gal_44_00 = True
+define im_gal_44_01 = True
+define im_gal_44_02 = True
+define im_gal_45_00 = True
+define im_gal_45_01 = True
+define im_gal_45_02 = True
+define im_gal_45_03 = True
+define im_gal_45_04 = True
+define im_gal_45_05 = True
+define im_gal_46_00 = True
+define im_gal_46_02 = True
+define im_gal_46_03 = True
+define im_gal_46_04 = True
+define im_gal_46_05 = True
+define im_gal_46_06 = True
+define im_gal_46_07 = True
+define im_gal_46_08 = True
+define im_gal_46_10 = True
+define im_gal_46_11 = True
+define im_gal_47_00 = True
+define im_gal_47_01 = True
+define im_gal_47_02 = True
+define im_gal_47_03 = True
+define im_gal_47_04 = True
+define im_gal_47_05 = True
+define im_gal_47_06 = True
+define im_gal_47_07 = True
+define im_gal_47_08 = True
+define im_gal_47_09 = True
+define im_gal_48_00 = True
+define im_gal_48_01 = True
+define im_gal_49_00 = True
+define im_gal_50_00 = True
+define im_gal_50_01 = True
 
 ################################################
 ## Перенесено из scrypt.rpy Алексея
@@ -316,104 +470,104 @@ image p_diary:
     repeat
 
 image p_dream:
-    "images/prolog/dream/1.jpg"
+    "images/prolog/dream/1.webp"
     pause 0.3
-    "images/prolog/dream/2.jpg"
+    "images/prolog/dream/2.webp"
     pause 0.3
-    "images/prolog/dream/3.jpg"
+    "images/prolog/dream/3.webp"
     pause 0.3
-    "images/prolog/dream/4.jpg"
+    "images/prolog/dream/4.webp"
     pause 0.3
-    "images/prolog/dream/5.jpg"
+    "images/prolog/dream/5.webp"
     pause 0.3
-    "images/prolog/dream/6.jpg"
+    "images/prolog/dream/6.webp"
     pause 0.3
-    "images/prolog/dream/7.jpg"
+    "images/prolog/dream/7.webp"
     pause 0.3
-    "images/prolog/dream/8.jpg"
+    "images/prolog/dream/8.webp"
     pause 0.3
-    "images/prolog/dream/9.jpg"
+    "images/prolog/dream/9.webp"
     pause 0.3
-    "images/prolog/dream/10.jpg"
+    "images/prolog/dream/10.webp"
     pause 0.3
-    "images/prolog/dream/11.jpg"
+    "images/prolog/dream/11.webp"
     pause 0.3
-    "images/prolog/dream/12.jpg"
+    "images/prolog/dream/12.webp"
     pause 0.3
-    "images/prolog/dream/13.jpg"
+    "images/prolog/dream/13.webp"
     pause 0.3
-    "images/prolog/dream/14.jpg"
+    "images/prolog/dream/14.webp"
     pause 0.3
-    "images/prolog/dream/15.jpg"
+    "images/prolog/dream/15.webp"
     pause 0.3
-    "images/prolog/dream/16.jpg"
+    "images/prolog/dream/16.webp"
     pause 0.3
-    "images/prolog/dream/17.jpg"
+    "images/prolog/dream/17.webp"
     pause 0.3
-    "images/prolog/dream/18.jpg"
+    "images/prolog/dream/18.webp"
     pause 0.3
-    "images/prolog/dream/19.jpg"
+    "images/prolog/dream/19.webp"
     pause 0.3
-    "images/prolog/dream/20.jpg"
+    "images/prolog/dream/20.webp"
     pause 0.3
-    "images/prolog/dream/21.jpg"
+    "images/prolog/dream/21.webp"
     pause 0.3
-    "images/prolog/dream/22.jpg"
+    "images/prolog/dream/22.webp"
     pause 0.3
-    "images/prolog/dream/23.jpg"
+    "images/prolog/dream/23.webp"
     pause 0.3
-    "images/prolog/dream/24.jpg"
+    "images/prolog/dream/24.webp"
     pause 0.3
     repeat
 
 image p_house:
-    "images/prolog/house/1.jpg"
+    "images/prolog/house/1.webp"
     pause 0.5
-    "images/prolog/house/2.jpg"
+    "images/prolog/house/2.webp"
     pause 0.5
-    "images/prolog/house/3.jpg"
+    "images/prolog/house/3.webp"
     pause 0.5
-    "images/prolog/house/4.jpg"
+    "images/prolog/house/4.webp"
     pause 0.5
-    "images/prolog/house/5.jpg"
+    "images/prolog/house/5.webp"
     pause 0.5
-    "images/prolog/house/6.jpg"
+    "images/prolog/house/6.webp"
     pause 0.5
-    "images/prolog/house/7.jpg"
+    "images/prolog/house/7.webp"
     pause 0.5
-    "images/prolog/house/8.jpg"
+    "images/prolog/house/8.webp"
     pause 0.5
-    "images/prolog/house/9.jpg"
+    "images/prolog/house/9.webp"
     pause 0.5
-    "images/prolog/house/10.jpg"
+    "images/prolog/house/10.webp"
     pause 0.5
-    "images/prolog/house/11.jpg"
+    "images/prolog/house/11.webp"
     pause 0.5
-    "images/prolog/house/12.jpg"
+    "images/prolog/house/12.webp"
     pause 0.5
-    "images/prolog/house/13.jpg"
+    "images/prolog/house/13.webp"
     pause 0.5
-    "images/prolog/house/14.jpg"
+    "images/prolog/house/14.webp"
     pause 0.5
-    "images/prolog/house/15.jpg"
+    "images/prolog/house/15.webp"
     pause 0.5
-    "images/prolog/house/16.jpg"
+    "images/prolog/house/16.webp"
     pause 0.5
-    "images/prolog/house/17.jpg"
+    "images/prolog/house/17.webp"
     pause 0.5
-    "images/prolog/house/18.jpg"
+    "images/prolog/house/18.webp"
     pause 0.5
-    "images/prolog/house/19.jpg"
+    "images/prolog/house/19.webp"
     pause 0.5
-    "images/prolog/house/20.jpg"
+    "images/prolog/house/20.webp"
     pause 0.5
-    "images/prolog/house/21.jpg"
+    "images/prolog/house/21.webp"
     pause 0.5
-    "images/prolog/house/22.jpg"
+    "images/prolog/house/22.webp"
     pause 0.5
-    "images/prolog/house/23.jpg"
+    "images/prolog/house/23.webp"
     pause 0.5
-    "images/prolog/house/24.jpg"
+    "images/prolog/house/24.webp"
     pause 0.5
     repeat
 

@@ -127,19 +127,19 @@ screen stand_camp_map():
 
         hotspot(1845,0,75,77) action Hide("stand_camp_map"), Show("info_stand")
 
-screen stand_gallery():
+# screen stand_gallery():
 
-    ## Экран с галереей, открывается при клике в главном меню соответствующей таблички на стенде
-    #tag menu
-    zorder 100
-    modal True
+    # ## Экран с галереей, открывается при клике в главном меню соответствующей таблички на стенде
+    # #tag menu
+    # zorder 100
+    # modal True
 
-    imagemap:
-        ground "images/info_stand/stand_gallery_gr.webp"
-        idle "gui/info_stand_nav_idle.png"
-        hover "gui/info_stand_nav_hover.png" 
+    # imagemap:
+        # ground "images/info_stand/stand_gallery_gr.webp"
+        # idle "gui/info_stand_nav_idle.png"
+        # hover "gui/info_stand_nav_hover.png" 
 
-        hotspot(1845,0,75,77) action Hide("stand_gallery"), Show("info_stand")
+        # hotspot(1845,0,75,77) action Hide("stand_gallery"), Show("info_stand")
 
 
 ###################################
@@ -865,7 +865,7 @@ screen info_stand():
         hotspot(1017,181,415,182) action Show ("map")
         hotspot(1018,364,419,123) action Show ("stand_wall_newspaper")
         hotspot(983,512,255,261) action Show ("campmap")
-        hotspot(1243,501,182,136) action Show ("stand_gallery")
+        hotspot(1243,501,182,136) action Show ("stand_gallery_1")
         hotspot(1252,684,175,101) action Show ("stand_tips_owl")
         #hotspot(434,869,282,187) action Show ("sc_d_prologue")
         #hotspot(1258,851,226,212) action Show ("stand_inventory")

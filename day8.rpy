@@ -817,7 +817,7 @@ label day8:
     "Я точно та, кто я на самом деле."
 
 
-    scene ul_pi_campfire with dissolve
+    scene cg ul_pi_campfire with dissolve
 
 
     stop music fadeout 0.5

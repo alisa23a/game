@@ -4,6 +4,20 @@ label day22:
 
     $ days = 22
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_21_00 = True
+    $ im_gal_21_01 = True
+    $ im_gal_21_02 = True
+    $ im_gal_21_03 = True
+    $ im_gal_21_04 = True
+
 
     show screen current_day with fade
 

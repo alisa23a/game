@@ -4,6 +4,21 @@ label day46:
 
     $ days = 46
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_45_00 = True
+    $ im_gal_45_01 = True
+    $ im_gal_45_02 = True
+    $ im_gal_45_03 = True
+    $ im_gal_45_04 = True
+    $ im_gal_45_05 = True
+
 
     show screen current_day with fade
 
@@ -1040,9 +1055,9 @@ label day46:
 
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "Всем в лагере теперь заправлял Долговязый. Петрович второй день в запое."
 
@@ -2890,9 +2905,9 @@ label day46:
 
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "Ну-ка, дай, посмотрю. Вот дела... Получается, мы стали участниками стихийного движения народных масс."
 
@@ -2922,9 +2937,9 @@ label day46:
     "Все засмеялись."
 
     show sp_mi_015:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     "Между тем, Мику беспрестанно теребила свои хвостики и закидывала их за спину. Она всегда делала так, когда волновалась и хотела что-то сказать."
@@ -2945,9 +2960,9 @@ label day46:
     scene bg auhouse3 with dissolve
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "Да. Я не стала говорить при всех, но вам расскажу. Нас не было тогда на площади с Женей в первые минуты, это правда. Но потом мы тоже помогали."
 
@@ -2965,9 +2980,9 @@ label day46:
     scene bg auhouse3 with dissolve
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "Нет. Вовсе нет. Это не наша вина. Виола спрятала нас, когда в лагере начались беспорядки и когда распяли чучело."
 
@@ -3035,9 +3050,9 @@ label day46:
     scene bg auhouse3 with dissolve
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "А потом наверху началось что-то невообразимое, мы не выдержали и вылезли через люк, а потом через окно."
 
@@ -3055,9 +3070,9 @@ label day46:
     scene bg auhouse3 with dissolve
 
     show sp_mi_017:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "Вы же не собираетесь туда?"
 
@@ -3075,9 +3090,9 @@ label day46:
     scene bg auhouse3 with dissolve
 
     show sp_mi_020:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
     mi "Ладно, тогда я пошла. Вы же никому не расскажете?" 
 

@@ -29,19 +29,246 @@ screen stand_honor_board():
 
         hotspot(1845,0,75,77) action Hide("stand_honor_board"), Show("info_stand")
 
+
+
+
+define adv_1 = False
+define adv_3 = False
+define adv_5 = False
+define adv_7 = False
+define adv_10 = False
+define adv_12 = False
+define adv_15 = False
+
+
+style stand_adds_text:
+    color "#222222"
+    font "fonts/B52.ttf"
+    size 40
+
+style stand_adds_header_text:
+    color "#222222"
+    font "fonts/B52.ttf"
+    size 50
+
+
 screen stand_advertisements():
 
-    ## Экран с объявлениями, открывается при клике в главном меню соответствующей таблички на стенде
-    #tag menu
     zorder 100
     modal True
 
-    imagemap:
-        ground "images/info_stand/stand_advertisments_gr.webp"
-        idle "gui/info_stand_nav_idle.png"
-        hover "gui/info_stand_nav_hover.png" 
+    add "images/info_stand/stand_advertisments_gr.webp"
 
-        hotspot(1845,0,75,77) action  Hide("stand_advertisements"), Show("info_stand")
+
+    frame:
+        background "#ddf"
+        align (0.5, 0.5)
+        xysize (1000, 800)
+        xpadding 80
+        ypadding 80
+
+
+        vbox:
+            xalign 0.5
+            vbox:
+                xalign 0.5
+
+                style_prefix "stand_adds_header"
+
+                text "ВНИМАНИЕ!" xalign (0.5)
+
+            if adv_1:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "Вожатым всех отрядов собраться в помещении музкуржка на летучку."
+
+                    null height 20
+
+                    text "Повестка – обсуждение планов торжественного открытия сезона отдыха в ОПЛ «Совенок»."
+
+                    null height 20
+
+                    text "Явка строго обязательна. Время сбора 14-00."
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+            if adv_3:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "Меню столовой будет пересмотрено."
+
+                    null height 20
+
+                    text "Всем вожатым сдать уточнённые списки пионеров нуждающихся в дополнительном питании (особенно касается малышей)."
+
+                    null height 20
+
+                    text "Списки подавать завхозу М. Кейтель. Время подачи списков сегодня до 19-00."
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+            if adv_5:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "Составляется график очередности походов отрядов."
+
+                    null height 20
+
+                    text "Для согласования всем вожатым необходимо подойти к физруку не позже 14-00."
+
+                    null height 20
+
+                    text "Также подать списки детей, которым не разрешены физические нагрузки по показаниям врача лагеря."
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+            if adv_7:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "Сегодня с 10-00 объявляется СУББОТНИК."
+
+                    null height 20
+
+                    text "Генеральная уборка помещений и территорий лагеря в связи с приездом делегации и посещением нашего лагеря представителем организации скаутов США."
+
+                    null height 20
+
+                    text "Вся информация по мероприятию будет у старост групп и вожатых."
+
+                    null height 20
+
+                    text "Явка на субботник строго обязательна!"
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+            if adv_10:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "В связи с плохой погодой пляжные  мероприятия сегодня отменяются!"
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+            if adv_12:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "В связи с карантином танцевальные вечера временно отменяются, до особого распоряжения администрации!"
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+            if adv_15:
+
+                vbox:
+                    xalign 0.5
+
+                    null height 70
+
+                    style_prefix "stand_adds"
+
+                    text "Вожатым согласовать графики выездов своих отрядов в краевой центр."
+
+                    null height 20
+
+                    text "Музей, кинотеатр, экскурсии в совхоз."
+
+                    null height 20
+
+                    text "Заранее подать списки желающих."
+
+                    null height 20
+
+                    text "Директор ОПЛ «Совенок» МП Умнова."
+
+
+
+    # frame:
+        # xpadding 10
+        # ypadding 10
+        # pos (300, 300)
+        # background None
+        # xsize 300
+
+        # if adv_0:
+
+            # vbox:
+
+                # style_prefix "stand_adds"
+                # text "Эмблема горного" xalign (0.5) yalign (0.07):
+                    # size 24
+
+
+
+            # text "Тут будут объявления":
+                # xalign 0.5
+
+
+
+
+    imagebutton:
+        xpos 1856 ypos 11
+        idle "gui/closebut_idle.png"
+        hover "gui/closebut_hover.png"
+        action Hide("stand_advertisements"), Show("info_stand")
+
+
+
+
+
+
+
 
 screen stand_mailbox():
 
@@ -99,6 +326,12 @@ screen stand_main_map():
 
         hotspot(1845,0,75,77) action Hide("stand_main_map"), Show("info_stand")
 
+
+define newspaper_0 = True
+define newspaper_1 = False
+define newspaper_2 = False
+define newspaper_3 = False
+
 screen stand_wall_newspaper():
 
     ## Экран со стенгазетой, открывается при клике в главном меню соответствующей таблички на стенде
@@ -106,12 +339,28 @@ screen stand_wall_newspaper():
     zorder 100
     modal True
 
-    imagemap:
-        ground "images/info_stand/stand_wall_newspaper_gr.webp"
-        idle "gui/info_stand_nav_idle.png"
-        hover "gui/info_stand_nav_hover.png" 
+    if newspaper_0:
 
-        hotspot(1845,0,75,77) action Hide("stand_wall_newspaper"), Show("info_stand")
+        add "images/info_stand/stand_wall_newspaper_0.webp"
+
+    if newspaper_1:
+
+        add "images/info_stand/stand_wall_newspaper_1.webp"
+
+    if newspaper_2:
+
+        add "images/info_stand/stand_wall_newspaper_2.webp"
+
+    if newspaper_3:
+
+        add "images/info_stand/stand_wall_newspaper_3.webp"
+
+    imagebutton:
+        xpos 1856 ypos 11
+        idle "gui/closebut_idle.png"
+        hover "gui/closebut_hover.png"
+        action Hide("stand_wall_newspaper"), Show("info_stand")
+
 
 screen stand_camp_map():
 
@@ -858,7 +1107,7 @@ screen info_stand():
 
         hotspot(589,285,373,42) action Show ("stand_camp_rules")
         hotspot(537,182,458,64) action Show ("stand_honor_board")
-        hotspot(604,330,118,108) action Show ("stand_advertisements")
+        hotspot(604,330,118,108) action Show ("stand_advertisements"), Hide("stand_advertisements"), Show ("stand_advertisements")
         hotspot(847,340,102,106) action Show ("stand_mailbox")
         hotspot(564,486,344,66) action Show ("stand_hikes")
         hotspot(569,747,327,40) action Show ("stand_history")

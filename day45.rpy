@@ -4,6 +4,18 @@ label day45:
 
     $ days = 45
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_44_00 = True
+    $ im_gal_44_01 = True
+    $ im_gal_44_02 = True
+
 
     show screen current_day with fade
 
@@ -77,7 +89,7 @@ label day45:
     hide sp_od_023
 
 
-    show sp_sam_001:
+    show sp_sam_012:
         yalign 0.0 subpixel True
         xalign 0.45 subpixel True
         zoom 1.1
@@ -271,9 +283,9 @@ label day45:
 
 
     show sp_mi_015:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     mi "Девочки, не будем ворошить прошлое. Тем более что эта история с палаткой давно уже всеми разобрана по косточкам."
@@ -300,9 +312,9 @@ label day45:
 
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     mi "Все знают, что у меня «язык помело». Я не удержалась. Не надо было мне рассказывать. И к тому же, они и без меня узнали. Ты же ревела на весь лагерь."
@@ -564,9 +576,9 @@ label day45:
 
 
     show sp_mi_019:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     mi "А мне как-то всё равно. Я не испытывала влечения полов."
@@ -924,9 +936,9 @@ label day45:
 
 
     show sp_mi_013:
-        yalign 0.1 subpixel True
+        yalign 0.07 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2
+        zoom 1.1
     with dissolve
 
     mi "А что для этого нужно?"

@@ -4,6 +4,18 @@ label day11:
 
     $ days = 11
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = True
+    $ adv_12 = False
+    $ adv_15 = False
+
+    $ im_gal_10_00 = True
+    $ im_gal_10_01 = True
+    $ im_gal_10_02 = True
+
 
     play music "audio/music/z_300.mp3"
 

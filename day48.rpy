@@ -4,11 +4,31 @@ label day48:
 
     $ days = 48
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_47_00 = True
+    $ im_gal_47_01 = True
+    $ im_gal_47_02 = True
+    $ im_gal_47_03 = True
+    $ im_gal_47_04 = True
+    $ im_gal_47_05 = True
+    $ im_gal_47_06 = True
+    $ im_gal_47_07 = True
+    $ im_gal_47_08 = True
+    $ im_gal_47_09 = True
+
 
     show screen current_day with fade
 
 
-    play music "audio/music/z_181.mp3"
+    #play music "audio/music/z_181.mp3"
+    play music "audio/music/z_300.mp3"
 
 
     $ show_quick_menu = False

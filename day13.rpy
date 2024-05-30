@@ -4,6 +4,17 @@ label day13:
 
     $ days = 13
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = True
+    $ adv_15 = False
+
+    $ im_gal_11_01 = True
+    $ im_gal_12_00 = True
+
 
     show screen current_day with fade
 
@@ -385,14 +396,14 @@ label day13_2:
 
     hide sp_at_004
 
-    show sp_sam_010:
-        yalign 0.1 subpixel True
+    show sp_sam_013:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     sam "Я понимать что, как это по русски... (подыскивает слова) эээ, революшен... нелегаль?"
 
-    hide sp_sam_010
+    hide sp_sam_013
 
     show sp_sem_001:
         yalign 0.08 subpixel True
@@ -403,14 +414,14 @@ label day13_2:
 
     hide sp_sem_001
 
-    show sp_sam_004:
-        yalign 0.1 subpixel True
+    show sp_sam_012:
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     sam "(Подпрыгивая и хлопая в ладоши) \nО, я понимать! Рашен андеграунд! Мне нравится!"
 
-    hide sp_sam_004
+    hide sp_sam_012
 
     show sp_at_004:
         yalign 0.1 subpixel True
@@ -488,14 +499,14 @@ label day13_2:
 
     hide sp_ul_012
 
-    show sp_sam_004:
+    show sp_sam_012:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     sam "(Смеясь) \nОвца, овца! Я сказать Мегги!"
 
-    hide sp_sam_004
+    hide sp_sam_012
 
     show sp_je_001:
         yalign 0.03 subpixel True
@@ -560,14 +571,14 @@ label day13_2:
 
     hide sp_sl_001
  
-    show sp_el_001:
+    show sp_el_009:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2
 
     el "У кого ключ, тот и убирает за собой!"
 
-    hide sp_el_001
+    hide sp_el_009
 
     show sp_sl_001:
         yalign 0.1 subpixel True
@@ -602,7 +613,7 @@ label day13_2:
         xalign 0.75 subpixel True
         zoom 1.2
 
-    show sp_el_001:
+    show sp_el_009:
         yalign 0.05 subpixel True
         xalign 1.2 subpixel True
         zoom 1.2
@@ -944,12 +955,6 @@ label day13_2:
 
     "После нашей удачной операции по подъему Батискафа, мы снова пошли на Чердак. Туда же перетащили диван физрука. После отбоя собрался почти весь отряд. Все хотели поиграть в карты «на интерес»."
 
-    "Не было только Саманты и Мэгги. Им не сказали, по понятным причинам."
-
-    "Игры в карты были запрещены в лагере. Саманта была слишком прямолинейной и честной и могла проговориться. Она еще не разобралась, что можно, а что нельзя говорить в лагере. Мегги была вообще темной лошадкой."
-
-    "К тому же она была слишком взрослой для нас. А одну, без охраны, Саманту бы не пустили."
-
 
     scene bg attic_inside
 
@@ -962,7 +967,7 @@ label day13_2:
 
     image card_play composite = Composite(
         (13440, 1080),
-        (1150, 0), "images/sp/el/sp_el_001.png",
+        (1150, 0), "images/sp/el/sp_el_009.png",
         #(0, 0), "images/sp/sam/sp_sam_001.png",
         (0, 0), "images/sp/le/sp_le_017.png",
         (360, -120), "images/sp/cards/sp_cards_je_01.png",
@@ -972,7 +977,8 @@ label day13_2:
         (4200, -120), "images/sp/cards/sp_cards_al_01.png",
 
         (7580, 0), "images/sp/sl/sp_sl_001.png",
-        (8780, 50), "images/sp/smu/sp_smu_001.png",
+        (8780, 50), "images/sp/sam/sp_sam_012.png",
+        #(8780, 50), "images/sp/smu/sp_smu_001.png",
         (8040, -120), "images/sp/cards/sp_cards_sem_01.png",
 
         (12720, 0), "images/sp/shu/sp_shu_001.png",

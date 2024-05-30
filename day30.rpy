@@ -4,6 +4,19 @@ label day30:
 
     $ days = 30
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_29_00 = True
+    $ im_gal_29_01 = True
+    $ im_gal_29_02 = True
+
+
     play music "audio/music/z_300.mp3"
 
     show screen current_day with fade

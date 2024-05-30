@@ -4,6 +4,20 @@ label day10:
 
     $ days = 10
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = True
+    $ adv_12 = False
+    $ adv_15 = False
+
+
+
+    $ im_gal_09_00 = True
+    $ im_gal_09_01 = True
+
+
     play music "audio/music/z_300.mp3"
 
     show screen current_day with fade
@@ -496,11 +510,6 @@ label day10:
     "И тут, я вижу, бегут наши."
 
 
-    scene cg squad_fight2 with dissolve
-
-
-    scene cg sl_mi_le_running
-
     pause (10000000000000000000000.0)
 
 
@@ -757,11 +766,6 @@ label day10:
     "Плохо только, что будет собрание отряда, а может даже лагеря, и нас будут ПРОРАБАТЫВАТЬ. Как сказала Ольга Дмитриевна, чтобы другим было неповадно."
 
     "А я так думаю, правильно мы всё сделали!"
-
-
-    scene bg attic2 with dissolve
-
-    "Потом мы собрались всем отрядом на чердаке у нас с Алисой. Потому что никто не мог спать, и все наперебой делились впечатлениями."
 
 
     scene bg mp_office2 with dissolve

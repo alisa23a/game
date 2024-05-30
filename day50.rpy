@@ -4,11 +4,22 @@ label day50:
 
     $ days = 50
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_49_00 = True
+
 
     show screen current_day with fade
 
 
-    play music "audio/music/z_181.mp3"
+    #play music "audio/music/z_181.mp3"
+    play music "audio/music/z_300.mp3"
 
 
     $ show_quick_menu = False
@@ -270,6 +281,9 @@ style credits_vbox:
 
 
 label finalcredits2:
+
+    $ im_gal_50_00 = True
+    $ im_gal_50_01 = True
 
     $ show_quick_menu = False
 

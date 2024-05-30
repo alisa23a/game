@@ -4,6 +4,17 @@ label day28:
 
     $ days = 28
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_27_00 = True
+    $ im_gal_27_01 = True
+
 
     show screen current_day with fade
 

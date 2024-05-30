@@ -4,6 +4,25 @@ label day47:
 
     $ days = 47
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_46_00 = True
+    $ im_gal_46_02 = True
+    $ im_gal_46_03 = True
+    $ im_gal_46_04 = True
+    $ im_gal_46_05 = True
+    $ im_gal_46_06 = True
+    $ im_gal_46_07 = True
+    $ im_gal_46_08 = True
+    $ im_gal_46_10 = True
+    $ im_gal_46_11 = True
+
 
     show screen current_day with fade
 

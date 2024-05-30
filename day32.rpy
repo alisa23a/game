@@ -4,6 +4,21 @@ label day32:
 
     $ days = 32
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_31_00 = True
+    $ im_gal_31_01 = True
+    $ im_gal_31_02 = True
+    $ im_gal_31_03 = True
+    $ im_gal_31_04 = True
+    $ im_gal_31_05 = True
+
 
     show screen current_day with fade
 
@@ -810,9 +825,9 @@ label day32:
 
 
     show sp_ul_013:
-        yalign 0.0 subpixel True
+        yalign -0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1
+        zoom 1.05
     with dissolve
 
     ul "Она... Кажется..."
@@ -840,31 +855,31 @@ label day32:
 
 
     show sp_al_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
-    al "Мне это не нравится, вы оба убьетесь."
+    al "Мне это не нравится, вы оба убьётесь."
 
     hide sp_al_001
 
 
-    show sp_zh_001:
-        yalign 0.05 subpixel True
+    show sp_zh_006:
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.3
     with dissolve
 
-    zh "Ни о чем не беспокойся. Или ты во мне не уверена?"
+    zh "Ни о чём не беспокойся. Или ты во мне не уверена?"
 
-    hide sp_zh_001
+    hide sp_zh_006
 
 
     show sp_al_004:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "Ладно, тогда я с тобой."
@@ -875,9 +890,9 @@ label day32:
 
 
     show sp_al_004:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     "Алиса отвела меня в сторону."
@@ -888,9 +903,9 @@ label day32:
 
 
     show sp_ul_050:
-        yalign 0.0 subpixel True
+        yalign -0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1
+        zoom 1.05
     with dissolve
 
     "Я, наверное, была сильно испугана."
@@ -899,9 +914,9 @@ label day32:
 
 
     show sp_al_004:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "Драки не будет, они там всё порешали."
@@ -910,9 +925,9 @@ label day32:
 
 
     show sp_ul_050:
-        yalign 0.0 subpixel True
+        yalign -0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1
+        zoom 1.05
     with dissolve
 
     "Точно? Семен очень злой. Я его таким никогда не видела."
@@ -937,9 +952,9 @@ label day32:
 
 
     show sp_al_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "Слушай, я не твоя собственность. И ты тут не командуй."
@@ -959,9 +974,9 @@ label day32:
 
 
     show sp_al_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "Интересно. Как раз именно меня он касается. Я же вижу что ты идешь на конфликт. Хочешь устроить тут драку? Валяй. Но учти, в моих глазах ты просто еще больше уронишь себя."
@@ -983,9 +998,9 @@ label day32:
 
 
     show sp_al_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "Это нечестно. Ты же профи, кандидат в мастера по мотоспорту. Сам хвалился. А он просто любитель."
@@ -996,23 +1011,23 @@ label day32:
     hide sp_al_001
 
 
-    show sp_zh_001:
-        yalign 0.05 subpixel True
+    show sp_zh_006:
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.3
     with dissolve
 
     zh "(Внимательно слушает и кивает)\nЯ вижу, вы её бывший друг. Но я не намерен отступать. Ваше предложение есть разумное решение нашего спора. Я согласен на гонку.  Если я проиграю, мы уедем."
 
     zh "(Подмигивает Алисе) \nНо вы должны держать слово."
 
-    hide sp_zh_001
+    hide sp_zh_006
 
 
     show sp_al_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "Жан!"
@@ -1032,9 +1047,9 @@ label day32:
 
 
     show sp_al_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "А если я против?"
@@ -1054,9 +1069,9 @@ label day32:
 
 
     show sp_al_004:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.2 
+        zoom 1.17 
     with dissolve
 
     al "(С усмешкой) \nНу да, конечно. Очень цивилизованно... Хорошо. Только я думаю, ты проиграешь."

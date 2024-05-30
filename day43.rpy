@@ -4,6 +4,17 @@ label day43:
 
     $ days = 43
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_42_00 = True
+    $ im_gal_42_01 = True
+
 
     show screen current_day with fade
 
@@ -28,7 +39,7 @@ label day43:
     queue music "audio/music/track5.mp3"
 
 
-    show sp_mp_004:
+    show sp_mp_003:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.25
@@ -37,7 +48,7 @@ label day43:
 
     "Директриса не смогла дозвониться на «Большую землю». Очевидно, провод замкнул. Поэтому станция в райцентре отключила его."
 
-    hide sp_mp_004
+    hide sp_mp_003
 
     show sp_pe_003:
         yalign 0.05 subpixel True
@@ -74,7 +85,7 @@ label day43:
     hide sp_al_056
 
 
-    show sp_mp_004:
+    show sp_mp_003:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.25
@@ -86,7 +97,7 @@ label day43:
 
     "Чтобы малыши не мешали уборке, младшие отряды отправили с их вожатыми в поход по Старой дороге."
 
-    hide sp_mp_004
+    hide sp_mp_003
 
 
     scene cg meeting with dissolve

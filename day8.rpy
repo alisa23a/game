@@ -11,6 +11,18 @@ label day8:
 
     $ days = 8
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = True
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = False
+
+
+    $ im_gal_07_00 = True
+
+
     show screen current_day with fade
 
 

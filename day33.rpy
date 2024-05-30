@@ -4,6 +4,21 @@ label day33:
 
     $ days = 33
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_32_00 = True
+    $ im_gal_32_01 = True
+    $ im_gal_32_02 = True
+    $ im_gal_32_03 = True
+    $ im_gal_32_04 = True
+    $ im_gal_32_05 = True
+
 
     show screen current_day with fade
 
@@ -1758,9 +1773,9 @@ label day33:
 
 
     show sp_je_003:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.3
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
     with dissolve
 
     je "Дурочка, так и убить можно! Это же галлюциногены."
@@ -1842,9 +1857,9 @@ label day33:
 
 
     show sp_je_001:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.3
+        zoom 1.2
     with dissolve
 
     je "Слова, это вибрация. Так что я не стала бы так небрежно относиться к заклинаниям."
@@ -1948,9 +1963,9 @@ label day33:
 
 
     show sp_je_003:
-        yalign 0.1 subpixel True
+        yalign 0.05 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.3
+        zoom 1.2
     with dissolve
 
     je "Заткнись! Сказано, они пойдут вдвоем. Всё. Отдыхайте."

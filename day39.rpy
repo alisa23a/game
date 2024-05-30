@@ -4,6 +4,17 @@ label day39:
 
     $ days = 39
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_38_00 = True
+
+
     play music "audio/music/z_1003.mp3"
 
     show screen current_day_bad_1 with fade

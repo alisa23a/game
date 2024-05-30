@@ -4,6 +4,18 @@ label day18:
 
     $ days = 18
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_17_00 = True
+    $ im_gal_17_01 = True
+    $ im_gal_17_02 = True
+
 
     show screen current_day with fade
 
@@ -908,11 +920,11 @@ label day18:
 
 
     show sp_mi_012:
-        yalign 0.0 subpixel True
+        yalign -0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.2
+        zoom 1.1
 
-    show sp_od_014:
+    show sp_od_025:
         yalign 0.0 subpixel True
         xalign 0.47 subpixel True
         zoom 1.2

@@ -4,6 +4,19 @@ label day42:
 
     $ days = 42
 
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = True
+
+    $ im_gal_41_00 = True
+    $ im_gal_41_01 = True
+    $ im_gal_41_02 = True
+    $ im_gal_41_03 = True
+
 
     show screen current_day with fade
 
@@ -620,7 +633,7 @@ label day42:
 
     scene bg camp_artifacts with dissolve
 
-    show sp_mp_005:
+    show sp_mp_003:
         yalign 0.0 subpixel True
         xalign 0.46 subpixel True
         zoom 1.1
@@ -769,9 +782,9 @@ label day42:
     scene cg longboat_sail with dissolve
 
 
-    stop music fadeout 0.5 fadeout 1
+    stop music fadeout 0.5
 
-    queue music1 "audio/music/z_002.mp3" fadein 1
+    queue music "audio/music/z_002.mp3"
 
 
     "Наш баркас, который мы отогнали на «Якорную стоянку», наконец получил нормальный парус."
@@ -856,9 +869,9 @@ label day42:
     scene cg longboat_sail with dissolve
 
 
-    stop music fadeout 0.51 fadeout 1
+    stop music fadeout 0.5
 
-    queue music "audio/music/z_022.mp3" fadein 1
+    queue music "audio/music/z_022.mp3"
 
 
 
@@ -1464,7 +1477,7 @@ label day42:
     hide sp_fi_015
 
 
-    show sp_mp_004:
+    show sp_mp_015:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.25
@@ -1480,7 +1493,7 @@ label day42:
 
     mp "Виолетта Церновна, Ваша вина. Вы уверяли меня, что все будут в койках минимум на сутки. Что пошло не так?"
 
-    hide sp_mp_004
+    hide sp_mp_015
 
 
     show sp_vio_001:

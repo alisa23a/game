@@ -3694,6 +3694,7 @@ label sc_p_prologue:
 
     $ days = 1
 
+
     stop music
 
     play music "audio/music/z_017_1.mp3"
@@ -3722,6 +3723,14 @@ label sc_p_00:
 label sc_p_01:
 
     $ style.say_window = style.window_CUSTOM
+
+    $ adv_1 = True
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = False
 
     show screen sc_p_01 with fade
 
@@ -3754,6 +3763,20 @@ label sc_p_03:
 
     $ days = 3
 
+    $ adv_1 = False
+    $ adv_3 = True
+    $ adv_5 = False
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = False
+
+    $ im_gal_02_00 = True
+
+    $ newspaper_0 = False
+    $ newspaper_1 = True
+
+
     show screen sc_p_03 with fade
 
     ""
@@ -3785,6 +3808,9 @@ label sc_p_06:
     $ style.say_window = style.window_CUSTOM
 
     $ days = 4
+
+    $ im_gal_03_00 = True
+
 
     show screen sc_p_06 with fade
 
@@ -3887,6 +3913,22 @@ label sc_p_15:
     $ style.say_window = style.window_CUSTOM
 
     $ days = 5
+
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = True
+    $ adv_7 = False
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = False
+
+
+    $ im_gal_04_00 = True
+    $ im_gal_04_01 = True
+    $ im_gal_04_02 = True
+    $ im_gal_04_03 = True
+    $ im_gal_04_04 = True
+
 
     show screen sc_p_15 with fade
 
@@ -4190,6 +4232,25 @@ label sc_p_43:
 
     $ days = 6
 
+    $ im_gal_05_00 = True
+    $ im_gal_05_01 = True
+    $ im_gal_05_02 = True
+    $ im_gal_05_03 = True
+    $ im_gal_05_04 = True
+    $ im_gal_05_05 = True
+    $ im_gal_05_06 = True
+    $ im_gal_05_07 = True
+    $ im_gal_05_08 = True
+    $ im_gal_05_09 = True
+    $ im_gal_05_10 = True
+    $ im_gal_05_11 = True
+    $ im_gal_05_12 = True
+    $ im_gal_05_13 = True
+    $ im_gal_05_14 = True
+    $ im_gal_05_15 = True
+    $ im_gal_05_16 = True
+
+
     show screen sc_p_43 with fade
 
     ""
@@ -4281,6 +4342,25 @@ label sc_p_52:
     $ style.say_window = style.window_CUSTOM
 
     $ days = 7
+
+
+    $ adv_1 = False
+    $ adv_3 = False
+    $ adv_5 = False
+    $ adv_7 = True
+    $ adv_10 = False
+    $ adv_12 = False
+    $ adv_15 = False
+
+
+    $ im_gal_06_00 = True
+    $ im_gal_06_01 = True
+    $ im_gal_06_02 = True
+    $ im_gal_06_03 = True
+
+    $ newspaper_1 = False
+    $ newspaper_2 = True
+
 
     show screen sc_p_52 with fade
 

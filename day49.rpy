@@ -40,7 +40,7 @@ label day49:
     queue music  "audio/music/z_495.mp3"
 
     
-    "И на следующий день Семен тоже он тоже не появился."
+    "И на следующий день Семён тоже он тоже не появился."
 
 
     scene cg forgotten_diaries with dissolve

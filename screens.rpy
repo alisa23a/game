@@ -1598,6 +1598,7 @@ screen quick_menu():
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Меню") action ShowMenu()
+            textbutton _("Инфостенд") action Show('info_stand')
 
 
 style window:

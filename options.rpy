@@ -151,7 +151,7 @@ define config.save_directory = "UlyanasDiary-1702479661"
 ##
 ## Иконка, показываемая на панели задач или на dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "icon.ico"
 
 
 ## Настройка Дистрибутива ######################################################

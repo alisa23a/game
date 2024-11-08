@@ -364,7 +364,7 @@ label day10:
         xalign 0.45 subpixel True
         zoom 1.2
 
-    show sp_el_001:
+    show sp_el_009:
         yalign 0.05 subpixel True
         xalign 1.0 subpixel True
         zoom 1.2

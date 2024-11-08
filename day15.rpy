@@ -169,56 +169,119 @@ label day15:
 
     show sp_at_001:
         yalign 0.0 subpixel True
-        xalign 0.45 subpixel True
+        xalign 0.0 subpixel True
         zoom 1.2  
 
     "На пляже (Ближнем) ко мне подошла Атсуи."
 
-    ats "Ульяна, ты уже в купальнике? И даже с кругом? Быстро. Я тоже хочу искупаться. \n(переодевается)"
+    ats "Ульяна, ты уже в купальнике? Быстро. Я тоже хочу искупаться. \n(переодевается)"
 
 
-    scene ats_pearl_03 with dissolve
+#    scene ats_pearl_03 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2  
 
     ats "Поплыли за бакен. Ты же хорошо плаваешь."
 
 
-    scene ul_ring_03 with dissolve
+#    scene ul_ring_03 with dissolve
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_036:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
+
 
     ul "Но туда не разрешают. Там течение, да и вообще... Что там делать?"
 
 
-    scene ats_pearl_03 with dissolve
+#    scene ats_pearl_03 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     ats "Течения там нет. Просто физрук пугает таких маленьких и глупых, как мы с тобой. Ему так легче следить за купающимися. Но я уверена, тебе всегда хотелось заплыть подальше. Правда же? Тебе ведь не слабо?"
 
 
-    scene ul_ring_04 with dissolve
+#    scene ul_ring_04 with dissolve
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_036:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     ul "Нет, не слабо. Я лучше всех в классе плаваю. Но, правда, так как ты, не могу."
 
 
-    scene ats_pearl_01 with dissolve
- 
+#    scene ats_pearl_01 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_008:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     ats "Я научу. Что касается причины, то вот она (протягивает мне белую бусинку)."
 
 
-    scene ul_ring_03 with dissolve 
+#    scene ul_ring_03 with dissolve 
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_036:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     ul "Что это?"
 
 
-    scene ats_pearl_01 with dissolve 
+#    scene ats_pearl_01 with dissolve 
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     ats "Речной жемчуг. Только возле берега его не найти. Он на глубине. Там, возле бакена. Хотя глубина не такая уж и большая. Ну, может, метров пять всего."
 
 
-    scene ul_ring_10 with dissolve
+#    scene ul_ring_10 with dissolve
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_042:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     ul "Здорово! Ну-ка, дай мне... Настоящий жемчуг! Хочу себе такой!"
 
 
-    scene ats_pearl_01 with dissolve 
+#    scene ats_pearl_01 with dissolve 
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     ats "Проще простого. Просто поплыли со мной. Я буду нырять, а ты держись за бакен и жди. Я буду отдавать тебе жемчужины, если найду. А то у меня в руках много не поместится. В купальнике нет карманов, а с пакетом нырять неудобно."
 
@@ -280,14 +343,28 @@ label day15:
     "Как потом выяснилось, она плавала аж на Омут. Там, оказывается, на глубине жили самые большие ракушки с самыми большими жемчужинами."
 
 
-    scene ul_ring_10 with dissolve
+#    scene ul_ring_10 with dissolve
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_048:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     "Я не стала открывать жемчужницы, когда вернулась на берег, а ждала Атсуи, хотя очень хотелось открыть, прям не терпелось."
 
     "Я такая вся нетерпеливая! Мне и Алиса всегда выговаривает за это."
 
 
-    scene ats_pearl_04 with dissolve  
+#    scene ats_pearl_04 with dissolve  
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     "Через полчаса появилась Атсуи и упала рядом на песок пляжа. Она тяжело дышала. Но её лицо прямо сияло. Она протянула мне огромную ракушку."
 
@@ -298,38 +375,66 @@ label day15:
     "Атсуи сказала, что можно сделать бусы, если провертеть в каждой сквозную дырочку."
 
 
-    scene ats_pearl_05 with dissolve
+#    scene ats_pearl_05 with dissolve
 
     "Настала очередь большой ракушки. Мы прямо волновались с Атсуи. Наконец, ракушка была открыта."
 
     ats "Нам повезло. Могло ничего не быть. "
 
 
-    scene ats_pearl_02 with dissolve
+ #   scene ats_pearl_02 with dissolve
 
     ats "Смотри, какая огромная!"
 
 
-    scene ul_ring_10 with dissolve 
+#    scene ul_ring_10 with dissolve 
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_036:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     ul "Даа… Это прямо не жемчужина, а жемчужище! Дай подержать!"
 
 
     $ inv_item_01 = True
 
-    scene ats_pearl_05 with dissolve
+#    scene ats_pearl_05 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     show got_pearl
 
     ats "Бери, я же для тебя старалась. Там очень глубоко. Она лежала одна."
 
 
-    scene ul_ring_01 with dissolve  
+#    scene ul_ring_01 with dissolve  
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_042:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     ul "Она переливается всеми цветами радуги! Смотри, смотри! А в Японии есть жемчужные ракушки?"
 
 
-    scene ats_pearl_01 with dissolve
+#    scene ats_pearl_01 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     ats "Да, есть места где обитают ракушки-жемчужницы."
 
@@ -341,17 +446,38 @@ label day15:
     ul "А почему девушки? Ведь парни тоже могут?"
 
 
-    scene ats_pearl_03 with dissolve
+#    scene ats_pearl_03 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_006:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     ats "Нет. Этот промысел очень древний. Замечено, что у ловцов жемчуга мужчин, развивается одна болезнь, которой нет у девушек. К тому же, девушки выносливее."
 
 
-    scene ul_ring_01 with dissolve
+#    scene ul_ring_01 with dissolve
+
+    scene bg nbeach6 with dissolve
+
+    show sp_ul_036:
+        yalign 0.0 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.1
 
     ul "А что за болезнь?"
 
 
-    scene ats_pearl_09 with dissolve
+#    scene ats_pearl_09 with dissolve
+
+    scene bg nbeach3 with dissolve
+
+    show sp_at_007:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2 
 
     "Тут Атсуи покраснела, чего я у неё раньше никогда не наблюдала. У неё кожа такая, не краснеющая. Однако тут она покраснела и перевела разговор на другую тему. Я не стала настаивать."
 

@@ -149,10 +149,33 @@ label day15:
 
 
     scene cg night_swimming with dissolve
+    
+    show sp_al_042:
+        yalign -0.5 subpixel True
+        xalign 0.5 subpixel True
+        zoom 0.8
 
-    "Однажды с Мику, Леной, Славей и Алисой мы туда ходили ночью и смотрели на звезды (ну и купались, конечно). А еще, там можно развести костер. Очень красивый пляж. Жаль, что нам не удалось уговорить ОД сходить туда в ночной поход."
+    show sp_le_025:
+        yalign -1.0 subpixel True
+        xalign 0.9 subpixel True
+        zoom 0.77
+
+    show sp_ul_036:
+        yalign -5.3 subpixel True
+        xalign 0.7 subpixel True
+        zoom 0.7
+
+    "Однажды с Мику, Леной, Славей и Алисой мы туда ходили ночью и смотрели на звезды (ну и купались, конечно). А еще, там можно развести костер."
 
     pause (1000000000000000000.0)
+
+
+    scene cg night_swimming with dissolve
+
+    "Очень красивый пляж. Жаль, что нам не удалось уговорить ОД сходить туда в ночной поход."
+
+    pause (1000000000000000000.0)
+
 
     scene bg abandbeach with dissolve
 
@@ -181,7 +204,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2  
@@ -206,7 +229,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -230,7 +253,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_008:
+    show sp_at_025:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -254,7 +277,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -278,7 +301,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -361,7 +384,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -405,7 +428,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -431,7 +454,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -450,7 +473,7 @@ label day15:
 
     scene bg nbeach3 with dissolve
 
-    show sp_at_006:
+    show sp_at_023:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 

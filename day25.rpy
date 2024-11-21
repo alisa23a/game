@@ -103,12 +103,36 @@ label day25:
     "Скоро мы услышали голоса. На тропе появилась панама Ольги Дмитриевны. За ней шел весь отряд. Но Васи с ними не было. Ольга Дмитриевна была очень сердита."
 
 
-    scene cg meeting_forest with dissolve
+    #scene cg meeting_forest with dissolve
+
+    scene bg glade with dissolve
+    
+    
+    show sp_al_056:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2 
+
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+    
 
     "Все бросились к нам и радовались, что мы нашлись."
 
 
-    scene cg meeting_forest2 with dissolve
+    #scene cg meeting_forest2 with dissolve
+
+    scene bg glade with dissolve
+
+
+    show sp_od_021:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+    with dissolve
 
     od "Какая наглость, Ленина, Двачевская! \nМы все переволновались! Послали Василия по тропе. Наверное, он уже сбегал в лагерь и возвращается назад!"
 

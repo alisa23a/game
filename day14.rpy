@@ -776,9 +776,17 @@ label day14:
     "После чего Алиса сказала: «Теперь всё понятно! Это не он ее кадрит, а она его! С ума сойти!»"
 
 
-    scene cg sl_sem with dissolve
+    #scene cg sl_sem with dissolve
 
     "Да... Интересные дела. И неизвестно, что бы мы еще увидели. Но тут Алиса этих голубков вспугнула. А жаль. Я бы на такое посмотрела."
+
+
+    scene bg fotoc with dissolve
+
+    show sp_sl_024:
+        yalign 0.1 subpixel True
+        xalign 0.45 subpixel True
+        zoom 1.2  
 
     "Ну вот, Алиса так прямо вошла, как бы вроде, только что. А Славя спрыгнула с тумбы и покраснела. Она всегда краснеет, если волнуется."
 
@@ -803,18 +811,18 @@ label day14:
 
     "Яблоко покатилось. Алиса нагнулась, взяла яблоко, потерла его и протянула Семёну. Он как-то растерялся. А она ему, подделавшись под голос Слави: «Семочка, просто возьми яблочко»."
 
-    hide sp_sem_025
 
-    hide sp_al_003
+    scene bg fotoc with dissolve
 
-    show sp_sl_018:
+    show sp_sl_024:
         yalign 0.1 subpixel True
         xalign 0.45 subpixel True
         zoom 1.2  
 
     "Ну тут Славя заерзала и говорит: «Вы зачем пришли?»"
 
-    hide sp_sl_018
+
+    scene bg fotoc with dissolve
 
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -830,9 +838,8 @@ label day14:
 
     "Потом я сказала «Ну если ты занята, то просто можешь дать нам фотоаппарат."
 
-    hide sp_ul_012
 
-    hide sp_al_005
+    scene bg fotoc with dissolve
 
     show sp_sl_001:
         yalign 0.1 subpixel True
@@ -841,7 +848,8 @@ label day14:
 
     "Да, говорит, нет возражений, берите, но только вы мне за него отвечаете. Ну и целую инструкцию нам прочитала, как его хранить, как и куда нажимать, что такое выдержка, диафрагма. Я уже все и не помню."
 
-    hide sp_sl_001
+
+    scene bg fotoc with dissolve
 
     show sp_al_003:
         yalign 0.1 subpixel True
@@ -850,14 +858,17 @@ label day14:
 
     "А Алиса ей: «Не учи ученую. Я знаю, как с фотоаппаратом обращаться. Могу не хуже Семёна снимать»."
 
-    hide sp_al_003
+
+    scene bg fotoc with dissolve
  
     "Тут я оглянулась, а Семёна как ветром сдуло. Сбежал."
+
 
     show sp_sl_019:
         yalign 0.1 subpixel True
         xalign 0.45 subpixel True
-        zoom 1.2  
+        zoom 1.2
+    with dissolve
 
     "А Славя расстроилась."
 
@@ -866,7 +877,7 @@ label day14:
 
     $ inv_item_12 = True
 
-    scene cg ul_camera
+    scene cg ul_camera with dissolve
 
     show got_camera
 

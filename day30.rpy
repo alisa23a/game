@@ -1279,6 +1279,10 @@ label day30:
         pause 0.25
         "images/an/an30day/an_d30_07.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
+        "images/an/an30day/an_d30_06.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_05.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
         "images/an/an30day/an_d30_08.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
         "images/an/an30day/an_d30_09.webp" with Dissolve(0.5, alpha=True)

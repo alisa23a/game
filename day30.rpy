@@ -1293,6 +1293,16 @@ label day30:
         pause 0.25
         "images/an/an30day/an_d30_14.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
+        "images/an/an30day/an_d30_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
 
 
     scene an_30_01 with dissolve

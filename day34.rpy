@@ -700,7 +700,7 @@ label day34:
     gop1 "Я что, неясно излагаю?"
 
 
-    scene cg tunnel_guys2 with dissolve
+    scene cg tunnel_guys_01 with dissolve
 
     "И они сразу ушли. А его приятель, здоровый такой амбал, сказал:"
 
@@ -715,21 +715,16 @@ label day34:
     "Но Алиса, сказав мне «Не отставай», как ни в чем не бывало пошла прямо к ним. Она подошла к их главному и говорит:"
 
 
-    scene bg tuni with dissolve
-
-    show sp_al_005:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2 
+    scene cg tunnel_guys_02 with dissolve
 
     al "Ну что, угостишь травкой пионерку? \n(и так сплюнула на рельсы, прямо как заправский хулиган)"
 
     al "А мы вас пивом угостим."
 
-
-    scene cg tunnel_guys2 with dissolve
-
     "Тут вся компания, как сказала бы Алиса, прифигела. Видно, у них о пионерах другое мнение было. И главный их ответил:"
+
+
+    scene cg tunnel_guys_03 with dissolve
 
     gop1 "Ну садись, красавица, сюда."
 
@@ -739,16 +734,16 @@ label day34:
 
     "И тут все опять засмеялись. А Алиса дерзко так ему:"
 
-    scene bg tuni with dissolve
+    # scene bg tuni with dissolve
 
-    show sp_al_002:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2 
+    # show sp_al_002:
+        # yalign 0.1 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 1.2 
 
     al "На колени пусть тебе тетя Клава садится. Я курила, когда тебя еще мамка кашкой кормила."
 
-    scene cg tunnel_guys2 with dissolve
+    scene cg tunnel_guys_04 with dissolve
 
     "Я испугалась за неё, но эта братва сразу Алису зауважала. Потому что они увидели, что она их не боится. А их главный сказал:"
 
@@ -766,6 +761,26 @@ label day34:
 
     "Алиса с Главным закурили. Он её так разглядывал прямо с интересом. Но худой всё не унимался."
 
+
+
+    image an_34_01: # Анимация Ульяна Алиса моргают перед гопниками
+        
+
+
+        "images/an/an34day/an_d34_02.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an34day/an_d34_01.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an34day/an_d34_03.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an34day/an_d34_01.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+    
+        repeat
+
+
+    scene an_34_01 with dissolve
+
     gop3 "Вован, она тебя развела, нет у них пива."
 
 
@@ -779,7 +794,7 @@ label day34:
     al "Верно, нет. Но вы же лимонад пить не станете?"
 
 
-    scene cg tunnel_guys2 with dissolve
+    scene cg tunnel_guys_01 with dissolve
 
     gop2 "Эт точно..."
 
@@ -791,6 +806,9 @@ label day34:
 
     "И совали мне папироски самодельные, что, мол, если взрослая уже, то кури. Я, конечно, взрослая, но Алиса мне глазами показала, чтобы я не курила."
 
+
+    scene cg tunnel_guys_02 with dissolve
+
     "Ну, в общем, как сказала потом Алиса, мы «усыпили их бдительность»."
 
     "И вся компания стала нам рассказывать, какие они крутые, и что у Вовки есть мотоцикл с коляской, приглашали нас кататься и махнуть на речку вместе."
@@ -798,17 +816,19 @@ label day34:
     "А потом, типа, развлечёмся, и у них есть «кое-что покрепче»."
 
 
-    scene bg tuni with dissolve
+    # scene bg tuni with dissolve
 
-    show sp_ul_013:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
+    # show sp_ul_013:
+        # yalign 0.0 subpixel True
+        # xalign 0.0 subpixel True
+        # zoom 1.1
+
+    scene cg tunnel_guys_03 with dissolve
 
     ul "Приставать будете?"
 
 
-    scene cg tunnel_guys2 with dissolve
+    scene an_34_01 with dissolve
 
     "Они прямо опешили. А их главный, Вова, говорит:"
 
@@ -829,7 +849,7 @@ label day34:
     ul "Ольга Дмитриевна?"
 
 
-    scene cg tunnel_guys2 with dissolve
+    scene cg tunnel_guys_04 with dissolve
 
     gop1 "Во, точно. Она."
 
@@ -856,15 +876,21 @@ label day34:
     al "Он далеко, отсюда не видно."
 
 
-    scene cg tunnel_guys2 with dissolve
+    scene cg tunnel_guys_01 with dissolve
 
     gop1 "Нет, ну я серьезно..."
 
     "Хотя, судя по тому, что те двое шептались, планы у них были сначала другие. Во всяком случае, у Димона."
 
+
+    scene an_34_01 with dissolve
+
     "Они вполголоса о чём-то говорили и на нас смотрели. И Амбал в конце сказал (это я уже слышала отчётливо):"
 
     gop2 "Ты чё, вообще что ли? Только попробуй такое замутить, я те башку сразу снесу."
+
+
+    scene cg tunnel_guys_02 with dissolve
 
     "И Дрищ стушевался и как-то сразу сник."
 
@@ -873,12 +899,14 @@ label day34:
     "И они все наперебой загалдели про какой-то карьер и про шахту. Обещали на экскурсию нас туда свозить на мотоцикле. Но Алиса мне подмигнула и вдруг сказала:"
 
 
-    scene bg tuni with dissolve
+    # scene bg tuni with dissolve
 
-    show sp_al_004:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2 
+    # show sp_al_004:
+        # yalign 0.1 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 1.2 
+
+    scene cg tunnel_guys_01 with dissolve
 
     al "Мальчики, девочкам надо в кустики."
 

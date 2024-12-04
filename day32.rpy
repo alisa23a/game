@@ -600,17 +600,23 @@ label day32:
         pause 1.0
         "images/an/an32day/an_d32_11.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
-        "images/an/an32day/an_d32_10.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
         "images/an/an32day/an_d32_12.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an32day/an_d32_10.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an32day/an_d32_12.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an32day/an_d32_10.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
         "images/an/an32day/an_d32_13.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_14.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_15.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_16.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_17.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_18.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_19.webp" with Dissolve(0.5, alpha=True)
+        pause 1.0
+        "images/an/an32day/an_d32_20.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
 
         repeat

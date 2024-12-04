@@ -532,7 +532,7 @@ label day32:
     "А Славя и Ленка с Алисой смотрят на нас и понимают, у них сегодня нет ни одного шанса ВЗЯТЬ ПРИЗ ЗА ЛУЧШУЮ ПАРУ ВЕЧЕРА."
 
 
-    scene an_d32_10 with dissolve
+    scene dancing_d32 with dissolve
 
 
     stop music fadeout 0.5
@@ -564,7 +564,7 @@ label day32:
     "Но я отшутилась..."
 
 
-    scene an_d32_10 with dissolve
+    scene dancing_d32 with dissolve
 
 
     stop music fadeout 0.5
@@ -704,7 +704,7 @@ label day32:
     "Не стала его удерживать."
 
 
-    scene an_d32_10 with dissolve
+    scene dancing_d32 with dissolve
 
 
     stop music fadeout 0.5

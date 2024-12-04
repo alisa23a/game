@@ -177,7 +177,7 @@ label day8:
         
         repeat
 
-    scene pi_ul_boat with fade
+    scene an_001_001-min with fade
 
 
     stop music fadeout 0.5

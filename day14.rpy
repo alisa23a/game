@@ -231,12 +231,65 @@ label day14:
     "Вторая — «Знаменосец» и третья — лирическая, «Принеси мне цветок полевой». Ну, она тоже любимая. Но только не про меня. Никто мне записок и цветов не шлет. Ну разве что Пионер. Но он не в счет. А вот знамя, это самое то."
 
 
-    scene cg standard_bearer with dissolve
+    #scene cg standard_bearer with dissolve
 
+    image an_14_04: # Анимация Знаменосец
+        
+
+        "images/an/an14day/an_d14_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_38.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_45.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_46.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_47.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_48.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_49.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_50.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_51.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an14day/an_d14_52.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+
+        repeat
+
+
+    scene an_14_04 with dissolve
 
     stop music fadeout 0.5
 
-    queue music "audio/music/znamenosets_v3.0_cut.mp3" noloop
+    #queue music "audio/music/znamenosets_v3.0_cut.mp3" #noloop
+
+    queue music "audio/music/znamenosets_v5.0.mp3"
+
+
+    #pause (10000000000000000000.0)
 
 
     "Бьется знамя на ветру — как живое \nЕсли мы умрем в бою — вместе, двое"

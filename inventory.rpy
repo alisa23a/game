@@ -92,13 +92,16 @@ screen inventory_slots():
         button:
             xpos 592 ypos 52
             xsize 234 ysize 288
-            idle_background "images/inventory/item_prev/prev_with_slot_mapcompass.png"
-            hover_background "images/inventory/item_prev/prev_with_slot_mapcompass.png"
+            # idle_background "images/inventory/item_prev/prev_with_slot_mapcompass.png"
+            # hover_background "images/inventory/item_prev/prev_with_slot_mapcompass.png"
+            idle_background "images/inventory/item_prev/prev_with_slot_petrovich_map.png"
+            hover_background "images/inventory/item_prev/prev_with_slot_petrovich_map.png"
+
             style_prefix "InvItemPrevCaption"
-            text "Карта и компас" xalign (0.5) yalign (0.07):
+            text "Карта Петровича" xalign (0.5) yalign (0.07):
                 size 18
             #focus_mask True
-            action Hide ("inventory_slots"), Show("inv_item_mapcompass")
+            action Hide ("inventory_slots"), Show("inv_item_petrovich_map")
 
     ## Превьюшка Связка ключей
 
@@ -128,19 +131,22 @@ screen inventory_slots():
             #focus_mask True
             action Hide ("inventory_slots"), Show("inv_item_sweets")
 
-    ## Превьюшка Котлетки
+    ## Превьюшка Компас
 
     if inv_item_06:
         button:
             xpos 1342 ypos 52
             xsize 234 ysize 288
-            idle_background "images/inventory/item_prev/prev_with_slot_cutlets.png"
-            hover_background "images/inventory/item_prev/prev_with_slot_cutlets.png"
+            # idle_background "images/inventory/item_prev/prev_with_slot_cutlets.png"
+            # hover_background "images/inventory/item_prev/prev_with_slot_cutlets.png"
+            idle_background "images/inventory/item_prev/prev_with_slot_compass.png"
+            hover_background "images/inventory/item_prev/prev_with_slot_compass.png"
+
             style_prefix "InvItemPrevCaption"
-            text "Котлетки" xalign (0.5) yalign (0.07):
+            text "Компас" xalign (0.5) yalign (0.07):
                 size 18
             #focus_mask True
-            action Hide ("inventory_slots"), Show("inv_item_cutlets")
+            action Hide ("inventory_slots"), Show("inv_item_compass")
 
     ## Превьюшка Потерянные вещи
 
@@ -445,17 +451,18 @@ screen inv_item_notebook():
         hover "gui/bg_1x1_transparent.png"
         action Hide ("inv_item_notebook"), Show("inventory_slots")
 
-screen inv_item_mapcompass():
+screen inv_item_petrovich_map():
 
-    ## Карта и компас
+    ## Карта Петровича
 
     tag menu
     zorder 100
     modal True
 
-    add "images/inventory/item_full/inv_item_full_bg.png"
-    add "images/inventory/item_full/inv_item_mapcompass_full.png" pos (1112, 255)
-        
+    # add "images/inventory/item_full/inv_item_full_bg.png"
+    # add "images/inventory/item_full/inv_item_mapcompass_full.png" pos (1112, 255)
+    add "images/inventory/item_full/inv_item_petrovich_map_full.webp"
+
     frame:
         xpadding 10
         ypadding 10
@@ -463,23 +470,23 @@ screen inv_item_mapcompass():
         background None
 
 
-        vbox:
-            vbox:
-                style_prefix "InvItemStyleTitle"
-                text "Карта и компас"
+        # vbox:
+            # vbox:
+                # style_prefix "InvItemStyleTitle"
+                # text "Карта и компас"
 
-            style_prefix "InvItemStyleText"   
-            vbox:
-                null height 50
-                style_prefix "InvItemStyleText"
-                text "Это моя карта, срисованная \nс настоящей военной карты. \nТоже очень секретная. \nА без нее и компаса, мне нельзя. \nИначе, какой же я следопыт-разведчик?"
+            # style_prefix "InvItemStyleText"   
+            # vbox:
+                # null height 50
+                # style_prefix "InvItemStyleText"
+                # text "Это моя карта, срисованная \nс настоящей военной карты. \nТоже очень секретная. \nА без нее и компаса, мне нельзя. \nИначе, какой же я следопыт-разведчик?"
 
     imagebutton:
         xpos 0 ypos 0
         xsize 1920 ysize 1080
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
-        action Hide ("inv_item_mapcompass"), Show("inventory_slots")
+        action Hide ("inv_item_petrovich_map"), Show("inventory_slots")
 
 screen inv_item_keys():
 
@@ -553,16 +560,16 @@ screen inv_item_sweets():
         hover "gui/bg_1x1_transparent.png"
         action Hide ("inv_item_sweets"), Show("inventory_slots")
 
-screen inv_item_cutlets():
+screen inv_item_compass():
 
-    ## Котлетки
+    ## Компас
 
     tag menu
     zorder 100
     modal True
 
     add "images/inventory/item_full/inv_item_full_bg.png"
-    add "images/inventory/item_full/inv_item_cutlets_full.png" pos (1112, 255)
+    add "images/inventory/item_full/inv_item_compass_full.png" pos (1112, 255)
         
     frame:
         xpadding 10
@@ -574,20 +581,21 @@ screen inv_item_cutlets():
         vbox:
             vbox:
                 style_prefix "InvItemStyleTitle"
-                text "Котлетки"
+                text "Компас"
 
             style_prefix "InvItemStyleText"   
             vbox:
                 null height 50
                 style_prefix "InvItemStyleText"
-                text "Котлетки столовские. \nЛучшее произведение кулинарного \nгения Любовь Никаноровны. \nПросто объедение."
+                text "Мой компас. Хорошая вещь. \nТолько в горах совершенно бесполезен. \nНо пусть будет."
+
 
     imagebutton:
         xpos 0 ypos 0
         xsize 1920 ysize 1080
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
-        action Hide ("inv_item_cutlets"), Show("inventory_slots")
+        action Hide ("inv_item_compass"), Show("inventory_slots")
 
 screen inv_item_shugar_mushrooms():
 

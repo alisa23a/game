@@ -141,10 +141,10 @@ define gm66 = True
 
 define inv_item_01 = False # 1 Жемчужина
 define inv_item_02 = True # 2 Записная книжка
-define inv_item_03 = False # 3 Карта и компас
+define inv_item_03 = False # 3 Карта Петровича
 define inv_item_04 = False # 4 Связка ключей
 define inv_item_05 = True # 5 Конфетки
-define inv_item_06 = True # 6 Котлетки
+define inv_item_06 = True # 6 Компас
 define inv_item_07 = False # 7 Потерянные вещи
 define inv_item_08 = False # 8 Эмблема горного инженера
 define inv_item_09 = True # 9 Моток верёвки

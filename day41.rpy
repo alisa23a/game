@@ -800,38 +800,43 @@ label day41:
     hide sp_al_055
 
 
-    show sp_ul_021:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
+    # show sp_ul_021:
+        # yalign 0.0 subpixel True
+        # xalign 0.0 subpixel True
+        # zoom 1.1
+    # with dissolve
 
-    ul "Скажешь тоже! Я прямо представила себе рыб с щупальцами. Такие рыбоосьминоги. Новый вид. Открыт пионерками Двачевской и Лениной. Впервые в истории науки!"
+    scene cg lendvach_vulgaris
+
+    ul "Скажешь тоже! Я прямо представила себе рыб с руколастами. Новый вид. Открыт пионерками Двачевской и Лениной. Впервые в истории науки!"
 
     ul "Как назовем новый вид?"
 
-    hide sp_ul_021
+    #hide sp_ul_021
 
 
-    show sp_al_037:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
+    # show sp_al_037:
+        # yalign 0.1 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 1.2
 
     al "ЛЕНДВАЧИ. Производное от Ленина и Двачевская."
 
-    hide sp_al_037
+    #hide sp_al_037
 
 
-    show sp_ul_023:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
+    # show sp_ul_023:
+        # yalign 0.0 subpixel True
+        # xalign 0.0 subpixel True
+        # zoom 1.1
+    # with dissolve
 
     ul "Точно. ЛЕНДВАЧ ОБЫКНОВЕННЫЙ."
 
-    hide sp_ul_023
+    #hide sp_ul_023
+
+
+    scene bg gorge with dissolve
 
 
     show sp_al_037:

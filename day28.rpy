@@ -51,7 +51,7 @@ label day28:
 
     scene bg camp_artifacts with dissolve
 
-    show sp_od_001:
+    show sp_od_022:
         yalign 0.0 subpixel True
         xalign 0.47 subpixel True
         zoom 1.1 
@@ -135,7 +135,7 @@ label day28:
     scene an_d28_06 with dissolve
 
 
-    show sp_od_001:
+    show sp_od_022:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 

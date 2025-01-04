@@ -132,8 +132,8 @@ label day31:
     "Алиса что-то вслед мне крикнула. Но я уже не разобрала."
 
 
-    scene an_d31_06 with dissolve
-
+    # scene an_d31_06 with dissolve
+    scene an_001_001-min with dissolve
 
     stop music fadeout 0.5
 
@@ -143,37 +143,37 @@ label day31:
     "В общем, Пионер уже ждал. Мы обогнули остров Ближний и попали прямо на середину реки. Нас понесло течение."
 
 
-    image an_31_01: # Анимация Ульяна Пионер в лодке с медведем
+    # image an_31_01: # Анимация Ульяна Пионер в лодке с медведем
         
-        "images/an/an31day/an_d31_01.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_02.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_03.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_02.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_03.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_04.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_03.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_02.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_05.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an31day/an_d31_06.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
+        # "images/an/an31day/an_d31_01.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_02.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_03.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_02.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_03.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_04.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_03.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_02.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_05.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an31day/an_d31_06.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
        
-        repeat
+        # repeat
 
 
-    scene an_31_01 with dissolve
+    # scene an_31_01 with dissolve
     
-    pause (10000000000000000000000.0)
+    # pause (10000000000000000000000.0)
 
-    scene an_d31_06 with dissolve
+    # scene an_d31_06 with dissolve
 
     "И я спросила:"
 

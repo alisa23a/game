@@ -1132,68 +1132,72 @@ label day10:
     "Каждый день он приходит в зал хореографии и, как ему кажется, упорно тренируется. Чтобы наконец сбросить лишний вес, заработанный поеданием изумительных котлеток Любови Никаноровны."
 
 
-    image an_10_02: # Анимация с Алисой, занимающейся йогой
+    # image an_10_02: # Анимация с Алисой, занимающейся йогой
         
 
-        "images/an/an10day/an_d10_2_02.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_02.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_04.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_05.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_06.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_07.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_06.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_05.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_04.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_08.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_09.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_2_10.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        # "images/an/an10day/an_d10_2_02.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_01.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_02.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_01.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_04.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_05.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_06.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_07.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_06.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_05.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_04.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_03.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_08.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_09.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_2_10.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
 
   
-        repeat
+        # repeat
 
 
-    scene an_d10_2_bg with dissolve
+    # scene an_d10_2_bg with dissolve
+
+    scene alisa_gymnastics with dissolve
 
     "С ним приходила черная, с белой «манишкой и перчатками», кошечка Муся."
 
 
-    scene an_d10_2_bg
+    # scene an_d10_2_bg
 
 
-    show an_10_02
+    # show an_10_02
     
-    pause (10000000000000000000000.0)
+    # pause (10000000000000000000000.0)
     
-    hide an_10_02
+    # hide an_10_02
     
-    show an_d10_2_bg
+    # show an_d10_2_bg
 
     "У них пока никак не складываются отношения. Все потому, что Мармеладу некогда заниматься пустяками. Усиленные тренировки, вот что занимает все его время."
 
     "Муся только вздыхает и любуется на своего избранника. Потому наверное, что больше котов в лагере нет. Иногда она тоже пытается делать упражнения, играя с пяткой Алисы."
 
+
+    pause (10000000000000000000000.0)
 
 
     scene cg alise_training_wcat with dissolve

@@ -59,7 +59,7 @@ label day13:
     "Мы прокрались в каморку. Но ярлычка с нужным номером, т.е. ключа от нашего чердака, там не было. Мы решили, что ключ находиться на связке, которую Петрович носит с собой."
 
 
-    scene an_d13_02_bg
+    scene an_d13_02_01
 
     "Мы знали, что он частенько любит подремать на лавочке . Иногда ключи  почти  падали с его руки  и можно было их умыкнуть, пока он спит. Но спал он чутко. Эту ответственейшую операцию, было поручено провернуть мне. "
 
@@ -89,12 +89,12 @@ screen key_theft_1():
 
     modal True
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_01.webp"
 
     add "stealthekey" pos (0, 0)   
 
     imagebutton:
-        xpos 993 ypos 716
+        xpos 944 ypos 734
         xsize 110 ysize 110
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
@@ -104,21 +104,19 @@ screen key_theft_1():
 
 screen key_theft_2():
 
-    add "images/an/an13day/an_d13_02_bg.webp"
-
-    add "images/an/an13day/an_d13_09.png" pos (0, 0)
+    add "images/an/an13day/an_d13_02_02.webp"
 
 
 screen key_theft_3():
 
     modal True
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_01.webp"
 
     add "stealthekey" pos (0, 0) 
 
     imagebutton:
-        xpos 993 ypos 716
+        xpos 944 ypos 734
         xsize 110 ysize 110
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
@@ -128,20 +126,19 @@ screen key_theft_3():
 
 screen key_theft_4():
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_03.webp"
 
-    add "images/an/an13day/an_d13_10.png" pos (0, 0)
 
 screen key_theft_5():
 
     modal True
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_01.webp"
 
     add "stealthekey" pos (0, 0) 
 
     imagebutton:
-        xpos 993 ypos 716
+        xpos 944 ypos 734
         xsize 110 ysize 110
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
@@ -151,21 +148,20 @@ screen key_theft_5():
 
 screen key_theft_6():
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_04.webp"
 
-    add "images/an/an13day/an_d13_11.png" pos (0, 0)
 
 
 screen key_theft_7():
 
     modal True
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_01.webp"
 
     add "stealthekey" pos (0, 0) 
 
     imagebutton:
-        xpos 993 ypos 716
+        xpos 944 ypos 734
         xsize 110 ysize 110
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
@@ -175,18 +171,15 @@ screen key_theft_7():
 
 screen key_theft_8():
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_05.webp"
 
-    add "images/an/an13day/an_d13_12.png" pos (0, 0)
+    add "images/an/an13day/an_d13_17.png" pos (0, 0)
 
 
 screen key_theft_9():
 
-    add "images/an/an13day/an_d13_02_bg.webp"
+    add "images/an/an13day/an_d13_02_05.webp"
 
-    add "images/an/an13day/an_d13_12.png" pos (0, 0)
-
-    add "images/an/an13day/an_d13_17.png" pos (0, 0)
 
 
 label key_theft_1:

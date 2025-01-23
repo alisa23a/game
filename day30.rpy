@@ -845,53 +845,53 @@ label day30:
 
     image an_30_02: # Анимация Юля холодильник
         
-        "images/an/an30day/an_d30_15.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_16.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_17.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_18.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_19.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
         "images/an/an30day/an_d30_20.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_20.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_15.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_16.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_17.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an30day/an_d30_22.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_26.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an30day/an_d30_20.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an30day/an_d30_21.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_22.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_27.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_26.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_25.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_26.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_28.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_23.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_29.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
-        "images/an/an30day/an_d30_24.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an30day/an_d30_29.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
 
         repeat
@@ -1297,15 +1297,15 @@ label day30:
         pause 0.25
         "images/an/an30day/an_d30_14.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
-        "images/an/an30day/an_d30_39.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_15.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
-        "images/an/an30day/an_d30_40.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_16.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
-        "images/an/an30day/an_d30_41.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_17.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
-        "images/an/an30day/an_d30_42.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_18.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
-        "images/an/an30day/an_d30_43.webp" with Dissolve(0.5, alpha=True)
+        "images/an/an30day/an_d30_19.webp" with Dissolve(0.5, alpha=True)
         pause 0.25
 
 
@@ -1792,47 +1792,83 @@ label day30:
     "Помню только, что Семён поднялся с Женей на чердак. Они там о чем то болтали, а дверь была закрыта, и я так и не смогла подслушать."
 
 
-    scene an_d30_25 with dissolve
+    scene an_d30_30 with dissolve
  
     "Но когда они вышли, он ее обнял прямо на лестнице. И они целовались. Прямо по-взрослому."
 
 
     image an_30_03: # Анимация Семён Женя целуются в Старом лагере
         
-        "images/an/an30day/an_d30_25.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_26.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_27.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_28.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_29.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_30.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_31.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_32.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_33.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_34.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_29.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_28.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_35.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_36.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        # "images/an/an30day/an_d30_30.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
+        # "images/an/an30day/an_d30_31.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
+        # "images/an/an30day/an_d30_32.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
+        # "images/an/an30day/an_d30_33.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
+        # "images/an/an30day/an_d30_34.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
+        # "images/an/an30day/an_d30_35.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
+        # "images/an/an30day/an_d30_36.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.25
         "images/an/an30day/an_d30_37.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an30day/an_d30_36.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        pause 0.25
         "images/an/an30day/an_d30_38.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        pause 0.25
+        "images/an/an30day/an_d30_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_45.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_46.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_47.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_48.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_49.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_50.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_51.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_52.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_53.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_54.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_55.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_56.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_57.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_58.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_59.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_58.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_57.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_56.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_55.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
+        "images/an/an30day/an_d30_54.webp" with Dissolve(0.5, alpha=True)
+        pause 0.25
 
         repeat
 

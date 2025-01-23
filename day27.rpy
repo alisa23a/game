@@ -791,7 +791,10 @@ label day27_cont2:
 
 label day27_cont3:
 
+    if config.rollback_enabled == False:
 
+        $ renpy.block_rollback()
+        $ config.rollback_enabled = True
 
     scene bg camp with dissolve
 

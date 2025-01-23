@@ -415,7 +415,7 @@ screen attic_ds:
     if doc_search_item_11 == False:
 
         imagebutton:
-            xpos 832 ypos 557
+            xpos 46 ypos 908
             xsize 70 ysize 70
             idle "images/docs_search/p_11_shoulder_badge.png"
             hover "images/docs_search/p_11_shoulder_badge.png"

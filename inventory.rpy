@@ -2247,6 +2247,23 @@ screen lost_stuff_12():
         action Hide ("lost_stuff_12"), Show("lost_stuff_slots")
 
 
+    style_prefix "InvItemStyleTitle"
+
+    button:
+        xpos 480 ypos 820
+        xsize 960 ysize 128
+        idle_background "images/docs_search/investignation.png"
+        hover_background "images/docs_search/investignation.png"
+        style_prefix "InvItemPrevCaption"
+        text "Начать расследование по предмету" xalign (0.5) yalign (0.5):
+            size 34
+            font "fonts/mateur-webfont.ttf"
+        #focus_mask True
+        action Hide ("lost_stuff_12"), Jump("invest_12")
+
+
+
+
 screen lost_stuff_13():
 
     ## Пряжка от ремня

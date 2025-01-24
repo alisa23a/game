@@ -561,6 +561,17 @@ screen secret3_ds:
 
 
 
+
+#screen start_investignation_12:
+
+    add "bg secret2"
+
+
+
+
+        
+
+
 label docs_search:
 
     $ show_quick_menu = False
@@ -888,9 +899,29 @@ label secret2_ds_find_12:
 
     show got_doc_search_item_12
 
-    pause (10000000000000000000.0)
+
+    pause (100000000000000000000000000000000.0)
+
 
     hide got_doc_search_item_12
+
+
+    menu:
+
+        "Начать расследование по предмету?"
+
+        "Да":
+            jump start_investignation_12
+
+        "Нет":
+            jump secret2_ds
+
+
+    #show screen start_investignation_12
+
+
+    pause (100000000000000000000000000000000.0)
+
 
     show screen secret2_ds
 
@@ -999,299 +1030,5 @@ label secret3_ds:
     pause (10000000000000000000.0)
 
 
+################################################################
 
-
-# label atsuroom:
-    # scene bg atsuroom with dissolve
-    # "Комната Атсуи"
-    # scene bg atsuroom2 with dissolve
-    # "Комната Атсуи2"
-    # call screen docs_search
-    # return
-    
-# label showers:
-    # scene bg showers with dissolve
-    # "Душевые"
-    # scene bg showers2 with dissolve
-    # "Душевые2"
-    # call screen docs_search
-    # return
-    
-# label zcloset:
-    # scene bg zcloset with dissolve
-    # "Каморка Жени"
-    # scene bg zcloset2 with dissolve
-    # "Каморка Жени2"
-    # call screen docs_search
-    # return
-    
-# label diroom:
-    # scene bg diroom with dissolve
-    # "Комната директрисы"
-    # call screen docs_search
-    # return
-    
-# label library:
-    # scene bg library with dissolve
-    # "Библиотека"
-    # scene bg library2 with dissolve
-    # "Библиотека2"
-    # call screen docs_search
-    # return
-    
-# label medic:
-    # scene bg medic with dissolve
-    # "Медпункт"
-    # call screen docs_search
-    # return
-    
-# label viroom:
-    # scene bg viroom with dissolve
-    # "Комната Виолы"
-    # call screen docs_search
-    # return
-    
-# label odhouse:
-    # scene bg odhouse with dissolve
-    # "Домик ОД и Семёна"
-    # scene bg odhouse2 with dissolve
-    # "Комната ОД"
-    # scene bg odhouse3 with dissolve
-    # "Комната Семёна"
-    # call screen docs_search
-    # return
-    
-# label msecret:
-    # scene bg msecret with dissolve
-    # "Чердак меганычка"
-    # scene bg msecret2 with dissolve
-    # "Чердак меганычка2"
-    # call screen docs_search
-    # return
-    
-# label secret1:
-    # scene bg secret1 with dissolve
-    # "Нычка 1"
-    # call screen docs_search
-    # return
-    
-# label genda:
-    # scene bg genda with dissolve
-    # "Генда"
-    # call screen docs_search
-    # return
-    
-# label square:
-    # scene bg square with dissolve
-    # "Площадь"
-    # call screen docs_search
-    # return
-    
-# label lmhouse:
-    # scene bg lmhouse with dissolve
-    # "Домик Лены и Мику"
-    # scene bg lmhouse2 with dissolve
-    # "Домик Лены и Мику2"
-    # call screen docs_search
-    # return
-    
-# label dining:
-    # scene bg dining with dissolve
-    # "Столовая"
-    # call screen docs_search
-    # return
-    
-# label watchcloset:
-    # scene bg watchcloset with dissolve
-    # "Каморка сторожа"
-    # call screen docs_search
-    # return
-    
-# label stock:
-    # scene bg stock with dissolve
-    # "Склад"
-    # scene bg stock2 with dissolve
-    # "Склад2"
-    # call screen docs_search
-    # return
-    
-# label busstop:
-    # scene bg busstop5 with dissolve
-    # "Центральный вход. Автобус 410"
-    # scene bg busstop4 with dissolve
-    # "Центральный вход. Автобус 410 2"
-    # scene bg busstop with dissolve
-    # "Центральный вход. Автобус 410 3"
-    # scene bg busstop3 with dissolve
-    # "Центральный вход. Автобус 410 4"
-    # call screen docs_search
-    # return
-    
-# label stand:
-    # scene bg stand with dissolve
-    # "Cтенд. Рассписание"
-    # call screen docs_search
-    # return
-    
-# label secret4:
-    # scene bg secret4 with dissolve
-    # "Нычка 4. Гитара"
-    # call screen docs_search
-    # return
-    
-# label bombu:
-    # scene bg bombu with dissolve
-    # "Вход в бомбоубежище"
-    # scene bg bombu2 with dissolve
-    # "Вход в бомбоубежище2"
-    # call screen docs_search
-    # return
-    
-# label stadium:
-    # scene bg stadium with dissolve
-    # "Стадион"
-    # scene bg stadium2 with dissolve
-    # "Стадион2"
-    # call screen docs_search
-    # return
-    
-# label stage:
-    # scene bg stage with dissolve
-    # "Эстрада"
-    # scene bg stage2 with dissolve
-    # "Эстрада2"
-    # call screen docs_search
-    # return
-    
-# label handmade:
-    # scene bg handmade with dissolve
-    # 'Кружок "Умелые руки"'
-    # call screen docs_search
-    # return
-    
-# label gteach:
-    # scene bg gteach with dissolve
-    # "Комната физрука и завхоза"
-    # call screen docs_search
-    # return
-    
-# label fotoc:
-    # scene bg fotoc with dissolve
-    # "Фотостудия"
-    # call screen docs_search
-    # return
-    
-# label kroof:
-    # scene bg kroof with dissolve
-    # "Крыша на которой удобно целоваться"
-    # call screen docs_search
-    # return
-    
-# label szhhouse:
-    # scene bg szhhouse with dissolve
-    # "Домик Слави и Жени"
-    # call screen docs_search
-    # return
-    
-# label secret2:
-    # scene bg secret2 with dissolve
-    # "Нычка 2"
-    # call screen docs_search
-    # return
-    
-# label secret3:
-    # scene bg secret3 with dissolve
-    # "Нычка 3"
-    # call screen docs_search
-    
-# label shande:
-    # scene bg shande with dissolve
-    # "2 этаж. Шурик и Электроник"
-    # call screen docs_search
-    # return
-    
-# label stels:
-    # scene bg stels with dissolve
-    # "Лазейка. Уйти незаметно."
-    # call screen docs_search
-    # return
-    
-# label attic:
-    # scene bg attic with dissolve
-    # "Чердак. Лучшая нычка для курения и игры в карты."
-    # call screen docs_search
-    # return
-    
-# label auhouse:
-    # scene bg auhouse with dissolve
-    # "Домик Алисы и Ульяны."
-    # scene bg auhouse2 with dissolve
-    # "Домик Алисы и Ульяны2."
-    # call screen docs_search
-    # return
-    
-# label pointers:
-    # scene bg pointers with dissolve
-    # "Тропинка. Указатели."
-    # call screen map
-    # return
-    
-# label tirhands:
-    # scene bg tirhands with dissolve
-    # "Кружок Усталые ручки"
-    # scene bg tirhands2 with dissolve
-    # "Кружок Усталые ручки2"
-    # call screen docs_search
-    # return
-    
-# label peep1:
-    # scene bg peep1 with dissolve
-    # "Подглядывать 1"
-    # call screen docs_search
-    # return
-    
-# label peep2:
-    # scene bg peep2 with dissolve
-    # "Подглядывать 2"
-    # call screen docs_search
-    # return
-    
-# label peep3:
-    # scene bg peep3 with dissolve
-    # "Подглядывать 3"
-    # scene bg peep32 with dissolve
-    # "Подглядывать 3 2"
-    # call screen docs_search
-    # return
-    
-# label peep4:
-    # scene bg peep4 with dissolve
-    # "Подглядывать 4"
-    # call screen docs_search
-    # return
-    
-# label peep5:
-    # scene bg peep5 with dissolve
-    # "Подглядывать 5"
-    # call screen docs_search
-    # return
-    
-# label peep6:
-    # scene bg peep6 with dissolve
-    # "Подглядывать 6"
-    # call screen docs_search
-    # return
-    
-# label secret7:
-    # scene bg secret7 with dissolve
-    # "Нычка 7"
-    # scene bg secret72 with dissolve
-    # "Нычка 7 2"
-    # call screen docs_search
-    # return
-    
-# label sroom:
-    # scene bg sroom with dissolve
-    # "Комната саманты"
-    # call screen docs_search
-    # return

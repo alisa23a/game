@@ -135,6 +135,7 @@ define gm63 = True
 define gm64 = True
 define gm65 = True
 define gm66 = True
+define gm67 = True
 
 #####################
 ## Переменные определяющие видимость предметов в инвентаре

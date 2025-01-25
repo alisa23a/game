@@ -2720,6 +2720,39 @@ screen aulane:
 
 
 
+screen misemhidenbeach:
+
+    # Пляж Мику и Семёна
+
+    #tag menu
+    modal True
+    zorder 300
+
+    add "bg mi_sem_hiden_beach"
+
+    frame:
+        xpadding 30
+        ypadding 10
+        pos (50, 50)
+
+        style_prefix "LocationStyleTitle"
+        vbox:
+            style_prefix "LocationStyleTitle"
+            vbox:
+                style_prefix "LocationStyleTitle"
+                text "Пляж Мику и Семёна"
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("misemhidenbeach"), Show("map")
+
+
+
+
+
 label nbeach:
     scene bg nbeach with dissolve
     "Пляж ближний"

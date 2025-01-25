@@ -615,3 +615,12 @@ screen map:
                 hover_foreground "images/fireh.png"
                 focus_mask True
                 action Hide ("map"), Show ("aulane")
+
+        if gm67:
+            button:
+                xpos 120 ypos 590
+                xsize 27 ysize 37
+                idle_background "images/fire.png"
+                hover_foreground "images/fireh.png"
+                focus_mask True
+                action Hide ("map"), Show ("misemhidenbeach")

@@ -719,7 +719,7 @@ default show_window = False
 
 
 
-
+define item_alice_diary = False # Дневник Алисы в инвентаре
 
 
 

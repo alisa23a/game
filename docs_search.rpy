@@ -558,18 +558,7 @@ screen secret3_ds:
         idle "gui/closebut_idle.png"
         hover "gui/closebut_hover.png"
         action Hide ("secret3_ds"), Show("docs_search")
-
-
-
-
-#screen start_investignation_12:
-
-    add "bg secret2"
-
-
-
-
-        
+      
 
 
 label docs_search:

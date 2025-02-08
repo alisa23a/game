@@ -1269,31 +1269,15 @@ label day27_cont3:
     "И она помчалась. А я схватила фотоаппарат и перефотала все странички Сёминого дневника. Вот."
 
 
-label if_diary:
-
-    if item_alice_diary:
-        jump have_diary
-
-    else:
-        jump day28
 
 
-label have_diary:
-
-    "А вечером я прокралась в нычку, достала из нее дневник Алисы и, прихватив пару яблок и фонарик, забралась на чердак. Там я неспеша могла читать, не беспокоясь что кто-то меня потревожит."
- 
-
-    scene bg msecret with dissolve 
-
-    show screen read_alice_daiary
-
-
-    pause (10000000000000000000000.0)
+    #hide screen read_alice_diary
 
     scene black with fade
 
     stop music fadeout 1.0
 
     jump day28
+    #jump alice_diary
 
 return 

@@ -71,6 +71,8 @@ define pis = Character('Пионеры', color="#b22222")
 
 define gop1 = Character('Главный', color="#778899")
 
+define vov = Character('Вован', color="#778899")
+
 define gop2 = Character('Амбал', color="#b8860b")
 
 define gop3 = Character('Дрищ', color="#bc8f8f")

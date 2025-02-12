@@ -1579,7 +1579,7 @@ label alice_diary:
 
     scene bg library with dissolve
 
-    show sp_vov_002:
+    show sp_vov_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.3
@@ -1635,7 +1635,7 @@ label alice_diary:
 
     scene bg library with dissolve
 
-    show sp_vov_002:
+    show sp_vov_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.3
@@ -1712,7 +1712,7 @@ label alice_diary:
 
     scene bg crsh2 with dissolve
 
-    show sp_vov_002:
+    show sp_vov_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.3
@@ -1734,7 +1734,7 @@ label alice_diary:
 
     scene bg crsh2 with dissolve
 
-    show sp_vov_002:
+    show sp_vov_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.3
@@ -1794,7 +1794,7 @@ label alice_diary:
 
     scene bg crsh2 with dissolve
 
-    show sp_vov_003:
+    show sp_vov_004:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True
         zoom 1.3

@@ -192,7 +192,7 @@ label day36:
 
     scene bg medic2 with dissolve
 
-    show sp_vio_017:
+    show sp_vio_023:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1

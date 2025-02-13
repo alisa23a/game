@@ -148,7 +148,8 @@ label day10:
     hide sp_ul_013
 
 
-    scene an_spec_nb_02_12 with dissolve
+    #scene an_spec_nb_02_12 with dissolve
+    scene cg al_bat_tree with dissolve
 
     al "Тогда я на всякий случай возьму биту для бейсбола, которую мне подарила Саманта. На всякий крайний. Ну, если толпой нападут. А один на один на кулаках он мне проиграет."
 
@@ -186,7 +187,9 @@ label day10:
         repeat
 
 
-    scene spec_nb_02_an_01 with dissolve
+    #scene spec_nb_02_an_01 with dissolve
+
+    scene cg al_bat_tree
 
     pause (10000000000000000000000.0)
 

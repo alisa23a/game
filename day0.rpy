@@ -1017,8 +1017,21 @@ screen sc_p_15_1_pic:
         xsize 1920 ysize 1080
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
-        action Hide ("sc_p_15_1_pic"), Show("sc_p_15_1")
+        action Hide ("sc_p_15_1_pic"), Show("sc_p_15_1_pic2")
 
+
+screen sc_p_15_1_pic2:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg le_frog_diary2"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_15_1_pic2"), Show("sc_p_15_1")
 
 
 screen sc_p_15_2:
@@ -1034,11 +1047,25 @@ screen sc_p_15_2:
 
             null height 100
 
+            imagebutton xalign 0.45 yalign 0.45:
+                idle ("images/diary/diary15-2i.png")
+                hover ("images/diary/diary15-2h.png")
+                action Hide ("sc_p_15_2"), Show("sc_p_15_2_pic")
+
+            null height 20
+
             text "Мы с Алисой тут же кинулись в туалет, где сползая по стеночке, хохотали до слез, пока туда не вошли забрызганные компотом Лена и Мику. А мы спрятались в кабинке и слышали, как Мику успокаивает рыдающую Лену. Потом мы прошли мимо них и Алиса кинула через плечо:"
 
             text "— Ой-ой, было бы из-за кого плакать!"
 
             text "После сцены в столовой нам с Алисой был объявлен бойкот. При нашем появлении Лена теперь всегда отходила в сторону или меняла тему разговора. Славя, немного подумав, пришла к нам с Алисой в гости «выяснять отношения».  Очевидно, поступок Семёна огорчил её не меньше, чем демонстрация Алисы и моя выходка. Никто не сомневался, что появление  земноводного в тарелке Лены моих рук дело, я поняла это сразу."
+
+
+
+
+        vbox:
+
+            null height 100
 
             text "— Я ничего не расскажу Ольге Дмитриевне, – заявила Славя, имея в виду  лягушонка. — Но ты, Уля, должна уже становиться серьезней!"
 
@@ -1046,14 +1073,23 @@ screen sc_p_15_2:
 
             text "Я боялась, что Алиса начнет её жалеть, будет успокаивать, мол, ничего такого у нас с Сёмой нет и всё в таком духе. Но Алиса молчала."
 
-
-        vbox:
-
-            null height 100
-
             text "В конце концов, поговорив  для отвлечения внимания о распорядке в лагере и о приближающемся концерте, Славя ушла. Как сказал бы папа, ушла «не солоно хлебавши». Мы с Алиской стукнулись кулаками. "
 
             text "— Процесс пошел, — сказала Алиса. — Ну, а теперь рассказывай, вредная девчонка, где ты болталась всю ночь?"
+
+
+screen sc_p_15_2_pic:
+    tag menu
+    zorder 110
+    modal True
+
+    add "cg le_mi_crying"
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("sc_p_15_2_pic"), Show("sc_p_15_2")
 
 
 image cg pillow_fight = "images/cg/cg_day11_day12/cg pillow_fight.webp"

@@ -1219,6 +1219,26 @@ label day46:
         pause 0.5
         "images/an/an46day/an_d46_19.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
+        "images/an/an46day/an_d46_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_89.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_90.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_91.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_92.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_93.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_94.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an46day/an_d46_95.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
 
 
         repeat

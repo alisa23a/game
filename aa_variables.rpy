@@ -470,56 +470,7 @@ image p_diary:
     pause 0.4
     repeat
 
-image p_dream:
-    "images/prolog/dream/1.webp"
-    pause 0.3
-    "images/prolog/dream/2.webp"
-    pause 0.3
-    "images/prolog/dream/3.webp"
-    pause 0.3
-    "images/prolog/dream/4.webp"
-    pause 0.3
-    "images/prolog/dream/5.webp"
-    pause 0.3
-    "images/prolog/dream/6.webp"
-    pause 0.3
-    "images/prolog/dream/7.webp"
-    pause 0.3
-    "images/prolog/dream/8.webp"
-    pause 0.3
-    "images/prolog/dream/9.webp"
-    pause 0.3
-    "images/prolog/dream/10.webp"
-    pause 0.3
-    "images/prolog/dream/11.webp"
-    pause 0.3
-    "images/prolog/dream/12.webp"
-    pause 0.3
-    "images/prolog/dream/13.webp"
-    pause 0.3
-    "images/prolog/dream/14.webp"
-    pause 0.3
-    "images/prolog/dream/15.webp"
-    pause 0.3
-    "images/prolog/dream/16.webp"
-    pause 0.3
-    "images/prolog/dream/17.webp"
-    pause 0.3
-    "images/prolog/dream/18.webp"
-    pause 0.3
-    "images/prolog/dream/19.webp"
-    pause 0.3
-    "images/prolog/dream/20.webp"
-    pause 0.3
-    "images/prolog/dream/21.webp"
-    pause 0.3
-    "images/prolog/dream/22.webp"
-    pause 0.3
-    "images/prolog/dream/23.webp"
-    pause 0.3
-    "images/prolog/dream/24.webp"
-    pause 0.3
-    repeat
+
 
 image p_house:
     "images/prolog/house/1.webp"

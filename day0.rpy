@@ -145,6 +145,9 @@ label sc_p_prologue:
 
     "Скоро за нами прислали автобус. Вот его номер я помню точно, номер 410 и ещё табличку на нём: «ОСТОРОЖНО ДЕТИ»."
 
+
+
+
     scene cg buss_starry_sky
 
     pause (10000000000000000000000.0)
@@ -168,6 +171,10 @@ label sc_p_prologue:
 
     pause (10000000000000000000000.0)
 
+
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_131.mp3"
 
     scene cg ul_in_buss with dissolve
 
@@ -273,7 +280,14 @@ label sc_p_prologue:
     pause (10000000000000000000000.0)
 
 
-    scene cg ul_out_buss with dissolve
+  
+    stop music fadeout 0.5
+
+    queue music  "audio/music/z_022.mp3"
+
+  #scene cg ul_out_buss with dissolve
+    scene cg buss_gates with dissolve
+
 
     "Я ощупывала ногой пол, как слепая, пока шла к выходу. Мне казалось, что сейчас автобус снова полетит. И я прямо побежала, чтобы не остаться в нём."
 
@@ -283,7 +297,7 @@ label sc_p_prologue:
 
     "И один мальчик, вожатый, вызвался показать, как найти домик Ольги Дмитриевны, потому что она у нас главная. Хотел взять меня за руку, но я не дала. Что я, маленькая что ли?"
 
-    scene cg ul_out_buss with dissolve
+    scene cg buss_gates with dissolve
 
     pause (10000000000000000000000.0)
 

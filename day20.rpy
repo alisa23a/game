@@ -403,7 +403,7 @@ label day20:
         repeat
 
 
-    scene an_20_01 with dissolve
+    #scene an_20_01 with dissolve
 
     pause (10000000000000000000000.0)
 

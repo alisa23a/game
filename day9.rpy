@@ -1153,7 +1153,7 @@ label day9:
     "И мы нырнули."
 
 
-    scene cg tdom_night_swimming2 with dissolve
+    scene cg tdom_night_swimming8 with dissolve
 
 
     stop music fadeout 0.5 fadeout 1.0
@@ -1166,10 +1166,6 @@ label day9:
     al "Улька, ты слышала? Кто-то шарится по берегу, там, где наша одежда. Давай, скорее вылезай!"
 
     al "Черт!"
-
-
-    scene cg tdom_night_swimming8 with dissolve
-
 
     al "(Кричит в темноту) \nА ну-ка, отойдите от одежды!"
 
@@ -1259,7 +1255,7 @@ label sem_helps:
     sem "Девочки, вот одежда. Я в лагерь."
 
 
-    scene cg tdom_night_swimming8 with dissolve
+    scene cg tdom_night_swimming9 with dissolve
 
     al_ul "Спасибо! Сёма, ты... Ты просто классный!"
 
@@ -1419,7 +1415,7 @@ label sem_doesnt_help:
     sem "Зря вы от нас сбежали, мы еще у костра попели. Вас не хватало."
 
 
-    scene cg tdom_night_swimming8 with dissolve
+    scene cg tdom_night_swimming10 with dissolve
 
     al "Спасибо. Хорошо. Обещаем. Отойди, нам одеться надо."
 
@@ -1434,7 +1430,7 @@ label sem_doesnt_help:
     sem "Пусть Ульяна даст честное пионерское слово. Я ей верю."
 
 
-    scene cg tdom_night_swimming8 with dissolve
+    scene cg tdom_night_swimming10 with dissolve
 
     ul "Честное пионерское!"
 

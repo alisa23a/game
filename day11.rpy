@@ -573,14 +573,13 @@ label day11:
     scene bg watchmans_cabin with dissolve
 
     show sp_al_005:
-        yalign 0.0 subpixel True
-        xalign 0.9 subpixel True
+        yalign 0.2 subpixel True
+        xalign 0.55 subpixel True
         zoom 0.6
-
     
     show sp_ul_012:
-        yalign 0.4 subpixel True
-        xalign 0.7 subpixel True
+        yalign 0.6 subpixel True
+        xalign 0.35 subpixel True
         zoom 0.5
 
 

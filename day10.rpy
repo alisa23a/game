@@ -913,44 +913,6 @@ label day10:
     "Вот так всё закончилось. И всё благодаря Семёну."
 
 
-    image an_10_01: # Анимация с Ульяной, лежащей в комнате и пишущей дневник
-        
-        "images/an/an10day/an_d10_08.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_09.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_02.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_03.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_02.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_04.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_02.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_05.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_06.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_07.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_06.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_08.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_09.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_08.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-  
-        repeat
-
-
     scene an_d10_01_bg with dissolve
 
 

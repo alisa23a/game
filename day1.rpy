@@ -44,7 +44,7 @@
 # label sc_p_prologue:
 
 
-label day0new:
+label day1:
 
     $ style.say_window = style.window
 
@@ -388,7 +388,7 @@ label day0new:
 
     scene black
 
-    jump day8
+    jump day2
 
 
 

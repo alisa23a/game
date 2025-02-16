@@ -53,14 +53,12 @@ label day9:
     "Думаю, она играла, что бы отвлечься. Она переживала за меня потому, что я пришла позже, чем мы договаривались. Она быстро отложила гитару."
 
 
-    scene bg auhouse_crop2
-
-
     stop music fadeout 0.5
 
     queue music "audio/music/z_023.mp3"
 
-    
+    scene bg auhouse_crop2
+  
     show sp_al_045:
         yalign 0.1 subpixel True
         xalign 1.0 subpixel True

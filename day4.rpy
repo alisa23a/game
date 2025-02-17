@@ -196,7 +196,7 @@ label day4:
         "images/an/an4day/an_d04_40.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an4day/an_d04_39.webp" with Dissolve(0.5, alpha=True)
-        pause 1.5
+        pause 9.5
   
         repeat
 
@@ -223,7 +223,7 @@ label day4:
         "images/an/an4day/an_d04_38.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an4day/an_d04_37.webp" with Dissolve(0.5, alpha=True)
-        pause 1.5
+        pause 9.5
   
         repeat
 

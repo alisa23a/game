@@ -91,6 +91,18 @@ label day4:
         pause 0.5
         "images/an/an4day/an_d04_14.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
+        "images/an/an4day/an_d04_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_45.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_46.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
 
   
         repeat
@@ -131,6 +143,14 @@ label day4:
         "images/an/an4day/an_d04_35.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
         "images/an/an4day/an_d04_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_47.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_48.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_49.webp" with Dissolve(0.5, alpha=True)
+        pause 0.5
+        "images/an/an4day/an_d04_50.webp" with Dissolve(0.5, alpha=True)
         pause 0.5
 
   

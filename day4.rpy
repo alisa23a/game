@@ -261,7 +261,8 @@ label day4:
     pause (1000000000000000000.0)
 
 
-    scene bg starry_sky with dissolve
+    #scene bg starry_sky with dissolve
+    scene cg al_ul_campfire_dance with dissolve
 
     "А еще мы танцевали у костра, потому что в лагере включили музыку и нам было хорошо её слышно."
 
@@ -277,25 +278,71 @@ label day4:
 
     al "Маленькая, не грусти! Пройдет немного времени, и у тебя будут милые грудки."
 
+    scene cg al_ul_campfire_dance with dissolve
+
+    pause (1000000000000000000000.0)
+
+
+    scene cg tickling with dissolve
+
     "Я хотела обидеться. Мальчишкам я бы такого точно не простила. Но вместо этого мы стали хохотать и кататься по траве. Она щекотала меня и приговаривала:"
 
     al "Растите, растите, Ульянины яблочки!"
 
     "От неё пахло чем-то вкусным. Я уткнулась в её волосы и шею лицом и только повизгивала от щекотки и удовольствия, вяло пытаясь отбиваться. Так хорошо мне было только с бабушкой. Она тоже здорово пахла."
 
+    scene cg tickling with dissolve
+
+    pause (1000000000000000000000.0)
+
+
+    scene bg forest_night with dissolve
+
     "Но вдруг! Мы услышали, как за нашей спиной затрещали ветки."
 
     "Мы вскочили. Из-за костра, слепящего глаза, не было видно, кто стоит в тени кустов. Я сильно испугалась, мальчишки стращали нас медведями. Я не верила тогда, но вдруг это правда?"
+
+
+    scene bg al_ul_campfire_empty with dissolve
+
+    show sp_al_039:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
 
     "Я спряталась за Алису. У неё в руке я увидела маленький перочинный нож, который мы взяли, для того, чтобы делать палочки для котлет. Вид у неё был решительный. Она крикнула в темноту:"
 
     "Эй, извращенец, если ты не трус, выйди на свет!"
 
+
+    scene bg forest_night with dissolve
+
+    show sp_sem_025:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     "Из кустов вышел... Семён."
 
     "Вид у него был сконфуженный. Наверное, он не ожидал, что его шпионаж раскроется. Мы не знали, как долго он наблюдал из своего укрытия."
 
+
+    scene bg al_ul_campfire_empty with dissolve
+
+    show sp_sem_001:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     "Он подошёл и сел к костру. Потом взял палочку и стал с невозмутимыми видом шевелить ею угли."
+
+
+    scene bg al_ul_campfire_empty with dissolve
+
+    show sp_al_039:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
 
     "Стало неуютно. Алиса спрятала нож и спросила:"
 
@@ -303,21 +350,76 @@ label day4:
 
     "Семён улыбнулся. Такую улыбку папа назвал бы фальшивой. Я сама так улыбаюсь, когда он смотрит мой дневник."
 
+
+    scene bg al_ul_campfire_empty with dissolve
+
+    show sp_sem_019:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     sem "Можно посидеть с вами?"
 
     "Алиса взяла меня за руку и подняла с земли вещи."
+
+
+    scene bg al_ul_campfire_empty with dissolve
+
+    show sp_al_039:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+    show sp_ul_012:
+        yalign -0.2 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.0
+
 
     al "Сиди сколько хочешь, трава ничейная. А мы пойдём. Правда, Уля?"
 
     "Я хотела сказать, что пусть сидит с нами, но Алиса сделала значительные глаза, и я кивнула. Мы пошли. Я ещё оглядывалась на силуэт, сидящий у костра, а Алиса ни разу не обернулась."
 
+
+    scene bg square with dissolve
+
+    show sp_ul_012:
+        yalign -0.2 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.0
+
+
     "Когда мы шли в лагерь, я спросила её:"
 
     ul "Скажи, тебе нравится кто-нибудь из мальчиков в лагере?"
 
+
+    scene bg square with dissolve
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
     "Она пожала плечами. Свет от лагерных фонарей уже хорошо освещал её лицо."
 
+
+    scene bg square with dissolve
+
+    show sp_ul_012:
+        yalign -0.2 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.0
+
     ul "А Семён?"
+
+
+    scene bg square with dissolve
+
+    show sp_al_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     "Алиса остановилась и посмотрела на меня с серьезным видом."
 
@@ -327,35 +429,58 @@ label day4:
 
     al"А то, что он живёт, как ты сама мне рассказывала, в домике со взрослой женщиной? Ведь там даже нет перегородки, и кровати стоят рядом?"
 
+
+    scene bg square with dissolve
+
+    show sp_ul_013:
+        yalign -0.2 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.0
+
     "Алиса уставилась на меня. Я молчала. Я не знала, что сказать. Я в этом разбиралась не очень. Как сказал папа, во мне «не проснулся инстинкт»."
 
-    "Я сказала Алисе про инстинкт. И вдруг она из серьёзной сразу стала несерьёзной. Она снова так хохотала, что наверное даже Семён у костра услышал, хотя мы ушли уже довольно далеко."
+    "Я сказала Алисе про инстинкт."
+
+
+    scene bg square with dissolve
+
+    show sp_al_006:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "И вдруг она из серьёзной сразу стала несерьёзной. Она снова так хохотала, что наверное даже Семён у костра услышал, хотя мы ушли уже довольно далеко."
 
     al "Ты моё рыжее чудо!"
 
     "Алиса смеялась, и слезы катились у нее из глаз."
 
-    "Потом она села, вытерла их и сказала, обняв меня за плечи:"
+    scene bg square with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    "Потом она вытерла их и сказала, обняв меня за плечи:"
 
     al "Дай бог, чтобы он проснулся как можно позже."
 
-    ""
+    # ""
 
-    ""
+    # ""
 
-    ""
+    # ""
 
-    ""
+    # ""
 
-    ""
+    # ""
 
-    ""
+    # ""
 
-    ""
+    # ""
 
-    ""
-
-
+    # ""
 
 
 
@@ -363,29 +488,29 @@ label day4:
 
 
 
-    ""
-
-    ""
-
-    ""
-
-    ""
-
-    ""
-
-    ""
-
-    ""
 
 
+    # ""
 
+    # ""
 
+    # ""
+
+    # ""
+
+    # ""
+
+    # ""
+
+    # ""
 
 
 
-    pause (1000000000000000000000.0)
+
 
     scene black with fade
+
+    pause (1000000000000000000000.0)
 
     stop music fadeout 1.0
 

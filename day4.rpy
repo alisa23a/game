@@ -166,42 +166,42 @@ label day4:
 
     "Мы жарили котлетки, и они казались нам намного вкуснее, чем в столовой. Потом мы стали петь и смотрели на звезды."
 
-    #Анимация Ульяна у костра
+    # #Анимация Ульяна у костра
 
-    image ul_campfire:
+    # image ul_campfire:
         
-        "images/an/an4day/an_d04_15.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_16.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_17.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_18.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_19.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_20.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_21.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_22.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_23.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_24.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_25.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an4day/an_d04_26.webp" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        # "images/an/an4day/an_d04_15.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_16.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_17.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_18.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_19.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_20.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_21.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_22.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_23.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_24.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_25.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an4day/an_d04_26.webp" with Dissolve(0.5, alpha=True)
+        # pause 0.5
 
   
-        repeat
+        # repeat
 
 
-    scene ul_campfire with dissolve
+    # scene ul_campfire with dissolve
 
-    pause (1000000000000000000.0)
+    # pause (1000000000000000000.0)
 
 
     "Я не удержалась и рассказала Алисе про реку, тропинки и Семёна."
@@ -530,7 +530,7 @@ label day4:
     "Я боялась включать свет. Но любопытство взяло верх. Я перетащила коробки к окну и щёлкнула выключателем."
 
 
-    scene cg ul_elya_diary with dissolve
+    scene cg ul_elya_workshop with dissolve
 
     "Эта штука оказалась вся опутана проводами. Её руки были как настоящие. Даже пальцы у неё были. Я потянула куклу за руку. Мне было интересно, может ли она сжать что-то «рукой»."
 
@@ -848,7 +848,7 @@ label day4:
 
     stop music fadeout 1.0
 
-    jump day8
+    jump day5
 
 
 return

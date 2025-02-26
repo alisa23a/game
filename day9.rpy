@@ -57,7 +57,7 @@ label day9:
 
     queue music "audio/music/z_023.mp3"
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
   
     show sp_al_045:
         yalign 0.1 subpixel True
@@ -67,7 +67,7 @@ label day9:
     al "Ну слава богу! \n(обнимает)"
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -77,7 +77,7 @@ label day9:
     ul "Никто меня не хватился?"
 
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_045:
         yalign 0.1 subpixel True
@@ -87,7 +87,7 @@ label day9:
     al "Нет. Ты надежно прикрыта легендой о твоей простуде. Кстати, надо нагнать температуру и отправить тебя к Виоле. Я уже приготовила кусочек сахара с каплей йода. Это сработает. Съешь."
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -97,7 +97,7 @@ label day9:
     ul "Ладно. А есть другой способ?"
 
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_044:
         yalign 0.1 subpixel True
@@ -107,7 +107,7 @@ label day9:
     al "Есть, но он тебе не понравится."
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_014:
         yalign 0.0 subpixel True
@@ -116,7 +116,7 @@ label day9:
    
     ul "Интересно, интересно…"
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_053:
         yalign 0.1 subpixel True
@@ -126,7 +126,7 @@ label day9:
     al "Понимаешь, (краснеет), нужно очистить луковицу, слегка надрезать ее, чтобы сок выделялся и поместить... Ну в общем... Поместить ее в «одно место», И через полчаса... "
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_024:
         yalign 0.0 subpixel True
@@ -145,7 +145,7 @@ label day9:
     ul "Нет. Это точно, мне не подходит. Лучше сахар. Сахар, это нормально. А есть чем померить температуру?"
 
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_052:
         yalign 0.1 subpixel True
@@ -155,7 +155,7 @@ label day9:
     al "(Вынимает градусник) \nА это что? Выпросила у медички."
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -165,7 +165,7 @@ label day9:
     ul "(Кидает сахар с йодом в рот и ставит себе градусник) \nЯ знаю, по лицу вижу, что ты хочешь спросить про Пионера, но молчишь из деликатности. Ну спроси."
 
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_005:
         yalign 0.1 subpixel True
@@ -175,7 +175,7 @@ label day9:
     al "Да хочу. Тебе там понравилось? Расскажешь? Какой он вообще? Он был, надеюсь, джентльменом?"
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -185,7 +185,7 @@ label day9:
     ul "Да.. Он хороший. Ничего такого не позволял себе. Если ты об этом. Ловили рыбу. Я поймала несколько. Сама! Представляешь! Но главное, он много рассказал об истории лагеря. Про всякие странные вещи.. "
 
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_005:
         yalign 0.1 subpixel True
@@ -195,7 +195,7 @@ label day9:
     al "Какие?"
 
 
-    scene bg auhouse_crop1
+    scene bg auhouse_crop1 with dissolve
     
     show sp_ul_012:
         yalign 0.0 subpixel True
@@ -205,7 +205,7 @@ label day9:
     ul "На всю ночь рассказов. В общем, меня распирает от желания поделиться. Но вечером. Сначала нужно сделать алиби. Посмотри, есть температура?"
 
 
-    scene bg auhouse_crop2
+    scene bg auhouse_crop2 with dissolve
     
     show sp_al_052:
         yalign 0.1 subpixel True

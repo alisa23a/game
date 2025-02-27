@@ -2256,6 +2256,69 @@ label day33:
     "И мня как будто подняло вверх высоко, прямо над лагерем, и я видела, как все стоят на площади и показывают на меня руками и что-то кричат."
 
 
+
+    image an_33_02: # Анимация Ульяна и Саша вращение
+        
+
+        "images/an/an33day/an_d33_20.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_21.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_22.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_23.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_24.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_25.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_26.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_27.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_28.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_29.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_30.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_31.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_32.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_33.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_34.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_35.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_36.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_37.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_38.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_39.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3 
+        "images/an/an33day/an_d33_40.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_41.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_42.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_43.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_44.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+        "images/an/an33day/an_d33_45.webp" with Dissolve(0.5, alpha=True)
+        pause 0.3
+ 
+        #repeat
+
+
+    scene an_33_02 with dissolve
+
+
     pause (10000000000000000000000000.0)
 
 
@@ -2264,7 +2327,7 @@ label day33:
     "Но я пересилила себя и крикнула это слово."
 
 
-    image an_33_01: # Анимация ОД в гамаке
+    image an_33_01: # Анимация Ульяна и Саша вращение
         
 
         "images/an/an33day/an_d33_01.webp" with Dissolve(0.5, alpha=True)

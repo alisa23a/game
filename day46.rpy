@@ -2534,7 +2534,7 @@ label day46:
     "Такой вот конец был у этой РЕВОЛЮЦИИ."
 
 
-    scene cg meeting_total with dissolve
+    scene cg squad_formation6 with dissolve
 
 
     stop music fadeout 0.5

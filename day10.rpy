@@ -764,7 +764,7 @@ label day10:
     hide sp_ul_014
 
 
-    scene cg meeting_sad with dissolve
+    scene cg squad_formation3 with dissolve
 
     "Плохо только, что будет собрание отряда, а может даже лагеря, и нас будут ПРОРАБАТЫВАТЬ. Как сказала Ольга Дмитриевна, чтобы другим было неповадно."
 

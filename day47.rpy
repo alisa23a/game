@@ -1098,7 +1098,7 @@ label day47:
     uv "У меня ягод нет. Они растут в единственном месте, у Сосны Совы. Их ещё надо нарвать. Без меня вы точно не найдете их. Я беру Ульяну и мы сейчас же отправляемся."
 
 
-    scene cg meeting_vio with dissolve
+    scene cg squad_formation8 with dissolve
 
     "Когда мы с Юлей пробирались мимо площади, на ней Ольга Дмитриевна построила пионеров. Рядом стояла Виола."
 
@@ -1753,7 +1753,7 @@ label day47:
     ge "Ко я такой? Я ваш Бог!"
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     ge "А вот и мой памятник."
 
@@ -1935,7 +1935,7 @@ label day47:
     hide sp_al_001
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_066:
         yalign 0.1 subpixel True
@@ -1965,7 +1965,7 @@ label day47:
     ge "Я неоднократно перевоплощался, поэтому знаю все ваши тайны. Я мог бы стать кем угодно. Хоть вашей вожатой. Коллайдер творит чудеса."
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_066:
         yalign 0.1 subpixel True
@@ -1995,7 +1995,7 @@ label day47:
     ge "«Но идущий за мною сильнее меня; я не достоин понести обувь Его; Он будет крестить вас ОГНЕМ». Это про меня, между прочим."
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_066:
         yalign 0.1 subpixel True
@@ -2147,7 +2147,7 @@ label day47:
 
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_066:
         yalign 0.1 subpixel True
@@ -2173,7 +2173,7 @@ label day47:
     "Я посмотрела на памятник Генде. Табличка под ним была открыта. Алиса перехватила мой взгляд."
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_001:
         yalign 0.1 subpixel True
@@ -2267,7 +2267,7 @@ label day47:
     "Я упала на рубильник одновременно с Алисой. Рубильник поддался и ушел вниз, табличка захлопнулась. Однако вибрация не прекратилась."
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_007:
         yalign 0.1 subpixel True
@@ -2325,7 +2325,7 @@ label day47:
     pi "Где Генда?"
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_007:
         yalign 0.1 subpixel True
@@ -2542,8 +2542,9 @@ label day47:
     "Теперь она стояла воплощенная, как Галатея. Живая, обнимающая Электроника и быстро что-то говорящая ему своим синтетическим, лишенным эмоций, голосом."
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
+    scene bg square_day2 with dissolve
 
     show sp_al_007:
         yalign 0.1 subpixel True
@@ -2880,7 +2881,7 @@ label day47:
     "Знакомая длинноволосая фигура в кожаном комбинезоне приветственно подняла руку."
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_al_069:
         yalign 0.05 subpixel True
@@ -2905,7 +2906,7 @@ label day47:
     pause (100000000000000000000000000.0)
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_ul_054:
         yalign -0.02 subpixel True
@@ -3002,7 +3003,7 @@ label day47:
     sl "Ольга Дмитриевна, Любовь Никаноровна! Петрович! Давайте с нами!"
 
 
-    scene bg genda2 with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_ul_054:
         yalign -0.02 subpixel True

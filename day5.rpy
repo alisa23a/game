@@ -1393,7 +1393,7 @@ label day5:
 
     scene bg ruins3 with dissolve
 
-    show sp_iul_011:
+    show sp_iul_008:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -1417,7 +1417,7 @@ label day5:
 
     scene bg ruins3 with dissolve
 
-    show sp_iul_015:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -1449,7 +1449,7 @@ label day5:
 
     scene bg ruins3 with dissolve
 
-    show sp_iul_012:
+    show sp_iul_008:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -1509,7 +1509,7 @@ label day5:
 
     scene bg ruins3 with dissolve
 
-    show sp_iul_012:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -1588,7 +1588,7 @@ label day5:
 
     scene bg pot with dissolve
 
-    show sp_iul_012:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -1648,7 +1648,7 @@ label day5:
 
     "Наконец, мы вышли на поляну."
 
-    show sp_iul_012:
+    show sp_iul_009:
         yalign 0.1 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2 
@@ -2774,7 +2774,7 @@ label day5:
 
     stop music fadeout 1.0
 
-    jump day8
+    jump day6
 
 
 return

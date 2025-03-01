@@ -247,7 +247,7 @@ label day26:
     "В общем, теперь мы имели кучу загадок и ни одной разгадки."
 
 
-    scene cg meeting_far with dissolve
+    scene cg squad_formation2 with dissolve
 
     "Дальше — больше."
 

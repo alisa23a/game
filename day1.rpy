@@ -373,7 +373,7 @@ label day1:
     pause (10000000000000000000000.0)
 
 
-    scene cg meeting with dissolve
+    scene cg squad_formation3 with dissolve
 
     "Потом Ольга Дмитриевна снова позвала весь отряд и мы познакомились."
 
@@ -381,7 +381,7 @@ label day1:
 
     "Славя, так звали нашу новую старосту, нас построила, и мы ушли на завтрак. Про завтрак отдельно напишу."
 
-    scene cg meeting with dissolve
+    scene cg squad_formation3 with dissolve
 
     pause (10000000000000000000000.0)
 

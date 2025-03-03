@@ -23,7 +23,7 @@ label day8:
     $ im_gal_07_00 = True
 
 
-    show screen current_day with fade
+    show screen current_day with dissolve
 
 
     stop music fadeout 0.5
@@ -135,7 +135,7 @@ label day8:
         repeat
 
 
-    scene hut with fade
+    scene hut with dissolve
 
 
     stop music fadeout 0.5
@@ -177,7 +177,7 @@ label day8:
         
         repeat
 
-    scene an_001_001-min with fade
+    scene an_001_001-min with dissolve
 
 
     stop music fadeout 0.5
@@ -192,7 +192,7 @@ label day8:
     "А потом пошел дождь. Мы спрятались в шалаш."
 
 
-    scene bg hut with fade
+    scene bg hut with dissolve
 
 
     stop music fadeout 0.5
@@ -228,12 +228,13 @@ label day8:
     "Я тихонько выглянула  наружу. Костер уже весело потрескивал и пахло чем-то съестным."
 
 
-    scene an_005_001 with fade
-
-
     stop music fadeout 0.5
 
     queue music "audio/music/z_006.mp3"
+
+    scene an_005_001 with dissolve
+
+    pause (1000000000000000000.0)
 
 
     "От дождя не осталось и следа. Только камни и листочки на деревьях блестели в лучах восходящего солнца."
@@ -241,7 +242,9 @@ label day8:
     "Было еще рано. Никогда я так рано не вставала. В лагере, наверное, ещё два часа до утренней линейки."
 
 
-    scene an_005_002 with fade   
+    scene an_005_002 with dissolve   
+
+    pause (1000000000000000000.0)
 
     "Я выбралась из шалаша и оглядевшись, заметила Пионера. Он стоял в камышах по щиколотку в воде и смотрел на чуть подрагивающий поплавок."
 
@@ -250,15 +253,12 @@ label day8:
     pi "Тсс, тихо... Не вспугни. Они всё слышат и видят."
 
 
-    scene cg ul_pi_fishing with fade
-
-
     stop music fadeout 0.5
 
     queue music "audio/music/z_002.mp3"
 
 
-    #pi "Тсс, тихо... Не вспугни. Они всё слышат и видят."
+    scene cg ul_pi_fishing with dissolve
 
     ul "(шепотом, примостившись рядом) Кто «они»?"
 
@@ -277,7 +277,7 @@ label day8:
     pi "Да нет, так себе... Но нам на завтрак точно хватит. И тише. Я же просил, не кричи. Упс! У меня клюет. Хочешь подсечь? (передает удочку Ульяне)"
 
 
-    scene cg ul_fishing with fade
+    scene cg ul_fishing with dissolve
 
     ul "Да. Но у меня руки трясутся от страха, боюсь упустить."
 
@@ -314,14 +314,12 @@ label day8:
     ul "Тихо, не мешай. Кажется, снова клюет. На червяка? А, так это... Папа так делал."
 
 
-
-    scene bg pdl with fade
-
-
     stop music fadeout 0.5
 
     queue music "audio/music/z_002.mp3"
 
+
+    scene bg pdl with dissolve
 
     "Позавтракав картошкой и рыбкой, вкусно запеченной Пионером над углями, мы отправились на лодке на остров На этом острове никто из нашего отряда ещё ни разу не был. Экскурсия отряда туда ожидалась со дня на день."
 
@@ -340,13 +338,12 @@ label day8:
     "Я никогда раньше не видела остров Дальний. Катающимся на лодках пионерам всех отрядов категорически не разрешалось спускаться вниз по течению и заплывать дальше Большого острова и речной станции. Да, остров был красивым. "
 
 
-    scene bg abandbeach with fade
-
-
     stop music fadeout 0.5
 
     queue music "audio/music/z_006.mp3"
 
+
+    scene bg abandbeach with dissolve
 
     "На его берегу рос высокий хвойный лес. Похоже, остров не был намыт песком, а всегда был частью суши."
 
@@ -361,7 +358,7 @@ label day8:
     pi "Да, настоящая пиратская гавань."
 
 
-    scene bg piharbor with fade
+    scene bg piharbor with dissolve
 
     "Я спросила, давал ли кто-нибудь названия этим местам и с радостью узнала, что нет."
 
@@ -390,7 +387,7 @@ label day8:
     "Пионер показал рукой в сторону мыса в южной части острова. Там чернело что-то похожее на большую лодку. Когда мы подошли ближе, нам открылся вид на старый баркас."
 
 
-    scene bg pfis with fade
+    scene bg pfis with dissolve
 
 
     stop music fadeout 0.5
@@ -443,7 +440,7 @@ label day8:
     "Мы долго смеялись и бегали вокруг баркаса в догонялки. Потом упали на песок, чтобы отдышаться и…"
 
 
-    scene cg ul_pi_cheek with fade
+    scene cg ul_pi_cheek with dissolve
 
 
     stop music fadeout 0.5
@@ -454,7 +451,7 @@ label day8:
     "Пионер поцеловал меня в щеку. Это было неожиданно. Я прямо вся замерла и удивленно посмотрела на него. Наверное, у меня было такое лицо, что он испугался."
 
 
-    scene bg pfis with fade
+    scene bg pfis with dissolve
 
     show sp_ul_045:
         yalign 0.0 subpixel True
@@ -504,7 +501,7 @@ label day8:
     ul "– Тогда... можешь поцеловать, только в щеку."
 
 
-    scene cg ul_pi_cheek_closed_eyes with fade
+    scene cg ul_pi_cheek_closed_eyes with dissolve
 
     "И закрыла глаза. А про себя подумала: \n«Жаль, что не отношения, как у взрослых.»"
 
@@ -600,7 +597,7 @@ label day8:
 
 
 
-    scene ul_pi_islang_bg1 with fade
+    scene ul_pi_islang_bg1 with dissolve
     
     show ul_pi_island_01
 
@@ -610,7 +607,7 @@ label day8:
     hide ul_pi_island_01
 
 
-    scene ul_pi_islang_bg2 with fade
+    scene ul_pi_islang_bg2 with dissolve
     
     show ul_pi_island_02
 
@@ -634,7 +631,7 @@ label day8:
     hide ul_pi_island_02
 
 
-    scene ul_pi_islang_bg1 with fade
+    scene ul_pi_islang_bg1 with dissolve
     
     show ul_pi_island_01
 
@@ -717,7 +714,7 @@ label day8:
 
 
 
-    scene ul_pi_beach_bg1 with fade
+    scene ul_pi_beach_bg1 with dissolve
     
     show ul_pi_beach_01
     
@@ -731,7 +728,7 @@ label day8:
     pause (10000000000)
 
 
-    scene bg ul_pi_talk with fade
+    scene bg ul_pi_talk with dissolve
 
     "Пионер смотрел на меня как-то задумчиво и вдруг сказал:"
 
@@ -888,7 +885,7 @@ label day8:
     pi "Да, мяту."
 
 
-    scene black with fade
+    scene black with dissolve
 
     stop music fadeout 1.0
 

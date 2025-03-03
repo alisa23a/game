@@ -3706,7 +3706,7 @@ label start:
     
     hide prologue
 
-    jump first_m
+    jump day1
     
 
 label first_m:  

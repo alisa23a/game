@@ -93,6 +93,10 @@ define manneqs = Character('Манекены', color="#d3d3d3")
 
 define ge = Character('Генда', color="#9acd32")
 
+define piro = Character('Пионер в халате', color="#d78d37")
+
+define piros = Character('Пионеры', color="#1bc8d7")
+
 
 
 screen GameSplashScreen():

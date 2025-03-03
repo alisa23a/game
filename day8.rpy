@@ -192,7 +192,7 @@ label day8:
     "А потом пошел дождь. Мы спрятались в шалаш."
 
 
-    scene bg hut2 with fade
+    scene bg hut with fade
 
 
     stop music fadeout 0.5

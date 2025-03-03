@@ -756,7 +756,7 @@ label day6:
 
     stop music fadeout 1.0
 
-    jump day8
+    jump day7
 
 
 return

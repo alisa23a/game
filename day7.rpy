@@ -36,7 +36,7 @@ label day7:
 
     stop music fadeout 0.5
 
-    queue music "audio/music/z_055.mp3"
+    queue music "audio/music/z_418.mp3"
 
     scene bg square_day2 with dissolve
     
@@ -78,6 +78,11 @@ label day7:
     "Скорее всего, она придумала про цветы, чтобы нас чем-то занять, и к вечеру забудет об этом."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_020.mp3"
+
+
     scene cg campfire_aka_day with dissolve
 
     "В общем, мы пошли на нашу поляну, где мы с Алисой до этого жарили котлетки, и это было самое классное место. У Алисы была гитара."
@@ -89,6 +94,11 @@ label day7:
     "Потом Семен стал рассказывать истории про то, как работал волонтером, помогал служителям в зоопарке. Как ухаживал за животными."
 
     "Он очень похоже копировал обезьян. Оказывается,  они умные, хитрые и вечно что-то воруют. Было смешно. Потом рассказывал про медвежат."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
 
 
     scene bg al_ul_campfire_empty2 with dissolve
@@ -330,7 +340,15 @@ label day7:
         xalign 0.0 subpixel True
         zoom 1.2
 
-    sem "Это можно. Ну, скажем, вы в курсе, что в лагере ходит история про Омут Большого Сома?"
+    sem "Это можно."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
+
+    sem "Ну, скажем, вы в курсе, что в лагере ходит история про Омут Большого Сома?"
 
 
     scene bg shouse with dissolve
@@ -383,6 +401,11 @@ label day7:
         zoom 1.2
 
     le "Чепуха какая-то. Сом не может утащить человека. И потом, если она утопилась из-за любви, то к кому? История явно не полная. Подробности есть?"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
 
 
     scene bg al_ul_campfire_empty2 with dissolve
@@ -450,6 +473,11 @@ label day7:
     "Женя лукаво посмотрела на Шурика."
 
     je "Я думаю, смотря кто из нас был бы на месте девушки."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_305.mp3"
 
 
     scene bg al_ul_campfire_empty2 with dissolve
@@ -571,6 +599,11 @@ label day7:
     el "Петрович известный фантазер. Хотел произвести на вас впечатление. А вы и купились."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
+
+
     scene bg al_ul_campfire_empty2 with dissolve
 
     show sp_shu_001:
@@ -616,15 +649,32 @@ label day7:
     je "И мне показалось. Вот, слышите хруст?"
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/bear.mp3" noloop
+
+
     scene bg al_ul_campfire_empty2 with dissolve
 
     "Раздалось рычание."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/1005.mp3" noloop
+
+
     scene cg fake_bears with dissolve
 
+    "Мику вскочила и, подвернув ногу, упала. Все бросились врассыпную."
 
-    "Мику вскочила и, подвернув ногу, упала. Все бросились врассыпную. На полянку выбежали пионеры с криком: «Разыграли! Разыграли!». Один пионер был в махровом халате не по росту, натянутом на голову."
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/131.mp3"
+
+
+    "На полянку выбежали пионеры с криком: «Разыграли! Разыграли!». Один пионер был в махровом халате не по росту, натянутом на голову."
 
     "Все постепенно вернулись к костру."
 
@@ -789,6 +839,11 @@ label day7:
     el "Идут все!"
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_002.mp3"
+
+
     scene bg al_ul_campfire_empty2 with dissolve
 
     show sp_ul_013:
@@ -801,6 +856,11 @@ label day7:
     "Ребята быстро ушли, а я завозилась, собирая картошку в сетку, и когда собрала, то увидела, что уже вокруг никого нет."
 
     "Река была рядом, и я подумала, что неплохо бы искупаться. Картошку я спрятала в кустах. Все равно мы сюда еще придем."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
 
 
     scene bg crsh2 with dissolve
@@ -843,6 +903,11 @@ label day7:
     "Потом я подумала, что если я возьму немного раков нам с Алисой, то Петрович от этого беднее не станет. Приманка там ещё есть. Другие наползут. И я взяла самых отборных."
 
     "Только их нести было трудно. Пришлось снять майку и сделать такую себе из неё авоську. Хорошо что у меня под ней купальник. Раки оказались кусачие. Хватали меня за пальцы сквозь майку. Но я быстро бежала."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
 
 
     scene bg auhouse_crop2 with dissolve
@@ -893,6 +958,11 @@ label day7:
     al "Не знаю. Прибежал Толик, и все пошли с ним. Но вроде ничего срочного. Давай решим, что с раками делать будем."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_174.mp3"
+
+
     scene bg dining with dissolve
 
     show sp_ln_002:
@@ -941,6 +1011,11 @@ label day7:
     scene bg camp_artifacts with dissolve
 
     "И мы свесив головы побрели назад в домик. Но по дороге встретили Лену и Кибернетиков."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_305.mp3"
 
 
     scene bg camp_artifacts with dissolve
@@ -1055,6 +1130,11 @@ label day7:
     "Я засмеялась."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
+
+
     scene bg camp_artifacts with dissolve
 
     show sp_le_021:
@@ -1084,6 +1164,11 @@ label day7:
         zoom 1.2
 
     "Соврала, что представила лицо Петровича, который утром проверит свои раколовки. И скажет, закурив самокрутку: «Что-то вы, субчики, нынче не жалуете мои харчи. Видно заелись, клещатые!» Ну или что-то в этом роде."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
 
 
     scene bg al_ul_campfire_empty2 with dissolve
@@ -1124,6 +1209,11 @@ label day7:
     scene bg camp_artifacts with dissolve
 
     "Так мы и сделали. А до вечера еще много чего случилось."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_011.mp3"
 
 
     scene cg pigeon_mail with dissolve
@@ -1185,6 +1275,11 @@ label day7:
     "Поэтому я написала ему и подписалась «НЕЗНАКОМКА». Потому что это неправильно, что ему никто не пишет. Пусть ему тоже будет письмо. (Что написала, вам знать не обязательно)."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_910.mp3"
+
+
     scene cg dining_crowded with dissolve
 
     "И мы пошли в столовую."
@@ -1208,6 +1303,11 @@ label day7:
         zoom 1.2
 
     "А Алиса сказала, что все боятся, потому что у меня такой характер. Думают, засмею."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_460.mp3"
 
 
     scene cg dining_crowded2 with dissolve
@@ -1332,6 +1432,11 @@ label day7:
         repeat
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_478.mp3"
+
+
     scene crawfish_bowling with dissolve
 
     pause (1000000000000000000.0)
@@ -1403,6 +1508,11 @@ label day7:
     scene bg auhouse2 with dissolve
 
     "Потом мы оттащили их в лагерь. Наши все жалели, что с нами не были. Но зато мы устроили у нас в домике пир."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
 
 
     scene bg auhouse2 with dissolve
@@ -1541,6 +1651,11 @@ label day7:
     ul "Вот это - другое дело."
 
     "Вот это я понимаю, настоящая дружба!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
 
 
     scene bg auhouse2 with dissolve

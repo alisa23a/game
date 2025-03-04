@@ -671,22 +671,7 @@ label day4:
     "Он помог мне влезть и оттолкнувшись веслом, направил лодку дальше от зарослей."
 
 
-    # scene bg boat_stern2 with dissolve
-
-    # show sp_ul_013:
-        # yalign 0.1 subpixel True
-        # xalign 0.48 subpixel True
-        # zoom 1.9 
-
-    # ul "Ты кто?"
-
-
-    # scene bg boat_bow with dissolve
-
-    # show sp_pi_002:
-        # yalign 0.05 subpixel True
-        # xalign 0.9 subpixel True
-        # zoom 2.2
+    ul "Ты кто?"
 
     pi "Пионер"
 

@@ -36,7 +36,7 @@ label day6:
 
     stop music fadeout 0.5
 
-    queue music "audio/music/z_055.mp3"
+    queue music "audio/music/z_017.mp3"
 
     scene bg auhouse_crop2 with dissolve
     
@@ -86,6 +86,11 @@ label day6:
     al "Как лучшей спортсменке в отряде, он дает мне ключи от бытовки и раздевалки, чтобы я принесла мячи и скакалки. Так что проблем не будет."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_900.mp3"
+
+
     scene cg squad_formation3 with dissolve
 
     "Эта линейка была особенная."
@@ -119,6 +124,11 @@ label day6:
         zoom 1.2
 
     "Она только пожала плечами."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_102.mp3"
 
 
     scene cg squad_formation3 with dissolve
@@ -209,6 +219,11 @@ label day6:
     al "Думаю, только в нашем. Мы же образцово-показательный отряд. На нас теперь все эксперименты ставить будут."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
+
+
     scene cg dining_crowded with dissolve
 
     "После того, как раздали дневники, все побежали в столовку, где прошло жаркое обсуждение новости."
@@ -216,6 +231,11 @@ label day6:
     "По слухам, источником которых была Женя, так как она была вхожа в кабинет директрисы, к нам везут какую-то девочку из Америки. Точнее, из США."
 
     "Называли даже имя - Саманта Смит. Под большим секретом новость обошла весь лагерь."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_076.mp3"
 
 
     scene bg camp_artifacts with dissolve
@@ -275,6 +295,11 @@ label day6:
     ul "Ой, деда, что вы такое говорите? Ну ладно, я запомню. И девочкам из отряда скажу."
 
     pe "Скажи, милая, скажи. Только меня не выдавай."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_022.mp3"
 
 
     scene bg camp_artifacts with dissolve
@@ -370,6 +395,11 @@ label day6:
     od "Семён, останешься после собрания и я проверю твои знания. В Жене я не сомневаюсь."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_412.mp3"
+
+
     scene cg sam_diary1 with dissolve
 
     "В результате наше начальство прозевало приезд «высокой гостьи». Ждали у ворот. Ждали целую делегацию."
@@ -406,6 +436,11 @@ label day6:
         zoom 1.2
 
     "Мы раньше всех закончили уборку, и Славя побежала докладывать Ольге Дмитриевне о ЧП."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_075.mp3"
 
 
     scene bg camp_artifacts with dissolve
@@ -452,6 +487,11 @@ label day6:
     "Но как бы то ни было, дело было уже сделано. Весь план Маргариты Павловны и Ольги Дмитриевны пошел насмарку."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_018.mp3"
+
+
     scene bg mus with dissolve
 
     "Все отряды построили и отправили в музкружок. Поместились не все, а только первый, второй и третий отряды."
@@ -475,7 +515,6 @@ label day6:
         yalign 0.00 subpixel True
         xalign 0.0 subpixel True
         zoom 1.2
-
 
 
     show sp_meg_002:
@@ -525,6 +564,11 @@ label day6:
         zoom 1.2
 
     "Женя стала объяснять напиравшей толпе, что официальная часть знакомства произойдет позже и Саманта расскажет о себе и своей миссии, а пока ей нужно показать её комнату над библиотекой."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_179.mp3"
 
 
     scene bg library3 with dissolve
@@ -593,6 +637,11 @@ label day6:
     "Саманта выслушала вопрос и растерялась. Она пожала плечами, улыбнулась и сказала просто «Я не знаю, но обязательно спрошу у нашего руководства»."
 
     "Ещё она добавила, что этот вопрос никогда не возникал и что «так было всегда»."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
 
 
     scene bg library2 with dissolve
@@ -677,6 +726,11 @@ label day6:
     "Директриса закончила, и все удивленно зааплодировали. Саманта громче всех. Директриса даже покраснела. Видно было, что она готовилась к приезду гостьи и выучила всё наизусть."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
+
     scene bg camp_artifacts with dissolve
 
     "Потом нам разрешили показать Саманте лагерь и окрестности."
@@ -734,6 +788,11 @@ label day6:
         zoom 1.2
 
     "Она же ещё будет почти месяц в лагере. Ничего, успеют."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_450.mp3"
 
 
     scene cg squad_formation2 with dissolve

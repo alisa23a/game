@@ -50,6 +50,11 @@ label day5:
     "Дальше, каждый день в течение месяца, запись повторяется. Меняется только широта и долгота. Нет, не выйдет из меня писателя."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
+
     scene cg dining_crowded with dissolve
 
     "С такими грустными мыслями я пошла на обед. Наш отряд сидел за двумя отдельными столиками."
@@ -61,6 +66,11 @@ label day5:
     "Я толкнула Алису локтем и показала на Семёна, который буквально купался в доброжелательной атмосфере, создаваемой усилиями Слави, Лены и Мику. Вот уж кто старался больше всех."
 
     "Наверное, им казалось что никто не видит, как они наперебой стараются понравится этому сердцееду."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_076.mp3"
 
 
     scene cg le_frog_diary with dissolve
@@ -127,9 +137,23 @@ label day5:
     "Когда Семён сел за свой стол, Лена попыталась пошутить насчет случившегося. Салфетка вдруг поползла в её сторону и из-под нее выскочил лягушонок."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1005.mp3" noloop
+
+
     scene cg le_frog_diary3 with dissolve
 
-    "От душераздирающего крика Лены чуть не вылетели стекла столовой. Она так взмахнула руками, что два стакана компота улетели в противоположный край стола, облив Семёна с ног до головы."
+    "От душераздирающего крика Лены чуть не вылетели стекла столовой."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
+
+    "Она так взмахнула руками, что два стакана компота улетели в противоположный край стола, облив Семёна с ног до головы."
+
 
     scene cg le_frog_diary3 with dissolve
 
@@ -162,6 +186,11 @@ label day5:
     "При нашем появлении Лена теперь всегда отходила в сторону или меняла тему разговора."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_009.mp3"
+
+
     scene bg auhouse3 with dissolve
 
     show sp_sl_001:
@@ -184,6 +213,11 @@ label day5:
     "В конце концов, поговорив  для отвлечения внимания о распорядке в лагере и о приближающемся концерте, Славя ушла."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
+
+
     scene bg auhouse3 with dissolve
 
     "Как сказал бы папа, ушла «не солоно хлебавши». Мы с Алиской стукнулись кулаками."
@@ -197,6 +231,11 @@ label day5:
         zoom 1.2
 
     al "Процесс пошел. Ну, а теперь рассказывай, вредная девчонка, где ты болталась всю ночь?"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_058.mp3"
 
 
     scene bg auhouse_crop1 with dissolve
@@ -236,6 +275,11 @@ label day5:
     al "Это аномалия. Но всё это легко проверить. И что бы ты больше никому не рассказывала подобные сказки, я готова пойти с тобой."
 
     "Вот это было классно! Теперь мы команда!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
 
 
     scene cg pillow_fight with dissolve
@@ -295,6 +339,11 @@ label day5:
     "А я почти не дышала, боялась. Но всё обошлось. Она закидывала в дырочку кусочки коржика, а я ловила их ртом и мы хохотали."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
+
     scene bg auhouse3 with dissolve
 
     "Наше веселье прервал осторожный стук в дверь. Я кинулась поправлять кровати и собирать разбросанные вещи."
@@ -312,6 +361,11 @@ label day5:
     al "Там СЕМЁН."
 
     "Алиса подумала и открыла дверь."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     scene bg auhouse3 with dissolve
@@ -346,6 +400,11 @@ label day5:
     "Семён вдруг постучал себя по лбу, как бы что-то вспомнив, и сказал:"
 
     sem "Да! Чуть не забыл, я же принес Ульянке вкусненького."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
 
 
     scene bg auhouse_crop1 with dissolve
@@ -399,6 +458,11 @@ label day5:
     "Поэтому я быстро выскользнула из домика, услышав за спиной голос Семёна:"
 
     sem "Можешь не торопиться и гулять сколько хочешь."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
 
 
     scene cg vio_silhouette with dissolve
@@ -525,6 +589,12 @@ label day5:
         repeat
 
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
+
     scene vio_lights with dissolve
 
     pause (1000000000000000000.0)
@@ -538,11 +608,24 @@ label day5:
     "Забыв о времени, я смотрела как заворожённая, силясь вспомнить, что именно напоминает мне эта восхитительная игра огоньков."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_444.mp3"
+
+
     scene cg firefighters with dissolve
 
     "И, наконец, вспомнила! Однажды ночью горел универмаг напротив нашего дома."
 
     "Тогда приехали аж пять пожарных машин и несколько скорых… Их синие мигалки своими сполохами осветили все улицу. Вот, как выглядел этот безумный танец Виолы."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
+
+    scene cg ul_on_tree with dissolve
 
     "Вскоре свет внутри постепенно стал меркнуть, и наступила полная темнота. Я лежала на ветке, боясь шелохнуться."
 
@@ -551,9 +634,15 @@ label day5:
 
     scene cg ul_twilight_diary with dissolve
 
-    " Когда она отошла достаточно далеко, я свалилась с ветки, немного подвернув ногу, и побежала в ту сторону, куда только что ушла Виола."
+    "Когда она отошла достаточно далеко, я свалилась с ветки, немного подвернув ногу, и побежала в ту сторону, куда только что ушла Виола."
 
     "Но её уже не было. Она как будто растворилась в наступившей темноте. А ведь у меня очень острое зрение и хожу я быстро. Как так-то? Я была в недоумении."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     "Какое там, смотреть на робота! Я бросилась рассказывать Алисе о своем открытии. Вот уж она удивится! Скажет, что я опять фантазирую."
 
@@ -564,9 +653,19 @@ label day5:
     "С такими мыслями я бежала к нашему домику."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_173.mp3"
+
+
     scene cg al_sem_slap2 with dissolve
 
     "Но то, что случилось, заставило меня остановиться. Я услышала странные резкие звуки, как будто кто-то выбивал ковер. Два громких хлопка. Дверь распахнулась и на улицу буквально выскочил Семён."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_177.mp3"
 
 
     scene bg square with dissolve
@@ -584,6 +683,11 @@ label day5:
     scene cg ul_spy with dissolve
 
     "Я сжалась. Он вот-вот увидит меня. Я решила покинуть своё убежище и спряталась за большой куст сирени."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     scene bg square with dissolve
@@ -639,9 +743,20 @@ label day5:
     "Я подцепила его прутиком и вытащила наружу. Было темно, чтобы разобрать написанное, и я, спрятав записку, помчалась домой."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_026.mp3"
+
+
     scene cg al_guitar_grumpy with dissolve
 
     "Алису я застала в плохом расположении духа. Обычно она что-нибудь напевала, играя на гитаре. Её ежевечерние упражнения стали нормой, и я старалась не мешать ей, зная что она готовится к концерту."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_076.mp3"
+
 
     "Но в этот раз она сидела нахохлившись и только мрачно сверкнула глазами на моё «Слышь, что сейчас тебе расскажу!»"
 
@@ -670,6 +785,11 @@ label day5:
     "Наверное, я подвела Алису. Но мне не терпелось с одной стороны узнать, зачем приходил Семён, с другой — вывалить кучу невероятных новостей, о которых я узнала."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_058.mp3"
+
+
     scene bg auhouse_crop2 with dissolve
     
     show sp_al_005:
@@ -679,7 +799,7 @@ label day5:
 
     al "Ладно уж, видно ты неисправима."
 
-    "Потом присела у тумбочки и вынула тарелку, накрытую блюдцем. В ней оказался ужин. Мы разделили его пополам."
+    "Алиса присела у тумбочки и вынула тарелку, накрытую блюдцем. В ней оказался ужин. Мы разделили его пополам."
 
 
     scene bg auhouse_crop1 with dissolve
@@ -734,6 +854,11 @@ label day5:
         zoom 1.1
 
     ul "А что было потом?"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
 
 
     scene bg auhouse_crop2 with dissolve
@@ -800,6 +925,11 @@ label day5:
         zoom 1.2
 
     al "Он сказал, что расскажет всем, если я с ним не... Ну, ты понимаешь... Стану его девушкой."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_418.mp3"
 
 
     scene bg auhouse_crop2 with dissolve
@@ -924,6 +1054,11 @@ label day5:
     "Я вытащила записку. В ней было написано мелким, но очень аккуратным почерком:"
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
+
     scene cg sem_vio_message with dissolve
 
     "«Твоё задание выполнил. Но есть сложности. Рыжая оказалась крепким орешком. Придется придумать что-то посерьёзней. Завтра после обеда сделаю второй заход."
@@ -947,6 +1082,12 @@ label day5:
         zoom 1.1
 
     "Возникла пауза. Будучи уже не в силах молчать, я воскликнула:"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
+
 
     ul "Надо немедленно бежать и все рассказать Ольге Дмитриевне!"
 
@@ -992,6 +1133,11 @@ label day5:
         zoom 1.1
 
     "Я вжалась в стул, боясь попасть под этот тайфун эмоций, хаотично перемещающийся по комнате."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
 
 
     scene bg auhouse_crop2 with dissolve
@@ -1054,6 +1200,12 @@ label day5:
     al "Вот именно. Теперь ты поняла, в чем моя идея? Там наверняка есть досье на Семёна."
 
     "Алиса села, уставилась в потолок и стала крутить ключ на пальце. Потом, как будто приняв решение, она встала."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
 
     al "Да, сегодня. Мы пойдём туда сегодня. Но только после того, как вернемся из развалин. Я почти уверена, что никакой кошки-девочки там нет. И всё это займет не больше получаса."
 
@@ -1164,6 +1316,11 @@ label day5:
     "Мы тихонько выбрались из дома и прошмыгнули в лазейку."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
+
     scene bg pot with dissolve
 
     "Мы долго бродили в потемках, ни одна из тропинок не приводила нас к развалинам. Алиса присела на поваленное дерево. В её глазах были насмешка и жалость. Я взорвалась:"
@@ -1210,6 +1367,11 @@ label day5:
     "Наконец, Алиса встала и сказала:"
 
     al "Ладно, последняя попытка."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_126.mp3"
 
 
     scene cg footprints4 with dissolve
@@ -1262,6 +1424,11 @@ label day5:
         zoom 1.1
 
     ul "Ну уж точно не кошка. Кошки не едят грибов."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
 
 
     scene bg ruins2 with dissolve
@@ -1330,6 +1497,11 @@ label day5:
     al "Будем ждать."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
+
     scene cg al_ul_in_bushes2 with dissolve
 
     "Алиса села на землю и заставила меня сделать то же самое. Мы потушили фонарик. Настала такая темнота, что я не видела даже Алису, а только слышала её учащённое дыхание."
@@ -1355,6 +1527,11 @@ label day5:
     pause (1000000000000000000.0)
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
+
+
     scene cg uv_pic_sugar2 with dissolve
 
     "Осторожно заглянув внутрь, мы увидели силуэт склонившийся над нашей приманкой. Существо аккуратно собирало сахар маленькими руками, сгребая его в мешочек."
@@ -1377,6 +1554,11 @@ label day5:
     ul "Пригнись, она же увидит тебя!"
 
     al "Я этого и хочу."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     scene bg ruins3 with dissolve
@@ -1425,6 +1607,12 @@ label day5:
     "Теперь я разглядела её лучше. Она была совсем рядом. Маленькая, с кошачьими ушками и хвостиком. В остальном совсем как обычная девочка."
 
     "Постояв немного, существо потянуло носом воздух. Вдруг, оно издало звук похожий на чиханье. И произнесла совсем обычным, только очень мягким и тихим голосом:"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1013.mp3"
+
 
     uv "Вы не будете меня ловить?"
 
@@ -1495,6 +1683,11 @@ label day5:
         zoom 1.2 
 
     uv "Мышей я не ем. Я их ловлю, потому что у меня инстинкт. Потом отпускаю."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     scene bg ruins3 with dissolve
@@ -1644,6 +1837,11 @@ label day5:
     "Мы не зажигали фонарь и двигались за ней, доверяя её безошибочному зрению. Ни разу мы не зацепились за ветки или корни деревьев."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
+
     scene cg ruins_diary with dissolve
 
     "Наконец, мы вышли на поляну."
@@ -1692,6 +1890,11 @@ label day5:
     "Мы не успели ни о чем её спросить, как оказались одни в темноте. «Спасибо за сахар!» — донеслось откуда-то сверху. Тьма обступила нас. Мы были озадачены."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
+
     scene bg underground with dissolve
 
     show sp_ul_019:
@@ -1716,6 +1919,11 @@ label day5:
     al "Ничего! Если что, пойдем назад и выберемся наружу. До рассвета не так уж далеко, сориентируемся. А пока — вперед!"
 
     "Алиса решительно направилась по проходу. Я хотела что-то возразить, но видя удаляющуюся фигуру, как последняя трусиха, кинулась за ней."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
 
 
     scene cg al_ul_underground_diary with dissolve
@@ -1857,6 +2065,11 @@ label day5:
     ul "Ну, тогда вперед!"
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
+
+
     scene bg underground with dissolve
 
     "Через два десятка шагов мы уперлись в стену. Алиса обследовала её и повернувшись ко мне, спросила:"
@@ -1891,6 +2104,11 @@ label day5:
     al "Значит, должна быть лестница."
 
     "И лестница в виде скоб, идущих вверх, скоро нашлась."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     scene bg underground with dissolve
@@ -1940,6 +2158,11 @@ label day5:
     "Скобы были рассчитаны, наверное, на человека огромного роста. Мне пришлось подтягиваться на каждой, чтобы зацепиться на следующую. Вдруг сверху потянуло свежим воздухом."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_736.mp3"
+
+
     scene cg starry_sky_diary with dissolve
 
     al "Смотри!"
@@ -1969,6 +2192,11 @@ label day5:
     al "Хватит валяться, нас ждут великие дела. Смотри, там огонёк!"
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
+
     scene bg campfire_empty with dissolve
 
     "Мы пошли на свет и наткнулись на догорающий костёр. На веточках, воткнутых в землю, была нанизана уже вполне готовая рыба."
@@ -1976,6 +2204,11 @@ label day5:
     scene bg campfire_empty with dissolve
 
     pause (1000000000000000000.0)
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
 
 
     scene bg campfire_empty with dissolve
@@ -2033,6 +2266,11 @@ label day5:
     "Сказала я сквозь полный рот."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_017.mp3"
+
+
     scene bg campfire_empty with dissolve
 
     show sp_pi_001:
@@ -2043,6 +2281,11 @@ label day5:
     "Неожиданно сзади послышался шум, и мы оглянулись. К костру вышел ПИОНЕР. Тот самый, с чёлкой. Он отсалютовал:"
 
     pi "Привет пионерам!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     scene cg al_ul_pi_campfire with dissolve
@@ -2090,6 +2333,12 @@ label day5:
 
     pi "Если бы вы чаще смотрели вверх, то нашли бы по пути, как минимум, пять таких же выходов. Они есть под каждым домиком лагеря. И ещё — под медпунктом."
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_417.mp3"
+
+
     pi "Но туда вы не попадете. Его стережет КУКЛА."
 
     "Мы переглянулись."
@@ -2117,6 +2366,10 @@ label day5:
     "Пионер наклонился к нам и тихо произнес:"
 
     pi "Когда все колодцы начнут светиться изнутри."
+
+
+    stop music fadeout 0.5
+    queue music "audio/music/z_023.mp3"
 
 
     scene bg square with dissolve
@@ -2279,6 +2532,12 @@ label day5:
 
     ul "Ольга Дмитриевна уехала и вернется только к обеду. Он наверняка там."
 
+
+    stop music fadeout 0.5
+    queue music "audio/music/z_197.mp3"
+
+    scene bg square with dissolve
+
     "Вдруг, мы услышали голоса."
 
 
@@ -2354,6 +2613,10 @@ label day5:
     "Они поднялись с лавочки. Дальше я не расслышала, потому что голоса затихли, удаляясь."
 
 
+    stop music fadeout 0.5
+    queue music "audio/music/z_131.mp3"
+
+
     scene cg dark_window with dissolve
 
     show sp_al_007:
@@ -2372,6 +2635,10 @@ label day5:
     "Я подтянулась, а Алиса подставила свое плечо."
 
     al "Маленькая, а тяжелая."
+
+
+    stop music fadeout 0.5
+    queue music "audio/music/z_124.mp3"
 
 
     scene bg cabinet with dissolve
@@ -2520,6 +2787,10 @@ label day5:
     ul "Давай, открывай."
 
 
+    stop music fadeout 0.5
+    queue music "audio/music/z_130.mp3"
+
+
     scene bg cabinet with dissolve
 
     "В столе лежали папки. Ящик был большой, и мы насчитали около пятнадцати папок."
@@ -2615,6 +2886,10 @@ label day5:
     "Когда ключ оказался на месте, я спрыгнула со стула и одновременно услышала, как кто-то открывает дверь."
 
 
+    stop music fadeout 0.5
+    queue music "audio/music/z_131.mp3"
+
+
     scene cg dark_window with dissolve
 
     "Мы метнулись к окну и кубарем вывалились наружу."
@@ -2645,6 +2920,10 @@ label day5:
         zoom 1.2
 
     al "Всё, бежим."
+
+
+    stop music fadeout 0.5
+    queue music "audio/music/z_023.mp3"
 
 
     scene bg auhouse2 with dissolve

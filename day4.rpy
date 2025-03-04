@@ -38,6 +38,7 @@ label day4:
 
     queue music "audio/music/z_055.mp3"
 
+
     scene an_d10_01_bg with dissolve
 
     show an_10_01
@@ -45,6 +46,11 @@ label day4:
     "Сегодня я буду писать подробно. Очень много впечатлений. Нужно вспомнить всё. Мне кажется, это очень важно.  С того времени, как я приплыла в лагерь на лодке, случилось много чего. Но всё по порядку."
 
     "Алиса, оказывается, меня искала и очень волновалась."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_516.mp3"
 
 
     scene bg lakedeep4 with dissolve
@@ -159,50 +165,18 @@ label day4:
         repeat
 
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_180.mp3"
+
+
     scene al_ul_campfire with dissolve
 
     pause (1000000000000000000.0)
 
 
     "Мы жарили котлетки, и они казались нам намного вкуснее, чем в столовой. Потом мы стали петь и смотрели на звезды."
-
-    # #Анимация Ульяна у костра
-
-    # image ul_campfire:
-        
-        # "images/an/an4day/an_d04_15.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_16.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_17.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_18.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_19.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_20.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_21.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_22.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_23.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_24.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_25.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-        # "images/an/an4day/an_d04_26.webp" with Dissolve(0.5, alpha=True)
-        # pause 0.5
-
-  
-        # repeat
-
-
-    # scene ul_campfire with dissolve
-
-    # pause (1000000000000000000.0)
-
 
     "Я не удержалась и рассказала Алисе про реку, тропинки и Семёна."
 
@@ -221,6 +195,12 @@ label day4:
         pause 9.5
   
         repeat
+
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_478.mp3"
 
 
     scene ul_campfire_blinking with dissolve
@@ -263,7 +243,11 @@ label day4:
     pause (1000000000000000000.0)
 
 
-    #scene bg starry_sky with dissolve
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_301.mp3"
+
+
     scene cg al_ul_campfire_dance with dissolve
 
     "А еще мы танцевали у костра, потому что в лагере включили музыку и нам было хорошо её слышно."
@@ -285,6 +269,11 @@ label day4:
     pause (1000000000000000000000.0)
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_196.mp3"
+
+
     scene cg tickling with dissolve
 
     "Я хотела обидеться. Мальчишкам я бы такого точно не простила. Но вместо этого мы стали хохотать и кататься по траве. Она щекотала меня и приговаривала:"
@@ -296,6 +285,11 @@ label day4:
     scene cg tickling with dissolve
 
     pause (1000000000000000000000.0)
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_131.mp3"
 
 
     scene bg forest_night with dissolve
@@ -383,6 +377,11 @@ label day4:
     "Я хотела сказать, что пусть сидит с нами, но Алиса сделала значительные глаза, и я кивнула. Мы пошли."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_480.mp3"
+
+
     scene cg sem_campfire with dissolve
 
     "Я ещё оглядывалась на силуэт, сидящий у костра, а Алиса ни разу не обернулась."
@@ -453,6 +452,11 @@ label day4:
     "Я сказала Алисе про инстинкт."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_153.mp3"
+
+
     scene bg square with dissolve
 
     show sp_al_006:
@@ -499,6 +503,11 @@ label day4:
     "Потом тихонечко встала и на цыпочках прошла к двери, взяв с собой всю одежду и фонарик Алисы."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_176.mp3"
+
+
     scene bg square with dissolve
 
     "Оделась я уже на улице. Лагерь спал. Даже мальчишки, которые сидели у костра, уже ушли."
@@ -523,11 +532,21 @@ label day4:
     "Я поискала вокруг, и за метлой, которая стояла возле крыльца, нашла спрятанный длинный железный прут с загнутым кончиком. А вот и ключ! Глупые мальчишки. А ещё кибернетики!"
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
+
+
     scene bg handmade2 with dissolve
 
     "Крючок поднялся легко, и дверь открылась. В темноте я сначала не увидела ничего, кроме наваленных кучей коробок. Но за ними была спрятана эта кукла."
 
     "Я боялась включать свет. Но любопытство взяло верх. Я перетащила коробки к окну и щёлкнула выключателем."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_130.mp3"
 
 
     scene cg ul_elya_workshop with dissolve
@@ -546,9 +565,19 @@ label day4:
     "В эту секунду я поняла смысл фразы Алисы «подмочить репутацию»."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1005.mp3" noloop
+
+
     scene cg ul_elya_diary2 with dissolve
 
     "Я закричала от страха, а в соседнем домике сразу зажегся свет. Я кинулась к выходу, забыв обо всём."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_202.mp3"
 
 
     scene cg ul_elya_diary3 with dissolve
@@ -567,6 +596,11 @@ label day4:
     "Только бы найти дорогу в лагерь и тихонечко прошмыгнуть в кровать, пока она ещё не проснулась."
 
     "С этими мыслями я пошла, натыкаясь в темноте на кусты и старые стволы деревьев, лежащие на земле. Ветки больно били меня по лицу и рукам."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_171.mp3"
 
 
     scene bg dark_forest with dissolve
@@ -591,6 +625,11 @@ label day4:
     "Вдруг он все-таки обитаем? Я заметила маленький огонек внутри, как будто кто-то зажёг свечу, а может мне это только показалось. Интересно, кто бы это мог быть?"
 
     "Почему никто, даже Ольга Дмитриевна, не сказал нам про эти развалины? Было страшнее, чем когда я открывала дверь в мастерскую. Но я все-таки вошла внутрь."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_125.mp3"
 
 
     scene bg ruins3 with dissolve
@@ -637,28 +676,57 @@ label day4:
     "Никогда ещё я не бегала так быстро. Я мчалась сквозь лес напролом, падая и обдирая коленки с локтями, вскакивала и снова мчалась. Мне даже кричать было страшно..."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1003.mp3"
+
+
     scene cg reeds1 with dissolve
 
     "Неожиданно лес перешел в густые заросли камыша. Но я так испугалась, что готова была бежать даже сквозь заросли и остановилась, только почувствовав под ногами воду."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1020.mp3"
+
 
     "За камышами открылась широкая полоска воды. Я обернулась. За спиной остался коридор из примятых стеблей, тропинкой уходящий в сторону леса.  Вот так дела... Опять река."
 
     "Я всё ещё прислушивалась, не зашуршит ли камыш. Мне казалось что ВОТ-ВОТ из него на меня бросится эта огромная кошка с человеческими глазами.  Я беспомощно озиралась вокруг."
 
-    "Возвращаться тропинкой в камышах, где могла прятаться страшная зверюга, мне не хотелось. Светало.  Вдруг где-то рядом я услышала скрип и шлёпанье."
+    "Возвращаться тропинкой в камышах, где могла прятаться страшная зверюга, мне не хотелось. Светало."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
+
+
+    scene cg reeds2 with dissolve
+
+    "Вдруг где-то рядом я услышала скрип и шлёпанье."
 
     "Из зарослей камыша показалась плывущая мимо меня лодка. Она была видна смутным силуэтом на фоне покрытой туманом реки."
 
     "Отступать было некуда и я подумала, что лучше если бы этот человек забрал меня в лодку, чем возвращаться той же дорогой. Поэтому я набрала воздуха и громко крикнула:"
 
-
-    scene cg reeds2 with dissolve
-
     ul "Дяденька рыбак!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_1007.mp3"
+
 
     "Шлёпанье стихло. И теперь лодка плыла беззвучно. Очевидно, человек перестал грести и прислушивался. Я испугалась, что лодка так и проплывёт мимо и заорала уже изо всей силы:"
 
     ul "Дяденька, я тут, плывите сюда!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_004.mp3"
 
 
     scene cg reeds3 with dissolve
@@ -669,6 +737,11 @@ label day4:
     scene an_001_001-min with dissolve
 
     "Он помог мне влезть и оттолкнувшись веслом, направил лодку дальше от зарослей."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
 
 
     ul "Ты кто?"
@@ -729,11 +802,22 @@ label day4:
     pi "Потому. Тебе-то уж, Ульяна, это хорошо должно быть известно."
 
 
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_201.mp3"
+
+
     scene an_001_001-min with dissolve
 
     "Я онемела. Откуда он знает моё имя, ведь я не говорила ему?"
 
     ul "А может, я не Ульяна, а Марьяна!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     "Пионер снова засмеялся одним ртом."
 
@@ -761,7 +845,19 @@ label day4:
 
     ul "Там в лесу есть старые развалины. И мне показалось..."
 
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_208.mp3" noloop
+
+
     "Он не дал договорить и быстро закрыл мне рот ладонью. От этого лодка развернулась и сделала на воде круг. Волна ударила в борт и лодка, остановившись, закачалась."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_124.mp3"
+
 
     pi "Больше ни слова."
 
@@ -789,6 +885,11 @@ label day4:
     "И он исчез. В моей голове смешались разные чувства и мысли. Я вспомнила любимое выражение отца – «Каша в голове».  Да, это было самое точное определение того, что творилось в этот момент в моей голове."
 
     "Я побежала по тропе, на которую указал мне пионер. Только бы Алиса ещё не проснулась!"
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_023.mp3"
 
 
     scene bg auhouse4 with dissolve

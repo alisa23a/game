@@ -117,6 +117,12 @@ label day2:
     pause (1000000000000000000000.0)
 
 
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_197.mp3"
+
     scene cg dining_crowded2 with dissolve
 
     show sp_sem_001:
@@ -135,6 +141,11 @@ label day2:
     scene an_d10_01_bg with dissolve
 
     "Вообще я буду записывать её выражения, они всегда попадают в точку. Если я захочу дружить с Семёном, то посоветуюсь с ней. Она очень взрослая, не то что я. Ну, я тоже, но она взрослее."
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_055.mp3"
 
     "Вот перечитала и мне кажется, что я пишу скучно. Но пока в лагере мало что произошло. Я еще наверстаю."
 

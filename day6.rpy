@@ -12,8 +12,23 @@ label day6:
     $ adv_12 = False
     $ adv_15 = False
 
-    $ im_gal_08_00 = True
-    $ im_gal_08_01 = True
+    $ im_gal_05_00 = True
+    $ im_gal_05_01 = True
+    $ im_gal_05_02 = True
+    $ im_gal_05_03 = True
+    $ im_gal_05_04 = True
+    $ im_gal_05_05 = True
+    $ im_gal_05_06 = True
+    $ im_gal_05_07 = True
+    $ im_gal_05_08 = True
+    $ im_gal_05_09 = True
+    $ im_gal_05_10 = True
+    $ im_gal_05_11 = True
+    $ im_gal_05_12 = True
+    $ im_gal_05_13 = True
+    $ im_gal_05_14 = True
+    $ im_gal_05_15 = True
+    $ im_gal_05_16 = True
 
 
     show screen current_day with fade
@@ -792,7 +807,7 @@ label day6:
 
     stop music fadeout 0.5
 
-    queue music "audio/music/z_450.mp3"
+    queue music "audio/music/z_516.mp3"
 
 
     scene cg squad_formation2 with dissolve

@@ -1179,7 +1179,7 @@ label day10:
     "Ну всё, я побежала! Много разных дел сегодня. Допишу еще про кружки, попозже."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
 
     stop music fadeout 0.5
@@ -1187,37 +1187,37 @@ label day10:
     queue music "audio/music/z_124.mp3" 
 
 
-    image an_10_03: # Анимация Петрович, Алиса, Ульяна и Лена на лавочке
+    # image an_10_03: # Анимация Петрович, Алиса, Ульяна и Лена на лавочке
         
-        "images/an/an10day/an_d10_3_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_02.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_03.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_04.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_05.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_01.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_06.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_03.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_07.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_08.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_09.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
-        "images/an/an10day/an_d10_3_10.png" with Dissolve(0.5, alpha=True)
-        pause 0.5
+        # "images/an/an10day/an_d10_3_01.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_02.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_01.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_03.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_04.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_05.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_01.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_06.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_03.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_07.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_08.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_09.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
+        # "images/an/an10day/an_d10_3_10.png" with Dissolve(0.5, alpha=True)
+        # pause 0.5
 
   
-        repeat
+        # repeat
 
 
 
@@ -1239,7 +1239,7 @@ label day10:
     "Скоро подтянулись и остальные члены отряда. Всем хотелось послушать."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
 
     stop music fadeout 0.5
@@ -1249,14 +1249,14 @@ label day10:
 
     pe "Трофейная, \n( показывает на коробочку)"
 
-    show an_10_03
+    #show an_10_03
 
-    pe "С мертвого фрица снял. Даа… Вдарил его штыком, в самую середку, он и охнуть успел."
+    pe "С мёртвого фрица снял. Даа… Вдарил его штыком, в самую середку, он и охнуть успел."
 
     pe "Здоровенный был, гад. Не дождалась Гретхен своего Фрица. Тут, значит, или он меня или я его. Война. \n(все недоверчиво затихли)"
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
 
     stop music fadeout 0.5
@@ -1298,7 +1298,7 @@ label day10:
     smu "Ну бочка такая, с иллюминатором и ржавым люком, которая на Рачьей отмели. От неё еще цепь в омут тянется. Неужели не видели? \n(покосился опасливо на палку Петровича)"
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_06 with dissolve
 
 
     stop music fadeout 0.5
@@ -1306,10 +1306,10 @@ label day10:
     queue music "audio/music/z_125.mp3"
 
 
-    show sp_pe_006:
-        yalign 0.0 subpixel True
-        xalign 0.432 subpixel True
-        #zoom 0.8
+    # show sp_pe_006:
+        # yalign 0.0 subpixel True
+        # xalign 0.432 subpixel True
+        # #zoom 0.8
 
     pe "(Грозно) \nТы кто такой, малец, чтобы старших перебивать?!"
 
@@ -1386,7 +1386,7 @@ label day10:
     "Пионеры собрали листовки и вручили старику."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
     "Даа… Вот такие крикуны и довели страну до цугундера. \n(прячет бумагу в карман телогрейки)" 
     
@@ -1402,7 +1402,7 @@ label day10:
     sl "А что за батискаф на Рачьей отмели?"
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
     "Петрович улыбнулся и хитро прищурился, отчего всё его лицо стало похоже на печеное яблоко."
 
@@ -1416,7 +1416,7 @@ label day10:
     pe "Это не батискаф. Это колокол водолазный. И вот зачем. Когда драга намыла много песку, а дно опустилось (омута-то раньше вовсе не было), то драга стала вынимать со дна самородки."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
     ul "Эх, вот бы такой найти!"
 
@@ -1429,7 +1429,7 @@ label day10:
     el "Мы бы с Шуриком придумали устройство производительнее."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
     pe "(Не обращая внимания на реплики) \nНо черпала она медленно и тут, значит, инженер наш покойный и придумал эту штуку."
 
@@ -1471,7 +1471,7 @@ label day10:
     "Все замолчали. Очевидно, у каждого были свои ассоциации с домом на болотах."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
     le "Там страшно... Мы ходили с девчонками, но не вошли внутрь, убежали. Там какие-то звуки все время были и смех женский... Жуть..."
 
@@ -1492,7 +1492,7 @@ label day10:
 
     # queue music "audio/music/z_131.mp3"
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
     pe "Хотели изъять. Только не успели. А когда эту чертову революцию учинили, кинулись комиссары – а в сейфе-то ничего и нет. Руководство сбежало, допрашивать некого. Так и уехали, не солоно хлебавши."
 
@@ -1514,7 +1514,7 @@ label day10:
     pe "Ясно дело, можно. Если механизм лебедки починить. Он хоть и ржавый, а я его исправно бы опустил. Да и поднял бы, если подсобил бы кто. Только кто возиться будет? Таких смелых еще поискать."
 
 
-    scene an_d10_3_bg with dissolve
+    scene cg ul_al_pe_05 with dissolve
 
 
     stop music fadeout 0.5

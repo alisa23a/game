@@ -1092,8 +1092,11 @@ screen info_stand():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
-    on 'show' action PauseAudio('music', True) 
-    on 'hide' action PauseAudio('music', False)
+    # on 'show' action PauseAudio('music', True) 
+    # on 'hide' action PauseAudio('music', False)
+
+    on 'show' action (PauseAudio('music', True), SetField(config, "rollback_enabled", False))
+    on 'hide' action (PauseAudio('music', False), SetField(config, "rollback_enabled", True))
 
     #tag menu
     zorder 100

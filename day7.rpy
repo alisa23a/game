@@ -12,8 +12,10 @@ label day7:
     $ adv_12 = False
     $ adv_15 = False
 
-    $ im_gal_08_00 = True
-    $ im_gal_08_01 = True
+    $ im_gal_06_00 = True
+    $ im_gal_06_01 = True
+    $ im_gal_06_02 = True
+    $ im_gal_06_03 = True
 
 
     show screen current_day with fade
@@ -661,7 +663,7 @@ label day7:
 
     stop music fadeout 0.5
 
-    queue music "audio/music/1005.mp3" noloop
+    queue music "audio/music/z_1005.mp3" noloop
 
 
     scene cg fake_bears with dissolve
@@ -671,7 +673,7 @@ label day7:
 
     stop music fadeout 0.5
 
-    queue music "audio/music/131.mp3"
+    queue music "audio/music/z_131.mp3"
 
 
     "На полянку выбежали пионеры с криком: «Разыграли! Разыграли!». Один пионер был в махровом халате не по росту, натянутом на голову."
@@ -798,6 +800,12 @@ label day7:
         zoom 1.2
 
     sl "Так, мальчики. Шурик, Электроник, взяли Мику под руки и быстро в медпункт. Вдруг у неё перелом или разрыв связок. Быстрее!"
+
+
+
+    stop music fadeout 0.5
+
+    queue music "audio/music/z_067.mp3"
 
 
     scene cg sem_mi_carrying with dissolve

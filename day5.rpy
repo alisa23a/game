@@ -5,15 +5,18 @@ label day5:
     $ days = 5
 
     $ adv_1 = False
-    $ adv_3 = False
+    $ adv_3 = True
     $ adv_5 = False
-    $ adv_7 = True
+    $ adv_7 = False
     $ adv_10 = False
     $ adv_12 = False
     $ adv_15 = False
 
-    $ im_gal_08_00 = True
-    $ im_gal_08_01 = True
+    $ im_gal_04_00 = True
+    $ im_gal_04_01 = True
+    $ im_gal_04_02 = True
+    $ im_gal_04_03 = True
+    $ im_gal_04_04 = True
 
 
     show screen current_day with fade

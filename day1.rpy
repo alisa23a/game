@@ -50,16 +50,13 @@ label day1:
 
     $ days = 1
 
-    $ adv_1 = False
+    $ adv_1 = True
     $ adv_3 = False
     $ adv_5 = False
-    $ adv_7 = True
+    $ adv_7 = False
     $ adv_10 = False
     $ adv_12 = False
     $ adv_15 = False
-
-    $ im_gal_08_00 = True
-    $ im_gal_08_01 = True
 
 
     show screen current_day with fade

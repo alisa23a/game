@@ -1003,6 +1003,10 @@ label day29:
 
     "Она приоткрыла плетеную заслонку из веток и листьев папоротника, и мы увидели..."
 
+    scene bg jusu3 with dissolve
+
+    pause (1000000000000000000.0)
+
 
     scene bg iul_hide1 with dissolve
 
@@ -1017,6 +1021,10 @@ label day29:
     scene bg jusu3 with dissolve
 
     "Сахар был не в мешках, он был насыпан в деревянные березовые бочки из-под извести, аккуратно вымытые внутри."
+
+    scene bg jusu with dissolve
+
+    pause (1000000000000000000.0)
 
 
     scene bg iul_hide1 with dissolve

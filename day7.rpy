@@ -1397,6 +1397,9 @@ label day7:
     "Приклею записку к дневнику. Для истории. Я же пишу историю нашего лагеря."
 
 
+    $ inv_item_22 = True
+
+
     scene bg auhouse_crop2 with dissolve
     
     show sp_al_005:

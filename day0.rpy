@@ -3700,11 +3700,11 @@ label start:
 
     $ show_quick_menu = False
 
-    show prologue
+    # show prologue
 
-    pause (299.5)
+    # pause (299.5)
     
-    hide prologue
+    # hide prologue
 
     jump day1
     

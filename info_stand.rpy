@@ -1122,7 +1122,8 @@ screen info_stand():
         #hotspot(434,869,282,187) action Show ("sc_d_prologue")
         #hotspot(1258,851,226,212) action Show ("stand_inventory")
         #hotspot(1258,851,226,212) action Show ("inventory_slots")
-        hotspot(848,851,226,212) action Hide ("info_stand"), Show ("inventory_slots")
+        #hotspot(848,851,226,212) action Hide ("info_stand"), Show ("inventory_slots")
+        hotspot(848,851,226,212) action Show ("inventory_slots")
 
     add "stand_campfire_anim"
 

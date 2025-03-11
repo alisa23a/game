@@ -1830,6 +1830,11 @@ label day24:
 
     "И бегали, пугая друг друга."
 
+    scene cg al_ul_bra with dissolve
+
+    pause (1000000000000000000.0)
+
+
     scene bg yulya_room with dissolve
 
     show sp_iul_012:

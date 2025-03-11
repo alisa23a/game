@@ -1,4 +1,4 @@
-#экран карты лагеря
+#экран карты лагеря Административный сектор
 screen campmap:
     #tag menu
     zorder 100
@@ -112,13 +112,36 @@ screen campmap:
         if cm51:
             hotspot(400, 153, 225, 53) action Hide ("campmap"), Show ("mus_stairs")
 
-
+        hotspot(33, 65, 234, 58) action Hide ("campmap"), Show ("camp2map")
 
     imagebutton:
         xpos 1856 ypos 11
         idle "gui/closebut_idle.png"
         hover "gui/closebut_hover.png"
         action Hide ("campmap"), Show ("info_stand")
+
+
+
+
+
+#экран карты лагеря Административный сектор
+screen camp2map:
+    #tag menu
+    zorder 100
+    modal True
+    
+    imagemap:
+        ground "images/bg/camp2idle.webp"
+        idle "images/bg/camp2idle.webp"
+        hover "images/bg/camp2hover.webp"
+        
+        hotspot(33, 7, 434, 58) action Hide ("camp2map"), Show ("campmap")
+
+    imagebutton:
+        xpos 1856 ypos 11
+        idle "gui/closebut_idle.png"
+        hover "gui/closebut_hover.png"
+        action Hide ("camp2map"), Show ("info_stand")
 
 
 # Локации лагеря

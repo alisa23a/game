@@ -119,19 +119,6 @@ label day31:
     "Но не на отмели. Пионер написал, что заберет меня с Ближнего пляжа, и я побежала туда."
 
 
-    scene bg auhouse3 with dissolve
-
-    "А потом бегом назад, вспомнила, что я не взяла купальник. Схватила еще Мишку своего плюшевого (он приносит удачу). И понеслась как ветер."
-
-    show sp_al_005:
-        yalign 0.1 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2 
-    with dissolve
-
-    "Алиса что-то вслед мне крикнула. Но я уже не разобрала."
-
-
     # scene an_d31_06 with dissolve
     scene an_001_001-min with dissolve
 

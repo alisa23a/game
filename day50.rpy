@@ -97,7 +97,7 @@ label day50:
 transform credits_scroll(speed):
     xcenter 0.5 yanchor 0.0 ypos 1.0
     ypos 600
-    linear speed ypos -66000
+    linear speed ypos -86000
 
 screen credits():
 
@@ -235,6 +235,25 @@ screen credits():
 
             null height 150
 
+
+            text "В игре были использованы оригинальные песни":
+                size 30
+                xalign 0.5
+
+            text "Феликса Ясневского":
+                size 35
+                xalign 0.5
+
+
+            null height 30
+
+            text "Цветок полевой\nЗнаменосец\nСиний чулок\nКукла\nЗвездная река\nДари любовь\nДари себя\nЖми на курок\nКогда хирург\nКотик\nЛюбовь и эпидемия\nМалышка\nНас повенчала ночь\nОранжевый рассвет \nОсенний автостоп\nПусть будет так\nРыжие \nУдивительный мир\nХудожница\nЯркая краска\nНе уходи\nМарш правильных пионеров\nСиняя дверь\nРыжее чудо\nСпи Алиса\nСквозь бирюзу твоих волос":
+                size 30
+                xalign 0.5
+
+
+            null height 150
+
             text "Выражаем благодарность художникам, чьи работы были использованы при создании визуальной новеллы «Дневник Ульяны»:":
                 bold True
                 size 24.5
@@ -293,7 +312,7 @@ label finalcredits2:
 
     show screen credits
 
-    $ renpy.pause (105.0, hard=True) # or however long it takes to scroll through in a reasonable speed
+    $ renpy.pause (3000.0, hard=True) # or however long it takes to scroll through in a reasonable speed
  
     hide screen credits 
 
@@ -304,5 +323,8 @@ label finalcredits2:
     $ renpy.pause(2.0, hard=True)
 
     #return
+
+
+    #jump day50
 
 return

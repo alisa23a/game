@@ -246,7 +246,7 @@ label day8:
 
     pause (1000000000000000000.0)
 
-    "Я выбралась из шалаша и оглядевшись, заметила Пионера. Он стоял в камышах по щиколотку в воде и смотрел на чуть подрагивающий поплавок."
+    "Я выбралась из шалаша и оглядевшись, заметила Пионера. Он сидел на берегу с удочкой, внимательно наблюдая за подрагивающим в воде поплавком."
 
     "Заметив меня, Пионер сделал страшное лицо и прижал палец к губам." 
     
@@ -440,7 +440,7 @@ label day8:
     "Мы долго смеялись и бегали вокруг баркаса в догонялки. Потом упали на песок, чтобы отдышаться и…"
 
 
-    scene cg ul_pi_cheek with dissolve
+    scene cg ul_pi_cheek2 with dissolve
 
 
     stop music fadeout 0.5
@@ -449,6 +449,11 @@ label day8:
 
 
     "Пионер поцеловал меня в щеку. Это было неожиданно. Я прямо вся замерла и удивленно посмотрела на него. Наверное, у меня было такое лицо, что он испугался."
+
+
+    scene cg ul_pi_cheek2 with dissolve
+
+    pause (1000000000000000000.0)
 
 
     scene bg pfis with dissolve
@@ -501,9 +506,13 @@ label day8:
     ul "– Тогда... можешь поцеловать, только в щеку."
 
 
-    scene cg ul_pi_cheek_closed_eyes with dissolve
+    scene cg ul_pi_cheek_closed_eyes2 with dissolve
 
     "И закрыла глаза. А про себя подумала: \n«Жаль, что не отношения, как у взрослых.»"
+
+    scene cg ul_pi_cheek_closed_eyes2 with dissolve
+
+    pause (1000000000000000000.0)
 
 
     scene bg reverside_2
@@ -534,7 +543,7 @@ label day8:
 
     image ul_pi_islang_bg1 = "images/an/an8day/an004/an_004_000_1-min.webp"
     
-    image ul_pi_islang_bg2 = "images/an/an8day/an004/an_004_000_2-min.webp"
+    # image ul_pi_islang_bg2 = "images/an/an8day/an004/an_004_000_2-min.webp"
 
  
     image ul_pi_island_01:
@@ -559,41 +568,41 @@ label day8:
         pause 1.0
         "images/an/an8day/an004/an_004_009-min.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
-        "images/an/an8day/an004/an_004_010-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_011-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_012-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_013-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_014-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
+        # "images/an/an8day/an004/an_004_010-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_011-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_012-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_013-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_014-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
 
         repeat
  
-    image ul_pi_island_02:
+    # image ul_pi_island_02:
  
-    #Анимация Ульяна в купальнике 2
+    # #Анимация Ульяна в купальнике 2
 
-        "images/an/an8day/an004/an_004_015-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_016-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_017-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_018-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_019-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_020-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_021-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
-        "images/an/an8day/an004/an_004_022-min.webp" with Dissolve(0.5, alpha=True)
-        pause 1.0
+        # "images/an/an8day/an004/an_004_015-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_016-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_017-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_018-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_019-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_020-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_021-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
+        # "images/an/an8day/an004/an_004_022-min.webp" with Dissolve(0.5, alpha=True)
+        # pause 1.0
 
-        repeat
+        # repeat
 
 
 
@@ -601,41 +610,54 @@ label day8:
     
     show ul_pi_island_01
 
-    ul "(быстро раздеваясь до купальника) \nСлушай, может искупаемся? Рыбу половить мы ещё успеем."
+
+    "Я сняла рубашку и юбку и осталась в купальнике."
+
+    ul "Слушай, может искупаемся? Рыбу половить мы ещё успеем."
 
 
-    hide ul_pi_island_01
+    scene bg reverside_2
 
-
-    scene ul_pi_islang_bg2 with dissolve
-    
-    show ul_pi_island_02
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     pi "Нет. Что-то сегодня вода холодная и вообще..."
 
-    ul "Ну, как хочешь. Тогда помечтаем. А что, если этот баркас восстановить, подлатать борт, парус поставить?(чертит на песке) Вот, я даже чертежик набросала... Правда, классно смотрится?"
 
 
-    hide ul_pi_island_02
-
-
-    scene ul_pi_islang_bg2
+    scene ul_pi_islang_bg1 with dissolve
     
-    show ul_pi_island_02
+    show ul_pi_island_01
 
-    pause (10000000000)
+    ul "Ну, как хочешь. Тогда помечтаем. А что, если этот баркас восстановить, подлатать борт, парус поставить?"
+
+
+
+    scene bg reverside_2
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     pi "Да, это моя мечта. Если повезет, то можно добраться до моря."
 
 
-    hide ul_pi_island_02
-
-
     scene ul_pi_islang_bg1 with dissolve
     
     show ul_pi_island_01
 
-    ul "А может, все таки искупаемся? Вот, я и купальник прихватила."
+    ul "А может, все таки искупаемся?"
+
+
+    scene bg reverside_2
+
+    show sp_pi_001:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
 
     pi "Ладно. Только недолго, хорошо?"
 

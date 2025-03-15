@@ -760,7 +760,7 @@ screen square:
     modal True
     zorder 300
 
-    add "bg square"
+    add "bg square_day2"
 
     frame:
         xpadding 30

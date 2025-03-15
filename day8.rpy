@@ -542,8 +542,6 @@ label day8:
     hide sp_pi_001
 
     image ul_pi_islang_bg1 = "images/an/an8day/an004/an_004_000_1-min.webp"
-    
-    # image ul_pi_islang_bg2 = "images/an/an8day/an004/an_004_000_2-min.webp"
 
  
     image ul_pi_island_01:
@@ -568,41 +566,9 @@ label day8:
         pause 1.0
         "images/an/an8day/an004/an_004_009-min.webp" with Dissolve(0.5, alpha=True)
         pause 1.0
-        # "images/an/an8day/an004/an_004_010-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_011-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_012-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_013-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_014-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
+
 
         repeat
- 
-    # image ul_pi_island_02:
- 
-    # #Анимация Ульяна в купальнике 2
-
-        # "images/an/an8day/an004/an_004_015-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_016-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_017-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_018-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_019-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_020-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_021-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-        # "images/an/an8day/an004/an_004_022-min.webp" with Dissolve(0.5, alpha=True)
-        # pause 1.0
-
-        # repeat
 
 
 

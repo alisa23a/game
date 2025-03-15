@@ -331,7 +331,7 @@ screen day21_sem_diary02():
         hotspot(1097, 521, 594, 342) action Hide ("day21_sem_diary02"), Show ("day21_sem_diary02_img03")
 
         hotspot(24, 457, 100, 167) action Hide ("day21_sem_diary02"), Show ("day21_sem_diary01")
-        hotspot(1796, 457, 100, 167) action Hide ("day21_sem_diary02"), Show ("day21_sem_diary03")
+        hotspot(1796, 457, 100, 167) action Hide ("day21_sem_diary02")
 
 
 
@@ -358,7 +358,7 @@ screen day21_sem_diary02_img02():
     zorder 100
     modal True
 
-    add "images/cg/cg_day21/cg peak_dv_02.webp"
+    add "images/cg/cg_day21/cg peak_dv_03.webp"
 
 
     imagebutton:
@@ -376,43 +376,6 @@ screen day21_sem_diary02_img03():
     zorder 100
     modal True
 
-    add "images/cg/cg_day21/cg peak_dv_03.webp"
-
-
-    imagebutton:
-        xpos 0 ypos 0
-        xsize 1920 ysize 1080
-        idle "gui/bg_1x1_transparent.png"
-        hover "gui/bg_1x1_transparent.png"
-        action Hide ("day21_sem_diary02_img03"), Show("day21_sem_diary02")
-
-
-
-screen day21_sem_diary03():
-
-    tag menu
-    zorder 100
-    modal True
-
-    imagemap:
-
-        ground "images/cg/cg_day21/cg sem_diary_03.webp"
-        idle "images/cg/cg_day21/cg sem_diary_03_idle.png"
-        hover "images/cg/cg_day21/cg sem_diary_03_hover.png"
-
-        hotspot(202, 81, 667, 501) action Hide ("day21_sem_diary03"), Show ("day21_sem_diary03_img01")
-
-        hotspot(24, 457, 100, 167) action Hide ("day21_sem_diary03"), Show ("day21_sem_diary02")
-        hotspot(1796, 457, 100, 167) action Hide ("day21_sem_diary03")#, Jump ("day21_cont2")
-
-
-
-screen day21_sem_diary03_img01():
-
-    tag menu
-    zorder 100
-    modal True
-
     add "images/cg/cg_day21/cg peak_dv_04.webp"
 
 
@@ -421,8 +384,7 @@ screen day21_sem_diary03_img01():
         xsize 1920 ysize 1080
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
-        action Hide ("day21_sem_diary03_img01"), Show("day21_sem_diary03")
-
+        action Hide ("day21_sem_diary02_img03"), Show("day21_sem_diary02")
 
 
 

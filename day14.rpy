@@ -480,7 +480,7 @@ label day14:
     "Мы только на пару часиков перед линейкой вздремнули. На линейке у всех глаза были красные, как у кроликов."
 
 
-    scene bg genda_blured with dissolve
+    scene bg square with dissolve
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -490,12 +490,14 @@ label day14:
     "Ну и Петрович нас прикрыл. ОД у него спросила: «Все в домиках? Никто не шляется по лагерю?» "
 
 
-    scene bg hide_bench with dissolve  
+    scene cg pe_bench with dissolve
 
-    show sp_pe_001:
-        yalign 0.0 subpixel True
-        xalign 1.0 subpixel True
-        zoom 1.2
+    # scene bg hide_bench with dissolve  
+
+    # show sp_pe_001:
+        # yalign 0.0 subpixel True
+        # xalign 1.0 subpixel True
+        # zoom 1.2
 
     "А Петрович ей: «Ну вы же знаете, Ольга Дмитриевна, мимо меня и мышь не проскользнет»."
 
@@ -1151,7 +1153,7 @@ label day14:
     "Он только плечами пожимает. А у нас, как на зло, ни одного номера больше нет."
 
 
-    scene bg hide_bench with dissolve 
+    scene bg bench with dissolve 
 
 
     stop music fadeout 0.5
@@ -1169,7 +1171,7 @@ label day14:
     "Оказывается, он в молодости в театральной самодеятельности выступал. С баяном!"
 
 
-    scene bg genda_blured with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -1179,7 +1181,7 @@ label day14:
     od "Где я вам баян возьму, Архип Петрович?"
 
 
-    scene bg hide_bench with dissolve  
+    scene bg bench with dissolve  
 
     show sp_pe_003:
         yalign 0.05 subpixel True
@@ -1189,7 +1191,7 @@ label day14:
     pe "Есть баян у меня, немецкий, трофейный."
 
 
-    scene bg genda_blured with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -1199,7 +1201,7 @@ label day14:
     od "А что вы на нем играть будете? Надеюсь, не немецкие песенки?"
 
 
-    scene bg hide_bench with dissolve  
+    scene bg bench with dissolve  
 
     show sp_pe_002:
         yalign 0.05 subpixel True
@@ -1219,7 +1221,7 @@ label day14:
     pe "Вот я запою, а молодежь подхватит. В наше время все знали эти песни."
 
 
-    scene bg genda_blured with dissolve
+    scene bg square_day2 with dissolve
 
 
     stop music fadeout 0.5
@@ -1232,10 +1234,10 @@ label day14:
         xalign 0.0 subpixel True
         zoom 1.2
 
-    od "Хорошо, я попробую мобилизовать малышей из хора. Надеюсь, Хетсуне к Дню Памяти с ними репетировала военную тематику. Только уж вы своим скрипучим баритоном не портите впечатление. Сделаете затакт и дети начнут. Ладно?"
+    od "Хорошо, я попробую мобилизовать малышей из хора. Надеюсь, Хатсуне к Дню Памяти с ними репетировала военную тематику. Только уж вы своим скрипучим баритоном не портите впечатление. Сделаете затакт и дети начнут. Ладно?"
 
 
-    scene bg hide_bench with dissolve  
+    scene bg bench with dissolve  
 
     show sp_pe_001:
         yalign 0.05 subpixel True
@@ -1245,7 +1247,7 @@ label day14:
     pe "А чем вам мой голос плох? В былые времена все  сестрички из медсанбата приходили послушать, как поет боец Сохатый. Бывало даже, под мой баян танцы устраивали. Я и польки разные знаю и краковяк. Во как!" 
 
 
-    scene bg genda_blured with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_od_022:
         yalign 0.0 subpixel True
@@ -1255,7 +1257,7 @@ label day14:
     od "Ну что вы несете, кто сейчас танцует краковяк? Еще скажите мазурку!"
 
 
-    scene bg hide_bench with dissolve  
+    scene bg bench with dissolve  
 
     show sp_pe_002:
         yalign 0.05 subpixel True
@@ -1265,7 +1267,7 @@ label day14:
     pe " О! Мазурку могу! Хороший танец." 
 
 
-    scene bg genda_blured with dissolve
+    scene bg square_day2 with dissolve
 
     show sp_od_023:
         yalign 0.0 subpixel True

@@ -77,8 +77,13 @@ screen campmap:
             hotspot(1555,345,195,107) action Hide ("campmap"), Show ("attic")
         if cm34:
             hotspot(1483,495,216,69) action Hide ("campmap"), Show ("auhouse")
+        # if cm35:
+            # hotspot(1702,97,198,180) action Hide ("campmap"), Show ("pointers")
+
         if cm35:
-            hotspot(1702,97,198,180) action Hide ("campmap"), Show ("pointers")
+            hotspot(1702,97,198,180) action Show ("pointers")
+
+            
         if cm36:
             hotspot(775,78,106,57) action Hide ("campmap"), Show ("tirhands")
         if cm37:
@@ -174,7 +179,7 @@ screen mus_stairs:
         xsize 1920 ysize 1080
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
-        action Hide ("mus"), Show("campmap")
+        action Hide ("mus_stairs"), Show("campmap")
 
 
 screen mus:
@@ -1104,7 +1109,7 @@ screen busstop_cm4:
         xsize 1920 ysize 1080
         idle "gui/bg_1x1_transparent.png"
         hover "gui/bg_1x1_transparent.png"
-        action Hide ("busstop_cm"), Show("campmap")
+        action Hide ("busstop_cm4"), Show("campmap")
 
 
 screen secret4:

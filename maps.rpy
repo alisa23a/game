@@ -2628,15 +2628,65 @@ screen rail:
         action Hide ("rail"), Show("map")
 
 
+# screen pointers:
+
+    # # Указатели
+
+    # #tag menu
+    # modal True
+    # zorder 300
+
+    # add "bg pointers"
+
+    # frame:
+        # xpadding 30
+        # ypadding 10
+        # pos (50, 50)
+
+        # style_prefix "LocationStyleTitle"
+        # vbox:
+            # style_prefix "LocationStyleTitle"
+            # vbox:
+                # style_prefix "LocationStyleTitle"
+                # text "Указатели"
+
+    # imagebutton:
+        # xpos 0 ypos 0
+        # xsize 1920 ysize 1080
+        # idle "gui/bg_1x1_transparent.png"
+        # hover "gui/bg_1x1_transparent.png"
+        # action Hide ("pointers"), Show("map")
+
+
+
 screen pointers:
 
     # Указатели
 
     #tag menu
     modal True
-    zorder 300
+    zorder 400
 
-    add "bg pointers"
+    #add "bg pointers"
+
+
+    imagebutton:
+        xpos 0 ypos 0
+        xsize 1920 ysize 1080
+        idle "gui/bg_1x1_transparent.png"
+        hover "gui/bg_1x1_transparent.png"
+        action Hide ("pointers")
+
+
+    imagemap:
+        ground "images/bg/bg pointers.webp"
+        idle "images/info_stand/pointers_idle_hover.png"
+        hover "images/info_stand/pointers_idle_hover.png"
+
+        hotspot(1185,207,440,100) action Hide ("pointers"), Show ("boat_station")
+        hotspot(1130,364,440,100) action Hide ("pointers"), Show ("oldcamp")
+        hotspot(1249,539,440,100) action Hide ("pointers"), Show ("oldroad")
+        hotspot(1154,725,366,83) action Hide ("pointers"), Show ("newtcreek")
 
     frame:
         xpadding 30
@@ -2650,12 +2700,16 @@ screen pointers:
                 style_prefix "LocationStyleTitle"
                 text "Указатели"
 
-    imagebutton:
-        xpos 0 ypos 0
-        xsize 1920 ysize 1080
-        idle "gui/bg_1x1_transparent.png"
-        hover "gui/bg_1x1_transparent.png"
-        action Hide ("pointers"), Show("map")
+
+
+
+
+
+
+
+
+
+
 
 
 screen busstop:

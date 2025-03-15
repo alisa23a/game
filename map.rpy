@@ -380,7 +380,7 @@ screen map:
                 idle_background "images/fire.png"
                 hover_foreground "images/fireh.png"
                 focus_mask True
-                action Hide ("map"), Show ("pointers")
+                action Show ("pointers")
         
         if gm41:
             button:    

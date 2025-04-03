@@ -279,6 +279,8 @@ define tic_09 = False
 define tic_10 = False
 define tic_11 = False
 define tic_12 = False
+define tic_13 = False
+define tic_14 = False
 
 
 screen stand_mailbox():
@@ -326,9 +328,33 @@ screen stand_mailbox():
 
         add "images/info_stand/mailbox/ticket_07.webp"
 
+    if tic_08:
+
+        add "images/info_stand/mailbox/ticket_08.webp"
+
+    if tic_09:
+
+        add "images/info_stand/mailbox/ticket_09.webp"
+
     if tic_10:
 
         add "images/info_stand/mailbox/ticket_10.webp"
+
+    if tic_11:
+
+        add "images/info_stand/mailbox/ticket_11.webp"
+
+    if tic_12:
+
+        add "images/info_stand/mailbox/ticket_12.webp"
+
+    if tic_13:
+
+        add "images/info_stand/mailbox/ticket_13.webp"
+
+    if tic_14:
+
+        add "images/info_stand/mailbox/ticket_14.webp"
 
 
 

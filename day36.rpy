@@ -17,8 +17,8 @@ label day36:
     $ im_gal_35_02 = True
 
     $ new_mail = True
-    $ tic_10 = False
-    $ tic_11 = True
+    $ tic_11 = False
+    $ tic_12 = True
 
     play music "audio/music/z_300.mp3"
 

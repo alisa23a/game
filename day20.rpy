@@ -15,6 +15,9 @@ label day20:
     $ im_gal_19_00 = True
     $ im_gal_19_01 = True
 
+    $ new_mail = True
+    $ tic_04 = False
+    $ tic_05 = True
 
     show screen current_day with fade
 

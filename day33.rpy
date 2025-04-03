@@ -678,7 +678,7 @@ label day33:
     hide sp_al_056
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -686,7 +686,7 @@ label day33:
 
     ul "А ты заметила, что сюда тоже надвигается туман? Смотри, из тумана выпрыгивают какие то огоньки. Что это?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_al_055:
@@ -754,7 +754,7 @@ label day33:
 
     "Все попытки стряхнуть его с ноги, оказались безрезультатными. Толик был пьян, ничего не соображал и это было очевидно."
 
-    "Алиса устало плюхнулась на траву, не обращая внимания па плачущего Толика, стискивающего её ногу. Она подняла бутылку, посмотрела на этикетку и сказала:"
+    "Алиса устало плюхнулась на траву, не обращая внимания на плачущего Толика, стискивающего её ногу. Она подняла бутылку, посмотрела на этикетку и сказала:"
 
 
     scene bg tol_hut_fog with dissolve
@@ -935,7 +935,7 @@ label day33:
 
     ul "Давай в обратную сторону, вон я вижу какие-то камыши. Это, наверное, мель. Там конечно ничего не растет кроме кустов и травы, и не из чего даже костер разжечь, зато точно не утопнем."
 
-    ul "А когда нас хватятся не вечерней проварке, нас начнут искать и точно найдут."
+    ul "А когда нас хватятся на вечерней проверке, нас начнут искать и точно найдут."
 
 
     scene bg ushallow with dissolve
@@ -1679,9 +1679,9 @@ label day33:
 
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     "Мы стали обсуждать исчезновение Саши и заметили, что в обсуждениях отряда не принимает участия только Юля."
@@ -1714,9 +1714,9 @@ label day33:
 
 
     show sp_iul_009:
-        yalign -0.02 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     "Повисла гнетущая тишина. Все смотрели на Юлю."
@@ -1740,9 +1740,9 @@ label day33:
 
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Она очень нервная была. Я дала ей суп и ягоды. Она спит."
@@ -1750,7 +1750,7 @@ label day33:
     hide sp_iul_009
 
 
-    show sp_ul_050:
+    show sp_ul_053:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1
@@ -1758,13 +1758,13 @@ label day33:
 
     ul "Ягоды забвения? И грибочки, от которых плющит и колбасит? Сколько же ты ей дала?"
 
-    hide sp_ul_050
+    hide sp_ul_053
 
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Достаточно, чтобы она спала."
@@ -1784,9 +1784,9 @@ label day33:
 
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Нет, она будет просто спать. Сны видеть всякие. Ну, пока не разбудить. Надо еще слова сказать. В общем... Так вы её не разбудите."
@@ -1799,7 +1799,7 @@ label day33:
     queue music "audio/music/z_1013.mp3"
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1
@@ -1807,13 +1807,13 @@ label day33:
 
     ul "А какие слова?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_009:
-        yalign -0.02 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "(Нагибаясь к уху Ульяны, шёпотом, чтобы не слышали другие) \nКрибле Крабле Бумс."
@@ -1821,7 +1821,7 @@ label day33:
     hide sp_iul_009
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1
@@ -1829,13 +1829,13 @@ label day33:
 
     ul "(Тоже шёпотом) \nНо это же заклинание из известной сказки. Это Пионер тебе сказал?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Да. Я не знаю эту сказку. Может быть. Но ОН сказал, что они работают."
@@ -1843,7 +1843,7 @@ label day33:
     hide sp_iul_009
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 1.0 subpixel True
         zoom 1.1
@@ -1853,7 +1853,7 @@ label day33:
 
     ul "Мне кажется, слова тут вообще ни при чём. Просто это для форсу. Мол, волшебство. Хотя..."
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_je_001:
@@ -1878,15 +1878,15 @@ label day33:
     hide sp_el_001
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
+        xalign 1.0 subpixel True
         zoom 1.1
     with dissolve
 
     ul "Мы тебе не скажем."
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_el_002:
@@ -1909,17 +1909,6 @@ label day33:
     al "Но-но, полегче, белобрысый! А то сейчас схлопочешь."
 
     hide sp_al_007
-
-
-    show sp_ul_013:
-        yalign 0.0 subpixel True
-        xalign 0.0 subpixel True
-        zoom 1.1
-    with dissolve
-
-    ul "Мы тебе не скажем."
-
-    hide sp_ul_013
 
 
     show sp_el_002:
@@ -2070,7 +2059,7 @@ label day33:
     "А ещё она была удивительно похожа на ту принцессу из мультика про бродячих музыкантов."
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2078,13 +2067,13 @@ label day33:
 
     ul "Ты уверена, что она проснётся?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_012:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     "Юля пожала плечами."
@@ -2094,7 +2083,7 @@ label day33:
     hide sp_iul_012
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2102,13 +2091,13 @@ label day33:
 
     ul "Пионер говорил. С ума сойти! Я, конечно, ему доверяю. Пока он ни разу не ошибся. Но сам-то он пробовал?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_012:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Да. Он разбудил меня."
@@ -2116,7 +2105,7 @@ label day33:
     hide sp_iul_012
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2124,13 +2113,13 @@ label day33:
 
     ul "А ты спала?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_009:
-        yalign -0.02 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     "Юля пожала плечами."
@@ -2142,7 +2131,7 @@ label day33:
     hide sp_iul_009
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2150,13 +2139,13 @@ label day33:
 
     ul "Ладно, давай будить Сашу."
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_012:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Ты будешь помогать. На, выпей, это обязательно. Это настойка. Не спрашивай, чего. Тебе не понравится ответ."
@@ -2170,7 +2159,7 @@ label day33:
     hide sp_iul_012
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2178,13 +2167,13 @@ label day33:
 
     ul "А если я по-настоящему засну?"
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     show sp_iul_012:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 1.0 subpixel True
-        zoom 1.1 
+        zoom 1.3 
     with dissolve
 
     uv "Я тебе не дам. Не беспокойся, буду щипать каждые пять минут."
@@ -2192,7 +2181,7 @@ label day33:
     hide sp_iul_012
 
 
-    show sp_ul_013:
+    show sp_ul_019:
         yalign 0.0 subpixel True
         xalign 0.0 subpixel True
         zoom 1.1
@@ -2200,7 +2189,7 @@ label day33:
 
     ul "Не надо, я сама."
 
-    hide sp_ul_013
+    hide sp_ul_019
 
 
     scene an_d33_01 with dissolve
@@ -2472,8 +2461,9 @@ label day33:
 
     "На радостях ОД разрешила нам принять Сашу в наш отряд."
 
-    hide sp_od_024
 
+
+    scene bg auhouse2 with dissolve
 
     show sp_sb_002:
         yalign 0.1 subpixel True
@@ -2481,7 +2471,7 @@ label day33:
         zoom 1.2
     with dissolve
 
-    "Саша рассказывала о своих приключениях теперь уже всем и подробно."
+    "Саша рассказывала нам с Алисой о своих приключениях теперь уже подробно."
 
 
     scene cg sasha_backpack with dissolve
@@ -2698,7 +2688,7 @@ label day33:
     pause (10000000000000000000000.0)
 
 
-    scene bg camp3 with dissolve
+    scene bg auhouse2 with dissolve
 
     show sp_sb_002:
         yalign 0.1 subpixel True
@@ -2709,6 +2699,146 @@ label day33:
 
     "Потом был тот самый СОН. Юля не рассказала Пионеру про Сашу. Пожалуй, Саша была единственной, кто ускользнула от его «всевидящих» слепых глаз."
 
+    "Саша закончила рассказ и обвела нас глазами, как будто, вернувшись в действительность. Мы молчали. Её рассказ был похож на правду, с одним единственным но."
+
+    "То, о чем рассказала Саша, заняло бы пару недель её жизни, а ведь с момента её исчезновения, до момента когда её нашли, прошли всего сутки."
+
+    sb "Чего вы на меня так смотрите?"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Ты помнишь, что ещё вчера ты сидела с нами у костра в лагере мотоциклистов?"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Вот-вот. Как-то не совпадает."
+
+
+    scene bg auhouse2 with dissolve
+
+    show sp_sb_001:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    sb "Я помню. Но это же было две недели назад."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Да нет же!"
+
+
+    scene bg auhouse2 with dissolve
+
+    show sp_sb_003:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    sb "Вы меня разыгрываете. Что, по-вашему, мне это приснилось? Или я всё придумала?"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_053:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Стоп! Кажется, я начинаю понимать... Время!"
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Что — время?"
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_019:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Ну помнишь, Юля говорила, что время течёт здесь неравномерно. Для Саши оно просто ускорилось. И кажется, дело в пещере."
+
+    ul "Помнишь когда мы пошли обследовать пещеру, ты боялась, что мы опоздаем в лагерь и нас будут ругать? Но когда мы вернулись, выяснилось, что до построения было еще два часа."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_004:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Да, я тогда ничего не поняла. Думала, перенесли."
+
+
+    scene bg auhouse_crop1 with dissolve
+
+    show sp_ul_021:
+        yalign 0.0 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.1
+
+    ul "Нет! В пещере время бежало быстрее! Мы вернулись почти сразу же. А нам казалось, что мы пробыли там долго."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Значит... Пещера изменила для Саши её личное время."
+
+
+    scene bg auhouse2 with dissolve
+
+    show sp_sb_002:
+        yalign 0.1 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+    with dissolve
+
+    sb "Не совсем понимаю, о чем вы. Но я правда ничего не придумала."
+
+
+    scene bg auhouse_crop2 with dissolve
+
+    show sp_al_005:
+        yalign 0.1 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    al "Мы тут о своем, не обращай внимания. Тебе нужно отдохнуть." 
 
 
     scene bg szhhouse with dissolve
@@ -2718,7 +2848,7 @@ label day33:
         xalign 0.0 subpixel True
         zoom 1.2
 
-    "Потом было поздно, и мы отвели Сашу в домик к Жене. Ее кровать вечно пустовала, потому что она обычно засиживалась допоздна и спала в библиотеке."
+    "Было уже поздно, и мы отвели Сашу в домик к Жене. Ее кровать вечно пустовала, потому что она обычно засиживалась допоздна и спала в библиотеке."
 
 
     scene bg auhouse2 with dissolve
@@ -2815,10 +2945,10 @@ label day33:
 
     scene bg auhouse2 with dissolve
 
-    show sp_iul_009:
-        yalign 0.0 subpixel True
+    show sp_iul_012:
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1
+        zoom 1.3 
     with dissolve
 
     "Мы вернулись в домик. Там мы застали Юлю, которая все время нервно кусала ногти и смотрела в сторону леса."
@@ -2837,9 +2967,9 @@ label day33:
     scene bg auhouse2 with dissolve
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1
+        zoom 1.3 
 
     uv "Это нехорошо. Очень нехорошо. Тут так было до вашего приезда и в первый день после. Тогда река текла по кругу, и никто не мог покинуть зону лагеря и попасть в неё."
 
@@ -2859,9 +2989,9 @@ label day33:
     scene bg auhouse2 with dissolve
 
     show sp_iul_009:
-        yalign 0.0 subpixel True
+        yalign 0.1 subpixel True
         xalign 0.0 subpixel True
-        zoom 1.1
+        zoom 1.3 
 
     uv "ОНИ не хотели бы, чтобы я говорила. И я не буду."
 

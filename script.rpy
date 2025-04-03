@@ -99,6 +99,8 @@ define piros = Character('Пионеры', color="#1bc8d7")
 
 define creature = Character ('Существо', color="#800080")
 
+define sb = Character ('Саша Бременская', color="#ffcc00")
+
 screen GameSplashScreen():
 
     key "K_ESCAPE" action NullAction()

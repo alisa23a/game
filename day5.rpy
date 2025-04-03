@@ -18,6 +18,10 @@ label day5:
     $ im_gal_04_03 = True
     $ im_gal_04_04 = True
 
+    $ new_mail = True
+    $ tic_01 = False
+    $ tic_02 = True
+
 
     show screen current_day with fade
 

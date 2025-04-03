@@ -12,11 +12,12 @@ label day10:
     $ adv_12 = False
     $ adv_15 = False
 
-
-
     $ im_gal_09_00 = True
     $ im_gal_09_01 = True
 
+    $ new_mail = True
+    $ tic_03 = False
+    $ tic_04 = True
 
     play music "audio/music/z_300.mp3"
 

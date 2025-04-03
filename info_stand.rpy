@@ -264,25 +264,99 @@ screen stand_advertisements():
         action Hide("stand_advertisements"), Show("info_stand")
 
 
+# Переменные, определяющие письма в почтовом ящике на Инфостенде
 
-
-
-
+define tic_00 = True
+define tic_01 = False
+define tic_02 = False
+define tic_03 = False
+define tic_04 = False
+define tic_05 = False
+define tic_06 = False
+define tic_07 = False
+define tic_08 = False
+define tic_09 = False
+define tic_10 = False
+define tic_11 = False
+define tic_12 = False
 
 
 screen stand_mailbox():
 
     ## Экран с почтовым ящиком, открывается при клике в главном меню соответствующей таблички на стенде
+
+    on 'show' action (SetVariable("new_mail", False))
+
+
     #tag menu
     zorder 100
     modal True
 
-    imagemap:
-        ground "images/info_stand/stand_mailbox_gr.webp"
-        idle "gui/info_stand_nav_idle.png"
-        hover "gui/info_stand_nav_hover.png" 
 
-        hotspot(1845,0,75,77) action Hide("stand_mailbox"), Show("info_stand")
+
+    if tic_00:
+
+        add "images/info_stand/mailbox/stand_mailbox_gr.webp"
+
+    if tic_01:
+
+        add "images/info_stand/mailbox/ticket_01.webp"
+
+    if tic_02:
+
+        add "images/info_stand/mailbox/ticket_02.webp"
+
+    if tic_03:
+
+        add "images/info_stand/mailbox/ticket_03.webp"
+
+    if tic_04:
+
+        add "images/info_stand/mailbox/ticket_04.webp"
+
+    if tic_05:
+
+        add "images/info_stand/mailbox/ticket_05.webp"
+
+    if tic_06:
+
+        add "images/info_stand/mailbox/ticket_06.webp"
+
+    if tic_07:
+
+        add "images/info_stand/mailbox/ticket_07.webp"
+
+    if tic_10:
+
+        add "images/info_stand/mailbox/ticket_10.webp"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    imagebutton:
+        xpos 1856 ypos 11
+        idle "gui/closebut_idle.png"
+        hover "gui/closebut_hover.png"
+        action Hide("stand_mailbox"), Show("info_stand")
+
+
+
+
+
+
+
+
+
 
 screen stand_hikes():
 
@@ -1083,6 +1157,35 @@ screen stand_campfire():
 
 
 
+define new_mail = False
+
+image stand_mail_alarm:
+
+    ##Анимация мигающий конверт
+
+    pos (884,341)
+
+    "images/info_stand/mailbox/mail_alarm_01.png"
+    pause 0.5
+    "images/info_stand/mailbox/mail_alarm_02.png"
+    pause 0.5
+
+    repeat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 image progressbar = Transform(DynamicImage('images/info_stand/progressbar/[days].png'), xpos = 446, ypos = 34, xsize=1027, ysize=68) ## Динамически меняющаяся картинка с прогрессбаром.
  
 ## РАСКОММЕНТИРОВАТЬ imgage progressbar, КОГДА БУДУТ КАРТИНКИ ПО КОЛИЧЕСТВУ ДНЕЙ. И НИЖЕ, В screen info_stand() ТОЖЕ
@@ -1126,6 +1229,10 @@ screen info_stand():
         hotspot(848,851,226,212) action Show ("inventory_slots")
 
     add "stand_campfire_anim"
+
+    if new_mail:
+
+        add "stand_mail_alarm"
 
     add "progressbar" #РАСКОММЕНТИРОВАТЬ, КОГДА БУДУТ КАРТИНКИ ДНЕЙ
     

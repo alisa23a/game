@@ -361,7 +361,7 @@ label day35:
     "Лодка накренилась но осталась на плаву. Лихорадочные усилия Петровича и нашей команды вычерпывавших воду не прошли даром."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_003:
         yalign 0.0 subpixel True
@@ -373,7 +373,7 @@ label day35:
     pe "Неужели выпал за борт? Ай, беда-то какая... Говорил, плавать умеет."
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -383,7 +383,7 @@ label day35:
     al "Так ведь он оглушенный!"
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_ul_033:
         yalign 0.0 subpixel True
@@ -398,7 +398,7 @@ label day35:
     pe "А ну-ка дайте мне багор. Что-то там плавает."
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -423,7 +423,7 @@ label day35:
     pe "(Зацепив багром предмет) \nТак, ну-ка... Тяжелый... Нет. Это не рюкзак."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
 
     stop music fadeout 0.5
@@ -439,7 +439,7 @@ label day35:
     ul "Сом наверное!"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -456,7 +456,7 @@ label day35:
     "Мы втроём с трудом затащили в лодку тело."
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -466,7 +466,7 @@ label day35:
     al "Надо расстегнуть воротник. И трубку изо рта вытащить. Он же ей поперхнулся. И маску снять."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_003:
         yalign 0.0 subpixel True
@@ -478,7 +478,7 @@ label day35:
     pe "Эк его... Кровь в ушах. Как бы барабанные-то перепонки не лопнули. Плохо дело. Оглохнет малец. \n(помогает раздеть Толика)"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_tol_007:
         yalign 0.05 subpixel True
@@ -488,7 +488,7 @@ label day35:
     tol "(Открывая глаза) \nГде я?"
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
 
     stop music fadeout 0.5
@@ -504,7 +504,7 @@ label day35:
     ul "Живой! Толик живой!"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_055:
         yalign 0.1 subpixel True
@@ -514,7 +514,7 @@ label day35:
     al "Слава богу!"
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_005:
         yalign 0.0 subpixel True
@@ -524,7 +524,7 @@ label day35:
     pe "Сколько пальцев я тебе показываю, малец?"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_tol_007:
         yalign 0.05 subpixel True
@@ -534,7 +534,7 @@ label day35:
     tol "Четыре."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_005:
         yalign 0.0 subpixel True
@@ -544,7 +544,7 @@ label day35:
     pe "Жить будет!"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_tol_007:
         yalign 0.05 subpixel True
@@ -554,7 +554,7 @@ label day35:
     tol "Я смотрю, он плывёт. И тут, ка-а-ак жахнуло! Потом ничего не помню. Круги какие-то цветные в глазах..."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_005:
         yalign 0.0 subpixel True
@@ -566,7 +566,7 @@ label day35:
     "Петрович протянул Толику флягу."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_ul_019:
         yalign 0.0 subpixel True
@@ -576,7 +576,7 @@ label day35:
     ul "Ой, а можно и мне водички!"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -586,7 +586,7 @@ label day35:
     al "Дура, там водка!"
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_005:
         yalign 0.0 subpixel True
@@ -596,7 +596,7 @@ label day35:
     pe "(Обиженно) \nЯ гадость не пью. Никакая не водка, а чистая настойка. Рецепт секретный. «Сохатовка» на травах. Мёртвого поднимет."
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_tol_005:
         yalign 0.05 subpixel True
@@ -605,7 +605,7 @@ label day35:
 
     tol "А где сом?"
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -615,7 +615,7 @@ label day35:
     ul "О, точно, настойка животворящая!"
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_002:
         yalign 0.0 subpixel True
@@ -634,7 +634,7 @@ label day35:
     "Петрович с Толиком развернулись лицом по ходу движения лодки и гребли теперь как индейцы на каноэ, тихо опуская вёсла в воду. Мы стали всматриваться в туман покрывший омут."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_005:
         yalign 0.0 subpixel True

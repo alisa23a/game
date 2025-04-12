@@ -247,13 +247,48 @@ label day25:
     hide sp_ul_019
 
 
+    show sp_sam_013:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    sam "Ольга Дмитриевна!  На надо ругать. Это есть... э-э-э, по-русски, один за всех! Взаимовыручка, Вы сами сказать."
+
+    hide sp_sam_013
+
+
     show sp_od_017:
         yalign 0.0 subpixel True
         xalign 0.47 subpixel True
         zoom 1.2
     with dissolve
 
-    od "Что же, хорошо, что вы одумались и подождали нас на тропе. Ульяна, это ты её переубедила?"
+    od "Не знаю, Саманта, как это на английском, но точно, не взаимовыручка. Знаешь, круговая порука, она и в Америке — круговая порука. Это называется, выгораживать своих."
+
+    hide sp_od_017
+
+
+    show sp_meg_004:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+    meg "Я переведу. «Protect your friends even if they are guilty». Если говорить одним словом, то «solidarity»."
+
+    hide sp_meg_004
+
+
+    show sp_od_017:
+        yalign 0.0 subpixel True
+        xalign 0.47 subpixel True
+        zoom 1.2
+    with dissolve
+
+    od "Ага, солидарность, как же. Скорее, «рука руку моет»."
+
+    od "Впрочем, это непереводимое на английский наше выражение. За такую, извините, «солидарность», влетит всем. И мне в том числе. Но есть смягчающее обстоятельство."
+
+    od "Это хорошо, что вы одумались и подождали нас на тропе. Ульяна, это ты её переубедила?"
 
 
 
@@ -761,7 +796,10 @@ label day25:
 
     ul "Да не нужен он мне! \n(ревет) \nОбеща-а-а-ю-у-у."
 
-    al "Ох. Горе ты мое."
+    al "Ох. Горе ты моё."
+
+
+    pause (1000000000000000000.0)
 
 
 # Вторая часть
@@ -820,7 +858,7 @@ label day25:
     
     "Подобраться к вождю близко с маленьким женским пистолетом, который она прячет (не скажу где, а то неинтересно будет), и сделать три выстрела."
 
-    "Пистолет-зажигалку «Браунинг» одолжила Мегги. Очень красивый, она обещала подарить его на память после спектакля Саше, а мы его рассматривали."
+    "Пистолет-зажигалку «Браунинг» одолжила Мэгги. Очень красивый, она обещала подарить его на память после спектакля Саше, а мы его рассматривали."
 
     "Но Ильича закроет грудью Бонивур и геройски погибнет."
 
@@ -881,7 +919,7 @@ label day25:
 
     scene spectacle_16 with dissolve
 
-    "Мегги её охраняет и играет роль комиссара из «Оптимистически трагедии», ну которая еще говорила «Кому еще комиссарского тела?» И стреляла в анархистов."
+    "Мэгги её охраняет и играет роль комиссара из «Оптимистически трагедии», ну которая еще говорила «Кому еще комиссарского тела?» И стреляла в анархистов."
 
 
     pause (10000000000000000000000.0)
@@ -1073,6 +1111,23 @@ label day25:
     "А нас фотографировали. Вот фотография. Вот тут я и Смутьянов. Все шутили, Ленина с Лениным. Тилитесто. Ну и пусть шутят. Зато моя мечта сбылась. Я с вождем. Хоть он и понарошку Ленин. Мы тут очень смущаемся."
 
 
+    scene spectacle_07 with dissolve
+
+    show sp_meg_003:
+        yalign 0.05 subpixel True
+        xalign 1.0 subpixel True
+        zoom 1.2
+
+
+    show sp_sam_012:
+        yalign 0.05 subpixel True
+        xalign 0.0 subpixel True
+        zoom 1.2
+
+
+    "Свою долю аплодисментов получили конечно же наши гости. Саманта, сыгравшая роль Клары Цеткин, и Мегги, сыгравшая и ее телохранителя, красного литовского комиссара Витаса Чюрлёниса."
+
+
     scene spectacle_08 with dissolve
 
     "А это мы с Ленкой сфотались после спектакля. На память."
@@ -1140,7 +1195,604 @@ label day25:
     "И она расстроенная ушла. Мне даже кажется, что с Жаном она поехала, чтобы позлить Семёна."
 
 
-    scene cg al_jean2 with dissolve
+    #scene cg al_jean2 with dissolve
+
+
+
+
+    image an_25_02: # Анимация Алиса Жан мотоцикл
+        
+        "images/an/an25day/bike_kiss/an_d25_016.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_017.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_018.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_019.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_020.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_021.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_022.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_023.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_024.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_025.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_026.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_027.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_028.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_029.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_030.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_031.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_032.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_033.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_034.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_035.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_036.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_037.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_038.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_039.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_040.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_041.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_042.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_043.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_044.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_045.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_046.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_047.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_048.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_049.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_050.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_051.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_052.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_053.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_054.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_055.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_056.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_057.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_058.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_059.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_060.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_061.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_062.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_063.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_064.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_065.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_066.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_067.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_068.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_069.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_070.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_071.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_072.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_073.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_074.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_075.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_076.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_077.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_078.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_079.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_080.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_081.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_082.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_083.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_084.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_085.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_086.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_087.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_088.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_089.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_090.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_091.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_092.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_093.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_094.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_095.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_096.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_097.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_098.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_099.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_100.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_101.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_102.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_103.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_104.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_105.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_106.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_107.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_108.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_109.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_110.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_111.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_112.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_113.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_114.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_115.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_116.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_117.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_118.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_119.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_120.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_121.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_122.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_123.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_124.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_125.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_126.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_127.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_128.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_129.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_130.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_131.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_132.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_133.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_134.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_135.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_136.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_137.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_138.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_139.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_140.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_141.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_142.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_143.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_144.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_145.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_146.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_147.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_148.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_149.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_150.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_151.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_152.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_153.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_154.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_155.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_156.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_157.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_158.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_159.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_160.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_161.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_162.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_163.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_164.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_165.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_166.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_167.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_168.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_169.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_170.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_171.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_172.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_173.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_174.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_175.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_176.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_177.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_178.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_179.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_180.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_181.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_182.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_183.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_184.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_185.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_186.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_187.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_188.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_189.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_190.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_191.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_192.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_193.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_194.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_195.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_196.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_197.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_198.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_199.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_200.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_200.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_201.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_202.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_203.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_204.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_205.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_206.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_207.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_208.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_209.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_210.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_211.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_212.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_213.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_214.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_215.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_216.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_217.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_218.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_219.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_220.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_221.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_222.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_223.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_224.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_225.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_226.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_227.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_228.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_229.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_230.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_231.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_232.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_233.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_234.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_235.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_236.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_237.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_238.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_239.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_240.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_241.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_242.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_243.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_244.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_245.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_246.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_247.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_248.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_249.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_250.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_251.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_252.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_253.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_254.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_255.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_256.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_257.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_258.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_259.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_260.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_261.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_262.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_263.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_264.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_265.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_266.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_267.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_268.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_269.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_270.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_271.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_272.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_273.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_274.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_275.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_276.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_277.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_278.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_279.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_280.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_281.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_282.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_283.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_284.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_285.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_286.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_287.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_288.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_289.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_290.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_291.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_292.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_293.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_294.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_295.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_296.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_297.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_298.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_299.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_300.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_301.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_302.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_303.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_304.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+        "images/an/an25day/bike_kiss/an_d25_305.webp" with Dissolve(0.5, alpha=True)
+        pause 0.1
+
+        repeat
+
+
+
+    scene an_25_02 with dissolve
+
+    pause (10000000000000000000000.0)
+
 
     "И Жана с Алисой тогда я так и не дождалась."
 

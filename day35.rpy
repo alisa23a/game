@@ -652,7 +652,7 @@ label day35:
     pe "Угощайтесь."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -662,7 +662,7 @@ label day35:
     ul "Ой, котлетки!"
 
 
-    scene bg boat_stern with dissolve
+    scene bg boat_stern_no_padd with dissolve
 
     show sp_al_057:
         yalign 0.1 subpixel True
@@ -672,7 +672,7 @@ label day35:
     al "Класс... А я жрать хочу, прямо сил нет."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_pe_005:
         yalign 0.0 subpixel True
@@ -689,7 +689,7 @@ label day35:
     "Вдруг от неожиданного толчка всех бросило вперёд."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
 
     stop music fadeout 0.5
@@ -710,7 +710,7 @@ label day35:
     "В тумане было видно что-то большое и чёрное, в которое с размаху врезалась лодка."
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
     show sp_ul_021:
         yalign 0.0 subpixel True
@@ -722,7 +722,7 @@ label day35:
     hide sp_ul_021
 
 
-    scene bg boat_bow with dissolve
+    scene bg boat_bow_no_padd with dissolve
 
 
     show sp_pe_008:

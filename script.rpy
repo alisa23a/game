@@ -101,6 +101,9 @@ define creature = Character ('Существо', color="#800080")
 
 define sb = Character ('Саша Бременская', color="#ffcc00")
 
+define meg = Character ('Мэгги', color="#4270f4")
+
+
 screen GameSplashScreen():
 
     key "K_ESCAPE" action NullAction()

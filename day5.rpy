@@ -1544,6 +1544,11 @@ label day5:
     al "Пошли, только тихо!"
 
 
+    scene cg al_ul_in_bushes2 with dissolve
+
+    pause (1000000000000000000.0)
+
+
     scene bg ruins2 with dissolve
 
     "Мы стали красться вдоль стены к оконному проёму."
